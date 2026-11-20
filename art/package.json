@@ -6,6 +6,7 @@
   "description": "Generadores de arte SVG de Tarotazo",
   "scripts": {
     "build": "node generate-all.mjs",
+    "cards": "node generate-cards.mjs",
     "preview": "node tools/render-preview.mjs"
   },
   "dependencies": {

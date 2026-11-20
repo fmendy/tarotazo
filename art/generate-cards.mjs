@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { writeSvg } from './lib/svg.mjs';
+import { writeSvg, text, FONT } from './lib/svg.mjs';
 import { THEMES } from './lib/theme.mjs';
 import { person } from './lib/figures.mjs';
 import { tarotCard, spanishCard, ROMAN } from './lib/card.mjs';
@@ -41,6 +41,8 @@ const FURS = ['o', 'hk', 'w', 'hg', 'e', 'hb'];
 let furI = 0;
 function catFur(id, o) { return FURS[(id.length * 7 + (furI++)) % FURS.length]; }
 
+const pixelPalette = (T) => [...new Set([...Object.values(T.fills), T.line, T.paper, T.frame, T.paperEdge, T.accent])];
+
 function tarotName(model, id) {
   return tarotNames.models?.[model]?.cardNames?.[id] ?? tarotNames.cards?.[id] ?? (id.startsWith('mayor') ? id : `${NUM_ES[id.split('-')[1]]} de ${SUIT_ES[id.split('-')[0]]}`);
 }
@@ -66,13 +68,19 @@ export function buildTarot(model, only) {
       else scene = minorScene(c, suit, rank);
     }
     const name = model === 'marsella' && /-\d\d$/.test(id) && !id.startsWith('mayor') ? null : tarotName(model, id);
-    let svg = tarotCard({ T, title: `${tarotName(model, id)} · ${tarotNames.models?.[model]?.name ?? model}`, numeral, name, scene });
-    if (model === 'pixel') svg = pixelate(svg, { title: tarotName(model, id), cols: 70 });
+    const title = `${tarotName(model, id)} · ${tarotNames.models?.[model]?.name ?? model}`;
+    let svg;
+    if (model === 'pixel') {
+      const raw = tarotCard({ T, title, numeral: null, name: null, scene });
+      const lab = (str, y, size) => text(str, { f: FONT.poster(), size, x: 350, y, maxWidth: 580, attr: { fill: T.label } }).svg;
+      const overlay = (numeral ? lab(numeral, 104, 60) : '') + (name ? lab(name, 1122, 58) : '');
+      svg = pixelate(raw, { title, cols: 90, palette: pixelPalette(T), overlay });
+    } else svg = tarotCard({ T, title, numeral, name, scene });
     bytes += writeSvg(path.join(OUT, 'cards', model, `${id}.svg`), svg);
     n++;
   }
   fs.mkdirSync(path.join(OUT, 'backs'), { recursive: true });
-  if (!only) bytes += writeSvg(path.join(OUT, 'backs', `${model}.svg`), model === 'pixel' ? pixelate(backSvg(model), { title: 'Reverso pixel', cols: 70 }) : backSvg(model));
+  if (!only) bytes += writeSvg(path.join(OUT, 'backs', `${model}.svg`), model === 'pixel' ? pixelate(backSvg(model), { title: 'Reverso · pixel', cols: 70, palette: ['#2a1e3e', '#3a2a5a', '#f7d26a', '#e0433a', '#1b1028'] }) : backSvg(model));
   return { n, bytes };
 }
 

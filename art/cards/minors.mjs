@@ -479,6 +479,6 @@ export function MARSEILLE_PIPS(c, suit, n) {
     return out.join('');
   }
   const pos = pipPositions(n);
-  for (const [x, y] of pos) out.push(suit === 'oros' ? S.pentacle(x, y, n === 1 ? 160 : 62, { cls: 'y' }) : S.cup(x, y + 60 * (n === 1 ? 2.2 : 0.95), n === 1 ? 2.2 : 0.9, { cls: 'y' }));
+  for (const [x, y] of pos) out.push(suit === 'oros' ? S.pentacle(x, y, n === 1 ? 160 : 62, { cls: 'y' }) : S.cup(x, y + 60 * (n === 1 ? 2.6 : n <= 3 ? 1.6 : 1.2), n === 1 ? 2.6 : n <= 3 ? 1.6 : 1.2, { cls: 'y' }));
   return out.join('');
 }

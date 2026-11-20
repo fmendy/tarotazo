@@ -153,4 +153,4 @@ ${colorVars}
 fs.writeFileSync(OUT_CSS, css);
 console.log(`tokens.css: ${faces.length} @font-face, ${Object.keys(C).length} colores`);
 for (const r of report) console.log(`  contraste ${r.fg} / ${r.bg}: ${r.ratio}`);
-fs.writeFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)), 'contrast-report.json'), JSON.stringify(report, null, 2));
+
