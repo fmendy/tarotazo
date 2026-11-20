@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api, cached } from '../lib/api';
 import type { OnboardingContent } from '../lib/onboarding';
-import type { Deck, ProvinceInfo, Spread, TitlesFile, DeckFamily } from '../lib/types';
+import type { Deck, ProvinceInfo, Spread, TitlesFile, DeckFamily, PendulumContent } from '../lib/types';
 import { PROVINCES } from '../lib/provinces';
 import { useAsync } from '../hooks';
 
@@ -12,6 +12,7 @@ export const getProvinces = () => cached<ProvinceInfo[]>('provinces', api.provin
 export const getDecks = () => cached<Deck[]>('decks', api.decks);
 export const getSpreads = (d: DeckFamily) => cached<Spread[]>('spreads:' + d, () => api.spreads(d));
 export const getTitles = () => cached<TitlesFile>('titles', api.titles);
+export const getPendulumContent = (prov: string | null) => cached<PendulumContent>('pendulum:' + (prov ?? ''), () => api.pendulumContent(prov));
 
 /** Onboarding: si falla, null (las pantallas usan textos de i18n). */
 export function useOnboarding(): OnboardingContent | null {

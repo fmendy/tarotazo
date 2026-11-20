@@ -112,4 +112,10 @@ export interface TitlesFile { titles: Title[] }
 /** Estructura de onboarding.json (content/schemas/onboarding.schema.json). */
 export type OnboardingFile = import('./onboarding').OnboardingContent;
 
+/** GET /api/v1/content/pendulum?provincia= (cada línea = lista de variantes). */
+export interface PendulumContent {
+  models: Record<string, { nombre: string; personalidad: string; lines?: Record<string, string[]> }>;
+  lines: Record<string, string[]>;
+}
+
 export interface ApiError { error: string; message: string }

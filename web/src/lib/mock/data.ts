@@ -171,6 +171,29 @@ export const INTERACTIONS = [
     no: 'Entonces el viaje será interior. Más barato.',
     skip: 'Vale, vale, que no se entere nadie.' } },
 ];
+export const PENDULUM_CONTENT = (provincia: string) => ({
+  models: {
+    cuarzo: { nombre: 'Cuarzo cristalino', personalidad: 'Transparente, sincero y algo presumido.', lines: { enfado: ['El cuarzo se ha puesto opaco. Eso es enfado de cristal.'] } },
+    amatista: { nombre: 'Amatista', personalidad: 'Calmada, muy de meditar con incienso.' },
+    laton: { nombre: 'Latón cónico', personalidad: 'Serio, puntiagudo y puntual.' },
+    obsidiana: { nombre: 'Obsidiana', personalidad: 'Oscura, misteriosa, contesta con pausas dramáticas.' },
+    madera: { nombre: 'Madera de olivo', personalidad: 'De pueblo, sabio y con olor a aceite.' },
+    camara: { nombre: 'Cámara egipcia', personalidad: 'Hueco por dentro, pero con mucha historia.' },
+    llave: { nombre: 'La llave del trastero', personalidad: 'Abre puertas. Bueno, una: la del trastero.' },
+    anillo: { nombre: 'El anillo de la abuela', personalidad: 'Cariñoso y cotilla, como la abuela.' },
+    chorizo: { nombre: `Chorizo de ${provincia}`, personalidad: 'Picante o dulce según el día.' },
+  },
+  lines: {
+    intro: ['Coge la cadena con dos dedos, sin apretar, como quien sujeta un secreto.'],
+    'calibrar.intro': ['Primero vamos a calibrar. Péndulo, enséñanos tu sí.'],
+    'calibrar.si': ['Ese es su sí. Apúntalo mentalmente.'],
+    'calibrar.no': ['Y ese, su no. Ya os conocéis.'],
+    concentrar: ['Apago las luces. Piensa en tu pregunta… pero no tan fuerte, que se te arruga la frente.'],
+    repetida: ['Esa pregunta me suena… El péndulo también se acuerda.'],
+    enfado: ['¡Tres veces lo mismo! El péndulo se ha enrollado en la cadena y no te habla.'],
+    medianoche: ['Medianoche en punto: el péndulo brilla. Está en su hora.'],
+  },
+});
 export const OUIJA_WORDS = ['SI', 'NO', 'AMOR', 'PIZZA', 'SIESTA', 'GATO', 'VIAJE', 'LUNA', 'CHURROS'];
 export const CHAKRAS = [
   ['raiz', 'Raíz'], ['sacro', 'Sacro'], ['plexo', 'Plexo solar'], ['corazon', 'Corazón'],

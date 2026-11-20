@@ -7,7 +7,7 @@ import { randomInt, pick } from '../random';
 import { resolveText } from '../resolve';
 import {
   CHAKRAS, COLORS, DECKS, ENTRADAS, GUINOS, INTERACTIONS, NUCLEOS, ONBOARDING, OUIJA_WORDS, PERSONAL, PUENTES,
-  SPREADS, TITLES, spanishCards, tarotCards,
+  SPREADS, TITLES, PENDULUM_CONTENT, spanishCards, tarotCards,
 } from './data';
 
 const TONES = ['mistica', 'abuela', 'teletienda', 'ironica', 'dramatica', 'coach'];
@@ -151,6 +151,10 @@ export async function mockFetch(input: string, init?: RequestInit): Promise<Resp
         return json(PROVINCES.map((pr) => ({ ...pr, gentilicio: `de ${pr.nombre}`, teaser: `En ${pr.nombre} hasta las palomas tienen buen fondo.` })));
       case '/content/onboarding': return json(ONBOARDING);
       case '/titles': return json({ titles: TITLES });
+      case '/content/pendulum': {
+        const code = url.searchParams.get('provincia');
+        return json(PENDULUM_CONTENT(PROVINCES.find((x) => x.code === code)?.nombre ?? 'Cantimpalos'));
+      }
     }
   } else if (method === 'POST') {
     switch (path) {

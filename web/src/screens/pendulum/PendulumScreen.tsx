@@ -6,6 +6,9 @@ import { Pendulum } from '../../pendulum';
 import { Ambience } from '../../fx';
 import { useSession } from '../../state/session';
 import { useFill } from '../../state/vars';
+import { getPendulumContent } from '../../state/content';
+import { useAsync } from '../../hooks';
+import { randomInt } from '../../lib/random';
 import { api } from '../../lib/api';
 import { provinceName } from '../../lib/provinces';
 import { normalizeName } from '../../lib/onboarding';
@@ -44,7 +47,7 @@ function useGyro() {
 }
 
 export function PendulumScreen() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const s = useSession();
   const muted = useSound((x) => x.muted);
   const fill = useFill();
@@ -71,11 +74,20 @@ export function PendulumScreen() {
   const asked = useRef<Map<string, number>>(new Map());
   const step = useRef(0);
   const midnight = new Date().getHours() === 0;
+  const content = useAsync(() => getPendulumContent(s.province), [s.province, i18n.language]).data;
+  /** Línea del contenido del péndulo (la del modelo, si la tiene), sorteada y resuelta. */
+  const line = (key: string): string | null => {
+    const own = content?.models[s.pendulumModel]?.lines?.[key];
+    const arr = own?.length ? own : content?.lines[key];
+    const txt = arr?.length ? arr[randomInt(arr.length)] : undefined;
+    return txt ? fill(txt) : null;
+  };
+  const [ritual, setRitual] = useState<string | null>(null);
 
   useEffect(() => () => stopAmbient(), []);
   useEffect(() => { if (concentrate) startAmbient(); else stopAmbient(); }, [concentrate, muted]);
 
-  const modelName = (m: PendulumModel) => t(`pendulum.models.${m}`, { provincia: provinceName(s.province) ?? t('pendulum.chorizoDefault') });
+  const modelName = (m: PendulumModel) => content?.models[m]?.nombre ?? t(`pendulum.models.${m}`, { provincia: provinceName(s.province) ?? t('pendulum.chorizoDefault') });
   const cleanOptions = options.map((o) => o.trim()).filter(Boolean);
 
   function resetAnswer() {
@@ -90,7 +102,8 @@ export function PendulumScreen() {
     if (key) {
       const n = (asked.current.get(key) ?? 0) + 1;
       asked.current.set(key, n);
-      if (n >= 3) { setAngry(true); setShownText(t('pendulum.angry')); setTarget({ kind: 'circle' }); return; }
+      if (n >= 3) { setAngry(true); setShownText(line('enfado') ?? t('pendulum.angry')); setTarget({ kind: 'circle' }); return; }
+      setRitual(n === 2 ? line('repetida') : null);
     }
     setAngry(false);
     if (mode === 'opciones' && cleanOptions.length < 2) { setErr(null); setShownText(t('pendulum.needOptions')); return; }
@@ -170,6 +183,7 @@ export function PendulumScreen() {
                 <Img className="showcase__img" src={`/art/pendulums/${m}.svg`} alt={t('pendulum.pendulumAlt', { name: modelName(m) })}
                   fallback={<span className={`showcase__gem gem--${m}`} aria-hidden />} />
                 <span>{modelName(m)}</span>
+                {content?.models[m]?.personalidad && <span className="showcase__desc">{content.models[m]!.personalidad}</span>}
               </button>
             </motion.li>
           ))}
@@ -188,7 +202,7 @@ export function PendulumScreen() {
   return (
     <Screen title={t('pendulum.title')} className={'pendulum' + (concentrate ? ' is-concentrating' : '')}>
       {concentrate && <div className="concentrate-veil" aria-hidden><Ambience variant="humo" intensity={0.8} /></div>}
-      {midnight && <p className="hint pendulum__midnight">{t('pendulum.midnight')}</p>}
+      {midnight && <p className="hint pendulum__midnight">{line('medianoche') ?? t('pendulum.midnight')}</p>}
       <div className="pendulum__layout">
         <div className="pendulum__stage">
           <Pendulum
@@ -209,9 +223,10 @@ export function PendulumScreen() {
             <div className="card-panel">
               <h2 className="subtitle">{t('pendulum.calibrate')}</h2>
               <p className="hint">{t('pendulum.calibrateHint')}</p>
+              {!calMsg && <Seer pose="bola" compact say={[line('intro'), line('calibrar.intro')].filter(Boolean).join(' ') || null} />}
               <div className="row">
-                <button className="btn" onClick={() => { setTarget({ kind: 'axis', axis: s.yesAxis }); setCalMsg(t('pendulum.yesIs', { axis: t(`pendulum.axis.${s.yesAxis}`) })); sfx('swing'); }}>{t('pendulum.showYes')}</button>
-                <button className="btn" onClick={() => { const no = s.yesAxis === 'vertical' ? 'horizontal' : 'vertical'; setTarget({ kind: 'axis', axis: no }); setCalMsg(t('pendulum.noIs', { axis: t(`pendulum.axis.${no}`) })); sfx('swing'); }}>{t('pendulum.showNo')}</button>
+                <button className="btn" onClick={() => { setTarget({ kind: 'axis', axis: s.yesAxis }); setCalMsg((line('calibrar.si') ?? '') + ' ' + t('pendulum.yesIs', { axis: t(`pendulum.axis.${s.yesAxis}`) })); sfx('swing'); }}>{t('pendulum.showYes')}</button>
+                <button className="btn" onClick={() => { const no = s.yesAxis === 'vertical' ? 'horizontal' : 'vertical'; setTarget({ kind: 'axis', axis: no }); setCalMsg((line('calibrar.no') ?? '') + ' ' + t('pendulum.noIs', { axis: t(`pendulum.axis.${no}`) })); sfx('swing'); }}>{t('pendulum.showNo')}</button>
               </div>
               {calMsg && <Seer pose="piensa" compact say={calMsg} />}
               <div className="row">
@@ -251,7 +266,7 @@ export function PendulumScreen() {
                 </fieldset>
               )}
               <div className="row">
-                <button className="btn" aria-pressed={concentrate} onClick={() => { setConcentrate(!concentrate); sfx('candle'); }}>
+                <button className="btn" aria-pressed={concentrate} onClick={() => { setRitual(!concentrate ? line('concentrar') : null); setConcentrate(!concentrate); sfx('candle'); }}>
                   {concentrate ? t('pendulum.stopConcentrate') : t('pendulum.concentrate')}
                 </button>
                 <button className="btn btn--primary" disabled={busy} onClick={() => void ask()}>{result || angry ? t('pendulum.again') : t('pendulum.ask')}</button>
@@ -263,6 +278,7 @@ export function PendulumScreen() {
               )}
               {busy && <p className="hint" role="status">{t('pendulum.settling')}</p>}
               {!!err && <ErrorBox error={err} onRetry={() => void ask()} />}
+              {ritual && !shownText && <Seer pose="piensa" compact say={ritual} />}
               {shownText && <Seer pose={angry ? 'sorpresa' : 'bola'} say={shownText} />}
               <button className="linkbtn" onClick={() => setPhase('showcase')}>{t('pendulum.showcase')}</button>
             </div>

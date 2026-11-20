@@ -3,7 +3,7 @@
 // Los cuerpos se construyen con listas blancas de campos, así que aunque alguien pase
 // un objeto con más datos, sólo viaja lo permitido.
 import type {
-  Deck, DeckFamily, NextLineRequest, NextLineResponse, OnboardingFile, PendulumRequest,
+  Deck, DeckFamily, PendulumContent, NextLineRequest, NextLineResponse, OnboardingFile, PendulumRequest,
   PendulumResponse, ProvinceInfo, ReadingContext, ReadingRequest, ReadingResponse, Spread, TitlesFile,
 } from './types';
 
@@ -80,6 +80,9 @@ export const api = {
   provinces: () => request<ProvinceInfo[]>('GET', '/provinces'),
   onboarding: () => request<OnboardingFile>('GET', '/content/onboarding'),
   titles: () => request<TitlesFile>('GET', '/titles'),
+  /** Sólo el código de provincia (para «chorizo de {provincia}»), nunca más datos. */
+  pendulumContent: (provincia?: string | null) =>
+    request<PendulumContent>('GET', '/content/pendulum' + (provincia ? `?provincia=${encodeURIComponent(provincia)}` : '')),
   reading: (r: ReadingRequest) => request<ReadingResponse>('POST', '/readings', readingBody(r)),
   nextLine: (r: NextLineRequest) => request<NextLineResponse>('POST', '/readings/next-line', nextLineBody(r)),
   pendulum: (r: PendulumRequest) => request<PendulumResponse>('POST', '/pendulum/answer', pendulumBody(r)),
