@@ -1,0 +1,741 @@
+{
+  "interactions": [
+    {
+      "id": "letra-m",
+      "tones": [],
+      "when": {
+        "tema": [
+          "amor",
+          "general"
+        ]
+      },
+      "prompt": "¿Hay alguien con la letra M en tu vida?",
+      "branches": {
+        "si": "¡Lo sabía! Esa M aparece rondando esta carta. No te digo más, pero tenla [presente|en el radar|a mano].",
+        "no": "Pues atención, que a lo mejor está por llegar. Las cartas a veces se adelantan al abecedario.",
+        "skip": "Respetado. La M se queda en el sobre, bien cerradita."
+      }
+    },
+    {
+      "id": "letra-inicial-propia",
+      "tones": [],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "prompt": "¿Alguna persona importante para ti empieza por la misma letra que tu nombre, {inicial}?",
+      "branches": {
+        "si": "Coincidencia de iniciales: las cartas lo llaman «sintonía de abecedario». Buena señal.",
+        "no": "Mejor: así no hay líos con los regalos con iniciales bordadas.",
+        "skip": "Me guardo el abecedario en el bolsillo y seguimos."
+      }
+    },
+    {
+      "id": "viaje-pendiente",
+      "tones": [],
+      "when": {
+        "suit": [
+          "bastos"
+        ]
+      },
+      "prompt": "¿Tienes algún viaje pendiente o en la cabeza?",
+      "branches": {
+        "si": "Esta carta huele a maleta. Que no se te olvide el cargador.",
+        "no": "Pues las cartas insinúan que alguna escapada se avecina, aunque sea a la sierra de al lado.",
+        "skip": "Destino secreto. Me parece estupendo; yo tampoco digo dónde veraneo."
+      }
+    },
+    {
+      "id": "mensaje-sin-contestar",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "bastos-08",
+          "bastos-sota",
+          "copas-04",
+          "espadas-sota"
+        ]
+      },
+      "prompt": "¿Tienes algún mensaje sin contestar desde hace días?",
+      "branches": {
+        "si": "Ya me parecía. La carta dice que lo contestes, aunque sea con un emoticono.",
+        "no": "Qué orden. Entonces el mensaje importante está por llegar.",
+        "skip": "Ni pregunto más. Tu bandeja de entrada es sagrada."
+      }
+    },
+    {
+      "id": "discusion-reciente",
+      "tones": [],
+      "when": {
+        "suit": [
+          "espadas"
+        ]
+      },
+      "prompt": "¿Has tenido alguna discusión hace poco?",
+      "branches": {
+        "si": "Esta carta lo confirma: se puede arreglar con una charla tranquila y algo de merienda.",
+        "no": "Pues las espadas avisan de roces menores. Respira hondo antes de responder al próximo comentario.",
+        "skip": "Lo dejo estar. Ya bastante ruido hay como para que lo añada yo."
+      }
+    },
+    {
+      "id": "cansancio",
+      "tones": [],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "prompt": "¿Últimamente vas con la batería baja?",
+      "branches": {
+        "si": "Lo veo. La carta pide descanso, y para lo demás, mejor tu médico.",
+        "no": "Me alegro. Esa energía hay que cuidarla, que no se recarga sola.",
+        "skip": "Entendido. Lo que pase en tu batería se queda en tu batería."
+      }
+    },
+    {
+      "id": "sueno-raro",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-18",
+          "mayor-02",
+          "copas-07",
+          "espadas-09"
+        ]
+      },
+      "prompt": "¿Has soñado algo raro esta semana?",
+      "branches": {
+        "si": "La Luna lo confirma: el subconsciente está de estreno. Apúntalo, que luego se olvida.",
+        "no": "Pues esta noche, atención. Las cartas suelen avisar antes.",
+        "skip": "Los sueños son tuyos. No pienso asomarme a tu almohada."
+      }
+    },
+    {
+      "id": "cambio-trabajo",
+      "tones": [],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "prompt": "¿Has pensado en cambiar algo en tu trabajo?",
+      "branches": {
+        "si": "La carta te da la razón: hay movimiento en el horizonte laboral. Prepara el currículum mental.",
+        "no": "Pues a lo mejor el cambio viene a buscarte a ti. Las cartas no piden permiso.",
+        "skip": "Secreto profesional. Como el mío, que tampoco cuento cuánto acierto."
+      }
+    },
+    {
+      "id": "ex-reaparece",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "copas-06",
+          "copas-05",
+          "mayor-20"
+        ]
+      },
+      "prompt": "¿Ha vuelto a aparecer alguien del pasado?",
+      "branches": {
+        "si": "Ya decía yo que esta carta olía a pasado. Recibe con educación y decide sin prisa.",
+        "no": "Pues quizá no tarde. Las cartas nostálgicas avisan con tiempo.",
+        "skip": "Lo pasado, pasado, y lo privado, privado. Sigo."
+      }
+    },
+    {
+      "id": "planta-casa",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-03",
+          "oros-07",
+          "oros-09",
+          "copas-10"
+        ]
+      },
+      "prompt": "¿Tienes plantas en casa?",
+      "branches": {
+        "si": "Riégalas hoy, que esta carta dice que lo que se cuida, florece. Y eso va por ti también.",
+        "no": "Pues te veo con mano para el jardín. A lo mejor es momento de adoptar un potus.",
+        "skip": "Tu casa, tus normas. Ni plantas ni preguntas."
+      }
+    },
+    {
+      "id": "decision-pendiente",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-06",
+          "espadas-02",
+          "bastos-02",
+          "copas-07"
+        ]
+      },
+      "prompt": "¿Tienes una decisión importante pendiente?",
+      "branches": {
+        "si": "Esta carta te da una pista: [escucha a tu cabeza, pero deja hablar al corazón|elige lo que te deje dormir en paz|no decidas con hambre].",
+        "no": "Pues disfruta de la calma, que las decisiones vienen solas.",
+        "skip": "No insisto. Pero las cartas, que son muy cotillas, dicen que ya sabes la respuesta."
+      }
+    },
+    {
+      "id": "gato-negro",
+      "tones": [
+        "mistica",
+        "abuela",
+        "ironica"
+      ],
+      "when": {},
+      "prompt": "¿Te has cruzado con un gato negro hace poco?",
+      "branches": {
+        "si": "¡Buena suerte! En mi escuela los gatos negros dan alegrías. Tengo diploma de asistencia y todo.",
+        "no": "Pues ya vendrá. Los gatos tienen su propia agenda.",
+        "skip": "Me parece bien. Los gatos tampoco cuentan nada."
+      }
+    },
+    {
+      "id": "cafe-manana",
+      "tones": [],
+      "when": {
+        "horaMin": 6,
+        "horaMax": 13
+      },
+      "prompt": "¿Has tomado café esta mañana?",
+      "branches": {
+        "si": "Lo sabía: la carta sale con energía de cafeína. Aprovéchala.",
+        "no": "Entonces esta carta va al ralentí. Dale un rato para despertarse.",
+        "skip": "El café de cada cual es un misterio que respeto."
+      }
+    },
+    {
+      "id": "despierto-tarde",
+      "tones": [],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "prompt": "¿Deberías estar durmiendo ahora mismo?",
+      "branches": {
+        "si": "Lo sabía. Las cartas dicen que lo que sea mañana se verá mejor con siete horas de sueño.",
+        "no": "Bien, gente noctámbula con licencia. Seguimos, que la noche es joven y las cartas también.",
+        "skip": "Silencio nocturno respetado. Bajito, bajito, seguimos."
+      }
+    },
+    {
+      "id": "dinero-inesperado",
+      "tones": [],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "prompt": "¿Esperas algún dinero o pago pendiente?",
+      "branches": {
+        "si": "La carta indica movimiento, pero ojo: lo que no está en la cuenta no se gasta. Palabra de vidente prudente.",
+        "no": "Pues las cartas dicen que lo bueno a veces llega sin avisar. Con calma y sin hacer castillos en el aire.",
+        "skip": "Las cuentas de cada cual, a buen recaudo. Ni miro."
+      }
+    },
+    {
+      "id": "ahorro-hucha",
+      "tones": [],
+      "when": {
+        "suit": [
+          "oros"
+        ]
+      },
+      "prompt": "¿Tienes una hucha o un tarro de ahorro?",
+      "branches": {
+        "si": "Estupendo. Esta carta sonríe a las huchas. Dale de comer de vez en cuando.",
+        "no": "Pues un tarro de mermelada vacío sirve igual. Las cartas no piden lujos.",
+        "skip": "Tu hucha, tu secreto. Y bien hecho."
+      }
+    },
+    {
+      "id": "receta-abuela",
+      "tones": [
+        "abuela"
+      ],
+      "when": {},
+      "prompt": "¿Sabes hacer alguna receta de tu familia?",
+      "branches": {
+        "si": "Eso es un tesoro, y esta carta lo sabe. Hazla pronto y comparte.",
+        "no": "Pues ya es hora de pedirla. Las cartas dicen que hay sabor esperándote.",
+        "skip": "Recetas secretas, las mejores. Me callo."
+      }
+    },
+    {
+      "id": "llamada-madre",
+      "tones": [
+        "abuela",
+        "dramatica"
+      ],
+      "when": {
+        "suit": [
+          "copas"
+        ]
+      },
+      "prompt": "¿Has llamado hoy a alguien de tu familia?",
+      "branches": {
+        "si": "Muy bien. Esta carta lo agradece y yo también.",
+        "no": "Pues las cartas sugieren una llamadita, aunque sea para preguntar qué hay de comer.",
+        "skip": "Respeto. Cada familia es un mundo y cada mundo, una baraja."
+      }
+    },
+    {
+      "id": "canta-ducha",
+      "tones": [
+        "ironica",
+        "teletienda",
+        "coach"
+      ],
+      "when": {},
+      "prompt": "¿Cantas en la ducha?",
+      "branches": {
+        "si": "Se nota. Esta carta tiene buen ritmo, como tú.",
+        "no": "Pues empieza. Las cartas dicen que te sentaría de maravilla.",
+        "skip": "Lo que pase bajo el agua, se queda bajo el agua."
+      }
+    },
+    {
+      "id": "ejercicio",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "salud",
+          "general"
+        ]
+      },
+      "prompt": "¿Te mueves un poco cada día?",
+      "branches": {
+        "si": "Así me gusta. La carta lo celebra con energía.",
+        "no": "Las cartas proponen un paseo corto. No hace falta correr una maratón; con ir a por el pan, vale.",
+        "skip": "Ni una pregunta más. Que cada cual se mueva a su ritmo."
+      }
+    },
+    {
+      "id": "primera-cita",
+      "tones": [],
+      "when": {
+        "tema": [
+          "amor"
+        ],
+        "invertida": false
+      },
+      "prompt": "¿Te ha hecho tilín alguien últimamente?",
+      "branches": {
+        "si": "¡Ay! Esta carta lo confirma con lucecitas. Ve con calma y con ilusión.",
+        "no": "Pues abre bien los ojos, que las cartas ven movimiento por la zona.",
+        "skip": "Tilín privado. Me parece de lo más elegante."
+      }
+    },
+    {
+      "id": "pareja-actual",
+      "tones": [],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "prompt": "¿Compartes la vida con alguien ahora mismo?",
+      "branches": {
+        "si": "Entonces esta carta va también para esa persona. Contádsela en la cena.",
+        "no": "Pues esta carta te habla a ti y a tu libertad, que también es una forma de amor.",
+        "skip": "Perfecto. Las cartas leen igual sin saber el estado civil."
+      }
+    },
+    {
+      "id": "orden-casa",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-13",
+          "mayor-04",
+          "oros-02",
+          "espadas-01"
+        ]
+      },
+      "prompt": "¿Tienes un cajón desastre en casa?",
+      "branches": {
+        "si": "Esta carta te pide que lo ordenes. Encontrarás algo que creías perdido.",
+        "no": "Qué orden. La carta te aplaude.",
+        "skip": "Cajones cerrados, respeto absoluto."
+      }
+    },
+    {
+      "id": "muerte-armario",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "prompt": "¿Tienes ropa que no te pones desde hace años?",
+      "branches": {
+        "si": "Pues ya ves por qué ha salido la Muerte: toca limpieza de armario. Adiós a lo viejo, hola a lo nuevo.",
+        "no": "Qué orden. Entonces el cambio que anuncia esta carta va por otro lado, y será igual de renovador.",
+        "skip": "Respeto tu armario. La transformación puede ser solo por dentro."
+      }
+    },
+    {
+      "id": "torre-mudanza",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "prompt": "¿Has pensado en hacer obras, reformas o una mudanza?",
+      "branches": {
+        "si": "¡Eso es la Torre! Nada de catástrofes: polvo, ruido y luego una casa nueva y bonita.",
+        "no": "Pues quizá la reforma sea interior. Igual de polvorienta, igual de liberadora.",
+        "skip": "Lo dejo estar. La Torre ya hace bastante ruido por sí sola."
+      }
+    },
+    {
+      "id": "diez-espadas-drama",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "espadas-10"
+        ]
+      },
+      "prompt": "¿Eres de las personas que dramatizan un poquito?",
+      "branches": {
+        "si": "Entonces te entiendes con esta carta: diez espadas es puro teatro. Pero tranquilidad, que el telón baja y amanece.",
+        "no": "Mejor, porque esta carta exagera por las dos. Lo que anuncia es un cierre y un nuevo comienzo.",
+        "skip": "Sin comentarios. El drama, si lo hay, que lo ponga la carta."
+      }
+    },
+    {
+      "id": "sol-terraza",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-19"
+        ]
+      },
+      "prompt": "¿Te apetece una terraza al sol?",
+      "branches": {
+        "si": "El Sol te lo concede. Que nadie te robe la mejor mesa.",
+        "no": "Pues el Sol te va a perseguir igual, que es muy pesado con la alegría.",
+        "skip": "Tú sabrás. El Sol brilla igual, pregunte yo o no."
+      }
+    },
+    {
+      "id": "loco-locura",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-00"
+        ]
+      },
+      "prompt": "¿Has hecho alguna locura bonita este año?",
+      "branches": {
+        "si": "Se nota. El Loco te reconoce y te guiña el ojo.",
+        "no": "Pues el Loco dice que ya va tocando. Una pequeñita, sin riesgos.",
+        "skip": "Tus locuras, para ti. El Loco tampoco cuenta las suyas."
+      }
+    },
+    {
+      "id": "diablo-capricho",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-15"
+        ]
+      },
+      "prompt": "¿Te has dado algún capricho esta semana?",
+      "branches": {
+        "si": "El Diablo lo sabe y sonríe. Disfruta, pero que el capricho no te lleve de paseo.",
+        "no": "Pues esta carta te recuerda que tampoco hay que vivir a pan y agua.",
+        "skip": "El capricho es un asunto privado. Lo dejo con el Diablo."
+      }
+    },
+    {
+      "id": "ermitano-movil",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-09"
+        ]
+      },
+      "prompt": "¿Miras el móvil nada más despertarte?",
+      "branches": {
+        "si": "El Ermitaño se lleva las manos a la cabeza. Prueba mañana a mirar primero por la ventana.",
+        "no": "Maravilla. El Ermitaño te nombra miembro honorífico.",
+        "skip": "Lo dejo en modo avión. Sin preguntas."
+      }
+    },
+    {
+      "id": "rueda-racha",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-10"
+        ]
+      },
+      "prompt": "¿Sientes que llevas una racha rara?",
+      "branches": {
+        "si": "La Rueda lo confirma: está girando. Lo que baja, sube.",
+        "no": "Pues la Rueda te avisa de que algo va a moverse. Agárrate.",
+        "skip": "Respeto tu racha, sea la que sea."
+      }
+    },
+    {
+      "id": "as-oros-loteria",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "oros-01"
+        ],
+        "family": [
+          "spanish"
+        ]
+      },
+      "prompt": "¿Te ha salido algo bien sin buscarlo últimamente?",
+      "branches": {
+        "si": "¡El As de Oros lo celebra! La suerte ha encontrado tu dirección.",
+        "no": "Pues prepárate, que el As de Oros es de los que llaman a la puerta sin avisar.",
+        "skip": "La suerte es discreta, y tú también. Me encanta."
+      }
+    },
+    {
+      "id": "sota-bastos-noticia",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "bastos-sota",
+          "copas-04"
+        ],
+        "family": [
+          "spanish"
+        ]
+      },
+      "prompt": "¿Estás esperando alguna noticia?",
+      "branches": {
+        "si": "La Sota de Bastos dice que va en camino. Ten el teléfono con batería.",
+        "no": "Pues prepárate, que la Sota es muy de sorpresas.",
+        "skip": "Mejor así: las noticias que no se esperan llegan más contentas."
+      }
+    },
+    {
+      "id": "copas-celebrar",
+      "tones": [],
+      "when": {
+        "suit": [
+          "copas"
+        ],
+        "invertida": false
+      },
+      "prompt": "¿Tienes algo que celebrar pronto?",
+      "branches": {
+        "si": "Las copas brindan contigo. Que sea con buena compañía.",
+        "no": "Pues inventa algo. Las copas dicen que celebrar un martes también vale.",
+        "skip": "Las celebraciones discretas son las mejores. Salud."
+      }
+    },
+    {
+      "id": "invertida-mal-dia",
+      "tones": [],
+      "when": {
+        "invertida": true
+      },
+      "prompt": "¿Hoy te has levantado con el pie izquierdo?",
+      "branches": {
+        "si": "Ya decía yo que la carta salía del revés por algo. Mañana, pie derecho.",
+        "no": "Entonces la carta invertida no va de ti, va del día. Mejor.",
+        "skip": "Ni izquierdo ni derecho: tus pies son cosa tuya."
+      }
+    },
+    {
+      "id": "invertida-cabeza",
+      "tones": [],
+      "when": {
+        "invertida": true,
+        "suit": [
+          "espadas",
+          "copas"
+        ]
+      },
+      "prompt": "¿Le das muchas vueltas a las cosas?",
+      "branches": {
+        "si": "Por eso la carta sale del revés: hasta ella está mareada. Descansa la cabeza.",
+        "no": "Estupendo. Entonces lo que bloquea esta carta se suelta con poco.",
+        "skip": "Respeto. Que las vueltas las dé el péndulo."
+      }
+    },
+    {
+      "id": "mayor-destino",
+      "tones": [
+        "mistica",
+        "dramatica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "prompt": "¿Crees en el destino?",
+      "branches": {
+        "si": "Pues este Arcano Mayor viene a darte la razón con todas las letras.",
+        "no": "Bien, que el destino también se escribe a mano. Este Arcano te da el boli.",
+        "skip": "Creas o no, las cartas siguen saliendo. Seguimos."
+      }
+    },
+    {
+      "id": "tele-llamame",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {},
+      "prompt": "¿Me lo dirías si te veo algo, cariño?",
+      "branches": {
+        "si": "¡Así me gusta! Te veo algo, sí: una racha que viene con brillo. Y sin llamadas ni tarifas.",
+        "no": "Pues te lo digo yo igual: te veo con fuerza. Y gratis, que aquí no hay número.",
+        "skip": "Discreción total, cariño. Sin llamadas, sin números y sin cotilleos."
+      }
+    },
+    {
+      "id": "coach-meta",
+      "tones": [
+        "coach"
+      ],
+      "when": {},
+      "prompt": "¿Tienes un objetivo para este mes?",
+      "branches": {
+        "si": "¡Bravo! La carta lo apoya. Divide en pasitos y celebra cada uno.",
+        "no": "Pues hoy es un gran día para elegir uno pequeño. ¿Beber más agua? Vale.",
+        "skip": "Objetivo confidencial. Me encanta: los mejores logros se cuecen en silencio."
+      }
+    },
+    {
+      "id": "ironica-cree-cartas",
+      "tones": [
+        "ironica"
+      ],
+      "when": {},
+      "prompt": "¿Te crees algo de esto?",
+      "branches": {
+        "si": "Qué ilusión. Yo, con estos diplomas, también. Más o menos.",
+        "no": "Normal. Yo tampoco, pero mira qué bien me sale la voz misteriosa.",
+        "skip": "Sabia respuesta. Ni sí ni no: como el péndulo en un día de viento."
+      }
+    },
+    {
+      "id": "dramatica-nervios",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {},
+      "prompt": "¿Te noto en tensión o son imaginaciones mías?",
+      "branches": {
+        "si": "¡Lo sabía! ¡La carta tiembla contigo! ...Ah, no, es que he dado un golpe a la mesa. Respira.",
+        "no": "¡Qué temple! ¡Qué aplomo! ¡Qué...! Vale, me calmo. Sigo.",
+        "skip": "¡El silencio, el gran misterio! Me encanta. Continuamos con emoción contenida."
+      }
+    },
+    {
+      "id": "provincia-volver",
+      "tones": [],
+      "when": {
+        "primeraCarta": true
+      },
+      "prompt": "¿Vuelves a menudo a {provincia}?",
+      "branches": {
+        "si": "Se nota en la carta: tienes raíces que tiran con cariño.",
+        "no": "Pues las cartas dicen que {provincia} te echa de menos. Un día de estos, una visita.",
+        "skip": "Respetado. Las raíces de cada cual, bajo tierra y tranquilas."
+      }
+    },
+    {
+      "id": "plato-favorito",
+      "tones": [
+        "abuela",
+        "ironica"
+      ],
+      "when": {},
+      "prompt": "¿Echas de menos {plato}?",
+      "branches": {
+        "si": "Normal. La carta dice que un buen plato de casa arregla más que mil consejos.",
+        "no": "Pues cuando lo pruebes otra vez, verás cómo te cambia el día.",
+        "skip": "Tus antojos son tuyos. Yo me quedo con el mío."
+      }
+    },
+    {
+      "id": "ultima-carta-sonrisa",
+      "tones": [],
+      "when": {
+        "ultimaCarta": true
+      },
+      "prompt": "Última carta: ¿te ha sacado alguna sonrisa la lectura?",
+      "branches": {
+        "si": "Misión cumplida. Me apunto otro diploma, el de risoterapia.",
+        "no": "Pues esta carta lo intenta por última vez, con su mejor cara.",
+        "skip": "Me quedo con la duda, y con la elegancia de la tuya."
+      }
+    },
+    {
+      "id": "futuro-vacaciones",
+      "tones": [],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "prompt": "¿Te apetecen vacaciones?",
+      "branches": {
+        "si": "Esta carta del futuro lo confirma: se ve una toalla y una siesta.",
+        "no": "¿Nada? Pues la carta te guarda el plan de vacaciones para cuando te apetezca.",
+        "skip": "Ni pregunto más. Que el futuro te sorprenda."
+      }
+    },
+    {
+      "id": "pasado-aprendido",
+      "tones": [],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "prompt": "¿Aprendiste algo de lo que vino antes?",
+      "branches": {
+        "si": "Se nota: esta carta del pasado te sonríe con orgullo.",
+        "no": "Pues la carta te lo recuerda ahora, por si acaso.",
+        "skip": "El pasado se queda donde está. Bien guardado."
+      }
+    },
+    {
+      "id": "consejo-hacer-caso",
+      "tones": [],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "prompt": "Si te doy un consejo, ¿me harás caso?",
+      "branches": {
+        "si": "¡Qué maravilla! Entonces escucha bien lo que dice esta carta, que es oro.",
+        "no": "Sinceridad ante todo. Te lo digo igual y tú haz lo que quieras, como todo el mundo.",
+        "skip": "Me vale. El consejo queda aquí, por si algún día te apetece."
+      }
+    },
+    {
+      "id": "amor-otra-persona",
+      "tones": [],
+      "when": {
+        "spread": [
+          "amor"
+        ]
+      },
+      "prompt": "¿Sabes qué piensa la otra persona?",
+      "branches": {
+        "si": "Entonces esta carta te lo confirma o te da una sorpresa. Atención.",
+        "no": "Para eso estoy yo. Bueno, yo y las cartas, que saben más.",
+        "skip": "Me parece muy bien. Las cartas hablan y tú decides cuánto escuchas."
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "titles": [
+    {
+      "id": "magia-torrelodones",
+      "titulo": "Graduada en Artes Mágicas Avanzadas",
+      "centro": "Real Colegio de Magia de Torrelodones",
+      "comentario": "Saqué matrícula en pociones; en escobas, un aprobadillo",
+      "sello": "Compulsado. La escoba sigue en septiembre.",
+      "anio": 1987,
+      "frame": "barroco"
+    },
+    {
+      "id": "bola-cristal-niebla",
+      "titulo": "Máster en Bola de Cristal (especialidad: niebla)",
+      "centro": "Universidad a Distancia del Más Allá",
+      "comentario": "Lo hice online. Desde el otro lado.",
+      "sello": "Compulsado por videollamada con un fantasma de guardia.",
+      "anio": 2009,
+      "frame": "moderno"
+    },
+    {
+      "id": "posos-cafe",
+      "titulo": "Doctorado Cum Laude en Posos de Café",
+      "centro": "Facultad de Cafeteromancia de Colombia la Chica",
+      "comentario": "Tesis: ‘El descafeinado no predice nada’",
+      "sello": "Compulsado con dos de azúcar.",
+      "anio": 1998,
+      "frame": "dorado"
+    },
+    {
+      "id": "lenguas-muertas-b2",
+      "titulo": "Certificado B2 en Lenguas Muertas (y Medio Muertas)",
+      "centro": "Escuela Oficial de Idiomas Espectrales",
+      "comentario": "Hablo con mi abuela sin problema",
+      "sello": "Compulsado. Mi abuela ha firmado como testigo.",
+      "anio": 2003,
+      "frame": "pergamino"
+    },
+    {
+      "id": "cartas-invertidas",
+      "titulo": "Experta en Cartas Invertidas",
+      "centro": "Instituto del Revés",
+      "comentario": "También leo el periódico boca abajo",
+      "sello": "odaslupmoC.",
+      "anio": 1994,
+      "frame": "madera"
+    },
+    {
+      "id": "carnet-escobas-b",
+      "titulo": "Carnet de Conducir Escobas, clase B",
+      "centro": "DGT (Dirección General de Trayectos Aéreos)",
+      "comentario": "Tres puntos menos por sobrevolar la M-30",
+      "sello": "Compulsado. ITV de la escoba pendiente.",
+      "anio": 1991,
+      "frame": "moderno"
+    },
+    {
+      "id": "cinturon-negro-pendulo",
+      "titulo": "Cinturón Negro en Péndulo",
+      "centro": "Federación Española de Oscilación",
+      "comentario": "Mi péndulo y yo competimos en sincronizado",
+      "sello": "Compulsado de lado a lado. Y vuelta.",
+      "anio": 2001,
+      "frame": "madera"
+    },
+    {
+      "id": "manipulador-pociones",
+      "titulo": "Curso de Manipulador de Pociones",
+      "centro": "Consejería de Sanidad Mágica",
+      "comentario": "Obligatorio desde lo del filtro de amor de 2019",
+      "sello": "Compulsado. Lávese las manos antes de remover el caldero.",
+      "anio": 2020,
+      "frame": "moderno"
+    },
+    {
+      "id": "fin-horoscopo",
+      "titulo": "Premio Extraordinario de Fin de Horóscopo",
+      "centro": "Academia de Astrología Recreativa",
+      "comentario": "Mercurio retrógrado y aun así lo saqué",
+      "sello": "Compulsado con Mercurio mirando para otro lado.",
+      "anio": 1999,
+      "frame": "dorado"
+    },
+    {
+      "id": "taller-gatos-negros",
+      "titulo": "Diploma de Asistencia: Taller de Gatos Negros",
+      "centro": "Ayuntamiento de Zugarramurdi",
+      "comentario": "Solo fui al café, pero cuenta",
+      "sello": "Compulsado. El gato ha puesto la huella, que es lo que vale.",
+      "anio": 2015,
+      "frame": "pergamino"
+    },
+    {
+      "id": "quiromancia-autobus",
+      "titulo": "Licenciatura en Quiromancia (mención: líneas de autobús)",
+      "centro": "Universidad Popular de Villarriba de las Manos",
+      "comentario": "Leo la mano y además te digo qué línea te deja más cerca",
+      "sello": "Compulsado. Válido para transbordos.",
+      "anio": 1989,
+      "frame": "barroco"
+    },
+    {
+      "id": "mal-de-ojo",
+      "titulo": "Técnica Superior en Mal de Ojo y Afines (FP Dual)",
+      "centro": "Instituto de Formación Profesional Meigas de Abajo",
+      "comentario": "Hice las prácticas en una tienda de lentillas",
+      "sello": "Compulsado con un ojo cerrado, por precaución.",
+      "anio": 2012,
+      "frame": "madera"
+    },
+    {
+      "id": "hojas-te-bolsita",
+      "titulo": "Diploma en Lectura de Hojas de Té (nivel: bolsita)",
+      "centro": "Real Academia de Infusiones y Presagios",
+      "comentario": "Con la manzanilla todo sale tranquilo; con el poleo, ni te cuento",
+      "sello": "Compulsado. Reposar tres minutos antes de leer.",
+      "anio": 2006,
+      "frame": "pergamino"
+    },
+    {
+      "id": "tarot-madrugada",
+      "titulo": "Máster en Tarot de Madrugada (sin tarificación)",
+      "centro": "Escuela Nocturna de Teletienda Esotérica",
+      "comentario": "Aprendí a decir «cariño, te veo algo» a las tres de la mañana sin bostezar",
+      "sello": "Compulsado. No llames: aquí no hay ningún número.",
+      "anio": 1996,
+      "frame": "dorado"
+    },
+    {
+      "id": "interpretacion-suenos",
+      "titulo": "Certificado de Aptitud en Interpretación de Sueños",
+      "centro": "Conservatorio Onírico de la Siesta",
+      "comentario": "Me examiné dormida y saqué un notable",
+      "sello": "Compulsado entre bostezo y bostezo.",
+      "anio": 2010,
+      "frame": "barroco"
+    },
+    {
+      "id": "numerologia-panaderia",
+      "titulo": "Grado en Numerología Aplicada a la Cola de la Panadería",
+      "centro": "Escuela Universitaria de Cuentas Místicas",
+      "comentario": "Siempre sé qué número va a salir en la pantalla del turno",
+      "sello": "Compulsado. Le toca al 47.",
+      "anio": 2004,
+      "frame": "moderno"
+    },
+    {
+      "id": "velas-aromaticas",
+      "titulo": "Carnet de Manipulador de Velas Aromáticas",
+      "centro": "Gremio de Cereros Iluminados",
+      "comentario": "Distingo la vainilla del incienso a dos calles",
+      "sello": "Compulsado y apagado con los dedos mojados, como manda el gremio.",
+      "anio": 1993,
+      "frame": "madera"
+    },
+    {
+      "id": "cartomancia-honoris",
+      "titulo": "Doctorado Honoris Causa en Cartomancia Española",
+      "centro": "Real Academia de la Brisca y el Más Allá",
+      "comentario": "Me lo dieron por cantar las cuarenta con el As de Oros de cara",
+      "sello": "Compulsado. Arrastra el sello, que es de triunfo.",
+      "anio": 1985,
+      "frame": "dorado"
+    },
+    {
+      "id": "astrologia-servilleta",
+      "titulo": "Máster en Astrología de Bar (especialidad: carta astral en servilleta)",
+      "centro": "Universidad Libre de la Barra",
+      "comentario": "Te hago la carta astral antes de que llegue la tapa",
+      "sello": "Compulsado sobre una servilleta de papel. Con migas.",
+      "anio": 2008,
+      "frame": "moderno"
+    },
+    {
+      "id": "garbanzos-cocido",
+      "titulo": "Experta en Lectura de Garbanzos del Cocido",
+      "centro": "Fundación Legumbrera de la Adivinación",
+      "comentario": "Los garbanzos nunca mienten; el tocino, a veces",
+      "sello": "Compulsado con el segundo vuelco.",
+      "anio": 1990,
+      "frame": "pergamino"
+    },
+    {
+      "id": "radiestesia-llaves",
+      "titulo": "Diploma de Radiestesia: Búsqueda de Llaves Perdidas",
+      "centro": "Asociación de Zahoríes Despistados",
+      "comentario": "Encuentro las llaves de todo el mundo menos las mías",
+      "sello": "Compulsado. Las llaves estaban en el otro bolso.",
+      "anio": 2014,
+      "frame": "madera"
+    },
+    {
+      "id": "conjuros-microondas",
+      "titulo": "Curso Avanzado de Conjuros de Microondas",
+      "centro": "Universidad Laboral de Brujería Doméstica",
+      "comentario": "Treinta segundos, darle la vuelta y otros treinta: magia antigua",
+      "sello": "Compulsado. ¡Pi, pi, pi!",
+      "anio": 2011,
+      "frame": "moderno"
+    },
+    {
+      "id": "vuelo-nocturno-gato",
+      "titulo": "Licencia de Vuelo Nocturno con Gato a Bordo",
+      "centro": "Aeroclub de Escobas de Trasmoz",
+      "comentario": "El gato va de copiloto y opina de todo",
+      "sello": "Compulsado. El gato exige su propia copia.",
+      "anio": 2017,
+      "frame": "barroco"
+    },
+    {
+      "id": "ouija-ortografia",
+      "titulo": "Especialista en Ouija con Faltas de Ortografía",
+      "centro": "Escuela Oficial de Espíritus Bien Hablados",
+      "comentario": "Los espíritus escriben «aber» y yo les corrijo con cariño",
+      "sello": "Compulsado. Con hache, que se nos olvida.",
+      "anio": 2002,
+      "frame": "pergamino"
+    }
+  ]
+}
