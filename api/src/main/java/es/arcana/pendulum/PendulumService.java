@@ -150,7 +150,7 @@ public class PendulumService {
             return switch (name) {
                 case "provincia" -> sheet.map(ProvinceSheet::nombre).or(() -> prov.map(ProvinceDef::nombre));
                 case "comunidad" -> sheet.map(ProvinceSheet::comunidad).or(() -> prov.map(ProvinceDef::comunidad));
-                case "gentilicio" -> sheet.map(ProvinceSheet::gentilicio);
+                case "gentilicio" -> sheet.map(ProvinceSheet::gentilicio).map(TextRenderer::gentilicio);
                 case "plato" -> sheet.flatMap(s -> Weighted.uniform(s.plato(), rng));
                 case "fiesta" -> sheet.flatMap(s -> Weighted.uniform(s.fiesta(), rng));
                 case "clima" -> sheet.flatMap(s -> Weighted.uniform(s.clima(), rng));

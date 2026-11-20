@@ -92,9 +92,4 @@ public class CatalogService {
     public JsonNode onboarding(String lang) {
         return content.lang(lang).onboarding().orElseThrow(() -> new UnavailableException("Contenido no disponible: " + "onboarding.json"));
     }
-
-    public JsonNode pendulum(String lang) {
-        return content.lang(lang).pendulumRaw().orElseThrow(() -> new UnavailableException("Contenido no disponible: " + "pendulum.json"));
-    }
-
 }

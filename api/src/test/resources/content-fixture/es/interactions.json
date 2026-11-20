@@ -1,0 +1,23 @@
+{
+  "interactions": [
+    {
+      "id": "letra-m",
+      "tones": [],
+      "prompt": "¿Hay alguien con la letra M en tu vida?",
+      "branches": {
+        "si": "Lo sabía, desde {provincia} se nota.",
+        "no": "Pues aparecerá, {nombre}.",
+        "skip": "Discreción, me gusta."
+      }
+    },
+    {
+      "id": "viaje",
+      "prompt": "¿Tienes un viaje pendiente?",
+      "branches": {
+        "si": "Maleta.",
+        "no": "Sofá.",
+        "skip": "Vale."
+      }
+    }
+  ]
+}

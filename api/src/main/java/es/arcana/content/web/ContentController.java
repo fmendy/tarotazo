@@ -70,12 +70,4 @@ public class ContentController {
                                @RequestHeader(name = HttpHeaders.ACCEPT_LANGUAGE, required = false) String accept) {
         return catalog.onboarding(langs.resolve(lang, null, accept));
     }
-
-    @GetMapping("/content/pendulum")
-    @Operation(summary = "Frases del péndulo (pendulum.json tal cual): calibrar, enfado, intro… para el navegador",
-            description = "Extensión aditiva al §6: las frases de calibración/enfado no tienen endpoint propio.")
-    public JsonNode pendulum(@RequestParam(required = false) @Pattern(regexp = "[a-z]{2,3}", message = "lang no válido") String lang,
-                             @RequestHeader(name = HttpHeaders.ACCEPT_LANGUAGE, required = false) String accept) {
-        return catalog.pendulum(langs.resolve(lang, null, accept));
-    }
 }

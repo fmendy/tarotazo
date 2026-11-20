@@ -102,10 +102,9 @@ public class NarrativeEngine {
                 line(lines, "guino", text(lc, "guino", currentTone, s, used, recent, rng));
             }
             if (moodAt >= 0 && i == moodAt - 1) {
-                // Frase de transición: preferimos una del tono nuevo; si no hay, una del tono que se va.
+                // Frase de transición: se elige entre los fragmentos del tono NUEVO (resolución del contrato).
                 final String target = newTone;
                 String change = select(lc, "cambioHumor", target, s, used, recent, rng, target)
-                        .or(() -> select(lc, "cambioHumor", tone, s, used, recent, rng, target))
                         .map(f -> render(f.text(), lc, s, target, rng))
                         .orElse(null);
                 if (change == null) {
@@ -227,7 +226,7 @@ public class NarrativeEngine {
         return name -> switch (name) {
             case "provincia" -> sheet.map(ProvinceSheet::nombre).or(() -> prov.map(ProvinceDef::nombre));
             case "comunidad" -> sheet.map(ProvinceSheet::comunidad).or(() -> prov.map(ProvinceDef::comunidad));
-            case "gentilicio" -> sheet.map(ProvinceSheet::gentilicio);
+            case "gentilicio" -> sheet.map(ProvinceSheet::gentilicio).map(TextRenderer::gentilicio);
             case "plato" -> sheet.flatMap(p -> Weighted.uniform(p.plato(), rng));
             case "fiesta" -> sheet.flatMap(p -> Weighted.uniform(p.fiesta(), rng));
             case "clima" -> sheet.flatMap(p -> Weighted.uniform(p.clima(), rng));

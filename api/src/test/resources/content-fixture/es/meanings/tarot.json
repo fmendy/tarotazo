@@ -1,0 +1,248 @@
+{
+  "mayor-00": {
+    "keywords": [
+      "mayor-00"
+    ],
+    "upright": {
+      "general": [
+        "mayor-00 derecha general A",
+        "mayor-00 derecha general B"
+      ],
+      "amor": [
+        "mayor-00 derecha amor"
+      ],
+      "trabajo": [
+        "mayor-00 derecha trabajo"
+      ],
+      "dinero": [
+        "mayor-00 derecha dinero"
+      ],
+      "salud": [
+        "mayor-00 derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "mayor-00 invertida general A",
+        "mayor-00 invertida general B"
+      ],
+      "amor": [
+        "mayor-00 invertida amor"
+      ],
+      "trabajo": [
+        "mayor-00 invertida trabajo"
+      ],
+      "dinero": [
+        "mayor-00 invertida dinero"
+      ],
+      "salud": [
+        "mayor-00 invertida salud"
+      ]
+    }
+  },
+  "mayor-01": {
+    "keywords": [
+      "mayor-01"
+    ],
+    "upright": {
+      "general": [
+        "mayor-01 derecha general A",
+        "mayor-01 derecha general B"
+      ],
+      "amor": [
+        "mayor-01 derecha amor"
+      ],
+      "trabajo": [
+        "mayor-01 derecha trabajo"
+      ],
+      "dinero": [
+        "mayor-01 derecha dinero"
+      ],
+      "salud": [
+        "mayor-01 derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "mayor-01 invertida general A",
+        "mayor-01 invertida general B"
+      ],
+      "amor": [
+        "mayor-01 invertida amor"
+      ],
+      "trabajo": [
+        "mayor-01 invertida trabajo"
+      ],
+      "dinero": [
+        "mayor-01 invertida dinero"
+      ],
+      "salud": [
+        "mayor-01 invertida salud"
+      ]
+    }
+  },
+  "mayor-16": {
+    "keywords": [
+      "mayor-16"
+    ],
+    "upright": {
+      "general": [
+        "mayor-16 derecha general A",
+        "mayor-16 derecha general B"
+      ],
+      "amor": [
+        "mayor-16 derecha amor"
+      ],
+      "trabajo": [
+        "mayor-16 derecha trabajo"
+      ],
+      "dinero": [
+        "mayor-16 derecha dinero"
+      ],
+      "salud": [
+        "mayor-16 derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "mayor-16 invertida general A",
+        "mayor-16 invertida general B"
+      ],
+      "amor": [
+        "mayor-16 invertida amor"
+      ],
+      "trabajo": [
+        "mayor-16 invertida trabajo"
+      ],
+      "dinero": [
+        "mayor-16 invertida dinero"
+      ],
+      "salud": [
+        "mayor-16 invertida salud"
+      ]
+    }
+  },
+  "copas-01": {
+    "keywords": [
+      "copas-01"
+    ],
+    "upright": {
+      "general": [
+        "copas-01 derecha general A",
+        "copas-01 derecha general B"
+      ],
+      "amor": [
+        "copas-01 derecha amor"
+      ],
+      "trabajo": [
+        "copas-01 derecha trabajo"
+      ],
+      "dinero": [
+        "copas-01 derecha dinero"
+      ],
+      "salud": [
+        "copas-01 derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "copas-01 invertida general A",
+        "copas-01 invertida general B"
+      ],
+      "amor": [
+        "copas-01 invertida amor"
+      ],
+      "trabajo": [
+        "copas-01 invertida trabajo"
+      ],
+      "dinero": [
+        "copas-01 invertida dinero"
+      ],
+      "salud": [
+        "copas-01 invertida salud"
+      ]
+    }
+  },
+  "copas-reina": {
+    "keywords": [
+      "copas-reina"
+    ],
+    "upright": {
+      "general": [
+        "copas-reina derecha general A",
+        "copas-reina derecha general B"
+      ],
+      "amor": [
+        "copas-reina derecha amor"
+      ],
+      "trabajo": [
+        "copas-reina derecha trabajo"
+      ],
+      "dinero": [
+        "copas-reina derecha dinero"
+      ],
+      "salud": [
+        "copas-reina derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "copas-reina invertida general A",
+        "copas-reina invertida general B"
+      ],
+      "amor": [
+        "copas-reina invertida amor"
+      ],
+      "trabajo": [
+        "copas-reina invertida trabajo"
+      ],
+      "dinero": [
+        "copas-reina invertida dinero"
+      ],
+      "salud": [
+        "copas-reina invertida salud"
+      ]
+    }
+  },
+  "espadas-02": {
+    "keywords": [
+      "espadas-02"
+    ],
+    "upright": {
+      "general": [
+        "espadas-02 derecha general A",
+        "espadas-02 derecha general B"
+      ],
+      "amor": [
+        "espadas-02 derecha amor"
+      ],
+      "trabajo": [
+        "espadas-02 derecha trabajo"
+      ],
+      "dinero": [
+        "espadas-02 derecha dinero"
+      ],
+      "salud": [
+        "espadas-02 derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "espadas-02 invertida general A",
+        "espadas-02 invertida general B"
+      ],
+      "amor": [
+        "espadas-02 invertida amor"
+      ],
+      "trabajo": [
+        "espadas-02 invertida trabajo"
+      ],
+      "dinero": [
+        "espadas-02 invertida dinero"
+      ],
+      "salud": [
+        "espadas-02 invertida salud"
+      ]
+    }
+  }
+}

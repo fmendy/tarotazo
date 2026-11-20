@@ -1,0 +1,52 @@
+{
+  "family": "spanish",
+  "reversedProbability": 0.0,
+  "defaultModel": "castellana",
+  "models": [
+    {
+      "id": "castellana",
+      "deckSize": 5,
+      "art": "castellana"
+    }
+  ],
+  "cards": [
+    {
+      "id": "oros-01",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "oros",
+      "rank": "01"
+    },
+    {
+      "id": "copas-04",
+      "arcana": "minor",
+      "number": 4,
+      "suit": "copas",
+      "rank": "04"
+    },
+    {
+      "id": "bastos-sota",
+      "arcana": "minor",
+      "number": 10,
+      "suit": "bastos",
+      "rank": "sota",
+      "court": true
+    },
+    {
+      "id": "espadas-rey",
+      "arcana": "minor",
+      "number": 12,
+      "suit": "espadas",
+      "rank": "rey",
+      "court": true
+    },
+    {
+      "id": "espadas-08",
+      "arcana": "minor",
+      "number": 8,
+      "suit": "espadas",
+      "rank": "08",
+      "only48": true
+    }
+  ]
+}

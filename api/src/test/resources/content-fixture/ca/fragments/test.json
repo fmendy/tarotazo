@@ -1,0 +1,13 @@
+{
+  "fragments": [
+    {
+      "id": "saludo.mistica.ca",
+      "slot": "saludo",
+      "tones": [
+        "mistica",
+        "abuela"
+      ],
+      "text": "Bon dia."
+    }
+  ]
+}

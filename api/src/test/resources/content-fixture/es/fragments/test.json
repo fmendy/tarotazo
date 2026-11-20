@@ -1,0 +1,513 @@
+{
+  "fragments": [
+    {
+      "id": "entrada.mistica.001",
+      "slot": "entrada",
+      "text": "Entrada mistica 1: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "puente.mistica.001",
+      "slot": "puente",
+      "text": "Puente mistica 1: en {posicion}…",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "personalizacion.mistica.001",
+      "slot": "personalizacion",
+      "text": "Perso mistica 1: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "guino.mistica.001",
+      "slot": "guino",
+      "text": "Guiño mistica 1.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "entrada.mistica.002",
+      "slot": "entrada",
+      "text": "Entrada mistica 2: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "puente.mistica.002",
+      "slot": "puente",
+      "text": "Puente mistica 2: en {posicion}…",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "personalizacion.mistica.002",
+      "slot": "personalizacion",
+      "text": "Perso mistica 2: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "guino.mistica.002",
+      "slot": "guino",
+      "text": "Guiño mistica 2.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "entrada.mistica.003",
+      "slot": "entrada",
+      "text": "Entrada mistica 3: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "puente.mistica.003",
+      "slot": "puente",
+      "text": "Puente mistica 3: en {posicion}…",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "personalizacion.mistica.003",
+      "slot": "personalizacion",
+      "text": "Perso mistica 3: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "guino.mistica.003",
+      "slot": "guino",
+      "text": "Guiño mistica 3.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "entrada.mistica.004",
+      "slot": "entrada",
+      "text": "Entrada mistica 4: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "puente.mistica.004",
+      "slot": "puente",
+      "text": "Puente mistica 4: en {posicion}…",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "personalizacion.mistica.004",
+      "slot": "personalizacion",
+      "text": "Perso mistica 4: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "guino.mistica.004",
+      "slot": "guino",
+      "text": "Guiño mistica 4.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "entrada.mistica.005",
+      "slot": "entrada",
+      "text": "Entrada mistica 5: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "puente.mistica.005",
+      "slot": "puente",
+      "text": "Puente mistica 5: en {posicion}…",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "personalizacion.mistica.005",
+      "slot": "personalizacion",
+      "text": "Perso mistica 5: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "guino.mistica.005",
+      "slot": "guino",
+      "text": "Guiño mistica 5.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "entrada.mistica.006",
+      "slot": "entrada",
+      "text": "Entrada mistica 6: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "puente.mistica.006",
+      "slot": "puente",
+      "text": "Puente mistica 6: en {posicion}…",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "personalizacion.mistica.006",
+      "slot": "personalizacion",
+      "text": "Perso mistica 6: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "guino.mistica.006",
+      "slot": "guino",
+      "text": "Guiño mistica 6.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "saludo.mistica.001",
+      "slot": "saludo",
+      "text": "Hola mistica, {nombre}.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "despedida.mistica.001",
+      "slot": "despedida",
+      "text": "Adiós mistica.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "cambioHumor.mistica.001",
+      "slot": "cambioHumor",
+      "text": "Perdona, me ha dado un aire ({tono}).",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "salud.mistica.001",
+      "slot": "salud",
+      "text": "Para eso, mejor tu médico.",
+      "tones": [
+        "mistica"
+      ]
+    },
+    {
+      "id": "entrada.abuela.001",
+      "slot": "entrada",
+      "text": "Entrada abuela 1: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "puente.abuela.001",
+      "slot": "puente",
+      "text": "Puente abuela 1: en {posicion}…",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "personalizacion.abuela.001",
+      "slot": "personalizacion",
+      "text": "Perso abuela 1: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "guino.abuela.001",
+      "slot": "guino",
+      "text": "Guiño abuela 1.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "entrada.abuela.002",
+      "slot": "entrada",
+      "text": "Entrada abuela 2: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "puente.abuela.002",
+      "slot": "puente",
+      "text": "Puente abuela 2: en {posicion}…",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "personalizacion.abuela.002",
+      "slot": "personalizacion",
+      "text": "Perso abuela 2: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "guino.abuela.002",
+      "slot": "guino",
+      "text": "Guiño abuela 2.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "entrada.abuela.003",
+      "slot": "entrada",
+      "text": "Entrada abuela 3: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "puente.abuela.003",
+      "slot": "puente",
+      "text": "Puente abuela 3: en {posicion}…",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "personalizacion.abuela.003",
+      "slot": "personalizacion",
+      "text": "Perso abuela 3: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "guino.abuela.003",
+      "slot": "guino",
+      "text": "Guiño abuela 3.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "entrada.abuela.004",
+      "slot": "entrada",
+      "text": "Entrada abuela 4: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "puente.abuela.004",
+      "slot": "puente",
+      "text": "Puente abuela 4: en {posicion}…",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "personalizacion.abuela.004",
+      "slot": "personalizacion",
+      "text": "Perso abuela 4: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "guino.abuela.004",
+      "slot": "guino",
+      "text": "Guiño abuela 4.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "entrada.abuela.005",
+      "slot": "entrada",
+      "text": "Entrada abuela 5: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "puente.abuela.005",
+      "slot": "puente",
+      "text": "Puente abuela 5: en {posicion}…",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "personalizacion.abuela.005",
+      "slot": "personalizacion",
+      "text": "Perso abuela 5: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "guino.abuela.005",
+      "slot": "guino",
+      "text": "Guiño abuela 5.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "entrada.abuela.006",
+      "slot": "entrada",
+      "text": "Entrada abuela 6: [ojo|cuidado|atención], {nombre}.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "puente.abuela.006",
+      "slot": "puente",
+      "text": "Puente abuela 6: en {posicion}…",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "personalizacion.abuela.006",
+      "slot": "personalizacion",
+      "text": "Perso abuela 6: {nombre}, {inicial}, {edad} años.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "guino.abuela.006",
+      "slot": "guino",
+      "text": "Guiño abuela 6.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "saludo.abuela.001",
+      "slot": "saludo",
+      "text": "Hola abuela, {nombre}.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "despedida.abuela.001",
+      "slot": "despedida",
+      "text": "Adiós abuela.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "cambioHumor.abuela.001",
+      "slot": "cambioHumor",
+      "text": "Perdona, me ha dado un aire ({tono}).",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "salud.abuela.001",
+      "slot": "salud",
+      "text": "Para eso, mejor tu médico.",
+      "tones": [
+        "abuela"
+      ]
+    },
+    {
+      "id": "personalizacion.comun.provincia",
+      "slot": "personalizacion",
+      "text": "Desde {provincia} ({comunidad}) huele a {plato}.",
+      "tones": [],
+      "when": {
+        "provincia": [
+          "41"
+        ]
+      },
+      "weight": 1000
+    },
+    {
+      "id": "entrada.comun.torre",
+      "slot": "entrada",
+      "text": "¡La Torre! Tranquilidad: es cambio.",
+      "tones": [],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "weight": 1000
+    },
+    {
+      "id": "entrada.comun.invertida",
+      "slot": "entrada",
+      "text": "Uy, al revés.",
+      "tones": [],
+      "when": {
+        "invertida": true
+      },
+      "weight": 1000
+    },
+    {
+      "id": "sintesis.comun.mayores",
+      "slot": "sintesis",
+      "text": "Muchos arcanos mayores: momento trascendente.",
+      "tones": [],
+      "when": {
+        "mayoresMin": 3
+      }
+    },
+    {
+      "id": "sintesis.comun.copas",
+      "slot": "sintesis",
+      "text": "Las copas mandan.",
+      "tones": [],
+      "when": {
+        "suitDominante": "copas"
+      }
+    },
+    {
+      "id": "sintesis.comun.figuras",
+      "slot": "sintesis",
+      "text": "Hay gente implicada.",
+      "tones": [],
+      "when": {
+        "figurasMin": 2
+      }
+    }
+  ]
+}

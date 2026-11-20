@@ -70,6 +70,18 @@ public final class TextRenderer {
         return sb.toString();
     }
 
+    /**
+     * {@code {gentilicio}} en masculino singular: «sevillano/a» → «sevillano», «alavés/a» → «alavés»; los
+     * invariables («ceutí») quedan igual (CONTRACTS, resoluciones).
+     */
+    public static String gentilicio(String raw) {
+        if (raw == null) {
+            return null;
+        }
+        int slash = raw.indexOf('/');
+        return (slash < 0 ? raw : raw.substring(0, slash)).trim();
+    }
+
     static String chooseAlternatives(String text, RandomGenerator rng) {
         Matcher m = ALTERNATIVE.matcher(text);
         StringBuilder sb = new StringBuilder();

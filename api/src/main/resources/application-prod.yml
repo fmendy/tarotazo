@@ -1,6 +1,9 @@
 arcana:
   content-strict: true
 
+# OpenAPI sólo en dev
 springdoc:
+  api-docs:
+    enabled: false
   swagger-ui:
     enabled: false
