@@ -1,0 +1,661 @@
+«Tarotazo» — Diseño de la aplicación y fases 
+del proyecto
+ Nov 20, 2026  ·  @alvaro
+Resumen ejecutivo
+«Tarotazo» es una web de tarot y péndulo en clave de comedia, solo para mayores de 18,
+que no guarda ningún dato del usuario. Se entrega en 6 fases y unas 16 semanas, con un
+front SPA animado y un backend Java 21 / Spring Boot sin base de datos de usuarios,
+ambos en Docker.
+Principios de producto
+Cada partida es distinta. Un motor narrativo combina tono, plantillas y variables
+(nombre, edad, provincia, signo, hora, cartas) con una semilla aleatoria por sesión.
+Muy visual. Animación en cada paso: barajar, cortar, repartir, girar cartas, oscilar el
+péndulo. Nada de pantallas estáticas.
+Comedia declarada. La vidente es un personaje, «Madame Remedios», vidente con
+más diplomas que aciertos, con titulaciones absurdas y un aviso visible:
+entretenimiento, no consejo profesional.
+Cero datos persistidos. Nombre, edad y provincia viven solo en la memoria del
+navegador durante la sesión; el servidor no los registra ni los guarda.
+Solo adultos. Puerta de edad antes de cualquier contenido.
+Gratuita y multidioma. Sin monetización (ni pagos, ni anuncios, ni barajas premium). Se
+lanza en castellano con la arquitectura preparada para añadir idiomas solo con contenido.
+El código interno usa el nombre en clave arcana .
+Alcance funcional
+Módulo Qué incluye
+Onboarding Puerta +18, nombre, edad, provincia de nacimiento
+en mapa de España
+Tarot Baraja tradicional (Rider-Waite, Marsella y barajas
+propias) y baraja española (castellana clásica,
+catalana antigua, ilustrada propia), varias tiradas
+Ritual Barajado animado, corte por clic, selección de
+cartas boca abajo
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 1 of 17
+
+=====PAGE=====
+
+Estudio funcional: cómo funcionan el tarot y el péndulo
+El dominio se modela como datos (cartas, significados, posiciones de tirada), no como
+código: así añadir una baraja o una tirada es añadir un JSON.
+Tarot tradicional (78 cartas)
+Arcanos mayores (22): del 0 El Loco al XXI El Mundo. Representan grandes etapas y
+fuerzas; pesan más en la lectura.
+Arcanos menores (56): 4 palos × 14 cartas (As–10 + Sota, Caballo, Reina, Rey). Bastos
+= acción y energía; Copas = emociones y relaciones; Espadas = mente y conflicto;
+Oros/Pentáculos = dinero, trabajo y cuerpo.
+Cartas invertidas: al repartir, cada carta tiene una probabilidad (configurable, p. ej. 30
+%) de salir del revés; su significado se debilita, se bloquea o se vuelve interno.
+Lectura combinada: el intérprete mira también el conjunto: muchos mayores =
+momento trascendente; predominio de un palo = área dominante; muchas figuras =
+personas implicadas.
+Modelos de baraja tradicional
+El Tarot Thoth y otras barajas comerciales modernas siguen protegidos por derechos: no
+se incluyen salvo licencia.
+Módulo Qué incluye
+Lectura Revelado carta a carta con comentarios, preguntas
+al usuario y giros de tono
+Péndulo Péndulo físico interactivo, varios modelos, tablas
+de respuesta, modo «zahorí» en el mapa
+Titulaciones Muro de diplomas mágicos de la vidente
+Modelo Rasgos Uso en la app
+Tarot de Marsella Menores «de pips» (sin escenas),
+orden VIII Justicia / XI Fuerza
+Estilo clásico, ilustración propia
+inspirada en grabado
+Rider-Waite-Smith
+(1909)
+Menores ilustrados con escenas,
+VIII Fuerza / XI Justicia
+Modelo por defecto; arte original
+de dominio público en la UE
+Barajas propias
+«de la casa»
+Estilos: neón, acuarela, pixel-art,
+gatos
+Arte creado para el proyecto, sin
+problemas de licencia
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 2 of 17
+
+=====PAGE=====
+
+Baraja española (cartomancia, 40 o 48 cartas)
+4 palos: Oros (dinero, éxito), Copas (amor, alegría), Espadas (conflicto, obstáculos),
+Bastos (trabajo, esfuerzo, viajes).
+Cartas 1–7 + Sota (10), Caballo (11) y Rey (12); la versión de 48 añade 8 y 9.
+Tradición popular: el As de Oros como gran suerte, el 4 de Copas o la Sota de Bastos
+como «noticias», las Espadas como avisos. También se leen invertidas en algunas
+escuelas.
+Modelos: Fournier clásica (diseño castellano), estilo catalán antiguo, y una ilustrada
+propia. El diseño castellano tradicional es antiguo; aun así, se redibujará el arte para no
+copiar ediciones concretas.
+Tiradas soportadas
+Péndulo
+Funcionamiento tradicional: se sujeta la cadena, se «calibra» (se pide al péndulo que
+muestre su sí y su no) y se hacen preguntas cerradas. El movimiento se interpreta:
+oscilación en una dirección = sí, en la perpendicular = no, círculos = duda o
+«reformula». Desde el punto de vista físico lo explica el efecto ideomotor
+(micromovimientos inconscientes de la mano), un buen guiño para el tono de comedia.
+Modelos de péndulo: cristal de cuarzo, amatista, latón cónico, «Sephoroton» egipcio,
+péndulo de cámara (hueco), de madera, y uno cómico (una llave, un anillo de la abuela).
+Tirada Cartas Posiciones Barajas
+Carta del día 1 Consejo Ambas
+Pasado, presente,
+futuro
+3 Pasado · Presente · Futuro Ambas
+Sí o no 1–3 Respuesta por carta derecha/invertida Ambas
+Cruz simple 5 Situación · Obstáculo · Pasado · Futuro ·
+Resultado
+Ambas
+Herradura 7 Pasado · Presente · Futuro · Consejo ·
+Entorno · Obstáculos · Resultado
+Ambas
+Cruz Celta 10 Clásica de Waite Tradicional
+Amor (pareja) 6 Tú · la otra persona · lo que os une · lo que os
+separa · consejo · futuro
+Ambas
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 3 of 17
+
+=====PAGE=====
+
+Tablas (péndulo sobre carta): semicírculo con sí/no/quizá, alfabeto, números 0–9,
+porcentajes, colores, meses, y mapas (radiestesia: «¿dónde estarán mis llaves?»).
+Flujo de usuario
+Una partida dura entre 3 y 8 minutos y recorre 10 pantallas animadas; el usuario puede
+saltar al péndulo o a las titulaciones desde el menú en cualquier momento.
+1. Portada y puerta +18. Humo, velas y la vidente apareciendo. Pregunta «¿Eres mayor
+de edad?» con fecha de nacimiento o casilla de declaración, y aviso de
+entretenimiento. Si es menor, pantalla de salida amable y la sesión se bloquea.
+2. Nombre. La vidente escribe en una bola de cristal mientras el usuario teclea. Reacción
+inmediata al nombre: santoral, número de letras, rima o chiste («¿Vanesa? Las Vanesas
+siempre llegan tarde a su destino… pero llegan»).
+3. Edad. Selector con animación distinta (velas que se encienden, reloj de arena). Si se
+pidió la fecha en el paso 1, se reutiliza y aquí solo se confirma. De ella se deriva signo
+zodiacal, década y «número de vida» (numerología).
+4. Provincia de nacimiento. Mapa SVG interactivo de las 50 provincias + Ceuta y Melilla,
+con hover, zoom y efecto de brillo al seleccionar. Opción «Nací fuera de España» con un
+globo terráqueo cómico. Cada provincia tiene su ficha de chascarrillos (gastronomía,
+fiestas, clima, tópicos amables).
+5. Elección de baraja. Dos cofres: tarot tradicional o baraja española. Dentro, carrusel 3D
+de modelos con vista previa del reverso y de una carta.
+6. Elección de tirada y pregunta. Tarjetas de tirada (1, 3, 5, 7, 10 cartas). Campo opcional
+«piensa tu pregunta» (no se envía al servidor; puede ser solo mental) y temas rápidos:
+amor, trabajo, dinero, salud (con descargo), general.
+7. Barajado. Animación de riffle, overhand o «mezcla en la mesa», elegida al azar; el
+usuario puede pulsar «más» para seguir barajando y la vidente comenta («uy, cuanto
+más barajas, más secretos sacas»).
+8. Corte. El mazo se abre en abanico o en tres montones: «corta con la mano izquierda, la
+del corazón». El usuario hace clic o arrastra; el montón elegido se coloca encima con
+animación. Después, selección de N cartas boca abajo del abanico.
+9. Lectura. Las cartas se colocan en su posición. Se revelan una a una con giro 3D. Por
+cada carta: nombre, posición, interpretación con variables, un comentario de color y, a
+veces, una pregunta («¿hay alguien con la letra M en tu vida?») con botones Sí / No /
+Prefiero no decirlo que cambian la frase siguiente.
+10. Cierre. Síntesis final, «número de la suerte» y «color del día», opción de compartir una
+imagen generada en el navegador (sin datos personales salvo que el usuario quiera), y
+botones: otra tirada, péndulo, salir.
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 4 of 17
+
+=====PAGE=====
+
+Al salir (o a los 30 minutos de inactividad) se borra el estado de sesión del navegador.
+Motor narrativo: mensajes que no se repiten
+Cada lectura se compone en tiempo real a partir de fragmentos con pesos, variables y
+condiciones; con 30 fragmentos por hueco y 5 huecos por carta salen más de 24 millones
+de combinaciones por carta.
+Personalidad y tono
+Al empezar la sesión se sortea un humor de la vidente que sesga la elección de frases, y
+puede cambiar a mitad de lectura («perdona, me ha dado un aire»):
+Estructura de un mensaje por carta
+1. Entrada (reacción al girar): «Mmm…», « ¡ Ojo!», silencio con puntos suspensivos
+animados.
+2. Núcleo: significado de la carta según posición, orientación y tema (amor, trabajo…).
+Es la parte «seria» y viene del catálogo de significados.
+3. Personalización: frase que usa variables del usuario (nombre, edad, provincia, signo,
+hora local, día de la semana).
+4. Guiño (probabilidad 40–60 %): chiste, refrán o referencia local.
+5. Interacción (probabilidad 25 %, máximo 3 por lectura): pregunta con botones que
+ramifica la frase siguiente.
+Tono Ejemplo Peso por
+defecto
+Mística solemne «Los astros se alinean sobre {provincia},
+{nombre}…»
+25 %
+Abuela de pueblo «Ay, hijo, esta carta ya la vi yo en tu tía» 20 %
+Cháchara de tele de
+madrugada
+« ¡ Llámame, cariño, que te veo algo!» (sin
+tarificación real)
+15 %
+Irónica y sincera «La Torre. Sí, ya. Yo tampoco lo habría
+elegido.»
+20 %
+Dramática teatral « ¡ NOOO! …Ah, no, es al revés. Respira.» 10 %
+Coach motivacional «El Ermitaño te dice: apaga el móvil y date
+un paseo»
+10 %
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 5 of 17
+
+=====PAGE=====
+
+Variables disponibles
+Reglas anti-repetición
+Semilla aleatoria por sesión ( crypto.getRandomValues ) para que el orden sea
+impredecible.
+Memoria de corto plazo en la sesión: un fragmento usado no vuelve a salir en las
+siguientes 3 lecturas.
+Condiciones por fragmento: edad >= 40 , tema == amor , hora entre 0 y 6  («¿qué
+haces despierto a estas horas?»), cartasMayores >= 3 .
+Concordancia de género neutra por defecto («alguien especial», «te veo con fuerza»);
+sin preguntar el género, para no recoger más datos.
+Formato de plantillas: JSON con ICU MessageFormat o una mini-sintaxis propia
+( {nombre} , [a|b|c]  para alternativas, ?{cond}  para condiciones). Se edita como
+contenido, sin tocar código.
+Límites de contenido
+Nada de predicciones sobre muerte, enfermedades graves, embarazo o decisiones
+económicas concretas. Las cartas «duras» (La Muerte, La Torre, 10 de Espadas) se
+interpretan como cambio o cierre, con humor. El tema salud siempre añade «para eso,
+mejor tu médico».
+Variable Origen Ejemplo de uso
+nombre , inicial Onboarding «La M de {nombre}… no, espera,
+la tuya es una {inicial}»
+edad , decada , signo ,
+numeroVida
+Edad o fecha «A los {edad} los Escorpio
+empiezan a…»
+provincia , comunidad ,
+gentilicio , plato , fiesta ,
+clima
+Mapa + ficha de
+provincia
+«Ni con todo el {plato} de
+{provincia} se arregla esto»
+hora , diaSemana , estacion ,
+faseLunar
+Reloj del
+navegador
+«Un martes y con luna
+menguante… cuidadito»
+carta , palo , posicion ,
+invertida , cartasPrevias
+Tirada «Y después de {cartaAnterior},
+esto lo confirma»
+respuestas Preguntas en la
+lectura
+«Como me dijiste que sí hay
+alguien…»
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 6 of 17
+
+=====PAGE=====
+
+Multidioma
+Añadir un idioma es añadir una carpeta de contenido, sin cambiar código; el humor se
+adapta (transcreación), no se traduce literal.
+Interfaz: react-i18next con un fichero de cadenas por idioma; idioma inicial según
+navigator.language  y selector visible (una bola de cristal con banderas o nombres
+de lengua).
+Contenido: content/{idioma}/  con significados, plantillas, fichas de provincias y
+diplomas. Si falta un fragmento en un idioma, se usa el castellano.
+Plantillas en ICU MessageFormat: resuelve plurales y concordancias de cada lengua.
+API: el idioma viaja en Accept-Language  o en un parámetro lang ; el backend
+devuelve el contenido de ese idioma.
+Idiomas candidatos: catalán/valenciano, gallego, euskera e inglés. Cada uno necesita
+una persona nativa que adapte los chistes y refranes.
+Pruebas: comprobación automática de que cada idioma tiene todas las claves y de
+que los textos largos (alemán o euskera, por ejemplo) caben en las cartas y bocadillos.
+El péndulo: «El Oráculo Oscilante»
+El péndulo es un juguete físico: se simula con física real (péndulo esférico con
+amortiguación) y la respuesta se decide por azar, pero el movimiento se va «dejando
+llevar» hacia ella para que parezca natural.
+Experiencia
+1. Elige tu péndulo en una vitrina: cuarzo, amatista, latón, obsidiana, madera, cámara
+egipcia y modelos de broma (la llave del trastero, el anillo de la abuela, un chorizo de
+{provincia}). Cada uno cambia material, brillo, sonido y «personalidad» de respuestas.
+2. Calibración ritual: «muéstrame tu sí» → oscila en vertical; «muéstrame tu no» → en
+horizontal. Se sortea por sesión qué eje es cada uno, como en la práctica real.
+3. Pregunta: el usuario escribe o piensa una pregunta de sí/no (no se envía a ningún
+sitio). Botón «concentrarme» que oscurece la pantalla y activa sonido ambiente.
+4. Respuesta: el péndulo empieza quieto, tiembla, gira y se asienta en un eje o en círculo.
+La vidente traduce con frases del motor narrativo.
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 7 of 17
+
+=====PAGE=====
+
+Modos
+Detalles de interacción
+Control con el ratón o el dedo: el usuario sujeta la cadena y su movimiento real se
+suma a la simulación (guiño al efecto ideomotor). Botón «soltar» para que el péndulo
+responda solo.
+Giroscopio en móvil (DeviceOrientation, con permiso): inclinar el teléfono mueve el
+péndulo.
+Easter eggs: si se pregunta lo mismo 3 veces, el péndulo se enfada y se enrolla en la
+cadena; a medianoche brilla más.
+Tecnología: canvas 2D o Three.js con una integración simple (Verlet) a 60 fps, sombras
+dinámicas y sonido con Web Audio.
+Titulaciones de la vidente
+La sección es un muro de diplomas enmarcados sobre papel pintado barroco; al pasar el
+ratón, el marco se ilumina y aparece un comentario de la vidente. Todos los títulos son
+inventados y no usan nombres ni logotipos de obras protegidas: en lugar de «Hogwarts»
+se usan escuelas propias con guiño reconocible.
+Modo Qué hace Interacción
+Sí / No Eje vertical, horizontal o círculo
+(duda)
+Pregunta libre
+Tablero
+semicircular
+Arco con SÍ · PROBABLE · QUIZÁ ·
+POCO PROBABLE · NO
+El péndulo señala un sector
+Porcentaje Arco 0–100 % «¿Qué probabilidad hay de
+que…?»
+Ouija light Alfabeto y números; deletrea
+palabras cortas de una lista curada
+Iniciales, números de la suerte
+Radiestesia en el
+mapa
+El péndulo recorre el mapa de
+España y se para en una provincia
+«¿Dónde serán mis próximas
+vacaciones?»
+Elección entre
+opciones
+El usuario escribe 2–6 opciones en
+sectores
+«¿Pizza, sushi o tortilla?»
+Chakras Siete puntos en una silueta; el
+péndulo «mide» cada uno
+Informe cómico de energía
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 8 of 17
+
+=====PAGE=====
+
+Funcionalidad extra
+«Compulsar título»: botón que pone un sello animado con chiste.
+Tu propio diploma: al terminar una lectura, el usuario puede generar en el navegador
+un diploma cómico («Licenciado/a en Barajar con Estilo») con su nombre y descargarlo
+como imagen. Se genera con canvas en local; nunca se sube al servidor.
+Los títulos viven en un JSON de contenido, así se añaden sin desplegar código nuevo
+del backend.
+Diploma Centro emisor Comentario al pasar el ratón
+Graduada en Artes Mágicas
+Avanzadas
+Real Colegio de Magia de
+Torrelodones
+«Saqué matrícula en
+pociones; en escobas, un
+aprobadillo»
+Máster en Bola de Cristal
+(especialidad: niebla)
+Universidad a Distancia del
+Más Allá
+«Lo hice online. Desde el
+otro lado.»
+Doctorado Cum Laude en
+Posos de Café
+Facultad de Cafeteromancia
+de Colombia la Chica
+«Tesis: ‘El descafeinado no
+predice nada’»
+Certificado B2 en Lenguas
+Muertas (y Medio Muertas)
+Escuela Oficial de Idiomas
+Espectrales
+«Hablo con mi abuela sin
+problema»
+Experta en Cartas Invertidas Instituto del Revés «También leo el periódico
+boca abajo»
+Carnet de Conducir
+Escobas, clase B
+DGT (Dirección General de
+Trayectos Aéreos)
+«Tres puntos menos por
+sobrevolar la M-30»
+Cinturón Negro en Péndulo Federación Española de
+Oscilación
+«Mi péndulo y yo
+competimos en
+sincronizado»
+Curso de Manipulador de
+Pociones
+Consejería de Sanidad
+Mágica
+«Obligatorio desde lo del
+filtro de amor de 2019»
+Premio Extraordinario de Fin
+de Horóscopo
+Academia de Astrología
+Recreativa
+«Mercurio retrógrado y aun
+así lo saqué»
+Diploma de Asistencia: Taller
+de Gatos Negros
+Ayuntamiento de
+Zugarramurdi
+«Solo fui al café, pero
+cuenta»
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 9 of 17
+
+=====PAGE=====
+
+Arquitectura técnica
+Sí hace falta backend, pero sin estado ni base de datos: sortea las cartas, sirve el
+contenido y compone los textos con huecos que el navegador rellena con el nombre, que
+así nunca sale del dispositivo.
+El único sitio con datos personales es el navegador (recuadro destacado); todo lo que hay
+dentro del servidor funciona sin estado y sin base de datos.
+Frontend (contenedor arcana-web )
+arquitectura · navegador, proxy y 2 contenedores
+Pieza Elección Motivo
+Framework React 19 + TypeScript + Vite Ecosistema de animación
+maduro, tipado
+Animación 2D / UI Framer Motion + GSAP Transiciones entre pantallas,
+barajado, abanico
+3D Three.js con react-three-fiber Giro de cartas, péndulo, cofres
+Partículas y
+ambiente
+tsParticles o shaders propios Humo, chispas, polvo de
+estrellas
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 10 of 17
+
+=====PAGE=====
+
+Backend (contenedor arcana-api )
+Java 21 (o 25 LTS si el equipo lo prefiere), Spring Boot en su última versión estable,
+hilos virtuales activados.
+Módulos: content  (barajas, tiradas, provincias, títulos), reading  (barajado y sorteo
+con SecureRandom , orientación de cartas), narrative  (motor de plantillas),
+pendulum  (respuestas y textos), ops  (Actuator: health y métricas agregadas).
+Contenido como JSON versionado en el propio jar o en un volumen de solo lectura;
+validado con JSON Schema en el arranque.
+Sin base de datos. Caché en memoria (Caffeine) para el contenido.
+Rate limiting por IP en memoria (Bucket4j) sin guardar la IP.
+Documentación con springdoc-openapi; pruebas con JUnit 5, Testcontainers para la
+imagen y ArchUnit para la separación de módulos.
+API (v1)
+Pieza Elección Motivo
+Sonido Howler.js Barajado, velas, campanillas;
+botón de silencio
+Estado Zustand en memoria (sin
+persistencia)
+Se pierde al cerrar la pestaña
+Mapa SVG de provincias (fuente abierta,
+p. ej. datos del IGN)
+Selección con hover y zoom
+Servidor Nginx sin logs de acceso, con
+cabeceras de seguridad
+Imagen ligera
+Accesibilidad prefers-reduced-motion , textos
+alternativos, teclado
+Versión con menos animación
+Método y ruta Qué hace
+GET /api/v1/decks Lista barajas y modelos con sus imágenes
+GET /api/v1/spreads?deck=spanish Tiradas disponibles para una baraja
+POST /api/v1/readings Recibe baraja, modelo, tirada, índice de corte y
+contexto anónimo (signo, década, código de
+provincia, tema, semilla de tono, idioma); devuelve
+cartas, orientaciones y textos con huecos
+{nombre}
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 11 of 17
+
+=====PAGE=====
+
+La lectura completa viaja en la respuesta; el servidor no guarda ningún identificador de
+partida. Lo que se envía nunca incluye nombre, edad exacta ni la pregunta del usuario.
+Contenedores y despliegue
+docker-compose.yml  con 3 servicios: proxy  (Caddy con TLS automático), arcana-
+web  (Nginx) y arcana-api  (Spring Boot). El proxy enruta /api  al backend y el resto
+al front.
+Imágenes multi-stage: Node para compilar el front; Maven o Gradle + JRE mínimo
+(Eclipse Temurin o una imagen distroless) para el backend. Usuario no root y sistema
+de ficheros de solo lectura.
+CI/CD con GitHub Actions o GitLab CI: lint, tests, análisis (SonarQube, Trivy),
+construcción de imágenes y despliegue en un VPS o en Kubernetes si crece.
+Imágenes de cartas como WebP/AVIF por un CDN; carga diferida por baraja.
+Estructura del repositorio
+arcana/
+  web/          # React + Vite
+  api/          # Spring Boot
+  content/      # JSON: barajas, tiradas, plantillas, provincias, títulos
+  art/          # Fuentes de ilustración
+  deploy/       # docker-compose, Caddyfile
+Privacidad, mayoría de edad y aspectos legales
+La regla es «privacidad por diseño»: los datos personales no salen del navegador y el
+servidor solo ve datos anónimos que no permiten identificar a nadie.
+Método y ruta Qué hace
+POST /api/v1/readings/next-line Recibe la respuesta a una pregunta (Sí/No) y
+devuelve la frase siguiente
+POST /api/v1/pendulum/answer Modo, modelo de péndulo y número de opciones;
+devuelve resultado y frase
+GET /api/v1/titles Diplomas de la vidente
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 12 of 17
+
+=====PAGE=====
+
+Qué dato va a dónde
+Medidas técnicas
+Sin cookies, sin localStorage , sin sessionStorage  para datos personales. Como
+mucho, una preferencia de sonido en localStorage  (no personal).
+Logs de acceso de Nginx y Caddy desactivados o con IP anonimizada; los logs de la
+aplicación nunca imprimen cuerpos de petición.
+Sin analítica de terceros. Si se quiere medir uso, una herramienta sin cookies y
+autoalojada (p. ej. Umami o Plausible) con contadores agregados.
+Fuentes y librerías servidas desde el propio dominio (no Google Fonts remoto), para
+no ceder IPs a terceros.
+Cabeceras: CSP estricta, HSTS, Referrer-Policy: no-referrer , Permissions-
+Policy  que solo permite el giroscopio cuando se pide.
+Mayoría de edad
+Puerta de edad con autodeclaración (casilla o fecha de nacimiento) antes de mostrar
+contenido; si la edad introducida después es menor de 18, se corta la sesión.
+Para una verificación más fuerte, se podría integrar más adelante un sistema de
+verificación de edad que preserve la privacidad (prueba de «mayor de 18» sin revelar
+identidad). Decisión abierta: ¿basta la autodeclaración para este producto?
+Etiqueta de contenido para adultos (meta rating ) para que los filtros parentales lo
+bloqueen.
+Dato Dónde vive Qué recibe el servidor
+Nombre Memoria del navegador
+(estado JS)
+Nada; los textos llegan con el hueco
+{nombre}
+Edad o fecha de
+nacimiento
+Memoria del navegador Solo década y signo
+Provincia Memoria del navegador Código de provincia
+Pregunta del usuario Solo en pantalla o en su
+cabeza
+Nada
+Respuestas Sí/No en la
+lectura
+Memoria del navegador La respuesta puntual para elegir la
+frase siguiente
+IP Tránsito por el proxy No se registra; rate limiting solo en
+memoria y de corta duración
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 13 of 17
+
+=====PAGE=====
+
+Textos legales mínimos
+Aviso legal con los datos del titular (LSSI).
+Política de privacidad clara aunque no se guarden datos: explica que no se almacena
+nada y por qué el servidor ve la IP en tránsito (RGPD y LOPDGDD).
+Aviso de entretenimiento en portada y en cada lectura: la app es de humor y no
+sustituye consejo médico, legal, psicológico ni financiero.
+Sin servicios de pago por teléfono ni llamadas reales: las bromas de «tarot de
+madrugada» no llevan a ningún número.
+Estos puntos deben validarse con una asesoría legal antes del lanzamiento.
+Fases del proyecto
+El lanzamiento se plantea en la semana 16 con 6 fases y 3 puertas de aprobación.
+La fase 2 es la más larga porque concentra la ilustración de las dos primeras barajas y la
+mecánica completa de la lectura.
+Fase 0 · Descubrimiento y diseño (2 semanas)
+Personaje de la vidente, nombre definitivo y tono de marca.
+Guía de estilo, wireframes de las 10 pantallas y prototipo navegable en Figma.
+Prototipo técnico de 2 animaciones de riesgo: barajado/corte y giro 3D de carta.
+Decisión legal sobre la verificación de edad.
+Puerta: diseño aprobado.
+cronograma · 6 fases, 16 semanas, 3 puertas
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 14 of 17
+
+=====PAGE=====
+
+Fase 1 · Cimientos (2 semanas)
+Monorepo, CI/CD, docker-compose  con proxy, web y API.
+Esqueleto de Spring Boot con los módulos y la API v1 documentada.
+Esquemas JSON de barajas, tiradas, plantillas y provincias, con validación.
+Motor de plantillas v0 con soporte multidioma (i18n) desde el principio, y sistema de
+animación base del front.
+Fase 2 · MVP del tarot (4 semanas)
+Puerta +18, nombre, edad y mapa de provincias.
+Rider-Waite-Smith y baraja española castellana, con 78 y 40 cartas ilustradas.
+Tiradas de 1, 3 y 5 cartas; barajado, corte, selección y revelado.
+Motor narrativo con 2 tonos, unos 300 fragmentos y preguntas Sí/No.
+Puerta: demo del MVP con usuarios de prueba.
+Fase 3 · Péndulo (3 semanas)
+Física del péndulo, control con ratón, dedo y giroscopio.
+3 modelos (cuarzo, latón, uno cómico) y modos Sí/No, tablero semicircular y mapa.
+Fase 4 · Contenido y pulido (3 semanas)
+Resto de barajas, modelos y tiradas (herradura, Cruz Celta, amor).
+6 tonos y más de 1.500 fragmentos; fichas de las 52 provincias.
+Resto de péndulos y modos; sección de titulaciones y diploma descargable.
+Sonido, modo de movimiento reducido, rendimiento en móvil (objetivo: 60 fps en un
+móvil de gama media).
+Fase 5 · Calidad y lanzamiento (2 semanas)
+Pruebas E2E con Playwright y pruebas de carga del API.
+Auditoría de privacidad: inspección del tráfico para confirmar que nombre, edad y
+pregunta nunca salen del navegador.
+Análisis de seguridad (OWASP ZAP, Trivy), textos legales revisados, beta cerrada.
+Puerta: lanzamiento.
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 15 of 17
+
+=====PAGE=====
+
+Equipo propuesto
+Riesgos principales
+Rol Dedicación
+Jefe/a de proyecto 50 %
+Desarrollador/a front especialista en animación y
+3D
+100 %
+Desarrollador/a front 100 %
+Desarrollador/a backend Java 100 % en fases 1–2, 50 % después
+Ilustrador/a (cartas, péndulos, diplomas) 100 % en fases 0–4
+Guionista de humor (fragmentos y fichas) 50 %
+QA 50 % en fases 2–5
+DevOps 20 %
+Riesgo Impacto Mitigación
+Ilustrar más de 300 cartas entre
+todos los modelos
+Retraso de
+contenido
+Empezar con 2 modelos; usar el
+arte de dominio público de RWS y
+Marsella restaurado
+Animaciones pesadas en móviles
+modestos
+Mala experiencia Presupuesto de rendimiento por
+pantalla, modo ligero
+Textos repetitivos o de mal gusto Abandono,
+quejas
+Revisión editorial, límites de
+contenido, pruebas con usuarios
+Licencias de barajas e IP de
+terceros (p. ej. referencias a
+sagas)
+Legal Solo arte propio o de dominio
+público; parodias sin marcas
+Verificación de edad insuficiente Legal y
+reputación
+Decisión en fase 0 con asesoría
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 16 of 17
+
+=====PAGE=====
+
+Decisiones tomadas
+Pregunta abierta
+¿Basta con la autodeclaración de edad o hace falta verificación fuerte? Se decide en la
+fase 0 con asesoría legal.
+Tema Decisión
+Nombre Web «Tarotazo»; vidente «Madame
+Remedios»
+Monetización Ninguna: web gratuita, sin anuncios ni
+pagos
+Idiomas Multidioma por diseño; lanzamiento en
+castellano
+Evolución posterior (IA, barajas de
+temporada, lectura para dos)
+Fuera de alcance de momento
+«Tarotazo» — Diseño de la aplicación y fases del proyecto
+Page 17 of 17
