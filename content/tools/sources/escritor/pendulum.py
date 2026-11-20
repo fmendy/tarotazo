@@ -232,6 +232,16 @@ lines = {
         "Medianoche. Momento mágico. El péndulo pide que le hagas la mejor pregunta del día.",
         "Hora bruja. El péndulo brilla, las velas tiemblan y el gato se ha ido a dormir.",
     ],
+    "concentrar": [
+        "Apago las luces. Piensa en tu pregunta… pero no tan fuerte, que se te arruga la frente.",
+        "Concentración. Mente en blanco. Si se te cuela la lista de la compra, déjala pasar.",
+        "Silencio. Solo se oye el péndulo y tu respiración. Y la nevera, pero eso no cuenta.",
+        "Cierra los ojos un momento. Bueno, ábrelos, que si no no ves al péndulo.",
+        "Respira despacio. El péndulo nota la prisa y se pone nervioso.",
+        "Piensa la pregunta como si se la contaras a alguien de confianza. Sin rodeos.",
+        "Ahora quieto el cuerpo, quieta la mano y que el ánimo descanse. Lo demás lo pone tu subconsciente. Y un poco el azar.",
+        "Modo concentración activado. Si oyes una campanilla, no es el más allá: es el sonido ambiente."
+    ],
 }
 
 models = {

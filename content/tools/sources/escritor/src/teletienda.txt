@@ -69,10 +69,10 @@ Sí, sí… ¡SÍ! ¡Esto es lo que yo te decía!
 @{"posicion": ["otra"]} ¡Y la otra persona! ¡Ay, que la estoy viendo! ¡Bueno, intuyendo!
 @{"posicion": ["une"]} ¡Lo que os une, cariño! ¡Corazoncitos en pantalla!
 @{"posicion": ["separa"]} ¡Lo que os separa! ¡Que lo vamos a arreglar en directo!
-¡En «{posicion}», mi vida, atención!
-¡Vamos con «{posicion}», que me lo piden en control!
-¡Y en la casilla de «{posicion}», sorpresa!
-@{"primeraCarta": false} ¡Después de {cartaAnterior}, cariño, esto lo confirma TODO!
+¡En {posicion}, mi vida, atención!
+¡Vamos con {posicion}, que me lo piden en control!
+¡Y ahora, {posicion}! ¡Sorpresa!
+@{"primeraCarta": false} ¡Primero {cartaAnterior} y ahora esto, cariño! ¡Lo confirma TODO!
 @{"primeraCarta": false} ¡{cartaAnterior} nos dejó con la intriga, y ahora llega la respuesta!
 
 # personalizacion
@@ -83,16 +83,16 @@ Sí, sí… ¡SÍ! ¡Esto es lo que yo te decía!
 ¡{edad} años y una energía que traspasa la pantalla, {nombre}!
 ¡Un {signo}! ¡Me lo estaba oliendo desde la publicidad!
 ¡Número de vida {numeroVida}, cariño! ¡Apúntalo! ¡En un papel, no en ningún sitio más!
-¡Desde {provincia}, tierra de {plato}, nos llama un alma preciosa!
+¡Desde {provincia}, con {plato} en la mesa, nos llama un alma preciosa!
 ¡Saludos a todo {provincia}, que en {fiesta} se baila como en ningún sitio!
-¡Allí en {provincia}, donde {clima}, hay alguien que necesita esta lectura!
+¡Allí en {provincia}, con {clima}, hay alguien que necesita esta lectura!
 ¡Lo {gentilicio} que tienes, {nombre}, se nota hasta por la línea!
 ¡Un {diaSemana} de tarot, cariño! ¡El mejor día de la semana para escucharme!
-¡En esta {estacion} te veo brillando, mi vida!
+¡Estamos en {estacion} y te veo brillando, mi vida!
 @{"primeraCarta": false} ¡{cartaAnterior} y ahora {carta}, {nombre}! ¡Esto es un combo, cariño, un dos por uno de destino!
-@{"primeraCarta": false} ¡Mira cómo engancha {carta} con {cartaAnterior}, {nombre}! ¡Como un culebrón!
+@{"primeraCarta": false} ¡Mira cómo enganchan, {nombre}: {cartaAnterior} y {carta}! ¡Como un culebrón!
 ¡{carta} para {nombre}! ¡Que la saquen en grande!
-¡Esto de {carta}, {nombre}, no me sale todas las noches, eh!
+¡{carta}, {nombre}! ¡Esto no me sale todas las noches, eh!
 @{"horaMin": 0, "horaMax": 5} ¿Qué haces sin dormir a estas horas, {nombre}? ¡Pues mejor, que es cuando yo veo más claro!
 @{"horaMin": 0, "horaMax": 5} ¡A estas horas, cariño, solo quedamos tú, yo y la de la teletienda de sartenes! ¡Y yo soy más interesante!
 @{"horaMin": 2, "horaMax": 5} ¡Las {hora} de la madrugada y {nombre} con las cartas! ¡Así me gusta!

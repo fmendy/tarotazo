@@ -805,7 +805,7 @@
       "tones": [
         "coach"
       ],
-      "text": "¡En «{posicion}», un aprendizaje!"
+      "text": "¡En {posicion}, un aprendizaje!"
     },
     {
       "id": "puente.coach.028",
@@ -813,7 +813,7 @@
       "tones": [
         "coach"
       ],
-      "text": "¡Vamos con «{posicion}»! ¡Mente abierta!"
+      "text": "¡Vamos con {posicion}! ¡Mente abierta!"
     },
     {
       "id": "puente.coach.029",
@@ -821,7 +821,7 @@
       "tones": [
         "coach"
       ],
-      "text": "¡«{posicion}»! ¡Otro paso en tu camino!"
+      "text": "¡Y ahora, {posicion}! ¡Otro paso en tu camino!"
     },
     {
       "id": "puente.coach.030",
@@ -832,7 +832,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "¡Después de {cartaAnterior}, esta carta te da el siguiente paso!"
+      "text": "¡Primero salió {cartaAnterior}! ¡Y ahora esta carta te da el siguiente paso!"
     },
     {
       "id": "puente.coach.031",
@@ -923,7 +923,7 @@
       "tones": [
         "coach"
       ],
-      "text": "¡{plato} es combustible para el éxito, {nombre}! ¡Con moderación!"
+      "text": "¡Combustible para el éxito, {nombre}: {plato}! ¡Con moderación!"
     },
     {
       "id": "personalizacion.coach.011",
@@ -939,7 +939,7 @@
       "tones": [
         "coach"
       ],
-      "text": "¡Esta {estacion} es tu {estacion}, {nombre}! ¡Aprovéchala!"
+      "text": "¡Estamos en {estacion}, {nombre}, y es tu momento! ¡Aprovéchalo!"
     },
     {
       "id": "personalizacion.coach.013",
@@ -969,7 +969,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "¡De {cartaAnterior} a {carta}! ¿Lo ves, {nombre}? ¡Estás avanzando!"
+      "text": "¡Primero {cartaAnterior}, luego {carta}! ¿Lo ves, {nombre}? ¡Estás avanzando!"
     },
     {
       "id": "personalizacion.coach.016",

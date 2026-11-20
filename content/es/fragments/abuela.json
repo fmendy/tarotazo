@@ -741,7 +741,7 @@
       "tones": [
         "abuela"
       ],
-      "text": "Aquí, en lo de «{posicion}»…"
+      "text": "Aquí, en {posicion}…"
     },
     {
       "id": "puente.abuela.025",
@@ -749,7 +749,7 @@
       "tones": [
         "abuela"
       ],
-      "text": "Donde pone «{posicion}», a ver qué dice…"
+      "text": "Y ahora, {posicion}, a ver qué dice…"
     },
     {
       "id": "puente.abuela.026",
@@ -757,7 +757,7 @@
       "tones": [
         "abuela"
       ],
-      "text": "Y en «{posicion}», ya verás tú…"
+      "text": "Y en {posicion}, ya verás tú…"
     },
     {
       "id": "puente.abuela.027",
@@ -768,7 +768,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "Y después de {cartaAnterior}, mira tú lo que sale…"
+      "text": "Primero salió {cartaAnterior}, y ahora mira tú lo que sale…"
     },
     {
       "id": "puente.abuela.028",
@@ -811,7 +811,7 @@
       "tones": [
         "abuela"
       ],
-      "text": "Los de {provincia} sois así, buena gente. Y de buen comer: {plato} no lo perdonáis."
+      "text": "Los de {provincia} sois así, buena gente. Y de buen comer: nadie os quita {plato}."
     },
     {
       "id": "personalizacion.abuela.005",
@@ -819,7 +819,7 @@
       "tones": [
         "abuela"
       ],
-      "text": "¿Has comido, {nombre}? Que te veo flojito el ánimo. Mira, {plato} es lo que te hace falta."
+      "text": "¿Has comido, {nombre}? Que te veo flojito el ánimo. Mira, lo que te hace falta: {plato}."
     },
     {
       "id": "personalizacion.abuela.006",
@@ -894,7 +894,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "Mira, {nombre}: después de {cartaAnterior}, esta {carta} es como el postre después del cocido."
+      "text": "Mira, {nombre}: primero {cartaAnterior} y ahora {carta}. Es como el postre después del cocido."
     },
     {
       "id": "personalizacion.abuela.015",
@@ -921,7 +921,7 @@
       "tones": [
         "abuela"
       ],
-      "text": "Ay, {nombre}, ¿de verdad me vas a hacer creer que no sabías lo que significa {carta}? Si te lo conté yo."
+      "text": "Ay, {nombre}, ha salido {carta}. ¿De verdad no sabías lo que significa? Si te lo conté yo."
     },
     {
       "id": "personalizacion.abuela.018",

@@ -74,10 +74,10 @@
 @{"posicion": ["respuesta"]} ¡La respuesta! ¡Clara y directa, como un buen feedback!
 @{"posicion": ["matiz"]} ¡El matiz! ¡Porque la vida no es blanco o negro!
 @{"posicion": ["remate"]} ¡El remate! ¡La conclusión que lo cierra todo!
-¡En «{posicion}», un aprendizaje!
-¡Vamos con «{posicion}»! ¡Mente abierta!
-¡«{posicion}»! ¡Otro paso en tu camino!
-@{"primeraCarta": false} ¡Después de {cartaAnterior}, esta carta te da el siguiente paso!
+¡En {posicion}, un aprendizaje!
+¡Vamos con {posicion}! ¡Mente abierta!
+¡Y ahora, {posicion}! ¡Otro paso en tu camino!
+@{"primeraCarta": false} ¡Primero salió {cartaAnterior}! ¡Y ahora esta carta te da el siguiente paso!
 @{"primeraCarta": false} ¡{cartaAnterior} fue el calentamiento! ¡Ahora, el ejercicio de verdad!
 
 # personalizacion
@@ -90,12 +90,12 @@
 ¡{nombre} de {provincia}! ¡Que tu tierra sea tu fuerza!
 ¡En {provincia} sabéis lo que es la constancia! ¡Con {clima}, cualquiera aguanta!
 ¡Lo {gentilicio} que llevas dentro es tu superpoder!
-¡{plato} es combustible para el éxito, {nombre}! ¡Con moderación!
+¡Combustible para el éxito, {nombre}: {plato}! ¡Con moderación!
 ¡Hoy es {diaSemana}, {nombre}! ¡Y cada {diaSemana} es una oportunidad!
-¡Esta {estacion} es tu {estacion}, {nombre}! ¡Aprovéchala!
+¡Estamos en {estacion}, {nombre}, y es tu momento! ¡Aprovéchalo!
 ¡Que en {fiesta} te vean brillar, {nombre}!
 @{"primeraCarta": false} ¡{cartaAnterior} y ahora {carta}, {nombre}! ¡Esto es progresión! ¡Esto es evolución!
-@{"primeraCarta": false} ¡De {cartaAnterior} a {carta}! ¿Lo ves, {nombre}? ¡Estás avanzando!
+@{"primeraCarta": false} ¡Primero {cartaAnterior}, luego {carta}! ¿Lo ves, {nombre}? ¡Estás avanzando!
 ¡{carta}, {nombre}! ¡Te la regalo como lema de la semana!
 ¡{nombre}, {carta} te está pidiendo acción! ¡Pequeña, pero acción!
 @{"horaMin": 0, "horaMax": 5} ¿Qué haces sin dormir a estas horas, {nombre}? ¡El descanso es parte del éxito! ¡Ocho horas, campeonato del mundo!

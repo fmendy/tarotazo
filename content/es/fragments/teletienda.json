@@ -740,7 +740,7 @@
       "tones": [
         "teletienda"
       ],
-      "text": "¡En «{posicion}», mi vida, atención!"
+      "text": "¡En {posicion}, mi vida, atención!"
     },
     {
       "id": "puente.teletienda.025",
@@ -748,7 +748,7 @@
       "tones": [
         "teletienda"
       ],
-      "text": "¡Vamos con «{posicion}», que me lo piden en control!"
+      "text": "¡Vamos con {posicion}, que me lo piden en control!"
     },
     {
       "id": "puente.teletienda.026",
@@ -756,7 +756,7 @@
       "tones": [
         "teletienda"
       ],
-      "text": "¡Y en la casilla de «{posicion}», sorpresa!"
+      "text": "¡Y ahora, {posicion}! ¡Sorpresa!"
     },
     {
       "id": "puente.teletienda.027",
@@ -767,7 +767,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "¡Después de {cartaAnterior}, cariño, esto lo confirma TODO!"
+      "text": "¡Primero {cartaAnterior} y ahora esto, cariño! ¡Lo confirma TODO!"
     },
     {
       "id": "puente.teletienda.028",
@@ -842,7 +842,7 @@
       "tones": [
         "teletienda"
       ],
-      "text": "¡Desde {provincia}, tierra de {plato}, nos llama un alma preciosa!"
+      "text": "¡Desde {provincia}, con {plato} en la mesa, nos llama un alma preciosa!"
     },
     {
       "id": "personalizacion.teletienda.009",
@@ -858,7 +858,7 @@
       "tones": [
         "teletienda"
       ],
-      "text": "¡Allí en {provincia}, donde {clima}, hay alguien que necesita esta lectura!"
+      "text": "¡Allí en {provincia}, con {clima}, hay alguien que necesita esta lectura!"
     },
     {
       "id": "personalizacion.teletienda.011",
@@ -882,7 +882,7 @@
       "tones": [
         "teletienda"
       ],
-      "text": "¡En esta {estacion} te veo brillando, mi vida!"
+      "text": "¡Estamos en {estacion} y te veo brillando, mi vida!"
     },
     {
       "id": "personalizacion.teletienda.014",
@@ -904,7 +904,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "¡Mira cómo engancha {carta} con {cartaAnterior}, {nombre}! ¡Como un culebrón!"
+      "text": "¡Mira cómo enganchan, {nombre}: {cartaAnterior} y {carta}! ¡Como un culebrón!"
     },
     {
       "id": "personalizacion.teletienda.016",
@@ -920,7 +920,7 @@
       "tones": [
         "teletienda"
       ],
-      "text": "¡Esto de {carta}, {nombre}, no me sale todas las noches, eh!"
+      "text": "¡{carta}, {nombre}! ¡Esto no me sale todas las noches, eh!"
     },
     {
       "id": "personalizacion.teletienda.018",

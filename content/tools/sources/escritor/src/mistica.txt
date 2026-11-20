@@ -67,10 +67,10 @@ Los ancestros miran. Con gafas de cerca.
 @{"posicion": ["otra"]} La otra persona, envuelta en su propio misterio…
 @{"posicion": ["une"]} Lo que os une, ese hilo rojo invisible…
 @{"posicion": ["separa"]} Lo que os separa, ese charco cósmico que habrá que saltar…
-En la casa de «{posicion}», los astros dictan…
-Sobre el lugar de «{posicion}» cae la luz de la vela…
-Allí donde se sienta «{posicion}», se revela…
-@{"primeraCarta": false} Después de {cartaAnterior}, el relato continúa…
+En {posicion}, los astros dictan…
+Sobre {posicion} cae la luz de la vela…
+Y en {posicion}, el velo se aparta y revela…
+@{"primeraCarta": false} Tras la carta anterior, {cartaAnterior}, el relato continúa…
 @{"primeraCarta": false} {cartaAnterior} abrió una puerta; esta carta entra por ella…
 
 # personalizacion
@@ -80,19 +80,19 @@ La {inicial} de {nombre} es una runa antigua. O una letra. Las dos cosas.
 {edad} años de viaje por este plano, y el cosmos aún te reserva sorpresas.
 Las estrellas que vieron nacer a un alma de {signo} se inclinan ahora sobre ti.
 Tu número de vida es el {numeroVida}. El universo lo susurra… y luego lo repite, porque no le oías.
-Las energías de {provincia} te acompañan como una brisa con olor a {plato}.
+Las energías de {provincia} te acompañan. Y {plato}, que también es una forma de energía.
 Lo {gentilicio} que hay en ti es raíz, y las raíces no se arrancan.
 Hoy es {diaSemana}, y el {diaSemana} es día de revelaciones discretas.
-En esta {estacion}, las energías de {signo} cambian de piel.
+En {estacion}, las energías de {signo} cambian de piel.
 La tierra de {provincia} recuerda tu primer llanto. Y lo comenta en voz baja.
 {nombre}, el éter pronuncia tu nombre con acento de {provincia}.
-Siento la vibración de {fiesta} en tus pies. Los astros también bailan.
-Allí, en {provincia}, donde {clima}, se forjó tu temple.
+Siento una vibración festiva en tus pies: {fiesta}. Los astros también bailan.
+Allí, en {provincia}, con {clima}, se forjó tu temple.
 Un {signo} con número de vida {numeroVida}. Qué combinación tan… cósmica. Tan rara. Tan tú.
 @{"primeraCarta": false} {cartaAnterior} y {carta}, {nombre}: dos estrellas de la misma constelación.
-@{"primeraCarta": false} Lo que anunció {cartaAnterior}, {carta} lo confirma con sello de lacre.
-Mira {carta}, {nombre}. Mírala como quien mira el mar.
-El destino te mandó {carta} igual que se manda una carta certificada: con acuse de recibo.
+@{"primeraCarta": false} {cartaAnterior} lo anunció; {carta} lo confirma con sello de lacre.
+Ha salido {carta}, {nombre}. Mírala como quien mira el mar.
+{carta}: el destino te la manda como una carta certificada, con acuse de recibo.
 @{"horaMin": 0, "horaMax": 5} ¿Qué haces sin dormir a estas horas, {nombre}? Ah, claro: el velo entre mundos está más fino. Y la tele, peor.
 @{"horaMin": 0, "horaMax": 5} A estas horas solo velan los búhos, los panaderos y las almas que buscan respuestas.
 @{"horaMin": 2, "horaMax": 5} Las {hora} de la madrugada. La hora en que los arcanos hablan sin filtro.
@@ -255,7 +255,7 @@ Regresa cuando las estrellas te llamen. Suelen llamar los jueves.
 Llévate esta lectura como quien se lleva una piedra bonita de la playa: en el bolsillo y sin darle muchas vueltas.
 El velo vuelve a cerrarse. Lo que has visto, guárdalo. Lo que no, ya lo verás.
 Ve con los astros, {nombre} de {provincia}.
-Que la energía de {signo} te guíe por esta {estacion}.
+Que la energía de {signo} te guíe ahora que estamos en {estacion}.
 Recuerda: esto es entretenimiento cósmico. El destino, en serio, lo escribes tú.
 @{"horaMin": 0, "horaMax": 5} Y ahora, a dormir, {nombre}. Hasta las estrellas se acuestan… al amanecer.
 Me retiro a mi plano. Vuelve cuando quieras; la puerta astral no tiene timbre.

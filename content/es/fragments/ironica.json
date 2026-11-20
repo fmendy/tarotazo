@@ -753,7 +753,7 @@
       "tones": [
         "ironica"
       ],
-      "text": "En «{posicion}». Que suena muy solemne para lo que es…"
+      "text": "Vamos con {posicion}. Que suena muy solemne para lo que es…"
     },
     {
       "id": "puente.ironica.025",
@@ -761,7 +761,7 @@
       "tones": [
         "ironica"
       ],
-      "text": "En la casilla de «{posicion}», por si se te había ido el hilo…"
+      "text": "Ahora toca {posicion}, por si se te había ido el hilo…"
     },
     {
       "id": "puente.ironica.026",
@@ -769,7 +769,7 @@
       "tones": [
         "ironica"
       ],
-      "text": "Y aquí, en «{posicion}», viene la parte interesante. Supuestamente…"
+      "text": "Y aquí, en {posicion}, viene la parte interesante. Supuestamente…"
     },
     {
       "id": "puente.ironica.027",
@@ -780,7 +780,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "Después de {cartaAnterior}, esto. Hay un hilo, si entornas los ojos…"
+      "text": "Primero {cartaAnterior}, ahora esto. Hay un hilo, si entornas los ojos…"
     },
     {
       "id": "puente.ironica.028",
@@ -847,7 +847,7 @@
       "tones": [
         "ironica"
       ],
-      "text": "Nacer en {provincia} imprime carácter. Lo de {plato}, sobre todo."
+      "text": "Nacer en {provincia} imprime carácter. Y criarse con {plato} en la mesa, más todavía."
     },
     {
       "id": "personalizacion.ironica.008",
@@ -895,7 +895,7 @@
       "tones": [
         "ironica"
       ],
-      "text": "Si alguien en {provincia} te pregunta qué te ha salido, diles que {carta}. Y luego cambia de tema."
+      "text": "Si alguien en {provincia} te pregunta qué te ha salido, di «me ha salido {carta}». Y luego cambia de tema."
     },
     {
       "id": "personalizacion.ironica.014",
@@ -917,7 +917,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "De {cartaAnterior} a {carta}. Narrativamente, me gusta. Personalmente, te deseo suerte."
+      "text": "Primero {cartaAnterior}, luego {carta}. Narrativamente, me gusta. Personalmente, te deseo suerte."
     },
     {
       "id": "personalizacion.ironica.016",
@@ -933,7 +933,7 @@
       "tones": [
         "ironica"
       ],
-      "text": "Mira, {nombre}: {carta} no dice lo que vas a hacer. Dice lo que ya sabías y no querías admitir."
+      "text": "{carta}, {nombre}, no dice lo que vas a hacer. Dice lo que ya sabías y no querías admitir."
     },
     {
       "id": "personalizacion.ironica.018",

@@ -753,7 +753,7 @@
       "tones": [
         "dramatica"
       ],
-      "text": "¡En «{posicion}»! ¡Qué momento! ¡Qué palabra!"
+      "text": "¡En {posicion}! ¡Qué momento! ¡Qué expectación!"
     },
     {
       "id": "puente.dramatica.025",
@@ -761,7 +761,7 @@
       "tones": [
         "dramatica"
       ],
-      "text": "¡Llegamos a «{posicion}»! ¡Que suba la música!"
+      "text": "¡Y ahora, {posicion}! ¡Que suba la música!"
     },
     {
       "id": "puente.dramatica.026",
@@ -769,7 +769,7 @@
       "tones": [
         "dramatica"
       ],
-      "text": "¡Y en «{posicion}», atención, atención…!"
+      "text": "¡Y en {posicion}, atención, atención…!"
     },
     {
       "id": "puente.dramatica.027",
@@ -780,7 +780,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "¡Después de {cartaAnterior}, esto! ¡Qué secuencia! ¡Qué dramaturgia!"
+      "text": "¡Primero {cartaAnterior}, y ahora esto! ¡Qué secuencia! ¡Qué dramaturgia!"
     },
     {
       "id": "puente.dramatica.028",
@@ -855,7 +855,7 @@
       "tones": [
         "dramatica"
       ],
-      "text": "¡En {provincia}, donde {clima}, se forjan los caracteres más intensos!"
+      "text": "¡En {provincia}, con {clima}, se forjan los caracteres más intensos!"
     },
     {
       "id": "personalizacion.dramatica.009",
@@ -863,7 +863,7 @@
       "tones": [
         "dramatica"
       ],
-      "text": "¡Ni {plato} tiene tanto drama como esta carta, {nombre}! ¡Y mira que tiene!"
+      "text": "¡Ni con {plato} delante se ve tanto drama como en esta carta, {nombre}!"
     },
     {
       "id": "personalizacion.dramatica.010",
@@ -895,7 +895,7 @@
       "tones": [
         "dramatica"
       ],
-      "text": "¡En esta {estacion}, {nombre}, el destino cambia de vestuario!"
+      "text": "¡Estamos en {estacion}, {nombre}, y el destino cambia de vestuario!"
     },
     {
       "id": "personalizacion.dramatica.014",
@@ -933,7 +933,7 @@
       "tones": [
         "dramatica"
       ],
-      "text": "¡Ay, {nombre}, si supieras lo que significa {carta}…! Te lo cuento, que para eso estoy."
+      "text": "¡Ay, {nombre}, ha salido {carta}! ¡Si supieras lo que significa…! Te lo cuento, que para eso estoy."
     },
     {
       "id": "personalizacion.dramatica.018",

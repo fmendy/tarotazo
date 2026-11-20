@@ -734,7 +734,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "En la casa de «{posicion}», los astros dictan…"
+      "text": "En {posicion}, los astros dictan…"
     },
     {
       "id": "puente.mistica.025",
@@ -742,7 +742,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "Sobre el lugar de «{posicion}» cae la luz de la vela…"
+      "text": "Sobre {posicion} cae la luz de la vela…"
     },
     {
       "id": "puente.mistica.026",
@@ -750,7 +750,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "Allí donde se sienta «{posicion}», se revela…"
+      "text": "Y en {posicion}, el velo se aparta y revela…"
     },
     {
       "id": "puente.mistica.027",
@@ -761,7 +761,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "Después de {cartaAnterior}, el relato continúa…"
+      "text": "Tras la carta anterior, {cartaAnterior}, el relato continúa…"
     },
     {
       "id": "puente.mistica.028",
@@ -828,7 +828,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "Las energías de {provincia} te acompañan como una brisa con olor a {plato}."
+      "text": "Las energías de {provincia} te acompañan. Y {plato}, que también es una forma de energía."
     },
     {
       "id": "personalizacion.mistica.008",
@@ -852,7 +852,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "En esta {estacion}, las energías de {signo} cambian de piel."
+      "text": "En {estacion}, las energías de {signo} cambian de piel."
     },
     {
       "id": "personalizacion.mistica.011",
@@ -876,7 +876,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "Siento la vibración de {fiesta} en tus pies. Los astros también bailan."
+      "text": "Siento una vibración festiva en tus pies: {fiesta}. Los astros también bailan."
     },
     {
       "id": "personalizacion.mistica.014",
@@ -884,7 +884,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "Allí, en {provincia}, donde {clima}, se forjó tu temple."
+      "text": "Allí, en {provincia}, con {clima}, se forjó tu temple."
     },
     {
       "id": "personalizacion.mistica.015",
@@ -914,7 +914,7 @@
       "when": {
         "primeraCarta": false
       },
-      "text": "Lo que anunció {cartaAnterior}, {carta} lo confirma con sello de lacre."
+      "text": "{cartaAnterior} lo anunció; {carta} lo confirma con sello de lacre."
     },
     {
       "id": "personalizacion.mistica.018",
@@ -922,7 +922,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "Mira {carta}, {nombre}. Mírala como quien mira el mar."
+      "text": "Ha salido {carta}, {nombre}. Mírala como quien mira el mar."
     },
     {
       "id": "personalizacion.mistica.019",
@@ -930,7 +930,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "El destino te mandó {carta} igual que se manda una carta certificada: con acuse de recibo."
+      "text": "{carta}: el destino te la manda como una carta certificada, con acuse de recibo."
     },
     {
       "id": "personalizacion.mistica.020",
@@ -2418,7 +2418,7 @@
       "tones": [
         "mistica"
       ],
-      "text": "Que la energía de {signo} te guíe por esta {estacion}."
+      "text": "Que la energía de {signo} te guíe ahora que estamos en {estacion}."
     },
     {
       "id": "despedida.mistica.012",
