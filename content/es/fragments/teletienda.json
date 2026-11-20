@@ -1,0 +1,2470 @@
+{
+  "fragments": [
+    {
+      "id": "entrada.teletienda.001",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Ay, cariño, que te veo algo!"
+    },
+    {
+      "id": "entrada.teletienda.002",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Uy, uy, uy, mi vida! ¡Qué me ha salido!"
+    },
+    {
+      "id": "entrada.teletienda.003",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡No cuelgues, no cuelgues!"
+    },
+    {
+      "id": "entrada.teletienda.004",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Atención, que esto se pone bueno!"
+    },
+    {
+      "id": "entrada.teletienda.005",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mira, mira, mira lo que me sale, corazón!"
+    },
+    {
+      "id": "entrada.teletienda.006",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto es en directo, eh! ¡Sin trampa ni cartón!"
+    },
+    {
+      "id": "entrada.teletienda.007",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Ay, que me tiemblan las manos!"
+    },
+    {
+      "id": "entrada.teletienda.008",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Ojo, que la cámara dos no se lo pierda!"
+    },
+    {
+      "id": "entrada.teletienda.009",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto no me lo esperaba ni yo!"
+    },
+    {
+      "id": "entrada.teletienda.010",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Qué carta, mi amor, qué carta!"
+    },
+    {
+      "id": "entrada.teletienda.011",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Lo estoy viendo clarísimo, cielo!"
+    },
+    {
+      "id": "entrada.teletienda.012",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Que suba la música, que viene una carta potente!"
+    },
+    {
+      "id": "entrada.teletienda.013",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Espera, espera, que me está llegando!"
+    },
+    {
+      "id": "entrada.teletienda.014",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Ay, que me ha dado un escalofrío de los buenos!"
+    },
+    {
+      "id": "entrada.teletienda.015",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "Sí, sí… ¡SÍ! ¡Esto es lo que yo te decía!"
+    },
+    {
+      "id": "entrada.teletienda.016",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Madre mía, qué energía me entra por el pinganillo!"
+    },
+    {
+      "id": "entrada.teletienda.017",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mira a cámara, cariño, que la carta te quiere ver!"
+    },
+    {
+      "id": "entrada.teletienda.018",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Qué bonito, qué bonito, qué bonito!"
+    },
+    {
+      "id": "entrada.teletienda.019",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esta te la explico despacito porque es muy fuerte!"
+    },
+    {
+      "id": "entrada.teletienda.020",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Me la ha dado la baraja en bandeja!"
+    },
+    {
+      "id": "entrada.teletienda.021",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Lo sabía! ¡Lo dije antes de la publicidad!"
+    },
+    {
+      "id": "entrada.teletienda.022",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Cariño, a ti las cartas te han tocado con varita!"
+    },
+    {
+      "id": "entrada.teletienda.023",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Un momentito, que el realizador me está haciendo señas!"
+    },
+    {
+      "id": "entrada.teletienda.024",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Qué bárbaro, mi vida, qué bárbaro!"
+    },
+    {
+      "id": "entrada.teletienda.025",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Uy, del revés! ¡Tranquilidad, que del revés también se lee, que yo soy profesional!"
+    },
+    {
+      "id": "entrada.teletienda.026",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Invertida, cariño! ¡Que no cunda el pánico en el plató!"
+    },
+    {
+      "id": "entrada.teletienda.027",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Boca abajo! ¡Pero no pasa nada, que la giro con la mente!"
+    },
+    {
+      "id": "entrada.teletienda.028",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Del revés, corazón! ¡Esto es como el último minuto de una oferta: hay que entenderlo bien!"
+    },
+    {
+      "id": "entrada.teletienda.029",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "¡Un arcano mayor en directo! ¡Esto no pasa todas las noches!"
+    },
+    {
+      "id": "entrada.teletienda.030",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "¡Arcano mayor, señoras y señores! ¡Y todo lo que haya entre medias!"
+    },
+    {
+      "id": "entrada.teletienda.031",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "¡Uy, esto es de las gordas! ¡Que no se vaya nadie!"
+    },
+    {
+      "id": "entrada.teletienda.032",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "¡La Muerte! ¡Pero no cambies de canal, cariño, que es CAMBIO! ¡Renovación total, como un cambio de look en directo!"
+    },
+    {
+      "id": "entrada.teletienda.033",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "¡Ay, la Muerte, que asusta pero es buenísima! ¡Cierra etapas, mi vida! ¡Es la carta reforma integral!"
+    },
+    {
+      "id": "entrada.teletienda.034",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "¡La Torre! ¡Que tiembla el decorado! ¡Pero tranquilidad: lo que cae es lo que sobraba!"
+    },
+    {
+      "id": "entrada.teletienda.035",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "¡La Torre, cariño! ¡Derribo y obra nueva! ¡Con vistas!"
+    },
+    {
+      "id": "entrada.teletienda.036",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "espadas-10"
+        ]
+      },
+      "text": "¡El diez de espadas! ¡Se acabó el drama, mi amor! ¡Fin de temporada! ¡Lo siguiente es estreno!"
+    },
+    {
+      "id": "entrada.teletienda.037",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-06"
+        ]
+      },
+      "text": "¡Los Enamorados! ¡Que pongan corazoncitos en pantalla!"
+    },
+    {
+      "id": "entrada.teletienda.038",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-19"
+        ]
+      },
+      "text": "¡El Sol! ¡Esto es prime time, cariño!"
+    },
+    {
+      "id": "entrada.teletienda.039",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-01"
+        ]
+      },
+      "text": "¡El Mago! ¡Este hace magia mejor que nuestro técnico de sonido!"
+    },
+    {
+      "id": "entrada.teletienda.040",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "oros-01"
+        ]
+      },
+      "text": "¡El As de Oros! ¡Brillo, brillo, que el plató se ilumina!"
+    },
+    {
+      "id": "entrada.teletienda.041",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-15"
+        ]
+      },
+      "text": "¡El Diablo! ¡Pero el simpático, cariño, el de las tentaciones de chocolate!"
+    },
+    {
+      "id": "entrada.teletienda.042",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "¡Primera carta de la noche! ¡Vamos con todo!"
+    },
+    {
+      "id": "entrada.teletienda.043",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "¡Última carta antes de la despedida! ¡Atención máxima!"
+    },
+    {
+      "id": "entrada.teletienda.044",
+      "slot": "entrada",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡Esto es el horario estelar del tarot, cariño! ¡Madrugada pura!"
+    },
+    {
+      "id": "puente.teletienda.001",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "¡En tu pasado, cariño, te veo cosas! ¡Muchas cosas!"
+    },
+    {
+      "id": "puente.teletienda.002",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "¡Vamos con el pasado, que me lo están pidiendo desde control!"
+    },
+    {
+      "id": "puente.teletienda.003",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "¡Lo que quedó atrás, mi vida, pero que todavía colea!"
+    },
+    {
+      "id": "puente.teletienda.004",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "¡Y ahora, AHORA, en tu presente!"
+    },
+    {
+      "id": "puente.teletienda.005",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "¡Tu presente, corazón, en directo y sin cortes!"
+    },
+    {
+      "id": "puente.teletienda.006",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "¡Esto es lo que está pasando, mientras hablamos!"
+    },
+    {
+      "id": "puente.teletienda.007",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "¡Y en el futuro, atención, que te veo algo grande!"
+    },
+    {
+      "id": "puente.teletienda.008",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "¡Lo que viene, mi vida, lo que viene!"
+    },
+    {
+      "id": "puente.teletienda.009",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "¡Próximamente en tu vida, como dicen en los anuncios!"
+    },
+    {
+      "id": "puente.teletienda.010",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "¡Y mi consejo, que es lo más valioso de la noche!"
+    },
+    {
+      "id": "puente.teletienda.011",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "¡Escúchame bien, cariño, que esto no te lo dicen en otra cadena!"
+    },
+    {
+      "id": "puente.teletienda.012",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "¡Lo que te frena, mi amor, y que vamos a quitar de en medio!"
+    },
+    {
+      "id": "puente.teletienda.013",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "¡El obstáculo! ¡Que entre en pantalla, que le vamos a ver la cara!"
+    },
+    {
+      "id": "puente.teletienda.014",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "¡Y el resultado final, redoble de tambores!"
+    },
+    {
+      "id": "puente.teletienda.015",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "¡Cómo acaba esto, cielo! ¡Que no se vaya nadie!"
+    },
+    {
+      "id": "puente.teletienda.016",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "¡Tu situación, cariño, en primer plano!"
+    },
+    {
+      "id": "puente.teletienda.017",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "¡Vamos al grano, que el tiempo de antena vuela!"
+    },
+    {
+      "id": "puente.teletienda.018",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "¡Tu entorno, mi vida, la gente que te rodea, el público del plató de tu vida!"
+    },
+    {
+      "id": "puente.teletienda.019",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "¡Alrededor tuyo, cariño, hay energías que me están llamando!"
+    },
+    {
+      "id": "puente.teletienda.020",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "tu"
+        ]
+      },
+      "text": "¡Tú, mi amor, protagonista de esta noche!"
+    },
+    {
+      "id": "puente.teletienda.021",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "otra"
+        ]
+      },
+      "text": "¡Y la otra persona! ¡Ay, que la estoy viendo! ¡Bueno, intuyendo!"
+    },
+    {
+      "id": "puente.teletienda.022",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "une"
+        ]
+      },
+      "text": "¡Lo que os une, cariño! ¡Corazoncitos en pantalla!"
+    },
+    {
+      "id": "puente.teletienda.023",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "posicion": [
+          "separa"
+        ]
+      },
+      "text": "¡Lo que os separa! ¡Que lo vamos a arreglar en directo!"
+    },
+    {
+      "id": "puente.teletienda.024",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡En «{posicion}», mi vida, atención!"
+    },
+    {
+      "id": "puente.teletienda.025",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Vamos con «{posicion}», que me lo piden en control!"
+    },
+    {
+      "id": "puente.teletienda.026",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Y en la casilla de «{posicion}», sorpresa!"
+    },
+    {
+      "id": "puente.teletienda.027",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡Después de {cartaAnterior}, cariño, esto lo confirma TODO!"
+    },
+    {
+      "id": "puente.teletienda.028",
+      "slot": "puente",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡{cartaAnterior} nos dejó con la intriga, y ahora llega la respuesta!"
+    },
+    {
+      "id": "personalizacion.teletienda.001",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡{nombre}, cariño, que te veo algo! ¡Algo bonito!"
+    },
+    {
+      "id": "personalizacion.teletienda.002",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Saludamos a {nombre}, que nos ve desde {provincia}! ¡Un besazo!"
+    },
+    {
+      "id": "personalizacion.teletienda.003",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡{nombre} de {provincia}, mi vida, la carta te está mirando a ti!"
+    },
+    {
+      "id": "personalizacion.teletienda.004",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Ay, {nombre}, con la {inicial}! ¡La {inicial} me sale mucho esta noche, cariño!"
+    },
+    {
+      "id": "personalizacion.teletienda.005",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡{edad} años y una energía que traspasa la pantalla, {nombre}!"
+    },
+    {
+      "id": "personalizacion.teletienda.006",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Un {signo}! ¡Me lo estaba oliendo desde la publicidad!"
+    },
+    {
+      "id": "personalizacion.teletienda.007",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Número de vida {numeroVida}, cariño! ¡Apúntalo! ¡En un papel, no en ningún sitio más!"
+    },
+    {
+      "id": "personalizacion.teletienda.008",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Desde {provincia}, tierra de {plato}, nos llama un alma preciosa!"
+    },
+    {
+      "id": "personalizacion.teletienda.009",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Saludos a todo {provincia}, que en {fiesta} se baila como en ningún sitio!"
+    },
+    {
+      "id": "personalizacion.teletienda.010",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Allí en {provincia}, donde {clima}, hay alguien que necesita esta lectura!"
+    },
+    {
+      "id": "personalizacion.teletienda.011",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Lo {gentilicio} que tienes, {nombre}, se nota hasta por la línea!"
+    },
+    {
+      "id": "personalizacion.teletienda.012",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Un {diaSemana} de tarot, cariño! ¡El mejor día de la semana para escucharme!"
+    },
+    {
+      "id": "personalizacion.teletienda.013",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡En esta {estacion} te veo brillando, mi vida!"
+    },
+    {
+      "id": "personalizacion.teletienda.014",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡{cartaAnterior} y ahora {carta}, {nombre}! ¡Esto es un combo, cariño, un dos por uno de destino!"
+    },
+    {
+      "id": "personalizacion.teletienda.015",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡Mira cómo engancha {carta} con {cartaAnterior}, {nombre}! ¡Como un culebrón!"
+    },
+    {
+      "id": "personalizacion.teletienda.016",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡{carta} para {nombre}! ¡Que la saquen en grande!"
+    },
+    {
+      "id": "personalizacion.teletienda.017",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto de {carta}, {nombre}, no me sale todas las noches, eh!"
+    },
+    {
+      "id": "personalizacion.teletienda.018",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¿Qué haces sin dormir a estas horas, {nombre}? ¡Pues mejor, que es cuando yo veo más claro!"
+    },
+    {
+      "id": "personalizacion.teletienda.019",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡A estas horas, cariño, solo quedamos tú, yo y la de la teletienda de sartenes! ¡Y yo soy más interesante!"
+    },
+    {
+      "id": "personalizacion.teletienda.020",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 2,
+        "horaMax": 5
+      },
+      "text": "¡Las {hora} de la madrugada y {nombre} con las cartas! ¡Así me gusta!"
+    },
+    {
+      "id": "personalizacion.teletienda.021",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 6,
+        "horaMax": 9
+      },
+      "text": "¡Tan temprano, {nombre}! ¡Esto parece el programa de la mañana!"
+    },
+    {
+      "id": "personalizacion.teletienda.022",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 14,
+        "horaMax": 16
+      },
+      "text": "¡A la hora de la sobremesa, {nombre}! ¡Como las series turcas, pero con cartas!"
+    },
+    {
+      "id": "personalizacion.teletienda.023",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 21,
+        "horaMax": 23
+      },
+      "text": "¡Ya estamos en horario de noche, {nombre}! ¡Aquí se viene a confesar!"
+    },
+    {
+      "id": "personalizacion.teletienda.024",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "decadaMin": 40
+      },
+      "text": "¡{edad} años, {nombre}! ¡Con la experiencia que tienes, esta carta te la explico de igual a igual!"
+    },
+    {
+      "id": "personalizacion.teletienda.025",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "decadaMin": 60
+      },
+      "text": "¡{nombre}, con tus {edad} años, que me ves desde siempre! ¡Gracias por la fidelidad!"
+    },
+    {
+      "id": "personalizacion.teletienda.026",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "decadaMax": 20
+      },
+      "text": "¡Qué juventud, {nombre}! ¡Bienvenida esa energía a mi programa!"
+    },
+    {
+      "id": "personalizacion.teletienda.027",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "decadaMin": 30,
+        "decadaMax": 30
+      },
+      "text": "¡Los treinta, {nombre}! ¡La mejor edad para que te echen las cartas en directo!"
+    },
+    {
+      "id": "personalizacion.teletienda.028",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡El amor, {nombre}! ¡El tema estrella de mis noches!"
+    },
+    {
+      "id": "personalizacion.teletienda.029",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡Esa persona, cariño, esa persona…! ¡No te digo más porque nos ven!"
+    },
+    {
+      "id": "personalizacion.teletienda.030",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡Si estás pensando en alguien, {nombre}, que se encienda el corazón de la pantalla!"
+    },
+    {
+      "id": "personalizacion.teletienda.031",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡El trabajo, {nombre}! ¡Te veo moviéndote, te veo papeles, te veo reuniones!"
+    },
+    {
+      "id": "personalizacion.teletienda.032",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡En lo laboral, mi vida, hay movimiento! ¡Pero movimiento de los que hay que trabajarse!"
+    },
+    {
+      "id": "personalizacion.teletienda.033",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡El dinero, cariño! ¡Yo no doy números, eh, que esto es tarot, no una ventanilla!"
+    },
+    {
+      "id": "personalizacion.teletienda.034",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡De dinero, {nombre}, solo te digo energía! ¡Las cuentas, con quien sepa!"
+    },
+    {
+      "id": "personalizacion.teletienda.035",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "¡Salud, {nombre}! ¡Lo primero! ¡Y para eso, el médico, que yo solo hago tele!"
+    },
+    {
+      "id": "personalizacion.teletienda.036",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "signo": [
+          "leo"
+        ]
+      },
+      "text": "¡Un Leo! ¡Tú deberías estar en este plató conmigo, cariño!"
+    },
+    {
+      "id": "personalizacion.teletienda.037",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "signo": [
+          "geminis"
+        ]
+      },
+      "text": "¡Géminis! ¡Te leo a las dos personalidades por el precio de una! ¡Gratis, que esto es gratis!"
+    },
+    {
+      "id": "personalizacion.teletienda.038",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "signo": [
+          "piscis"
+        ]
+      },
+      "text": "¡Piscis! ¡Sensibilidad a raudales! ¡Que te pongan un pañuelito en pantalla!"
+    },
+    {
+      "id": "personalizacion.teletienda.039",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "signo": [
+          "capricornio"
+        ]
+      },
+      "text": "¡Capricornio! ¡Seriedad, constancia y esa cara de «a ver qué me cuenta esta»!"
+    },
+    {
+      "id": "personalizacion.teletienda.040",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "signo": [
+          "libra"
+        ]
+      },
+      "text": "¡Libra! ¡Tú que no te decides, hoy decido yo por ti! ¡Bueno, las cartas!"
+    },
+    {
+      "id": "personalizacion.teletienda.041",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "signo": [
+          "sagitario"
+        ]
+      },
+      "text": "¡Sagitario, viajero! ¡Te veo maletas, cariño! ¡Aunque sea de ir al gimnasio!"
+    },
+    {
+      "id": "personalizacion.teletienda.042",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "diaSemana": [
+          5
+        ]
+      },
+      "text": "¡Viernes noche, {nombre}! ¡Esto se pone interesante!"
+    },
+    {
+      "id": "personalizacion.teletienda.043",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "diaSemana": [
+          7
+        ]
+      },
+      "text": "¡Domingo, {nombre}! ¡Programa especial de domingo!"
+    },
+    {
+      "id": "personalizacion.teletienda.044",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "diaSemana": [
+          1
+        ]
+      },
+      "text": "¡Lunes, cariño! ¡Empezamos la semana con energía de plató!"
+    },
+    {
+      "id": "personalizacion.teletienda.045",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "faseLunar": [
+          "llena"
+        ]
+      },
+      "text": "¡Luna llena, {nombre}! ¡Hoy las líneas están que arden! ¡Las líneas espirituales, eh!"
+    },
+    {
+      "id": "personalizacion.teletienda.046",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "faseLunar": [
+          "nueva"
+        ]
+      },
+      "text": "¡Luna nueva, cariño! ¡Temporada nueva, programa nuevo, vida nueva!"
+    },
+    {
+      "id": "personalizacion.teletienda.047",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "faseLunar": [
+          "menguante"
+        ]
+      },
+      "text": "¡Luna menguante, mi vida! ¡Lo malo se va yendo como la audiencia a las cuatro!"
+    },
+    {
+      "id": "personalizacion.teletienda.048",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "estacion": [
+          "verano"
+        ]
+      },
+      "text": "¡En verano, {nombre}, programa de verano! ¡Con abanico!"
+    },
+    {
+      "id": "personalizacion.teletienda.049",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "estacion": [
+          "invierno"
+        ]
+      },
+      "text": "¡Con este frío, {nombre}, una mantita y mi programa!"
+    },
+    {
+      "id": "personalizacion.teletienda.050",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "¡{nombre}, arrancamos! ¡Que entre la sintonía!"
+    },
+    {
+      "id": "personalizacion.teletienda.051",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "¡Última carta para {nombre}! ¡Ya casi tenemos el veredicto!"
+    },
+    {
+      "id": "personalizacion.teletienda.052",
+      "slot": "personalizacion",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Los {decada}, {nombre}! ¡La década en la que las cartas te hablan clarito!"
+    },
+    {
+      "id": "guino.teletienda.001",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto es como la oferta del día, cariño: no se repite!"
+    },
+    {
+      "id": "guino.teletienda.002",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Yo no necesito apuntador, cariño: me lo dicen las cartas!"
+    },
+    {
+      "id": "guino.teletienda.003",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Que conste en acta que yo lo dije en directo!"
+    },
+    {
+      "id": "guino.teletienda.004",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Cariño, tú no te preocupes, que esto lo arreglo yo con una vela y un buen encuadre!"
+    },
+    {
+      "id": "guino.teletienda.005",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Desde el plató os mando energía, que la luz de los focos también es buena!"
+    },
+    {
+      "id": "guino.teletienda.006",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mi compañera del turno de las tres lo vería igual! ¡Bueno, ella ve menos!"
+    },
+    {
+      "id": "guino.teletienda.007",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto no es un milagro, mi vida! ¡Es oficio!"
+    },
+    {
+      "id": "guino.teletienda.008",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Aquí no se cobra, cariño! ¡Esto es tarot de amor al arte!"
+    },
+    {
+      "id": "guino.teletienda.009",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡No hay números de teléfono, no hay letra pequeña, aquí lo único pequeño es mi ego!"
+    },
+    {
+      "id": "guino.teletienda.010",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡En la tele todo parece más grande, cariño, pero esta carta es grande de verdad!"
+    },
+    {
+      "id": "guino.teletienda.011",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mi vida, el maquillaje me lo hago yo, y las lecturas también!"
+    },
+    {
+      "id": "guino.teletienda.012",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Más vale carta en mano que cien en la publicidad!"
+    },
+    {
+      "id": "guino.teletienda.013",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡A quien madruga, Dios le ayuda! ¡Y a quien trasnocha, le leo yo las cartas!"
+    },
+    {
+      "id": "guino.teletienda.014",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Agua que no has de beber, déjala correr! ¡Y una botellita para el plató, por favor!"
+    },
+    {
+      "id": "guino.teletienda.015",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Ojo, que en la siguiente pausa vuelvo con más destino!"
+    },
+    {
+      "id": "guino.teletienda.016",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto es más emocionante que la final del concurso de cocina!"
+    },
+    {
+      "id": "guino.teletienda.017",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Un aplauso para la carta! ¡Bueno, aplaudo yo, que el público está dormido!"
+    },
+    {
+      "id": "guino.teletienda.018",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto tiene más giros que una telenovela de las de ochenta capítulos!"
+    },
+    {
+      "id": "guino.teletienda.019",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Yo tengo un don! ¡Y un vestido de lentejuelas! ¡Las dos cosas brillan!"
+    },
+    {
+      "id": "guino.teletienda.020",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mi abuela echaba las cartas en el patio y yo las echo en la tele! ¡Progreso!"
+    },
+    {
+      "id": "guino.teletienda.021",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Que me pongan el filtro de estrellitas, que esta carta lo merece!"
+    },
+    {
+      "id": "guino.teletienda.022",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Las cartas no mienten, cariño! ¡Los guionistas, a veces!"
+    },
+    {
+      "id": "guino.teletienda.023",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esta carta es como el cuchillo que corta una lata: no te lo crees hasta que lo ves!"
+    },
+    {
+      "id": "guino.teletienda.024",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Aquí no se vende nada, mi vida! ¡Solo se regala ilusión!"
+    },
+    {
+      "id": "guino.teletienda.025",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Y no es todo! ¡Porque si te quedas, te leo otra carta! ¡Y otra!"
+    },
+    {
+      "id": "guino.teletienda.026",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mira la cara de mi técnico de sonido, que se le ha puesto la piel de gallina!"
+    },
+    {
+      "id": "guino.teletienda.027",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto es contenido de calidad, cariño, no como lo del otro canal!"
+    },
+    {
+      "id": "guino.teletienda.028",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Por cada carta que te leo, otra que te regalo! ¡Bueno, eso no, pero queda bonito!"
+    },
+    {
+      "id": "guino.teletienda.029",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Cuando yo digo que veo algo, es que veo algo! ¡Y si no, también!"
+    },
+    {
+      "id": "guino.teletienda.030",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡El tarot es como el horno de convección, cariño: lo cambia todo!"
+    },
+    {
+      "id": "guino.teletienda.031",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto lo estamos viendo en todo el país! ¡Bueno, cuatro y yo, pero muy fieles!"
+    },
+    {
+      "id": "guino.teletienda.032",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Ni una llamada, cariño! ¡Aquí todo es directo, del corazón a la pantalla!"
+    },
+    {
+      "id": "guino.teletienda.033",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Vuelvo a repetirlo para quien acaba de conectar!"
+    },
+    {
+      "id": "guino.teletienda.034",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Por favor, realización, primer plano de la carta, que lo merece!"
+    },
+    {
+      "id": "guino.teletienda.035",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Que me traigan otra vela, que esta lectura tiene mucha luz!"
+    },
+    {
+      "id": "guino.teletienda.036",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Si esto lo ve mi productora, me sube el sueldo!"
+    },
+    {
+      "id": "guino.teletienda.037",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Yo las cartas las leo con el corazón! ¡Y con las gafas de pasta, que son de atrezo!"
+    },
+    {
+      "id": "guino.teletienda.038",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mis cartas son de las buenas, de las que no se doblan con el foco!"
+    },
+    {
+      "id": "guino.teletienda.039",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡En mi pantalla veo tu energía! ¡Y una mosca, que la quiten!"
+    },
+    {
+      "id": "guino.teletienda.040",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto se emite sin cortes, cariño, como la verdad!"
+    },
+    {
+      "id": "guino.teletienda.041",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Hoy tenemos el plató lleno de energía positiva y de cables!"
+    },
+    {
+      "id": "guino.teletienda.042",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Que alguien apague el ventilador, que se me vuelan las cartas!"
+    },
+    {
+      "id": "guino.teletienda.043",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto es tarot de alta definición, cariño!"
+    },
+    {
+      "id": "guino.teletienda.044",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡No, no te vayas a la publicidad, que esto sigue!"
+    },
+    {
+      "id": "guino.teletienda.045",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Desde que estoy en la tele, hasta mi gato tiene más seguidores!"
+    },
+    {
+      "id": "guino.teletienda.046",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Cariño, las estrellas también tienen audiencia, y hoy están todas mirando!"
+    },
+    {
+      "id": "guino.teletienda.047",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Las cartas no tienen botón de rebobinar, así que atención!"
+    },
+    {
+      "id": "guino.teletienda.048",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mi lema es: lo que ves es lo que hay! ¡Y lo que no ves, también lo veo yo!"
+    },
+    {
+      "id": "guino.teletienda.049",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Un saludo a la gente que nos ve con la tele de fondo mientras plancha!"
+    },
+    {
+      "id": "guino.teletienda.050",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esta lectura es de las que se recuerdan en el especial de fin de año!"
+    },
+    {
+      "id": "guino.teletienda.051",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡El amor, cariño, es como un programa en directo: nunca sabes lo que va a pasar!"
+    },
+    {
+      "id": "guino.teletienda.052",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡El trabajo es como la tele: hay que salir con buena cara todos los días!"
+    },
+    {
+      "id": "guino.teletienda.053",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡De dinero no hablo, cariño, que me lo prohíbe el guion! ¡Y la sensatez!"
+    },
+    {
+      "id": "guino.teletienda.054",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡A estas horas la tele es nuestra, cariño! ¡Ni anuncios de colchones nos ganan!"
+    },
+    {
+      "id": "guino.teletienda.055",
+      "slot": "guino",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "faseLunar": [
+          "llena"
+        ]
+      },
+      "text": "¡Con luna llena, el plató brilla solo! ¡Que apaguen un foco!"
+    },
+    {
+      "id": "cambioHumor.teletienda.001",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Perdón, perdón, que me ha dado un aire y me he venido arriba! ¡Seguimos en directo, cariño!"
+    },
+    {
+      "id": "cambioHumor.teletienda.002",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Uy, que me están diciendo desde control que suba la energía! ¡Pues ahí va!"
+    },
+    {
+      "id": "cambioHumor.teletienda.003",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Volvemos de publicidad, mi vida, y vuelvo con todo!"
+    },
+    {
+      "id": "cambioHumor.teletienda.004",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Espera, que me han cambiado el guion! ¡A partir de aquí, modo noche estelar!"
+    },
+    {
+      "id": "cambioHumor.teletienda.005",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Me he tomado un café en la pausa y ahora sí, cariño, ahora sí!"
+    },
+    {
+      "id": "cambioHumor.teletienda.006",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Perdona, que me he puesto seria un momento! ¡Pero esto es tele, y la tele es alegría!"
+    },
+    {
+      "id": "cambioHumor.teletienda.007",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Me pica el pinganillo y eso significa que se acerca algo GORDO! ¡Cambio de ritmo!"
+    },
+    {
+      "id": "cambioHumor.teletienda.008",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Silencio en el plató! ¡Ya está! ¡Seguimos, pero ahora con focos!"
+    },
+    {
+      "id": "cambioHumor.teletienda.009",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Uy, que se me ha ido la voz al tono de las tres de la mañana! ¡Y es el mejor tono!"
+    },
+    {
+      "id": "cambioHumor.teletienda.010",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Me han subido el volumen del micro! ¡Pues ahora lo vas a oír todo, cariño!"
+    },
+    {
+      "id": "cambioHumor.teletienda.011",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Un aire, cariño, un aire del ventilador del plató! ¡Ya estoy de vuelta y con más ganas!"
+    },
+    {
+      "id": "cambioHumor.teletienda.012",
+      "slot": "cambioHumor",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Cambio de cámara! ¡Ahora me ves de perfil, que es mi lado bueno para las cartas fuertes!"
+    },
+    {
+      "id": "sintesis.teletienda.001",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Y esto es todo, {nombre}! ¡Una lectura de las de aplauso!"
+    },
+    {
+      "id": "sintesis.teletienda.002",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Resumen para quien acaba de conectar: a {nombre} le veo cosas buenas, cosas que mover y mucha energía!"
+    },
+    {
+      "id": "sintesis.teletienda.003",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Cariño, esta lectura es de matrícula! ¡De las que se repiten en el resumen semanal!"
+    },
+    {
+      "id": "sintesis.teletienda.004",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Lo que te he visto esta noche, {nombre}, no se ve todos los días! ¡Pero recuerda que esto es entretenimiento!"
+    },
+    {
+      "id": "sintesis.teletienda.005",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Conclusión, mi vida: el destino está de tu parte, pero el mando lo tienes tú!"
+    },
+    {
+      "id": "sintesis.teletienda.006",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "¡Tres o más arcanos mayores, cariño! ¡Esto es audiencia récord del destino!"
+    },
+    {
+      "id": "sintesis.teletienda.007",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "¡Cuántos mayores! ¡Esto en mi programa es una noche histórica!"
+    },
+    {
+      "id": "sintesis.teletienda.008",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "¡Copas por todas partes, cariño! ¡Corazón, corazón y más corazón!"
+    },
+    {
+      "id": "sintesis.teletienda.009",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "¡Las copas mandan, mi vida! ¡Esto es una lectura de emociones en alta definición!"
+    },
+    {
+      "id": "sintesis.teletienda.010",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "¡Muchos oros! ¡Brilla todo! ¡Pero ojo, que yo de cuentas no hablo: hablo de energía material!"
+    },
+    {
+      "id": "sintesis.teletienda.011",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "¡Oros, cariño! ¡Lo práctico, lo terrenal! ¡Con cabeza y sin locuras!"
+    },
+    {
+      "id": "sintesis.teletienda.012",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "¡Espadas, espadas, espadas! ¡Mucha cabeza, cariño! ¡Hay que hablar las cosas!"
+    },
+    {
+      "id": "sintesis.teletienda.013",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "¡Las espadas dominan, mi vida! ¡Decisiones, conversaciones, claridad!"
+    },
+    {
+      "id": "sintesis.teletienda.014",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "¡Bastos a tope! ¡Acción, energía, movimiento! ¡Esto es un programa de deporte!"
+    },
+    {
+      "id": "sintesis.teletienda.015",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "¡Muchos bastos, cariño! ¡Hay chispa, hay fuego, hay ganas!"
+    },
+    {
+      "id": "sintesis.teletienda.016",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "figurasMin": 2
+      },
+      "text": "¡Cuánta gente en tu tirada, cariño! ¡Esto parece un plató lleno de invitados!"
+    },
+    {
+      "id": "sintesis.teletienda.017",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "figurasMin": 3
+      },
+      "text": "¡Reyes, reinas, caballos, sotas! ¡Tu vida tiene más reparto que un culebrón!"
+    },
+    {
+      "id": "sintesis.teletienda.018",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡En el amor, {nombre}, te veo con ilusión! ¡Y eso, cariño, ya es mucho!"
+    },
+    {
+      "id": "sintesis.teletienda.019",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡En el trabajo, mi vida, movimiento y paciencia! ¡Que no todo es prime time!"
+    },
+    {
+      "id": "sintesis.teletienda.020",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡En el dinero, cariño, prudencia! ¡Que yo no doy números ni consejos de cuentas!"
+    },
+    {
+      "id": "sintesis.teletienda.021",
+      "slot": "sintesis",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "¡Y de salud, al médico, cariño! ¡Que yo sé de cartas, no de recetas!"
+    },
+    {
+      "id": "saludo.teletienda.001",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Buenas noches, buenas noches, buenas noches a todo el mundo! ¡Y hoy en el programa tenemos a {nombre}!"
+    },
+    {
+      "id": "saludo.teletienda.002",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Hola, cariño! ¡{nombre}, desde {provincia}! ¡Qué alegría tenerte en antena!"
+    },
+    {
+      "id": "saludo.teletienda.003",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Ya estamos en directo! ¡Tú no te muevas, {nombre}, que esto empieza!"
+    },
+    {
+      "id": "saludo.teletienda.004",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mi vida, qué bien que me ves! ¡Prepara un vaso de agua, que esto va a ser intenso!"
+    },
+    {
+      "id": "saludo.teletienda.005",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Hola, hola! ¡Aquí estamos otra noche más, con las cartas, las velas y la mejor compañía!"
+    },
+    {
+      "id": "saludo.teletienda.006",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡{nombre}, cariño, te estaba esperando! ¡Acomódate en el sofá, que en mi sofá cabe todo el mundo!"
+    },
+    {
+      "id": "saludo.teletienda.007",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Que suene la sintonía! ¡Que se enciendan las velas! ¡Que pase {nombre}!"
+    },
+    {
+      "id": "saludo.teletienda.008",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Te doy la bienvenida a la noche del tarot! ¡Y sin pagar nada, cariño!"
+    },
+    {
+      "id": "saludo.teletienda.009",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Atención, que empieza la lectura de {nombre}, de {provincia}, signo {signo}!"
+    },
+    {
+      "id": "saludo.teletienda.010",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Hola, corazón! ¡Esto es tarot en directo! ¡Bueno, en diferido de hace un segundo!"
+    },
+    {
+      "id": "saludo.teletienda.011",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡Buenas madrugadas, cariño! ¡Esto es la hora buena del tarot!"
+    },
+    {
+      "id": "saludo.teletienda.012",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡Me dicen desde control que vienes por amor! ¡Corazoncitos, por favor!"
+    },
+    {
+      "id": "saludo.teletienda.013",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡Vienes por trabajo, cariño! ¡Hoy, oficina abierta en el plató!"
+    },
+    {
+      "id": "saludo.teletienda.014",
+      "slot": "saludo",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡Vienes por dinero, cariño! ¡Aquí no damos números, pero sí ilusión!"
+    },
+    {
+      "id": "despedida.teletienda.001",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Y hasta aquí la lectura, {nombre}! ¡Un besazo enorme!"
+    },
+    {
+      "id": "despedida.teletienda.002",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Gracias por estar, cariño! ¡Mañana más y mejor!"
+    },
+    {
+      "id": "despedida.teletienda.003",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡No te vayas sin un aplauso para las cartas!"
+    },
+    {
+      "id": "despedida.teletienda.004",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mi vida, cuídate mucho! ¡Y recuerda: esto es entretenimiento, el resto lo decides tú!"
+    },
+    {
+      "id": "despedida.teletienda.005",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Nos vemos en la próxima, {nombre}! ¡Que la energía te acompañe!"
+    },
+    {
+      "id": "despedida.teletienda.006",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Me despido de {nombre}, de {provincia}, y de todo el país! ¡Bueno, de los cuatro que nos ven!"
+    },
+    {
+      "id": "despedida.teletienda.007",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Apaga la tele y ve a por ello, cariño! ¡Bueno, apágala después de los créditos!"
+    },
+    {
+      "id": "despedida.teletienda.008",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Un beso, un abrazo y una vela encendida para ti!"
+    },
+    {
+      "id": "despedida.teletienda.009",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Que no te engañe nadie, cariño! ¡Aquí no hay llamadas ni cobros: solo cartas y cariño!"
+    },
+    {
+      "id": "despedida.teletienda.010",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Hasta mañana, mi vida! ¡Misma hora, mismo plató!"
+    },
+    {
+      "id": "despedida.teletienda.011",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Fin de la emisión, {nombre}! ¡Que sueñes con cartas buenas!"
+    },
+    {
+      "id": "despedida.teletienda.012",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡A dormir, cariño, que ya están poniendo la carta de ajuste!"
+    },
+    {
+      "id": "despedida.teletienda.013",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Y recuerda: no cuelgues nunca la ilusión!"
+    },
+    {
+      "id": "despedida.teletienda.014",
+      "slot": "despedida",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Un saludo a la realización, a maquillaje y a ti, {nombre}, que eres lo más importante!"
+    },
+    {
+      "id": "salud.teletienda.001",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Cariño, para la salud, mejor tu médico! ¡Que yo de lo único que sé curar es el aburrimiento!"
+    },
+    {
+      "id": "salud.teletienda.002",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto es importante, mi vida: la salud, con tu médico! ¡Yo solo leo cartas en la tele!"
+    },
+    {
+      "id": "salud.teletienda.003",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Para eso, mejor tu médico, cariño! ¡Que no tengo bata, tengo lentejuelas!"
+    },
+    {
+      "id": "salud.teletienda.004",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Atención, que esto va en serio: en salud, médico! ¡Las cartas, para pasar el rato!"
+    },
+    {
+      "id": "salud.teletienda.005",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Mi vida, la salud no se mira en las cartas! ¡Pide cita con tu médico y luego vuelves a verme!"
+    },
+    {
+      "id": "salud.teletienda.006",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Esto lo dice la presentadora y lo firma la producción: para la salud, mejor tu médico!"
+    },
+    {
+      "id": "salud.teletienda.007",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Las cartas no recetan, cariño! ¡Tu médico sí! ¡Pues eso!"
+    },
+    {
+      "id": "salud.teletienda.008",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Cariño, que esto sea un rato de risas! ¡Lo de la salud, con profesionales de verdad!"
+    },
+    {
+      "id": "salud.teletienda.009",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Si te preocupa algo, mi vida, al médico! ¡Y si no te preocupa, también, que una revisión no hace daño!"
+    },
+    {
+      "id": "salud.teletienda.010",
+      "slot": "salud",
+      "tones": [
+        "teletienda"
+      ],
+      "text": "¡Ni péndulo ni bola de cristal: para la salud, mejor tu médico! ¡Lo digo en directo!"
+    }
+  ]
+}

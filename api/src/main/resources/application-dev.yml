@@ -1,0 +1,9 @@
+arcana:
+  content-dir: ${ARCANA_CONTENT_DIR:../content}
+  content-strict: false
+  art-dir: ${ARCANA_ART_DIR:../web/public/art}
+
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /api/v1/swagger-ui.html

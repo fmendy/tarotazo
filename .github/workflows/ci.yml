@@ -1,0 +1,168 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: "24"
+  JAVA_VERSION: "25"
+  # Trivy se ejecuta desde su imagen oficial con versión fija (actualizar a conciencia y,
+  # a ser posible, fijar por digest: ver incidente de cadena de suministro de 2026).
+  TRIVY_IMAGE: aquasec/trivy:0.69.3
+
+jobs:
+  web:
+    name: web (tsc, vitest, build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - name: Lint (tsc)
+        run: npm run lint
+      - name: Tests (vitest)
+        run: npm test
+      - name: Build
+        run: npm run build
+
+  api:
+    name: api (mvnw verify)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: api
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: maven
+      - run: chmod +x mvnw
+      - name: Verify
+        run: ./mvnw -B -ntp verify
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: api-test-reports
+          path: api/target/surefire-reports/
+          if-no-files-found: ignore
+          retention-days: 7
+
+  content:
+    name: content (validate.mjs)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Instalar dependencias de content/tools
+        working-directory: content/tools
+        run: |
+          if [ -f package-lock.json ]; then npm ci; elif [ -f package.json ]; then npm install --no-audit --no-fund; fi
+      - name: Validar contenido
+        run: node content/tools/validate.mjs
+
+  images:
+    name: images (buildx + Trivy)
+    runs-on: ubuntu-latest
+    needs: [web, api, content]
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: arcana-web
+            context: web
+            dockerfile: web/Dockerfile
+          - name: arcana-api
+            context: .
+            dockerfile: api/Dockerfile
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - name: Build ${{ matrix.name }}
+        uses: docker/build-push-action@v6
+        with:
+          context: ${{ matrix.context }}
+          file: ${{ matrix.dockerfile }}
+          load: true
+          push: false
+          tags: ${{ matrix.name }}:ci
+          cache-from: type=gha,scope=${{ matrix.name }}
+          cache-to: type=gha,mode=max,scope=${{ matrix.name }}
+      - name: Trivy (falla en CRITICAL)
+        run: |
+          docker run --rm \
+            -v /var/run/docker.sock:/var/run/docker.sock \
+            -v "$HOME/.cache/trivy:/root/.cache/trivy" \
+            "$TRIVY_IMAGE" image \
+              --scanners vuln \
+              --severity CRITICAL \
+              --ignore-unfixed \
+              --exit-code 1 \
+              --no-progress \
+              "${{ matrix.name }}:ci"
+      - name: Trivy (informe HIGH, no bloquea)
+        if: always()
+        run: |
+          docker run --rm \
+            -v /var/run/docker.sock:/var/run/docker.sock \
+            -v "$HOME/.cache/trivy:/root/.cache/trivy" \
+            "$TRIVY_IMAGE" image --scanners vuln,secret,misconfig --severity HIGH --exit-code 0 --no-progress \
+              "${{ matrix.name }}:ci"
+
+  # SonarQube opcional: sólo actúa si existe el secreto SONAR_TOKEN
+  # (y la variable de repositorio SONAR_HOST_URL; SonarCloud si no se define).
+  sonar:
+    name: sonarqube (opcional)
+    runs-on: ubuntu-latest
+    needs: [web, api]
+    env:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      SONAR_HOST_URL: ${{ vars.SONAR_HOST_URL || 'https://sonarcloud.io' }}
+    steps:
+      - name: Sin SONAR_TOKEN -> se omite
+        if: env.SONAR_TOKEN == ''
+        run: echo "SONAR_TOKEN no configurado; análisis omitido."
+      - uses: actions/checkout@v4
+        if: env.SONAR_TOKEN != ''
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-java@v4
+        if: env.SONAR_TOKEN != ''
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: maven
+      - name: Compilar API (bytecode para el análisis Java)
+        if: env.SONAR_TOKEN != ''
+        working-directory: api
+        run: chmod +x mvnw && ./mvnw -B -ntp -DskipTests compile
+      - uses: SonarSource/sonarqube-scan-action@v5
+        if: env.SONAR_TOKEN != ''
+        with:
+          args: >
+            -Dsonar.projectKey=${{ vars.SONAR_PROJECT_KEY || 'arcana' }}
+            -Dsonar.organization=${{ vars.SONAR_ORGANIZATION }}
+            -Dsonar.sources=web/src,api/src/main
+            -Dsonar.tests=api/src/test
+            -Dsonar.java.binaries=api/target/classes
+            -Dsonar.exclusions=**/node_modules/**,**/dist/**

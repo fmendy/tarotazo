@@ -1,0 +1,27 @@
+{
+  "code": "51",
+  "nombre": "Ceuta",
+  "comunidad": "Ceuta",
+  "gentilicio": "ceutí",
+  "plato": [
+    "los pinchitos",
+    "el pescado de la bahía",
+    "los dulces de las distintas tradiciones de la ciudad"
+  ],
+  "fiesta": [
+    "las Fiestas de la Virgen de África",
+    "el Carnaval de Ceuta"
+  ],
+  "clima": [
+    "mediterráneo con viento de Levante y Poniente",
+    "inviernos suaves"
+  ],
+  "chascarrillos": [
+    "Ceuta tiene dos mares a cada lado, por si uno se queda corto.",
+    "En Ceuta el Levante y el Poniente se turnan como dos vecinos muy educados.",
+    "Ceutí: alguien que convive con mil sabores y sabe recomendarte el mejor de cada uno.",
+    "Desde el Monte Hacho se ve tan lejos que casi se lee el futuro sin cartas.",
+    "Las Murallas Reales de Ceuta tienen foso navegable, que es mucho más elegante que una puerta.",
+    "En Ceuta conviven culturas distintas y todas coinciden en algo: la buena mesa."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "code": "45",
+  "nombre": "Toledo",
+  "comunidad": "Castilla-La Mancha",
+  "gentilicio": "toledano/a",
+  "plato": [
+    "las carcamusas",
+    "el mazapán de Toledo",
+    "la perdiz estofada",
+    "el queso manchego"
+  ],
+  "fiesta": [
+    "el Corpus Christi de Toledo",
+    "la Romería de la Virgen del Valle"
+  ],
+  "clima": [
+    "veranos calurosos",
+    "inviernos secos y frescos"
+  ],
+  "chascarrillos": [
+    "Toledo tiene tantas callejuelas que hasta el GPS pide ayuda a una vidente.",
+    "El mazapán de Toledo es tan antiguo como dulce, y eso es mucho decir.",
+    "Las carcamusas toledanas se mojan con pan y se terminan con nostalgia.",
+    "Toledano: alguien que te dice «es aquí cerca» y son siete cuestas.",
+    "En el Corpus las calles se cubren de toldos y huelen a tomillo.",
+    "Toledo es la ciudad de las tres culturas y de los mil miradores."
+  ]
+}

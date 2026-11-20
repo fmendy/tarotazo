@@ -1,0 +1,28 @@
+{
+  "code": "16",
+  "nombre": "Cuenca",
+  "comunidad": "Castilla-La Mancha",
+  "gentilicio": "conquense",
+  "plato": [
+    "el morteruelo",
+    "el ajoarriero conquense",
+    "el alajú",
+    "los zarajos"
+  ],
+  "fiesta": [
+    "la Semana Santa de Cuenca",
+    "las Fiestas de San Mateo"
+  ],
+  "clima": [
+    "inviernos fríos de serranía",
+    "veranos frescos en la hoz"
+  ],
+  "chascarrillos": [
+    "En Cuenca las casas cuelgan del barranco con más aplomo que yo en una tirada de Cruz Celta.",
+    "El morteruelo es el paté de la abuela conquense, y no admite competencia.",
+    "La Ciudad Encantada tiene piedras con forma de todo; yo vi una que se parecía a mi diploma.",
+    "Conquense: alguien que te enseña las Casas Colgadas y luego te cuelga a ti con su conversación.",
+    "Los zarajos se comen con las manos y se recuerdan con el corazón.",
+    "Cuenca está entre dos ríos, que es la forma más elegante de estar en medio."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "code": "40",
+  "nombre": "Segovia",
+  "comunidad": "Castilla y León",
+  "gentilicio": "segoviano/a",
+  "plato": [
+    "el cochinillo asado",
+    "los judiones de La Granja",
+    "el ponche segoviano"
+  ],
+  "fiesta": [
+    "Santa Águeda en Zamarramala",
+    "las Fiestas de San Juan y San Pedro"
+  ],
+  "clima": [
+    "frío serrano",
+    "veranos agradables a la sombra del acueducto"
+  ],
+  "chascarrillos": [
+    "El cochinillo segoviano se corta con el borde de un plato, y así se sabe que está en su punto.",
+    "El acueducto lleva en pie dos mil años sin argamasa: eso sí que es aguante.",
+    "En Zamarramala, por Santa Águeda, mandan las mujeres de la cofradía desde hace siglos.",
+    "Segoviano: alguien que te dice «el acueducto mejor de noche» y tiene razón.",
+    "Los judiones de La Granja son tan grandes que parecen de otro cuento.",
+    "El ponche segoviano es dulce, verde y redondo: como el futuro que te veo."
+  ]
+}

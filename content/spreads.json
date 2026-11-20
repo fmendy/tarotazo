@@ -1,0 +1,124 @@
+{
+  "$comment": "Si minSize existe, el usuario elige entre minSize y size cartas y se usan las primeras N posiciones.",
+  "spreads": [
+    {
+      "id": "dia",
+      "size": 1,
+      "families": [
+        "tarot",
+        "spanish"
+      ],
+      "positions": [
+        "consejo"
+      ],
+      "layout": "single",
+      "order": 1
+    },
+    {
+      "id": "ppf",
+      "size": 3,
+      "families": [
+        "tarot",
+        "spanish"
+      ],
+      "positions": [
+        "pasado",
+        "presente",
+        "futuro"
+      ],
+      "layout": "row",
+      "order": 2
+    },
+    {
+      "id": "sino",
+      "size": 3,
+      "minSize": 1,
+      "families": [
+        "tarot",
+        "spanish"
+      ],
+      "positions": [
+        "respuesta",
+        "matiz",
+        "remate"
+      ],
+      "layout": "row",
+      "order": 3
+    },
+    {
+      "id": "cruz",
+      "size": 5,
+      "families": [
+        "tarot",
+        "spanish"
+      ],
+      "positions": [
+        "situacion",
+        "obstaculo",
+        "pasado",
+        "futuro",
+        "resultado"
+      ],
+      "layout": "cross",
+      "order": 4
+    },
+    {
+      "id": "herradura",
+      "size": 7,
+      "families": [
+        "tarot",
+        "spanish"
+      ],
+      "positions": [
+        "pasado",
+        "presente",
+        "futuro",
+        "consejo",
+        "entorno",
+        "obstaculos",
+        "resultado"
+      ],
+      "layout": "horseshoe",
+      "order": 5
+    },
+    {
+      "id": "amor",
+      "size": 6,
+      "families": [
+        "tarot",
+        "spanish"
+      ],
+      "positions": [
+        "tu",
+        "otra",
+        "une",
+        "separa",
+        "consejo",
+        "futuro"
+      ],
+      "layout": "love",
+      "order": 6
+    },
+    {
+      "id": "celta",
+      "size": 10,
+      "families": [
+        "tarot"
+      ],
+      "positions": [
+        "cubre",
+        "cruza",
+        "corona",
+        "base",
+        "pasado",
+        "futuro",
+        "actitud",
+        "entorno",
+        "esperanzas",
+        "resultado"
+      ],
+      "layout": "celtic",
+      "order": 7
+    }
+  ]
+}

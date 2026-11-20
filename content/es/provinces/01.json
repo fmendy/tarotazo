@@ -1,0 +1,28 @@
+{
+  "code": "01",
+  "nombre": "Álava",
+  "comunidad": "País Vasco",
+  "gentilicio": "alavés/a",
+  "plato": [
+    "las goxuas",
+    "los perretxikos",
+    "los pintxos de la Cuchi",
+    "el vino de Rioja Alavesa"
+  ],
+  "fiesta": [
+    "las Fiestas de la Virgen Blanca",
+    "la Romería de Olárizu"
+  ],
+  "clima": [
+    "inviernos de niebla y bufanda",
+    "veranos suaves de chaqueta por la noche"
+  ],
+  "chascarrillos": [
+    "En Álava hasta las nieblas son puntuales: llegan en noviembre y se van cuando les da la gana.",
+    "Ser de Álava es bajar con Celedón en agosto y subir con la garganta afónica.",
+    "Vitoria tiene tantas zonas verdes que las ardillas piden plano.",
+    "En Rioja Alavesa el agua se usa para lavar; para beber ya hay otra cosa.",
+    "Alavés de pura cepa: pintxo en una mano, paraguas en la otra y cara de «esto no es lluvia, es humedad».",
+    "Las cartas dicen que tienes paciencia de quien espera que se levante la niebla en Vitoria. Mucha."
+  ]
+}

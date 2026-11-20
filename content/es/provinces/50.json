@@ -1,0 +1,28 @@
+{
+  "code": "50",
+  "nombre": "Zaragoza",
+  "comunidad": "Aragón",
+  "gentilicio": "zaragozano/a",
+  "plato": [
+    "el ternasco de Aragón",
+    "las borrajas",
+    "el bacalao ajoarriero",
+    "las frutas de Aragón"
+  ],
+  "fiesta": [
+    "las Fiestas del Pilar",
+    "la Ofrenda de Flores"
+  ],
+  "clima": [
+    "cierzo que despeina hasta a las estatuas",
+    "veranos calurosos"
+  ],
+  "chascarrillos": [
+    "En Zaragoza el cierzo sopla tan fuerte que las cartas hay que sujetarlas con pinzas.",
+    "En la Ofrenda de Flores del Pilar se forma un manto de flores enorme y emocionante.",
+    "Zaragozano: alguien que defiende las borrajas como el mejor invento de la huerta.",
+    "La Basílica del Pilar es tan grande que tiene sitio para todos los deseos.",
+    "El ternasco de Aragón es tierno, sabroso y con denominación de origen.",
+    "En Zaragoza se dice «maño» con cariño, y con más cariño todavía se responde."
+  ]
+}

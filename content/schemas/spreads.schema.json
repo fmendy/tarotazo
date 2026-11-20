@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/spreads.schema.json",
+  "title": "spreads.json — tiradas (estructura neutra)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["spreads"],
+  "properties": {
+    "$comment": { "type": "string" },
+    "spreads": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "size", "families", "positions", "layout"],
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/spreadId" },
+          "size": { "type": "integer", "minimum": 1, "maximum": 10, "description": "Número de cartas por defecto (= positions.length)." },
+          "minSize": { "type": "integer", "minimum": 1, "maximum": 10, "description": "Si existe, se admiten entre minSize y size cartas; se usan las primeras N posiciones." },
+          "families": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/family" }, "minItems": 1, "uniqueItems": true },
+          "positions": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/positionId" }, "minItems": 1, "uniqueItems": true },
+          "layout": { "$ref": "common.schema.json#/$defs/layout" },
+          "order": { "type": "integer", "description": "Orden de presentación en la pantalla de tiradas." }
+        }
+      }
+    }
+  }
+}

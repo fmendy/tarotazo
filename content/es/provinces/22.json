@@ -1,0 +1,27 @@
+{
+  "code": "22",
+  "nombre": "Huesca",
+  "comunidad": "Aragón",
+  "gentilicio": "oscense",
+  "plato": [
+    "el ternasco de Aragón",
+    "la trenza de Almudévar",
+    "las migas a la pastora"
+  ],
+  "fiesta": [
+    "las Fiestas de San Lorenzo",
+    "el Carnaval de Bielsa"
+  ],
+  "clima": [
+    "Pirineo nevado en invierno",
+    "veranos frescos en el valle"
+  ],
+  "chascarrillos": [
+    "En San Lorenzo todo Huesca se viste de blanco y verde y huele a albahaca.",
+    "La trenza de Almudévar se lía sola en la boca y no hay quien pare de comer.",
+    "El Pirineo oscense tiene valles tan bonitos que dan ganas de quedarse a vivir.",
+    "Oscense: alguien que sube un ibón «por dar un paseo».",
+    "En el Carnaval de Bielsa salen las trangas con cuernos y cencerros; yo con mi baraja, que también impone.",
+    "En Huesca se come tan bien que hasta los montes tienen buen color."
+  ]
+}

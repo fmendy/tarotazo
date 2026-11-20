@@ -1,0 +1,25 @@
+{
+  "name": "arcana-art",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Generadores de arte SVG de Tarotazo",
+  "scripts": {
+    "build": "node generate-all.mjs",
+    "preview": "node tools/render-preview.mjs"
+  },
+  "dependencies": {
+    "@fontsource/alegreya": "^5.3.0",
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/cinzel-decorative": "^5.3.0",
+    "@fontsource/rye": "^5.3.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "d3-geo": "^3.1.2",
+    "es-atlas": "^0.6.0",
+    "opentype.js": "^2.0.0",
+    "topojson-client": "^3.1.0",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3"
+  }
+}

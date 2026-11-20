@@ -1,0 +1,28 @@
+{
+  "code": "28",
+  "nombre": "Madrid",
+  "comunidad": "Comunidad de Madrid",
+  "gentilicio": "madrileño/a",
+  "plato": [
+    "el cocido madrileño",
+    "el bocata de calamares",
+    "los callos a la madrileña",
+    "las rosquillas de San Isidro"
+  ],
+  "fiesta": [
+    "San Isidro",
+    "las fiestas de la Paloma"
+  ],
+  "clima": [
+    "nueve meses de invierno y tres de infierno",
+    "un cielo azul que ya pintó Velázquez"
+  ],
+  "chascarrillos": [
+    "En Madrid nadie es de Madrid y todo el mundo es de Madrid a los dos días.",
+    "El cocido madrileño se come en tres vuelcos y se digiere en tres siestas.",
+    "Madrileño: alguien capaz de quedar «a las nueve» y aparecer a las nueve y veinte con una sonrisa.",
+    "El bocata de calamares en la Plaza Mayor es el desayuno, la comida o la cena que haga falta.",
+    "En San Isidro se baila el chotis en una baldosa; mis cartas solo necesitan media.",
+    "En Madrid hay tanto plan que hasta el aburrimiento tiene lista de espera."
+  ]
+}

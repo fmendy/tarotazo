@@ -1,0 +1,27 @@
+{
+  "code": "09",
+  "nombre": "Burgos",
+  "comunidad": "Castilla y León",
+  "gentilicio": "burgalés/a",
+  "plato": [
+    "la morcilla de Burgos",
+    "el queso de Burgos",
+    "el lechazo asado"
+  ],
+  "fiesta": [
+    "las Fiestas de San Pedro y San Pablo",
+    "el Colacho de Castrillo de Murcia"
+  ],
+  "clima": [
+    "frío de los que hielan las orejas",
+    "veranos cortos y noches frescas"
+  ],
+  "chascarrillos": [
+    "En Burgos hace tanto frío que la catedral lleva siglos con agujas para abrigarse... digo, para rezar.",
+    "La morcilla de Burgos es de esas cosas que unen a la gente en torno a una plancha.",
+    "Burgalés: alguien que dice «hoy no hace frío» con cuatro grados y lo dice en serio.",
+    "El Cid era de Burgos y todavía hay quien le pide consejo para las batallas de oficina.",
+    "En Castrillo de Murcia el Colacho salta por encima de los bebés, y ellos ni se inmutan. Temple burgalés.",
+    "Atapuerca demuestra que en Burgos ya se vivía bien hace muchísimo. Con morcilla, supongo."
+  ]
+}

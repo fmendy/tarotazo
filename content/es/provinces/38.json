@@ -1,0 +1,28 @@
+{
+  "code": "38",
+  "nombre": "Santa Cruz de Tenerife",
+  "comunidad": "Canarias",
+  "gentilicio": "canario/a",
+  "plato": [
+    "las papas arrugadas con mojo picón",
+    "el queso de cabra palmero",
+    "el almogrote gomero",
+    "el escaldón de gofio"
+  ],
+  "fiesta": [
+    "el Carnaval de Santa Cruz de Tenerife",
+    "la Bajada de la Virgen de las Nieves"
+  ],
+  "clima": [
+    "la eterna primavera",
+    "el Teide nevado con playa a sus pies"
+  ],
+  "chascarrillos": [
+    "En Tenerife puedes ver nieve en el Teide y tomar el sol en la playa el mismo día.",
+    "El Carnaval de Santa Cruz tiene tanta purpurina que se ve desde el espacio. Más o menos.",
+    "En La Gomera se habla silbando; mis cartas lo intentaron y salió un pitido.",
+    "El almogrote gomero es fuerte, sabroso y con carácter isleño.",
+    "Canario de verdad cuenta las islas por orden de cariño, y todas empatan.",
+    "El Hierro es tan tranquilo que hasta el tiempo va despacito."
+  ]
+}

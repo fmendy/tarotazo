@@ -1,0 +1,27 @@
+{
+  "code": "44",
+  "nombre": "Teruel",
+  "comunidad": "Aragón",
+  "gentilicio": "turolense",
+  "plato": [
+    "el jamón de Teruel",
+    "las migas turolenses",
+    "los suspiros de amante"
+  ],
+  "fiesta": [
+    "la Vaquilla del Ángel",
+    "las Bodas de Isabel de Segura"
+  ],
+  "clima": [
+    "frío seco de los más intensos de la península",
+    "cielos limpios para ver estrellas"
+  ],
+  "chascarrillos": [
+    "Teruel existe, y además tiene un jamón espectacular.",
+    "Los Amantes de Teruel son la historia de amor más famosa de Aragón; yo tengo diplomas en ella.",
+    "En la Vaquilla del Ángel todo Teruel sale a la calle con el pañuelo al cuello.",
+    "El cielo de Teruel es tan oscuro de noche que las estrellas se ven mejor que en mis cartas.",
+    "Turolense: alguien que soporta el invierno con paciencia mudéjar.",
+    "Las torres mudéjares de Teruel son tan bonitas que dan ganas de leerles el porvenir."
+  ]
+}

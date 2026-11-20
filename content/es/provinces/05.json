@@ -1,0 +1,27 @@
+{
+  "code": "05",
+  "nombre": "Ávila",
+  "comunidad": "Castilla y León",
+  "gentilicio": "abulense",
+  "plato": [
+    "el chuletón de Ávila",
+    "las judías del Barco",
+    "las yemas de Santa Teresa"
+  ],
+  "fiesta": [
+    "las Fiestas de Santa Teresa",
+    "la Semana Santa abulense"
+  ],
+  "clima": [
+    "el frío de la capital más alta de España",
+    "inviernos de escarcha en la muralla"
+  ],
+  "chascarrillos": [
+    "Ávila tiene muralla para que el frío no se escape... ni entre el calor.",
+    "Un chuletón de Ávila lo cura todo menos la indecisión de quien tiene que elegir el punto.",
+    "Las yemas de Santa Teresa son tan dulces que hasta las cartas se ablandan.",
+    "Abulense de verdad: abrigo en agosto «por si acaso» y razón al día siguiente.",
+    "Dicen que en Ávila hay piedras y santos; yo añado: y unas judías que resucitan a cualquiera.",
+    "Desde la muralla de Ávila se ve tan lejos que casi veo tu futuro sin barajar."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "code": "52",
+  "nombre": "Melilla",
+  "comunidad": "Melilla",
+  "gentilicio": "melillense",
+  "plato": [
+    "los pinchitos",
+    "el pescado frito",
+    "los dulces de las distintas tradiciones de la ciudad"
+  ],
+  "fiesta": [
+    "las Fiestas de la Virgen de la Victoria",
+    "la Feria de Melilla"
+  ],
+  "clima": [
+    "mediterráneo suave",
+    "sol casi todo el año"
+  ],
+  "chascarrillos": [
+    "Melilla tiene tanto modernismo que pasear es como visitar un museo sin entrada.",
+    "Melilla la Vieja guarda siglos de historia entre sus murallas.",
+    "Melillense: alguien que te recomienda una tapa de cada cultura de la ciudad.",
+    "El sol de Melilla es tan generoso que mis velas se toman el día libre.",
+    "En Melilla la convivencia de culturas da una cocina riquísima y unas fiestas para todos.",
+    "Las playas de Melilla son tan tranquilas que mis cartas se echan la siesta."
+  ]
+}

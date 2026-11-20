@@ -1,0 +1,27 @@
+{
+  "code": "34",
+  "nombre": "Palencia",
+  "comunidad": "Castilla y León",
+  "gentilicio": "palentino/a",
+  "plato": [
+    "el lechazo asado",
+    "la menestra palentina",
+    "las galletas de Aguilar de Campoo"
+  ],
+  "fiesta": [
+    "las Fiestas de San Antolín",
+    "la Semana Santa de Palencia"
+  ],
+  "clima": [
+    "frío castellano de los que curten",
+    "veranos templados de Tierra de Campos"
+  ],
+  "chascarrillos": [
+    "Palencia tiene una catedral tan grande que la llaman «la Bella Desconocida». Ya no tanto.",
+    "Las galletas de Aguilar de Campoo han endulzado meriendas de generaciones enteras.",
+    "Palentino de verdad aguanta el frío con un abrigo y una sonrisa.",
+    "El románico palentino tiene más iglesias que yo diplomas, y son más auténticas.",
+    "En San Antolín Palencia está de fiesta y hasta el Carrión parece que baila.",
+    "El lechazo palentino al horno de leña es un argumento de peso."
+  ]
+}

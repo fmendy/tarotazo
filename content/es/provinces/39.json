@@ -1,0 +1,28 @@
+{
+  "code": "39",
+  "nombre": "Cantabria",
+  "comunidad": "Cantabria",
+  "gentilicio": "cántabro/a",
+  "plato": [
+    "el cocido montañés",
+    "los sobaos pasiegos",
+    "las anchoas de Santoña",
+    "la quesada pasiega"
+  ],
+  "fiesta": [
+    "la Batalla de Flores de Laredo",
+    "La Folía de San Vicente de la Barquera"
+  ],
+  "clima": [
+    "lluvia que se alterna con viento sur",
+    "verde intenso todo el año"
+  ],
+  "chascarrillos": [
+    "Un sobao pasiego con el café y el día empieza con buen pie.",
+    "Las anchoas de Santoña se elaboran con tanta paciencia que deberían dar clase de meditación.",
+    "Cántabro: alguien que cuando sopla el viento sur dice «hoy la gente está rara» y acierta.",
+    "En la Batalla de Flores de Laredo las carrozas compiten en belleza y nadie pierde.",
+    "El cocido montañés es tan contundente que aguantas hasta el día siguiente.",
+    "Cantabria tiene cuevas con pinturas tan antiguas que ya sabían leer el futuro de los bisontes."
+  ]
+}

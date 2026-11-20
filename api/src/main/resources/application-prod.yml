@@ -1,0 +1,6 @@
+arcana:
+  content-strict: true
+
+springdoc:
+  swagger-ui:
+    enabled: false

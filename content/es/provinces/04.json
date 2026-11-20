@@ -1,0 +1,29 @@
+{
+  "code": "04",
+  "nombre": "Almería",
+  "comunidad": "Andalucía",
+  "gentilicio": "almeriense",
+  "plato": [
+    "las migas con tropezones",
+    "los gurullos",
+    "el caldo quemao",
+    "la tapa que te ponen con la caña"
+  ],
+  "fiesta": [
+    "la Feria de Almería",
+    "la Semana Santa de Almería"
+  ],
+  "clima": [
+    "el clima más seco de Europa",
+    "sol casi todo el año",
+    "inviernos de manga corta"
+  ],
+  "chascarrillos": [
+    "En Almería ha llovido tan poco que los paraguas son objeto de museo.",
+    "Han rodado tantas películas del Oeste en Almería que la gente saluda con sombrero sin darse cuenta.",
+    "En Almería la tapa viene sola con la bebida; lo difícil es levantarse de la barra.",
+    "Cabo de Gata tiene un azul que ni mi bola de cristal recién limpiada.",
+    "Almeriense: alguien que aguanta el sol con una sonrisa y una sombrilla.",
+    "Las migas almerienses tienen más tropezones que mi carrera de vidente, y saben mejor."
+  ]
+}

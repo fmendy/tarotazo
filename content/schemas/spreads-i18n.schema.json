@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/spreads-i18n.schema.json",
+  "title": "{lang}/spreads.json — nombres, descripciones y etiquetas de posición",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["spreads"],
+  "properties": {
+    "$comment": { "type": "string" },
+    "spreads": {
+      "type": "object",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/spreadId" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "description", "positions"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "short": { "type": "string", "minLength": 1, "description": "Nombre corto para tarjetas." },
+          "description": { "type": "string", "minLength": 1 },
+          "positions": {
+            "type": "object",
+            "propertyNames": { "$ref": "common.schema.json#/$defs/positionId" },
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["label", "inline"],
+              "properties": {
+                "label": { "type": "string", "minLength": 1, "description": "Etiqueta visible (API positions[].label)." },
+                "inline": { "type": "string", "minLength": 1, "description": "Forma para insertar en una frase: valor de {posicion} (tu pasado)." },
+                "hint": { "type": "string", "minLength": 1, "description": "Qué significa la posición (tooltip)." }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

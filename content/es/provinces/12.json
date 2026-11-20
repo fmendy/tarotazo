@@ -1,0 +1,28 @@
+{
+  "code": "12",
+  "nombre": "Castellón",
+  "comunidad": "Comunidad Valenciana",
+  "gentilicio": "castellonense",
+  "plato": [
+    "la olla de la Plana",
+    "las alcachofas de Benicarló",
+    "el langostino de Vinaròs",
+    "el arroz al horno"
+  ],
+  "fiesta": [
+    "las Fiestas de la Magdalena",
+    "las Fiestas de Sant Pasqual de Vila-real"
+  ],
+  "clima": [
+    "mediterráneo suave",
+    "veranos de playa y montaña a un paso"
+  ],
+  "chascarrillos": [
+    "En Castellón tienen montaña y playa a la vez, como quien pide dos postres.",
+    "La Magdalena se celebra con gaiatas que iluminan la noche más que mi bola de cristal.",
+    "Las alcachofas de Benicarló son tan buenas que tienen hasta fiesta propia.",
+    "Castellonense: alguien que dice «vamos a la playa un rato» y vuelve al anochecer.",
+    "El langostino de Vinaròs tiene más fans que muchos cantantes.",
+    "En Peñíscola hay un castillo tan bonito que hasta los fantasmas veranean allí."
+  ]
+}

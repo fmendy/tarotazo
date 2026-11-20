@@ -1,0 +1,28 @@
+{
+  "code": "14",
+  "nombre": "Córdoba",
+  "comunidad": "Andalucía",
+  "gentilicio": "cordobés/a",
+  "plato": [
+    "el salmorejo",
+    "el flamenquín",
+    "el rabo de toro"
+  ],
+  "fiesta": [
+    "la Fiesta de los Patios",
+    "la Feria de Nuestra Señora de la Salud",
+    "las Cruces de Mayo"
+  ],
+  "clima": [
+    "uno de los veranos más calurosos de España",
+    "primaveras que huelen a azahar"
+  ],
+  "chascarrillos": [
+    "En mayo los patios de Córdoba están tan floridos que las macetas compiten en elegancia.",
+    "El salmorejo cordobés es tan espeso que la cuchara se queda de pie. Como yo cuando acierto.",
+    "En verano, en Córdoba, la gente camina por la sombra como quien juega a no pisar las rayas.",
+    "La Mezquita-Catedral es tan bonita que hasta mis cartas guardan silencio al entrar.",
+    "Cordobés: alguien capaz de dar la receta del salmorejo como si fuera un secreto de Estado.",
+    "El flamenquín es grande, generoso y empanado: como un abrazo de abuela."
+  ]
+}

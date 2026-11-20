@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/deck.schema.json",
+  "title": "decks/{familia}.json — estructura neutra de una baraja",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["family", "reversedProbability", "defaultModel", "models", "cards"],
+  "properties": {
+    "$comment": { "type": "string" },
+    "family": { "$ref": "common.schema.json#/$defs/family" },
+    "reversedProbability": { "type": "number", "minimum": 0, "maximum": 1 },
+    "defaultModel": { "$ref": "common.schema.json#/$defs/model" },
+    "models": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "deckSize", "art"],
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/model" },
+          "deckSize": { "enum": [40, 48, 78] },
+          "art": { "$ref": "common.schema.json#/$defs/slug", "description": "Carpeta de arte: /art/cards/{art}/{cardId}.svg y /art/backs/{art}.svg" },
+          "minors": { "enum": ["escenas", "pips"], "description": "Sólo tarot: menores ilustrados con escena o de pips." },
+          "pattern": { "type": "string", "description": "Patrón tradicional en que se inspira (informativo)." },
+          "numerals": {
+            "type": "object",
+            "description": "Numeral MOSTRADO por carta cuando difiere del estándar (romanos RWS en mayores). El id no cambia.",
+            "propertyNames": { "$ref": "common.schema.json#/$defs/cardId" },
+            "additionalProperties": { "type": "string" }
+          },
+          "reversedProbability": { "type": "number", "minimum": 0, "maximum": 1, "description": "Anula la de la familia para este modelo." }
+        }
+      }
+    },
+    "cards": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "arcana", "number"],
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/cardId" },
+          "arcana": { "enum": ["major", "minor"] },
+          "number": { "type": "integer", "minimum": 0, "maximum": 21, "description": "Mayores: 0..21 (orden RWS). Menores: 1..10 y figuras 11 sota, 12 caballo, 13 reina, 14 rey (tarot) o 10 sota, 11 caballo, 12 rey (española)." },
+          "suit": { "$ref": "common.schema.json#/$defs/suit" },
+          "rank": { "anyOf": [{ "$ref": "common.schema.json#/$defs/tarotRank" }, { "$ref": "common.schema.json#/$defs/spanishRank" }] },
+          "court": { "type": "boolean" },
+          "only48": { "type": "boolean", "description": "Sólo española: la carta no está en los modelos de 40." }
+        },
+        "if": { "properties": { "arcana": { "const": "minor" } } },
+        "then": { "required": ["suit", "rank"] },
+        "else": { "not": { "anyOf": [{ "required": ["suit"] }, { "required": ["rank"] }] } }
+      }
+    }
+  }
+}

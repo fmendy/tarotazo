@@ -1,0 +1,28 @@
+{
+  "code": "26",
+  "nombre": "La Rioja",
+  "comunidad": "La Rioja",
+  "gentilicio": "riojano/a",
+  "plato": [
+    "las patatas a la riojana",
+    "las chuletillas al sarmiento",
+    "los pimientos rellenos",
+    "el vino de Rioja"
+  ],
+  "fiesta": [
+    "las Fiestas de San Mateo y la Vendimia",
+    "la Batalla del Vino de Haro"
+  ],
+  "clima": [
+    "continental suave",
+    "otoños de viñedo dorado"
+  ],
+  "chascarrillos": [
+    "En la Batalla del Vino de Haro la gente acaba morada y feliz.",
+    "La calle Laurel de Logroño es la ruta de tapas con más fieles de la comarca.",
+    "Las chuletillas al sarmiento huelen tan bien que los vecinos se apuntan solos.",
+    "Riojano: alguien que te explica la diferencia entre crianza y reserva con la emoción de un poeta.",
+    "En La Rioja la uva se pisa en San Mateo y el mal humor también.",
+    "Las patatas a la riojana calientan el estómago y el corazón al mismo tiempo."
+  ]
+}

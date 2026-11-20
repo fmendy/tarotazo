@@ -1,0 +1,28 @@
+{
+  "code": "21",
+  "nombre": "Huelva",
+  "comunidad": "Andalucía",
+  "gentilicio": "onubense",
+  "plato": [
+    "el jamón de Jabugo",
+    "las gambas blancas",
+    "los chocos",
+    "las fresas de Huelva"
+  ],
+  "fiesta": [
+    "la Romería de El Rocío",
+    "las Fiestas Colombinas"
+  ],
+  "clima": [
+    "sol y brisa atlántica",
+    "inviernos templados"
+  ],
+  "chascarrillos": [
+    "Las gambas de Huelva son tan buenas que la gente las pela con reverencia.",
+    "Desde Palos salieron las carabelas; desde Huelva sale ahora el mejor marisco.",
+    "Onubense de verdad dice «choquero» con orgullo y con un plato de chocos delante.",
+    "El jamón de Jabugo pide silencio, pan bueno y buena compañía.",
+    "Doñana es tan bonita que hasta mis cartas se quedan mirando a los flamencos.",
+    "Las fresas de Huelva viajan por toda Europa y todas vuelven a casa por Navidad... en forma de recuerdo."
+  ]
+}

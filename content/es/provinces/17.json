@@ -1,0 +1,28 @@
+{
+  "code": "17",
+  "nombre": "Girona",
+  "comunidad": "Cataluña",
+  "gentilicio": "gerundense",
+  "plato": [
+    "el suquet de peix",
+    "los xuixos",
+    "el arroz de Pals",
+    "la ratafía"
+  ],
+  "fiesta": [
+    "Temps de Flors",
+    "las Fiestas de Sant Narcís"
+  ],
+  "clima": [
+    "tramontana en el Empordà",
+    "veranos de Costa Brava"
+  ],
+  "chascarrillos": [
+    "En Girona, quien besa el culo de la leona vuelve a la ciudad. Lo dice la tradición, no yo.",
+    "Durante Temps de Flors la ciudad está tan bonita que hasta las cartas se ponen perfume.",
+    "Los xuixos son crujientes por fuera y cremosos por dentro, como las buenas noticias.",
+    "La tramontana del Empordà sopla tanto que despeina hasta las ideas.",
+    "Gerundense: alguien que te recomienda una cala secreta y luego te pide que no se lo cuentes a nadie.",
+    "Las casas del Onyar tienen más colores que mi estuche de rotuladores místicos."
+  ]
+}

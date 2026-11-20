@@ -1,0 +1,14 @@
+# Opcional: servir el contenido desde un directorio del host (solo lectura) en vez del
+# empaquetado en el jar. Útil para corregir textos sin reconstruir la imagen.
+#   ARCANA_CONTENT_DIR=/srv/arcana/content \
+#   docker compose -f deploy/docker-compose.yml -f deploy/docker-compose.content.yml up -d
+# El backend lee la ruta de la variable ARCANA_CONTENT_DIR (dentro del contenedor: /content).
+services:
+  arcana-api:
+    environment:
+      ARCANA_CONTENT_DIR: /content
+    volumes:
+      - type: bind
+        source: ${ARCANA_CONTENT_DIR:?Define ARCANA_CONTENT_DIR con la ruta del host a content/}
+        target: /content
+        read_only: true

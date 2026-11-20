@@ -1,0 +1,574 @@
+{
+  "family": "tarot",
+  "reversedProbability": 0.3,
+  "defaultModel": "rws",
+  "models": [
+    {
+      "id": "rws",
+      "deckSize": 78,
+      "art": "rws",
+      "minors": "escenas",
+      "pattern": "Rider-Waite-Smith (1909)"
+    },
+    {
+      "id": "marsella",
+      "deckSize": 78,
+      "art": "marsella",
+      "minors": "pips",
+      "pattern": "Tarot de Marsella",
+      "numerals": {
+        "mayor-00": "",
+        "mayor-08": "XI",
+        "mayor-11": "VIII"
+      }
+    },
+    {
+      "id": "neon",
+      "deckSize": 78,
+      "art": "neon",
+      "minors": "escenas",
+      "pattern": "propio (orden RWS)"
+    },
+    {
+      "id": "acuarela",
+      "deckSize": 78,
+      "art": "acuarela",
+      "minors": "escenas",
+      "pattern": "propio (orden RWS)"
+    },
+    {
+      "id": "pixel",
+      "deckSize": 78,
+      "art": "pixel",
+      "minors": "escenas",
+      "pattern": "propio (orden RWS)"
+    },
+    {
+      "id": "gatos",
+      "deckSize": 78,
+      "art": "gatos",
+      "minors": "escenas",
+      "pattern": "propio (orden RWS)"
+    }
+  ],
+  "cards": [
+    {
+      "id": "mayor-00",
+      "arcana": "major",
+      "number": 0
+    },
+    {
+      "id": "mayor-01",
+      "arcana": "major",
+      "number": 1
+    },
+    {
+      "id": "mayor-02",
+      "arcana": "major",
+      "number": 2
+    },
+    {
+      "id": "mayor-03",
+      "arcana": "major",
+      "number": 3
+    },
+    {
+      "id": "mayor-04",
+      "arcana": "major",
+      "number": 4
+    },
+    {
+      "id": "mayor-05",
+      "arcana": "major",
+      "number": 5
+    },
+    {
+      "id": "mayor-06",
+      "arcana": "major",
+      "number": 6
+    },
+    {
+      "id": "mayor-07",
+      "arcana": "major",
+      "number": 7
+    },
+    {
+      "id": "mayor-08",
+      "arcana": "major",
+      "number": 8
+    },
+    {
+      "id": "mayor-09",
+      "arcana": "major",
+      "number": 9
+    },
+    {
+      "id": "mayor-10",
+      "arcana": "major",
+      "number": 10
+    },
+    {
+      "id": "mayor-11",
+      "arcana": "major",
+      "number": 11
+    },
+    {
+      "id": "mayor-12",
+      "arcana": "major",
+      "number": 12
+    },
+    {
+      "id": "mayor-13",
+      "arcana": "major",
+      "number": 13
+    },
+    {
+      "id": "mayor-14",
+      "arcana": "major",
+      "number": 14
+    },
+    {
+      "id": "mayor-15",
+      "arcana": "major",
+      "number": 15
+    },
+    {
+      "id": "mayor-16",
+      "arcana": "major",
+      "number": 16
+    },
+    {
+      "id": "mayor-17",
+      "arcana": "major",
+      "number": 17
+    },
+    {
+      "id": "mayor-18",
+      "arcana": "major",
+      "number": 18
+    },
+    {
+      "id": "mayor-19",
+      "arcana": "major",
+      "number": 19
+    },
+    {
+      "id": "mayor-20",
+      "arcana": "major",
+      "number": 20
+    },
+    {
+      "id": "mayor-21",
+      "arcana": "major",
+      "number": 21
+    },
+    {
+      "id": "bastos-01",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "bastos",
+      "rank": "01"
+    },
+    {
+      "id": "bastos-02",
+      "arcana": "minor",
+      "number": 2,
+      "suit": "bastos",
+      "rank": "02"
+    },
+    {
+      "id": "bastos-03",
+      "arcana": "minor",
+      "number": 3,
+      "suit": "bastos",
+      "rank": "03"
+    },
+    {
+      "id": "bastos-04",
+      "arcana": "minor",
+      "number": 4,
+      "suit": "bastos",
+      "rank": "04"
+    },
+    {
+      "id": "bastos-05",
+      "arcana": "minor",
+      "number": 5,
+      "suit": "bastos",
+      "rank": "05"
+    },
+    {
+      "id": "bastos-06",
+      "arcana": "minor",
+      "number": 6,
+      "suit": "bastos",
+      "rank": "06"
+    },
+    {
+      "id": "bastos-07",
+      "arcana": "minor",
+      "number": 7,
+      "suit": "bastos",
+      "rank": "07"
+    },
+    {
+      "id": "bastos-08",
+      "arcana": "minor",
+      "number": 8,
+      "suit": "bastos",
+      "rank": "08"
+    },
+    {
+      "id": "bastos-09",
+      "arcana": "minor",
+      "number": 9,
+      "suit": "bastos",
+      "rank": "09"
+    },
+    {
+      "id": "bastos-10",
+      "arcana": "minor",
+      "number": 10,
+      "suit": "bastos",
+      "rank": "10"
+    },
+    {
+      "id": "bastos-sota",
+      "arcana": "minor",
+      "number": 11,
+      "suit": "bastos",
+      "rank": "sota",
+      "court": true
+    },
+    {
+      "id": "bastos-caballo",
+      "arcana": "minor",
+      "number": 12,
+      "suit": "bastos",
+      "rank": "caballo",
+      "court": true
+    },
+    {
+      "id": "bastos-reina",
+      "arcana": "minor",
+      "number": 13,
+      "suit": "bastos",
+      "rank": "reina",
+      "court": true
+    },
+    {
+      "id": "bastos-rey",
+      "arcana": "minor",
+      "number": 14,
+      "suit": "bastos",
+      "rank": "rey",
+      "court": true
+    },
+    {
+      "id": "copas-01",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "copas",
+      "rank": "01"
+    },
+    {
+      "id": "copas-02",
+      "arcana": "minor",
+      "number": 2,
+      "suit": "copas",
+      "rank": "02"
+    },
+    {
+      "id": "copas-03",
+      "arcana": "minor",
+      "number": 3,
+      "suit": "copas",
+      "rank": "03"
+    },
+    {
+      "id": "copas-04",
+      "arcana": "minor",
+      "number": 4,
+      "suit": "copas",
+      "rank": "04"
+    },
+    {
+      "id": "copas-05",
+      "arcana": "minor",
+      "number": 5,
+      "suit": "copas",
+      "rank": "05"
+    },
+    {
+      "id": "copas-06",
+      "arcana": "minor",
+      "number": 6,
+      "suit": "copas",
+      "rank": "06"
+    },
+    {
+      "id": "copas-07",
+      "arcana": "minor",
+      "number": 7,
+      "suit": "copas",
+      "rank": "07"
+    },
+    {
+      "id": "copas-08",
+      "arcana": "minor",
+      "number": 8,
+      "suit": "copas",
+      "rank": "08"
+    },
+    {
+      "id": "copas-09",
+      "arcana": "minor",
+      "number": 9,
+      "suit": "copas",
+      "rank": "09"
+    },
+    {
+      "id": "copas-10",
+      "arcana": "minor",
+      "number": 10,
+      "suit": "copas",
+      "rank": "10"
+    },
+    {
+      "id": "copas-sota",
+      "arcana": "minor",
+      "number": 11,
+      "suit": "copas",
+      "rank": "sota",
+      "court": true
+    },
+    {
+      "id": "copas-caballo",
+      "arcana": "minor",
+      "number": 12,
+      "suit": "copas",
+      "rank": "caballo",
+      "court": true
+    },
+    {
+      "id": "copas-reina",
+      "arcana": "minor",
+      "number": 13,
+      "suit": "copas",
+      "rank": "reina",
+      "court": true
+    },
+    {
+      "id": "copas-rey",
+      "arcana": "minor",
+      "number": 14,
+      "suit": "copas",
+      "rank": "rey",
+      "court": true
+    },
+    {
+      "id": "espadas-01",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "espadas",
+      "rank": "01"
+    },
+    {
+      "id": "espadas-02",
+      "arcana": "minor",
+      "number": 2,
+      "suit": "espadas",
+      "rank": "02"
+    },
+    {
+      "id": "espadas-03",
+      "arcana": "minor",
+      "number": 3,
+      "suit": "espadas",
+      "rank": "03"
+    },
+    {
+      "id": "espadas-04",
+      "arcana": "minor",
+      "number": 4,
+      "suit": "espadas",
+      "rank": "04"
+    },
+    {
+      "id": "espadas-05",
+      "arcana": "minor",
+      "number": 5,
+      "suit": "espadas",
+      "rank": "05"
+    },
+    {
+      "id": "espadas-06",
+      "arcana": "minor",
+      "number": 6,
+      "suit": "espadas",
+      "rank": "06"
+    },
+    {
+      "id": "espadas-07",
+      "arcana": "minor",
+      "number": 7,
+      "suit": "espadas",
+      "rank": "07"
+    },
+    {
+      "id": "espadas-08",
+      "arcana": "minor",
+      "number": 8,
+      "suit": "espadas",
+      "rank": "08"
+    },
+    {
+      "id": "espadas-09",
+      "arcana": "minor",
+      "number": 9,
+      "suit": "espadas",
+      "rank": "09"
+    },
+    {
+      "id": "espadas-10",
+      "arcana": "minor",
+      "number": 10,
+      "suit": "espadas",
+      "rank": "10"
+    },
+    {
+      "id": "espadas-sota",
+      "arcana": "minor",
+      "number": 11,
+      "suit": "espadas",
+      "rank": "sota",
+      "court": true
+    },
+    {
+      "id": "espadas-caballo",
+      "arcana": "minor",
+      "number": 12,
+      "suit": "espadas",
+      "rank": "caballo",
+      "court": true
+    },
+    {
+      "id": "espadas-reina",
+      "arcana": "minor",
+      "number": 13,
+      "suit": "espadas",
+      "rank": "reina",
+      "court": true
+    },
+    {
+      "id": "espadas-rey",
+      "arcana": "minor",
+      "number": 14,
+      "suit": "espadas",
+      "rank": "rey",
+      "court": true
+    },
+    {
+      "id": "oros-01",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "oros",
+      "rank": "01"
+    },
+    {
+      "id": "oros-02",
+      "arcana": "minor",
+      "number": 2,
+      "suit": "oros",
+      "rank": "02"
+    },
+    {
+      "id": "oros-03",
+      "arcana": "minor",
+      "number": 3,
+      "suit": "oros",
+      "rank": "03"
+    },
+    {
+      "id": "oros-04",
+      "arcana": "minor",
+      "number": 4,
+      "suit": "oros",
+      "rank": "04"
+    },
+    {
+      "id": "oros-05",
+      "arcana": "minor",
+      "number": 5,
+      "suit": "oros",
+      "rank": "05"
+    },
+    {
+      "id": "oros-06",
+      "arcana": "minor",
+      "number": 6,
+      "suit": "oros",
+      "rank": "06"
+    },
+    {
+      "id": "oros-07",
+      "arcana": "minor",
+      "number": 7,
+      "suit": "oros",
+      "rank": "07"
+    },
+    {
+      "id": "oros-08",
+      "arcana": "minor",
+      "number": 8,
+      "suit": "oros",
+      "rank": "08"
+    },
+    {
+      "id": "oros-09",
+      "arcana": "minor",
+      "number": 9,
+      "suit": "oros",
+      "rank": "09"
+    },
+    {
+      "id": "oros-10",
+      "arcana": "minor",
+      "number": 10,
+      "suit": "oros",
+      "rank": "10"
+    },
+    {
+      "id": "oros-sota",
+      "arcana": "minor",
+      "number": 11,
+      "suit": "oros",
+      "rank": "sota",
+      "court": true
+    },
+    {
+      "id": "oros-caballo",
+      "arcana": "minor",
+      "number": 12,
+      "suit": "oros",
+      "rank": "caballo",
+      "court": true
+    },
+    {
+      "id": "oros-reina",
+      "arcana": "minor",
+      "number": 13,
+      "suit": "oros",
+      "rank": "reina",
+      "court": true
+    },
+    {
+      "id": "oros-rey",
+      "arcana": "minor",
+      "number": 14,
+      "suit": "oros",
+      "rank": "rey",
+      "court": true
+    }
+  ]
+}

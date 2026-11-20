@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/interactions.schema.json",
+  "title": "{lang}/interactions.json — preguntas Sí/No con ramas",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["interactions"],
+  "properties": {
+    "$comment": { "type": "string" },
+    "interactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "prompt", "branches"],
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/slug" },
+          "tones": { "$ref": "common.schema.json#/$defs/tones" },
+          "weight": { "$ref": "common.schema.json#/$defs/weight" },
+          "when": { "$ref": "common.schema.json#/$defs/when" },
+          "prompt": { "$ref": "common.schema.json#/$defs/text" },
+          "branches": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["si", "no", "skip"],
+            "properties": {
+              "si": { "$ref": "common.schema.json#/$defs/text" },
+              "no": { "$ref": "common.schema.json#/$defs/text" },
+              "skip": { "$ref": "common.schema.json#/$defs/text" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

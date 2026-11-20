@@ -1,0 +1,69 @@
+# Tarotazo (arcana) — proxy de entrada.
+# ARCANA_SITE: dirección del sitio. En producción = el dominio (TLS automático con ACME);
+# por defecto "localhost" (certificado de la CA interna de Caddy). En desarrollo,
+# docker-compose.dev.yml pone "http://:8080" (sin TLS).
+#
+# PRIVACIDAD: no hay directiva `log` en el sitio => Caddy NO escribe logs de acceso.
+# El log de proceso queda a nivel WARN (arranque, certificados, errores), sin peticiones.
+{
+	admin off
+	# En contenedor no hay almacén de confianza que tocar (CA interna para localhost).
+	skip_install_trust
+	log {
+		level WARN
+		format console
+	}
+	# Sin `trusted_proxies`: Caddy no confía en ningún proxy previo, descarta el
+	# X-Forwarded-For entrante y pone sólo la IP del par TCP. Así el rate-limit del API
+	# no es falsificable. Si se pone un CDN/balanceador delante, declarar su rango con
+	#   servers { trusted_proxies static <CIDR> }
+}
+
+{$ARCANA_SITE:localhost} {
+	encode zstd gzip
+
+	header {
+		-Server
+		-X-Powered-By
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "no-referrer"
+		Cross-Origin-Opener-Policy "same-origin"
+	}
+
+	# Actuator no se publica nunca (sólo healthcheck interno del contenedor).
+	@internal path /actuator /actuator/* /api/actuator /api/actuator/*
+	handle @internal {
+		respond 404
+	}
+
+	# API: se conserva la ruta completa (/api/v1/...). Sólo al API se le reenvía la IP
+	# del cliente (X-Forwarded-For) porque la necesita para el rate-limit en memoria.
+	handle /api/* {
+		reverse_proxy arcana-api:8080 {
+			header_up -X-Real-IP
+			header_up -Forwarded
+			header_up -Cookie
+			header_up -Referer
+			header_down -Server
+		}
+	}
+
+	# Front estático: no necesita la IP del cliente, así que no se le reenvía.
+	handle {
+		reverse_proxy arcana-web:8080 {
+			header_up -X-Forwarded-For
+			header_up -X-Real-IP
+			header_up -Forwarded
+			header_up -Cookie
+			header_down -Server
+		}
+	}
+}
+
+# Healthcheck del propio contenedor del proxy (no publicado al host).
+http://:8081 {
+	bind 127.0.0.1
+	respond /healthz "ok" 200
+	respond 404
+}

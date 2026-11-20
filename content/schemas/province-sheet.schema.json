@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/province-sheet.schema.json",
+  "title": "{lang}/provinces/{code}.json — ficha de chascarrillos de una provincia",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["code", "nombre", "comunidad", "gentilicio", "plato", "fiesta", "clima", "chascarrillos"],
+  "$defs": {
+    "nonEmptyStrings": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 }
+  },
+  "properties": {
+    "$comment": { "type": "string" },
+    "code": { "$ref": "common.schema.json#/$defs/provinceCode" },
+    "nombre": { "type": "string", "minLength": 1 },
+    "comunidad": { "type": "string", "minLength": 1, "description": "Para XX, algo como «el ancho mundo»." },
+    "gentilicio": { "type": "string", "minLength": 1 },
+    "plato": { "$ref": "#/$defs/nonEmptyStrings" },
+    "fiesta": { "$ref": "#/$defs/nonEmptyStrings" },
+    "clima": { "$ref": "#/$defs/nonEmptyStrings" },
+    "chascarrillos": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/text" }, "minItems": 3 }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/onboarding.schema.json",
+  "title": "es/onboarding.json — reacciones del navegador a puerta +18, nombre, edad y provincia",
+  "description": "Se resuelve SOLO en el navegador. Claves de nombre normalizadas: minúsculas, sin tildes ni diéresis (conserva ñ), espacios simples para compuestos ('jose luis'). Ver schemas/README.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["puerta", "menor", "nombre", "edad", "provincia"],
+  "$defs": {
+    "nameKey": { "type": "string", "pattern": "^[a-zñç]+([ -][a-zñç]+)*$" },
+    "lines": { "$ref": "common.schema.json#/$defs/textList" }
+  },
+  "properties": {
+    "puerta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["titulo", "pregunta", "aviso", "si", "no"],
+      "properties": {
+        "titulo": { "$ref": "common.schema.json#/$defs/text" },
+        "pregunta": { "$ref": "common.schema.json#/$defs/text" },
+        "aviso": { "$ref": "common.schema.json#/$defs/text", "description": "Aviso de entretenimiento." },
+        "si": { "$ref": "common.schema.json#/$defs/text", "description": "Texto del botón «soy mayor de edad»." },
+        "no": { "$ref": "common.schema.json#/$defs/text", "description": "Texto del botón «soy menor»." },
+        "fecha": { "$ref": "common.schema.json#/$defs/text", "description": "Etiqueta opcional del campo fecha de nacimiento." },
+        "bienvenida": { "$ref": "#/$defs/lines", "description": "La vidente aparece tras aceptar." }
+      }
+    },
+    "menor": {
+      "$ref": "#/$defs/lines",
+      "description": "Pantalla de salida amable si es menor (puerta o edad < 18)."
+    },
+    "nombre": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["genericas"],
+      "description": "Prioridad sugerida: especiales > santoral > porTerminacion > porInicial > porLongitud > genericas (el front puede encadenar dos).",
+      "properties": {
+        "pregunta": { "$ref": "#/$defs/lines", "description": "«¿Cómo te llamas, criatura?»" },
+        "especiales": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/$defs/nameKey" },
+          "additionalProperties": { "$ref": "#/$defs/lines" }
+        },
+        "santoral": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/$defs/nameKey" },
+          "additionalProperties": { "type": "string", "pattern": "^[0-9]{1,2} de (enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)$" },
+          "description": "nombre → «15 de agosto»."
+        },
+        "santoralLines": {
+          "$ref": "#/$defs/lines",
+          "description": "Frases cuando el nombre está en santoral; usan {santo} (la fecha)."
+        },
+        "porTerminacion": {
+          "type": "object",
+          "propertyNames": { "type": "string", "pattern": "^[a-zñ]{1,5}$" },
+          "additionalProperties": { "$ref": "#/$defs/lines" },
+          "description": "Rimas/chistes por final del nombre normalizado: «ana» → «¿{nombre}? Rima con manzana…». Gana la terminación más larga."
+        },
+        "porInicial": {
+          "type": "object",
+          "propertyNames": { "type": "string", "pattern": "^[A-ZÑ]$" },
+          "additionalProperties": { "$ref": "#/$defs/lines" }
+        },
+        "porLongitud": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["min", "max", "lines"],
+            "properties": {
+              "min": { "type": "integer", "minimum": 1 },
+              "max": { "type": "integer", "minimum": 1 },
+              "lines": { "$ref": "#/$defs/lines" }
+            }
+          },
+          "description": "Por número de letras (sin espacios); usan {letras}."
+        },
+        "genericas": { "$ref": "#/$defs/lines" }
+      }
+    },
+    "edad": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["porDecada", "signo", "numeroVida"],
+      "properties": {
+        "pregunta": { "$ref": "#/$defs/lines" },
+        "porDecada": {
+          "type": "object",
+          "propertyNames": { "enum": ["10", "20", "30", "40", "50", "60", "70", "80", "90", "100"] },
+          "additionalProperties": { "$ref": "#/$defs/lines" },
+          "description": "Clave = década (18–19 años → \"10\")."
+        },
+        "signo": {
+          "type": "object",
+          "propertyNames": { "$ref": "common.schema.json#/$defs/signo" },
+          "additionalProperties": { "$ref": "#/$defs/lines" }
+        },
+        "numeroVida": {
+          "type": "object",
+          "propertyNames": { "enum": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "11", "22", "33"] },
+          "additionalProperties": { "$ref": "#/$defs/lines" },
+          "description": "Numerología: suma de dígitos de la fecha reducida a 1–9 (11, 22, 33 maestros)."
+        },
+        "sinFecha": { "$ref": "#/$defs/lines", "description": "Si sólo dio edad y no fecha (signo desconocido)." },
+        "genericas": { "$ref": "#/$defs/lines" }
+      }
+    },
+    "provincia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["genericas", "extranjero"],
+      "properties": {
+        "pregunta": { "$ref": "#/$defs/lines" },
+        "genericas": { "$ref": "#/$defs/lines", "description": "Pueden usar {provincia}, {comunidad}, {gentilicio} y {chascarrillo} (= teaser de GET /provinces; los rellena el navegador)." },
+        "extranjero": { "$ref": "#/$defs/lines", "description": "«Nací fuera de España» (globo terráqueo)." }
+      }
+    }
+  }
+}

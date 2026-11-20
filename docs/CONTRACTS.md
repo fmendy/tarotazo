@@ -304,3 +304,36 @@ y `setMuted(b)`, generados con Web Audio (sin ficheros externos) o Howler si hay
 
 ## Peticiones de cambio
 (añadir aquí: fecha · equipo · cambio propuesto · motivo)
+
+- 2026-11-20 · Datos · **Ids de posición** fijados en `content/spreads.json` (ver `content/schemas/README.md`):
+  `dia` consejo · `ppf` pasado, presente, futuro · `sino` respuesta, matiz, remate (con `minSize: 1`, se usan las N primeras) ·
+  `cruz` situacion, obstaculo, pasado, futuro, resultado · `herradura` pasado, presente, futuro, consejo, entorno, obstaculos, resultado ·
+  `amor` tu, **otra**, une, separa, consejo, futuro · `celta` cubre, cruza, corona, base, pasado, futuro, actitud, entorno, esperanzas, resultado.
+  Motivo: el §1 no los fijaba y los fragmentos ya usan `when.posicion`.
+- 2026-11-20 · Datos · `es/spreads.json`: cada posición es `{ "label": "Pasado", "inline": "tu pasado", "hint": "…" }`.
+  Propuesta al backend: `{posicion}` se sustituye por `inline` (no por `label`); la API sigue devolviendo `positions[].label`.
+  Motivo: «En Pasado…» suena mal; «En tu pasado…» bien.
+- 2026-11-20 · Datos · `provinces.json` = `{ "provinces": [ { "code", "nombre", "nombreOficial", "comunidad", "capital", "zona" } ] }`
+  (`zona` ∈ peninsula|baleares|canarias|africa|extranjero; `XX` con comunidad/capital `null`). Motivo: estructura y recuadro de Canarias en el mapa.
+- 2026-11-20 · Datos · `GET /api/v1/provinces` debería incluir también `gentilicio` (de la ficha). Motivo: `onboarding.json` se resuelve en
+  el navegador y sus frases de provincia usan `{provincia}`, `{comunidad}`, `{gentilicio}` y `{chascarrillo}` (= `teaser`).
+- 2026-11-20 · Datos · Variables extra fuera del §3.2: `onboarding.json` → `santo`, `letras`, `chascarrillo` (sin `plato/fiesta/clima`);
+  `pendulum.json` → `palabra`, `opcion`, `porcentaje`, `nivel` (informe de chakra). Ids de chakra: `raiz, sacro, plexo, corazon, garganta, tercerOjo, corona`.
+  Claves opcionales extra en `pendulum.lines`: `intro`, `calibrar.intro`, `repetida`.
+- 2026-11-20 · Datos · `when` admite además (opcionales) `family`, `spread`, `estacion` (`primavera|verano|otono|invierno`);
+  `faseLunar` ∈ `nueva|creciente|llena|menguante`; `diaSemana` ISO 1 = lunes … 7 = domingo. Motivo: el §3.1 no fijaba esos valores.
+- 2026-11-20 · Datos · `decks/*.json → models[]` añade `numerals` (Marsella: `mayor-08` «XI», `mayor-11` «VIII», `mayor-00` sin numeral),
+  `minors` (escenas|pips) y `pattern`; `es/cards/*.json → models[id].cardNames` para nombres propios del modelo (Marsella: La Papisa, El Papa,
+  El Enamorado, El Arcano sin Nombre, La Casa de Dios). Española: castellana 40, catalana 48, ilustrada 40. `reversedProbability`: tarot 0.3, española 0.2.
+  Cartas menores llevan `number` (tarot 1–14, española 1–12 con sota 10, caballo 11, rey 12).
+
+## Resoluciones del jefe de proyecto (prevalecen sobre lo anterior)
+- 2026-11-20 · **Aceptadas todas las peticiones del equipo de datos** de esta sección. En concreto:
+  - `diaSemana` es **ISO‑8601: 1 = lunes … 7 = domingo** (en `when` y en el `context` de la API).
+  - `{posicion}` se sustituye por el campo `inline` de la posición («tu pasado»); `label` es para la interfaz.
+  - Ids de posición definitivos: los de `content/spreads.json` (amor: `tu, otra, une, separa, consejo, futuro`).
+  - `GET /api/v1/provinces` incluye también `gentilicio`.
+  - `when` admite opcionalmente `family`, `spread`, `estacion`.
+  - `reversedProbability`: tarot 0.3, española 0.2 (desde `decks/*.json`).
+  - Numerales visibles por modelo: campo `numerals` del modelo (el id de carta no cambia).
+- La verificación de edad es **autodeclaración** (decisión del titular).

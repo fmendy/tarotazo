@@ -1,0 +1,28 @@
+{
+  "code": "23",
+  "nombre": "Jaén",
+  "comunidad": "Andalucía",
+  "gentilicio": "jiennense",
+  "plato": [
+    "el aceite de oliva virgen extra",
+    "la pipirrana",
+    "los andrajos",
+    "el ochío"
+  ],
+  "fiesta": [
+    "la Romería de la Virgen de la Cabeza",
+    "la Noche de las Lumbres de San Antón"
+  ],
+  "clima": [
+    "veranos calurosos de olivar",
+    "inviernos frescos de sierra"
+  ],
+  "chascarrillos": [
+    "En Jaén hay más olivos que estrellas en el cielo, y el aceite brilla más.",
+    "Una tostada con aceite de Jaén es mejor terapia que muchas que conozco.",
+    "La pipirrana se hace con lo que hay en la huerta y sabe a gloria.",
+    "Jiennense: alguien que lleva una botellita de aceite en la maleta por si acaso.",
+    "Úbeda y Baeza son tan bonitas que el Renacimiento las dejó de recuerdo.",
+    "En la Noche de las Lumbres hay tanta hoguera que mis velas se ponen celosas."
+  ]
+}

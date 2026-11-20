@@ -1,0 +1,112 @@
+# Tarotazo (arcana) — producción / local con TLS.
+#   docker compose -f deploy/docker-compose.yml up --build -d
+# Variables (ver deploy/.env.example y deploy/README.md):
+#   ARCANA_DOMAIN        dominio público (por defecto localhost, certificado interno de Caddy)
+#   ARCANA_IMAGE_PREFIX  prefijo de imágenes (por defecto "arcana"; en VPS ghcr.io/<owner>/arcana)
+#   ARCANA_TAG           etiqueta de imagen (por defecto "local")
+#   ARCANA_HTTP_PORT / ARCANA_HTTPS_PORT  puertos publicados (80 / 443)
+name: arcana
+
+x-hardening: &hardening
+  read_only: true
+  cap_drop: [ALL]
+  security_opt:
+    - no-new-privileges:true
+  restart: unless-stopped
+  # Sólo logs de proceso (no hay logs de acceso), rotados y pequeños.
+  logging:
+    driver: local
+    options:
+      max-size: "5m"
+      max-file: "2"
+
+services:
+  proxy:
+    <<: *hardening
+    image: caddy:2-alpine
+    # Root dentro del contenedor pero sin capacidades salvo bind de 80/443.
+    cap_add: [NET_BIND_SERVICE]
+    environment:
+      ARCANA_SITE: ${ARCANA_DOMAIN:-localhost}
+    ports:
+      - "${ARCANA_HTTP_PORT:-80}:80"
+      - "${ARCANA_HTTPS_PORT:-443}:443"
+      - "${ARCANA_HTTPS_PORT:-443}:443/udp"   # HTTP/3
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data        # certificados (ACME o CA interna)
+      - caddy_config:/config
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    networks: [edge, internal]
+    depends_on:
+      arcana-web:
+        condition: service_healthy
+      arcana-api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8081/healthz"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits: { cpus: "0.50", memory: 128M, pids: 128 }
+
+  arcana-web:
+    <<: *hardening
+    image: ${ARCANA_IMAGE_PREFIX:-arcana}-web:${ARCANA_TAG:-local}
+    build:
+      context: ../web
+      dockerfile: Dockerfile
+    # Sin "ports": sólo accesible a través del proxy.
+    expose: ["8080"]
+    tmpfs:
+      - /tmp:size=16m,uid=101,gid=101,mode=0700
+    networks: [internal]
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8080/healthz"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    deploy:
+      resources:
+        limits: { cpus: "0.50", memory: 64M, pids: 128 }
+
+  arcana-api:
+    <<: *hardening
+    image: ${ARCANA_IMAGE_PREFIX:-arcana}-api:${ARCANA_TAG:-local}
+    build:
+      context: ..               # raíz del repo: el jar empaqueta content/
+      dockerfile: api/Dockerfile
+    expose: ["8080"]
+    environment:
+      SPRING_PROFILES_ACTIVE: ${ARCANA_SPRING_PROFILES:-prod}
+      # Confiar en X-Forwarded-For sólo del proxy (red interna de Docker). Ver README.
+      SERVER_FORWARD_HEADERS_STRATEGY: native
+    tmpfs:
+      - /tmp:size=64m,uid=10001,gid=10001,mode=0700
+    networks: [internal]
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8080/actuator/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 60s
+    deploy:
+      resources:
+        limits: { cpus: "1.00", memory: 768M, pids: 512 }
+        reservations: { memory: 256M }
+
+networks:
+  # Red con salida: sólo el proxy (ACME, clientes).
+  edge: {}
+  # Red interna sin salida a Internet: web y API no pueden hablar con el exterior.
+  internal:
+    internal: true
+
+volumes:
+  caddy_data: {}
+  caddy_config: {}

@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/common.schema.json",
+  "title": "Definiciones comunes de Arcana",
+  "$defs": {
+    "family": { "enum": ["tarot", "spanish"] },
+    "tarotModel": { "enum": ["rws", "marsella", "neon", "acuarela", "pixel", "gatos"] },
+    "spanishModel": { "enum": ["castellana", "catalana", "ilustrada"] },
+    "model": { "anyOf": [{ "$ref": "#/$defs/tarotModel" }, { "$ref": "#/$defs/spanishModel" }] },
+    "suit": { "enum": ["bastos", "copas", "espadas", "oros"] },
+    "tarotRank": { "enum": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "sota", "caballo", "reina", "rey"] },
+    "spanishRank": { "enum": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "sota", "caballo", "rey"] },
+    "tarotCardId": {
+      "type": "string",
+      "pattern": "^(mayor-(0[0-9]|1[0-9]|2[01])|(bastos|copas|espadas|oros)-(0[1-9]|10|sota|caballo|reina|rey))$"
+    },
+    "spanishCardId": {
+      "type": "string",
+      "pattern": "^(bastos|copas|espadas|oros)-(0[1-9]|sota|caballo|rey)$"
+    },
+    "cardId": { "anyOf": [{ "$ref": "#/$defs/tarotCardId" }, { "$ref": "#/$defs/spanishCardId" }] },
+    "spreadId": { "enum": ["dia", "ppf", "sino", "cruz", "herradura", "celta", "amor"] },
+    "layout": { "enum": ["single", "row", "cross", "horseshoe", "celtic", "love"] },
+    "tema": { "enum": ["general", "amor", "trabajo", "dinero", "salud"] },
+    "tone": { "enum": ["mistica", "abuela", "teletienda", "ironica", "dramatica", "coach"] },
+    "tones": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/tone" },
+      "uniqueItems": true,
+      "description": "Vacío o ausente = vale para todos los tonos."
+    },
+    "provinceCode": {
+      "type": "string",
+      "pattern": "^(0[1-9]|[1-4][0-9]|5[0-2]|XX)$"
+    },
+    "signo": { "enum": ["aries", "tauro", "geminis", "cancer", "leo", "virgo", "libra", "escorpio", "sagitario", "capricornio", "acuario", "piscis"] },
+    "pendulumModel": { "enum": ["cuarzo", "amatista", "laton", "obsidiana", "madera", "camara", "llave", "anillo", "chorizo"] },
+    "pendulumMode": { "enum": ["sino", "tablero", "porcentaje", "ouija", "mapa", "opciones", "chakras"] },
+    "faseLunar": { "enum": ["nueva", "creciente", "llena", "menguante"] },
+    "estacion": { "enum": ["primavera", "verano", "otono", "invierno"] },
+    "positionId": { "type": "string", "pattern": "^[a-z][a-zA-Z0-9]*$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Texto con mini-sintaxis §3.2: {variable} y [a|b|c] sin anidar. Variables comprobadas por tools/validate.mjs."
+    },
+    "textList": { "type": "array", "items": { "$ref": "#/$defs/text" }, "minItems": 1 },
+    "weight": { "type": "number", "exclusiveMinimum": 0 },
+    "fragmentId": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9]+(\\.[a-zA-Z0-9_-]+)+$",
+      "description": "Recomendado: {slot}.{tono|comun}.{nnn}, p. ej. entrada.mistica.001"
+    },
+    "when": {
+      "type": "object",
+      "description": "Condiciones AND; listas = OR. Ver CONTRACTS §3.1.",
+      "additionalProperties": false,
+      "properties": {
+        "tema": { "type": "array", "items": { "$ref": "#/$defs/tema" }, "minItems": 1, "uniqueItems": true },
+        "invertida": { "type": "boolean" },
+        "arcana": { "enum": ["major", "minor"] },
+        "cardIds": { "type": "array", "items": { "$ref": "#/$defs/cardId" }, "minItems": 1, "uniqueItems": true },
+        "suit": { "type": "array", "items": { "$ref": "#/$defs/suit" }, "minItems": 1, "uniqueItems": true },
+        "family": { "type": "array", "items": { "$ref": "#/$defs/family" }, "minItems": 1, "uniqueItems": true },
+        "spread": { "type": "array", "items": { "$ref": "#/$defs/spreadId" }, "minItems": 1, "uniqueItems": true },
+        "posicion": { "type": "array", "items": { "$ref": "#/$defs/positionId" }, "minItems": 1, "uniqueItems": true },
+        "decadaMin": { "type": "integer", "minimum": 10, "maximum": 120, "multipleOf": 10 },
+        "decadaMax": { "type": "integer", "minimum": 10, "maximum": 120, "multipleOf": 10 },
+        "horaMin": { "type": "integer", "minimum": 0, "maximum": 23 },
+        "horaMax": { "type": "integer", "minimum": 0, "maximum": 23 },
+        "mayoresMin": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "figurasMin": { "type": "integer", "minimum": 0, "maximum": 10, "description": "Sólo slot sintesis." },
+        "suitDominante": { "$ref": "#/$defs/suit", "description": "Sólo slot sintesis." },
+        "provincia": { "type": "array", "items": { "$ref": "#/$defs/provinceCode" }, "minItems": 1, "uniqueItems": true },
+        "signo": { "type": "array", "items": { "$ref": "#/$defs/signo" }, "minItems": 1, "uniqueItems": true },
+        "diaSemana": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": 1, "maximum": 7 },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "ISO-8601: 1 = lunes … 7 = domingo."
+        },
+        "faseLunar": { "type": "array", "items": { "$ref": "#/$defs/faseLunar" }, "minItems": 1, "uniqueItems": true },
+        "estacion": { "type": "array", "items": { "$ref": "#/$defs/estacion" }, "minItems": 1, "uniqueItems": true },
+        "primeraCarta": { "type": "boolean" },
+        "ultimaCarta": { "type": "boolean" }
+      }
+    }
+  }
+}

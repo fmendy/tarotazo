@@ -1,0 +1,39 @@
+{
+  "lines": {
+    "intro": ["Coge la cadena con dos dedos, sin apretar, como quien sujeta un secreto."],
+    "calibrar.intro": ["Primero vamos a calibrar. Péndulo, enséñanos tu sí."],
+    "calibrar.si": ["Ese es su sí. Apúntalo mentalmente."],
+    "calibrar.no": ["Y ese, su no. Ya os conocéis."],
+    "sino.si": ["Sí. Clarísimo. Bueno, clarito."],
+    "sino.no": ["No. Y el péndulo no suele equivocarse (suele)."],
+    "sino.duda": ["Da vueltas… reformula, que así no se entiende ni él."],
+    "tablero.0": ["SÍ, con mayúsculas."],
+    "tablero.1": ["PROBABLE. Ve preparando el cava, pero sin abrir."],
+    "tablero.2": ["QUIZÁ. El péndulo no se moja."],
+    "tablero.3": ["POCO PROBABLE. Pero no imposible, ojo."],
+    "tablero.4": ["NO. Pasa página, que hay más libros."],
+    "porcentaje.alto": ["Un {porcentaje} %. Eso es casi un sí con lacito."],
+    "porcentaje.medio": ["Un {porcentaje} %. Ni fu ni fa."],
+    "porcentaje.bajo": ["Un {porcentaje} %. Yo no apostaría ni un café."],
+    "ouija": ["Letra a letra… {palabra}. ¿Te dice algo?"],
+    "mapa": ["Se para encima de {provincia}. Haz la maleta."],
+    "opciones": ["Lo tiene claro: {opcion}."],
+    "chakras.intro": ["Vamos a mirarte los chakras, que hace mucho que no pasas la ITV espiritual."],
+    "enfado": ["¡Tres veces lo mismo! El péndulo se ha enrollado en la cadena y no te habla."],
+    "medianoche": ["Medianoche en punto: el péndulo brilla. Está en su hora."]
+  },
+  "models": {
+    "cuarzo": { "nombre": "Cuarzo", "personalidad": "Transparente y sincero. No sabe mentir.", "lines": { "sino.si": ["Sí, y te lo digo con total transparencia."] } },
+    "chorizo": { "nombre": "Chorizo de la abuela", "personalidad": "Poco místico, muy sabroso." }
+  },
+  "ouijaWords": ["SI", "NO", "AMOR", "PIZZA", "VIAJE", "SIESTA"],
+  "chakras": [
+    { "id": "raiz", "nombre": "Raíz", "informes": ["Raíz al {nivel} %: bien plantado, como un olivo."] },
+    { "id": "sacro", "nombre": "Sacro", "informes": ["Sacro al {nivel} %."] },
+    { "id": "plexo", "nombre": "Plexo solar", "informes": ["Plexo al {nivel} %."] },
+    { "id": "corazon", "nombre": "Corazón", "informes": ["Corazón al {nivel} %."] },
+    { "id": "garganta", "nombre": "Garganta", "informes": ["Garganta al {nivel} %."] },
+    { "id": "tercerOjo", "nombre": "Tercer ojo", "informes": ["Tercer ojo al {nivel} %."] },
+    { "id": "corona", "nombre": "Corona", "informes": ["Corona al {nivel} %."] }
+  ]
+}

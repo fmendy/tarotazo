@@ -1,0 +1,28 @@
+{
+  "code": "48",
+  "nombre": "Vizcaya",
+  "comunidad": "País Vasco",
+  "gentilicio": "vizcaíno/a",
+  "plato": [
+    "el bacalao al pil pil",
+    "el marmitako",
+    "las kokotxas",
+    "el talo con chorizo"
+  ],
+  "fiesta": [
+    "la Aste Nagusia de Bilbao",
+    "la Feria de Santo Tomás"
+  ],
+  "clima": [
+    "lluvia frecuente",
+    "verde todo el año"
+  ],
+  "chascarrillos": [
+    "En Bilbao el Guggenheim tiene un perro de flores que cambia de vestido según la estación.",
+    "El bacalao al pil pil se mueve con paciencia y sale con magia.",
+    "En la Aste Nagusia Marijaia preside las fiestas con más gracia que yo mis lecturas.",
+    "Vizcaíno: alguien que te pone una ración que da para tres y te dice que es «un poquito».",
+    "En Santo Tomás se come talo con chorizo y no hay frío que lo resista.",
+    "En Bizkaia llueve tanto que los paraguas tienen nombre y apellidos."
+  ]
+}

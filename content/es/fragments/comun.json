@@ -1,0 +1,441 @@
+{
+  "fragments": [
+    {
+      "id": "puente.comun.001",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "cubre"
+        ]
+      },
+      "text": "Lo que te cubre, la carta que está encima del asunto…"
+    },
+    {
+      "id": "puente.comun.002",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "cubre"
+        ]
+      },
+      "text": "El corazón de la cuestión, lo que tienes justo delante…"
+    },
+    {
+      "id": "puente.comun.003",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "cruza"
+        ]
+      },
+      "text": "Lo que se cruza en tu camino, de través y sin pedir permiso…"
+    },
+    {
+      "id": "puente.comun.004",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "cruza"
+        ]
+      },
+      "text": "La carta que se atraviesa, como quien aparca en doble fila…"
+    },
+    {
+      "id": "puente.comun.005",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "corona"
+        ]
+      },
+      "text": "Lo que te corona: lo que aspiras a lograr…"
+    },
+    {
+      "id": "puente.comun.006",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "corona"
+        ]
+      },
+      "text": "Por encima de todo, como un sombrero de domingo…"
+    },
+    {
+      "id": "puente.comun.007",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "base"
+        ]
+      },
+      "text": "En la base, en los cimientos de todo esto…"
+    },
+    {
+      "id": "puente.comun.008",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "base"
+        ]
+      },
+      "text": "Lo que hay debajo, lo que sostiene la mesa…"
+    },
+    {
+      "id": "puente.comun.009",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "actitud"
+        ]
+      },
+      "text": "Tu actitud, cómo te plantas ante esto…"
+    },
+    {
+      "id": "puente.comun.010",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "actitud"
+        ]
+      },
+      "text": "Cómo te ves en todo este lío…"
+    },
+    {
+      "id": "puente.comun.011",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "esperanzas"
+        ]
+      },
+      "text": "Tus esperanzas, y algún que otro temor de propina…"
+    },
+    {
+      "id": "puente.comun.012",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "esperanzas"
+        ]
+      },
+      "text": "Lo que deseas, y lo que te da un poco de respeto…"
+    },
+    {
+      "id": "puente.comun.013",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "respuesta"
+        ]
+      },
+      "text": "La respuesta, sin rodeos…"
+    },
+    {
+      "id": "puente.comun.014",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "respuesta"
+        ]
+      },
+      "text": "Vamos con lo que preguntabas…"
+    },
+    {
+      "id": "puente.comun.015",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "matiz"
+        ]
+      },
+      "text": "Y un matiz, que nada es blanco o negro…"
+    },
+    {
+      "id": "puente.comun.016",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "matiz"
+        ]
+      },
+      "text": "Ahora, la letra pequeña…"
+    },
+    {
+      "id": "puente.comun.017",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "remate"
+        ]
+      },
+      "text": "Y para rematar…"
+    },
+    {
+      "id": "puente.comun.018",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "remate"
+        ]
+      },
+      "text": "La última palabra la tiene esta carta…"
+    },
+    {
+      "id": "puente.comun.019",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "consejo"
+        ],
+        "spread": [
+          "dia"
+        ]
+      },
+      "text": "Tu carta del día, para llevar en el bolsillo…"
+    },
+    {
+      "id": "puente.comun.020",
+      "slot": "puente",
+      "when": {
+        "posicion": [
+          "consejo"
+        ],
+        "spread": [
+          "dia"
+        ]
+      },
+      "text": "El consejo de hoy, que caduca a medianoche…"
+    },
+    {
+      "id": "entrada.comun.001",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ],
+        "cardIds": [
+          "oros-01"
+        ]
+      },
+      "text": "¡El As de Oros! En la cartomancia de siempre, la carta de la suerte gorda."
+    },
+    {
+      "id": "entrada.comun.002",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ],
+        "cardIds": [
+          "copas-01"
+        ]
+      },
+      "text": "El As de Copas. Corazón lleno y mesa puesta."
+    },
+    {
+      "id": "entrada.comun.003",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ],
+        "cardIds": [
+          "espadas-01"
+        ]
+      },
+      "text": "El As de Espadas. Ojo, que corta."
+    },
+    {
+      "id": "entrada.comun.004",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ],
+        "cardIds": [
+          "bastos-01"
+        ]
+      },
+      "text": "El As de Bastos. Un garrote de energía."
+    },
+    {
+      "id": "entrada.comun.005",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ],
+        "cardIds": [
+          "oros-rey",
+          "copas-rey",
+          "espadas-rey",
+          "bastos-rey"
+        ]
+      },
+      "text": "Un rey de la baraja de toda la vida. De los que se ven en el bar jugando al mus."
+    },
+    {
+      "id": "entrada.comun.006",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ],
+        "cardIds": [
+          "oros-caballo",
+          "copas-caballo",
+          "espadas-caballo",
+          "bastos-caballo"
+        ]
+      },
+      "text": "Un caballo. Algo llega al trote."
+    },
+    {
+      "id": "entrada.comun.007",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ],
+        "suit": [
+          "espadas"
+        ]
+      },
+      "text": "Espadas. En la baraja española, aviso. Aviso, no susto."
+    },
+    {
+      "id": "entrada.comun.008",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ],
+        "suit": [
+          "bastos"
+        ]
+      },
+      "text": "Bastos. Trabajo, esfuerzo y algún viaje."
+    },
+    {
+      "id": "entrada.comun.009",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ]
+      },
+      "text": "La baraja de las partidas de sobremesa. Esta sabe cosas."
+    },
+    {
+      "id": "entrada.comun.010",
+      "slot": "entrada",
+      "when": {
+        "family": [
+          "spanish"
+        ]
+      },
+      "text": "Una carta de las de casa. De las que huelen a café y a tute."
+    },
+    {
+      "id": "guino.comun.001",
+      "slot": "guino",
+      "when": {
+        "family": [
+          "spanish"
+        ]
+      },
+      "text": "Esta baraja ha visto más partidas de brisca que lecturas de futuro. Pero se le da bien todo."
+    },
+    {
+      "id": "guino.comun.002",
+      "slot": "guino",
+      "when": {
+        "family": [
+          "spanish"
+        ]
+      },
+      "text": "Con estas cartas se juega al tute, al mus y al destino. Por ese orden de importancia."
+    },
+    {
+      "id": "guino.comun.003",
+      "slot": "guino",
+      "when": {
+        "family": [
+          "spanish"
+        ]
+      },
+      "text": "La sota, el caballo y el rey. Esto ya lo decía la canción, que tiene mucha razón."
+    },
+    {
+      "id": "guino.comun.004",
+      "slot": "guino",
+      "when": {
+        "family": [
+          "spanish"
+        ]
+      },
+      "text": "La baraja española no tiene reinas. Ellas mandaban desde fuera."
+    },
+    {
+      "id": "guino.comun.005",
+      "slot": "guino",
+      "when": {
+        "family": [
+          "tarot"
+        ],
+        "arcana": "minor"
+      },
+      "text": "Los arcanos menores son los que hacen el trabajo de verdad mientras los mayores salen en la foto."
+    },
+    {
+      "id": "guino.comun.006",
+      "slot": "guino",
+      "when": {
+        "spread": [
+          "celta"
+        ]
+      },
+      "text": "La Cruz Celta: diez cartas. Esto es el menú degustación del tarot."
+    },
+    {
+      "id": "guino.comun.007",
+      "slot": "guino",
+      "when": {
+        "spread": [
+          "herradura"
+        ]
+      },
+      "text": "Siete cartas en herradura. Que la suerte, dicen, se cuelga con las puntas hacia arriba."
+    },
+    {
+      "id": "guino.comun.008",
+      "slot": "guino",
+      "when": {
+        "spread": [
+          "dia"
+        ]
+      },
+      "text": "Una carta al día. Como las vitaminas, pero sin prospecto."
+    },
+    {
+      "id": "guino.comun.009",
+      "slot": "guino",
+      "when": {
+        "spread": [
+          "sino"
+        ]
+      },
+      "text": "Sí o no. El tarot en modo telegrama."
+    },
+    {
+      "id": "guino.comun.010",
+      "slot": "guino",
+      "when": {
+        "spread": [
+          "amor"
+        ]
+      },
+      "text": "La tirada del amor: seis cartas para dos personas. Sale a tres por cabeza."
+    }
+  ]
+}

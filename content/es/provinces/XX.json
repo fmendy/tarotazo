@@ -1,0 +1,27 @@
+{
+  "code": "XX",
+  "nombre": "Fuera de España",
+  "comunidad": "el ancho mundo",
+  "gentilicio": "de fuera y de aquí",
+  "plato": [
+    "la comida de tu tierra, que nadie cocina como en casa",
+    "la tortilla de patatas que ya habrás adoptado como propia"
+  ],
+  "fiesta": [
+    "la fiesta de tu tierra",
+    "la Nochevieja con las doce uvas, que ya te sabes de memoria"
+  ],
+  "clima": [
+    "el clima de tu tierra, que aquí siempre comparas",
+    "el que te toque, que el mundo es muy grande"
+  ],
+  "chascarrillos": [
+    "Haces girar mi globo terráqueo y se para... en tu casa. El destino tiene buen ojo.",
+    "Mi globo terráqueo cómico es de 1975 y algunas fronteras están dibujadas a lápiz. Por si acaso.",
+    "Quien nace lejos y llega aquí trae dos maletas: la de la ropa y la de las recetas.",
+    "Las cartas no entienden de pasaportes; te leen igual de bien vengas de donde vengas.",
+    "Seguro que has explicado mil veces de dónde eres. Aquí no hace falta: las cartas ya lo saben.",
+    "Tener dos tierras es tener dos sitios donde te echan de menos. Eso es suerte doble.",
+    "He girado el globo tan fuerte que se ha salido del soporte. Tu destino tiene energía."
+  ]
+}

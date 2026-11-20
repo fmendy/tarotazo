@@ -1,0 +1,27 @@
+{
+  "code": "25",
+  "nombre": "Lleida",
+  "comunidad": "Cataluña",
+  "gentilicio": "leridano/a",
+  "plato": [
+    "los caracoles a la llauna",
+    "la coca de recapte",
+    "la fruta de Lleida"
+  ],
+  "fiesta": [
+    "el Aplec del Caragol",
+    "la Fiesta Mayor de Sant Anastasi"
+  ],
+  "clima": [
+    "boira de invierno",
+    "veranos de calor seco"
+  ],
+  "chascarrillos": [
+    "En el Aplec del Caragol se comen tantos caracoles que hasta los míos se esconden.",
+    "La boira de Lleida es tan espesa que mis predicciones salen con niebla incluida.",
+    "La fruta de Lleida es tan buena que la merienda parece un bodegón.",
+    "Leridano: alguien que distingue la boira normal de la boira «de las buenas».",
+    "Desde la Seu Vella se ve toda la llanura, y casi casi tu porvenir.",
+    "En el Pirineo de Lleida los pueblos de piedra tienen más encanto que una postal antigua."
+  ]
+}

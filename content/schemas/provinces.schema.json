@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/provinces.schema.json",
+  "title": "provinces.json — provincias (datos neutros, códigos INE)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["provinces"],
+  "properties": {
+    "$comment": { "type": "string" },
+    "provinces": {
+      "type": "array",
+      "minItems": 53,
+      "maxItems": 53,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "nombre", "nombreOficial", "comunidad", "capital", "zona"],
+        "properties": {
+          "code": { "$ref": "common.schema.json#/$defs/provinceCode" },
+          "nombre": { "type": "string", "minLength": 1, "description": "Nombre habitual en castellano." },
+          "nombreOficial": { "type": "string", "minLength": 1 },
+          "comunidad": { "type": ["string", "null"], "minLength": 1 },
+          "capital": { "type": ["string", "null"], "minLength": 1 },
+          "zona": { "enum": ["peninsula", "baleares", "canarias", "africa", "extranjero"], "description": "Para el mapa (recuadro de Canarias, etc.)." }
+        }
+      }
+    }
+  }
+}

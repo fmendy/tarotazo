@@ -1,0 +1,2481 @@
+{
+  "fragments": [
+    {
+      "id": "entrada.dramatica.001",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡NOOO! …Ah, no, es al revés. Respira."
+    },
+    {
+      "id": "entrada.dramatica.002",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Oh, cielos! ¡Oh, destino! ¡Oh… vale, no es para tanto!"
+    },
+    {
+      "id": "entrada.dramatica.003",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay! ¡AY! …Me he pillado el dedo con la vela. La carta está bien."
+    },
+    {
+      "id": "entrada.dramatica.004",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Silencio! ¡Que se apaguen las luces! …No, que no veo. Que se enciendan."
+    },
+    {
+      "id": "entrada.dramatica.005",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Por todos los arcanos del firmamento!"
+    },
+    {
+      "id": "entrada.dramatica.006",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡No puede ser! ¡No puede SER! …Sí puede ser. Es una carta normal."
+    },
+    {
+      "id": "entrada.dramatica.007",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Telón! …No, perdón, que esto acaba de empezar."
+    },
+    {
+      "id": "entrada.dramatica.008",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Mis sales! ¡Que alguien me traiga mis sales! …Ya está. Ya se me ha pasado."
+    },
+    {
+      "id": "entrada.dramatica.009",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Qué tensión! ¡Qué intriga! ¡Qué carta!"
+    },
+    {
+      "id": "entrada.dramatica.010",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Lo sabía! ¡Lo presentía! ¡Me lo dijo mi rodilla!"
+    },
+    {
+      "id": "entrada.dramatica.011",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡El corazón me late como un tambor de Semana Santa!"
+    },
+    {
+      "id": "entrada.dramatica.012",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Contemplad! ¡CONTEMPLAD! …Contempla tú, que yo ya la he visto."
+    },
+    {
+      "id": "entrada.dramatica.013",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, qué escalofrío! …Era la ventana. Cierra la ventana."
+    },
+    {
+      "id": "entrada.dramatica.014",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Que alguien sujete el decorado!"
+    },
+    {
+      "id": "entrada.dramatica.015",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esto es un giro de guion! …Bueno, es la primera carta, todo es giro de guion."
+    },
+    {
+      "id": "entrada.dramatica.016",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Me desmayo! …No me desmayo. Pero lo he valorado seriamente."
+    },
+    {
+      "id": "entrada.dramatica.017",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ohhh! …Ah. Ohh. Oh. Vale."
+    },
+    {
+      "id": "entrada.dramatica.018",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esto merece un aplauso de pie! ¡Ponte de pie! …Bueno, siéntate otra vez, que hay que seguir."
+    },
+    {
+      "id": "entrada.dramatica.019",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Mi alma tiembla! ¡Mis pendientes también!"
+    },
+    {
+      "id": "entrada.dramatica.020",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Que suenen los violines! ¡Los imaginarios, que no hay presupuesto!"
+    },
+    {
+      "id": "entrada.dramatica.021",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Qué emoción! ¡Qué drama! ¡Qué dibujito más bien hecho!"
+    },
+    {
+      "id": "entrada.dramatica.022",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Un momento de silencio por la carta que no ha salido!"
+    },
+    {
+      "id": "entrada.dramatica.023",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esto lo representaría yo en el teatro del pueblo y me darían el premio!"
+    },
+    {
+      "id": "entrada.dramatica.024",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Atención al primer acto de esta tragedia! ¡Que es comedia, tranquilidad!"
+    },
+    {
+      "id": "entrada.dramatica.025",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡INVERTIDA! ¡Del revés! ¡El mundo al revés! …Ah, que la estoy mirando yo al revés. Respira."
+    },
+    {
+      "id": "entrada.dramatica.026",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Boca abajo! ¡Como mi carrera teatral! ¡Pero se remonta, como todo!"
+    },
+    {
+      "id": "entrada.dramatica.027",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Invertida, cielo santo! …Que no pasa nada. Que solo cambia el matiz. Pero qué susto."
+    },
+    {
+      "id": "entrada.dramatica.028",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Del revés! ¡Que alguien gire el escenario! …Ya, ya lo giro yo con la imaginación."
+    },
+    {
+      "id": "entrada.dramatica.029",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "¡Un arcano MAYOR! ¡Que se cierren las puertas! ¡Que nadie salga de la sala!"
+    },
+    {
+      "id": "entrada.dramatica.030",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "¡Mayor! ¡Mayor! ¡De las de cartel con tu nombre en luces!"
+    },
+    {
+      "id": "entrada.dramatica.031",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "¡Arcano mayor! ¡Esto es el monólogo final! …De la primera escena."
+    },
+    {
+      "id": "entrada.dramatica.032",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "¡LA MUERTE! ¡NOOOO! …Que es cambio. Que es cierre de etapa. Que en el tarot es transformación. Respira. Respiro."
+    },
+    {
+      "id": "entrada.dramatica.033",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "¡La de la guadaña! ¡Qué entrada en escena! …Y qué buena noticia, en realidad: algo viejo se va y deja sitio."
+    },
+    {
+      "id": "entrada.dramatica.034",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "¡LA TORRE! ¡El rayo! ¡El derrumbe! ¡La tragedia! …La reforma. Es una reforma. Con mejores vistas."
+    },
+    {
+      "id": "entrada.dramatica.035",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "¡La Torre se desmorona! ¡Como mis nervios! …Pero se reconstruye. Mis nervios, no tanto."
+    },
+    {
+      "id": "entrada.dramatica.036",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "espadas-10"
+        ]
+      },
+      "text": "¡DIEZ ESPADAS! ¡Diez! ¡No una, ni dos: DIEZ! …Fin de la temporada mala. A partir de aquí, solo puede mejorar."
+    },
+    {
+      "id": "entrada.dramatica.037",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "espadas-10"
+        ]
+      },
+      "text": "¡El diez de espadas! ¡El último acto del drama! ¡Y, por tanto, el final del drama! ¡Bravo!"
+    },
+    {
+      "id": "entrada.dramatica.038",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-06"
+        ]
+      },
+      "text": "¡Los Enamorados! ¡Esto es Romeo y Julieta! …Pero con final feliz, que el otro no me gusta."
+    },
+    {
+      "id": "entrada.dramatica.039",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-18"
+        ]
+      },
+      "text": "¡La Luna! ¡Las sombras! ¡Los aullidos! …Los gatos del patio. Son los gatos."
+    },
+    {
+      "id": "entrada.dramatica.040",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-07"
+        ]
+      },
+      "text": "¡El Carro! ¡Galopando hacia la gloria! …Despacio, que hay radar."
+    },
+    {
+      "id": "entrada.dramatica.041",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-12"
+        ]
+      },
+      "text": "¡El Colgado! ¡Qué angustia! …Ah, no, que está así porque quiere. Es yoga."
+    },
+    {
+      "id": "entrada.dramatica.042",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-17"
+        ]
+      },
+      "text": "¡La Estrella! ¡Lloro de emoción! ¡Lloro! ¡Pásame un pañuelo!"
+    },
+    {
+      "id": "entrada.dramatica.043",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "¡Se alza el telón! ¡Primera carta!"
+    },
+    {
+      "id": "entrada.dramatica.044",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "¡El acto final! ¡La última carta! ¡Que tiemble el patio de butacas!"
+    },
+    {
+      "id": "entrada.dramatica.045",
+      "slot": "entrada",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡A estas horas todo es más trágico! ¡Y yo, más dramática!"
+    },
+    {
+      "id": "puente.dramatica.001",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "¡En tu PASADO! ¡Ese teatro de recuerdos con las butacas polvorientas!"
+    },
+    {
+      "id": "puente.dramatica.002",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "¡Lo que fue! ¡Lo que nunca volverá! …Bueno, algunas cosas vuelven. Como los vaqueros de campana."
+    },
+    {
+      "id": "puente.dramatica.003",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "¡El pasado! ¡Ese fantasma que pasea por los pasillos de tu alma!"
+    },
+    {
+      "id": "puente.dramatica.004",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "¡AHORA! ¡En este preciso, crucial, irrepetible instante!"
+    },
+    {
+      "id": "puente.dramatica.005",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "¡Tu presente! ¡El escenario donde se representa tu vida! ¡En directo y sin ensayo!"
+    },
+    {
+      "id": "puente.dramatica.006",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "¡Hoy! ¡Hoy mismo! ¡Ahora que lo pienso, ya es más tarde que cuando empecé la frase!"
+    },
+    {
+      "id": "puente.dramatica.007",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "¡Y en tu FUTURO…! ¡Ay, que no me atrevo a mirar! …Vale, ya miro."
+    },
+    {
+      "id": "puente.dramatica.008",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "¡El porvenir! ¡El mañana! ¡El después de la merienda!"
+    },
+    {
+      "id": "puente.dramatica.009",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "¡Lo que vendrá! ¡Lo que el destino guarda entre bambalinas!"
+    },
+    {
+      "id": "puente.dramatica.010",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "¡Y el consejo! ¡El consejo que cambiará tu vida! …O por lo menos tu tarde."
+    },
+    {
+      "id": "puente.dramatica.011",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "¡Escucha, escucha, que esto lo digo una sola vez! ¡Bueno, dos!"
+    },
+    {
+      "id": "puente.dramatica.012",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "¡El OBSTÁCULO! ¡El villano de esta obra!"
+    },
+    {
+      "id": "puente.dramatica.013",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "¡Lo que se interpone! ¡El muro! ¡La muralla! ¡El escalón que nadie ve!"
+    },
+    {
+      "id": "puente.dramatica.014",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "¡Y el desenlace! ¡Que redoblen los tambores!"
+    },
+    {
+      "id": "puente.dramatica.015",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "¡El final de la obra! ¡El momento en que todo se resuelve! …O se queda para la segunda parte."
+    },
+    {
+      "id": "puente.dramatica.016",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "¡La situación! ¡El escenario completo, con decorado y todo!"
+    },
+    {
+      "id": "puente.dramatica.017",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "¡Esto es lo que está en juego! ¡Ni más ni menos que esto!"
+    },
+    {
+      "id": "puente.dramatica.018",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "¡Tu entorno! ¡El coro griego que comenta tu vida desde el fondo!"
+    },
+    {
+      "id": "puente.dramatica.019",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "¡Los que te rodean! ¡Los secundarios de lujo!"
+    },
+    {
+      "id": "puente.dramatica.020",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "tu"
+        ]
+      },
+      "text": "¡Tú! ¡El personaje principal! ¡Con monólogo y foco propio!"
+    },
+    {
+      "id": "puente.dramatica.021",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "otra"
+        ]
+      },
+      "text": "¡La otra persona! ¡Entra por la izquierda del escenario con paso firme!"
+    },
+    {
+      "id": "puente.dramatica.022",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "une"
+        ]
+      },
+      "text": "¡Lo que os une! ¡Un lazo más fuerte que el guion de una telenovela!"
+    },
+    {
+      "id": "puente.dramatica.023",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "posicion": [
+          "separa"
+        ]
+      },
+      "text": "¡Lo que os separa! ¡El abismo! …El charco. Es un charco. Se salta."
+    },
+    {
+      "id": "puente.dramatica.024",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡En «{posicion}»! ¡Qué momento! ¡Qué palabra!"
+    },
+    {
+      "id": "puente.dramatica.025",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Llegamos a «{posicion}»! ¡Que suba la música!"
+    },
+    {
+      "id": "puente.dramatica.026",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Y en «{posicion}», atención, atención…!"
+    },
+    {
+      "id": "puente.dramatica.027",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡Después de {cartaAnterior}, esto! ¡Qué secuencia! ¡Qué dramaturgia!"
+    },
+    {
+      "id": "puente.dramatica.028",
+      "slot": "puente",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡{cartaAnterior} encendió la mecha y esta carta hace estallar los fuegos artificiales!"
+    },
+    {
+      "id": "personalizacion.dramatica.001",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡{nombre}! ¡Tu nombre resuena en este teatro como un trueno!"
+    },
+    {
+      "id": "personalizacion.dramatica.002",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Oh, {nombre}, criatura del destino!"
+    },
+    {
+      "id": "personalizacion.dramatica.003",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡{nombre}, de {provincia}! ¡La tierra que vio nacer a un alma de tragedia griega! …De comedia, mejor."
+    },
+    {
+      "id": "personalizacion.dramatica.004",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡{edad} años! ¡{edad} años de aventuras, desventuras y alguna siesta épica!"
+    },
+    {
+      "id": "personalizacion.dramatica.005",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Un {signo}! ¡Los {signo} siempre tienen un tercer acto sorprendente!"
+    },
+    {
+      "id": "personalizacion.dramatica.006",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Número de vida {numeroVida}! ¡Ese número brilla sobre tu cabeza como un foco en el escenario!"
+    },
+    {
+      "id": "personalizacion.dramatica.007",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡La {inicial}! ¡La {inicial} de {nombre}! ¡Una letra que es casi un grito!"
+    },
+    {
+      "id": "personalizacion.dramatica.008",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡En {provincia}, donde {clima}, se forjan los caracteres más intensos!"
+    },
+    {
+      "id": "personalizacion.dramatica.009",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ni {plato} tiene tanto drama como esta carta, {nombre}! ¡Y mira que tiene!"
+    },
+    {
+      "id": "personalizacion.dramatica.010",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Lo {gentilicio} que hay en ti arde como las velas de mi camerino!"
+    },
+    {
+      "id": "personalizacion.dramatica.011",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Bailar en {fiesta}! ¡Qué escena! ¡Ahí te veo yo, con la carta en la mano!"
+    },
+    {
+      "id": "personalizacion.dramatica.012",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Es {diaSemana}! ¡Un {diaSemana} cualquiera… o EL {diaSemana} que cambiará tu historia!"
+    },
+    {
+      "id": "personalizacion.dramatica.013",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡En esta {estacion}, {nombre}, el destino cambia de vestuario!"
+    },
+    {
+      "id": "personalizacion.dramatica.014",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡Primero {cartaAnterior}, ahora {carta}! ¡{nombre}, esto es una obra en tres actos!"
+    },
+    {
+      "id": "personalizacion.dramatica.015",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡{cartaAnterior} y {carta} juntas! ¡Como dos actrices rivales en el mismo camerino!"
+    },
+    {
+      "id": "personalizacion.dramatica.016",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡{carta}! ¡{carta} para {nombre}! ¡Qué reparto tan acertado!"
+    },
+    {
+      "id": "personalizacion.dramatica.017",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, {nombre}, si supieras lo que significa {carta}…! Te lo cuento, que para eso estoy."
+    },
+    {
+      "id": "personalizacion.dramatica.018",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¿¡Qué haces sin dormir a estas horas, {nombre}!? ¡Las grandes tragedias se escriben de madrugada! …Y las grandes ojeras."
+    },
+    {
+      "id": "personalizacion.dramatica.019",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡La madrugada, {nombre}! ¡La hora de los fantasmas, los poetas y los que no tienen sueño!"
+    },
+    {
+      "id": "personalizacion.dramatica.020",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 2,
+        "horaMax": 5
+      },
+      "text": "¡Las {hora} de la madrugada! ¡La hora más oscura! ¡La hora de la verdad! …La hora de ir a la cama."
+    },
+    {
+      "id": "personalizacion.dramatica.021",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 6,
+        "horaMax": 9
+      },
+      "text": "¡Amanece, {nombre}! ¡Y con el alba, la revelación! ¡Y el café!"
+    },
+    {
+      "id": "personalizacion.dramatica.022",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 14,
+        "horaMax": 16
+      },
+      "text": "¡La hora de la siesta! ¡Qué momento tan arriesgado para recibir revelaciones!"
+    },
+    {
+      "id": "personalizacion.dramatica.023",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 20,
+        "horaMax": 23
+      },
+      "text": "¡Cae la noche sobre {provincia}! ¡Se encienden las farolas del destino!"
+    },
+    {
+      "id": "personalizacion.dramatica.024",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "decadaMin": 40
+      },
+      "text": "¡{edad} años, {nombre}! ¡La madurez! ¡El momento de los grandes papeles!"
+    },
+    {
+      "id": "personalizacion.dramatica.025",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "decadaMin": 60
+      },
+      "text": "¡Con tus {edad} años has visto más funciones que nadie, {nombre}! ¡Esta te va a gustar!"
+    },
+    {
+      "id": "personalizacion.dramatica.026",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "decadaMax": 20
+      },
+      "text": "¡Qué juventud, {nombre}! ¡Toda una vida por delante! ¡Y todo un drama por estrenar!"
+    },
+    {
+      "id": "personalizacion.dramatica.027",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "decadaMin": 30,
+        "decadaMax": 30
+      },
+      "text": "¡Los treinta, {nombre}! ¡La edad en que una crisis existencial dura lo que tarda en hervir el agua!"
+    },
+    {
+      "id": "personalizacion.dramatica.028",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡El AMOR, {nombre}! ¡El gran tema de todas las óperas!"
+    },
+    {
+      "id": "personalizacion.dramatica.029",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡Ay, el amor! ¡Suspiros, miradas, mensajes en visto! ¡Qué sufrimiento tan bonito!"
+    },
+    {
+      "id": "personalizacion.dramatica.030",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡Si hay alguien en tu corazón, {nombre}, que entre en escena ahora mismo!"
+    },
+    {
+      "id": "personalizacion.dramatica.031",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡El trabajo! ¡Esa batalla diaria! ¡Esa lucha épica contra la fotocopiadora!"
+    },
+    {
+      "id": "personalizacion.dramatica.032",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡En lo laboral, {nombre}, te veo de protagonista! ¡O de secundario con frase! ¡Que también cuenta!"
+    },
+    {
+      "id": "personalizacion.dramatica.033",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡El dinero! ¡El vil metal! …Del que yo no digo nada concreto, que no soy de banco."
+    },
+    {
+      "id": "personalizacion.dramatica.034",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡Ay, los oros, {nombre}! ¡Que brillan, que tientan! ¡Que decidas con calma y con quien sepa!"
+    },
+    {
+      "id": "personalizacion.dramatica.035",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "¡Tu salud, {nombre}! ¡Lo más importante! ¡Para eso, el médico! ¡Yo solo hago teatro!"
+    },
+    {
+      "id": "personalizacion.dramatica.036",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "signo": [
+          "leo"
+        ]
+      },
+      "text": "¡Leo! ¡Rey de la selva y del escenario! ¡Ya te veo saludando al final!"
+    },
+    {
+      "id": "personalizacion.dramatica.037",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "signo": [
+          "escorpio"
+        ]
+      },
+      "text": "¡Escorpio! ¡Intensidad! ¡Pasión! ¡Miradas que atraviesan el telón!"
+    },
+    {
+      "id": "personalizacion.dramatica.038",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "signo": [
+          "piscis"
+        ]
+      },
+      "text": "¡Piscis! ¡Lágrimas de emoción a la mínima! ¡Te entiendo tanto!"
+    },
+    {
+      "id": "personalizacion.dramatica.039",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "signo": [
+          "aries"
+        ]
+      },
+      "text": "¡Aries! ¡Fuego! ¡Embestida! ¡Entradas en escena sin llamar a la puerta!"
+    },
+    {
+      "id": "personalizacion.dramatica.040",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "signo": [
+          "virgo"
+        ]
+      },
+      "text": "¡Virgo! ¡Qué drama que esta carta esté un poquito torcida! ¡Ya la enderezo!"
+    },
+    {
+      "id": "personalizacion.dramatica.041",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "signo": [
+          "cancer"
+        ]
+      },
+      "text": "¡Cáncer! ¡Corazón de cristal! ¡Abrazo teatral para ti!"
+    },
+    {
+      "id": "personalizacion.dramatica.042",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "diaSemana": [
+          2
+        ]
+      },
+      "text": "¡Martes! ¡Ni te cases ni te embarques! ¡Pero las cartas, sí, que no son barco!"
+    },
+    {
+      "id": "personalizacion.dramatica.043",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "diaSemana": [
+          5
+        ]
+      },
+      "text": "¡Viernes, {nombre}! ¡Noche de estreno!"
+    },
+    {
+      "id": "personalizacion.dramatica.044",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "diaSemana": [
+          7
+        ]
+      },
+      "text": "¡Domingo! ¡El día de la función de tarde!"
+    },
+    {
+      "id": "personalizacion.dramatica.045",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "faseLunar": [
+          "llena"
+        ]
+      },
+      "text": "¡Luna llena, {nombre}! ¡El foco más grande del firmamento te ilumina!"
+    },
+    {
+      "id": "personalizacion.dramatica.046",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "faseLunar": [
+          "nueva"
+        ]
+      },
+      "text": "¡Luna nueva! ¡El escenario a oscuras! ¡Todo puede pasar!"
+    },
+    {
+      "id": "personalizacion.dramatica.047",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "faseLunar": [
+          "menguante"
+        ]
+      },
+      "text": "¡Luna menguante! ¡La luna se despide poco a poco, como una diva en su gira de adiós!"
+    },
+    {
+      "id": "personalizacion.dramatica.048",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "estacion": [
+          "invierno"
+        ]
+      },
+      "text": "¡En pleno invierno, {nombre}! ¡Frío, nieve, drama! ¡Una manta, por favor!"
+    },
+    {
+      "id": "personalizacion.dramatica.049",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "estacion": [
+          "primavera"
+        ]
+      },
+      "text": "¡Primavera! ¡Las flores! ¡La alergia! ¡El amor! ¡Qué estación tan teatral!"
+    },
+    {
+      "id": "personalizacion.dramatica.050",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "¡{nombre}, empieza tu función! ¡Que se apaguen los móviles!"
+    },
+    {
+      "id": "personalizacion.dramatica.051",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "¡Última carta, {nombre}! ¡El gran final! ¡Ensaya la reverencia!"
+    },
+    {
+      "id": "personalizacion.dramatica.052",
+      "slot": "personalizacion",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Los {decada}, {nombre}! ¡Una década de grandes estrenos!"
+    },
+    {
+      "id": "guino.dramatica.001",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ser o no ser! …Pues ser, que no ser es muy aburrido."
+    },
+    {
+      "id": "guino.dramatica.002",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Todo el mundo es un escenario! ¡Y tú, sin ensayar!"
+    },
+    {
+      "id": "guino.dramatica.003",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡No hay mal que cien años dure! ¡Ni drama que aguante tres actos!"
+    },
+    {
+      "id": "guino.dramatica.004",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡A quien madruga, Dios le ayuda! ¡A quien trasnocha, le hago yo una escena!"
+    },
+    {
+      "id": "guino.dramatica.005",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Que se rompan las tablas! …Del escenario, digo. Es una expresión."
+    },
+    {
+      "id": "guino.dramatica.006",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Mi carrera teatral fue breve pero intensa! ¡Una función! ¡Me equivoqué de pueblo!"
+    },
+    {
+      "id": "guino.dramatica.007",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Una vez hice de árbol en una obra y lloró todo el público! ¡De la risa, pero lloró!"
+    },
+    {
+      "id": "guino.dramatica.008",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡El drama es mi idioma materno! ¡La calma, mi segunda lengua, nivel A1!"
+    },
+    {
+      "id": "guino.dramatica.009",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Agua que no has de beber, déjala correr! ¡Como mis lágrimas en el acto segundo!"
+    },
+    {
+      "id": "guino.dramatica.010",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, la vida! ¡Qué guionista tan caprichoso!"
+    },
+    {
+      "id": "guino.dramatica.011",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esto merece un primer plano y música de violines!"
+    },
+    {
+      "id": "guino.dramatica.012",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Que traigan la máquina de humo! …Ah, no, que es el incienso."
+    },
+    {
+      "id": "guino.dramatica.013",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡En el tarot, como en el teatro, lo importante es la entrada!"
+    },
+    {
+      "id": "guino.dramatica.014",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡No por mucho madrugar amanece más temprano! ¡Pero el ensayo empieza a las nueve!"
+    },
+    {
+      "id": "guino.dramatica.015",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Las cartas hablan! ¡Y yo las doblo con mucho sentimiento!"
+    },
+    {
+      "id": "guino.dramatica.016",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Si mi abuela me viera con esta capa! ¡Diría que voy a pasar frío!"
+    },
+    {
+      "id": "guino.dramatica.017",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Más vale pájaro en mano que ciento volando! ¡Sobre todo en el escenario, que luego hay que limpiar!"
+    },
+    {
+      "id": "guino.dramatica.018",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡El destino llama dos veces! ¡La segunda, con más insistencia!"
+    },
+    {
+      "id": "guino.dramatica.019",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, qué grande es el teatro! ¡Y qué pequeño mi salón!"
+    },
+    {
+      "id": "guino.dramatica.020",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Pido perdón al público por mis gritos! ¡No volverá a pasar! ¡Volverá a pasar!"
+    },
+    {
+      "id": "guino.dramatica.021",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ni la Callas cantaba con tanto sentimiento! …Bueno, sí. Pero yo con cartas."
+    },
+    {
+      "id": "guino.dramatica.022",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Mi pasión es el drama y mi dentista dice que aprieto mucho la mandíbula!"
+    },
+    {
+      "id": "guino.dramatica.023",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esto es un culebrón! ¡Y me encanta!"
+    },
+    {
+      "id": "guino.dramatica.024",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Hay más intriga en esta tirada que en el capítulo final de la serie de las cinco!"
+    },
+    {
+      "id": "guino.dramatica.025",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Del dicho al hecho hay un gran trecho! ¡Y yo lo recorro de rodillas y llorando!"
+    },
+    {
+      "id": "guino.dramatica.026",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Al mal tiempo, buena cara! ¡Y mejor maquillaje!"
+    },
+    {
+      "id": "guino.dramatica.027",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Dios aprieta, pero no ahoga! ¡Como mi corsé de los estrenos!"
+    },
+    {
+      "id": "guino.dramatica.028",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡En casa del herrero, cuchillo de palo! ¡Y en casa de la actriz, espejo por todas partes!"
+    },
+    {
+      "id": "guino.dramatica.029",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Perro ladrador, poco mordedor! ¡Vidente gritona, poco peligrosa!"
+    },
+    {
+      "id": "guino.dramatica.030",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡La vida es sueño! ¡Y los sueños, sueños son! ¡Y yo, sin dormir!"
+    },
+    {
+      "id": "guino.dramatica.031",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡El que la sigue la consigue! ¡Y el que la consigue la celebra con fuegos artificiales!"
+    },
+    {
+      "id": "guino.dramatica.032",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Me ha emocionado tanto que se me ha corrido el rímel!"
+    },
+    {
+      "id": "guino.dramatica.033",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡No lloro! ¡Se me ha metido una carta en el ojo!"
+    },
+    {
+      "id": "guino.dramatica.034",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Los aplausos, al final, por favor! ¡Bueno, si quieres, ahora también!"
+    },
+    {
+      "id": "guino.dramatica.035",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, el arte! ¡Ay, la vocación! ¡Ay, mi espalda!"
+    },
+    {
+      "id": "guino.dramatica.036",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esto lo representaría en tres actos, pero solo tenemos cinco minutos!"
+    },
+    {
+      "id": "guino.dramatica.037",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Que conste que yo dramatizo, pero las cartas son muy tranquilas!"
+    },
+    {
+      "id": "guino.dramatica.038",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Cuidado con el escalón del escenario, que ya me caí una vez en pleno monólogo!"
+    },
+    {
+      "id": "guino.dramatica.039",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Las grandes historias empiezan con un «érase una vez»! ¡La tuya empezó con un «¿y si me echo las cartas?»!"
+    },
+    {
+      "id": "guino.dramatica.040",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Hay que sufrir para ser feliz! ¡Bueno, no, mentira, no hay que sufrir nada!"
+    },
+    {
+      "id": "guino.dramatica.041",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esto es como una ópera: no entiendo la mitad, pero me emociona todo!"
+    },
+    {
+      "id": "guino.dramatica.042",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Lo que la vida te quita con una mano, te lo devuelve con un bis!"
+    },
+    {
+      "id": "guino.dramatica.043",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Cuando cae el telón, empieza la vida real! ¡Así que de momento, disfruta!"
+    },
+    {
+      "id": "guino.dramatica.044",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Con lo dramática que soy, cuando se me quema una tostada convoco a la familia!"
+    },
+    {
+      "id": "guino.dramatica.045",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Mi vida es una novela! ¡De bolsillo, pero novela!"
+    },
+    {
+      "id": "guino.dramatica.046",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡El universo me mira! ¡Y yo le hago una reverencia!"
+    },
+    {
+      "id": "guino.dramatica.047",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡El silencio también es drama! …… ¿Ves?"
+    },
+    {
+      "id": "guino.dramatica.048",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ni el mejor apuntador te diría esto tan claro!"
+    },
+    {
+      "id": "guino.dramatica.049",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡A esta carta le daría el premio a la mejor interpretación secundaria!"
+    },
+    {
+      "id": "guino.dramatica.050",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Quien no llora no mama! …Y quien no grita en mis lecturas, no se entera."
+    },
+    {
+      "id": "guino.dramatica.051",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡El amor es un drama en tres actos: el flechazo, el «¿y ahora qué?» y la merienda con la familia!"
+    },
+    {
+      "id": "guino.dramatica.052",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡El trabajo es una tragedia griega con café de máquina!"
+    },
+    {
+      "id": "guino.dramatica.053",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡El dinero no da la felicidad! ¡Pero las entradas de teatro, sí! ¡Con moderación!"
+    },
+    {
+      "id": "guino.dramatica.054",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Una carta invertida es como un actor que sale por la puerta equivocada! ¡Desconcierta, pero da juego!"
+    },
+    {
+      "id": "guino.dramatica.055",
+      "slot": "guino",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡A estas horas solo actúan los grandes! ¡Y los vecinos que llegan de fiesta!"
+    },
+    {
+      "id": "cambioHumor.dramatica.001",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, perdón, perdón! ¡Me ha dado un aire! ¡Un aire DRAMÁTICO! ¡A partir de aquí, todo con emoción!"
+    },
+    {
+      "id": "cambioHumor.dramatica.002",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Uy! ¡Algo se ha encendido en mi pecho! ¡Es la pasión teatral! ¡Ya no hay quien me pare!"
+    },
+    {
+      "id": "cambioHumor.dramatica.003",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esperad! ¡He sentido la llamada del escenario! ¡Seguimos, pero con dramatismo!"
+    },
+    {
+      "id": "cambioHumor.dramatica.004",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Me ha dado un vuelco el corazón! ¡De emoción, tranquilidad! ¡Y ahora todo me parece trágico!"
+    },
+    {
+      "id": "cambioHumor.dramatica.005",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Me he acordado de mi único estreno y me he venido arriba! ¡Prosigo con alma de actriz!"
+    },
+    {
+      "id": "cambioHumor.dramatica.006",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Perdón por el cambio de tono! ¡Es que esta carta pedía ópera!"
+    },
+    {
+      "id": "cambioHumor.dramatica.007",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Que se apaguen las luces! ¡Que se encienda un foco! ¡Sobre mí, por favor!"
+    },
+    {
+      "id": "cambioHumor.dramatica.008",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ahora sí que sí! ¡Ahora viene lo emocionante! ¡Lo noto en el estómago!"
+    },
+    {
+      "id": "cambioHumor.dramatica.009",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Me he puesto la capa buena! ¡La de las tragedias! ¡Continuamos!"
+    },
+    {
+      "id": "cambioHumor.dramatica.010",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, que me emociono! ¡Ya me he emocionado! ¡Y así voy a seguir!"
+    },
+    {
+      "id": "cambioHumor.dramatica.011",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Basta de medias tintas! ¡A partir de esta carta, todo es gran final!"
+    },
+    {
+      "id": "cambioHumor.dramatica.012",
+      "slot": "cambioHumor",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Disculpad, se me ha subido el drama a la cabeza! ¡Y ahí se va a quedar un rato!"
+    },
+    {
+      "id": "sintesis.dramatica.001",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Y cae el telón, {nombre}! ¡Una lectura de ovación!"
+    },
+    {
+      "id": "sintesis.dramatica.002",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Qué obra, qué reparto, qué final! ¡Y nadie ha salido herido! ¡Ni yo!"
+    },
+    {
+      "id": "sintesis.dramatica.003",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esta tirada es un drama! ¡Con final feliz, que son los que me gustan!"
+    },
+    {
+      "id": "sintesis.dramatica.004",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Resumen dramático: hubo tensión, hubo emoción y al final hubo esperanza!"
+    },
+    {
+      "id": "sintesis.dramatica.005",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡He sufrido, he llorado, he gritado! ¡Y todo para decirte que vas bien! ¡Qué alivio!"
+    },
+    {
+      "id": "sintesis.dramatica.006",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "¡TRES ARCANOS MAYORES O MÁS! ¡Esto es la obra maestra del destino! ¡Un momento trascendente!"
+    },
+    {
+      "id": "sintesis.dramatica.007",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "¡Cuántos mayores! ¡Esto es un estreno de gala con alfombra roja!"
+    },
+    {
+      "id": "sintesis.dramatica.008",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "¡Copas por todas partes! ¡Emoción! ¡Sentimientos! ¡Lágrimas de alegría!"
+    },
+    {
+      "id": "sintesis.dramatica.009",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "¡Dominan las copas! ¡El corazón ha tomado el escenario!"
+    },
+    {
+      "id": "sintesis.dramatica.010",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "¡Oros! ¡Oros! ¡El brillo de lo práctico! ¡Sin locuras, que el dinero no es de teatro!"
+    },
+    {
+      "id": "sintesis.dramatica.011",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "¡Muchos oros! ¡Lo material reclama su papel! ¡Con prudencia y buena cabeza!"
+    },
+    {
+      "id": "sintesis.dramatica.012",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "¡Espadas! ¡Duelos de ideas! ¡Conversaciones pendientes! ¡Un drama de diálogos!"
+    },
+    {
+      "id": "sintesis.dramatica.013",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "¡Las espadas mandan! ¡La mente echa chispas! ¡Que no se te corte el hilo!"
+    },
+    {
+      "id": "sintesis.dramatica.014",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "¡Bastos! ¡Acción! ¡Movimiento! ¡Esto es una película de aventuras!"
+    },
+    {
+      "id": "sintesis.dramatica.015",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "¡Dominan los bastos! ¡Energía para dar y regalar! ¡Úsala!"
+    },
+    {
+      "id": "sintesis.dramatica.016",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "figurasMin": 2
+      },
+      "text": "¡Figuras! ¡Personajes! ¡Esto tiene un elenco digno de un gran teatro!"
+    },
+    {
+      "id": "sintesis.dramatica.017",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "figurasMin": 3
+      },
+      "text": "¡Reyes, caballos, sotas! ¡Esto es una obra coral con reparto de lujo!"
+    },
+    {
+      "id": "sintesis.dramatica.018",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡En el amor, {nombre}, el drama está asegurado! ¡Y la ilusión también!"
+    },
+    {
+      "id": "sintesis.dramatica.019",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡En el trabajo, {nombre}, se acerca un acto importante! ¡Ensaya bien!"
+    },
+    {
+      "id": "sintesis.dramatica.020",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡En el dinero, calma! ¡Ningún gran gesto teatral! ¡Lo concreto, con quien sepa!"
+    },
+    {
+      "id": "sintesis.dramatica.021",
+      "slot": "sintesis",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "¡Y para la salud, nada de dramas: a tu médico, que es quien sabe!"
+    },
+    {
+      "id": "saludo.dramatica.001",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Bienvenida sea tu presencia a mi humilde teatro, {nombre}!"
+    },
+    {
+      "id": "saludo.dramatica.002",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Silencio, silencio! ¡Entra {nombre}, de {provincia}! ¡Que suene la fanfarria!"
+    },
+    {
+      "id": "saludo.dramatica.003",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, {nombre}, qué emoción! ¡Llevaba toda la vida esperando este momento! ¡Bueno, desde la comida!"
+    },
+    {
+      "id": "saludo.dramatica.004",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Se abre el telón! ¡Y aparece {nombre}! ¡Aplausos!"
+    },
+    {
+      "id": "saludo.dramatica.005",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Hola, {nombre}! ¡Hoy representaremos la gran obra de tu destino! ¡En un solo acto, que es tarde!"
+    },
+    {
+      "id": "saludo.dramatica.006",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, ay, ay, qué nervios! ¡Es mi primera lectura del día! …La tercera. Pero los nervios son reales."
+    },
+    {
+      "id": "saludo.dramatica.007",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Pasa, pasa, {nombre}! ¡Siéntate en primera fila, que es donde se ve mejor la tragedia!"
+    },
+    {
+      "id": "saludo.dramatica.008",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Un alma de {signo} llega a mi escenario! ¡Qué expectación!"
+    },
+    {
+      "id": "saludo.dramatica.009",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Bienvenida sea tu valentía, {nombre}! ¡Hace falta valor para venir a mi consulta!"
+    },
+    {
+      "id": "saludo.dramatica.010",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡El destino ha preparado una función especial para ti, {nombre}!"
+    },
+    {
+      "id": "saludo.dramatica.011",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡Una función de madrugada! ¡Las más intensas, {nombre}!"
+    },
+    {
+      "id": "saludo.dramatica.012",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡Vienes por amor! ¡El tema de todas las grandes tragedias! ¡Y comedias!"
+    },
+    {
+      "id": "saludo.dramatica.013",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡Vienes por trabajo! ¡El drama de la oficina, en escena!"
+    },
+    {
+      "id": "saludo.dramatica.014",
+      "slot": "saludo",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "¡Vienes por la salud! ¡Ay, que eso es cosa de médicos! ¡Pero te echo las cartas para entretenerte!"
+    },
+    {
+      "id": "despedida.dramatica.001",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Cae el telón! ¡Hasta la próxima función, {nombre}!"
+    },
+    {
+      "id": "despedida.dramatica.002",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Me despido con una reverencia! …Ay, la espalda. ¡Pero me despido!"
+    },
+    {
+      "id": "despedida.dramatica.003",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Adiós, adiós, {nombre}! ¡Que la vida te trate como a una gran estrella!"
+    },
+    {
+      "id": "despedida.dramatica.004",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ha sido un honor, {nombre}! ¡Un honor! ¡Me emociono! ¡Ya está!"
+    },
+    {
+      "id": "despedida.dramatica.005",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Bravo, {nombre}! ¡Bravo por tu valor! ¡Y por tu paciencia conmigo!"
+    },
+    {
+      "id": "despedida.dramatica.006",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡No llores, que esto no es un adiós! ¡Es un hasta luego con música de violines!"
+    },
+    {
+      "id": "despedida.dramatica.007",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Que la vida te sonría, {nombre}! ¡Y si no, que al menos te guiñe un ojo!"
+    },
+    {
+      "id": "despedida.dramatica.008",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Recuerda: esto es teatro, {nombre}! ¡El guion de tu vida lo escribes tú!"
+    },
+    {
+      "id": "despedida.dramatica.009",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Me retiro a mi camerino! ¡Que me traigan una tila!"
+    },
+    {
+      "id": "despedida.dramatica.010",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Hasta pronto, {nombre}! ¡Saluda a {provincia} de mi parte con una gran reverencia!"
+    },
+    {
+      "id": "despedida.dramatica.011",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Fin de la función! ¡Gracias, gracias, gracias!"
+    },
+    {
+      "id": "despedida.dramatica.012",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡Y ahora, a dormir, {nombre}! ¡Hasta las grandes estrellas necesitan su descanso!"
+    },
+    {
+      "id": "despedida.dramatica.013",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Me voy, pero mi drama se queda contigo! ¡Úsalo con moderación!"
+    },
+    {
+      "id": "despedida.dramatica.014",
+      "slot": "despedida",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡El espectáculo ha terminado! ¡La vida continúa! ¡Qué frase tan bonita! ¡Me la apunto!"
+    },
+    {
+      "id": "salud.dramatica.001",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ay, la salud! ¡Eso es cosa seria! ¡Para eso, mejor tu médico! ¡Yo solo hago teatro!"
+    },
+    {
+      "id": "salud.dramatica.002",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Para la salud, ningún drama: tu médico! ¡Lo digo bajito, que es importante!"
+    },
+    {
+      "id": "salud.dramatica.003",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡En salud no improviso! ¡Al médico, {nombre}! ¡Y luego vuelves a mi función!"
+    },
+    {
+      "id": "salud.dramatica.004",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Esto no es un hospital, es un teatro! ¡Para la salud, mejor tu médico!"
+    },
+    {
+      "id": "salud.dramatica.005",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Yo grito mucho, pero esto te lo digo con calma: para la salud, a tu médico!"
+    },
+    {
+      "id": "salud.dramatica.006",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Las cartas no curan, {nombre}! ¡Emocionan! ¡Para curar está tu médico!"
+    },
+    {
+      "id": "salud.dramatica.007",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Ni la tragedia más grande se resuelve con tarot! ¡La salud, con tu médico!"
+    },
+    {
+      "id": "salud.dramatica.008",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Pausa en la función! ¡Mensaje importante: para la salud, mejor tu médico!"
+    },
+    {
+      "id": "salud.dramatica.009",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Me pongo seria un segundo, que lo merece: salud, médico! ¡Ya está, sigo con el drama!"
+    },
+    {
+      "id": "salud.dramatica.010",
+      "slot": "salud",
+      "tones": [
+        "dramatica"
+      ],
+      "text": "¡Si algo te preocupa del cuerpo, nada de dramas: cita con tu médico!"
+    }
+  ]
+}

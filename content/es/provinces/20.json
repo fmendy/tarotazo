@@ -1,0 +1,29 @@
+{
+  "code": "20",
+  "nombre": "Guipúzcoa",
+  "comunidad": "País Vasco",
+  "gentilicio": "guipuzcoano/a",
+  "plato": [
+    "los pintxos de Donostia",
+    "las alubias de Tolosa",
+    "el txakoli de Getaria",
+    "la sidra"
+  ],
+  "fiesta": [
+    "la Tamborrada de Donostia",
+    "la Semana Grande",
+    "las regatas de La Concha"
+  ],
+  "clima": [
+    "sirimiri que no moja pero empapa",
+    "verde todo el año"
+  ],
+  "chascarrillos": [
+    "En Donostia el 20 de enero suenan tantos tambores que hasta las gaviotas marcan el paso.",
+    "Hacer el poteo por la Parte Vieja es el mejor deporte olímpico que conozco.",
+    "El sirimiri guipuzcoano es lluvia con buenos modales: no se nota, pero está.",
+    "Las alubias de Tolosa tienen fiesta propia y fans incondicionales.",
+    "Guipuzcoano: alguien que te dice «aquí al lado» y es un monte que hay que subir.",
+    "En La Concha hay una puesta de sol que ni mi mejor tirada de cartas iguala."
+  ]
+}

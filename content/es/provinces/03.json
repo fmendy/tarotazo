@@ -1,0 +1,28 @@
+{
+  "code": "03",
+  "nombre": "Alicante",
+  "comunidad": "Comunidad Valenciana",
+  "gentilicio": "alicantino/a",
+  "plato": [
+    "el arroz a banda",
+    "el turrón de Jijona",
+    "la coca amb tonyina",
+    "el arroz con costra"
+  ],
+  "fiesta": [
+    "las Hogueras de San Juan",
+    "los Moros y Cristianos de Alcoy"
+  ],
+  "clima": [
+    "más de trescientos días de sol al año",
+    "un invierno que es primavera con jersey fino"
+  ],
+  "chascarrillos": [
+    "En Alicante el invierno dura una tarde y se pasa con un café en la terraza.",
+    "Las Hogueras de San Juan arden tanto que la vidente aprovecha para leer el futuro en las brasas.",
+    "Alicantino que se precie distingue veinte arroces y discute por todos.",
+    "Jijona endulza la Navidad de medio país sin pedir nada a cambio. Bueno, solo un poco de turrón.",
+    "En Alicante la playa no es un plan: es un estado de ánimo.",
+    "Alcoy se viste de moros y cristianos y el pasodoble se te mete dentro para siempre."
+  ]
+}

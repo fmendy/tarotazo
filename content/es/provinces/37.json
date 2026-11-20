@@ -1,0 +1,27 @@
+{
+  "code": "37",
+  "nombre": "Salamanca",
+  "comunidad": "Castilla y León",
+  "gentilicio": "salmantino/a",
+  "plato": [
+    "el hornazo",
+    "el farinato",
+    "el jamón de Guijuelo"
+  ],
+  "fiesta": [
+    "el Lunes de Aguas",
+    "las Ferias y Fiestas de la Virgen de la Vega"
+  ],
+  "clima": [
+    "frío seco y cielo limpio",
+    "veranos calurosos de piedra dorada"
+  ],
+  "chascarrillos": [
+    "En Salamanca hay que encontrar la rana de la fachada; yo la encontré y me dieron el diploma.",
+    "El Lunes de Aguas se celebra con hornazo en el campo y mucha alegría.",
+    "La Plaza Mayor de Salamanca es tan bonita que la gente queda «debajo del reloj» por tradición.",
+    "Salmantino: alguien que te enseña la ciudad y te cuenta mil historias de estudiantes.",
+    "La piedra de Villamayor brilla tan dorada que Salamanca parece encendida al atardecer.",
+    "El jamón de Guijuelo es la mejor lección que da Salamanca, y sin examen."
+  ]
+}

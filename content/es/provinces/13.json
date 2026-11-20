@@ -1,0 +1,29 @@
+{
+  "code": "13",
+  "nombre": "Ciudad Real",
+  "comunidad": "Castilla-La Mancha",
+  "gentilicio": "ciudadrealeño/a",
+  "plato": [
+    "el pisto manchego",
+    "las berenjenas de Almagro",
+    "el queso manchego",
+    "las migas"
+  ],
+  "fiesta": [
+    "el Festival de Teatro Clásico de Almagro",
+    "la Pandorga",
+    "la Semana Santa"
+  ],
+  "clima": [
+    "inviernos fríos y veranos de justicia",
+    "cielos limpios de llanura"
+  ],
+  "chascarrillos": [
+    "En Ciudad Real los molinos ya no se confunden con gigantes, pero alguno saluda.",
+    "Las berenjenas de Almagro tienen más carácter que un actor de su festival.",
+    "El pisto manchego es la prueba de que juntar cosas buenas siempre sale bien.",
+    "En la llanura manchega ves venir a las visitas con una hora de antelación.",
+    "Ciudadrealeño de verdad: queso en la despensa, vino en la mesa y conversación para rato.",
+    "En la Pandorga se baila tanto que mis cartas acaban mareadas."
+  ]
+}

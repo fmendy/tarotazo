@@ -1,0 +1,27 @@
+{
+  "code": "43",
+  "nombre": "Tarragona",
+  "comunidad": "Cataluña",
+  "gentilicio": "tarraconense",
+  "plato": [
+    "los calçots con salsa romesco",
+    "el arròs negre",
+    "el romesco de pescado"
+  ],
+  "fiesta": [
+    "las Fiestas de Santa Tecla",
+    "la Gran Fiesta de la Calçotada de Valls"
+  ],
+  "clima": [
+    "mediterráneo amable",
+    "veranos de playa dorada"
+  ],
+  "chascarrillos": [
+    "En Tarragona los castells suben tan alto que casi tocan mis estrellas.",
+    "La calçotada se come con babero y sin vergüenza.",
+    "Tarragona tiene un anfiteatro romano frente al mar: espectáculo y vistas a la vez.",
+    "Tarraconense: alguien que te explica cómo mojar un calçot como si fuera una técnica olímpica.",
+    "En Santa Tecla la ciudad se llena de gigantes, dragones y música.",
+    "La Costa Daurada brilla tanto que mis gafas de sol también se las compré allí."
+  ]
+}

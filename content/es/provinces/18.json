@@ -1,0 +1,28 @@
+{
+  "code": "18",
+  "nombre": "Granada",
+  "comunidad": "Andalucía",
+  "gentilicio": "granadino/a",
+  "plato": [
+    "las habas con jamón",
+    "los piononos de Santa Fe",
+    "la tortilla del Sacromonte",
+    "la tapa que viene con la caña"
+  ],
+  "fiesta": [
+    "el Corpus de Granada",
+    "el Día de la Cruz"
+  ],
+  "clima": [
+    "esquiar y bañarse en el mismo día",
+    "inviernos fríos y cielos de postal"
+  ],
+  "chascarrillos": [
+    "En Granada puedes esquiar por la mañana y ver el mar por la tarde. Yo solo veo el futuro, y no siempre.",
+    "La tapa granadina es tan generosa que con tres cañas has cenado.",
+    "Un pionono de Santa Fe de un bocado, y la vida se ve de otro color.",
+    "La Alhambra es tan bonita que dan ganas de leerle las cartas para darle las gracias.",
+    "Granadino: alguien que te lleva al Mirador de San Nicolás y luego no te deja irte.",
+    "El Albaicín tiene cuestas que valen por una sesión de gimnasio y unas vistas que valen por diez."
+  ]
+}

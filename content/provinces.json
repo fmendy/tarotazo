@@ -1,0 +1,429 @@
+{
+  "$comment": "Códigos INE de provincia. nombre = forma habitual en castellano; nombreOficial = denominación oficial. XX = nacido fuera de España.",
+  "provinces": [
+    {
+      "code": "01",
+      "nombre": "Álava",
+      "nombreOficial": "Araba/Álava",
+      "comunidad": "País Vasco",
+      "capital": "Vitoria-Gasteiz",
+      "zona": "peninsula"
+    },
+    {
+      "code": "02",
+      "nombre": "Albacete",
+      "nombreOficial": "Albacete",
+      "comunidad": "Castilla-La Mancha",
+      "capital": "Albacete",
+      "zona": "peninsula"
+    },
+    {
+      "code": "03",
+      "nombre": "Alicante",
+      "nombreOficial": "Alicante/Alacant",
+      "comunidad": "Comunidad Valenciana",
+      "capital": "Alicante",
+      "zona": "peninsula"
+    },
+    {
+      "code": "04",
+      "nombre": "Almería",
+      "nombreOficial": "Almería",
+      "comunidad": "Andalucía",
+      "capital": "Almería",
+      "zona": "peninsula"
+    },
+    {
+      "code": "05",
+      "nombre": "Ávila",
+      "nombreOficial": "Ávila",
+      "comunidad": "Castilla y León",
+      "capital": "Ávila",
+      "zona": "peninsula"
+    },
+    {
+      "code": "06",
+      "nombre": "Badajoz",
+      "nombreOficial": "Badajoz",
+      "comunidad": "Extremadura",
+      "capital": "Badajoz",
+      "zona": "peninsula"
+    },
+    {
+      "code": "07",
+      "nombre": "Baleares",
+      "nombreOficial": "Illes Balears",
+      "comunidad": "Islas Baleares",
+      "capital": "Palma",
+      "zona": "baleares"
+    },
+    {
+      "code": "08",
+      "nombre": "Barcelona",
+      "nombreOficial": "Barcelona",
+      "comunidad": "Cataluña",
+      "capital": "Barcelona",
+      "zona": "peninsula"
+    },
+    {
+      "code": "09",
+      "nombre": "Burgos",
+      "nombreOficial": "Burgos",
+      "comunidad": "Castilla y León",
+      "capital": "Burgos",
+      "zona": "peninsula"
+    },
+    {
+      "code": "10",
+      "nombre": "Cáceres",
+      "nombreOficial": "Cáceres",
+      "comunidad": "Extremadura",
+      "capital": "Cáceres",
+      "zona": "peninsula"
+    },
+    {
+      "code": "11",
+      "nombre": "Cádiz",
+      "nombreOficial": "Cádiz",
+      "comunidad": "Andalucía",
+      "capital": "Cádiz",
+      "zona": "peninsula"
+    },
+    {
+      "code": "12",
+      "nombre": "Castellón",
+      "nombreOficial": "Castellón/Castelló",
+      "comunidad": "Comunidad Valenciana",
+      "capital": "Castellón de la Plana",
+      "zona": "peninsula"
+    },
+    {
+      "code": "13",
+      "nombre": "Ciudad Real",
+      "nombreOficial": "Ciudad Real",
+      "comunidad": "Castilla-La Mancha",
+      "capital": "Ciudad Real",
+      "zona": "peninsula"
+    },
+    {
+      "code": "14",
+      "nombre": "Córdoba",
+      "nombreOficial": "Córdoba",
+      "comunidad": "Andalucía",
+      "capital": "Córdoba",
+      "zona": "peninsula"
+    },
+    {
+      "code": "15",
+      "nombre": "A Coruña",
+      "nombreOficial": "A Coruña",
+      "comunidad": "Galicia",
+      "capital": "A Coruña",
+      "zona": "peninsula"
+    },
+    {
+      "code": "16",
+      "nombre": "Cuenca",
+      "nombreOficial": "Cuenca",
+      "comunidad": "Castilla-La Mancha",
+      "capital": "Cuenca",
+      "zona": "peninsula"
+    },
+    {
+      "code": "17",
+      "nombre": "Girona",
+      "nombreOficial": "Girona",
+      "comunidad": "Cataluña",
+      "capital": "Girona",
+      "zona": "peninsula"
+    },
+    {
+      "code": "18",
+      "nombre": "Granada",
+      "nombreOficial": "Granada",
+      "comunidad": "Andalucía",
+      "capital": "Granada",
+      "zona": "peninsula"
+    },
+    {
+      "code": "19",
+      "nombre": "Guadalajara",
+      "nombreOficial": "Guadalajara",
+      "comunidad": "Castilla-La Mancha",
+      "capital": "Guadalajara",
+      "zona": "peninsula"
+    },
+    {
+      "code": "20",
+      "nombre": "Guipúzcoa",
+      "nombreOficial": "Gipuzkoa",
+      "comunidad": "País Vasco",
+      "capital": "Donostia-San Sebastián",
+      "zona": "peninsula"
+    },
+    {
+      "code": "21",
+      "nombre": "Huelva",
+      "nombreOficial": "Huelva",
+      "comunidad": "Andalucía",
+      "capital": "Huelva",
+      "zona": "peninsula"
+    },
+    {
+      "code": "22",
+      "nombre": "Huesca",
+      "nombreOficial": "Huesca",
+      "comunidad": "Aragón",
+      "capital": "Huesca",
+      "zona": "peninsula"
+    },
+    {
+      "code": "23",
+      "nombre": "Jaén",
+      "nombreOficial": "Jaén",
+      "comunidad": "Andalucía",
+      "capital": "Jaén",
+      "zona": "peninsula"
+    },
+    {
+      "code": "24",
+      "nombre": "León",
+      "nombreOficial": "León",
+      "comunidad": "Castilla y León",
+      "capital": "León",
+      "zona": "peninsula"
+    },
+    {
+      "code": "25",
+      "nombre": "Lleida",
+      "nombreOficial": "Lleida",
+      "comunidad": "Cataluña",
+      "capital": "Lleida",
+      "zona": "peninsula"
+    },
+    {
+      "code": "26",
+      "nombre": "La Rioja",
+      "nombreOficial": "La Rioja",
+      "comunidad": "La Rioja",
+      "capital": "Logroño",
+      "zona": "peninsula"
+    },
+    {
+      "code": "27",
+      "nombre": "Lugo",
+      "nombreOficial": "Lugo",
+      "comunidad": "Galicia",
+      "capital": "Lugo",
+      "zona": "peninsula"
+    },
+    {
+      "code": "28",
+      "nombre": "Madrid",
+      "nombreOficial": "Madrid",
+      "comunidad": "Comunidad de Madrid",
+      "capital": "Madrid",
+      "zona": "peninsula"
+    },
+    {
+      "code": "29",
+      "nombre": "Málaga",
+      "nombreOficial": "Málaga",
+      "comunidad": "Andalucía",
+      "capital": "Málaga",
+      "zona": "peninsula"
+    },
+    {
+      "code": "30",
+      "nombre": "Murcia",
+      "nombreOficial": "Murcia",
+      "comunidad": "Región de Murcia",
+      "capital": "Murcia",
+      "zona": "peninsula"
+    },
+    {
+      "code": "31",
+      "nombre": "Navarra",
+      "nombreOficial": "Navarra",
+      "comunidad": "Comunidad Foral de Navarra",
+      "capital": "Pamplona",
+      "zona": "peninsula"
+    },
+    {
+      "code": "32",
+      "nombre": "Ourense",
+      "nombreOficial": "Ourense",
+      "comunidad": "Galicia",
+      "capital": "Ourense",
+      "zona": "peninsula"
+    },
+    {
+      "code": "33",
+      "nombre": "Asturias",
+      "nombreOficial": "Asturias",
+      "comunidad": "Principado de Asturias",
+      "capital": "Oviedo",
+      "zona": "peninsula"
+    },
+    {
+      "code": "34",
+      "nombre": "Palencia",
+      "nombreOficial": "Palencia",
+      "comunidad": "Castilla y León",
+      "capital": "Palencia",
+      "zona": "peninsula"
+    },
+    {
+      "code": "35",
+      "nombre": "Las Palmas",
+      "nombreOficial": "Las Palmas",
+      "comunidad": "Canarias",
+      "capital": "Las Palmas de Gran Canaria",
+      "zona": "canarias"
+    },
+    {
+      "code": "36",
+      "nombre": "Pontevedra",
+      "nombreOficial": "Pontevedra",
+      "comunidad": "Galicia",
+      "capital": "Pontevedra",
+      "zona": "peninsula"
+    },
+    {
+      "code": "37",
+      "nombre": "Salamanca",
+      "nombreOficial": "Salamanca",
+      "comunidad": "Castilla y León",
+      "capital": "Salamanca",
+      "zona": "peninsula"
+    },
+    {
+      "code": "38",
+      "nombre": "Santa Cruz de Tenerife",
+      "nombreOficial": "Santa Cruz de Tenerife",
+      "comunidad": "Canarias",
+      "capital": "Santa Cruz de Tenerife",
+      "zona": "canarias"
+    },
+    {
+      "code": "39",
+      "nombre": "Cantabria",
+      "nombreOficial": "Cantabria",
+      "comunidad": "Cantabria",
+      "capital": "Santander",
+      "zona": "peninsula"
+    },
+    {
+      "code": "40",
+      "nombre": "Segovia",
+      "nombreOficial": "Segovia",
+      "comunidad": "Castilla y León",
+      "capital": "Segovia",
+      "zona": "peninsula"
+    },
+    {
+      "code": "41",
+      "nombre": "Sevilla",
+      "nombreOficial": "Sevilla",
+      "comunidad": "Andalucía",
+      "capital": "Sevilla",
+      "zona": "peninsula"
+    },
+    {
+      "code": "42",
+      "nombre": "Soria",
+      "nombreOficial": "Soria",
+      "comunidad": "Castilla y León",
+      "capital": "Soria",
+      "zona": "peninsula"
+    },
+    {
+      "code": "43",
+      "nombre": "Tarragona",
+      "nombreOficial": "Tarragona",
+      "comunidad": "Cataluña",
+      "capital": "Tarragona",
+      "zona": "peninsula"
+    },
+    {
+      "code": "44",
+      "nombre": "Teruel",
+      "nombreOficial": "Teruel",
+      "comunidad": "Aragón",
+      "capital": "Teruel",
+      "zona": "peninsula"
+    },
+    {
+      "code": "45",
+      "nombre": "Toledo",
+      "nombreOficial": "Toledo",
+      "comunidad": "Castilla-La Mancha",
+      "capital": "Toledo",
+      "zona": "peninsula"
+    },
+    {
+      "code": "46",
+      "nombre": "Valencia",
+      "nombreOficial": "Valencia/València",
+      "comunidad": "Comunidad Valenciana",
+      "capital": "Valencia",
+      "zona": "peninsula"
+    },
+    {
+      "code": "47",
+      "nombre": "Valladolid",
+      "nombreOficial": "Valladolid",
+      "comunidad": "Castilla y León",
+      "capital": "Valladolid",
+      "zona": "peninsula"
+    },
+    {
+      "code": "48",
+      "nombre": "Vizcaya",
+      "nombreOficial": "Bizkaia",
+      "comunidad": "País Vasco",
+      "capital": "Bilbao",
+      "zona": "peninsula"
+    },
+    {
+      "code": "49",
+      "nombre": "Zamora",
+      "nombreOficial": "Zamora",
+      "comunidad": "Castilla y León",
+      "capital": "Zamora",
+      "zona": "peninsula"
+    },
+    {
+      "code": "50",
+      "nombre": "Zaragoza",
+      "nombreOficial": "Zaragoza",
+      "comunidad": "Aragón",
+      "capital": "Zaragoza",
+      "zona": "peninsula"
+    },
+    {
+      "code": "51",
+      "nombre": "Ceuta",
+      "nombreOficial": "Ceuta",
+      "comunidad": "Ceuta",
+      "capital": "Ceuta",
+      "zona": "africa"
+    },
+    {
+      "code": "52",
+      "nombre": "Melilla",
+      "nombreOficial": "Melilla",
+      "comunidad": "Melilla",
+      "capital": "Melilla",
+      "zona": "africa"
+    },
+    {
+      "code": "XX",
+      "nombre": "Fuera de España",
+      "nombreOficial": "Fuera de España",
+      "comunidad": null,
+      "capital": null,
+      "zona": "extranjero"
+    }
+  ]
+}

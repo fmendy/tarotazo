@@ -1,0 +1,27 @@
+{
+  "code": "06",
+  "nombre": "Badajoz",
+  "comunidad": "Extremadura",
+  "gentilicio": "pacense",
+  "plato": [
+    "el jamón ibérico de bellota",
+    "la caldereta de cordero",
+    "las migas extremeñas"
+  ],
+  "fiesta": [
+    "el Carnaval de Badajoz",
+    "la Feria de San Juan"
+  ],
+  "clima": [
+    "veranos de horno de leña",
+    "inviernos suaves y dehesa verde"
+  ],
+  "chascarrillos": [
+    "El Carnaval de Badajoz tiene más purpurina que mi gabinete de videncia.",
+    "En la dehesa pacense el cerdo ibérico vive mejor que muchos influencers.",
+    "Pacense que se precie tiene un primo en cada pueblo y una caldereta en cada primo.",
+    "En verano, Badajoz no hace calor: hace carácter.",
+    "El Guadiana pasa por Badajoz despacito, como quien no quiere irse de una buena sobremesa.",
+    "Un jamón de bellota pacense y yo vemos el futuro igual de claro: con lonchas finas."
+  ]
+}

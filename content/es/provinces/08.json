@@ -1,0 +1,29 @@
+{
+  "code": "08",
+  "nombre": "Barcelona",
+  "comunidad": "Cataluña",
+  "gentilicio": "barcelonés/a",
+  "plato": [
+    "el pa amb tomàquet",
+    "la escalivada",
+    "la crema catalana",
+    "la butifarra con mongetes"
+  ],
+  "fiesta": [
+    "La Mercè",
+    "Sant Jordi",
+    "la Patum de Berga"
+  ],
+  "clima": [
+    "húmedo y templado junto al mar",
+    "inviernos suaves con alguna ventolera"
+  ],
+  "chascarrillos": [
+    "En Barcelona el día de Sant Jordi se regalan libros y rosas; yo también acepto barajas.",
+    "El pa amb tomàquet es la prueba de que con tres ingredientes se puede ser feliz.",
+    "Barcelona tiene la Sagrada Família, que lleva en obras más tiempo que mi reforma del gabinete.",
+    "Los castellers enseñan que el futuro se construye juntos y con una buena base.",
+    "Barcelonés de pro: se queja de la humedad en agosto y la echa de menos en cuanto sale.",
+    "En La Mercè hay tanto correfoc que mis velas se sienten poca cosa."
+  ]
+}

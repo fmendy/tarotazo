@@ -1,0 +1,228 @@
+{
+  "spreads": {
+    "dia": {
+      "name": "Carta del día",
+      "short": "Del día",
+      "description": "Una sola carta, un solo consejo. Como el horóscopo del periódico, pero con más fundamento (poco más).",
+      "positions": {
+        "consejo": {
+          "label": "Consejo",
+          "inline": "el consejo de hoy",
+          "hint": "Lo que las cartas te recomiendan para hoy."
+        }
+      }
+    },
+    "ppf": {
+      "name": "Pasado, presente y futuro",
+      "short": "Pasado, presente, futuro",
+      "description": "Tres cartas en fila: de dónde vienes, dónde estás y adónde vas. Lo de toda la vida, que por algo funciona.",
+      "positions": {
+        "pasado": {
+          "label": "Pasado",
+          "inline": "tu pasado",
+          "hint": "Lo que te ha traído hasta aquí."
+        },
+        "presente": {
+          "label": "Presente",
+          "inline": "tu presente",
+          "hint": "Lo que se está moviendo ahora mismo."
+        },
+        "futuro": {
+          "label": "Futuro",
+          "inline": "tu futuro",
+          "hint": "Hacia dónde apunta todo, si nadie lo tuerce."
+        }
+      }
+    },
+    "sino": {
+      "name": "Sí o no",
+      "short": "Sí o no",
+      "description": "Pregunta cerrada, respuesta clara: carta derecha, sí; del revés, no. Con una basta, con tres hay desempate y drama.",
+      "positions": {
+        "respuesta": {
+          "label": "La respuesta",
+          "inline": "la respuesta",
+          "hint": "Derecha es sí, invertida es no."
+        },
+        "matiz": {
+          "label": "El matiz",
+          "inline": "el matiz",
+          "hint": "El «sí, pero…» o el «no, aunque…»."
+        },
+        "remate": {
+          "label": "El remate",
+          "inline": "el remate",
+          "hint": "La que desempata y pone la puntilla."
+        }
+      }
+    },
+    "cruz": {
+      "name": "Cruz simple",
+      "short": "Cruz",
+      "description": "Cinco cartas en cruz para ver el asunto por todos los lados: lo que hay, lo que estorba, lo que fue, lo que viene y cómo acaba.",
+      "positions": {
+        "situacion": {
+          "label": "Situación",
+          "inline": "la situación",
+          "hint": "El asunto tal y como está."
+        },
+        "obstaculo": {
+          "label": "Obstáculo",
+          "inline": "el obstáculo",
+          "hint": "La piedra en el zapato."
+        },
+        "pasado": {
+          "label": "Pasado",
+          "inline": "el pasado",
+          "hint": "Lo que pesa de antes."
+        },
+        "futuro": {
+          "label": "Futuro",
+          "inline": "el futuro",
+          "hint": "Lo que se acerca."
+        },
+        "resultado": {
+          "label": "Resultado",
+          "inline": "el resultado",
+          "hint": "Cómo pinta el final."
+        }
+      }
+    },
+    "herradura": {
+      "name": "Herradura",
+      "short": "Herradura",
+      "description": "Siete cartas en forma de herradura, que ya sabes que da suerte. Una lectura completita, con consejo, entorno y obstáculos de regalo.",
+      "positions": {
+        "pasado": {
+          "label": "Pasado",
+          "inline": "tu pasado",
+          "hint": "Lo que te ha traído hasta aquí."
+        },
+        "presente": {
+          "label": "Presente",
+          "inline": "tu presente",
+          "hint": "Lo que pasa ahora."
+        },
+        "futuro": {
+          "label": "Futuro",
+          "inline": "tu futuro próximo",
+          "hint": "Lo que viene enseguida."
+        },
+        "consejo": {
+          "label": "Consejo",
+          "inline": "el consejo",
+          "hint": "Lo que te conviene hacer."
+        },
+        "entorno": {
+          "label": "Entorno",
+          "inline": "tu entorno",
+          "hint": "La gente y el ambiente que te rodean."
+        },
+        "obstaculos": {
+          "label": "Obstáculos",
+          "inline": "los obstáculos",
+          "hint": "Lo que se te pone por delante."
+        },
+        "resultado": {
+          "label": "Resultado",
+          "inline": "el resultado",
+          "hint": "Cómo acaba la cosa."
+        }
+      }
+    },
+    "amor": {
+      "name": "Amor (pareja)",
+      "short": "Amor",
+      "description": "Seis cartas para mirar una relación sin cotillear (mucho): tú, la otra persona, lo que os une, lo que os separa, un consejo y lo que viene.",
+      "positions": {
+        "tu": {
+          "label": "Tú",
+          "inline": "tu parte",
+          "hint": "Cómo estás tú en esto."
+        },
+        "otra": {
+          "label": "La otra persona",
+          "inline": "la otra persona",
+          "hint": "Cómo está la otra parte."
+        },
+        "une": {
+          "label": "Lo que os une",
+          "inline": "lo que os une",
+          "hint": "El pegamento."
+        },
+        "separa": {
+          "label": "Lo que os separa",
+          "inline": "lo que os separa",
+          "hint": "La china en el zapato de la pareja."
+        },
+        "consejo": {
+          "label": "Consejo",
+          "inline": "el consejo",
+          "hint": "Lo que conviene hacer."
+        },
+        "futuro": {
+          "label": "Futuro",
+          "inline": "vuestro futuro",
+          "hint": "Hacia dónde va lo vuestro."
+        }
+      }
+    },
+    "celta": {
+      "name": "Cruz Celta",
+      "short": "Cruz Celta",
+      "description": "La gran tirada clásica de Waite: diez cartas, una cruz y una columna. Para preguntas serias o para cuando tienes la tarde libre. Sólo con tarot.",
+      "positions": {
+        "cubre": {
+          "label": "Lo que te cubre",
+          "inline": "lo que te cubre",
+          "hint": "El corazón del asunto, la situación de fondo."
+        },
+        "cruza": {
+          "label": "Lo que te cruza",
+          "inline": "lo que se te cruza",
+          "hint": "La fuerza que se opone (o empuja) en contra."
+        },
+        "corona": {
+          "label": "Lo que te corona",
+          "inline": "lo que te corona",
+          "hint": "El objetivo, lo mejor que puede salir."
+        },
+        "base": {
+          "label": "La base",
+          "inline": "la raíz del asunto",
+          "hint": "Lo que hay debajo, la raíz."
+        },
+        "pasado": {
+          "label": "Lo que queda atrás",
+          "inline": "lo que queda atrás",
+          "hint": "Lo que acaba de pasar o se está yendo."
+        },
+        "futuro": {
+          "label": "Lo que viene",
+          "inline": "lo que viene",
+          "hint": "Lo que está a punto de llegar."
+        },
+        "actitud": {
+          "label": "Tú",
+          "inline": "tu actitud",
+          "hint": "Cómo te plantas ante todo esto."
+        },
+        "entorno": {
+          "label": "Tu entorno",
+          "inline": "tu entorno",
+          "hint": "La casa, la gente, el ambiente."
+        },
+        "esperanzas": {
+          "label": "Esperanzas y temores",
+          "inline": "tus esperanzas y temores",
+          "hint": "Lo que deseas y lo que te quita el sueño (a veces es lo mismo)."
+        },
+        "resultado": {
+          "label": "Resultado",
+          "inline": "el resultado final",
+          "hint": "Cómo termina, si todo sigue así."
+        }
+      }
+    }
+  }
+}

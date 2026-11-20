@@ -1,0 +1,28 @@
+{
+  "code": "41",
+  "nombre": "Sevilla",
+  "comunidad": "Andalucía",
+  "gentilicio": "sevillano/a",
+  "plato": [
+    "las espinacas con garbanzos",
+    "el montadito de pringá",
+    "el gazpacho",
+    "la tortilla de camarones"
+  ],
+  "fiesta": [
+    "la Feria de Abril",
+    "la Semana Santa de Sevilla"
+  ],
+  "clima": [
+    "veranos de cuarenta y tantos",
+    "primaveras que huelen a azahar"
+  ],
+  "chascarrillos": [
+    "En Sevilla la primavera huele a azahar y el verano, a ventilador.",
+    "Sevillano de verdad tiene opinión sobre todas las hermandades y sobre la mejor tapa del barrio.",
+    "Durante la Feria de Abril hay más farolillos que estrellas.",
+    "La Giralda lleva siglos mirando desde arriba con mucha elegancia.",
+    "En Sevilla el «ahora voy» puede ser dentro de un rato largo, pero siempre llega con gracia.",
+    "El montadito de pringá es pequeño, contundente y de los que se piden por pares."
+  ]
+}

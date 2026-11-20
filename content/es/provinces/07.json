@@ -1,0 +1,29 @@
+{
+  "code": "07",
+  "nombre": "Baleares",
+  "comunidad": "Islas Baleares",
+  "gentilicio": "balear",
+  "plato": [
+    "la ensaimada",
+    "la sobrasada",
+    "el tumbet",
+    "la caldereta de langosta"
+  ],
+  "fiesta": [
+    "Sant Joan de Ciutadella",
+    "las Fiestas de Sant Sebastià",
+    "Es Firó de Sóller"
+  ],
+  "clima": [
+    "mediterráneo de los que enamoran",
+    "tramontana que despeina en Menorca"
+  ],
+  "chascarrillos": [
+    "En Baleares cada isla tiene su carácter, y todas coinciden en que su ensaimada es la mejor.",
+    "La sobrasada se unta en el pan y en el alma.",
+    "Volver de Mallorca sin caja de ensaimadas en el avión es casi delito.",
+    "En Menorca la tramontana sopla tan fuerte que hasta los secretos se vuelan.",
+    "En Baleares, «ir a la playa» tiene más opciones que un menú del día.",
+    "Las islas tienen un azul tan bonito que mis cartas piden vacaciones allí."
+  ]
+}

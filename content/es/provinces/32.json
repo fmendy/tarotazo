@@ -1,0 +1,28 @@
+{
+  "code": "32",
+  "nombre": "Ourense",
+  "comunidad": "Galicia",
+  "gentilicio": "ourensano/a",
+  "plato": [
+    "el pulpo á feira",
+    "el pan de Cea",
+    "el lacón",
+    "las castañas asadas"
+  ],
+  "fiesta": [
+    "el Entroido de Laza, Xinzo y Verín",
+    "el Magosto"
+  ],
+  "clima": [
+    "veranos calurosos y otoños de castaña",
+    "aguas termales todo el año"
+  ],
+  "chascarrillos": [
+    "Ourense tiene tantas termas que hasta los problemas se van a remojo.",
+    "En el Entroido de Laza los peliqueiros corren con cencerros y todo el mundo acaba sonriendo.",
+    "El Magosto huele a castaña asada y a buenas sobremesas.",
+    "Ourensano: alguien que te recomienda la poza perfecta para cada estado de ánimo.",
+    "El pan de Cea dura días y se come en un rato.",
+    "La Ribeira Sacra tiene viñedos en pendientes que ni las cabras se atreven."
+  ]
+}

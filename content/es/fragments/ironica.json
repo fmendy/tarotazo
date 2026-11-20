@@ -1,0 +1,2504 @@
+{
+  "fragments": [
+    {
+      "id": "entrada.ironica.001",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Vale."
+    },
+    {
+      "id": "entrada.ironica.002",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Ajá."
+    },
+    {
+      "id": "entrada.ironica.003",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Mira tú."
+    },
+    {
+      "id": "entrada.ironica.004",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Bueno. Podría ser peor. Podría ser lunes."
+    },
+    {
+      "id": "entrada.ironica.005",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Pues sí. Esto es una carta."
+    },
+    {
+      "id": "entrada.ironica.006",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Ah. Esta."
+    },
+    {
+      "id": "entrada.ironica.007",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "No voy a fingir sorpresa."
+    },
+    {
+      "id": "entrada.ironica.008",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Qué casualidad. Bueno, técnicamente todo esto es casualidad."
+    },
+    {
+      "id": "entrada.ironica.009",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "A ver qué excusa me da esta."
+    },
+    {
+      "id": "entrada.ironica.010",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Mmm. Tengo opiniones."
+    },
+    {
+      "id": "entrada.ironica.011",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Sí, ya. Yo tampoco la habría elegido."
+    },
+    {
+      "id": "entrada.ironica.012",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Esto lo podías haber visto venir. Literalmente: estaba boca abajo delante de ti."
+    },
+    {
+      "id": "entrada.ironica.013",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Ya está. Respira. Que yo también."
+    },
+    {
+      "id": "entrada.ironica.014",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Pongo cara de vidente y te cuento."
+    },
+    {
+      "id": "entrada.ironica.015",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Silencio dramático incluido en el precio. Que es cero."
+    },
+    {
+      "id": "entrada.ironica.016",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Qué bonita es. Lástima lo que significa. Es broma. Más o menos."
+    },
+    {
+      "id": "entrada.ironica.017",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Esto es lo que hay. Literalmente, es lo que hay sobre la mesa."
+    },
+    {
+      "id": "entrada.ironica.018",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Ni tan mal, oye."
+    },
+    {
+      "id": "entrada.ironica.019",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Interesante. Y lo digo con la ceja levantada."
+    },
+    {
+      "id": "entrada.ironica.020",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Esta carta y yo tenemos historia. No preguntes."
+    },
+    {
+      "id": "entrada.ironica.021",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Hago como que me concentro. Ya."
+    },
+    {
+      "id": "entrada.ironica.022",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Bien. Me gusta. No me fío, pero me gusta."
+    },
+    {
+      "id": "entrada.ironica.023",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Ah, esta. La que nunca sale cuando la quieres."
+    },
+    {
+      "id": "entrada.ironica.024",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Tú has barajado. Yo solo leo. Que conste."
+    },
+    {
+      "id": "entrada.ironica.025",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Invertida. Como mis expectativas."
+    },
+    {
+      "id": "entrada.ironica.026",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Del revés. Le doy la vuelta mentalmente y seguimos."
+    },
+    {
+      "id": "entrada.ironica.027",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Boca abajo. Hasta las cartas tienen días de no querer mirarte a la cara."
+    },
+    {
+      "id": "entrada.ironica.028",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Invertida. Que no cunda el pánico: significa lo mismo, pero con matices y mala postura."
+    },
+    {
+      "id": "entrada.ironica.029",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "Arcano mayor. Ahora es cuando pongo voz seria. Ya está. Se me pasó."
+    },
+    {
+      "id": "entrada.ironica.030",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "Un mayor. De los que se creen importantes. Y lo son, qué rabia."
+    },
+    {
+      "id": "entrada.ironica.031",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "Ojo, arcano mayor. Esto viene con banda sonora y todo."
+    },
+    {
+      "id": "entrada.ironica.032",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "La Torre. Sí, ya. Yo tampoco lo habría elegido."
+    },
+    {
+      "id": "entrada.ironica.033",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "La Torre. Algo se cae. Normalmente, lo que estaba mal puesto. Como mis estanterías."
+    },
+    {
+      "id": "entrada.ironica.034",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "La Muerte. Antes de que te asustes: es cambio. El tarot tiene un departamento de marketing pésimo."
+    },
+    {
+      "id": "entrada.ironica.035",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "La Muerte. Que no, que no es literal. Es cerrar una etapa. Se llama así por puro dramatismo medieval."
+    },
+    {
+      "id": "entrada.ironica.036",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "espadas-10"
+        ]
+      },
+      "text": "El diez de espadas. Ya no puede ir a peor, que es una forma muy optimista de verlo."
+    },
+    {
+      "id": "entrada.ironica.037",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "espadas-10"
+        ]
+      },
+      "text": "Diez espadas. Bastante sutil, ¿verdad? Fin de un ciclo. Toca levantarse y sacudirse."
+    },
+    {
+      "id": "entrada.ironica.038",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-12"
+        ]
+      },
+      "text": "El Colgado. Cabeza abajo y tan tranquilo. Ojalá su paciencia."
+    },
+    {
+      "id": "entrada.ironica.039",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-09"
+        ]
+      },
+      "text": "El Ermitaño. Básicamente, tú un domingo con el móvil en silencio."
+    },
+    {
+      "id": "entrada.ironica.040",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-15"
+        ]
+      },
+      "text": "El Diablo. No es para tanto: es esa tentación que tienes en la nevera."
+    },
+    {
+      "id": "entrada.ironica.041",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-00"
+        ]
+      },
+      "text": "El Loco. No te ofendas. Es un cumplido. Creo."
+    },
+    {
+      "id": "entrada.ironica.042",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-19"
+        ]
+      },
+      "text": "El Sol. Una buena noticia. Apúntalo, que no pasa a menudo."
+    },
+    {
+      "id": "entrada.ironica.043",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "Primera carta. Calentando."
+    },
+    {
+      "id": "entrada.ironica.044",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "La última. Ya casi te libras de mí."
+    },
+    {
+      "id": "entrada.ironica.045",
+      "slot": "entrada",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "A estas horas todas las cartas parecen más profundas. Es el sueño."
+    },
+    {
+      "id": "puente.ironica.001",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "En el pasado. Que ya pasó, pero tú sigues dándole vueltas…"
+    },
+    {
+      "id": "puente.ironica.002",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "Tu pasado, ese sitio al que vuelves más de lo recomendable…"
+    },
+    {
+      "id": "puente.ironica.003",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "Lo de antes. Lo que ya no se puede cambiar, pero sí comentar…"
+    },
+    {
+      "id": "puente.ironica.004",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "Ahora mismo, que es lo único que de verdad controlas. Un poco…"
+    },
+    {
+      "id": "puente.ironica.005",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "En el presente, o sea, aquí, leyendo esto…"
+    },
+    {
+      "id": "puente.ironica.006",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "Hoy. Así, sin adornos…"
+    },
+    {
+      "id": "puente.ironica.007",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "En el futuro. Que nadie conoce, pero aquí estamos, haciendo como que sí…"
+    },
+    {
+      "id": "puente.ironica.008",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "Lo que viene. Con todas las reservas del mundo…"
+    },
+    {
+      "id": "puente.ironica.009",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "El futuro, ese spoiler que nadie te va a dar del todo…"
+    },
+    {
+      "id": "puente.ironica.010",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "Como consejo, y sin que sirva de precedente…"
+    },
+    {
+      "id": "puente.ironica.011",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "El consejo. Que tú harás lo que quieras, pero bueno…"
+    },
+    {
+      "id": "puente.ironica.012",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "Lo que te frena. Que muchas veces eres tú, pero sigamos…"
+    },
+    {
+      "id": "puente.ironica.013",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "El obstáculo. Siempre hay uno; si no, no sería una tirada…"
+    },
+    {
+      "id": "puente.ironica.014",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "Y el resultado. Redoble de tambores imaginario…"
+    },
+    {
+      "id": "puente.ironica.015",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "Cómo acaba. O cómo podría acabar si nada se tuerce. Que se tuerce…"
+    },
+    {
+      "id": "puente.ironica.016",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "La situación, tal cual está, sin filtro de la cámara…"
+    },
+    {
+      "id": "puente.ironica.017",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "Lo que hay. Ni más ni menos…"
+    },
+    {
+      "id": "puente.ironica.018",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "Tu entorno. Esa gente que opina sin que le preguntes…"
+    },
+    {
+      "id": "puente.ironica.019",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "Alrededor tuyo. Ya sabes de quién hablo…"
+    },
+    {
+      "id": "puente.ironica.020",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "tu"
+        ]
+      },
+      "text": "Tú. La persona de la que menos sabes, aunque no lo parezca…"
+    },
+    {
+      "id": "puente.ironica.021",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "otra"
+        ]
+      },
+      "text": "La otra persona. Que, por cierto, no está aquí para defenderse…"
+    },
+    {
+      "id": "puente.ironica.022",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "une"
+        ]
+      },
+      "text": "Lo que os une. Además del grupo de chat…"
+    },
+    {
+      "id": "puente.ironica.023",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "posicion": [
+          "separa"
+        ]
+      },
+      "text": "Lo que os separa. Que suele ser algo pequeño con muchísima mala prensa…"
+    },
+    {
+      "id": "puente.ironica.024",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "text": "En «{posicion}». Que suena muy solemne para lo que es…"
+    },
+    {
+      "id": "puente.ironica.025",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "text": "En la casilla de «{posicion}», por si te habías perdido…"
+    },
+    {
+      "id": "puente.ironica.026",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Y aquí, en «{posicion}», viene la parte interesante. Supuestamente…"
+    },
+    {
+      "id": "puente.ironica.027",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "Después de {cartaAnterior}, esto. Hay un hilo, si entornas los ojos…"
+    },
+    {
+      "id": "puente.ironica.028",
+      "slot": "puente",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "{cartaAnterior} planteó la pregunta. Esta intenta contestar. Intenta…"
+    },
+    {
+      "id": "personalizacion.ironica.001",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "{nombre}. Bonito nombre. Seguramente no tiene nada que ver con las cartas, pero queda bien decirlo."
+    },
+    {
+      "id": "personalizacion.ironica.002",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "{nombre}, te voy a ser sincera: esta carta te pega más de lo que te gustaría."
+    },
+    {
+      "id": "personalizacion.ironica.003",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "La {inicial} de {nombre}. Podría inventarme algo sobre la {inicial}. No lo voy a hacer. Bueno, un poco sí."
+    },
+    {
+      "id": "personalizacion.ironica.004",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "{edad} años, {nombre}. La edad perfecta para saber que esto es un juego y jugarlo igual."
+    },
+    {
+      "id": "personalizacion.ironica.005",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Un {signo}. No te voy a decir lo típico de los {signo}. Ya lo estás pensando por tu cuenta."
+    },
+    {
+      "id": "personalizacion.ironica.006",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Tu número de vida es el {numeroVida}. Es un número. Tiene sus cosas. Como todos."
+    },
+    {
+      "id": "personalizacion.ironica.007",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Nacer en {provincia} imprime carácter. Lo de {plato}, sobre todo."
+    },
+    {
+      "id": "personalizacion.ironica.008",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "En {provincia}, {clima}. Normal que tengas ese aguante."
+    },
+    {
+      "id": "personalizacion.ironica.009",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Lo {gentilicio} en ti se nota. No sé exactamente en qué. Pero se nota."
+    },
+    {
+      "id": "personalizacion.ironica.010",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Esta carta, {nombre}, la conozco mejor que a algunos de mis parientes."
+    },
+    {
+      "id": "personalizacion.ironica.011",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Es {diaSemana}. Las cartas no saben qué día es, pero tú sí, y eso cuenta."
+    },
+    {
+      "id": "personalizacion.ironica.012",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Estamos en {estacion}. Lo menciono porque el horóscopo siempre menciona la estación. Tradición."
+    },
+    {
+      "id": "personalizacion.ironica.013",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Si alguien en {provincia} te pregunta qué te ha salido, diles que {carta}. Y luego cambia de tema."
+    },
+    {
+      "id": "personalizacion.ironica.014",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "{cartaAnterior} y ahora {carta}. Si esto fuera una serie, el guionista sabría lo que hace."
+    },
+    {
+      "id": "personalizacion.ironica.015",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "De {cartaAnterior} a {carta}. Narrativamente, me gusta. Personalmente, te deseo suerte."
+    },
+    {
+      "id": "personalizacion.ironica.016",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "{carta}, {nombre}. Te la explicaría con un gráfico, pero no traje diapositivas."
+    },
+    {
+      "id": "personalizacion.ironica.017",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Mira, {nombre}: {carta} no dice lo que vas a hacer. Dice lo que ya sabías y no querías admitir."
+    },
+    {
+      "id": "personalizacion.ironica.018",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¿Qué haces sin dormir a estas horas, {nombre}? Bueno, yo tampoco duermo, que estoy aquí."
+    },
+    {
+      "id": "personalizacion.ironica.019",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "Son horas de dormir, {nombre}. Pero tú has elegido el tarot. Respeto la decisión. No la entiendo, pero la respeto."
+    },
+    {
+      "id": "personalizacion.ironica.020",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 2,
+        "horaMax": 5
+      },
+      "text": "Las {hora} de la madrugada. A estas horas todo parece una señal. Spoiler: es sueño."
+    },
+    {
+      "id": "personalizacion.ironica.021",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 6,
+        "horaMax": 9
+      },
+      "text": "Tarot antes del café, {nombre}. Valiente."
+    },
+    {
+      "id": "personalizacion.ironica.022",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 13,
+        "horaMax": 15
+      },
+      "text": "A la hora de comer. Las cartas no tienen hambre; tú, probablemente sí."
+    },
+    {
+      "id": "personalizacion.ironica.023",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 16,
+        "horaMax": 19
+      },
+      "text": "Media tarde, {nombre}. La hora oficial de procrastinar. Y aquí estamos."
+    },
+    {
+      "id": "personalizacion.ironica.024",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "decadaMin": 40
+      },
+      "text": "A tus {edad} años ya sabes que el destino no existe. Pero oye, un poquito de ilusión no hace daño."
+    },
+    {
+      "id": "personalizacion.ironica.025",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "decadaMin": 60
+      },
+      "text": "{nombre}, con {edad} años has visto más cosas que esta baraja. Me callo y te escucho. Es broma, sigo hablando."
+    },
+    {
+      "id": "personalizacion.ironica.026",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "decadaMax": 20
+      },
+      "text": "Con {edad} años, {nombre}, el futuro es tan grande que cualquier carta acierta algo."
+    },
+    {
+      "id": "personalizacion.ironica.027",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "decadaMin": 30,
+        "decadaMax": 30
+      },
+      "text": "Los treinta. Esa década en la que te emociona comprar una fregona buena."
+    },
+    {
+      "id": "personalizacion.ironica.028",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "El amor, {nombre}. El tema que las cartas fingen entender mejor."
+    },
+    {
+      "id": "personalizacion.ironica.029",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "Sobre el amor: las cartas sugieren. La otra persona decide. Tú, mientras, contestas los mensajes."
+    },
+    {
+      "id": "personalizacion.ironica.030",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "Si estás pensando en alguien, {nombre}, ya sabes que esta carta no le va a escribir por ti."
+    },
+    {
+      "id": "personalizacion.ironica.031",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "El trabajo, {nombre}. Esa cosa que ocupa casi todo el día y casi todas tus quejas."
+    },
+    {
+      "id": "personalizacion.ironica.032",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "En lo laboral, la carta dice «paciencia». Las cartas siempre dicen «paciencia». Es su comodín."
+    },
+    {
+      "id": "personalizacion.ironica.033",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "Del dinero solo te diré una cosa: no lo decidas por una carta. Ni por mí. Pregunta a alguien con calculadora."
+    },
+    {
+      "id": "personalizacion.ironica.034",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "El dinero, {nombre}. El tarot no tiene licencia financiera. Te lo digo antes de que preguntes."
+    },
+    {
+      "id": "personalizacion.ironica.035",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "Sobre la salud, {nombre}: médico. Yo leo cartas de cartón."
+    },
+    {
+      "id": "personalizacion.ironica.036",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "signo": [
+          "virgo"
+        ]
+      },
+      "text": "Virgo. Sé que estás revisando si las cartas están alineadas. No lo están. Lo siento."
+    },
+    {
+      "id": "personalizacion.ironica.037",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "signo": [
+          "geminis"
+        ]
+      },
+      "text": "Géminis. Una mitad de ti cree en esto; la otra, no. Hablo con las dos."
+    },
+    {
+      "id": "personalizacion.ironica.038",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "signo": [
+          "escorpio"
+        ]
+      },
+      "text": "Escorpio. Me estás mirando con desconfianza. Normal. Yo también me miraría así."
+    },
+    {
+      "id": "personalizacion.ironica.039",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "signo": [
+          "aries"
+        ]
+      },
+      "text": "Aries. Ya has decidido antes de que termine. Pero déjame acabar, que me hace ilusión."
+    },
+    {
+      "id": "personalizacion.ironica.040",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "signo": [
+          "tauro"
+        ]
+      },
+      "text": "Tauro. Vas a hacer lo que ibas a hacer, salga lo que salga. Bien hecho."
+    },
+    {
+      "id": "personalizacion.ironica.041",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "signo": [
+          "acuario"
+        ]
+      },
+      "text": "Acuario. Seguro que tienes una teoría alternativa sobre esta carta. Me encantaría oírla. Otro día."
+    },
+    {
+      "id": "personalizacion.ironica.042",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "signo": [
+          "cancer"
+        ]
+      },
+      "text": "Cáncer. Te estás tomando esto más a pecho de lo que debería. Me parece adorable."
+    },
+    {
+      "id": "personalizacion.ironica.043",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "diaSemana": [
+          1
+        ]
+      },
+      "text": "Lunes. Una tirada en lunes ya es un acto de optimismo."
+    },
+    {
+      "id": "personalizacion.ironica.044",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "diaSemana": [
+          3
+        ]
+      },
+      "text": "Miércoles. El día de la semana que nadie recuerda. Le damos protagonismo."
+    },
+    {
+      "id": "personalizacion.ironica.045",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "diaSemana": [
+          5
+        ]
+      },
+      "text": "Viernes, {nombre}, y aquí con el tarot. Un plan como otro cualquiera."
+    },
+    {
+      "id": "personalizacion.ironica.046",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "diaSemana": [
+          7
+        ]
+      },
+      "text": "Domingo. Ese día en que todo es posible salvo hacer algo productivo."
+    },
+    {
+      "id": "personalizacion.ironica.047",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "faseLunar": [
+          "llena"
+        ]
+      },
+      "text": "Luna llena. Lo digo para darle ambiente. La luna, en realidad, ni se ha enterado."
+    },
+    {
+      "id": "personalizacion.ironica.048",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "faseLunar": [
+          "menguante"
+        ]
+      },
+      "text": "Luna menguante. La luna también tiene días de hacer menos. Te entiendo, luna."
+    },
+    {
+      "id": "personalizacion.ironica.049",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "faseLunar": [
+          "nueva"
+        ]
+      },
+      "text": "Luna nueva. La luna está ahí aunque no la veas. Como tus propósitos de año nuevo."
+    },
+    {
+      "id": "personalizacion.ironica.050",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "estacion": [
+          "otono"
+        ]
+      },
+      "text": "Otoño. La estación en la que todo el mundo se pone melancólico y se compra una manta."
+    },
+    {
+      "id": "personalizacion.ironica.051",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "estacion": [
+          "verano"
+        ]
+      },
+      "text": "Verano. Hasta las cartas se derriten un poco."
+    },
+    {
+      "id": "personalizacion.ironica.052",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "Empezamos, {nombre}. Te advierto que me gusta comentarlo todo."
+    },
+    {
+      "id": "personalizacion.ironica.053",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "Última carta, {nombre}. Si no te gusta, puedes fingir que no la has visto. Yo lo hago mucho."
+    },
+    {
+      "id": "personalizacion.ironica.054",
+      "slot": "personalizacion",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Los {decada}, {nombre}. Ni la mejor ni la peor década. La tuya, que es la que cuenta."
+    },
+    {
+      "id": "guino.ironica.001",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "El tarot no predice el futuro. Pero predice muy bien de qué vas a hablar esta noche."
+    },
+    {
+      "id": "guino.ironica.002",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Las cartas nunca mienten. Tampoco dicen la verdad. Son muy diplomáticas."
+    },
+    {
+      "id": "guino.ironica.003",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Mercurio retrógrado es la excusa más elegante del sistema solar."
+    },
+    {
+      "id": "guino.ironica.004",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Más vale pájaro en mano que ciento volando. Y más vale una cita confirmada que cien «ya hablamos»."
+    },
+    {
+      "id": "guino.ironica.005",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "A quien madruga, Dios le ayuda. A quien no, le ayuda el café. A mí, los dos."
+    },
+    {
+      "id": "guino.ironica.006",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "No hay mal que cien años dure. Ni tirada de tarot que dure más de cinco minutos, por suerte."
+    },
+    {
+      "id": "guino.ironica.007",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Esto es entretenimiento. Lo digo yo antes de que lo diga el aviso legal."
+    },
+    {
+      "id": "guino.ironica.008",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Mi bola de cristal funciona perfectamente. Solo tiene una imagen: mi reflejo con cara de sueño."
+    },
+    {
+      "id": "guino.ironica.009",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Tengo veintitrés diplomas. Ninguno sirve para nada. Todos están enmarcados."
+    },
+    {
+      "id": "guino.ironica.010",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Si las cartas acertaran siempre, yo no viviría en un tercero sin ascensor."
+    },
+    {
+      "id": "guino.ironica.011",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "El destino es como el wifi del tren: está, pero no siempre se conecta."
+    },
+    {
+      "id": "guino.ironica.012",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Dime con quién andas y te diré por qué llegas tarde."
+    },
+    {
+      "id": "guino.ironica.013",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Agua que no has de beber, déjala correr. O mejor no, que hay sequía."
+    },
+    {
+      "id": "guino.ironica.014",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Al que madruga, le toca abrir la oficina."
+    },
+    {
+      "id": "guino.ironica.015",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "No por mucho madrugar amanece más temprano. Pero se encuentra aparcamiento."
+    },
+    {
+      "id": "guino.ironica.016",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "De tal palo, tal astilla. Y de tal baraja, tal lectura."
+    },
+    {
+      "id": "guino.ironica.017",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "La esperanza es lo último que se pierde. Lo primero son las llaves."
+    },
+    {
+      "id": "guino.ironica.018",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "El que tiene boca se equivoca. Yo tengo boca y baraja: me equivoco el doble, pero con estilo."
+    },
+    {
+      "id": "guino.ironica.019",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "El tarot es como el horóscopo del periódico, pero con más cartón."
+    },
+    {
+      "id": "guino.ironica.020",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Cuando una puerta se cierra, otra se abre. Revisa las corrientes de aire."
+    },
+    {
+      "id": "guino.ironica.021",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Hay quien lee los posos del café. Yo leo el ticket de la compra y también se aprende mucho."
+    },
+    {
+      "id": "guino.ironica.022",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Los astros no deciden nada. Pero se les da muy bien llevarse el mérito."
+    },
+    {
+      "id": "guino.ironica.023",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Ver para creer. O en mi caso, creer para ver. Que es más barato."
+    },
+    {
+      "id": "guino.ironica.024",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "La sinceridad es un arte. El tarot, también. Juntas, un desastre encantador."
+    },
+    {
+      "id": "guino.ironica.025",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "He estudiado el tarot durante años. Los primeros, sobre todo, buscando las cartas que se me caían debajo del sofá."
+    },
+    {
+      "id": "guino.ironica.026",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Todo pasa por algo. Normalmente por no haber leído las instrucciones."
+    },
+    {
+      "id": "guino.ironica.027",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "No es que sea pesimista, es que he leído muchas cartas."
+    },
+    {
+      "id": "guino.ironica.028",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Lo que tenga que ser, será. Que es la frase más útil para no tomar decisiones."
+    },
+    {
+      "id": "guino.ironica.029",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Si el tarot fuera exacto, lo darían en la ESO."
+    },
+    {
+      "id": "guino.ironica.030",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "El universo te manda señales. Lo malo es que las manda sin subtítulos."
+    },
+    {
+      "id": "guino.ironica.031",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "La vida es como una tirada de tarot: nadie sabe muy bien qué está pasando, pero todos asentimos."
+    },
+    {
+      "id": "guino.ironica.032",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Quien siembra vientos recoge tempestades. Quien siembra excusas, recoge más excusas."
+    },
+    {
+      "id": "guino.ironica.033",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Al mal tiempo, buena cara. Y paraguas, que la cara no protege."
+    },
+    {
+      "id": "guino.ironica.034",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "La curiosidad mató al gato. Bueno, no, lo dejó muy pensativo. El gato está bien."
+    },
+    {
+      "id": "guino.ironica.035",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Mis cartas son de segunda mano. Tienen experiencia. Y alguna mancha de café."
+    },
+    {
+      "id": "guino.ironica.036",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "No hay casualidades, dicen. Pues mira, hoy hay unas cuantas."
+    },
+    {
+      "id": "guino.ironica.037",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Te diría que sigas tu intuición, pero tu intuición te trajo a una web de tarot de humor. Respeto."
+    },
+    {
+      "id": "guino.ironica.038",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "El karma existe. Lo sé porque siempre que digo «hoy no llueve», llueve."
+    },
+    {
+      "id": "guino.ironica.039",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Más sabe el diablo por viejo que por diablo. Y yo, por haber dormido poco."
+    },
+    {
+      "id": "guino.ironica.040",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Nadie es profeta en su tierra. Yo no lo soy ni en mi portal."
+    },
+    {
+      "id": "guino.ironica.041",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Ojos que no ven, notificaciones que se acumulan."
+    },
+    {
+      "id": "guino.ironica.042",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "El tiempo lo cura todo. Excepto la manía de mirar el móvil."
+    },
+    {
+      "id": "guino.ironica.043",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Lo bueno, si breve, dos veces bueno. Por eso no hago la Cruz Celta."
+    },
+    {
+      "id": "guino.ironica.044",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "La procesión va por dentro. Y por fuera, la cara de póquer."
+    },
+    {
+      "id": "guino.ironica.045",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Yo no te digo lo que quieres oír. Te digo lo que pone en la carta, que es peor."
+    },
+    {
+      "id": "guino.ironica.046",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Dicen que las cartas eligen a quien las lee. A mí me eligieron en un rastro, por dos euros."
+    },
+    {
+      "id": "guino.ironica.047",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Todo el mundo tiene un día tonto. El mío suele ser hoy."
+    },
+    {
+      "id": "guino.ironica.048",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "text": "El que algo quiere, algo le cuesta. En este caso, cinco minutos y algo de dignidad."
+    },
+    {
+      "id": "guino.ironica.049",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "En el amor, como en las mudanzas, siempre aparecen cosas que no sabías que tenías."
+    },
+    {
+      "id": "guino.ironica.050",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "Quien bien te quiere te contestará antes de las doce horas."
+    },
+    {
+      "id": "guino.ironica.051",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "El trabajo dignifica. La reunión que podía ser un correo, no tanto."
+    },
+    {
+      "id": "guino.ironica.052",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "Poderoso caballero es don Dinero. Y muy escurridizo."
+    },
+    {
+      "id": "guino.ironica.053",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Las cartas invertidas son como las tostadas: caen como quieren."
+    },
+    {
+      "id": "guino.ironica.054",
+      "slot": "guino",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "A estas horas lo sensato sería dormir. Pero lo sensato no tiene tanta gracia."
+    },
+    {
+      "id": "cambioHumor.ironica.001",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Perdona, me ha dado un aire. Ya se me ha pasado la solemnidad. Vuelvo a ser yo."
+    },
+    {
+      "id": "cambioHumor.ironica.002",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Vale, me estaba poniendo intensa. Recalculo."
+    },
+    {
+      "id": "cambioHumor.ironica.003",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Un momento, que me he oído y me he dado vergüenza ajena. Sigo, pero más normal."
+    },
+    {
+      "id": "cambioHumor.ironica.004",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Me ha dado un aire de sinceridad. Es crónico. Seguimos."
+    },
+    {
+      "id": "cambioHumor.ironica.005",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Uy, perdona, se me ha ido la voz a tono de anuncio. Ya. Hablemos como personas."
+    },
+    {
+      "id": "cambioHumor.ironica.006",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Me estaba creyendo mi propio personaje. Fallo mío. Retomo con los pies en el suelo."
+    },
+    {
+      "id": "cambioHumor.ironica.007",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Pausa técnica. He decidido que a partir de aquí te lo cuento sin adornos."
+    },
+    {
+      "id": "cambioHumor.ironica.008",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Me he despistado y he empezado a hablar en verso. No volverá a pasar. Probablemente."
+    },
+    {
+      "id": "cambioHumor.ironica.009",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Vale, ya me he cansado de las velas. Hablemos claro."
+    },
+    {
+      "id": "cambioHumor.ironica.010",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Perdona, que tenía puesto el modo vidente profesional. Lo apago. Ya está."
+    },
+    {
+      "id": "cambioHumor.ironica.011",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Me ha dado un aire. Era el aire acondicionado. Y la lucidez. Seguimos."
+    },
+    {
+      "id": "cambioHumor.ironica.012",
+      "slot": "cambioHumor",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Corto la música dramática que sonaba en mi cabeza. Gracias. Continúo."
+    },
+    {
+      "id": "sintesis.ironica.001",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Resumiendo, {nombre}: las cartas dicen cosas. Tú harás lo que quieras. Que es exactamente lo que deberías hacer."
+    },
+    {
+      "id": "sintesis.ironica.002",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "text": "En conjunto, no está mal. Y viniendo de mí, eso es casi un aplauso."
+    },
+    {
+      "id": "sintesis.ironica.003",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Esta lectura tiene de todo: algo bueno, algo regular y algo que no he entendido. Como la vida."
+    },
+    {
+      "id": "sintesis.ironica.004",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Conclusión sincera: nada de esto es obligatorio. Pero hay un par de cosas que deberías pensar."
+    },
+    {
+      "id": "sintesis.ironica.005",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "text": "La tirada, en resumen, te recomienda lo de siempre: dormir, hablar claro y beber agua. Lo sé, poco místico."
+    },
+    {
+      "id": "sintesis.ironica.006",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "Tres o más arcanos mayores. O es un momento importante o la baraja tiene ganas de protagonismo. Probablemente ambas."
+    },
+    {
+      "id": "sintesis.ironica.007",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "Muchos mayores. El tarot se ha puesto trascendente. Haz como que te impresiona. A mí me ha impresionado un poco."
+    },
+    {
+      "id": "sintesis.ironica.008",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "Muchas copas: emociones. Ya sabes, eso que haces como que no tienes."
+    },
+    {
+      "id": "sintesis.ironica.009",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "Predominan las copas. Hay sentimientos de por medio. No es culpa mía."
+    },
+    {
+      "id": "sintesis.ironica.010",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "Oros por todas partes. Lo práctico. Lo material. Y no, no te voy a decir en qué gastarlo."
+    },
+    {
+      "id": "sintesis.ironica.011",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "Domina el palo de oros. Rutinas, cuentas, el día a día. Glamur cero, utilidad total."
+    },
+    {
+      "id": "sintesis.ironica.012",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "Muchas espadas. Mucha cabeza. Igual toca pensar menos y decir más."
+    },
+    {
+      "id": "sintesis.ironica.013",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "Espadas por doquier. Hay una conversación pendiente. Ya sabes cuál."
+    },
+    {
+      "id": "sintesis.ironica.014",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "Muchos bastos: energía, ganas, iniciativa. Lo único que falta es levantarse del sofá."
+    },
+    {
+      "id": "sintesis.ironica.015",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "Dominan los bastos. Lo que tengas pendiente de empezar, empiézalo. Sin carta que lo justifique, también."
+    },
+    {
+      "id": "sintesis.ironica.016",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "figurasMin": 2
+      },
+      "text": "Hay figuras: personas implicadas. Una tirada con reparto. Más vale que alguien traiga la merienda."
+    },
+    {
+      "id": "sintesis.ironica.017",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "figurasMin": 3
+      },
+      "text": "Tantas figuras que esto ya parece una reunión de comunidad de vecinos."
+    },
+    {
+      "id": "sintesis.ironica.018",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "En el amor: hay posibilidades. Muchas dependen de que contestes ese mensaje."
+    },
+    {
+      "id": "sintesis.ironica.019",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "En el trabajo: paciencia y un buen café. Lo demás, con suerte, llegará."
+    },
+    {
+      "id": "sintesis.ironica.020",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "En el dinero: ninguna carta sustituye a alguien que sepa de números. Esto es tarot, no gestoría."
+    },
+    {
+      "id": "sintesis.ironica.021",
+      "slot": "sintesis",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "Y sobre la salud, lo de siempre y lo importante: a tu médico."
+    },
+    {
+      "id": "saludo.ironica.001",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Hola, {nombre}. Soy Madame Remedios. Tengo más diplomas que aciertos, pero los aciertos que tengo son muy buenos."
+    },
+    {
+      "id": "saludo.ironica.002",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Te doy la bienvenida, {nombre}. Me ahorro el protocolo: siéntate y barajamos."
+    },
+    {
+      "id": "saludo.ironica.003",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Hola, {nombre}. Te aviso: soy sincera. A veces demasiado. Lo pone en mis diplomas, al dorso."
+    },
+    {
+      "id": "saludo.ironica.004",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Pasa, {nombre} de {provincia}. No te asustes por el incienso, es decorativo."
+    },
+    {
+      "id": "saludo.ironica.005",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Vamos a hacer esto con toda la seriedad que se merece. O sea, poca."
+    },
+    {
+      "id": "saludo.ironica.006",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "{nombre}, antes de empezar: esto es entretenimiento. Ahora sí, que empiece el espectáculo."
+    },
+    {
+      "id": "saludo.ironica.007",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Hola. Tengo una baraja, una vela y cero expectativas. Empecemos, {nombre}."
+    },
+    {
+      "id": "saludo.ironica.008",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Bienvenida sea tu curiosidad, {nombre}. Es lo que mueve este negocio sin negocio."
+    },
+    {
+      "id": "saludo.ironica.009",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Un {signo} de {provincia}. Ya me hago una idea. Seguramente equivocada. Vamos allá."
+    },
+    {
+      "id": "saludo.ironica.010",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "text": "¿Lista la baraja? ¿Lista tu paciencia? Pues adelante, {nombre}."
+    },
+    {
+      "id": "saludo.ironica.011",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "Hola, {nombre}. A estas horas, yo tampoco tengo una explicación para estar aquí."
+    },
+    {
+      "id": "saludo.ironica.012",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "Vienes por amor. Clásico. Te prometo no ser cursi. No mucho."
+    },
+    {
+      "id": "saludo.ironica.013",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "Vienes por el trabajo. Mejor aquí que en la reunión de las nueve."
+    },
+    {
+      "id": "saludo.ironica.014",
+      "slot": "saludo",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "Vienes por el dinero. Te adelanto que no doy consejos financieros. Doy chistes."
+    },
+    {
+      "id": "despedida.ironica.001",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Y ya está, {nombre}. No ha dolido, ¿verdad?"
+    },
+    {
+      "id": "despedida.ironica.002",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Hasta otra. Y si algo de esto se cumple, no me lo digas, que se me sube a la cabeza."
+    },
+    {
+      "id": "despedida.ironica.003",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Gracias por venir, {nombre}. Recuerda: el destino lo escribes tú. Yo solo hago correcciones de estilo."
+    },
+    {
+      "id": "despedida.ironica.004",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Me despido. Si no te ha gustado la lectura, échale la culpa a Mercurio. Siempre funciona."
+    },
+    {
+      "id": "despedida.ironica.005",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Cuídate, {nombre}. Y bebe agua, que eso sí lo veo en todas las tiradas."
+    },
+    {
+      "id": "despedida.ironica.006",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Fin. Puedes volver cuando quieras. Las cartas seguirán sin saber nada, pero con mucha gracia."
+    },
+    {
+      "id": "despedida.ironica.007",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Hasta luego. Saluda a {provincia} de mi parte. Seguro que no se acuerda de mí."
+    },
+    {
+      "id": "despedida.ironica.008",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Ha sido un placer, {nombre}. De verdad. Bueno, casi de verdad. Es broma: de verdad."
+    },
+    {
+      "id": "despedida.ironica.009",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Te vas con una lectura y sin pagar nada. Hoy has ganado tú."
+    },
+    {
+      "id": "despedida.ironica.010",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Me voy a apagar la vela antes de que salte la alarma de humo."
+    },
+    {
+      "id": "despedida.ironica.011",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Recuerda que todo esto es entretenimiento. Lo importante, decídelo despacio y con gente de confianza."
+    },
+    {
+      "id": "despedida.ironica.012",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "Y ahora, por favor, vete a dormir, {nombre}. Te lo digo como vidente y como persona."
+    },
+    {
+      "id": "despedida.ironica.013",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Hasta pronto, {nombre}. No le cuentes a nadie que me he puesto tierna al final."
+    },
+    {
+      "id": "despedida.ironica.014",
+      "slot": "despedida",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Cierro la tienda. Que tengas un día razonablemente bueno, que es lo máximo que te puedo garantizar."
+    },
+    {
+      "id": "salud.ironica.001",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Sobre la salud: mejor tu médico. Yo tengo diplomas, pero ninguno de medicina. Y uno es de pociones, que preocupa más."
+    },
+    {
+      "id": "salud.ironica.002",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Para eso, mejor tu médico. Las cartas no tienen ni la ESO de enfermería."
+    },
+    {
+      "id": "salud.ironica.003",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Tema salud: aquí paro. Pide cita con tu médico. Yo te espero con chistes."
+    },
+    {
+      "id": "salud.ironica.004",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Seré breve y sincera: para la salud, médico. Para reírte un rato, aquí."
+    },
+    {
+      "id": "salud.ironica.005",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "El tarot y la salud se llevan fatal. Mejor tu médico, que lleva bata y todo."
+    },
+    {
+      "id": "salud.ironica.006",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Lo voy a decir una vez y muy en serio: para la salud, mejor tu médico."
+    },
+    {
+      "id": "salud.ironica.007",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Si te preocupa algo del cuerpo, al médico. Ninguna carta ha hecho jamás una analítica."
+    },
+    {
+      "id": "salud.ironica.008",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Yo interpreto cartas de cartón. Tu médico interpreta cosas que importan. Mejor tu médico."
+    },
+    {
+      "id": "salud.ironica.009",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "En salud no hay arcano que valga. Médico, siempre."
+    },
+    {
+      "id": "salud.ironica.010",
+      "slot": "salud",
+      "tones": [
+        "ironica"
+      ],
+      "text": "Te puedo decir que esta carta es bonita. Lo de la salud te lo tiene que decir tu médico."
+    }
+  ]
+}

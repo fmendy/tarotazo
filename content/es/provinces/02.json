@@ -1,0 +1,28 @@
+{
+  "code": "02",
+  "nombre": "Albacete",
+  "comunidad": "Castilla-La Mancha",
+  "gentilicio": "albaceteño/a",
+  "plato": [
+    "los gazpachos manchegos",
+    "el atascaburras",
+    "los miguelitos de La Roda"
+  ],
+  "fiesta": [
+    "la Feria de Albacete",
+    "la Tamborada de Hellín"
+  ],
+  "clima": [
+    "inviernos de abrigo gordo",
+    "veranos secos de chicharra",
+    "viento que peina a contrapelo"
+  ],
+  "chascarrillos": [
+    "Albacete tiene la feria más larga del mundo y la gente sale de ella más contenta que entró.",
+    "En Albacete las navajas son tan famosas que hasta la conversación es afilada.",
+    "Los miguelitos de La Roda se comen de un bocado y se recuerdan toda la vida.",
+    "Quien ha probado el atascaburras sabe que no hay frío manchego que se le resista.",
+    "Dicen que Albacete es llano para que las buenas noticias se vean venir de lejos.",
+    "Hellín toca el tambor con tanto ritmo que hasta mis cartas se mueven solas."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "code": "30",
+  "nombre": "Murcia",
+  "comunidad": "Región de Murcia",
+  "gentilicio": "murciano/a",
+  "plato": [
+    "el zarangollo",
+    "el pastel de carne",
+    "el caldero del Mar Menor",
+    "la ensalada murciana"
+  ],
+  "fiesta": [
+    "el Bando de la Huerta",
+    "el Entierro de la Sardina",
+    "las Fiestas de Primavera"
+  ],
+  "clima": [
+    "sol a raudales",
+    "veranos de calor intenso"
+  ],
+  "chascarrillos": [
+    "En Murcia la huerta es tan rica que podrías comer tres veces al día solo de lo que da.",
+    "El pastel de carne murciano es tan bueno que se pide en el almuerzo y se recuerda en la cena.",
+    "En el Bando de la Huerta todo el mundo va de huertano y el ambiente es de primera.",
+    "Murciano de verdad pone «acho» al principio de las frases importantes.",
+    "El Entierro de la Sardina en Murcia es tan alegre que la sardina sale encantada.",
+    "El Mar Menor es tan tranquilo que hasta mis cartas flotan."
+  ]
+}

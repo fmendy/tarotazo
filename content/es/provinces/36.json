@@ -1,0 +1,29 @@
+{
+  "code": "36",
+  "nombre": "Pontevedra",
+  "comunidad": "Galicia",
+  "gentilicio": "pontevedrés/a",
+  "plato": [
+    "los mejillones",
+    "las vieiras",
+    "el pulpo",
+    "el albariño"
+  ],
+  "fiesta": [
+    "la Rapa das Bestas de Sabucedo",
+    "la Fiesta del Albariño de Cambados",
+    "la Festa da Peregrina"
+  ],
+  "clima": [
+    "lluvia suave atlántica",
+    "veranos de ría templados"
+  ],
+  "chascarrillos": [
+    "Las Rías Baixas tienen marisco para alegrar a toda la península.",
+    "En Cambados el albariño tiene fiesta propia, y la fiesta, mucho albariño.",
+    "Pontevedrés: alguien que te dice «depende» y luego te lleva a comer al mejor sitio.",
+    "Las Cíes son tan bonitas que hasta el Caribe pregunta por ellas.",
+    "En la Rapa das Bestas los caballos tienen peinado nuevo cada verano.",
+    "Pontevedra es tan agradable para pasear que mis cartas se fueron solas de tapas."
+  ]
+}

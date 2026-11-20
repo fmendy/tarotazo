@@ -1,0 +1,87 @@
+{
+  "family": "spanish",
+  "name": "Baraja española",
+  "description": "La de la brisca, el tute y la abuela echando las cartas en la mesa camilla. Cuarenta cartas (o cuarenta y ocho, si vienes con ganas) y una tradición cartomántica muy nuestra.",
+  "suits": {
+    "oros": {
+      "name": "Oros",
+      "description": "Dinero, éxito y buena suerte. El As de Oros es lo más parecido a que te toque la pedrea."
+    },
+    "copas": {
+      "name": "Copas",
+      "description": "Amor, alegría y celebraciones. Brindis incluido."
+    },
+    "espadas": {
+      "name": "Espadas",
+      "description": "Avisos, conflictos y obstáculos. No asustan: avisan, que es distinto."
+    },
+    "bastos": {
+      "name": "Bastos",
+      "description": "Trabajo, esfuerzo y viajes. La Sota de Bastos siempre trae noticias."
+    }
+  },
+  "models": {
+    "castellana": {
+      "name": "Castellana clásica",
+      "description": "La de toda la vida, la que había en todos los bares, redibujada para la ocasión. Cuarenta cartas, sin ochos ni nueves, como manda la cartomancia castiza."
+    },
+    "catalana": {
+      "name": "Catalana antigua",
+      "description": "Patrón catalán de cuarenta y ocho cartas, con los ochos y los nueves de propina y unos bastos que imponen respeto. Para quien quiere el lote completo."
+    },
+    "ilustrada": {
+      "name": "Ilustrada de la casa",
+      "description": "Nuestra propia baraja española, con escenas en cada carta y mucho arte. Cuarenta cartas que cuentan su historia antes de que yo abra la boca."
+    }
+  },
+  "cards": {
+    "bastos-01": "As de Bastos",
+    "bastos-02": "Dos de Bastos",
+    "bastos-03": "Tres de Bastos",
+    "bastos-04": "Cuatro de Bastos",
+    "bastos-05": "Cinco de Bastos",
+    "bastos-06": "Seis de Bastos",
+    "bastos-07": "Siete de Bastos",
+    "bastos-08": "Ocho de Bastos",
+    "bastos-09": "Nueve de Bastos",
+    "bastos-sota": "Sota de Bastos",
+    "bastos-caballo": "Caballo de Bastos",
+    "bastos-rey": "Rey de Bastos",
+    "copas-01": "As de Copas",
+    "copas-02": "Dos de Copas",
+    "copas-03": "Tres de Copas",
+    "copas-04": "Cuatro de Copas",
+    "copas-05": "Cinco de Copas",
+    "copas-06": "Seis de Copas",
+    "copas-07": "Siete de Copas",
+    "copas-08": "Ocho de Copas",
+    "copas-09": "Nueve de Copas",
+    "copas-sota": "Sota de Copas",
+    "copas-caballo": "Caballo de Copas",
+    "copas-rey": "Rey de Copas",
+    "espadas-01": "As de Espadas",
+    "espadas-02": "Dos de Espadas",
+    "espadas-03": "Tres de Espadas",
+    "espadas-04": "Cuatro de Espadas",
+    "espadas-05": "Cinco de Espadas",
+    "espadas-06": "Seis de Espadas",
+    "espadas-07": "Siete de Espadas",
+    "espadas-08": "Ocho de Espadas",
+    "espadas-09": "Nueve de Espadas",
+    "espadas-sota": "Sota de Espadas",
+    "espadas-caballo": "Caballo de Espadas",
+    "espadas-rey": "Rey de Espadas",
+    "oros-01": "As de Oros",
+    "oros-02": "Dos de Oros",
+    "oros-03": "Tres de Oros",
+    "oros-04": "Cuatro de Oros",
+    "oros-05": "Cinco de Oros",
+    "oros-06": "Seis de Oros",
+    "oros-07": "Siete de Oros",
+    "oros-08": "Ocho de Oros",
+    "oros-09": "Nueve de Oros",
+    "oros-sota": "Sota de Oros",
+    "oros-caballo": "Caballo de Oros",
+    "oros-rey": "Rey de Oros"
+  }
+}

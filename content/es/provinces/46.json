@@ -1,0 +1,28 @@
+{
+  "code": "46",
+  "nombre": "Valencia",
+  "comunidad": "Comunidad Valenciana",
+  "gentilicio": "valenciano/a",
+  "plato": [
+    "la paella valenciana",
+    "la horchata con fartons",
+    "el all i pebre",
+    "el arroz al horno"
+  ],
+  "fiesta": [
+    "las Fallas",
+    "la Tomatina de Buñol"
+  ],
+  "clima": [
+    "sol y humedad mediterránea",
+    "inviernos templados"
+  ],
+  "chascarrillos": [
+    "En Valencia la paella se discute con más pasión que el fútbol, y con razón.",
+    "Durante las Fallas los petardos suenan tanto que hasta mis cartas salen barajadas.",
+    "La horchata con fartons es la merienda oficial del verano valenciano.",
+    "Valenciano: alguien que te corrige amablemente si le pones chorizo a la paella.",
+    "En la Tomatina de Buñol todo el mundo acaba rojo, de tomate y de risa.",
+    "La Albufera tiene unos atardeceres que ni la mejor tirada de tarot."
+  ]
+}

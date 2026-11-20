@@ -1,0 +1,28 @@
+{
+  "code": "31",
+  "nombre": "Navarra",
+  "comunidad": "Comunidad Foral de Navarra",
+  "gentilicio": "navarro/a",
+  "plato": [
+    "los espárragos de Navarra",
+    "la menestra de verduras",
+    "la chistorra",
+    "el pacharán"
+  ],
+  "fiesta": [
+    "San Fermín",
+    "las Javieradas"
+  ],
+  "clima": [
+    "norte verde y sur de Bardenas",
+    "inviernos frescos en Pamplona"
+  ],
+  "chascarrillos": [
+    "En San Fermín todo Pamplona viste de blanco y rojo, y la ropa queda de recuerdo.",
+    "La menestra navarra tiene tanta verdura de la buena que parece una huerta en un plato.",
+    "Las Bardenas Reales parecen otro planeta y están en Navarra. Lo confirma mi bola.",
+    "Navarro: alguien que te ofrece un pacharán casero después de comer y no acepta un no.",
+    "Los espárragos de Navarra son tan gordos que parecen de otra dimensión.",
+    "Del 6 al 14 de julio, Pamplona canta, baila y duerme poco, y lo hace con alegría."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/fragments.schema.json",
+  "title": "{lang}/fragments/*.json — fragmentos narrativos del motor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["fragments"],
+  "properties": {
+    "$comment": { "type": "string" },
+    "fragments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "slot", "text"],
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/fragmentId" },
+          "slot": { "enum": ["entrada", "puente", "personalizacion", "guino", "cambioHumor", "sintesis", "saludo", "despedida", "salud"] },
+          "tones": { "$ref": "common.schema.json#/$defs/tones" },
+          "weight": { "$ref": "common.schema.json#/$defs/weight" },
+          "when": { "$ref": "common.schema.json#/$defs/when" },
+          "text": { "$ref": "common.schema.json#/$defs/text" }
+        },
+        "if": { "not": { "properties": { "slot": { "const": "sintesis" } } } },
+        "then": {
+          "properties": {
+            "when": { "not": { "anyOf": [{ "required": ["suitDominante"] }, { "required": ["figurasMin"] }] } }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "code": "15",
+  "nombre": "A Coruña",
+  "comunidad": "Galicia",
+  "gentilicio": "coruñés/a",
+  "plato": [
+    "el pulpo á feira",
+    "el lacón con grelos",
+    "la empanada",
+    "la tarta de Santiago"
+  ],
+  "fiesta": [
+    "San Juan en las playas de A Coruña",
+    "las fiestas del Apóstol en Santiago"
+  ],
+  "clima": [
+    "lluvia fina y viento",
+    "días con las cuatro estaciones en una tarde"
+  ],
+  "chascarrillos": [
+    "En A Coruña el viento te peina gratis cada mañana.",
+    "La noche de San Juan, las playas coruñesas tienen más hogueras que estrellas.",
+    "Coruñés de ley: sale con paraguas y gafas de sol, y usa las dos cosas.",
+    "Santiago recibe tantos peregrinos que el botafumeiro ya saluda por su nombre.",
+    "El pulpo á feira con su pimentón es poesía; el plato de madera, la firma.",
+    "La Torre de Hércules lleva siglos alumbrando: si ella no se cansa, tú tampoco."
+  ]
+}

@@ -1,0 +1,2532 @@
+{
+  "fragments": [
+    {
+      "id": "entrada.mistica.001",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Mmm…"
+    },
+    {
+      "id": "entrada.mistica.002",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Silencio. Los arcanos [hablan|susurran|carraspean]."
+    },
+    {
+      "id": "entrada.mistica.003",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Oh… [sí|claro|por supuesto]. Ya lo intuía."
+    },
+    {
+      "id": "entrada.mistica.004",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Respira conmigo. Inspira… expira… ya."
+    },
+    {
+      "id": "entrada.mistica.005",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "…"
+    },
+    {
+      "id": "entrada.mistica.006",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El velo se descorre."
+    },
+    {
+      "id": "entrada.mistica.007",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Siento una vibración. No, espera, es mi móvil. Continúo."
+    },
+    {
+      "id": "entrada.mistica.008",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Ah. [La niebla se abre|El humo se aparta|El incienso se ha callado]."
+    },
+    {
+      "id": "entrada.mistica.009",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los astros [asienten|murmuran|se dan codazos]."
+    },
+    {
+      "id": "entrada.mistica.010",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Contempla, alma inquieta."
+    },
+    {
+      "id": "entrada.mistica.011",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Esta carta llevaba siglos esperándote. Bueno, desde que barajaste."
+    },
+    {
+      "id": "entrada.mistica.012",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Mmm… [interesante|revelador|muy de ti]."
+    },
+    {
+      "id": "entrada.mistica.013",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Que nadie hable. Que nadie respire. Bueno, respirad, pero bajito."
+    },
+    {
+      "id": "entrada.mistica.014",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El cosmos se aclara la garganta."
+    },
+    {
+      "id": "entrada.mistica.015",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "La vela ha temblado. Eso [nunca|casi nunca|solo los jueves] pasa."
+    },
+    {
+      "id": "entrada.mistica.016",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Lo sabía. Lo sabía desde la [séptima|tercera|undécima] luna."
+    },
+    {
+      "id": "entrada.mistica.017",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "¡Ah! El universo tiene sentido del humor."
+    },
+    {
+      "id": "entrada.mistica.018",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Una carta antigua. Una verdad nueva."
+    },
+    {
+      "id": "entrada.mistica.019",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Calla… [¿lo oyes?|¿lo sientes?|¿lo hueles? Es el incienso.]"
+    },
+    {
+      "id": "entrada.mistica.020",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los ancestros miran. Con gafas de cerca."
+    },
+    {
+      "id": "entrada.mistica.021",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Del revés… El destino hace el pino puente."
+    },
+    {
+      "id": "entrada.mistica.022",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Invertida. Los astros la han puesto boca abajo para que la leas con calma."
+    },
+    {
+      "id": "entrada.mistica.023",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Mmm, al revés. Hasta las estrellas tienen días torcidos."
+    },
+    {
+      "id": "entrada.mistica.024",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Cabeza abajo. Como un murciélago sabio."
+    },
+    {
+      "id": "entrada.mistica.025",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "Un arcano mayor. Que se pongan en pie los planetas."
+    },
+    {
+      "id": "entrada.mistica.026",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "Ah… [esto ya son palabras mayores|esto es arcano del bueno|esto viene con orquesta cósmica]."
+    },
+    {
+      "id": "entrada.mistica.027",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "Los grandes arcanos no visitan a cualquiera. Esto es un honor del firmamento."
+    },
+    {
+      "id": "entrada.mistica.028",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "La Muerte. Calma: en el tarot significa cambio, cierre de etapa. Y algo de limpieza de armarios."
+    },
+    {
+      "id": "entrada.mistica.029",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "La gran transformadora. Algo termina para que algo empiece. Como una temporada de serie."
+    },
+    {
+      "id": "entrada.mistica.030",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "La Torre. Los cimientos tiemblan… para reconstruir con mejores vistas."
+    },
+    {
+      "id": "entrada.mistica.031",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "El rayo cae sobre la Torre. Lo que no se sostenía, cae. Lo que vale, queda."
+    },
+    {
+      "id": "entrada.mistica.032",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "espadas-10"
+        ]
+      },
+      "text": "Diez espadas. El final de un capítulo dramático. Ya puedes pasar página."
+    },
+    {
+      "id": "entrada.mistica.033",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-17"
+        ]
+      },
+      "text": "La Estrella. Por fin un poco de luz en este salón tan oscuro."
+    },
+    {
+      "id": "entrada.mistica.034",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-18"
+        ]
+      },
+      "text": "La Luna. Las sombras se alargan… y los gatos se ponen interesantes."
+    },
+    {
+      "id": "entrada.mistica.035",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-19"
+        ]
+      },
+      "text": "El Sol. Ponte crema espiritual, que viene fuerte."
+    },
+    {
+      "id": "entrada.mistica.036",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-00"
+        ]
+      },
+      "text": "El Loco. El salto al vacío… con red invisible. Eso creo."
+    },
+    {
+      "id": "entrada.mistica.037",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-21"
+        ]
+      },
+      "text": "El Mundo. Un ciclo se cierra con un lazo dorado."
+    },
+    {
+      "id": "entrada.mistica.038",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-10"
+        ]
+      },
+      "text": "La Rueda de la Fortuna gira. Y yo ya me mareo."
+    },
+    {
+      "id": "entrada.mistica.039",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "cardIds": [
+          "oros-01"
+        ]
+      },
+      "text": "El As de Oros. Brilla como un amanecer sobre un campo de trigo."
+    },
+    {
+      "id": "entrada.mistica.040",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "La primera carta. La puerta del templo. Pasa, que hay corriente."
+    },
+    {
+      "id": "entrada.mistica.041",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "La última. El sello del oráculo. Que se cierre el círculo."
+    },
+    {
+      "id": "entrada.mistica.042",
+      "slot": "entrada",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "A estas horas el velo es finísimo. Casi transparente."
+    },
+    {
+      "id": "puente.mistica.001",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "En las brumas de tu pasado…"
+    },
+    {
+      "id": "puente.mistica.002",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "Lo que fue, y aún resuena como un eco en una catedral…"
+    },
+    {
+      "id": "puente.mistica.003",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "Mirando atrás, por el retrovisor del tiempo…"
+    },
+    {
+      "id": "puente.mistica.004",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "Aquí y ahora, en este instante sagrado…"
+    },
+    {
+      "id": "puente.mistica.005",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "Tu presente, que es el único regalo que no hay que envolver…"
+    },
+    {
+      "id": "puente.mistica.006",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "En el ahora que pisas…"
+    },
+    {
+      "id": "puente.mistica.007",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "Lo que se cuece en el horno del porvenir…"
+    },
+    {
+      "id": "puente.mistica.008",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "Más allá del horizonte, donde las estrellas aún no tienen nombre…"
+    },
+    {
+      "id": "puente.mistica.009",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "El mañana, que se escribe con tinta de luna…"
+    },
+    {
+      "id": "puente.mistica.010",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "El oráculo, que no da puntada sin hilo, te aconseja…"
+    },
+    {
+      "id": "puente.mistica.011",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "Escucha el consejo de los arcanos, que no cobran por hablar…"
+    },
+    {
+      "id": "puente.mistica.012",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "Lo que se interpone en tu camino, como una piedra en la sandalia…"
+    },
+    {
+      "id": "puente.mistica.013",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "La sombra que te frena…"
+    },
+    {
+      "id": "puente.mistica.014",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "Y al final de la senda, el desenlace…"
+    },
+    {
+      "id": "puente.mistica.015",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "Hacia donde todo converge, como ríos hacia el mar…"
+    },
+    {
+      "id": "puente.mistica.016",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "El paisaje de tu situación, visto desde lo alto de una montaña…"
+    },
+    {
+      "id": "puente.mistica.017",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "El corazón del asunto, aquí, sobre el tapete…"
+    },
+    {
+      "id": "puente.mistica.018",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "Las energías que te rodean, como el perfume de una tahona…"
+    },
+    {
+      "id": "puente.mistica.019",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "Tu entorno, ese coro que canta detrás de ti…"
+    },
+    {
+      "id": "puente.mistica.020",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "tu"
+        ]
+      },
+      "text": "Tú, en el espejo del arcano…"
+    },
+    {
+      "id": "puente.mistica.021",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "otra"
+        ]
+      },
+      "text": "La otra persona, envuelta en su propio misterio…"
+    },
+    {
+      "id": "puente.mistica.022",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "une"
+        ]
+      },
+      "text": "Lo que os une, ese hilo rojo invisible…"
+    },
+    {
+      "id": "puente.mistica.023",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "posicion": [
+          "separa"
+        ]
+      },
+      "text": "Lo que os separa, ese charco cósmico que habrá que saltar…"
+    },
+    {
+      "id": "puente.mistica.024",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "text": "En la casa de «{posicion}», los astros dictan…"
+    },
+    {
+      "id": "puente.mistica.025",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Sobre el lugar de «{posicion}» cae la luz de la vela…"
+    },
+    {
+      "id": "puente.mistica.026",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Allí donde se sienta «{posicion}», se revela…"
+    },
+    {
+      "id": "puente.mistica.027",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "Después de {cartaAnterior}, el relato continúa…"
+    },
+    {
+      "id": "puente.mistica.028",
+      "slot": "puente",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "{cartaAnterior} abrió una puerta; esta carta entra por ella…"
+    },
+    {
+      "id": "personalizacion.mistica.001",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los astros se alinean sobre {provincia}, {nombre}…"
+    },
+    {
+      "id": "personalizacion.mistica.002",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "{nombre}… tu nombre vibra en una frecuencia que solo oyen los delfines y yo."
+    },
+    {
+      "id": "personalizacion.mistica.003",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "La {inicial} de {nombre} es una runa antigua. O una letra. Las dos cosas."
+    },
+    {
+      "id": "personalizacion.mistica.004",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "{edad} años de viaje por este plano, y el cosmos aún te reserva sorpresas."
+    },
+    {
+      "id": "personalizacion.mistica.005",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las estrellas que vieron nacer a un alma de {signo} se inclinan ahora sobre ti."
+    },
+    {
+      "id": "personalizacion.mistica.006",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Tu número de vida es el {numeroVida}. El universo lo susurra… y luego lo repite, porque no le oías."
+    },
+    {
+      "id": "personalizacion.mistica.007",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las energías de {provincia} te acompañan como una brisa con olor a {plato}."
+    },
+    {
+      "id": "personalizacion.mistica.008",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Lo {gentilicio} que hay en ti es raíz, y las raíces no se arrancan."
+    },
+    {
+      "id": "personalizacion.mistica.009",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Hoy es {diaSemana}, y el {diaSemana} es día de revelaciones discretas."
+    },
+    {
+      "id": "personalizacion.mistica.010",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "En esta {estacion}, las energías de {signo} cambian de piel."
+    },
+    {
+      "id": "personalizacion.mistica.011",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "La tierra de {provincia} recuerda tu primer llanto. Y lo comenta en voz baja."
+    },
+    {
+      "id": "personalizacion.mistica.012",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "{nombre}, el éter pronuncia tu nombre con acento de {provincia}."
+    },
+    {
+      "id": "personalizacion.mistica.013",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Siento la vibración de {fiesta} en tus pies. Los astros también bailan."
+    },
+    {
+      "id": "personalizacion.mistica.014",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Allí, en {provincia}, donde {clima}, se forjó tu temple."
+    },
+    {
+      "id": "personalizacion.mistica.015",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Un {signo} con número de vida {numeroVida}. Qué combinación tan… cósmica. Tan rara. Tan tú."
+    },
+    {
+      "id": "personalizacion.mistica.016",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "{cartaAnterior} y {carta}, {nombre}: dos estrellas de la misma constelación."
+    },
+    {
+      "id": "personalizacion.mistica.017",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "Lo que anunció {cartaAnterior}, {carta} lo confirma con sello de lacre."
+    },
+    {
+      "id": "personalizacion.mistica.018",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Mira {carta}, {nombre}. Mírala como quien mira el mar."
+    },
+    {
+      "id": "personalizacion.mistica.019",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El destino te mandó {carta} igual que se manda una carta certificada: con acuse de recibo."
+    },
+    {
+      "id": "personalizacion.mistica.020",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¿Qué haces sin dormir a estas horas, {nombre}? Ah, claro: el velo entre mundos está más fino. Y la tele, peor."
+    },
+    {
+      "id": "personalizacion.mistica.021",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "A estas horas solo velan los búhos, los panaderos y las almas que buscan respuestas."
+    },
+    {
+      "id": "personalizacion.mistica.022",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "horaMin": 2,
+        "horaMax": 5
+      },
+      "text": "Las {hora} de la madrugada. La hora en que los arcanos hablan sin filtro."
+    },
+    {
+      "id": "personalizacion.mistica.023",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "horaMin": 6,
+        "horaMax": 9
+      },
+      "text": "Es temprano, {nombre}. El sol aún bosteza y ya me consultas al destino."
+    },
+    {
+      "id": "personalizacion.mistica.024",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "horaMin": 14,
+        "horaMax": 16
+      },
+      "text": "A la hora de la siesta los astros también cierran los ojos. Pero esta carta los ha despertado."
+    },
+    {
+      "id": "personalizacion.mistica.025",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "horaMin": 21,
+        "horaMax": 23
+      },
+      "text": "Cae la noche sobre {provincia}. Momento propicio para lo oculto."
+    },
+    {
+      "id": "personalizacion.mistica.026",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "decadaMin": 40
+      },
+      "text": "La sabiduría de tus {edad} años es un pergamino que el cosmos lee con respeto."
+    },
+    {
+      "id": "personalizacion.mistica.027",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "decadaMin": 60
+      },
+      "text": "Tantas lunas vividas, {nombre}. El oráculo se quita el sombrero."
+    },
+    {
+      "id": "personalizacion.mistica.028",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "decadaMax": 20
+      },
+      "text": "Alma joven, {nombre}. Joven, pero con ojeras antiguas."
+    },
+    {
+      "id": "personalizacion.mistica.029",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "decadaMin": 30,
+        "decadaMax": 30
+      },
+      "text": "En la treintena, el alma se ordena como un armario después de una mudanza."
+    },
+    {
+      "id": "personalizacion.mistica.030",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "El amor, {nombre}, es una constelación que se dibuja uniendo puntos con paciencia."
+    },
+    {
+      "id": "personalizacion.mistica.031",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "Venus mira hacia {provincia} con los ojos entornados. Buena señal."
+    },
+    {
+      "id": "personalizacion.mistica.032",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "Saturno, el jefe de planta del cielo, revisa tus tareas, {nombre}."
+    },
+    {
+      "id": "personalizacion.mistica.033",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "El trabajo, para un alma {signo}, es una montaña que se sube por etapas."
+    },
+    {
+      "id": "personalizacion.mistica.034",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "Los oros del destino no caen del cielo, {nombre}. Ni del cajero. Fluyen despacio."
+    },
+    {
+      "id": "personalizacion.mistica.035",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "Tu energía vital, {nombre}, merece cuidados de verdad. Los míos son de otra clase."
+    },
+    {
+      "id": "personalizacion.mistica.036",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "signo": [
+          "escorpio"
+        ]
+      },
+      "text": "Escorpio… intensidad pura. Hasta esta carta te tiene un poquito de miedo."
+    },
+    {
+      "id": "personalizacion.mistica.037",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "signo": [
+          "leo"
+        ]
+      },
+      "text": "Leo. El cosmos lo sabe: te gusta ser el centro del universo. Hoy, por una vez, lo eres."
+    },
+    {
+      "id": "personalizacion.mistica.038",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "signo": [
+          "piscis"
+        ]
+      },
+      "text": "Piscis, nadas entre dos aguas como nadie. Esta carta te tira un flotador."
+    },
+    {
+      "id": "personalizacion.mistica.039",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "signo": [
+          "virgo"
+        ]
+      },
+      "text": "Virgo… sé que ya has visto que la carta está un milímetro torcida. Respira."
+    },
+    {
+      "id": "personalizacion.mistica.040",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "signo": [
+          "geminis"
+        ]
+      },
+      "text": "Géminis: esta carta habla a tus dos mitades. Que se pongan de acuerdo."
+    },
+    {
+      "id": "personalizacion.mistica.041",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "signo": [
+          "aries"
+        ]
+      },
+      "text": "Aries, el carnero de fuego. Embistes la vida. Y la vida, a veces, se aparta."
+    },
+    {
+      "id": "personalizacion.mistica.042",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "signo": [
+          "capricornio"
+        ]
+      },
+      "text": "Capricornio, cabra de cumbres: tú subes despacio pero llegas a todo."
+    },
+    {
+      "id": "personalizacion.mistica.043",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "signo": [
+          "sagitario"
+        ]
+      },
+      "text": "Sagitario, arquero del zodiaco. Esta carta es tu diana."
+    },
+    {
+      "id": "personalizacion.mistica.044",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "diaSemana": [
+          2
+        ]
+      },
+      "text": "Un martes, {nombre}. Ni te cases ni te embarques… pero consultar las cartas sí se puede."
+    },
+    {
+      "id": "personalizacion.mistica.045",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "diaSemana": [
+          5
+        ]
+      },
+      "text": "Viernes. Venus manda y los astros se arreglan para salir."
+    },
+    {
+      "id": "personalizacion.mistica.046",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "diaSemana": [
+          7
+        ]
+      },
+      "text": "Domingo, día del Sol. Hasta los arcanos van en zapatillas."
+    },
+    {
+      "id": "personalizacion.mistica.047",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "diaSemana": [
+          1
+        ]
+      },
+      "text": "Lunes, día de la Luna. Los astros también odian los lunes, pero disimulan mejor."
+    },
+    {
+      "id": "personalizacion.mistica.048",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "faseLunar": [
+          "llena"
+        ]
+      },
+      "text": "Con luna llena todo se amplifica, {nombre}. Hasta el volumen de la vecina."
+    },
+    {
+      "id": "personalizacion.mistica.049",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "faseLunar": [
+          "nueva"
+        ]
+      },
+      "text": "Luna nueva: el cielo a oscuras, como una pizarra limpia para tu intención."
+    },
+    {
+      "id": "personalizacion.mistica.050",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "faseLunar": [
+          "creciente"
+        ]
+      },
+      "text": "La luna crece, {nombre}, y con ella lo que siembres hoy."
+    },
+    {
+      "id": "personalizacion.mistica.051",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "faseLunar": [
+          "menguante"
+        ]
+      },
+      "text": "Luna menguante. Momento de soltar lastre. Empieza por el grupo de chat que no lees."
+    },
+    {
+      "id": "personalizacion.mistica.052",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "{nombre}, esta primera carta es la llave. El resto son pasillos."
+    },
+    {
+      "id": "personalizacion.mistica.053",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "Y esta última carta, {nombre}, es el lazo que ata todo el paquete cósmico."
+    },
+    {
+      "id": "personalizacion.mistica.054",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Tu década, los {decada}, es un ciclo regido por energías muy concretas. Y muy cotillas."
+    },
+    {
+      "id": "personalizacion.mistica.055",
+      "slot": "personalizacion",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El número {numeroVida} brilla sobre tu cabeza como un neón astral."
+    },
+    {
+      "id": "guino.mistica.001",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Como dice el proverbio cósmico: no por mucho madrugar amanece más temprano. Ni en Saturno."
+    },
+    {
+      "id": "guino.mistica.002",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los astros no se equivocan. Se toman la libertad de sorprender."
+    },
+    {
+      "id": "guino.mistica.003",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El universo escribe recto con renglones torcidos. Y con la letra muy pequeña."
+    },
+    {
+      "id": "guino.mistica.004",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Dicen los sabios que el camino se hace al andar. Yo añado: con calzado cómodo."
+    },
+    {
+      "id": "guino.mistica.005",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Mercurio está retrógrado. Siempre lo está cuando algo sale raro. Es muy socorrido."
+    },
+    {
+      "id": "guino.mistica.006",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Lo que está escrito en las estrellas, está escrito. Aunque a veces con faltas de ortografía."
+    },
+    {
+      "id": "guino.mistica.007",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El tercer ojo lo tengo bien. El de leer de cerca, menos."
+    },
+    {
+      "id": "guino.mistica.008",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "A quien madruga, el cosmos le ayuda. A quien trasnocha, le pone esta carta."
+    },
+    {
+      "id": "guino.mistica.009",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Mi bola de cristal está algo empañada. Es de la calefacción."
+    },
+    {
+      "id": "guino.mistica.010",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las cartas nunca mienten. Exageran, como todo buen narrador."
+    },
+    {
+      "id": "guino.mistica.011",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Hay más cosas en el cielo y en la tierra que en tu lista de la compra."
+    },
+    {
+      "id": "guino.mistica.012",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El karma es como el turrón: siempre vuelve en diciembre."
+    },
+    {
+      "id": "guino.mistica.013",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los planetas no deciden por ti. Opinan, eso sí. Mucho."
+    },
+    {
+      "id": "guino.mistica.014",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "En mis tiempos de novicia leía el destino en los posos del café. Ahora tomo descafeinado y veo menos."
+    },
+    {
+      "id": "guino.mistica.015",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Dicen que el aleteo de una mariposa puede provocar un huracán. Imagina un portazo."
+    },
+    {
+      "id": "guino.mistica.016",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Cuando el discípulo está preparado, aparece el maestro. Cuando no, aparece la factura de la luz."
+    },
+    {
+      "id": "guino.mistica.017",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Todo fluye. Menos el tráfico."
+    },
+    {
+      "id": "guino.mistica.018",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "La paciencia es la madre de la ciencia. Y la tía segunda de la videncia."
+    },
+    {
+      "id": "guino.mistica.019",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "He consultado a las estrellas, a las runas y a mi gato. Coinciden los tres. Sobre todo el gato."
+    },
+    {
+      "id": "guino.mistica.020",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Agua que no has de beber, déjala correr… hacia las energías del Este."
+    },
+    {
+      "id": "guino.mistica.021",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El incienso que uso es de sándalo. El de oferta olía a autobús."
+    },
+    {
+      "id": "guino.mistica.022",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Lo que la luna da, la marea lo devuelve. O lo deja en la orilla con una chancla."
+    },
+    {
+      "id": "guino.mistica.023",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las energías se transforman, no se destruyen. Lo dijo un científico y lo aplaudió un astrólogo."
+    },
+    {
+      "id": "guino.mistica.024",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El tiempo pone a cada cual en su sitio. Y a cada carta en su posición."
+    },
+    {
+      "id": "guino.mistica.025",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "No hay mal que cien años dure, ni Mercurio que retrograde eternamente."
+    },
+    {
+      "id": "guino.mistica.026",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Una vela encendida no pierde nada por encender otra. Salvo cera."
+    },
+    {
+      "id": "guino.mistica.027",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El destino es un río. Tú decides si llevas flotador o bañador."
+    },
+    {
+      "id": "guino.mistica.028",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los astros recomiendan hidratarse. No es videncia, es sentido común con purpurina."
+    },
+    {
+      "id": "guino.mistica.029",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "En el principio fue el verbo. Luego, el horóscopo de los domingos."
+    },
+    {
+      "id": "guino.mistica.030",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Del dicho al hecho hay un gran trecho. Del hecho al arcano, un tapete verde."
+    },
+    {
+      "id": "guino.mistica.031",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Dime con quién andas y te diré qué carta te sale."
+    },
+    {
+      "id": "guino.mistica.032",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las estrellas que ves ya no son como las ves. Como tus amistades del instituto."
+    },
+    {
+      "id": "guino.mistica.033",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Si el universo cierra una puerta, abre una ventana. Abrígate, que corre aire."
+    },
+    {
+      "id": "guino.mistica.034",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "A cada cerdo le llega su San Martín… y a cada alma, su arcano."
+    },
+    {
+      "id": "guino.mistica.035",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "He meditado mucho sobre esta tirada. Unos cuarenta segundos, que en el plano astral es una eternidad."
+    },
+    {
+      "id": "guino.mistica.036",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Siete chakras tiene el cuerpo. Tú, hoy, vas con cinco y medio. No pasa nada."
+    },
+    {
+      "id": "guino.mistica.037",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El oráculo de Delfos tenía humo y mármol. Yo tengo una mesa camilla y un brasero. Igual de solemne."
+    },
+    {
+      "id": "guino.mistica.038",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las energías de la Vía Láctea fluyen hoy sin lactosa."
+    },
+    {
+      "id": "guino.mistica.039",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Una buena lectura es como un buen guiso: se cuece a fuego lento y no se destapa a cada rato."
+    },
+    {
+      "id": "guino.mistica.040",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Quien siembra vientos, recoge tempestades. Quien siembra albahaca, recoge pesto."
+    },
+    {
+      "id": "guino.mistica.041",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El cielo es de quien lo mira. Y la sobremesa, de quien la alarga."
+    },
+    {
+      "id": "guino.mistica.042",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Más vale una carta en mano que cien volando por el salón."
+    },
+    {
+      "id": "guino.mistica.043",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los astros conspiran. A veces a tu favor, a veces solo por entretenerse."
+    },
+    {
+      "id": "guino.mistica.044",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "No es casualidad. Nada es casualidad. Salvo el bingo."
+    },
+    {
+      "id": "guino.mistica.045",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "La eternidad es muy larga, sobre todo al final. Lo decía mi maestra de levitación."
+    },
+    {
+      "id": "guino.mistica.046",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Si no te gusta lo que ves, baraja otra vez. El destino tiene varias tomas."
+    },
+    {
+      "id": "guino.mistica.047",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Ojo que todo lo ve: el mío. El otro está en la óptica."
+    },
+    {
+      "id": "guino.mistica.048",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las cartas me hablan. Hoy, en un tono algo pasivo-agresivo."
+    },
+    {
+      "id": "guino.mistica.049",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Saturno vuelve cada veintinueve años. Como los primos de Argentina."
+    },
+    {
+      "id": "guino.mistica.050",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El horóscopo de hoy dice que hoy pasará algo. Y fíjate, aquí estamos."
+    },
+    {
+      "id": "guino.mistica.051",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "provincia": [
+          "28"
+        ]
+      },
+      "text": "Sobre Madrid hasta los astros tienen prisa. Van en hora punta."
+    },
+    {
+      "id": "guino.mistica.052",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "provincia": [
+          "41"
+        ]
+      },
+      "text": "En Sevilla, hasta las estrellas tienen un color especial."
+    },
+    {
+      "id": "guino.mistica.053",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Cada estación tiene su arcano; el de esta, además, tiene bufanda."
+    },
+    {
+      "id": "guino.mistica.054",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "faseLunar": [
+          "llena"
+        ]
+      },
+      "text": "Luna llena: los lobos aúllan, los perros ladran y tu cuñado opina."
+    },
+    {
+      "id": "guino.mistica.055",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "El amor mueve el sol y las demás estrellas. Y los mensajes a las tantas."
+    },
+    {
+      "id": "guino.mistica.056",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "Venus se encarga del amor; del trabajo se encarga Saturno, que es más de horario fijo."
+    },
+    {
+      "id": "guino.mistica.057",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "Los oros del tarot no cotizan en bolsa. Cotizan en paciencia."
+    },
+    {
+      "id": "guino.mistica.058",
+      "slot": "guino",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "Leer del revés es un arte. Yo lo practico con los periódicos del domingo."
+    },
+    {
+      "id": "cambioHumor.mistica.001",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Perdonad… me ha dado un aire. Un aire místico, del Himalaya. Ya estoy aquí, en otro plano."
+    },
+    {
+      "id": "cambioHumor.mistica.002",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Un momento. Algo ha cambiado en el éter. Mi voz interior pide solemnidad."
+    },
+    {
+      "id": "cambioHumor.mistica.003",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Uy. He sentido una corriente cósmica en la nuca. Retomo, pero con más incienso."
+    },
+    {
+      "id": "cambioHumor.mistica.004",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Silencio, por favor. Me he reconectado con los astros y vienen con mensaje."
+    },
+    {
+      "id": "cambioHumor.mistica.005",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Disculpad, una interferencia astral. Ya está. Vuelvo a mi ser elevado."
+    },
+    {
+      "id": "cambioHumor.mistica.006",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Algo me ha poseído. Creo que es la tradición milenaria. O la merienda. Prosigo con solemnidad."
+    },
+    {
+      "id": "cambioHumor.mistica.007",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las velas han parpadeado a la vez. Es la señal. A partir de aquí hablo con el universo de tú a tú."
+    },
+    {
+      "id": "cambioHumor.mistica.008",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "¡Ah! He visto una luz. Era la de la nevera, pero me ha inspirado. Continúo en modo profundo."
+    },
+    {
+      "id": "cambioHumor.mistica.009",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Me he quedado en blanco. Blanco como la luz primordial. Sigamos con la reverencia que merece."
+    },
+    {
+      "id": "cambioHumor.mistica.010",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Esperad, que me cambio el chal. Este es el de las lecturas importantes."
+    },
+    {
+      "id": "cambioHumor.mistica.011",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El cuarzo de mi colgante se ha calentado. Eso significa: menos bromas, más cosmos."
+    },
+    {
+      "id": "cambioHumor.mistica.012",
+      "slot": "cambioHumor",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Pausa. Respiremos. Ahora sí: los arcanos me reclaman la voz grave."
+    },
+    {
+      "id": "sintesis.mistica.001",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los arcanos han hablado, {nombre}. Lo que pidas al universo, pídelo con buena letra."
+    },
+    {
+      "id": "sintesis.mistica.002",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El tapiz está tejido. Las hebras, entrelazadas. Tu destino, por el momento, bien planchado."
+    },
+    {
+      "id": "sintesis.mistica.003",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "text": "La lectura se cierra como se cierra un libro antiguo: con polvo, con misterio, con ganas de volver."
+    },
+    {
+      "id": "sintesis.mistica.004",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las cartas dibujan un camino, no una cárcel. Tú pones el paso; ellas, la música de fondo."
+    },
+    {
+      "id": "sintesis.mistica.005",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Todo encaja, {nombre}. Como las piezas de un puzle de mil piezas del que solo falta el cielo. Siempre falta el cielo."
+    },
+    {
+      "id": "sintesis.mistica.006",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "Tantos arcanos mayores… El universo no te habla: te da un discurso. Estás en un momento trascendente."
+    },
+    {
+      "id": "sintesis.mistica.007",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "Los grandes arcanos se han reunido en tu tirada como en un cónclave. Algo importante se mueve."
+    },
+    {
+      "id": "sintesis.mistica.008",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "mayoresMin": 5
+      },
+      "text": "¡Cinco o más arcanos mayores! Esto ya no es una lectura, es una gala de premios del destino."
+    },
+    {
+      "id": "sintesis.mistica.009",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "Predominan las Copas: el corazón lleva hoy la voz cantante. Los sentimientos piden turno de palabra."
+    },
+    {
+      "id": "sintesis.mistica.010",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "Copas y más copas. Emociones a raudales. Brindemos, con moderación astral."
+    },
+    {
+      "id": "sintesis.mistica.011",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "Dominan los Oros: lo material, lo práctico, lo que se toca. La tierra te pide los pies en ella."
+    },
+    {
+      "id": "sintesis.mistica.012",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "Los Oros brillan en tu tirada como monedas en una fuente. Lo práctico está de tu lado."
+    },
+    {
+      "id": "sintesis.mistica.013",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "Muchas Espadas: la mente afilada, los pensamientos que cortan. Piensa, pero no te cortes con ellos."
+    },
+    {
+      "id": "sintesis.mistica.014",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "Las Espadas dominan. Ideas, conversaciones pendientes, decisiones de cabeza. Pule la palabra."
+    },
+    {
+      "id": "sintesis.mistica.015",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "Los Bastos mandan: energía, acción, chispa. Hay leña para mucho fuego."
+    },
+    {
+      "id": "sintesis.mistica.016",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "Predominio de Bastos. El universo te dice: muévete. Aunque sea al sofá de enfrente."
+    },
+    {
+      "id": "sintesis.mistica.017",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "figurasMin": 2
+      },
+      "text": "Muchas figuras en la mesa: hay personas implicadas. Las cartas te rodean de un pequeño elenco."
+    },
+    {
+      "id": "sintesis.mistica.018",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "figurasMin": 3
+      },
+      "text": "Sotas, caballos, reyes… Esto parece una cena de Navidad. Mucha gente con algo que decir."
+    },
+    {
+      "id": "sintesis.mistica.019",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "En el amor, {nombre}, las estrellas no obligan: insinúan. Y hoy insinúan con picardía."
+    },
+    {
+      "id": "sintesis.mistica.020",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "En lo laboral, los astros piden constancia. Y alguna que otra pausa para el café."
+    },
+    {
+      "id": "sintesis.mistica.021",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "En lo económico, el cosmos aconseja prudencia general y ningún arrebato. Las decisiones concretas, con quien sepa de números."
+    },
+    {
+      "id": "sintesis.mistica.022",
+      "slot": "sintesis",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "Para el cuerpo, el universo recomienda escuchar a quien estudió medicina. Yo estudié estrellas."
+    },
+    {
+      "id": "saludo.mistica.001",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Bienvenida sea tu alma a este templo, {nombre}. Siéntate. Las velas ya sabían que venías."
+    },
+    {
+      "id": "saludo.mistica.002",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los astros me avisaron de tu llegada, {nombre}. Me dijeron: «viene de {provincia}». Y aquí estás."
+    },
+    {
+      "id": "saludo.mistica.003",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Pasa, {nombre}. Deja tus prisas en la puerta, junto al paraguas."
+    },
+    {
+      "id": "saludo.mistica.004",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Saludos, {nombre}, alma que viaja entre estrellas. Cierra la puerta, que se escapa el misterio."
+    },
+    {
+      "id": "saludo.mistica.005",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Silencio en la sala. El oráculo recibe a {nombre}, de {provincia}, bajo el signo de {signo}."
+    },
+    {
+      "id": "saludo.mistica.006",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Que la luz de mil lunas ilumine esta consulta. Y si no, la lámpara del techo, que es de bajo consumo."
+    },
+    {
+      "id": "saludo.mistica.007",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "He purificado la mesa con salvia y con un trapo. Ya podemos empezar, {nombre}."
+    },
+    {
+      "id": "saludo.mistica.008",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las cartas esperan, {nombre}. Llevan esperando desde antes de que el tiempo fuera tiempo. Bueno, desde las diez."
+    },
+    {
+      "id": "saludo.mistica.009",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Respira hondo, {nombre}. Huele a incienso y a destino."
+    },
+    {
+      "id": "saludo.mistica.010",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Bajo la mirada de {signo}, abramos el portal de los arcanos."
+    },
+    {
+      "id": "saludo.mistica.011",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "Madrugada, {nombre}. El mejor momento: los espíritus están despiertos y el wifi va rápido."
+    },
+    {
+      "id": "saludo.mistica.012",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "Vienes por amor, {nombre}. Venus ya ha encendido la vela rosa."
+    },
+    {
+      "id": "saludo.mistica.013",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "Vienes por trabajo. Saturno ya ha fichado."
+    },
+    {
+      "id": "saludo.mistica.014",
+      "slot": "saludo",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "Vienes por los oros, {nombre}. Los astros hablarán de energía, no de cuentas bancarias."
+    },
+    {
+      "id": "despedida.mistica.001",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Que los astros te sean propicios, {nombre}. Y si no, que al menos te sean simpáticos."
+    },
+    {
+      "id": "despedida.mistica.002",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El oráculo se cierra. Ve en paz, {nombre}, y cuidado con el escalón, que es místico pero se tropieza."
+    },
+    {
+      "id": "despedida.mistica.003",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las velas se apagan, pero la luz sigue dentro de ti. Y en la cocina, que te la has dejado encendida."
+    },
+    {
+      "id": "despedida.mistica.004",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Hasta la próxima luna, {nombre}."
+    },
+    {
+      "id": "despedida.mistica.005",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Que el universo te acompañe. Y que no te deje en visto."
+    },
+    {
+      "id": "despedida.mistica.006",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Namasté, {nombre}. O hasta luego, que también vale."
+    },
+    {
+      "id": "despedida.mistica.007",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Regresa cuando las estrellas te llamen. Suelen llamar los jueves."
+    },
+    {
+      "id": "despedida.mistica.008",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Llévate esta lectura como quien se lleva una piedra bonita de la playa: en el bolsillo y sin darle muchas vueltas."
+    },
+    {
+      "id": "despedida.mistica.009",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El velo vuelve a cerrarse. Lo que has visto, guárdalo. Lo que no, ya lo verás."
+    },
+    {
+      "id": "despedida.mistica.010",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Ve con los astros, {nombre} de {provincia}."
+    },
+    {
+      "id": "despedida.mistica.011",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Que la energía de {signo} te guíe por esta {estacion}."
+    },
+    {
+      "id": "despedida.mistica.012",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Recuerda: esto es entretenimiento cósmico. El destino, en serio, lo escribes tú."
+    },
+    {
+      "id": "despedida.mistica.013",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "Y ahora, a dormir, {nombre}. Hasta las estrellas se acuestan… al amanecer."
+    },
+    {
+      "id": "despedida.mistica.014",
+      "slot": "despedida",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Me retiro a mi plano. Vuelve cuando quieras; la puerta astral no tiene timbre."
+    },
+    {
+      "id": "salud.mistica.001",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Para eso, {nombre}, mejor tu médico. Los astros saben de órbitas, no de análisis."
+    },
+    {
+      "id": "salud.mistica.002",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Mis cartas leen el alma; para el cuerpo, mejor tu médico, que tiene estetoscopio y yo solo un péndulo."
+    },
+    {
+      "id": "salud.mistica.003",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Un aviso del oráculo: en temas de salud, el arcano más sabio es tu médico de cabecera."
+    },
+    {
+      "id": "salud.mistica.004",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "El universo es infinito, pero mi titulación en medicina es inexistente. Para eso, mejor tu médico."
+    },
+    {
+      "id": "salud.mistica.005",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "La energía de esta carta habla de bienestar en general. Para lo concreto, consulta médica: los astros insisten."
+    },
+    {
+      "id": "salud.mistica.006",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Las estrellas me piden que te lo diga claramente: para la salud, mejor tu médico. Ellas solo dan ánimos."
+    },
+    {
+      "id": "salud.mistica.007",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Yo leo el tarot; tu médico lee análisis. Cada cual con su arcano."
+    },
+    {
+      "id": "salud.mistica.008",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "En cuestiones del cuerpo, el oráculo se inclina ante la ciencia. Mejor tu médico."
+    },
+    {
+      "id": "salud.mistica.009",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Que quede escrito en el firmamento: esto es entretenimiento. Tu salud, con profesionales."
+    },
+    {
+      "id": "salud.mistica.010",
+      "slot": "salud",
+      "tones": [
+        "mistica"
+      ],
+      "text": "Los chakras te los alineo yo en broma; la tensión, que te la mire tu médico de verdad."
+    }
+  ]
+}

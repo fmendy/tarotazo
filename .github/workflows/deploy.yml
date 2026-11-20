@@ -1,0 +1,132 @@
+name: deploy
+
+# Despliegue manual: publica las imágenes en GHCR y actualiza el VPS por SSH.
+#
+# Secretos (Settings -> Secrets and variables -> Actions; entorno "production"):
+#   VPS_HOST             host o IP del VPS
+#   VPS_USER             usuario SSH (miembro del grupo docker)
+#   VPS_SSH_KEY          clave privada SSH (ed25519) autorizada en el VPS
+#   VPS_SSH_KNOWN_HOSTS  salida de `ssh-keyscan -t ed25519 <host>` (sin TOFU)
+#   GHCR_READ_TOKEN      (opcional) PAT con read:packages si las imágenes son privadas
+# Variables (no secretas):
+#   VPS_PATH             directorio en el VPS (por defecto /srv/arcana)
+#   VPS_PORT             puerto SSH (por defecto 22)
+# En el VPS debe existir $VPS_PATH/.env con ARCANA_DOMAIN=... (ver deploy/.env.example).
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Etiqueta de imagen (vacío = SHA corto del commit)"
+        required: false
+        default: ""
+      deploy:
+        description: "Desplegar en el VPS tras publicar"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.meta.outputs.tag }}
+      prefix: ${{ steps.meta.outputs.prefix }}
+    strategy:
+      matrix:
+        include:
+          - name: web
+            context: web
+            dockerfile: web/Dockerfile
+          - name: api
+            context: .
+            dockerfile: api/Dockerfile
+    steps:
+      - uses: actions/checkout@v4
+      - id: meta
+        run: |
+          tag="${{ inputs.tag }}"; [ -n "$tag" ] || tag="$(git rev-parse --short=12 HEAD)"
+          owner="$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "prefix=ghcr.io/$owner/arcana" >> "$GITHUB_OUTPUT"
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: ${{ matrix.context }}
+          file: ${{ matrix.dockerfile }}
+          push: true
+          provenance: true
+          sbom: true
+          tags: |
+            ${{ steps.meta.outputs.prefix }}-${{ matrix.name }}:${{ steps.meta.outputs.tag }}
+            ${{ steps.meta.outputs.prefix }}-${{ matrix.name }}:latest
+          labels: |
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+          cache-from: type=gha,scope=arcana-${{ matrix.name }}
+          cache-to: type=gha,mode=max,scope=arcana-${{ matrix.name }}
+
+  deploy:
+    if: ${{ inputs.deploy }}
+    needs: publish
+    runs-on: ubuntu-latest
+    environment: production
+    permissions:
+      contents: read
+    env:
+      VPS_PATH: ${{ vars.VPS_PATH || '/srv/arcana' }}
+      VPS_PORT: ${{ vars.VPS_PORT || '22' }}
+      TAG: ${{ needs.publish.outputs.tag }}
+      PREFIX: ${{ needs.publish.outputs.prefix }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configurar SSH
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_SSH_KNOWN_HOSTS: ${{ secrets.VPS_SSH_KNOWN_HOSTS }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy
+          printf '%s\n' "$VPS_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts && chmod 644 ~/.ssh/known_hosts
+      - name: Copiar ficheros de despliegue
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          ssh -i ~/.ssh/id_deploy -p "$VPS_PORT" "$VPS_USER@$VPS_HOST" "mkdir -p '$VPS_PATH'"
+          scp -i ~/.ssh/id_deploy -P "$VPS_PORT" deploy/docker-compose.yml deploy/Caddyfile "$VPS_USER@$VPS_HOST:$VPS_PATH/"
+      - name: docker compose pull && up -d
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          GHCR_READ_TOKEN: ${{ secrets.GHCR_READ_TOKEN }}
+        run: |
+          ssh -i ~/.ssh/id_deploy -p "$VPS_PORT" "$VPS_USER@$VPS_HOST" \
+            "bash -s" <<EOF
+          set -euo pipefail
+          cd '$VPS_PATH'
+          # El token viaja por stdin (heredoc), no en la línea de comandos remota.
+          if [ -n '$GHCR_READ_TOKEN' ]; then
+            printf '%s' '$GHCR_READ_TOKEN' | docker login ghcr.io -u '${{ github.repository_owner }}' --password-stdin
+          fi
+          export ARCANA_IMAGE_PREFIX='$PREFIX' ARCANA_TAG='$TAG'
+          docker compose -f docker-compose.yml pull
+          docker compose -f docker-compose.yml up -d --no-build --remove-orphans
+          docker image prune -f
+          docker compose -f docker-compose.yml ps
+          EOF
+      - name: Limpiar clave
+        if: always()
+        run: rm -f ~/.ssh/id_deploy

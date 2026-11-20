@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/meanings.schema.json",
+  "title": "{lang}/meanings/{familia}.json — significados núcleo por carta, orientación y tema",
+  "type": "object",
+  "propertyNames": { "$ref": "common.schema.json#/$defs/cardId" },
+  "minProperties": 1,
+  "$defs": {
+    "orientation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["general", "amor", "trabajo", "dinero", "salud"],
+      "properties": {
+        "general": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/text" }, "minItems": 2 },
+        "amor": { "$ref": "common.schema.json#/$defs/textList" },
+        "trabajo": { "$ref": "common.schema.json#/$defs/textList" },
+        "dinero": { "$ref": "common.schema.json#/$defs/textList" },
+        "salud": { "$ref": "common.schema.json#/$defs/textList" }
+      }
+    }
+  },
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["keywords", "upright", "reversed"],
+    "properties": {
+      "keywords": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 },
+      "upright": { "$ref": "#/$defs/orientation" },
+      "reversed": { "$ref": "#/$defs/orientation" }
+    }
+  }
+}

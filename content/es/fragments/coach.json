@@ -1,0 +1,2600 @@
+{
+  "fragments": [
+    {
+      "id": "entrada.coach.001",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Vamos allá!"
+    },
+    {
+      "id": "entrada.coach.002",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Esto es una oportunidad!"
+    },
+    {
+      "id": "entrada.coach.003",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Bien! ¡Muy bien! ¡Esto lo trabajamos!"
+    },
+    {
+      "id": "entrada.coach.004",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Respira! ¡Inspira! ¡Esta carta es para ti!"
+    },
+    {
+      "id": "entrada.coach.005",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Mira esta carta como mirarías un reto!"
+    },
+    {
+      "id": "entrada.coach.006",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Me encanta! ¡Nada de miedo, todo aprendizaje!"
+    },
+    {
+      "id": "entrada.coach.007",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Esto es crecimiento puro!"
+    },
+    {
+      "id": "entrada.coach.008",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Venga, que esta carta viene a sumar!"
+    },
+    {
+      "id": "entrada.coach.009",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Ojo, que aquí hay un mensaje potente!"
+    },
+    {
+      "id": "entrada.coach.010",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Sí! ¡Esta energía es la que buscábamos!"
+    },
+    {
+      "id": "entrada.coach.011",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Choca esos cinco con el universo!"
+    },
+    {
+      "id": "entrada.coach.012",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Esto no es un problema, es un desafío con purpurina!"
+    },
+    {
+      "id": "entrada.coach.013",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡La carta te habla! ¡Escucha activamente!"
+    },
+    {
+      "id": "entrada.coach.014",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Fuera excusas! ¡Dentro cartas!"
+    },
+    {
+      "id": "entrada.coach.015",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Visualiza! ¡Visualiza! …Ya está, ya la estás viendo."
+    },
+    {
+      "id": "entrada.coach.016",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Qué carta tan inspiradora! ¡Me la pondría de fondo de pantalla!"
+    },
+    {
+      "id": "entrada.coach.017",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Power! ¡Pero del bueno, del de dentro!"
+    },
+    {
+      "id": "entrada.coach.018",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Esta carta te está diciendo «tú puedes»! ¡Bueno, más o menos!"
+    },
+    {
+      "id": "entrada.coach.019",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Cada carta es un escalón! ¡Y hoy subimos!"
+    },
+    {
+      "id": "entrada.coach.020",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Fíjate en lo positivo! ¡Siempre hay algo positivo! ¡Aquí, por ejemplo, el dibujo!"
+    },
+    {
+      "id": "entrada.coach.021",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Esto lo convertimos en un objetivo SMART en un minuto!"
+    },
+    {
+      "id": "entrada.coach.022",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Silencio interior! ¡Ya! ¡Ya está el silencio! ¡Seguimos!"
+    },
+    {
+      "id": "entrada.coach.023",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Qué buena energía! ¡Qué buen rollo! ¡Qué carta!"
+    },
+    {
+      "id": "entrada.coach.024",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Lo que no te despeina te hace más fuerte! ¡Y lo que te despeina, más todavía!"
+    },
+    {
+      "id": "entrada.coach.025",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Invertida! ¡Perfecto! ¡Las cartas del revés son retos disfrazados!"
+    },
+    {
+      "id": "entrada.coach.026",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Del revés! ¡Cambia la perspectiva! ¡Literalmente: inclina la cabeza!"
+    },
+    {
+      "id": "entrada.coach.027",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Boca abajo! ¡Eso significa que hay algo que dar la vuelta! ¡Y tú sabes hacerlo!"
+    },
+    {
+      "id": "entrada.coach.028",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Invertida! ¡No pasa nada! ¡Los mejores aprendizajes vienen cabeza abajo!"
+    },
+    {
+      "id": "entrada.coach.029",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "¡Arcano mayor! ¡Esto es una lección vital de las grandes!"
+    },
+    {
+      "id": "entrada.coach.030",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "¡Uno de los grandes! ¡Esto es un máster en ti!"
+    },
+    {
+      "id": "entrada.coach.031",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "arcana": "major"
+      },
+      "text": "¡Arcano mayor! ¡Momento de pensar en grande! ¡Y de beber agua!"
+    },
+    {
+      "id": "entrada.coach.032",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-09"
+        ]
+      },
+      "text": "¡El Ermitaño te dice: apaga el móvil y date un paseo!"
+    },
+    {
+      "id": "entrada.coach.033",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-09"
+        ]
+      },
+      "text": "¡El Ermitaño! ¡Desconexión digital! ¡Tiempo para ti! ¡Y una linterna, por si acaso!"
+    },
+    {
+      "id": "entrada.coach.034",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "¡La Muerte! ¡Que no cunda el pánico! ¡Es la carta del cambio! ¡Cierras una etapa y abres otra! ¡Reinvéntate!"
+    },
+    {
+      "id": "entrada.coach.035",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-13"
+        ]
+      },
+      "text": "¡La Muerte, que en realidad significa transformación! ¡Suelta lo que ya no te sirve! ¡Empieza por esos zapatos que te hacen daño!"
+    },
+    {
+      "id": "entrada.coach.036",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "¡La Torre! ¡Rompe con lo viejo! ¡Construye algo nuevo! ¡Y esta vez con cimientos de autoestima!"
+    },
+    {
+      "id": "entrada.coach.037",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-16"
+        ]
+      },
+      "text": "¡La Torre! ¡Zona de confort derribada! ¡Enhorabuena, ahora toca crecer!"
+    },
+    {
+      "id": "entrada.coach.038",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "espadas-10"
+        ]
+      },
+      "text": "¡El diez de espadas! ¡Tocar fondo es la mejor manera de tomar impulso! ¡Levántate y estírate!"
+    },
+    {
+      "id": "entrada.coach.039",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "espadas-10"
+        ]
+      },
+      "text": "¡Diez espadas! ¡Fin de un ciclo agotador! ¡Ahora descanso, ducha calentita y nuevo plan!"
+    },
+    {
+      "id": "entrada.coach.040",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-08"
+        ]
+      },
+      "text": "¡La Fuerza! ¡La de dentro! ¡No la del gimnasio! ¡Bueno, también!"
+    },
+    {
+      "id": "entrada.coach.041",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-14"
+        ]
+      },
+      "text": "¡La Templanza! ¡Equilibrio! ¡Ni todo ni nada! ¡Medio vaso, siempre medio lleno!"
+    },
+    {
+      "id": "entrada.coach.042",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-07"
+        ]
+      },
+      "text": "¡El Carro! ¡Toma el volante de tu vida! ¡Respetando los límites de velocidad!"
+    },
+    {
+      "id": "entrada.coach.043",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "cardIds": [
+          "mayor-21"
+        ]
+      },
+      "text": "¡El Mundo! ¡Objetivo cumplido! ¡Celébralo! ¡Y ponte otro!"
+    },
+    {
+      "id": "entrada.coach.044",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "¡Primera carta! ¡El primer paso es el más importante!"
+    },
+    {
+      "id": "entrada.coach.045",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "¡Última carta! ¡El sprint final! ¡Vamos!"
+    },
+    {
+      "id": "entrada.coach.046",
+      "slot": "entrada",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡A estas horas! ¡Bueno, cada persona tiene su ritmo! ¡Pero el descanso también es productividad!"
+    },
+    {
+      "id": "puente.coach.001",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "¡Tu pasado! ¡Que no te define, pero te enseña!"
+    },
+    {
+      "id": "puente.coach.002",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "¡Lo que ya viviste! ¡Toda experiencia es un aprendizaje!"
+    },
+    {
+      "id": "puente.coach.003",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "pasado"
+        ]
+      },
+      "text": "¡Del pasado se aprende, no se vive en él! ¡Veamos qué te enseñó!"
+    },
+    {
+      "id": "puente.coach.004",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "¡Tu presente! ¡El único momento en el que puedes actuar!"
+    },
+    {
+      "id": "puente.coach.005",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "¡Aquí y ahora! ¡Mindfulness de tarot!"
+    },
+    {
+      "id": "puente.coach.006",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "presente"
+        ]
+      },
+      "text": "¡Hoy! ¡Hoy es el primer día del resto de tu tirada!"
+    },
+    {
+      "id": "puente.coach.007",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "¡Tu futuro! ¡Que no está escrito, lo escribes tú con cada decisión!"
+    },
+    {
+      "id": "puente.coach.008",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "¡Lo que viene! ¡Y viene porque tú vas a por ello!"
+    },
+    {
+      "id": "puente.coach.009",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "futuro"
+        ]
+      },
+      "text": "¡El futuro! ¡Visualízalo! ¡Ponle colores! ¡Y una fecha realista!"
+    },
+    {
+      "id": "puente.coach.010",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "¡El consejo de hoy! ¡Apúntalo en un pósit!"
+    },
+    {
+      "id": "puente.coach.011",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "consejo"
+        ]
+      },
+      "text": "¡Tu mantra para hoy, cortesía de las cartas!"
+    },
+    {
+      "id": "puente.coach.012",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "¡El obstáculo! ¡Que no es un muro, es una escalera mal colocada!"
+    },
+    {
+      "id": "puente.coach.013",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "obstaculo",
+          "obstaculos"
+        ]
+      },
+      "text": "¡Lo que te frena! ¡Identificarlo ya es el cincuenta por ciento del trabajo!"
+    },
+    {
+      "id": "puente.coach.014",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "¡El resultado! ¡La recompensa al esfuerzo!"
+    },
+    {
+      "id": "puente.coach.015",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "resultado"
+        ]
+      },
+      "text": "¡Hacia dónde vas si sigues así! ¡Y puedes ajustar el rumbo!"
+    },
+    {
+      "id": "puente.coach.016",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "¡Tu situación actual! ¡El punto de partida de tu plan de acción!"
+    },
+    {
+      "id": "puente.coach.017",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "situacion"
+        ]
+      },
+      "text": "¡Analicemos el escenario! ¡Fortalezas, debilidades y cartas!"
+    },
+    {
+      "id": "puente.coach.018",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "¡Tu entorno! ¡Rodéate de gente que sume!"
+    },
+    {
+      "id": "puente.coach.019",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "entorno"
+        ]
+      },
+      "text": "¡La gente que te rodea! ¡Tu red de apoyo! ¡Tu equipo!"
+    },
+    {
+      "id": "puente.coach.020",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "tu"
+        ]
+      },
+      "text": "¡Tú! ¡La persona más importante de tu vida! ¡Dilo en voz alta!"
+    },
+    {
+      "id": "puente.coach.021",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "otra"
+        ]
+      },
+      "text": "¡La otra persona! ¡Con sus propios procesos, que también hay que respetar!"
+    },
+    {
+      "id": "puente.coach.022",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "une"
+        ]
+      },
+      "text": "¡Lo que os une! ¡Vuestros valores compartidos!"
+    },
+    {
+      "id": "puente.coach.023",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "separa"
+        ]
+      },
+      "text": "¡Lo que os separa! ¡Oportunidad de comunicación asertiva!"
+    },
+    {
+      "id": "puente.coach.024",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "respuesta"
+        ]
+      },
+      "text": "¡La respuesta! ¡Clara y directa, como un buen feedback!"
+    },
+    {
+      "id": "puente.coach.025",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "matiz"
+        ]
+      },
+      "text": "¡El matiz! ¡Porque la vida no es blanco o negro!"
+    },
+    {
+      "id": "puente.coach.026",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "posicion": [
+          "remate"
+        ]
+      },
+      "text": "¡El remate! ¡La conclusión que lo cierra todo!"
+    },
+    {
+      "id": "puente.coach.027",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡En «{posicion}», un aprendizaje!"
+    },
+    {
+      "id": "puente.coach.028",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Vamos con «{posicion}»! ¡Mente abierta!"
+    },
+    {
+      "id": "puente.coach.029",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡«{posicion}»! ¡Otro paso en tu camino!"
+    },
+    {
+      "id": "puente.coach.030",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡Después de {cartaAnterior}, esta carta te da el siguiente paso!"
+    },
+    {
+      "id": "puente.coach.031",
+      "slot": "puente",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡{cartaAnterior} fue el calentamiento! ¡Ahora, el ejercicio de verdad!"
+    },
+    {
+      "id": "personalizacion.coach.001",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡{nombre}, eres capaz de todo lo que te propongas! ¡Dentro de lo razonable!"
+    },
+    {
+      "id": "personalizacion.coach.002",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡{nombre}! ¡Repite conmigo: «Soy {nombre} y hoy es mi día»!"
+    },
+    {
+      "id": "personalizacion.coach.003",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Con {edad} años, {nombre}, tienes la edad perfecta para empezar algo nuevo! ¡Cualquier edad lo es!"
+    },
+    {
+      "id": "personalizacion.coach.004",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Un {signo}! ¡Los {signo} tienen un potencial enorme! ¡Como todos los signos, pero tú más hoy!"
+    },
+    {
+      "id": "personalizacion.coach.005",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Tu número de vida es el {numeroVida}! ¡Conviértelo en tu número de la motivación!"
+    },
+    {
+      "id": "personalizacion.coach.006",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡La {inicial} de {nombre}! ¡Una letra con actitud! ¡Escríbela en mayúscula, que se lo merece!"
+    },
+    {
+      "id": "personalizacion.coach.007",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡{nombre} de {provincia}! ¡Que tu tierra sea tu fuerza!"
+    },
+    {
+      "id": "personalizacion.coach.008",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡En {provincia} sabéis lo que es la constancia! ¡Con {clima}, cualquiera aguanta!"
+    },
+    {
+      "id": "personalizacion.coach.009",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Lo {gentilicio} que llevas dentro es tu superpoder!"
+    },
+    {
+      "id": "personalizacion.coach.010",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡{plato} es combustible para el éxito, {nombre}! ¡Con moderación!"
+    },
+    {
+      "id": "personalizacion.coach.011",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Hoy es {diaSemana}, {nombre}! ¡Y cada {diaSemana} es una oportunidad!"
+    },
+    {
+      "id": "personalizacion.coach.012",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Esta {estacion} es tu {estacion}, {nombre}! ¡Aprovéchala!"
+    },
+    {
+      "id": "personalizacion.coach.013",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Que en {fiesta} te vean brillar, {nombre}!"
+    },
+    {
+      "id": "personalizacion.coach.014",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡{cartaAnterior} y ahora {carta}, {nombre}! ¡Esto es progresión! ¡Esto es evolución!"
+    },
+    {
+      "id": "personalizacion.coach.015",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "primeraCarta": false
+      },
+      "text": "¡De {cartaAnterior} a {carta}! ¿Lo ves, {nombre}? ¡Estás avanzando!"
+    },
+    {
+      "id": "personalizacion.coach.016",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡{carta}, {nombre}! ¡Te la regalo como lema de la semana!"
+    },
+    {
+      "id": "personalizacion.coach.017",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡{nombre}, {carta} te está pidiendo acción! ¡Pequeña, pero acción!"
+    },
+    {
+      "id": "personalizacion.coach.018",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¿Qué haces sin dormir a estas horas, {nombre}? ¡El descanso es parte del éxito! ¡Ocho horas, campeonato del mundo!"
+    },
+    {
+      "id": "personalizacion.coach.019",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡{nombre}, a estas horas el mejor plan de acción se llama almohada!"
+    },
+    {
+      "id": "personalizacion.coach.020",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 2,
+        "horaMax": 5
+      },
+      "text": "¡Las {hora} de la madrugada, {nombre}! ¡Hay gente que madruga para triunfar! ¡Tú, de momento, para irte a dormir!"
+    },
+    {
+      "id": "personalizacion.coach.021",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 6,
+        "horaMax": 9
+      },
+      "text": "¡Buenos días, {nombre}! ¡Tirada temprano, mente despejada! ¡Así se empieza!"
+    },
+    {
+      "id": "personalizacion.coach.022",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 13,
+        "horaMax": 15
+      },
+      "text": "¡Hora de comer, {nombre}! ¡Una comida equilibrada también es crecimiento personal!"
+    },
+    {
+      "id": "personalizacion.coach.023",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 16,
+        "horaMax": 19
+      },
+      "text": "¡Media tarde, {nombre}! ¡Momento ideal para un paseo de diez minutos! ¡Después de la tirada!"
+    },
+    {
+      "id": "personalizacion.coach.024",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 21,
+        "horaMax": 23
+      },
+      "text": "¡Ya es de noche, {nombre}! ¡Repasa lo que has logrado hoy! ¡Seguro que es más de lo que crees!"
+    },
+    {
+      "id": "personalizacion.coach.025",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "decadaMin": 40
+      },
+      "text": "¡{edad} años de experiencia, {nombre}! ¡Eso es un currículum vital impresionante!"
+    },
+    {
+      "id": "personalizacion.coach.026",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "decadaMin": 60
+      },
+      "text": "¡{edad} años, {nombre}! ¡Nunca es tarde para un nuevo propósito! ¡Ni para un baile!"
+    },
+    {
+      "id": "personalizacion.coach.027",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "decadaMax": 20
+      },
+      "text": "¡{edad} años, {nombre}! ¡Tienes todo el tiempo del mundo para equivocarte y aprender!"
+    },
+    {
+      "id": "personalizacion.coach.028",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "decadaMin": 30,
+        "decadaMax": 30
+      },
+      "text": "¡Los treinta, {nombre}! ¡La década de saber lo que no quieres! ¡Eso ya es mucho!"
+    },
+    {
+      "id": "personalizacion.coach.029",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡El amor empieza por quererte a ti, {nombre}! ¡Después, ya veremos!"
+    },
+    {
+      "id": "personalizacion.coach.030",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡En el amor, comunicación, respeto y ganas! ¡Y contestar los mensajes!"
+    },
+    {
+      "id": "personalizacion.coach.031",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡Si piensas en alguien, {nombre}, recuerda: tu felicidad no depende de un emoticono!"
+    },
+    {
+      "id": "personalizacion.coach.032",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡El trabajo, {nombre}! ¡Pon límites! ¡Y descansos! ¡Productividad sana!"
+    },
+    {
+      "id": "personalizacion.coach.033",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡En lo laboral, {nombre}, pequeños objetivos diarios! ¡Y tacharlos de la lista! ¡Qué gustito!"
+    },
+    {
+      "id": "personalizacion.coach.034",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡El dinero, {nombre}! ¡Mentalidad tranquila! ¡Y para lo concreto, un profesional, que yo solo motivo!"
+    },
+    {
+      "id": "personalizacion.coach.035",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡No tomes decisiones de dinero por una carta, {nombre}! ¡Tómalas con información y calma!"
+    },
+    {
+      "id": "personalizacion.coach.036",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "¡Tu bienestar es lo primero, {nombre}! ¡Y para eso, tu médico es tu mejor coach!"
+    },
+    {
+      "id": "personalizacion.coach.037",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "signo": [
+          "aries"
+        ]
+      },
+      "text": "¡Aries! ¡Iniciativa a tope! ¡Ahora trabajemos la paciencia, que también se entrena!"
+    },
+    {
+      "id": "personalizacion.coach.038",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "signo": [
+          "tauro"
+        ]
+      },
+      "text": "¡Tauro! ¡Constancia de campeonato! ¡Ahora, un poquito de flexibilidad!"
+    },
+    {
+      "id": "personalizacion.coach.039",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "signo": [
+          "geminis"
+        ]
+      },
+      "text": "¡Géminis! ¡Dos mentes, el doble de ideas! ¡Elige una y ve a por ella!"
+    },
+    {
+      "id": "personalizacion.coach.040",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "signo": [
+          "leo"
+        ]
+      },
+      "text": "¡Leo! ¡Liderazgo natural! ¡Usa tu brillo para encender el de los demás!"
+    },
+    {
+      "id": "personalizacion.coach.041",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "signo": [
+          "libra"
+        ]
+      },
+      "text": "¡Libra! ¡Tomar decisiones es un músculo! ¡Hoy entrenamos!"
+    },
+    {
+      "id": "personalizacion.coach.042",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "signo": [
+          "capricornio"
+        ]
+      },
+      "text": "¡Capricornio! ¡Metas claras! ¡Ahora toca celebrar las pequeñas!"
+    },
+    {
+      "id": "personalizacion.coach.043",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "signo": [
+          "acuario"
+        ]
+      },
+      "text": "¡Acuario! ¡Tu originalidad es tu marca personal!"
+    },
+    {
+      "id": "personalizacion.coach.044",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "signo": [
+          "piscis"
+        ]
+      },
+      "text": "¡Piscis! ¡Tu sensibilidad es una fortaleza! ¡Dilo conmigo!"
+    },
+    {
+      "id": "personalizacion.coach.045",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "diaSemana": [
+          1
+        ]
+      },
+      "text": "¡Lunes, {nombre}! ¡El día favorito de la gente con objetivos! ¡Bueno, de alguna gente!"
+    },
+    {
+      "id": "personalizacion.coach.046",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "diaSemana": [
+          3
+        ]
+      },
+      "text": "¡Miércoles, {nombre}! ¡Mitad de semana, mitad del camino! ¡Lo estás haciendo genial!"
+    },
+    {
+      "id": "personalizacion.coach.047",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "diaSemana": [
+          5
+        ]
+      },
+      "text": "¡Viernes, {nombre}! ¡Celebra lo conseguido esta semana!"
+    },
+    {
+      "id": "personalizacion.coach.048",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "diaSemana": [
+          7
+        ]
+      },
+      "text": "¡Domingo, {nombre}! ¡Descanso activo! ¡Que también cuenta como logro!"
+    },
+    {
+      "id": "personalizacion.coach.049",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "faseLunar": [
+          "nueva"
+        ]
+      },
+      "text": "¡Luna nueva, {nombre}! ¡Momento perfecto para fijar intenciones! ¡Escríbelas!"
+    },
+    {
+      "id": "personalizacion.coach.050",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "faseLunar": [
+          "creciente"
+        ]
+      },
+      "text": "¡Luna creciente! ¡Como tu autoestima a partir de hoy!"
+    },
+    {
+      "id": "personalizacion.coach.051",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "faseLunar": [
+          "llena"
+        ]
+      },
+      "text": "¡Luna llena, {nombre}! ¡Celebra todo lo que has logrado! ¡Brilla!"
+    },
+    {
+      "id": "personalizacion.coach.052",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "faseLunar": [
+          "menguante"
+        ]
+      },
+      "text": "¡Luna menguante, {nombre}! ¡Suelta lo que no te sirve! ¡Empieza por la autoexigencia!"
+    },
+    {
+      "id": "personalizacion.coach.053",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "estacion": [
+          "primavera"
+        ]
+      },
+      "text": "¡Primavera, {nombre}! ¡Florece! ¡Y si tienes alergia, florece con pañuelos!"
+    },
+    {
+      "id": "personalizacion.coach.054",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "estacion": [
+          "otono"
+        ]
+      },
+      "text": "¡Otoño, {nombre}! ¡Como los árboles: suelta hojas, que ya volverán!"
+    },
+    {
+      "id": "personalizacion.coach.055",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "primeraCarta": true
+      },
+      "text": "¡Empezamos, {nombre}! ¡Actitud positiva y espalda recta!"
+    },
+    {
+      "id": "personalizacion.coach.056",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "ultimaCarta": true
+      },
+      "text": "¡Último empujón, {nombre}! ¡Lo estás bordando!"
+    },
+    {
+      "id": "personalizacion.coach.057",
+      "slot": "personalizacion",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Los {decada}, {nombre}! ¡Tu mejor década es la que estás viviendo!"
+    },
+    {
+      "id": "guino.coach.001",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡No cuentes los días! ¡Haz que los días cuenten! ¡Y apúntalos en el calendario!"
+    },
+    {
+      "id": "guino.coach.002",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Si la vida te da limones, haz limonada! ¡Si te da cartas, haz tiradas!"
+    },
+    {
+      "id": "guino.coach.003",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡El éxito es la suma de pequeños esfuerzos! ¡Y de alguna siesta estratégica!"
+    },
+    {
+      "id": "guino.coach.004",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Sal de tu zona de confort! ¡Pero vuelve para la cena!"
+    },
+    {
+      "id": "guino.coach.005",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Cree en ti! ¡Las cartas ya lo hacen!"
+    },
+    {
+      "id": "guino.coach.006",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Hoy no es un día cualquiera! ¡Es un día de tarot!"
+    },
+    {
+      "id": "guino.coach.007",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Sonríe, que la vida es corta y las tiradas más!"
+    },
+    {
+      "id": "guino.coach.008",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Los sueños no funcionan si tú no trabajas! ¡Pero sí funcionan si duermes, que es cuando se sueña!"
+    },
+    {
+      "id": "guino.coach.009",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡El fracaso es solo el éxito en construcción! ¡Con andamios!"
+    },
+    {
+      "id": "guino.coach.010",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Si te caes siete veces, levántate ocho! ¡Y revisa el suelo, que igual resbala!"
+    },
+    {
+      "id": "guino.coach.011",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Mente sana en cuerpo sano! ¡Y carta bonita en tapete limpio!"
+    },
+    {
+      "id": "guino.coach.012",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Agradece tres cosas cada día! ¡Hoy puedes empezar por esta tirada!"
+    },
+    {
+      "id": "guino.coach.013",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Lo imposible solo tarda un poco más! ¡Como el autobús nocturno!"
+    },
+    {
+      "id": "guino.coach.014",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡No es lo que te pasa, es cómo reaccionas! ¡Y cómo lo cuentas luego!"
+    },
+    {
+      "id": "guino.coach.015",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡El universo no te pone retos que no puedas superar! ¡Bueno, el Sudoku de nivel experto sí!"
+    },
+    {
+      "id": "guino.coach.016",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Bebe agua! ¡Es el consejo más místico que existe!"
+    },
+    {
+      "id": "guino.coach.017",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡A quien madruga, Dios le ayuda! ¡A quien descansa bien, su cuerpo se lo agradece!"
+    },
+    {
+      "id": "guino.coach.018",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡No hay mal que por bien no venga! ¡Reencuadre positivo nivel experto!"
+    },
+    {
+      "id": "guino.coach.019",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Camarón que se duerme se lo lleva la corriente! ¡Pero un camarón que descansa rinde mejor!"
+    },
+    {
+      "id": "guino.coach.020",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Del dicho al hecho hay un gran trecho! ¡Recórrelo en pasos pequeños!"
+    },
+    {
+      "id": "guino.coach.021",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Roma no se construyó en un día! ¡Y tu armario ordenado tampoco!"
+    },
+    {
+      "id": "guino.coach.022",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Más vale paso que dure que trote que canse! ¡Lo dice el refranero y lo firma mi fisio!"
+    },
+    {
+      "id": "guino.coach.023",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡El que la sigue la consigue! ¡Ese refrán es puro coaching!"
+    },
+    {
+      "id": "guino.coach.024",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Caminante, no hay camino, se hace camino al andar! ¡Diez mil pasos al día!"
+    },
+    {
+      "id": "guino.coach.025",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Tu única competencia eres tú ayer! ¡Y tu yo de ayer comió mucho turrón!"
+    },
+    {
+      "id": "guino.coach.026",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Las cartas no deciden por ti! ¡Te inspiran! ¡Tú pones el resto!"
+    },
+    {
+      "id": "guino.coach.027",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Ponle ganas! ¡Y si no hay ganas, ponle una canción que te guste!"
+    },
+    {
+      "id": "guino.coach.028",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Respira hondo! ¡El oxígeno es gratis y funciona!"
+    },
+    {
+      "id": "guino.coach.029",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Haz una lista de objetivos! ¡Y otra de cosas que ya has conseguido! ¡La segunda motiva más!"
+    },
+    {
+      "id": "guino.coach.030",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡El mejor momento para empezar fue ayer! ¡El segundo mejor, después de esta tirada!"
+    },
+    {
+      "id": "guino.coach.031",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Mírate al espejo y di: «hoy lo voy a intentar»! ¡Si te da vergüenza, dilo bajito!"
+    },
+    {
+      "id": "guino.coach.032",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡El esfuerzo de hoy es la recompensa de mañana! ¡O de pasado mañana! ¡Paciencia!"
+    },
+    {
+      "id": "guino.coach.033",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡No te compares con nadie! ¡Ni con el horóscopo de tu cuñado!"
+    },
+    {
+      "id": "guino.coach.034",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Ser feliz es una decisión! ¡Y comer bien también!"
+    },
+    {
+      "id": "guino.coach.035",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Tu energía es contagiosa! ¡Úsala para bien!"
+    },
+    {
+      "id": "guino.coach.036",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Lo que siembras, recoges! ¡Hoy siembra cosas bonitas!"
+    },
+    {
+      "id": "guino.coach.037",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Cada «no» te acerca a un «sí»! ¡Matemáticas emocionales!"
+    },
+    {
+      "id": "guino.coach.038",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Celebra cada pequeño logro! ¡Hoy has barajado! ¡Bravo!"
+    },
+    {
+      "id": "guino.coach.039",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Desconecta para reconectar! ¡Con el wifi de la vida!"
+    },
+    {
+      "id": "guino.coach.040",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡La gratitud es el imán de las cosas buenas! ¡Y de las buenas personas!"
+    },
+    {
+      "id": "guino.coach.041",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡El autocuidado no es egoísmo! ¡Es mantenimiento preventivo!"
+    },
+    {
+      "id": "guino.coach.042",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Pide ayuda cuando la necesites! ¡Es de valientes!"
+    },
+    {
+      "id": "guino.coach.043",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Cada mañana es una página en blanco! ¡Escribe con buena letra!"
+    },
+    {
+      "id": "guino.coach.044",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Hoy, un paseo de veinte minutos! ¡Lo dice el Ermitaño y lo apoyo yo!"
+    },
+    {
+      "id": "guino.coach.045",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Nadie dijo que fuera fácil! ¡Pero tampoco que fuera aburrido!"
+    },
+    {
+      "id": "guino.coach.046",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Aprende a decir que no! ¡Empieza por la tercera galleta! …O no, que hoy es un buen día."
+    },
+    {
+      "id": "guino.coach.047",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Tu mejor inversión eres tú! ¡En tiempo, en descanso y en cariño, no en nada que lleve números!"
+    },
+    {
+      "id": "guino.coach.048",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡El miedo es solo una emoción! ¡Salúdalo y sigue adelante!"
+    },
+    {
+      "id": "guino.coach.049",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Vive el momento! ¡Este momento! ¡El de la carta!"
+    },
+    {
+      "id": "guino.coach.050",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Un objetivo sin plan es solo un deseo! ¡Y un deseo sin tarot es menos divertido!"
+    },
+    {
+      "id": "guino.coach.051",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡El amor es como un músculo: se cuida, se entrena y no se fuerza!"
+    },
+    {
+      "id": "guino.coach.052",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡En el trabajo, trabaja en equipo! ¡Juntos somos más! ¡Y el café sale más barato!"
+    },
+    {
+      "id": "guino.coach.053",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡La abundancia empieza en la mente! ¡Y las decisiones concretas, con un profesional!"
+    },
+    {
+      "id": "guino.coach.054",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "invertida": true
+      },
+      "text": "¡Una carta invertida es una invitación a cambiar de perspectiva! ¡Ponte cabeza abajo! …No, mejor no."
+    },
+    {
+      "id": "guino.coach.055",
+      "slot": "guino",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡El mejor consejo a estas horas: dormir! ¡El sueño es el mejor coach!"
+    },
+    {
+      "id": "cambioHumor.coach.001",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Perdona, me ha dado un aire! ¡Un aire de motivación! ¡A partir de ahora, todo es posible!"
+    },
+    {
+      "id": "cambioHumor.coach.002",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Espera! ¡Acabo de tener una epifanía! ¡Vamos a reencuadrar esta lectura en positivo!"
+    },
+    {
+      "id": "cambioHumor.coach.003",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Me he venido arriba! ¡Y cuando me vengo arriba, ya no bajo!"
+    },
+    {
+      "id": "cambioHumor.coach.004",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Uy, que me he puesto en modo taller de autoestima! ¡Y me quedo!"
+    },
+    {
+      "id": "cambioHumor.coach.005",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡He hecho tres respiraciones profundas y ahora lo veo todo como una oportunidad!"
+    },
+    {
+      "id": "cambioHumor.coach.006",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Cambio de energía! ¡Fuera la nube gris! ¡Dentro el sol de la proactividad!"
+    },
+    {
+      "id": "cambioHumor.coach.007",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Perdona, que me ha llegado una frase motivadora al corazón y tengo que compartirla!"
+    },
+    {
+      "id": "cambioHumor.coach.008",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Ya está! ¡He decidido que esta tirada es un regalo! ¡Y los regalos se agradecen!"
+    },
+    {
+      "id": "cambioHumor.coach.009",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Me he tomado un batido verde mental! ¡Ahora sí, energía total!"
+    },
+    {
+      "id": "cambioHumor.coach.010",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Stop! ¡Pausa! ¡Estiramos los brazos! ¡Y seguimos con otra actitud!"
+    },
+    {
+      "id": "cambioHumor.coach.011",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Perdona el bajón de antes! ¡Lo he convertido en aprendizaje! ¡Seguimos!"
+    },
+    {
+      "id": "cambioHumor.coach.012",
+      "slot": "cambioHumor",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡He visto la luz! ¡Era el flexo! ¡Pero me ha motivado igual!"
+    },
+    {
+      "id": "sintesis.coach.001",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Lo has hecho genial, {nombre}! ¡Esta lectura es tu hoja de ruta motivacional!"
+    },
+    {
+      "id": "sintesis.coach.002",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Resumen: tienes recursos, tienes energía y tienes cartas! ¡Úsalas como inspiración!"
+    },
+    {
+      "id": "sintesis.coach.003",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Tres claves, {nombre}: descansa, comunícate y celebra lo pequeño!"
+    },
+    {
+      "id": "sintesis.coach.004",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Esta tirada no te dice lo que va a pasar! ¡Te recuerda lo que tú puedes hacer!"
+    },
+    {
+      "id": "sintesis.coach.005",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Conclusión: el poder está en ti! ¡Y en un buen desayuno!"
+    },
+    {
+      "id": "sintesis.coach.006",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "¡Tres o más arcanos mayores, {nombre}! ¡Estás en un momento de crecimiento enorme!"
+    },
+    {
+      "id": "sintesis.coach.007",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "mayoresMin": 3
+      },
+      "text": "¡Muchos mayores! ¡Esto es un punto de inflexión! ¡Aprovéchalo con calma y con ganas!"
+    },
+    {
+      "id": "sintesis.coach.008",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "¡Dominan las copas! ¡Inteligencia emocional a tope! ¡Cuida tus relaciones!"
+    },
+    {
+      "id": "sintesis.coach.009",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "suitDominante": "copas"
+      },
+      "text": "¡Copas, {nombre}! ¡Escucha lo que sientes! ¡Es información valiosa!"
+    },
+    {
+      "id": "sintesis.coach.010",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "¡Dominan los oros! ¡Lo práctico! ¡Rutinas sanas y metas realistas!"
+    },
+    {
+      "id": "sintesis.coach.011",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "suitDominante": "oros"
+      },
+      "text": "¡Oros, {nombre}! ¡Orden y constancia! ¡Las decisiones de dinero, con un profesional!"
+    },
+    {
+      "id": "sintesis.coach.012",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "¡Dominan las espadas! ¡Claridad mental! ¡Comunica con asertividad!"
+    },
+    {
+      "id": "sintesis.coach.013",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "suitDominante": "espadas"
+      },
+      "text": "¡Espadas! ¡Hay que tomar decisiones! ¡Pros, contras y una buena noche de sueño!"
+    },
+    {
+      "id": "sintesis.coach.014",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "¡Dominan los bastos! ¡Energía y acción! ¡Canaliza esa fuerza!"
+    },
+    {
+      "id": "sintesis.coach.015",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "suitDominante": "bastos"
+      },
+      "text": "¡Bastos, {nombre}! ¡Ponte en marcha! ¡Pero con calentamiento previo!"
+    },
+    {
+      "id": "sintesis.coach.016",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "figurasMin": 2
+      },
+      "text": "¡Muchas figuras! ¡Las personas importan! ¡Construye tu red de apoyo!"
+    },
+    {
+      "id": "sintesis.coach.017",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "figurasMin": 3
+      },
+      "text": "¡Tu tirada está llena de gente! ¡Trabajo en equipo, {nombre}! ¡Nadie llega lejos sin compañía!"
+    },
+    {
+      "id": "sintesis.coach.018",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡En el amor, {nombre}: autoestima primero, comunicación después y paciencia siempre!"
+    },
+    {
+      "id": "sintesis.coach.019",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡En el trabajo: objetivos claros, descansos reales y celebrar los logros!"
+    },
+    {
+      "id": "sintesis.coach.020",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "dinero"
+        ]
+      },
+      "text": "¡En el dinero: calma, información y asesoramiento profesional! ¡La carta solo motiva!"
+    },
+    {
+      "id": "sintesis.coach.021",
+      "slot": "sintesis",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "salud"
+        ]
+      },
+      "text": "¡Y en salud, el mejor plan de acción es pedir cita con tu médico!"
+    },
+    {
+      "id": "saludo.coach.001",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Hola, {nombre}! ¡Hoy es un gran día para conocerte mejor!"
+    },
+    {
+      "id": "saludo.coach.002",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Bienvenida sea tu energía, {nombre}! ¡Vamos a sacar lo mejor de esta tirada!"
+    },
+    {
+      "id": "saludo.coach.003",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡{nombre}, de {provincia}! ¡Qué alegría! ¡Respira hondo y empezamos!"
+    },
+    {
+      "id": "saludo.coach.004",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Hola, hola! ¡Hoy no venimos a adivinar! ¡Venimos a inspirarnos!"
+    },
+    {
+      "id": "saludo.coach.005",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Bienvenida esta curiosidad tuya, {nombre}! ¡La curiosidad es el motor del cambio!"
+    },
+    {
+      "id": "saludo.coach.006",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Hola, {nombre}! ¡Postura cómoda, hombros relajados y mente abierta!"
+    },
+    {
+      "id": "saludo.coach.007",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Empezamos, {nombre}! ¡Cada carta será un pequeño reto! ¡Y tú los vas a superar todos!"
+    },
+    {
+      "id": "saludo.coach.008",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Un {signo} con ganas de crecer! ¡Me encanta! ¡Vamos allá!"
+    },
+    {
+      "id": "saludo.coach.009",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Hola, {nombre}! ¡Ponle intención a esta lectura! ¡Lo demás viene solo!"
+    },
+    {
+      "id": "saludo.coach.010",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Te doy la bienvenida, {nombre}! ¡Hoy tú eres la prioridad!"
+    },
+    {
+      "id": "saludo.coach.011",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡Hola, {nombre}! ¡Lectura rápida y a dormir, que el descanso es sagrado!"
+    },
+    {
+      "id": "saludo.coach.012",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 6,
+        "horaMax": 9
+      },
+      "text": "¡Buenos días, {nombre}! ¡Empezar el día con intención es empezarlo bien!"
+    },
+    {
+      "id": "saludo.coach.013",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "amor"
+        ]
+      },
+      "text": "¡Vienes por amor! ¡Empecemos por el amor propio!"
+    },
+    {
+      "id": "saludo.coach.014",
+      "slot": "saludo",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "tema": [
+          "trabajo"
+        ]
+      },
+      "text": "¡Vienes por trabajo! ¡Vamos a por esos objetivos!"
+    },
+    {
+      "id": "despedida.coach.001",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Gracias, {nombre}! ¡Ahora sal ahí fuera y brilla!"
+    },
+    {
+      "id": "despedida.coach.002",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Lo has hecho genial! ¡Recuerda: el cambio empieza por un paso pequeño!"
+    },
+    {
+      "id": "despedida.coach.003",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Hasta pronto, {nombre}! ¡Bebe agua, da un paseo y sonríe!"
+    },
+    {
+      "id": "despedida.coach.004",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Me despido con un abrazo motivacional! ¡Virtual, pero sincero!"
+    },
+    {
+      "id": "despedida.coach.005",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Que tengas un día extraordinario, {nombre}! ¡O normal, que también está bien!"
+    },
+    {
+      "id": "despedida.coach.006",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Recuerda, {nombre}: esto es entretenimiento! ¡Pero las ganas que te llevas son de verdad!"
+    },
+    {
+      "id": "despedida.coach.007",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Ve a por todas, {nombre}! ¡Con calma y sin agobios!"
+    },
+    {
+      "id": "despedida.coach.008",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Fin de la sesión! ¡Apaga la pantalla y mira por la ventana un ratito!"
+    },
+    {
+      "id": "despedida.coach.009",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Hasta la próxima, {nombre}! ¡Tú puedes! ¡Lo digo yo y lo dicen las cartas!"
+    },
+    {
+      "id": "despedida.coach.010",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Un saludo a {provincia}! ¡Y a ti, {nombre}, el aplauso más grande!"
+    },
+    {
+      "id": "despedida.coach.011",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Cierra los ojos, respira y di «gracias»! ¡Ya está! ¡Sesión completada!"
+    },
+    {
+      "id": "despedida.coach.012",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 0,
+        "horaMax": 5
+      },
+      "text": "¡Y ahora, {nombre}, a dormir! ¡El sueño es el entrenamiento invisible!"
+    },
+    {
+      "id": "despedida.coach.013",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "when": {
+        "horaMin": 21,
+        "horaMax": 23
+      },
+      "text": "¡Buenas noches, {nombre}! ¡Mañana, más y mejor!"
+    },
+    {
+      "id": "despedida.coach.014",
+      "slot": "despedida",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡No olvides celebrar el día de hoy! ¡Con un vaso de agua, por ejemplo!"
+    },
+    {
+      "id": "salud.coach.001",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Para la salud, tu mejor coach es tu médico, {nombre}! ¡Yo solo motivo!"
+    },
+    {
+      "id": "salud.coach.002",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Autocuidado de verdad: pide cita con tu médico! ¡Las cartas, para inspirarte!"
+    },
+    {
+      "id": "salud.coach.003",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡En salud, nada de autodiagnósticos con tarot! ¡Para eso, mejor tu médico!"
+    },
+    {
+      "id": "salud.coach.004",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡El primer paso del bienestar: escuchar a tu médico! ¡El segundo: beber agua!"
+    },
+    {
+      "id": "salud.coach.005",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Yo te motivo, tu médico te cuida! ¡Cada cual en su función!"
+    },
+    {
+      "id": "salud.coach.006",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Para eso, mejor tu médico! ¡Y luego, si quieres, un paseíto, que también ayuda!"
+    },
+    {
+      "id": "salud.coach.007",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Tu cuerpo merece atención profesional! ¡Mejor tu médico que cualquier carta!"
+    },
+    {
+      "id": "salud.coach.008",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Ninguna tirada sustituye una consulta médica! ¡Tu salud es lo primero!"
+    },
+    {
+      "id": "salud.coach.009",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Objetivo del día: si algo te preocupa, cita con tu médico! ¡Tachado de la lista!"
+    },
+    {
+      "id": "salud.coach.010",
+      "slot": "salud",
+      "tones": [
+        "coach"
+      ],
+      "text": "¡Las cartas dan ánimo, tu médico da respuestas! ¡Para la salud, mejor tu médico!"
+    }
+  ]
+}

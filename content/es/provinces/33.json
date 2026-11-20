@@ -1,0 +1,28 @@
+{
+  "code": "33",
+  "nombre": "Asturias",
+  "comunidad": "Principado de Asturias",
+  "gentilicio": "asturiano/a",
+  "plato": [
+    "la fabada asturiana",
+    "el cachopo",
+    "la sidra escanciada",
+    "los frixuelos"
+  ],
+  "fiesta": [
+    "el Descenso Internacional del Sella",
+    "la Fiesta de los Vaqueiros de Alzada"
+  ],
+  "clima": [
+    "lluvia que pinta todo de verde",
+    "veranos frescos y suaves"
+  ],
+  "chascarrillos": [
+    "En Asturias escanciar sidra es un arte y tirarla al suelo, una tradición.",
+    "Un cachopo asturiano da para dos, o para uno con hambre de verdad.",
+    "Asturiano: alguien que dice «esto es un orbayu» mientras tú te empapas.",
+    "El Descenso del Sella es tan festivo que hasta las piraguas van de romería.",
+    "La fabada calienta el cuerpo, el ánimo y la conversación.",
+    "Asturias es tan verde que mis cartas, al llegar, piden ensalada."
+  ]
+}

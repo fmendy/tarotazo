@@ -1,0 +1,28 @@
+{
+  "code": "47",
+  "nombre": "Valladolid",
+  "comunidad": "Castilla y León",
+  "gentilicio": "vallisoletano/a",
+  "plato": [
+    "el lechazo asado",
+    "la sopa castellana",
+    "los vinos de Rueda",
+    "el pincho de concurso"
+  ],
+  "fiesta": [
+    "la Semana Santa de Valladolid",
+    "las Ferias de la Virgen de San Lorenzo"
+  ],
+  "clima": [
+    "frío de meseta",
+    "veranos templados con noches frescas"
+  ],
+  "chascarrillos": [
+    "En Valladolid se habla tan bien el castellano que hasta mis cartas se corrigen la gramática.",
+    "Valladolid celebra un concurso nacional de pinchos: allí la tapa es cosa seria.",
+    "El lechazo asado vallisoletano es un manjar que pide silencio y buen pan.",
+    "Vallisoletano: alguien que dice «pucelano» con orgullo y explica por qué.",
+    "La Semana Santa de Valladolid tiene tallas tan impresionantes que se recuerdan toda la vida.",
+    "En Valladolid la niebla de invierno es tan castellana que tiene hasta acento."
+  ]
+}

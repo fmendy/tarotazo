@@ -1,0 +1,28 @@
+{
+  "code": "27",
+  "nombre": "Lugo",
+  "comunidad": "Galicia",
+  "gentilicio": "lucense",
+  "plato": [
+    "el caldo gallego",
+    "el lacón con grelos",
+    "la tarta de Mondoñedo",
+    "las filloas"
+  ],
+  "fiesta": [
+    "el Arde Lucus",
+    "las Fiestas de San Froilán"
+  ],
+  "clima": [
+    "niebla de las que abrazan",
+    "lluvia que riega todo de verde"
+  ],
+  "chascarrillos": [
+    "Lugo tiene una muralla romana que se puede recorrer entera: paseo con historia incluida.",
+    "En San Froilán el pulpo se vende por toneladas y se come con cariño.",
+    "La niebla de Lugo es tan bonita que parece un efecto especial.",
+    "Lucense de verdad lleva un paraguas pequeño, uno grande y un chubasquero, por si acaso.",
+    "Durante el Arde Lucus la ciudad vuelve a ser romana y nadie quiere volver al presente.",
+    "La tarta de Mondoñedo es tan rica que hasta los peregrinos se desvían para probarla."
+  ]
+}

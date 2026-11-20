@@ -1,0 +1,28 @@
+{
+  "code": "24",
+  "nombre": "León",
+  "comunidad": "Castilla y León",
+  "gentilicio": "leonés/a",
+  "plato": [
+    "la cecina de León",
+    "el botillo del Bierzo",
+    "la sopa de trucha",
+    "la tapa que viene con la consumición"
+  ],
+  "fiesta": [
+    "las Fiestas de San Juan y San Pedro",
+    "la Semana Santa leonesa"
+  ],
+  "clima": [
+    "frío seco de meseta",
+    "veranos de noches frescas"
+  ],
+  "chascarrillos": [
+    "En el Barrio Húmedo de León la tapa viene sola y la conversación también.",
+    "El botillo del Bierzo es un plato de valientes y de buen apetito.",
+    "La catedral de León tiene tantas vidrieras que hasta la luz parece de fiesta.",
+    "Leonés: alguien que te corrige con cariño si dices que León está en otro sitio que no sea León.",
+    "La cecina leonesa es tan fina que se lee el periódico a través de ella.",
+    "En León el invierno es largo, pero las sobremesas lo son más."
+  ]
+}

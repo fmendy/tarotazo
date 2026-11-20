@@ -1,0 +1,27 @@
+{
+  "code": "42",
+  "nombre": "Soria",
+  "comunidad": "Castilla y León",
+  "gentilicio": "soriano/a",
+  "plato": [
+    "los torreznos de Soria",
+    "la mantequilla de Soria",
+    "el cordero asado"
+  ],
+  "fiesta": [
+    "las Fiestas de San Juan",
+    "el Paso del Fuego de San Pedro Manrique"
+  ],
+  "clima": [
+    "frío que conserva las cosas y a las personas",
+    "veranos frescos de pinar"
+  ],
+  "chascarrillos": [
+    "El torrezno de Soria cruje tanto que se oye desde Burgos.",
+    "Soria tiene tanto pinar que respirar ahí es como un tratamiento de spa.",
+    "En San Pedro Manrique cruzan las brasas descalzos; yo solo me atrevo con la bola de cristal templada.",
+    "Soriano: alguien que te dice que en su tierra hay más naturaleza que gente, y presume de ello.",
+    "Antonio Machado se inspiró en Soria; mis cartas también.",
+    "Las Fiestas de San Juan en Soria se viven con tanta pasión que duran casi una semana."
+  ]
+}

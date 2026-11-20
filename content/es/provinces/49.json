@@ -1,0 +1,27 @@
+{
+  "code": "49",
+  "nombre": "Zamora",
+  "comunidad": "Castilla y León",
+  "gentilicio": "zamorano/a",
+  "plato": [
+    "el arroz a la zamorana",
+    "el queso zamorano",
+    "el bacalao a la tranca"
+  ],
+  "fiesta": [
+    "la Semana Santa de Zamora",
+    "la Feria del Ajo de San Pedro"
+  ],
+  "clima": [
+    "frío seco de meseta",
+    "veranos calurosos junto al Duero"
+  ],
+  "chascarrillos": [
+    "Zamora tiene tanto románico que es como un museo al aire libre.",
+    "En la Feria del Ajo de San Pedro hay más ristras que en la cocina de mi abuela.",
+    "La Semana Santa zamorana es tan solemne que hasta mis cartas guardan silencio.",
+    "Zamorano: alguien que te dice que «no se ganó en una hora» y te lo cuenta con calma.",
+    "El arroz a la zamorana es contundente, sabroso y de los que levantan el ánimo.",
+    "El Duero pasa por Zamora como quien se lo piensa antes de irse."
+  ]
+}

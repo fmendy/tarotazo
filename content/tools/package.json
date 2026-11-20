@@ -1,0 +1,14 @@
+{
+  "name": "arcana-content-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Validador del contenido de Arcana (Tarotazo)",
+  "scripts": {
+    "validate": "node validate.mjs"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

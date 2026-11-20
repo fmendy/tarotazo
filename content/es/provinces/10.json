@@ -1,0 +1,29 @@
+{
+  "code": "10",
+  "nombre": "Cáceres",
+  "comunidad": "Extremadura",
+  "gentilicio": "cacereño/a",
+  "plato": [
+    "la torta del Casar",
+    "las migas extremeñas",
+    "las cerezas del Jerte",
+    "el jamón ibérico"
+  ],
+  "fiesta": [
+    "la Fiesta del Cerezo en Flor",
+    "los Escobazos de Jarandilla",
+    "las Fiestas de San Jorge"
+  ],
+  "clima": [
+    "veranos muy calurosos",
+    "primaveras de valle en flor"
+  ],
+  "chascarrillos": [
+    "La torta del Casar se abre como un cofre del tesoro y se vacía igual de rápido.",
+    "Cuando florecen los cerezos del Jerte, hasta las cartas se ponen blancas de envidia.",
+    "La parte antigua de Cáceres es tan bonita que parece decorado, y además es de verdad.",
+    "Cacereño: alguien que te recomienda un pueblo y luego otro y luego otro... y todos son preciosos.",
+    "En Jarandilla se dan escobazos con fuego por tradición; yo solo uso la escoba para volar.",
+    "En verano Cáceres pide siesta por ley, y yo la apruebo."
+  ]
+}

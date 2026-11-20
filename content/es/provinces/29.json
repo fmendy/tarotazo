@@ -1,0 +1,28 @@
+{
+  "code": "29",
+  "nombre": "Málaga",
+  "comunidad": "Andalucía",
+  "gentilicio": "malagueño/a",
+  "plato": [
+    "el espeto de sardinas",
+    "el gazpachuelo",
+    "el ajoblanco",
+    "el pescaíto frito"
+  ],
+  "fiesta": [
+    "la Feria de Agosto",
+    "la Semana Santa de Málaga"
+  ],
+  "clima": [
+    "clima suave casi todo el año",
+    "terral que aprieta en verano"
+  ],
+  "chascarrillos": [
+    "En Málaga el café tiene tantos nombres que pedir uno es un examen de idiomas.",
+    "El espeto de sardinas se hace en la playa, con una barca de horno y mucho arte.",
+    "Malagueño: alguien que en enero se baña «porque hoy hace bueno».",
+    "Cuando sopla el terral, Málaga entera se convierte en sauna con vistas al mar.",
+    "La Feria de Agosto tiene tanto ambiente que hasta la luna se queda hasta tarde.",
+    "El ajoblanco malagueño es fresquito, elegante y con uvas: un lujo de verano."
+  ]
+}

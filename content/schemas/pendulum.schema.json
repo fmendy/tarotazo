@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/pendulum.schema.json",
+  "title": "{lang}/pendulum.json — frases del péndulo, palabras ouija y chakras",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["lines", "models", "ouijaWords", "chakras"],
+  "$defs": {
+    "lineKey": {
+      "type": "string",
+      "pattern": "^(sino\\.(si|no|duda)|tablero\\.[0-4]|porcentaje\\.(alto|medio|bajo)|ouija|mapa|opciones|chakras\\.intro|calibrar\\.(intro|si|no)|enfado|medianoche|intro|repetida)$",
+      "description": "Claves de §4 + extras opcionales: intro (al coger el péndulo), calibrar.intro, repetida (antes del enfado)."
+    },
+    "lineMap": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/lineKey" },
+      "additionalProperties": { "$ref": "common.schema.json#/$defs/textList" }
+    }
+  },
+  "properties": {
+    "$comment": { "type": "string" },
+    "lines": {
+      "$ref": "#/$defs/lineMap",
+      "required": ["sino.si", "sino.no", "sino.duda", "tablero.0", "tablero.1", "tablero.2", "tablero.3", "tablero.4",
+                   "porcentaje.alto", "porcentaje.medio", "porcentaje.bajo", "ouija", "mapa", "opciones",
+                   "chakras.intro", "calibrar.si", "calibrar.no", "enfado", "medianoche"]
+    },
+    "models": {
+      "type": "object",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/pendulumModel" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["personalidad"],
+        "properties": {
+          "nombre": { "type": "string", "minLength": 1 },
+          "personalidad": { "type": "string", "minLength": 1 },
+          "lines": { "$ref": "#/$defs/lineMap", "description": "Sustituyen a las generales de la misma clave para ese péndulo." }
+        }
+      }
+    },
+    "ouijaWords": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[A-ZÑ0-9]{1,12}$" }
+    },
+    "chakras": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "nombre", "informes"],
+        "properties": {
+          "id": { "enum": ["raiz", "sacro", "plexo", "corazon", "garganta", "tercerOjo", "corona"] },
+          "nombre": { "type": "string", "minLength": 1 },
+          "informes": { "$ref": "common.schema.json#/$defs/textList" }
+        }
+      }
+    }
+  }
+}

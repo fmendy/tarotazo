@@ -1,0 +1,28 @@
+{
+  "code": "19",
+  "nombre": "Guadalajara",
+  "comunidad": "Castilla-La Mancha",
+  "gentilicio": "guadalajareño/a",
+  "plato": [
+    "el cabrito asado",
+    "la miel de la Alcarria",
+    "los bizcochos borrachos"
+  ],
+  "fiesta": [
+    "la Caballada de Atienza",
+    "la Endiablada de Almonacid de Zorita",
+    "las Ferias y Fiestas de Guadalajara"
+  ],
+  "clima": [
+    "continental con inviernos frescos",
+    "veranos secos de campo dorado"
+  ],
+  "chascarrillos": [
+    "La miel de la Alcarria es tan rica que hasta las abejas presumen.",
+    "Los bizcochos borrachos son el único caso de borrachera que mis cartas aprueban.",
+    "En Guadalajara hay pueblos tan bonitos que parecen hechos a mano. Y lo están.",
+    "Guadalajareño: alguien que te dice que está «al lado de Madrid» con orgullo y con razón.",
+    "En la Endiablada de Almonacid hay más cencerros que en mi casa cuando vienen mis primas.",
+    "La Alcarria tiene un viaje literario y un tarro de miel esperándote en cada parada."
+  ]
+}

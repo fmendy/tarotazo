@@ -1,0 +1,70 @@
+server:
+  port: 8080
+  # Detrás del proxy (Caddy) toma la IP real de X-Forwarded-For sólo de proxies internos.
+  forward-headers-strategy: native
+  error:
+    include-message: never
+    include-stacktrace: never
+    include-exception: false
+    include-binding-errors: never
+  tomcat:
+    accesslog:
+      enabled: false
+  servlet:
+    session:
+      persistent: false
+
+spring:
+  application:
+    name: arcana-api
+  threads:
+    virtual:
+      enabled: true
+  main:
+    banner-mode: off
+  mvc:
+    log-request-details: false
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+
+arcana:
+  # Directorio de contenido (volumen de solo lectura). Vacío = contenido empaquetado en el jar (classpath:content/).
+  content-dir: ${ARCANA_CONTENT_DIR:}
+  # true: si el contenido no valida contra content/schemas/ la app NO arranca (prod). El perfil dev lo pone a false.
+  content-strict: true
+  # Opcional: carpeta del arte (web/public/art) para marcar modelos sin arte como available=false.
+  art-dir: ${ARCANA_ART_DIR:}
+  unavailable-models: []
+  # Orígenes CORS permitidos (coma). Vacío = sin CORS (el front va por el mismo dominio/proxy).
+  cors-origins: ${ARCANA_CORS_ORIGINS:}
+  # Zona horaria para hora/día por defecto, estación y fase lunar.
+  zone: Europe/Madrid
+  rate-limit:
+    enabled: true
+    requests-per-minute: 60
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus
+  endpoint:
+    health:
+      show-details: never
+      probes:
+        enabled: true
+  info:
+    env:
+      enabled: false
+
+springdoc:
+  api-docs:
+    path: /api/v1/docs
+  swagger-ui:
+    enabled: false
+  paths-to-match: /api/v1/**
+
+logging:
+  level:
+    root: INFO

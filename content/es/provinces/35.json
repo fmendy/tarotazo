@@ -1,0 +1,28 @@
+{
+  "code": "35",
+  "nombre": "Las Palmas",
+  "comunidad": "Canarias",
+  "gentilicio": "canario/a",
+  "plato": [
+    "las papas arrugadas con mojo",
+    "el sancocho canario",
+    "el gofio",
+    "el bienmesabe"
+  ],
+  "fiesta": [
+    "el Carnaval de Las Palmas de Gran Canaria",
+    "la Bajada de la Rama de Agaete"
+  ],
+  "clima": [
+    "la eterna primavera",
+    "calima que vuelve el cielo de color té"
+  ],
+  "chascarrillos": [
+    "En Gran Canaria el invierno es un rumor que nunca llega.",
+    "Las papas arrugadas con mojo son la prueba de que la sencillez también es deliciosa.",
+    "En la Bajada de la Rama de Agaete se baila con ramas en alto hasta el mar.",
+    "Canario de verdad dice «guagua» y no admite otra palabra.",
+    "Lanzarote, Fuerteventura y Gran Canaria: tres islas, tres paisajes y un mismo gofio.",
+    "Con calima, el cielo canario parece una tirada de cartas en tono sepia."
+  ]
+}

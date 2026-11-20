@@ -1,0 +1,56 @@
+{
+  "puerta": {
+    "titulo": "Antes de entrar, criatura…",
+    "pregunta": "¿Eres mayor de edad?",
+    "aviso": "Esto es entretenimiento: ni consejo médico, ni legal, ni financiero. La bola de cristal es de mentira (la vidente no).",
+    "si": "Sí, tengo 18 o más",
+    "no": "Todavía no",
+    "fecha": "O dime tu fecha de nacimiento",
+    "bienvenida": ["Pasa, pasa, que se enfría el incienso."]
+  },
+  "menor": [
+    "Uy, todavía no te toca. Vuelve cuando cumplas 18, que las cartas no se van a ningún sitio."
+  ],
+  "nombre": {
+    "pregunta": ["¿Cómo te llamas, alma cándida?"],
+    "especiales": {
+      "vanesa": ["¿Vanesa? Las Vanesas siempre llegan tarde a su destino… pero llegan."],
+      "jose luis": ["{nombre}… nombre compuesto, destino compuesto."]
+    },
+    "santoral": {
+      "maria": "15 de agosto",
+      "jose": "19 de marzo"
+    },
+    "santoralLines": ["Tu santo es el {santo}. Lo apunto, que luego se me olvida felicitarte."],
+    "porTerminacion": {
+      "ana": ["¿{nombre}? Rima con mañana, y mañana te va a ir bien."]
+    },
+    "porInicial": {
+      "M": ["La M de {nombre}… la M de misterio, claro."]
+    },
+    "porLongitud": [
+      { "min": 1, "max": 3, "lines": ["{letras} letras nada más. Corto pero intenso."] },
+      { "min": 10, "max": 40, "lines": ["{letras} letras… me cansa hasta escribirlo en la bola."] }
+    ],
+    "genericas": ["{nombre}… precioso. Las cartas ya te estaban esperando."]
+  },
+  "edad": {
+    "pregunta": ["¿Y cuántas primaveras llevas?"],
+    "porDecada": {
+      "20": ["Los veinte: la década de no saber qué hacer, pero con mucha energía."]
+    },
+    "signo": {
+      "leo": ["Leo… ya me parecía a mí ese brillo en la mirada."]
+    },
+    "numeroVida": {
+      "7": ["Número de vida 7: el de los que piensan demasiado. Te pega."]
+    },
+    "sinFecha": ["Sin fecha no te saco el signo, pero intuyo cosas."],
+    "genericas": ["{edad} años. Edad perfecta para que te echen las cartas."]
+  },
+  "provincia": {
+    "pregunta": ["¿Y de dónde eres, de nacimiento?"],
+    "genericas": ["¡De {provincia}! Ya decía yo. {chascarrillo}"],
+    "extranjero": ["¿Fuera de España? Las cartas tienen pasaporte, tranquilidad."]
+  }
+}

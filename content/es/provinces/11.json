@@ -1,0 +1,28 @@
+{
+  "code": "11",
+  "nombre": "Cádiz",
+  "comunidad": "Andalucía",
+  "gentilicio": "gaditano/a",
+  "plato": [
+    "las tortillitas de camarones",
+    "el pescaíto frito",
+    "el atún rojo de almadraba"
+  ],
+  "fiesta": [
+    "el Carnaval de Cádiz",
+    "la Feria del Caballo de Jerez",
+    "la Fiesta de la Bulería"
+  ],
+  "clima": [
+    "sol y levante",
+    "brisa marina que salva el verano"
+  ],
+  "chascarrillos": [
+    "En Cádiz el Carnaval no se celebra: se compone, se ensaya y se canta todo el año.",
+    "Gaditano de verdad tiene una chirigota en la punta de la lengua para cada disgusto.",
+    "El levante en Cádiz despeina, pero también se lleva las penas.",
+    "Las tortillitas de camarones son tan finas que se leen a contraluz, como mis cartas.",
+    "En Cádiz la puesta de sol es tan bonita que la gente aplaude. Y con razón.",
+    "Si un gaditano te cuenta algo serio, escúchalo hasta el final: siempre hay un remate."
+  ]
+}

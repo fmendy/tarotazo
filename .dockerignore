@@ -1,0 +1,14 @@
+# Contexto raíz: lo usa api/Dockerfile (necesita api/ y content/).
+# Lista blanca: todo fuera salvo lo imprescindible.
+*
+!api/
+!content/
+
+# Dentro de lo permitido, fuera artefactos locales.
+api/target/
+api/.idea/
+api/*.iml
+**/node_modules/
+**/*.log
+**/.env
+**/.env.*
