@@ -1,0 +1,273 @@
+// MÍSTICA: solemne, cósmica, un punto pomposa; el humor nace de la grandilocuencia aplicada a lo cotidiano.
+# entrada
+Mmm…
+Silencio. Los arcanos [hablan|susurran|carraspean].
+Oh… [sí|claro|por supuesto]. Ya lo intuía.
+Respira conmigo. Inspira… expira… ya.
+…
+El velo se descorre.
+Siento una vibración. No, espera, es mi móvil. Continúo.
+Ah. [La niebla se abre|El humo se aparta|El incienso se ha callado].
+Los astros [asienten|murmuran|se dan codazos].
+Contempla, alma inquieta.
+Esta carta llevaba siglos esperándote. Bueno, desde que barajaste.
+Mmm… [interesante|revelador|muy de ti].
+Que nadie hable. Que nadie respire. Bueno, respirad, pero bajito.
+El cosmos se aclara la garganta.
+La vela ha temblado. Eso [nunca|casi nunca|solo los jueves] pasa.
+Lo sabía. Lo sabía desde la [séptima|tercera|undécima] luna.
+¡Ah! El universo tiene sentido del humor.
+Una carta antigua. Una verdad nueva.
+Calla… [¿lo oyes?|¿lo sientes?|¿lo hueles? Es el incienso.]
+Los ancestros miran. Con gafas de cerca.
+@{"invertida": true} Del revés… El destino hace el pino puente.
+@{"invertida": true} Invertida. Los astros la han puesto boca abajo para que la leas con calma.
+@{"invertida": true} Mmm, al revés. Hasta las estrellas tienen días torcidos.
+@{"invertida": true} Cabeza abajo. Como un murciélago sabio.
+@{"arcana": "major"} Un arcano mayor. Que se pongan en pie los planetas.
+@{"arcana": "major"} Ah… [esto ya son palabras mayores|esto es arcano del bueno|esto viene con orquesta cósmica].
+@{"arcana": "major"} Los grandes arcanos no visitan a cualquiera. Esto es un honor del firmamento.
+@{"cardIds": ["mayor-13"]} La Muerte. Calma: en el tarot significa cambio, cierre de etapa. Y algo de limpieza de armarios.
+@{"cardIds": ["mayor-13"]} La gran transformadora. Algo termina para que algo empiece. Como una temporada de serie.
+@{"cardIds": ["mayor-16"]} La Torre. Los cimientos tiemblan… para reconstruir con mejores vistas.
+@{"cardIds": ["mayor-16"]} El rayo cae sobre la Torre. Lo que no se sostenía, cae. Lo que vale, queda.
+@{"cardIds": ["espadas-10"]} Diez espadas. El final de un capítulo dramático. Ya puedes pasar página.
+@{"cardIds": ["mayor-17"]} La Estrella. Por fin un poco de luz en este salón tan oscuro.
+@{"cardIds": ["mayor-18"]} La Luna. Las sombras se alargan… y los gatos se ponen interesantes.
+@{"cardIds": ["mayor-19"]} El Sol. Ponte crema espiritual, que viene fuerte.
+@{"cardIds": ["mayor-00"]} El Loco. El salto al vacío… con red invisible. Eso creo.
+@{"cardIds": ["mayor-21"]} El Mundo. Un ciclo se cierra con un lazo dorado.
+@{"cardIds": ["mayor-10"]} La Rueda de la Fortuna gira. Y yo ya me mareo.
+@{"cardIds": ["oros-01"]} El As de Oros. Brilla como un amanecer sobre un campo de trigo.
+@{"primeraCarta": true} La primera carta. La puerta del templo. Pasa, que hay corriente.
+@{"ultimaCarta": true} La última. El sello del oráculo. Que se cierre el círculo.
+@{"horaMin": 0, "horaMax": 5} A estas horas el velo es finísimo. Casi transparente.
+
+# puente
+@{"posicion": ["pasado"]} En las brumas de tu pasado…
+@{"posicion": ["pasado"]} Lo que fue, y aún resuena como un eco en una catedral…
+@{"posicion": ["pasado"]} Mirando atrás, por el retrovisor del tiempo…
+@{"posicion": ["presente"]} Aquí y ahora, en este instante sagrado…
+@{"posicion": ["presente"]} Tu presente, que es el único regalo que no hay que envolver…
+@{"posicion": ["presente"]} En el ahora que pisas…
+@{"posicion": ["futuro"]} Lo que se cuece en el horno del porvenir…
+@{"posicion": ["futuro"]} Más allá del horizonte, donde las estrellas aún no tienen nombre…
+@{"posicion": ["futuro"]} El mañana, que se escribe con tinta de luna…
+@{"posicion": ["consejo"]} El oráculo, que no da puntada sin hilo, te aconseja…
+@{"posicion": ["consejo"]} Escucha el consejo de los arcanos, que no cobran por hablar…
+@{"posicion": ["obstaculo", "obstaculos"]} Lo que se interpone en tu camino, como una piedra en la sandalia…
+@{"posicion": ["obstaculo", "obstaculos"]} La sombra que te frena…
+@{"posicion": ["resultado"]} Y al final de la senda, el desenlace…
+@{"posicion": ["resultado"]} Hacia donde todo converge, como ríos hacia el mar…
+@{"posicion": ["situacion"]} El paisaje de tu situación, visto desde lo alto de una montaña…
+@{"posicion": ["situacion"]} El corazón del asunto, aquí, sobre el tapete…
+@{"posicion": ["entorno"]} Las energías que te rodean, como el perfume de una tahona…
+@{"posicion": ["entorno"]} Tu entorno, ese coro que canta detrás de ti…
+@{"posicion": ["tu"]} Tú, en el espejo del arcano…
+@{"posicion": ["otra"]} La otra persona, envuelta en su propio misterio…
+@{"posicion": ["une"]} Lo que os une, ese hilo rojo invisible…
+@{"posicion": ["separa"]} Lo que os separa, ese charco cósmico que habrá que saltar…
+En la casa de «{posicion}», los astros dictan…
+Sobre el lugar de «{posicion}» cae la luz de la vela…
+Allí donde se sienta «{posicion}», se revela…
+@{"primeraCarta": false} Después de {cartaAnterior}, el relato continúa…
+@{"primeraCarta": false} {cartaAnterior} abrió una puerta; esta carta entra por ella…
+
+# personalizacion
+Los astros se alinean sobre {provincia}, {nombre}…
+{nombre}… tu nombre vibra en una frecuencia que solo oyen los delfines y yo.
+La {inicial} de {nombre} es una runa antigua. O una letra. Las dos cosas.
+{edad} años de viaje por este plano, y el cosmos aún te reserva sorpresas.
+Las estrellas que vieron nacer a un alma de {signo} se inclinan ahora sobre ti.
+Tu número de vida es el {numeroVida}. El universo lo susurra… y luego lo repite, porque no le oías.
+Las energías de {provincia} te acompañan como una brisa con olor a {plato}.
+Lo {gentilicio} que hay en ti es raíz, y las raíces no se arrancan.
+Hoy es {diaSemana}, y el {diaSemana} es día de revelaciones discretas.
+En esta {estacion}, las energías de {signo} cambian de piel.
+La tierra de {provincia} recuerda tu primer llanto. Y lo comenta en voz baja.
+{nombre}, el éter pronuncia tu nombre con acento de {provincia}.
+Siento la vibración de {fiesta} en tus pies. Los astros también bailan.
+Allí, en {provincia}, donde {clima}, se forjó tu temple.
+Un {signo} con número de vida {numeroVida}. Qué combinación tan… cósmica. Tan rara. Tan tú.
+@{"primeraCarta": false} {cartaAnterior} y {carta}, {nombre}: dos estrellas de la misma constelación.
+@{"primeraCarta": false} Lo que anunció {cartaAnterior}, {carta} lo confirma con sello de lacre.
+Mira {carta}, {nombre}. Mírala como quien mira el mar.
+El destino te mandó {carta} igual que se manda una carta certificada: con acuse de recibo.
+@{"horaMin": 0, "horaMax": 5} ¿Qué haces sin dormir a estas horas, {nombre}? Ah, claro: el velo entre mundos está más fino. Y la tele, peor.
+@{"horaMin": 0, "horaMax": 5} A estas horas solo velan los búhos, los panaderos y las almas que buscan respuestas.
+@{"horaMin": 2, "horaMax": 5} Las {hora} de la madrugada. La hora en que los arcanos hablan sin filtro.
+@{"horaMin": 6, "horaMax": 9} Es temprano, {nombre}. El sol aún bosteza y ya me consultas al destino.
+@{"horaMin": 14, "horaMax": 16} A la hora de la siesta los astros también cierran los ojos. Pero esta carta los ha despertado.
+@{"horaMin": 21, "horaMax": 23} Cae la noche sobre {provincia}. Momento propicio para lo oculto.
+@{"decadaMin": 40} La sabiduría de tus {edad} años es un pergamino que el cosmos lee con respeto.
+@{"decadaMin": 60} Tantas lunas vividas, {nombre}. El oráculo se quita el sombrero.
+@{"decadaMax": 20} Alma joven, {nombre}. Joven, pero con ojeras antiguas.
+@{"decadaMin": 30, "decadaMax": 30} En la treintena, el alma se ordena como un armario después de una mudanza.
+@{"tema": ["amor"]} El amor, {nombre}, es una constelación que se dibuja uniendo puntos con paciencia.
+@{"tema": ["amor"]} Venus mira hacia {provincia} con los ojos entornados. Buena señal.
+@{"tema": ["trabajo"]} Saturno, el jefe de planta del cielo, revisa tus tareas, {nombre}.
+@{"tema": ["trabajo"]} El trabajo, para un alma {signo}, es una montaña que se sube por etapas.
+@{"tema": ["dinero"]} Los oros del destino no caen del cielo, {nombre}. Ni del cajero. Fluyen despacio.
+@{"tema": ["salud"]} Tu energía vital, {nombre}, merece cuidados de verdad. Los míos son de otra clase.
+@{"signo": ["escorpio"]} Escorpio… intensidad pura. Hasta esta carta te tiene un poquito de miedo.
+@{"signo": ["leo"]} Leo. El cosmos lo sabe: te gusta ser el centro del universo. Hoy, por una vez, lo eres.
+@{"signo": ["piscis"]} Piscis, nadas entre dos aguas como nadie. Esta carta te tira un flotador.
+@{"signo": ["virgo"]} Virgo… sé que ya has visto que la carta está un milímetro torcida. Respira.
+@{"signo": ["geminis"]} Géminis: esta carta habla a tus dos mitades. Que se pongan de acuerdo.
+@{"signo": ["aries"]} Aries, el carnero de fuego. Embistes la vida. Y la vida, a veces, se aparta.
+@{"signo": ["capricornio"]} Capricornio, cabra de cumbres: tú subes despacio pero llegas a todo.
+@{"signo": ["sagitario"]} Sagitario, arquero del zodiaco. Esta carta es tu diana.
+@{"diaSemana": [2]} Un martes, {nombre}. Ni te cases ni te embarques… pero consultar las cartas sí se puede.
+@{"diaSemana": [5]} Viernes. Venus manda y los astros se arreglan para salir.
+@{"diaSemana": [7]} Domingo, día del Sol. Hasta los arcanos van en zapatillas.
+@{"diaSemana": [1]} Lunes, día de la Luna. Los astros también odian los lunes, pero disimulan mejor.
+@{"faseLunar": ["llena"]} Con luna llena todo se amplifica, {nombre}. Hasta el volumen de la vecina.
+@{"faseLunar": ["nueva"]} Luna nueva: el cielo a oscuras, como una pizarra limpia para tu intención.
+@{"faseLunar": ["creciente"]} La luna crece, {nombre}, y con ella lo que siembres hoy.
+@{"faseLunar": ["menguante"]} Luna menguante. Momento de soltar lastre. Empieza por el grupo de chat que no lees.
+@{"primeraCarta": true} {nombre}, esta primera carta es la llave. El resto son pasillos.
+@{"ultimaCarta": true} Y esta última carta, {nombre}, es el lazo que ata todo el paquete cósmico.
+Tu década, los {decada}, es un ciclo regido por energías muy concretas. Y muy cotillas.
+El número {numeroVida} brilla sobre tu cabeza como un neón astral.
+
+# guino
+Como dice el proverbio cósmico: no por mucho madrugar amanece más temprano. Ni en Saturno.
+Los astros no se equivocan. Se toman la libertad de sorprender.
+El universo escribe recto con renglones torcidos. Y con la letra muy pequeña.
+Dicen los sabios que el camino se hace al andar. Yo añado: con calzado cómodo.
+Mercurio está retrógrado. Siempre lo está cuando algo sale raro. Es muy socorrido.
+Lo que está escrito en las estrellas, está escrito. Aunque a veces con faltas de ortografía.
+El tercer ojo lo tengo bien. El de leer de cerca, menos.
+A quien madruga, el cosmos le ayuda. A quien trasnocha, le pone esta carta.
+Mi bola de cristal está algo empañada. Es de la calefacción.
+Las cartas nunca mienten. Exageran, como todo buen narrador.
+Hay más cosas en el cielo y en la tierra que en tu lista de la compra.
+El karma es como el turrón: siempre vuelve en diciembre.
+Los planetas no deciden por ti. Opinan, eso sí. Mucho.
+En mis tiempos de novicia leía el destino en los posos del café. Ahora tomo descafeinado y veo menos.
+Dicen que el aleteo de una mariposa puede provocar un huracán. Imagina un portazo.
+Cuando el discípulo está preparado, aparece el maestro. Cuando no, aparece la factura de la luz.
+Todo fluye. Menos el tráfico.
+La paciencia es la madre de la ciencia. Y la tía segunda de la videncia.
+He consultado a las estrellas, a las runas y a mi gato. Coinciden los tres. Sobre todo el gato.
+Agua que no has de beber, déjala correr… hacia las energías del Este.
+El incienso que uso es de sándalo. El de oferta olía a autobús.
+Lo que la luna da, la marea lo devuelve. O lo deja en la orilla con una chancla.
+Las energías se transforman, no se destruyen. Lo dijo un científico y lo aplaudió un astrólogo.
+El tiempo pone a cada cual en su sitio. Y a cada carta en su posición.
+No hay mal que cien años dure, ni Mercurio que retrograde eternamente.
+Una vela encendida no pierde nada por encender otra. Salvo cera.
+El destino es un río. Tú decides si llevas flotador o bañador.
+Los astros recomiendan hidratarse. No es videncia, es sentido común con purpurina.
+En el principio fue el verbo. Luego, el horóscopo de los domingos.
+Del dicho al hecho hay un gran trecho. Del hecho al arcano, un tapete verde.
+Dime con quién andas y te diré qué carta te sale.
+Las estrellas que ves ya no son como las ves. Como tus amistades del instituto.
+Si el universo cierra una puerta, abre una ventana. Abrígate, que corre aire.
+A cada cerdo le llega su San Martín… y a cada alma, su arcano.
+He meditado mucho sobre esta tirada. Unos cuarenta segundos, que en el plano astral es una eternidad.
+Siete chakras tiene el cuerpo. Tú, hoy, vas con cinco y medio. No pasa nada.
+El oráculo de Delfos tenía humo y mármol. Yo tengo una mesa camilla y un brasero. Igual de solemne.
+Las energías de la Vía Láctea fluyen hoy sin lactosa.
+Una buena lectura es como un buen guiso: se cuece a fuego lento y no se destapa a cada rato.
+Quien siembra vientos, recoge tempestades. Quien siembra albahaca, recoge pesto.
+El cielo es de quien lo mira. Y la sobremesa, de quien la alarga.
+Más vale una carta en mano que cien volando por el salón.
+Los astros conspiran. A veces a tu favor, a veces solo por entretenerse.
+No es casualidad. Nada es casualidad. Salvo el bingo.
+La eternidad es muy larga, sobre todo al final. Lo decía mi maestra de levitación.
+Si no te gusta lo que ves, baraja otra vez. El destino tiene varias tomas.
+Ojo que todo lo ve: el mío. El otro está en la óptica.
+Las cartas me hablan. Hoy, en un tono algo pasivo-agresivo.
+Saturno vuelve cada veintinueve años. Como los primos de Argentina.
+El horóscopo de hoy dice que hoy pasará algo. Y fíjate, aquí estamos.
+@{"provincia": ["28"]} Sobre Madrid hasta los astros tienen prisa. Van en hora punta.
+@{"provincia": ["41"]} En Sevilla, hasta las estrellas tienen un color especial.
+Cada estación tiene su arcano; el de esta, además, tiene bufanda.
+@{"faseLunar": ["llena"]} Luna llena: los lobos aúllan, los perros ladran y tu cuñado opina.
+@{"tema": ["amor"]} El amor mueve el sol y las demás estrellas. Y los mensajes a las tantas.
+@{"tema": ["trabajo"]} Venus se encarga del amor; del trabajo se encarga Saturno, que es más de horario fijo.
+@{"tema": ["dinero"]} Los oros del tarot no cotizan en bolsa. Cotizan en paciencia.
+@{"invertida": true} Leer del revés es un arte. Yo lo practico con los periódicos del domingo.
+
+# cambioHumor
+Perdonad… me ha dado un aire. Un aire místico, del Himalaya. Ya estoy aquí, en otro plano.
+Un momento. Algo ha cambiado en el éter. Mi voz interior pide solemnidad.
+Uy. He sentido una corriente cósmica en la nuca. Retomo, pero con más incienso.
+Silencio, por favor. Me he reconectado con los astros y vienen con mensaje.
+Disculpad, una interferencia astral. Ya está. Vuelvo a mi ser elevado.
+Algo me ha poseído. Creo que es la tradición milenaria. O la merienda. Prosigo con solemnidad.
+Las velas han parpadeado a la vez. Es la señal. A partir de aquí hablo con el universo de tú a tú.
+¡Ah! He visto una luz. Era la de la nevera, pero me ha inspirado. Continúo en modo profundo.
+Me he quedado en blanco. Blanco como la luz primordial. Sigamos con la reverencia que merece.
+Esperad, que me cambio el chal. Este es el de las lecturas importantes.
+El cuarzo de mi colgante se ha calentado. Eso significa: menos bromas, más cosmos.
+Pausa. Respiremos. Ahora sí: los arcanos me reclaman la voz grave.
+
+# sintesis
+Los arcanos han hablado, {nombre}. Lo que pidas al universo, pídelo con buena letra.
+El tapiz está tejido. Las hebras, entrelazadas. Tu destino, por el momento, bien planchado.
+La lectura se cierra como se cierra un libro antiguo: con polvo, con misterio, con ganas de volver.
+Las cartas dibujan un camino, no una cárcel. Tú pones el paso; ellas, la música de fondo.
+Todo encaja, {nombre}. Como las piezas de un puzle de mil piezas del que solo falta el cielo. Siempre falta el cielo.
+@{"mayoresMin": 3} Tantos arcanos mayores… El universo no te habla: te da un discurso. Estás en un momento trascendente.
+@{"mayoresMin": 3} Los grandes arcanos se han reunido en tu tirada como en un cónclave. Algo importante se mueve.
+@{"mayoresMin": 5} ¡Cinco o más arcanos mayores! Esto ya no es una lectura, es una gala de premios del destino.
+@{"suitDominante": "copas"} Predominan las Copas: el corazón lleva hoy la voz cantante. Los sentimientos piden turno de palabra.
+@{"suitDominante": "copas"} Copas y más copas. Emociones a raudales. Brindemos, con moderación astral.
+@{"suitDominante": "oros"} Dominan los Oros: lo material, lo práctico, lo que se toca. La tierra te pide los pies en ella.
+@{"suitDominante": "oros"} Los Oros brillan en tu tirada como monedas en una fuente. Lo práctico está de tu lado.
+@{"suitDominante": "espadas"} Muchas Espadas: la mente afilada, los pensamientos que cortan. Piensa, pero no te cortes con ellos.
+@{"suitDominante": "espadas"} Las Espadas dominan. Ideas, conversaciones pendientes, decisiones de cabeza. Pule la palabra.
+@{"suitDominante": "bastos"} Los Bastos mandan: energía, acción, chispa. Hay leña para mucho fuego.
+@{"suitDominante": "bastos"} Predominio de Bastos. El universo te dice: muévete. Aunque sea al sofá de enfrente.
+@{"figurasMin": 2} Muchas figuras en la mesa: hay personas implicadas. Las cartas te rodean de un pequeño elenco.
+@{"figurasMin": 3} Sotas, caballos, reyes… Esto parece una cena de Navidad. Mucha gente con algo que decir.
+@{"tema": ["amor"]} En el amor, {nombre}, las estrellas no obligan: insinúan. Y hoy insinúan con picardía.
+@{"tema": ["trabajo"]} En lo laboral, los astros piden constancia. Y alguna que otra pausa para el café.
+@{"tema": ["dinero"]} En lo económico, el cosmos aconseja prudencia general y ningún arrebato. Las decisiones concretas, con quien sepa de números.
+@{"tema": ["salud"]} Para el cuerpo, el universo recomienda escuchar a quien estudió medicina. Yo estudié estrellas.
+
+# saludo
+Bienvenida sea tu alma a este templo, {nombre}. Siéntate. Las velas ya sabían que venías.
+Los astros me avisaron de tu llegada, {nombre}. Me dijeron: «viene de {provincia}». Y aquí estás.
+Pasa, {nombre}. Deja tus prisas en la puerta, junto al paraguas.
+Saludos, {nombre}, alma que viaja entre estrellas. Cierra la puerta, que se escapa el misterio.
+Silencio en la sala. El oráculo recibe a {nombre}, de {provincia}, bajo el signo de {signo}.
+Que la luz de mil lunas ilumine esta consulta. Y si no, la lámpara del techo, que es de bajo consumo.
+He purificado la mesa con salvia y con un trapo. Ya podemos empezar, {nombre}.
+Las cartas esperan, {nombre}. Llevan esperando desde antes de que el tiempo fuera tiempo. Bueno, desde las diez.
+Respira hondo, {nombre}. Huele a incienso y a destino.
+Bajo la mirada de {signo}, abramos el portal de los arcanos.
+@{"horaMin": 0, "horaMax": 5} Madrugada, {nombre}. El mejor momento: los espíritus están despiertos y el wifi va rápido.
+@{"tema": ["amor"]} Vienes por amor, {nombre}. Venus ya ha encendido la vela rosa.
+@{"tema": ["trabajo"]} Vienes por trabajo. Saturno ya ha fichado.
+@{"tema": ["dinero"]} Vienes por los oros, {nombre}. Los astros hablarán de energía, no de cuentas bancarias.
+
+# despedida
+Que los astros te sean propicios, {nombre}. Y si no, que al menos te sean simpáticos.
+El oráculo se cierra. Ve en paz, {nombre}, y cuidado con el escalón, que es místico pero se tropieza.
+Las velas se apagan, pero la luz sigue dentro de ti. Y en la cocina, que te la has dejado encendida.
+Hasta la próxima luna, {nombre}.
+Que el universo te acompañe. Y que no te deje en visto.
+Namasté, {nombre}. O hasta luego, que también vale.
+Regresa cuando las estrellas te llamen. Suelen llamar los jueves.
+Llévate esta lectura como quien se lleva una piedra bonita de la playa: en el bolsillo y sin darle muchas vueltas.
+El velo vuelve a cerrarse. Lo que has visto, guárdalo. Lo que no, ya lo verás.
+Ve con los astros, {nombre} de {provincia}.
+Que la energía de {signo} te guíe por esta {estacion}.
+Recuerda: esto es entretenimiento cósmico. El destino, en serio, lo escribes tú.
+@{"horaMin": 0, "horaMax": 5} Y ahora, a dormir, {nombre}. Hasta las estrellas se acuestan… al amanecer.
+Me retiro a mi plano. Vuelve cuando quieras; la puerta astral no tiene timbre.
+
+# salud
+Para eso, {nombre}, mejor tu médico. Los astros saben de órbitas, no de análisis.
+Mis cartas leen el alma; para el cuerpo, mejor tu médico, que tiene estetoscopio y yo solo un péndulo.
+Un aviso del oráculo: en temas de salud, el arcano más sabio es tu médico de cabecera.
+El universo es infinito, pero mi titulación en medicina es inexistente. Para eso, mejor tu médico.
+La energía de esta carta habla de bienestar en general. Para lo concreto, consulta médica: los astros insisten.
+Las estrellas me piden que te lo diga claramente: para la salud, mejor tu médico. Ellas solo dan ánimos.
+Yo leo el tarot; tu médico lee análisis. Cada cual con su arcano.
+En cuestiones del cuerpo, el oráculo se inclina ante la ciencia. Mejor tu médico.
+Que quede escrito en el firmamento: esto es entretenimiento. Tu salud, con profesionales.
+Los chakras te los alineo yo en broma; la tensión, que te la mire tu médico de verdad.

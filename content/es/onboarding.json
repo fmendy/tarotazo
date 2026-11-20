@@ -1,0 +1,910 @@
+{
+  "puerta": {
+    "titulo": "Antes de cruzar el umbral…",
+    "pregunta": "¿Eres mayor de edad?",
+    "aviso": "Tarotazo es entretenimiento y humor para adultos. Madame Remedios tiene más diplomas que aciertos: nada de lo que digan las cartas o el péndulo es consejo médico, legal, psicológico ni financiero. No guardamos tus datos: tu nombre y tu edad se quedan en este navegador.",
+    "si": "Sí, tengo 18 o más",
+    "no": "Todavía no",
+    "fecha": "O dime tu fecha de nacimiento, que así te saco el signo",
+    "bienvenida": [
+      "Pasa, pasa, que se enfría el incienso.",
+      "Adelante. Las velas ya estaban encendidas; las encendí por si acaso.",
+      "Bienvenida sea tu curiosidad. Siéntate, que la silla no muerde. La mesa, a veces.",
+      "Entra con el pie izquierdo, que es el del corazón. O con el derecho, que tampoco pasa nada.",
+      "Has llegado. Lo sabía. Bueno, lo intuía. Bueno, he oído la puerta.",
+      "Te doy la bienvenida, a ti y a tu alma entera. Sacúdete el frío y pasa.",
+      "Recuerda: esto es un juego. Un juego con velas, pero un juego.",
+      "Acomoda el ánimo y deja el escepticismo en el perchero. Luego te lo devuelvo.",
+      "Adelante. Aquí todo es de broma salvo el cariño, que es de verdad.",
+      "Que se abra el telón de terciopelo. Bueno, es una cortina de la ducha, pero granate."
+    ]
+  },
+  "menor": [
+    "Uy, todavía no te toca. Vuelve cuando cumplas 18, que las cartas no se van a ningún sitio.",
+    "Las cartas dicen que tienes un futuro estupendo… y que empieza por volver dentro de unos años. ¡Hasta entonces!",
+    "Esta consulta es solo para adultos. Mientras tanto, el mejor oráculo es hacer los deberes y dormir bien.",
+    "Mi bola de cristal te ve con 18 años, pero todavía no. Cierra esta pestaña y ve a hacer algo divertido de tu edad.",
+    "Ay, criatura, que aún no tienes edad. Madame Remedios te guarda la silla. Vuelve cuando seas mayor de edad.",
+    "Las velas se apagan solas cuando entra alguien menor de 18. Es magia. Y es la norma. ¡Hasta otro día!",
+    "Te prometo que esto no es tan interesante como parece. Vuelve a los 18 y me lo confirmas.",
+    "El péndulo ha hablado: dice «no»… de momento. Cuando cumplas los 18, aquí estaremos."
+  ],
+  "nombre": {
+    "pregunta": [
+      "¿Cómo te llamas, alma cándida?",
+      "Dime tu nombre, que lo escribo en la bola.",
+      "¿Y a quién tengo el gusto de echarle las cartas?",
+      "Tu nombre, por favor. Solo lo sabremos tú, yo y este navegador.",
+      "¿Cómo te llaman en casa? El nombre bonito, no el mote."
+    ],
+    "especiales": {
+      "vanesa": [
+        "¿Vanesa? Las Vanesas siempre llegan tarde a su destino… pero llegan.",
+        "Vanesa. Nombre de alguien que siempre tiene un cargador de móvil de sobra."
+      ],
+      "maria": [
+        "María. El nombre más repartido de España, y aun así lo llevas como si fuera único.",
+        "María… las cartas se ponen de pie cuando oyen este nombre. Por costumbre."
+      ],
+      "jose": [
+        "José. Nombre de carpintero, de padre de familia y de quien siempre sabe dónde está el destornillador.",
+        "¿José? En toda reunión familiar hay al menos tres. Y de todos, tú caes mejor."
+      ],
+      "pepe": [
+        "Pepe. Nombre de bar con terraza y de quien conoce a todo el mundo en el barrio.",
+        "Pepe. Corto, simpático y con mil años de tradición. Como un buen bocadillo."
+      ],
+      "pepa": [
+        "Pepa. Nombre con salero. Las cartas ya se están riendo, y aún no he barajado."
+      ],
+      "antonio": [
+        "Antonio. El santo de las cosas perdidas. Si se te pierden las llaves, tienes enchufe.",
+        "Antonio… nombre de quien siempre encuentra aparcamiento a la primera."
+      ],
+      "manuel": [
+        "Manuel. «Dios con nosotros», dice el nombre. Y las cartas también, por lo visto.",
+        "Manuel. Nombre de tarde de dominó y risa fácil."
+      ],
+      "manolo": [
+        "Manolo. Con ese nombre ya vienes con banda sonora de verbena."
+      ],
+      "francisco": [
+        "Francisco. El de los animales. Seguro que los perros te saludan por la calle.",
+        "Francisco, Paco, Curro, Pancho, Fran… tienes más nombres que mi baraja cartas."
+      ],
+      "paco": [
+        "Paco. Nombre de tío favorito. Las cartas te dan un abrazo antes de empezar."
+      ],
+      "juan": [
+        "Juan. Corto, rotundo, de San Juan y hoguera. Esta noche saltamos por encima del destino.",
+        "Juan. Nombre de hoguera y de salto. Ojo con lo que quemas en tu vida."
+      ],
+      "david": [
+        "David. El que ganó al gigante con una piedra. Tú, por lo menos, ganas a los lunes."
+      ],
+      "javier": [
+        "Javier. Nombre de quien siempre propone el plan y luego lo cancela por cansancio. Te entiendo."
+      ],
+      "daniel": [
+        "Daniel. El de la cueva de los leones. Una tirada de tarot no te va a asustar."
+      ],
+      "carlos": [
+        "Carlos. Nombre de rey, de tío simpático y de quien siempre sabe el resultado del partido."
+      ],
+      "jesus": [
+        "Jesús. Cada vez que alguien estornuda, te sientes aludido. Salud, por cierto."
+      ],
+      "alejandro": [
+        "Alejandro. Nombre de conquistador. Hoy conquistamos tu tirada."
+      ],
+      "miguel": [
+        "Miguel. El del arcángel con espada. Te va a salir alguna espada, ya te aviso."
+      ],
+      "rafael": [
+        "Rafael. Arcángel de los viajes. Las cartas te ven con maleta, aunque sea al pueblo."
+      ],
+      "pablo": [
+        "Pablo. Nombre de quien escribe cartas largas que nadie contesta. Hoy te contestan las mías."
+      ],
+      "pedro": [
+        "Pedro. El de las llaves del cielo. Las de casa ya no sé dónde las tienes."
+      ],
+      "sergio": [
+        "Sergio. Nombre de quien hace la mejor tortilla del grupo y no lo reconoce."
+      ],
+      "alvaro": [
+        "Álvaro. Nombre de quien siempre llega con una idea genial a las doce de la noche."
+      ],
+      "angel": [
+        "Ángel. Con ese nombre, poco tengo que adivinar: las alas te las veo desde aquí."
+      ],
+      "fernando": [
+        "Fernando. Nombre de rey y de quien siempre pide la última ronda."
+      ],
+      "luis": [
+        "Luis. Cuatro letras y una elegancia que ya quisieran los nombres compuestos."
+      ],
+      "adrian": [
+        "Adrián. Nombre de mar Adriático. Tú también tienes tus mareas."
+      ],
+      "diego": [
+        "Diego. Nombre de quien siempre tiene una anécdota mejor que la tuya. Y es verdad."
+      ],
+      "mario": [
+        "Mario. Nombre de quien salta obstáculos sin despeinarse. Bueno, alguno."
+      ],
+      "hugo": [
+        "Hugo. Corto, redondo, con hache muda. Como los grandes misterios: está ahí, pero no suena."
+      ],
+      "lucas": [
+        "Lucas. Nombre de evangelista y de quien siempre tiene tiempo para un café."
+      ],
+      "martin": [
+        "Martín. A cada cerdo le llega su San Martín, y a cada Martín, su tirada de tarot."
+      ],
+      "iker": [
+        "Iker. Nombre con fuerza de montaña. Esta tirada va cuesta arriba, pero tú subes."
+      ],
+      "aitor": [
+        "Aitor. Nombre de patriarca legendario. Las cartas se ponen serias."
+      ],
+      "jordi": [
+        "Jordi. Dragones, rosas y libros: tu santo es el día más bonito del año."
+      ],
+      "carmen": [
+        "Carmen. Nombre de copla, de patio con flores y de quien manda en su casa con una sonrisa.",
+        "Carmen. Las cartas tararean algo cuando te oyen. No sé el qué, pero tararean."
+      ],
+      "lola": [
+        "Lola. Nombre de faralaes y de quien llena una habitación con solo entrar."
+      ],
+      "ana": [
+        "Ana. Tres letras, capicúa. Se lee igual del derecho y del revés. Como mis cartas invertidas.",
+        "Ana. Corto y perfecto. Hay nombres que no necesitan más."
+      ],
+      "lucia": [
+        "Lucía. Nombre de luz. Ya veo un poco mejor la bola de cristal, gracias.",
+        "Lucía: la luz. Me ahorras la vela."
+      ],
+      "laura": [
+        "Laura. Nombre de laurel: de quien gana y no presume. Bueno, presume un poquito."
+      ],
+      "marta": [
+        "Marta. La de la hermana que no ayudaba en la cocina. Tú sí ayudas, se te nota."
+      ],
+      "cristina": [
+        "Cristina. Nombre de cristal. Como mi bola. Cuidado, que es frágil y cara de limpiar."
+      ],
+      "paula": [
+        "Paula. Nombre de quien tiene siempre la agenda llena y aun así saca tiempo."
+      ],
+      "sara": [
+        "Sara. Nombre de princesa antigua y de quien siempre lleva un paraguas cuando hace falta."
+      ],
+      "elena": [
+        "Elena. Nombre de antorcha. Hoy la que ilumina eres tú."
+      ],
+      "pilar": [
+        "Pilar. Columna, sostén, cimiento. Sin ti, se cae la casa. Lo sabes."
+      ],
+      "isabel": [
+        "Isabel. Nombre de reinas. Las cartas te hacen la reverencia."
+      ],
+      "teresa": [
+        "Teresa. Nombre de mística. Esto es tu casa, prácticamente."
+      ],
+      "dolores": [
+        "Dolores. Nombre solemne con apodo festivo: Lola, Loli, Lole. Te quedas con lo mejor de los dos."
+      ],
+      "rosa": [
+        "Rosa. Bonita y con carácter. Como las de verdad, que pinchan si hace falta."
+      ],
+      "rocio": [
+        "Rocío. Nombre de madrugada y de romería. Las cartas te llegan con el amanecer.",
+        "Rocío. Gotitas de agua sobre la flor. Qué poético. Me ha salido sin querer."
+      ],
+      "remedios": [
+        "¿Remedios? ¡Como yo! Esto es una señal. O una coincidencia. Yo digo señal, que vendo más.",
+        "Remedios. Tocaya. Ya tenemos algo en común: ninguna de las dos sabe curar nada."
+      ],
+      "montserrat": [
+        "Montserrat. Nombre de montaña serrada. Escarpada por fuera, con vistas preciosas por dentro."
+      ],
+      "montse": [
+        "Montse. Diminutivo de montaña. Sigue siendo una montaña."
+      ],
+      "nerea": [
+        "Nerea. Nombre de ninfa marina. Las olas te tienen cariño."
+      ],
+      "irene": [
+        "Irene. Paz, significa. Y bien que la traes: hasta el péndulo se ha calmado."
+      ],
+      "alba": [
+        "Alba. Nombre de amanecer. Me pillas sin desayunar, pero ilusiona igual."
+      ],
+      "julia": [
+        "Julia. Nombre de verano romano. Te veo con abanico."
+      ],
+      "martina": [
+        "Martina. Nombre de quien hace amigos en la cola del supermercado."
+      ],
+      "eva": [
+        "Eva. La primera de la lista. Y la de la manzana: hoy, de postre, fruta."
+      ],
+      "noelia": [
+        "Noelia. Nombre de Navidad. Contigo siempre es un poco diciembre."
+      ],
+      "susana": [
+        "Susana. Nombre de lirio. Bonito, elegante y que no se marchita."
+      ],
+      "beatriz": [
+        "Beatriz. La que hace feliz, significa. Me lo creo."
+      ],
+      "raquel": [
+        "Raquel. Nombre bíblico, de quien espera lo que haga falta por lo que merece la pena."
+      ],
+      "silvia": [
+        "Silvia. Nombre de bosque. Hay algo salvaje en ti, aunque te pongas americana."
+      ],
+      "patricia": [
+        "Patricia. Nombre de patricios romanos. Elegancia de toga, aunque vayas en chándal."
+      ],
+      "sofia": [
+        "Sofía. Sabiduría. Me haces la competencia, que lo sepas."
+      ],
+      "encarna": [
+        "Encarna. Nombre de abuela con carácter. Las cartas se sientan derechitas."
+      ],
+      "conchi": [
+        "Conchi. Diminutivo que suena a verbena. Ya estoy sacando el abanico."
+      ],
+      "puri": [
+        "Puri. Nombre de vecina que lo sabe todo. Las cartas, por si acaso, hablan bajito."
+      ],
+      "rafa": [
+        "Rafa. Nombre de quien siempre tiene un chiste a mano. Yo también. Esto va a ser un duelo."
+      ],
+      "nacho": [
+        "Nacho. Diminutivo de Ignacio que suena a picoteo. Me ha entrado hambre."
+      ],
+      "chema": [
+        "Chema. José María en versión exprés. Eficiencia nominal."
+      ],
+      "jose luis": [
+        "José Luis. Nombre compuesto, destino compuesto: el doble de cosas, el doble de diversión."
+      ],
+      "jose antonio": [
+        "José Antonio. Dos santos en uno. Tienes enchufe por partida doble."
+      ],
+      "maria jose": [
+        "María José. Nombre compuesto de los que se dicen del tirón: Mariajo. Con energía."
+      ],
+      "juan carlos": [
+        "Juan Carlos. Nombre largo de pronunciar y fácil de querer."
+      ],
+      "maria carmen": [
+        "María del Carmen. Mari Carmen para los amigos. Y aquí ya somos amigos."
+      ],
+      "mari carmen": [
+        "Mari Carmen. Nombre de fiesta de cumpleaños con tarta casera."
+      ]
+    },
+    "santoral": {
+      "maria": "15 de agosto",
+      "jose": "19 de marzo",
+      "pepe": "19 de marzo",
+      "pepa": "19 de marzo",
+      "antonio": "13 de junio",
+      "antonia": "13 de junio",
+      "manuel": "1 de enero",
+      "manuela": "1 de enero",
+      "francisco": "4 de octubre",
+      "paco": "4 de octubre",
+      "francisca": "9 de marzo",
+      "juan": "24 de junio",
+      "juana": "30 de mayo",
+      "david": "29 de diciembre",
+      "javier": "3 de diciembre",
+      "xavier": "3 de diciembre",
+      "daniel": "21 de julio",
+      "carlos": "4 de noviembre",
+      "alejandro": "26 de febrero",
+      "miguel": "29 de septiembre",
+      "rafael": "29 de septiembre",
+      "gabriel": "29 de septiembre",
+      "pedro": "29 de junio",
+      "pablo": "29 de junio",
+      "pau": "29 de junio",
+      "angel": "2 de octubre",
+      "fernando": "30 de mayo",
+      "luis": "25 de agosto",
+      "sergio": "7 de octubre",
+      "jorge": "23 de abril",
+      "jordi": "23 de abril",
+      "alberto": "15 de noviembre",
+      "alvaro": "19 de febrero",
+      "diego": "13 de noviembre",
+      "adrian": "8 de septiembre",
+      "enrique": "13 de julio",
+      "ramon": "31 de agosto",
+      "vicente": "22 de enero",
+      "oscar": "3 de febrero",
+      "andres": "30 de noviembre",
+      "joaquin": "26 de julio",
+      "santiago": "25 de julio",
+      "jaime": "25 de julio",
+      "eduardo": "13 de octubre",
+      "roberto": "17 de septiembre",
+      "mario": "19 de enero",
+      "marcos": "25 de abril",
+      "marc": "25 de abril",
+      "alfonso": "1 de agosto",
+      "ignacio": "31 de julio",
+      "hugo": "1 de abril",
+      "martin": "11 de noviembre",
+      "lucas": "18 de octubre",
+      "mateo": "21 de septiembre",
+      "nicolas": "6 de diciembre",
+      "gonzalo": "10 de enero",
+      "ricardo": "3 de abril",
+      "emilio": "22 de mayo",
+      "julio": "12 de abril",
+      "guillermo": "25 de junio",
+      "tomas": "3 de julio",
+      "agustin": "28 de agosto",
+      "samuel": "20 de agosto",
+      "leo": "10 de noviembre",
+      "leon": "10 de noviembre",
+      "bruno": "6 de octubre",
+      "lorenzo": "10 de agosto",
+      "benito": "11 de julio",
+      "sebastian": "20 de enero",
+      "esteban": "26 de diciembre",
+      "cristobal": "10 de julio",
+      "felipe": "3 de mayo",
+      "bartolome": "24 de agosto",
+      "domingo": "8 de agosto",
+      "isidro": "15 de mayo",
+      "fermin": "7 de julio",
+      "blas": "3 de febrero",
+      "carmen": "16 de julio",
+      "ana": "26 de julio",
+      "joaquina": "26 de julio",
+      "isabel": "5 de noviembre",
+      "laura": "19 de octubre",
+      "cristina": "24 de julio",
+      "marta": "29 de julio",
+      "lucia": "13 de diciembre",
+      "elena": "18 de agosto",
+      "pilar": "12 de octubre",
+      "dolores": "15 de septiembre",
+      "lola": "15 de septiembre",
+      "paula": "26 de enero",
+      "rosa": "23 de agosto",
+      "mercedes": "24 de septiembre",
+      "teresa": "15 de octubre",
+      "beatriz": "29 de julio",
+      "silvia": "3 de noviembre",
+      "montserrat": "27 de abril",
+      "montse": "27 de abril",
+      "rosario": "7 de octubre",
+      "encarnacion": "25 de marzo",
+      "encarna": "25 de marzo",
+      "concepcion": "8 de diciembre",
+      "inmaculada": "8 de diciembre",
+      "conchi": "8 de diciembre",
+      "angeles": "2 de agosto",
+      "irene": "20 de octubre",
+      "sofia": "30 de septiembre",
+      "nuria": "8 de septiembre",
+      "eva": "24 de diciembre",
+      "susana": "11 de agosto",
+      "natalia": "27 de julio",
+      "ines": "21 de enero",
+      "clara": "11 de agosto",
+      "julia": "22 de mayo",
+      "lourdes": "11 de febrero",
+      "esperanza": "18 de diciembre",
+      "margarita": "20 de julio",
+      "josefa": "19 de marzo",
+      "catalina": "25 de noviembre",
+      "guadalupe": "12 de diciembre",
+      "begoña": "11 de octubre",
+      "agueda": "5 de febrero",
+      "cecilia": "22 de noviembre",
+      "barbara": "4 de diciembre",
+      "monica": "27 de agosto",
+      "magdalena": "22 de julio",
+      "noelia": "25 de diciembre",
+      "olga": "11 de julio",
+      "martina": "30 de enero",
+      "asuncion": "15 de agosto",
+      "covadonga": "8 de septiembre",
+      "eulalia": "12 de febrero",
+      "patricia": "25 de agosto",
+      "jose luis": "19 de marzo",
+      "jose antonio": "19 de marzo",
+      "jose manuel": "19 de marzo",
+      "jose maria": "19 de marzo",
+      "juan carlos": "24 de junio",
+      "juan jose": "24 de junio",
+      "juan antonio": "24 de junio",
+      "francisco javier": "3 de diciembre",
+      "maria jose": "19 de marzo",
+      "maria carmen": "16 de julio",
+      "mari carmen": "16 de julio",
+      "maria dolores": "15 de septiembre",
+      "maria angeles": "2 de agosto",
+      "maria pilar": "12 de octubre",
+      "maria teresa": "15 de octubre",
+      "maria isabel": "5 de noviembre",
+      "ana maria": "26 de julio",
+      "valentin": "14 de febrero",
+      "valentina": "14 de febrero",
+      "benjamin": "31 de marzo",
+      "victoria": "17 de noviembre",
+      "alicia": "28 de junio"
+    },
+    "santoralLines": [
+      "Tu santo es el {santo}. Lo apunto, que luego se me olvida felicitarte.",
+      "El {santo}, tu santo. Ese día las cartas te salen más bonitas. Es un dato contrastado por mí.",
+      "Celebras el {santo}. Que no se le olvide a nadie de tu familia; yo, por si acaso, ya lo sé.",
+      "{santo}: tu santo. Si ese día no te llaman, las cartas se enfadan.",
+      "Santo el {santo}. Día de rosquillas, felicitaciones y algún mensaje de alguien que no esperabas.",
+      "El {santo}. Lo tengo marcado en mi calendario con purpurina.",
+      "Tienes santo el {santo}, como mandan los almanaques de la cocina de toda la vida.",
+      "¡El {santo}! Ese día, invita tú. Es tradición. La acabo de inventar, pero es tradición."
+    ],
+    "porTerminacion": {
+      "ana": [
+        "¿{nombre}? Rima con mañana, y mañana te va a ir bien.",
+        "{nombre}… rima con campana. Y las campanas anuncian cosas."
+      ],
+      "ia": [
+        "{nombre}… rima con alegría. Y con tontería, pero me quedo con la primera."
+      ],
+      "ina": [
+        "{nombre}, rima con cocina. Y en la cocina se cuecen los mejores destinos."
+      ],
+      "ela": [
+        "{nombre}, rima con vela. Y ya tengo una encendida para ti."
+      ],
+      "ena": [
+        "{nombre}… rima con luna llena. Bueno, casi. Lo que importa es la intención."
+      ],
+      "ara": [
+        "{nombre}, rima con cara… y la tuya me dice que esto va a salir bien."
+      ],
+      "isa": [
+        "{nombre}, rima con sonrisa. Lo dejo caer."
+      ],
+      "ita": [
+        "{nombre}, rima con visita. Y la tuya me alegra la tarde."
+      ],
+      "io": [
+        "{nombre}, rima con río. Y los ríos siempre encuentran su camino."
+      ],
+      "ito": [
+        "{nombre}, rima con infinito. Y con bonito. Yo digo las dos."
+      ],
+      "el": [
+        "{nombre}, rima con miel. Y con cascabel. Mi bola de cristal está hoy muy poética."
+      ],
+      "on": [
+        "{nombre}, rima con corazón. No lo digo yo, lo dice la rima."
+      ],
+      "an": [
+        "{nombre}, rima con pan. Y con imán. Algo atraes, eso seguro."
+      ],
+      "en": [
+        "{nombre}… rima con «también». Lo que pidas, también."
+      ],
+      "in": [
+        "{nombre}, rima con jazmín. Y el jazmín huele a verano."
+      ],
+      "ar": [
+        "{nombre}, rima con mar. Y el mar siempre trae algo a la orilla."
+      ],
+      "er": [
+        "{nombre}, rima con amanecer. Me gusta cómo suena."
+      ],
+      "or": [
+        "{nombre}, rima con amor. Lo siento, la rima manda."
+      ],
+      "es": [
+        "{nombre}, rima con «después». Lo bueno siempre viene después."
+      ],
+      "as": [
+        "{nombre}, rima con «más». Y más es lo que te veo."
+      ],
+      "os": [
+        "{nombre}, rima con «nosotros». Bueno, más o menos. Ya somos un equipo."
+      ],
+      "is": [
+        "{nombre}, rima con «París». No te digo que vayas, pero te lo digo."
+      ],
+      "ez": [
+        "{nombre}, rima con «esta vez». Y esta vez sale bien."
+      ],
+      "o": [
+        "{nombre}, terminado en o: redondo, como un sello de lacre."
+      ],
+      "a": [
+        "{nombre}, terminado en a: abierto, como una ventana en primavera."
+      ],
+      "e": [
+        "{nombre}, terminado en e: suave, como un «bueno, vale» de domingo."
+      ],
+      "i": [
+        "{nombre}, terminado en i: pequeño y con chispa, como un punto sobre la i."
+      ],
+      "y": [
+        "{nombre}, con y griega al final. Una letra con pedigrí."
+      ],
+      "l": [
+        "{nombre}, acaba en ele. Suena a cascabel."
+      ],
+      "n": [
+        "{nombre}, acaba en ene. Final firme, como un portazo elegante."
+      ],
+      "s": [
+        "{nombre}, acaba en ese. Silbido de serpiente sabia."
+      ],
+      "r": [
+        "{nombre}, acaba en erre. Con carácter, que se nota."
+      ],
+      "z": [
+        "{nombre}, con zeta final. La última letra del alfabeto, pero la primera en mi lista."
+      ]
+    },
+    "porInicial": {
+      "A": [
+        "La A de {nombre}… la primera del abecedario. Ya vas por delante.",
+        "Con A, como «adelante». Y como «ay», que es mi palabra favorita."
+      ],
+      "B": [
+        "La B de {nombre}: de bola de cristal, de baraja y de buena gente."
+      ],
+      "C": [
+        "La C de {nombre}: de cartas, de corazón y de café, que me hace falta."
+      ],
+      "D": [
+        "La D de {nombre}: de destino. Y de domingo, que es más bonito."
+      ],
+      "E": [
+        "La E de {nombre}: de estrella. Y de «eh, qué bien suena»."
+      ],
+      "F": [
+        "La F de {nombre}: de fortuna. Y de flan, que también trae felicidad."
+      ],
+      "G": [
+        "La G de {nombre}: de gato negro, que en esta casa trae buena suerte."
+      ],
+      "H": [
+        "La H de {nombre}: muda, como los grandes secretos. Está, pero no se oye."
+      ],
+      "I": [
+        "La I de {nombre}: de intuición. Y con su puntito encima, que es como un tercer ojo."
+      ],
+      "J": [
+        "La J de {nombre}: de jolgorio. Y de jueves, que es casi viernes."
+      ],
+      "K": [
+        "La K de {nombre}: letra poco común para una persona poco común."
+      ],
+      "L": [
+        "La L de {nombre}: de luna. La estoy mirando y te saluda."
+      ],
+      "M": [
+        "La M de {nombre}… la M de misterio, claro.",
+        "La M de {nombre}. Me sale mucho últimamente. Las cartas están insistiendo."
+      ],
+      "N": [
+        "La N de {nombre}: de noche estrellada. Y de «no me lo esperaba»."
+      ],
+      "Ñ": [
+        "¡Una Ñ! La letra más nuestra. Las cartas se emocionan."
+      ],
+      "O": [
+        "La O de {nombre}: redonda, como mi bola. Esto es compatibilidad."
+      ],
+      "P": [
+        "La P de {nombre}: de péndulo. Luego te lo presento, que tiene genio."
+      ],
+      "Q": [
+        "La Q de {nombre}: de «¿qué me cuentas?». Pues ahora te lo cuento yo."
+      ],
+      "R": [
+        "La R de {nombre}: de Remedios. Como yo. Empezamos bien."
+      ],
+      "S": [
+        "La S de {nombre}: de sol, de suerte y de siesta. Tres cosas sagradas."
+      ],
+      "T": [
+        "La T de {nombre}: de tarot. No podías tenerlo más a mano."
+      ],
+      "U": [
+        "La U de {nombre}: de universo. Y el universo te ha oído."
+      ],
+      "V": [
+        "La V de {nombre}: de vela y de verbena. Luz y fiesta."
+      ],
+      "W": [
+        "La W de {nombre}: una letra viajera. Las cartas la reciben con alfombra."
+      ],
+      "X": [
+        "La X de {nombre}: marca el sitio del tesoro. Esto promete."
+      ],
+      "Y": [
+        "La Y de {nombre}: un camino que se bifurca. Ya veremos cuál coges."
+      ],
+      "Z": [
+        "La Z de {nombre}: la última del abecedario y la primera en llegar a mi consulta."
+      ]
+    },
+    "porLongitud": [
+      {
+        "min": 1,
+        "max": 3,
+        "lines": [
+          "{letras} letras nada más. Corto pero intenso.",
+          "{letras} letras. Lo justo para no perder tiempo, que el destino tiene prisa."
+        ]
+      },
+      {
+        "min": 4,
+        "max": 4,
+        "lines": [
+          "Cuatro letras. Como «amor», «vida» o «café». No está mal acompañado."
+        ]
+      },
+      {
+        "min": 5,
+        "max": 5,
+        "lines": [
+          "Cinco letras, como los dedos de la mano que me vas a dejar leer.",
+          "Cinco letras. Número de aventura, dicen los numerólogos. Y yo, que los he leído en diagonal."
+        ]
+      },
+      {
+        "min": 6,
+        "max": 6,
+        "lines": [
+          "Seis letras. El seis es el número de la armonía. Y de las sillas de un comedor estándar."
+        ]
+      },
+      {
+        "min": 7,
+        "max": 7,
+        "lines": [
+          "Siete letras. ¡Siete! El número mágico por excelencia. Esto pinta muy bien."
+        ]
+      },
+      {
+        "min": 8,
+        "max": 9,
+        "lines": [
+          "{letras} letras. Un nombre con espacio para todo, como un buen bolso.",
+          "{letras} letras. Nombre de los que se firman con rúbrica."
+        ]
+      },
+      {
+        "min": 10,
+        "max": 40,
+        "lines": [
+          "{letras} letras… me cansa hasta escribirlo en la bola.",
+          "{letras} letras. Con ese nombre, la bola de cristal necesita scroll."
+        ]
+      }
+    ],
+    "genericas": [
+      "{nombre}… precioso. Las cartas ya te estaban esperando.",
+      "{nombre}. Lo escribo en la bola de cristal con mi mejor letra.",
+      "{nombre}. Nombre de persona con buena estrella. Y con buen gusto, que has venido aquí.",
+      "Encantada, {nombre}. Las velas acaban de parpadear. Buena señal.",
+      "¿{nombre}? Ya me sonaba. Te vi en una tirada hace años. O en un sueño. O en la cola del pan.",
+      "{nombre}. Suena a alguien que sabe guardar un secreto. Mejor, porque aquí se cuentan muchos.",
+      "Qué bonito nombre, {nombre}. Lo digo de verdad, no porque lo diga a todo el mundo. Bueno, también.",
+      "{nombre}. Tu nombre vibra. Poco, pero vibra. Es suficiente.",
+      "{nombre}, con la {inicial} por delante, como una bandera.",
+      "Anotado: {nombre}. Las cartas ya te tutean.",
+      "{nombre}. Un nombre así no se olvida. Bueno, yo olvido todo, pero este no.",
+      "Mira, {nombre}, me pasa algo con tu nombre: me cae bien.",
+      "{nombre}. Hasta el péndulo se ha girado a mirar.",
+      "Hola, {nombre}. Lo he dicho en voz alta y se ha encendido una vela. Será corriente. O será el destino."
+    ]
+  },
+  "edad": {
+    "pregunta": [
+      "¿Y cuántas primaveras llevas?",
+      "¿Qué edad tienes? Te prometo que no se lo digo a nadie. Ni siquiera al servidor.",
+      "Dime tu edad, o mejor tu fecha de nacimiento, que así te saco el signo.",
+      "Enciende las velitas de tu edad. Bueno, solo dime el número, que no tengo tantas velas."
+    ],
+    "porDecada": {
+      "10": [
+        "Dieciocho, diecinueve… recién estrenado el carnet de adulto. Las cartas te tratan con respeto y algo de envidia.",
+        "Acabas de llegar a la mayoría de edad. Bienvenida esa energía: la vas a necesitar para la Cruz Celta."
+      ],
+      "20": [
+        "Los veinte: la década de no saber qué hacer, pero con mucha energía.",
+        "Veintitantos. La edad de los planes de última hora y las cenas a las tantas."
+      ],
+      "30": [
+        "Los treinta: ya sabes lo que no quieres, que es media vida resuelta.",
+        "Treinta y pico. La década en la que te emociona una buena fregona. No te juzgo."
+      ],
+      "40": [
+        "Los cuarenta: la década del «yo a mi edad ya no aguanto tonterías». Te entiendo perfectamente.",
+        "Cuarenta y tantos. Edad de sabiduría y de gafas para leer la carta del restaurante."
+      ],
+      "50": [
+        "Los cincuenta: lo que has vivido no cabe en una tirada. Pero lo intentamos.",
+        "Cincuenta y pico. La edad en que se sabe lo que importa y se cuenta con gracia."
+      ],
+      "60": [
+        "Los sesenta: la década de hacer lo que te dé la gana con mucha elegancia.",
+        "Sesenta y tantos. Tienes más historias que mi baraja, y eso que es antigua."
+      ],
+      "70": [
+        "Los setenta. Tú y las cartas ya os conocéis de hace tiempo. Me siento a escuchar.",
+        "Setenta y tantos. A esta edad el destino se pide en el bar de siempre."
+      ],
+      "80": [
+        "Los ochenta. Qué honor. Las cartas se ponen sus mejores galas.",
+        "Ochenta y tantos: con esa experiencia, tú me echas las cartas a mí."
+      ],
+      "90": [
+        "¡Los noventa! Esto ya es leyenda. Las cartas se quitan el sombrero."
+      ],
+      "100": [
+        "¡Más de cien! Las cartas se levantan para aplaudir. Esto no lo había visto ni mi abuela."
+      ]
+    },
+    "signo": {
+      "aries": [
+        "Aries: fuego, iniciativa y cero paciencia para las colas.",
+        "Aries. Llegas, embistes y luego preguntas. Las cartas ya se han apartado."
+      ],
+      "tauro": [
+        "Tauro. Constancia, buen comer y una cabezonería que mueve montañas.",
+        "Tauro… ya te veo pensando en la merienda. Normal."
+      ],
+      "geminis": [
+        "Géminis. Dos opiniones por persona. Me ahorro buscar segunda consulta.",
+        "Géminis: hablas con todo el mundo y todo el mundo te cuenta cosas. Como yo."
+      ],
+      "cancer": [
+        "Cáncer. Corazón de mantequilla con caparazón de cangrejo.",
+        "Cáncer: casa, familia y una lagrimita con los anuncios. Te entiendo."
+      ],
+      "leo": [
+        "Leo… ya me parecía a mí ese brillo en la mirada.",
+        "Leo. Te gusta ser protagonista. Hoy lo eres. No te acostumbres. Bueno, sí."
+      ],
+      "virgo": [
+        "Virgo. Seguro que ya has visto que mi mantel está torcido. Lo sé.",
+        "Virgo: orden, detalle y listas. Hasta tu horóscopo lo tienes en una hoja de cálculo."
+      ],
+      "libra": [
+        "Libra. Equilibrio, belleza y veinte minutos para elegir postre.",
+        "Libra… tú no decides, sopesas. Las cartas te ayudan a soltar la balanza."
+      ],
+      "escorpio": [
+        "Escorpio. Intensidad, misterio y memoria de elefante. Las cartas se portan bien contigo, por si acaso.",
+        "Escorpio: miras como si ya supieras lo que va a salir. A lo mejor lo sabes."
+      ],
+      "sagitario": [
+        "Sagitario. Maleta siempre medio hecha y una flecha apuntando lejos.",
+        "Sagitario: optimismo, viajes y decir las cosas sin filtro. Me caes bien."
+      ],
+      "capricornio": [
+        "Capricornio. Subes la montaña despacio, pero llegas antes que nadie.",
+        "Capricornio: seriedad de fuera, humor de dentro. Lo sé, no lo cuento."
+      ],
+      "acuario": [
+        "Acuario. Ideas raras, buenas causas y amistades en todas partes.",
+        "Acuario: el futuro te interesa tanto que has venido a preguntármelo."
+      ],
+      "piscis": [
+        "Piscis. Sensibilidad, intuición y una imaginación que ya quisieran mis cartas.",
+        "Piscis: entre dos aguas, como un buen sueño. Las cartas te van a entender."
+      ]
+    },
+    "numeroVida": {
+      "1": [
+        "Número de vida 1: liderazgo de nacimiento: siempre abres la puerta primero.",
+        "El 1. Iniciativa pura. Las cartas te dejan pasar delante."
+      ],
+      "2": [
+        "Número de vida 2: diplomacia, pareja, equipo. Nadie organiza una cena como tú.",
+        "El 2. Te llevas bien hasta con tu cuñado. Eso es un don."
+      ],
+      "3": [
+        "Número de vida 3: creatividad y buena conversación. Las sobremesas contigo duran horas.",
+        "El 3. Número de la expresión. Hablas, y la gente escucha."
+      ],
+      "4": [
+        "Número de vida 4: orden, constancia, cimientos. Eres la estantería que sostiene la casa.",
+        "El 4. Estable como una mesa camilla. Y con brasero."
+      ],
+      "5": [
+        "Número de vida 5: aventura y cambio. No paras ni en las fotos.",
+        "El 5. Inquietud, viajes y mil ideas. Las cartas van a tener que correr."
+      ],
+      "6": [
+        "Número de vida 6: cuidar a los demás. Tú eres quien lleva tiritas en la mochila.",
+        "El 6. Hogar, armonía y la mejor tortilla del grupo."
+      ],
+      "7": [
+        "Número de vida 7: el de quien piensa demasiado. Te pega.",
+        "El 7. El número más místico. Aquí, prácticamente, juegas en casa."
+      ],
+      "8": [
+        "Número de vida 8: ambición y fuerza. Organizas hasta las vacaciones de los demás.",
+        "El 8. Tumbado es infinito. De pie, muy trabajador."
+      ],
+      "9": [
+        "Número de vida 9: generosidad y sabiduría. Eres la persona a la que todo el mundo llama.",
+        "El 9. El último de los simples: lo cierra todo, como un buen postre."
+      ],
+      "11": [
+        "¡Número maestro 11! Intuición de altos vuelos. Me vas a quitar el puesto.",
+        "El 11. Número maestro. Se te encienden bombillas que otros no ven."
+      ],
+      "22": [
+        "¡Número maestro 22! El constructor. Tú no haces castillos en el aire: haces castillos.",
+        "El 22. Grandes proyectos, grandes manos. Y algún que otro mueble mal montado, todo hay que decirlo."
+      ],
+      "33": [
+        "¡Número maestro 33! El más raro de todos. Esto en numerología es como encontrar un trébol de cuatro hojas.",
+        "El 33. Maestro de maestros. Me pongo de pie."
+      ]
+    },
+    "sinFecha": [
+      "Sin fecha no te saco el signo, pero intuyo cosas.",
+      "No me has dado la fecha. Misterioso. Me gusta. El signo lo adivinaré por la cara.",
+      "Sin fecha de nacimiento, las estrellas se quedan sin coordenadas. Tiraremos de intuición, que es gratis.",
+      "Vale, solo la edad. Guardas tu signo como un secreto de familia. Respeto.",
+      "Sin fecha, sin signo. Pero con edad y con ganas, que es lo importante."
+    ],
+    "genericas": [
+      "{edad} años. Edad perfecta para que te echen las cartas.",
+      "{edad} años. Ni uno más ni uno menos. Bueno, eso dices tú.",
+      "{edad} años bien llevados. Las cartas lo confirman y yo lo firmo.",
+      "Con {edad} años, el destino ya te conoce de vista.",
+      "{edad}. Un número precioso. Las velas se han puesto de acuerdo para celebrarlo.",
+      "{edad} años, década de los {decada}. Lo apunto en mi libreta astral."
+    ]
+  },
+  "provincia": {
+    "pregunta": [
+      "¿Y de dónde eres, de nacimiento?",
+      "Señala en el mapa dónde naciste. Con cariño, que el mapa es sensible.",
+      "¿Dónde viste la luz por primera vez? En el mapa, digo.",
+      "Elige tu provincia natal. Si naciste fuera, hay un globo terráqueo para ti."
+    ],
+    "genericas": [
+      "¡De {provincia}! Ya decía yo. {chascarrillo}",
+      "{provincia}. Lo sabía por cómo has movido el ratón. {chascarrillo}",
+      "¡Ah, {provincia}! {chascarrillo} Las cartas se ponen contentas.",
+      "{provincia}, en {comunidad}. Tierra buena para echar las cartas. {chascarrillo}",
+      "De {provincia}. Eso explica muchas cosas. Todas buenas. {chascarrillo}",
+      "¡{provincia}! Mi bola de cristal se ha puesto a brillar sola. {chascarrillo}",
+      "{provincia}, nada menos. {chascarrillo} Ya tengo el ambiente para tu tirada.",
+      "Tierra de {provincia}. {chascarrillo} Esto se nota en el carácter, {nombre}.",
+      "¡Con lo bonita que es {provincia}! {chascarrillo}",
+      "{provincia}. Apuntado en el mapa del destino con una chincheta dorada. {chascarrillo}"
+    ],
+    "extranjero": [
+      "¿Fuera de España? Las cartas tienen pasaporte, tranquilidad.",
+      "Naciste lejos. Mejor: las estrellas se ven desde todas partes y yo tengo tarifa plana de cosmos.",
+      "Del extranjero. Mi globo terráqueo da vueltas de la emoción. Bueno, da vueltas porque le he dado yo.",
+      "¡Fuera de España! Las cartas no entienden de fronteras, solo de corazones.",
+      "Nacer fuera tiene sus ventajas: tienes dos tierras que te echan de menos.",
+      "Del ancho mundo. Me encanta. Te leo las cartas con acento internacional.",
+      "Fuera de España. Ningún problema: el tarot es como la tortilla, se entiende en todos los idiomas.",
+      "El mundo es grande y tú vienes de alguna parte bonita de él. Eso es lo que cuenta."
+    ]
+  }
+}

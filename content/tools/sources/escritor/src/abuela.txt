@@ -1,0 +1,274 @@
+// ABUELA DE PUEBLO: cariñosa, refranera, mandona con dulzura; todo lo arregla comiendo y abrigándose.
+# entrada
+Ay, ay, ay…
+Ay, esta carta ya la vi yo en tu tía.
+Uy, mira tú qué carta.
+Huy, criatura…
+Pues mira, ni tan mal.
+Ay, Virgen del Puño, qué cosas salen.
+Espera que me pongo las gafas. ¿Dónde están las gafas? Ah, en la cabeza.
+Mmm… esta carta tiene cara de domingo.
+Ay, prenda, prenda…
+Esto ya lo decía mi madre, que tenía más ojo que el boticario.
+Calla, calla, que esta me la sé.
+¡Ay, qué susto! No, nada, que se me ha caído la aguja de punto.
+Mira qué dibujito más mono.
+Uy, esta salió también en la boda de tu prima.
+Bueno, bueno, bueno…
+Esta carta la tenía yo cogida con una pinza en la nevera.
+Ay, Señor, lo que hay que ver.
+Mira qué colores. Como el mantel de las fiestas.
+¿Esta? Esta es de las buenas. O de las regulares. De las de casa, vamos.
+Ay, cielo, siéntate bien, que se te va a quedar la espalda como un signo de interrogación.
+A ver, a ver… que con la vista que tengo…
+Ay, corazón, qué carta más tuya.
+Mira, mira, que esto es importante. Deja el teléfono.
+Ah, esta. Esta no falla. Bueno, falló una vez, en el ochenta y tantos.
+@{"invertida": true} Ay, del revés. Como los calcetines de tu abuelo.
+@{"invertida": true} Boca abajo, criatura. Dale la vuelta… no, déjala, que se lee así.
+@{"invertida": true} Invertida. Igual que la tortilla, que hay que darle la vuelta para que salga buena.
+@{"invertida": true} Del revés, como el jersey que te pusiste ayer, que no te dije nada por no molestar.
+@{"arcana": "major"} Uy, una de las gordas. De las que se cuentan en la plaza.
+@{"arcana": "major"} Ay, esta es de las de antes, de las que tienen nombre y apellido.
+@{"arcana": "major"} Una mayor. Como yo. Respeta.
+@{"cardIds": ["mayor-13"]} Ay, la Muerte. No te asustes, corazón, que eso es cambio. Como cuando dejé el pueblo y luego volví.
+@{"cardIds": ["mayor-13"]} La de la guadaña. Esto es que hay que hacer limpieza, criatura. Y tirar esos tuppers sin tapa.
+@{"cardIds": ["mayor-16"]} La Torre. Esto es una obra, criatura. Como la del vecino: mucho ruido y luego queda bonito.
+@{"cardIds": ["mayor-16"]} Uy, la Torre. Algo se viene abajo para levantar algo mejor. Como el gallinero del tío Paco.
+@{"cardIds": ["espadas-10"]} Diez espadas. Pues se acabó lo que se daba. Lo malo ya pasó, cielo. Ahora, un caldito.
+@{"cardIds": ["mayor-09"]} El Ermitaño. Este es como tu abuelo, que se iba a la huerta a no hablar con nadie.
+@{"cardIds": ["mayor-06"]} Los Enamorados. Ay, qué ilusión. ¿Me lo vas a presentar o qué?
+@{"cardIds": ["mayor-04"]} El Emperador. Este manda más que tu tía Encarna en una boda.
+@{"cardIds": ["oros-01"]} ¡El As de Oros! Esto en mi pueblo se celebraba con chocolate con churros.
+@{"cardIds": ["copas-04", "bastos-sota"]} Ay, noticias. Esta carta trae noticias, como el cartero de antes, que te lo contaba todo.
+@{"primeraCarta": true} La primera. Como el primer café: la más importante.
+@{"ultimaCarta": true} Y la última, que ya está bien, que se te enfría la cena.
+@{"horaMin": 0, "horaMax": 5} Ay, a estas horas y con las cartas… Si se entera tu madre.
+
+# puente
+@{"posicion": ["pasado"]} En tu pasado, que a todos nos pesa un poco como la bolsa de la compra…
+@{"posicion": ["pasado"]} Lo de antes, criatura, que yo también tuve mis cosas…
+@{"posicion": ["pasado"]} Mirando para atrás, como hacía yo al salir de misa por si alguien me seguía…
+@{"posicion": ["presente"]} Ahora mismo, que es lo que importa…
+@{"posicion": ["presente"]} Lo de hoy, que es lo que hay en la mesa…
+@{"posicion": ["presente"]} En este momento, criatura, con la cara de sueño que tienes…
+@{"posicion": ["futuro"]} Lo que viene, si Dios quiere y el tiempo acompaña…
+@{"posicion": ["futuro"]} Para más adelante, que nunca se sabe…
+@{"posicion": ["futuro"]} Lo que va a pasar, y que no te pille sin chaqueta…
+@{"posicion": ["consejo"]} Y te digo una cosa, que para eso soy mayor…
+@{"posicion": ["consejo"]} Mi consejo, que es gratis y es bueno…
+@{"posicion": ["obstaculo", "obstaculos"]} Lo que te estorba, como la silla del pasillo…
+@{"posicion": ["obstaculo", "obstaculos"]} Lo que se te atraviesa, como una espina de sardina…
+@{"posicion": ["resultado"]} Y al final, que es lo que cuenta…
+@{"posicion": ["resultado"]} Cómo acaba todo esto, que yo ya lo veo venir…
+@{"posicion": ["situacion"]} Cómo están las cosas, que las veo yo desde la ventana…
+@{"posicion": ["situacion"]} Lo que pasa, que en el pueblo ya lo sabe todo el mundo…
+@{"posicion": ["entorno"]} La gente de tu alrededor, que hay de todo como en botica…
+@{"posicion": ["entorno"]} Los que te rodean, que unos ayudan y otros solo vienen a merendar…
+@{"posicion": ["tu"]} Tú, criatura, que eres lo más bonito de la mesa…
+@{"posicion": ["otra"]} La otra persona, que a ver de qué familia es…
+@{"posicion": ["une"]} Lo que os une, que es como el pegamento de las vajillas…
+@{"posicion": ["separa"]} Lo que os separa, que eso se arregla hablando y con un bizcocho…
+Aquí, en lo de «{posicion}»…
+Donde pone «{posicion}», a ver qué dice…
+Y en «{posicion}», ya verás tú…
+@{"primeraCarta": false} Y después de {cartaAnterior}, mira tú lo que sale…
+@{"primeraCarta": false} {cartaAnterior} ya lo avisó, y esta lo remata…
+
+# personalizacion
+Ay, {nombre}, con lo que yo te quiero.
+{nombre}, qué nombre tan bonito. A tu edad, {edad} años, yo ya había bordado tres ajuares.
+¿{edad} años? Pues te conservas como el membrillo en la despensa: de maravilla.
+Los de {provincia} sois así, buena gente. Y de buen comer: {plato} no lo perdonáis.
+¿Has comido, {nombre}? Que te veo flojito el ánimo. Mira, {plato} es lo que te hace falta.
+En {provincia} ya lo decía todo el mundo: {clima}. Por eso tienes ese carácter.
+Para {fiesta} me tienes que llevar, {nombre}, que yo ya no bailo pero miro.
+Lo {gentilicio} se te nota en la cara, criatura. Para bien.
+{nombre}, con la {inicial}, como mi vecina de enfrente, que era buenísima persona. Chismosa, pero buena.
+Un {signo}. Ya me lo imaginaba yo, por cómo coges las cartas.
+Tu número es el {numeroVida}, que decía mi abuela que traía suerte. Lo decía de todos, pero bueno.
+Es {diaSemana}, que es buen día para hacer caldo y llamar a la familia.
+En {estacion}, abrígate. Y si no hace frío, también, por si acaso.
+@{"primeraCarta": false} Mira, {nombre}: después de {cartaAnterior}, esta {carta} es como el postre después del cocido.
+@{"primeraCarta": false} {cartaAnterior} y luego {carta}. Esto es como tu tío: primero refunfuña y luego te da un abrazo.
+{carta}, {nombre}. Me acuerdo yo de una vez que me salió esta y al día siguiente encontré el monedero.
+Ay, {nombre}, ¿de verdad me vas a hacer creer que no sabías lo que significa {carta}? Si te lo conté yo.
+@{"horaMin": 0, "horaMax": 5} ¿Pero qué haces sin dormir a estas horas, {nombre}? ¡A la cama, que mañana no hay quien te levante!
+@{"horaMin": 0, "horaMax": 5} A estas horas solo estamos tú, yo y el gato. Y el gato duerme.
+@{"horaMin": 2, "horaMax": 5} Las {hora} de la mañana… En mis tiempos a esta hora ya se ordeñaba. Tú, por lo menos, tómate un vaso de leche.
+@{"horaMin": 6, "horaMax": 9} Tan temprano y ya con las cartas. ¿Has desayunado? Que sin desayunar no se lee el futuro.
+@{"horaMin": 13, "horaMax": 15} Es hora de comer, {nombre}. Las cartas esperan; los garbanzos, no.
+@{"horaMin": 15, "horaMax": 17} A la hora de la siesta. Yo, si me quedo traspuesta, tú sigue barajando.
+@{"horaMin": 20, "horaMax": 22} Ya es hora de cenar algo ligerito, {nombre}. Una tortilla francesa y a leer cartas.
+@{"decadaMin": 40} A tus {edad} años ya sabes lo que es la vida, criatura. Pero escucha a la abuela igual.
+@{"decadaMin": 60} Tú y yo ya tenemos una edad, {nombre}. Esto lo entendemos sin explicaciones.
+@{"decadaMax": 20} Qué joven eres, {nombre}. Con {edad} años yo ya sabía hacer croquetas, pero no te lo echo en cara.
+@{"decadaMin": 30, "decadaMax": 30} Los treinta, {nombre}. La edad en que empiezas a decir «uy» al agacharte.
+@{"tema": ["amor"]} ¿Y hay alguien, {nombre}? No me pongas esa cara, que pregunto por preguntar.
+@{"tema": ["amor"]} En el amor, como en el cocido: paciencia, fuego lento y no destapar la olla a cada rato.
+@{"tema": ["amor"]} A ver si me traes a alguien a comer el domingo, que hago croquetas de más.
+@{"tema": ["trabajo"]} El trabajo, {nombre}, es como la masa del pan: hay que dejarlo reposar.
+@{"tema": ["trabajo"]} Tú trabaja, pero no te mates, que la salud no se compra en la mercería.
+@{"tema": ["dinero"]} El dinero, criatura, en el colchón no; pero tampoco en tonterías. Pregúntale a alguien que sepa de cuentas.
+@{"tema": ["dinero"]} Ahorrar es de sabios, gastar en croquetas también. El equilibrio, cielo.
+@{"tema": ["salud"]} Para la salud, caldo, paseo y médico. En ese orden no, al revés.
+@{"signo": ["tauro"]} Tauro, igual que tu abuelo: cabezota y de buen comer.
+@{"signo": ["cancer"]} Cáncer, sensible como una servilleta de encaje.
+@{"signo": ["libra"]} Libra, que no sabes si quieres flan o natillas. Pues las dos, criatura.
+@{"signo": ["acuario"]} Acuario, siempre con tus ideas raras. Como mi sobrino el que se fue a Berlín.
+@{"signo": ["aries"]} Aries, de pronto pronto. Como la olla exprés cuando pita.
+@{"signo": ["escorpio"]} Escorpio, que tienes un pronto… Como tu tía Encarna con el mando de la tele.
+@{"diaSemana": [7]} Domingo, día de familia, paella y siesta. Y de cartas, por lo visto.
+@{"diaSemana": [5]} Viernes. Hoy toca pescado. Y cartas, que no está prohibido.
+@{"diaSemana": [1]} Lunes. Día de poner la lavadora y de pensar en las cosas.
+@{"diaSemana": [6]} Sábado: mercado por la mañana y cartas por la tarde, como Dios manda.
+@{"faseLunar": ["llena"]} Con luna llena se siembran los ajos y se miran las cartas. Lo decía mi padre.
+@{"faseLunar": ["menguante"]} Con luna menguante se corta el pelo para que crezca fuerte. Y se cortan las tonterías.
+@{"faseLunar": ["creciente"]} Luna creciente, buen tiempo para la masa del pan… y para lo tuyo.
+@{"faseLunar": ["nueva"]} Luna nueva, criatura: ni siembres ni llores. Tómate un descafeinado.
+@{"primeraCarta": true} {nombre}, empezamos. Siéntate bien, cielo, que la espalda es para toda la vida.
+@{"ultimaCarta": true} La última, {nombre}, y luego te pongo algo de merienda.
+En los {decada} se está muy bien, criatura. Se lo dice quien los pasó con rulos.
+Mira, {nombre}, tus ojos me recuerdan a los de tu bisabuelo. Bueno, no lo conocí, pero me lo imagino.
+
+# guino
+Más vale pájaro en mano que ciento volando. Y más vale croqueta en plato que cien en la sartén.
+A quien madruga, Dios le ayuda. Y a quien no, le guardo el desayuno.
+Agua que no has de beber, déjala correr. Pero cierra el grifo, que luego viene la factura.
+En abril, aguas mil. Y en noviembre, bufanda siempre.
+Cría fama y échate a dormir. Pero échate pronto.
+De tal palo, tal astilla. Y de tal abuela, tal croqueta.
+No hay mal que por bien no venga. Ni tortilla sin cebolla en esta casa.
+Quien bien te quiere te hará llorar… pelando cebollas para el sofrito.
+Dios aprieta pero no ahoga. Como yo cuando te doy un abrazo.
+Lo que no mata, engorda. Bueno, esto lo decía tu abuelo con la panceta.
+Al pan, pan, y al vino, vino. Y a la abuela, respeto.
+Hasta el cuarenta de mayo no te quites el sayo. Y el treinta y nueve, tampoco.
+Más sabe el diablo por viejo que por diablo. Y la abuela por abuela.
+En casa del herrero, cuchillo de palo. En casa de la abuela, tupper de vuelta.
+Ojos que no ven, corazón que no siente. Pero la abuela todo lo ve.
+A buen hambre no hay pan duro. Pero hay que mojarlo en algo.
+No por mucho madrugar amanece más temprano, pero se coge el pan caliente.
+Quien tiene un amigo tiene un tesoro. Y quien tiene una abuela, tiene tápers.
+Las cuentas claras y el chocolate espeso.
+Cuando el río suena, agua lleva. Y cuando la vecina habla, cotilleo lleva.
+De noche todos los gatos son pardos. Y de día, el mío es atigrado.
+Más vale ponerse una vez colorado que ciento amarillo. Y más vale una rebeca que un catarro.
+Quien con niños se acuesta, mojado se levanta. Ya me entiendes.
+Dime de qué presumes y te diré de qué careces. Yo presumo de croquetas y carezco de nada.
+Al que no quiere caldo, tres tazas. Y al que sí, cuatro.
+El que tiene boca se equivoca. Y el que tiene cartas, también, pero menos.
+Yo de joven echaba las cartas en la era, con un candil y un perro mirando.
+Mi abuela echaba las cartas con la baraja de la tienda, la que traía publicidad de una gaseosa. Acertaba igual.
+En mi pueblo, quien quería saber el futuro le preguntaba a la señora de la farmacia. Sabía más que nadie.
+Esto lo leí yo en una revista de la peluquería, que es donde se aprende lo importante.
+Yo no creo en las brujas, pero haberlas, haylas. Y alguna juega al bingo conmigo.
+Tú come, que estás en los huesos. Aunque no lo estés, tú come.
+La paciencia es buena hasta para hacer ganchillo.
+Lo que se hereda no se hurta. Esa nariz la sacaste de tu tía.
+Los domingos, la familia. Los lunes, la lavadora. Las cartas, cuando haga falta.
+Cada uno en su casa y Dios en la de todos. Y yo en la de todos los nietos.
+El ojo del amo engorda al caballo. Y la cuchara de la abuela, al nieto.
+Más vale tarde que nunca. Pero llega a la hora de comer, que se enfría.
+Quien guarda, halla. Por eso tengo cuarenta botes de cristal vacíos.
+Año de nieves, año de bienes. Año de croquetas, año de nietos contentos.
+Las penas con pan son menos. Y con pan y chocolate, ni te cuento.
+A la vejez, viruelas. Que yo me he apuntado a zumba, criatura.
+Esto se arregla con un vaso de leche caliente y una manta. Como todo.
+Si te duele algo, ya sabes: ve al médico y luego me lo cuentas con detalle.
+Dios los cría y ellos se juntan. Como las migas y el chorizo.
+Mi madre decía que los jueves, ni cartas ni discusiones. Pero mi madre no estaba en internet.
+A mí no me hace falta el tarot: con mirarte a la cara ya sé lo que has cenado.
+El que se fue a Sevilla perdió su silla. Y el que se levanta del sofá, también.
+Quien canta, sus males espanta. Yo canto copla mientras friego y no me ha ido mal.
+No hay que vender la piel del oso antes de cazarlo. Ni la tortilla antes de cuajarla.
+A cada cual lo suyo, y a mí, el sitio junto a la ventana.
+La procesión va por dentro, pero el olor a incienso se nota fuera.
+Ay, si tu abuelo te viera echando las cartas. Bueno, está en el bar, pero luego se lo cuento.
+@{"tema": ["amor"]} El amor y la tos no se pueden ocultar. Y la tos me preocupa más; ve al médico.
+@{"tema": ["amor"]} Quien bien te quiere, te avisa de que llevas una mancha en la camisa.
+@{"tema": ["trabajo"]} El trabajo dignifica. La siesta también, pero eso no lo dice nadie.
+@{"tema": ["dinero"]} Poderoso caballero es don Dinero. Pero no se lo digas, que se lo cree.
+@{"faseLunar": ["llena"]} Con la luna llena hasta las gallinas están raras.
+@{"horaMin": 0, "horaMax": 5} A estas horas solo están despiertos los búhos y los que tienen penas. Y tú no tienes cara de búho.
+
+# cambioHumor
+Ay, perdona, criatura, que me ha dado un aire. Ya estoy. ¿Por dónde íbamos? Ah, sí, por tu vida.
+Espera, que me he levantado a apagar el fuego. Ya. Sigo, que si no se me olvida.
+Uy, me he quedado traspuesta un momento. Pero ya estoy aquí, con mis gafas y todo.
+Ay, que me ha venido el olor del cocido y me he puesto tierna. Seguimos, cielo.
+Calla, que me ha entrado la nostalgia. Ahora te leo las cartas como las leía mi madre.
+Perdona, que estaba hablando como en la tele. Ahora te hablo como en casa.
+Ay, ya no sé ni lo que digo. Mira, siéntate, que te lo cuento como abuela, que es lo que soy.
+Espera, que me pongo la rebeca. Ahora sí.
+Uy, se me ha ido el santo al cielo. Ya bajó. Sigamos.
+Me ha dado un vahído de los de antes. Nada, un vaso de agua y a seguir con lo tuyo.
+Perdona el arrebato, criatura. Es que me he tomado dos cafés con las rosquillas. Ya me calmo.
+Ay, que me he acordado de tu abuelo y me he puesto así. Venga, que esto sigue.
+
+# sintesis
+Pues ya está, {nombre}. Las cartas dicen lo que yo ya sabía: que eres buena persona y que tienes que comer más.
+Mira, criatura, todo tiene arreglo menos lo que no lo tiene, y eso tampoco es tan grave.
+Esto, en resumidas cuentas, es que vas bien. Despacito, pero bien. Como el tractor del tío Andrés.
+Las cartas son las cartas, pero la vida es tuya. Hazle caso a la abuela y abrígate.
+Ya lo ves, cielo: ni tan bien como para tirar cohetes ni tan mal como para no ir a la verbena.
+@{"mayoresMin": 3} Ay, cuántas cartas gordas. Esto es un momento importante, {nombre}. De los que se cuentan en Navidad.
+@{"mayoresMin": 3} Tanta carta mayor junta no la veía yo desde la boda de tu tía. Algo grande se cuece.
+@{"suitDominante": "copas"} Muchas copas, criatura. Aquí lo que hay es corazón. Cuídalo como a una maceta.
+@{"suitDominante": "copas"} Tanta copa… Brindis, abrazos y alguna lagrimilla. Lo que viene siendo una boda.
+@{"suitDominante": "oros"} Muchos oros. Esto es cosa de lo práctico: casa, trabajo, cuentas. Con cabeza, cielo.
+@{"suitDominante": "oros"} Oros por todas partes. Ni se te ocurra fiarte del primero que llame a la puerta prometiendo.
+@{"suitDominante": "espadas"} Muchas espadas. Hay que hablar las cosas, {nombre}. Con calma y con un café delante.
+@{"suitDominante": "espadas"} Tanta espada… Esto es que le das muchas vueltas a la cabeza. Duerme, criatura.
+@{"suitDominante": "bastos"} Muchos bastos. Trabajo y movimiento. Ni te sientes ni te pares, pero cena caliente.
+@{"suitDominante": "bastos"} Bastos y más bastos. Esto es energía de la buena, de la que se tenía antes.
+@{"figurasMin": 2} Cuánta gente ha salido, {nombre}. Esto parece la cola de la carnicería. Habrá que ver quién es quién.
+@{"figurasMin": 3} Reyes, sotas, caballos… Aquí está toda la familia. Y alguno que no ha sido invitado.
+@{"tema": ["amor"]} En el amor, {nombre}, lo que tenga que ser será. Y si no es, no era para ti. Mientras, merienda.
+@{"tema": ["trabajo"]} En el trabajo, poquito a poco, que se llega lejos. Y lleva tartera.
+@{"tema": ["dinero"]} Con el dinero, prudencia, criatura. Que lo que hoy brilla mañana es lata. Y para decisiones, alguien que sepa.
+@{"tema": ["salud"]} Y de la salud, lo que te diga el médico, que yo solo sé de caldos.
+
+# saludo
+Ay, {nombre}, pasa, pasa, que te estaba esperando. Siéntate, que te saco algo.
+Hola, cielo. ¿Vienes de {provincia}? Ya decía yo que tenías cara de buena gente.
+Pasa, criatura, y no hagas caso al perro, que ladra pero es más bueno que el pan.
+Ay, {nombre}, qué alegría. Lávate las manos y te echo las cartas.
+Siéntate en la mesa camilla, que está el brasero puesto.
+Mira quién ha venido. {nombre}, de {provincia}. Ya me han contado cosas de ti. Todas buenas, ¿eh?
+Acomódate como quieras, cielo. En esta casa no se pregunta, se sirve.
+Hola, prenda. Que sepas que las cartas no son un juego. Bueno, sí, son un juego. Pero de los serios.
+Ay, qué guapura de persona. Venga, saca la baraja que tenemos tarde.
+Bendita la hora en que entras por esa puerta, alma de cántaro.
+@{"horaMin": 0, "horaMax": 5} ¿Ahora vienes? ¿A estas horas? Bueno, pasa, que no te voy a dejar en la puerta.
+@{"tema": ["amor"]} ¿De amores vienes? Ay, que me lo cuentes todo. Pero primero, las cartas.
+@{"tema": ["trabajo"]} ¿Del trabajo? Pues siéntate, que te veo cara de jornada larga.
+@{"tema": ["salud"]} ¿De salud? Ay, criatura, que eso es para el médico. Pero te echo las cartas para que te distraigas.
+
+# despedida
+Venga, {nombre}, ve con Dios y llévate unas croquetas para el camino.
+Ay, que ya te vas. Pues llama cuando llegues, ¿eh?
+Hasta luego, cielo. Y abrígate, que refresca.
+Que te vaya bonito, {nombre}. Y saluda a tu madre de mi parte.
+Ya está, criatura. Ahora vete a dormir, que mañana hay que madrugar.
+Toma, un beso. Y otro. Y no te limpies, que es de abuela.
+Vuelve pronto, que la baraja te echa de menos. Y yo más.
+Ve con cuidado, {nombre}, que hay mucho loco por la carretera.
+Llévate el táper, que luego me lo devuelves lleno. Ya sabes cómo va esto.
+Que no se te olvide: esto es para pasar el rato. Lo importante lo decides tú. Y comes bien.
+Adiós, prenda. Y no le cuentes a nadie lo de las cartas, que luego vienen todas las vecinas.
+@{"horaMin": 21, "horaMax": 23} Ya es tarde, {nombre}. A la cama, que las cartas duermen también.
+@{"horaMin": 0, "horaMax": 5} A dormir, criatura, que a estas horas solo trabajan los panaderos.
+Hasta otra, {nombre} de {provincia}. Dale recuerdos a la tierra.
+
+# salud
+Ay, criatura, para eso mejor tu médico. Yo te hago un caldito, pero las recetas las firma él.
+Para la salud, cielo, el médico. Las cartas, para el entretenimiento, que no están colegiadas.
+Mira, {nombre}, de salud no te digo nada: ve al médico, que es lo que hacía yo. Y luego cuéntamelo.
+Las cartas no curan ni un catarro. Para eso, mejor tu médico. Y miel con limón.
+Esto de la salud es cosa seria. A tu médico, que para eso estudió tantos años.
+Yo te digo lo que veo en las cartas, que es poco. Lo que tienes, te lo dice tu médico.
+Ni tarot ni péndulo ni santiguarse: para la salud, mejor tu médico.
+Mi madre curaba con hierbas, pero luego íbamos al médico igual. Haz tú lo mismo.
+Te lo digo como abuela: al médico, y no esperes a que se pase solo.
+Las cartas son para reírse un rato, cielo. Para la salud, lo que te diga tu médico.

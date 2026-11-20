@@ -1,0 +1,270 @@
+// IRÓNICA Y SINCERA: seca, lúcida, cómplice; se ríe del oficio y de sí misma, nunca del usuario.
+# entrada
+Vale.
+Ajá.
+Mira tú.
+Bueno. Podría ser peor. Podría ser lunes.
+Pues sí. Esto es una carta.
+Ah. Esta.
+No voy a fingir sorpresa.
+Qué casualidad. Bueno, técnicamente todo esto es casualidad.
+A ver qué excusa me da esta.
+Mmm. Tengo opiniones.
+Sí, ya. Yo tampoco la habría elegido.
+Esto lo podías haber visto venir. Literalmente: estaba boca abajo delante de ti.
+Ya está. Respira. Que yo también.
+Pongo cara de vidente y te cuento.
+Silencio dramático incluido en el precio. Que es cero.
+Qué bonita es. Lástima lo que significa. Es broma. Más o menos.
+Esto es lo que hay. Literalmente, es lo que hay sobre la mesa.
+Ni tan mal, oye.
+Interesante. Y lo digo con la ceja levantada.
+Esta carta y yo tenemos historia. No preguntes.
+Hago como que me concentro. Ya.
+Bien. Me gusta. No me fío, pero me gusta.
+Ah, esta. La que nunca sale cuando la quieres.
+Tú has barajado. Yo solo leo. Que conste.
+@{"invertida": true} Invertida. Como mis expectativas.
+@{"invertida": true} Del revés. Le doy la vuelta mentalmente y seguimos.
+@{"invertida": true} Boca abajo. Hasta las cartas tienen días de no querer mirarte a la cara.
+@{"invertida": true} Invertida. Que no cunda el pánico: significa lo mismo, pero con matices y mala postura.
+@{"arcana": "major"} Arcano mayor. Ahora es cuando pongo voz seria. Ya está. Se me pasó.
+@{"arcana": "major"} Un mayor. De los que se creen importantes. Y lo son, qué rabia.
+@{"arcana": "major"} Ojo, arcano mayor. Esto viene con banda sonora y todo.
+@{"cardIds": ["mayor-16"]} La Torre. Sí, ya. Yo tampoco lo habría elegido.
+@{"cardIds": ["mayor-16"]} La Torre. Algo se cae. Normalmente, lo que estaba mal puesto. Como mis estanterías.
+@{"cardIds": ["mayor-13"]} La Muerte. Antes de que te asustes: es cambio. El tarot tiene un departamento de marketing pésimo.
+@{"cardIds": ["mayor-13"]} La Muerte. Que no, que no es literal. Es cerrar una etapa. Se llama así por puro dramatismo medieval.
+@{"cardIds": ["espadas-10"]} El diez de espadas. Ya no puede ir a peor, que es una forma muy optimista de verlo.
+@{"cardIds": ["espadas-10"]} Diez espadas. Bastante sutil, ¿verdad? Fin de un ciclo. Toca levantarse y sacudirse.
+@{"cardIds": ["mayor-12"]} El Colgado. Cabeza abajo y tan tranquilo. Ojalá su paciencia.
+@{"cardIds": ["mayor-09"]} El Ermitaño. Básicamente, tú un domingo con el móvil en silencio.
+@{"cardIds": ["mayor-15"]} El Diablo. No es para tanto: es esa tentación que tienes en la nevera.
+@{"cardIds": ["mayor-00"]} El Loco. No te ofendas. Es un cumplido. Creo.
+@{"cardIds": ["mayor-19"]} El Sol. Una buena noticia. Apúntalo, que no pasa a menudo.
+@{"primeraCarta": true} Primera carta. Calentando.
+@{"ultimaCarta": true} La última. Ya casi te libras de mí.
+@{"horaMin": 0, "horaMax": 5} A estas horas todas las cartas parecen más profundas. Es el sueño.
+
+# puente
+@{"posicion": ["pasado"]} En el pasado. Que ya pasó, pero tú sigues dándole vueltas…
+@{"posicion": ["pasado"]} Tu pasado, ese sitio al que vuelves más de lo recomendable…
+@{"posicion": ["pasado"]} Lo de antes. Lo que ya no se puede cambiar, pero sí comentar…
+@{"posicion": ["presente"]} Ahora mismo, que es lo único que de verdad controlas. Un poco…
+@{"posicion": ["presente"]} En el presente, o sea, aquí, leyendo esto…
+@{"posicion": ["presente"]} Hoy. Así, sin adornos…
+@{"posicion": ["futuro"]} En el futuro. Que nadie conoce, pero aquí estamos, haciendo como que sí…
+@{"posicion": ["futuro"]} Lo que viene. Con todas las reservas del mundo…
+@{"posicion": ["futuro"]} El futuro, ese spoiler que nadie te va a dar del todo…
+@{"posicion": ["consejo"]} Como consejo, y sin que sirva de precedente…
+@{"posicion": ["consejo"]} El consejo. Que tú harás lo que quieras, pero bueno…
+@{"posicion": ["obstaculo", "obstaculos"]} Lo que te frena. Que muchas veces eres tú, pero sigamos…
+@{"posicion": ["obstaculo", "obstaculos"]} El obstáculo. Siempre hay uno; si no, no sería una tirada…
+@{"posicion": ["resultado"]} Y el resultado. Redoble de tambores imaginario…
+@{"posicion": ["resultado"]} Cómo acaba. O cómo podría acabar si nada se tuerce. Que se tuerce…
+@{"posicion": ["situacion"]} La situación, tal cual está, sin filtro de la cámara…
+@{"posicion": ["situacion"]} Lo que hay. Ni más ni menos…
+@{"posicion": ["entorno"]} Tu entorno. Esa gente que opina sin que le preguntes…
+@{"posicion": ["entorno"]} Alrededor tuyo. Ya sabes de quién hablo…
+@{"posicion": ["tu"]} Tú. La persona de la que menos sabes, aunque no lo parezca…
+@{"posicion": ["otra"]} La otra persona. Que, por cierto, no está aquí para defenderse…
+@{"posicion": ["une"]} Lo que os une. Además del grupo de chat…
+@{"posicion": ["separa"]} Lo que os separa. Que suele ser algo pequeño con muchísima mala prensa…
+En «{posicion}». Que suena muy solemne para lo que es…
+En la casilla de «{posicion}», por si se te había ido el hilo…
+Y aquí, en «{posicion}», viene la parte interesante. Supuestamente…
+@{"primeraCarta": false} Después de {cartaAnterior}, esto. Hay un hilo, si entornas los ojos…
+@{"primeraCarta": false} {cartaAnterior} planteó la pregunta. Esta intenta contestar. Intenta…
+
+# personalizacion
+{nombre}. Bonito nombre. Seguramente no tiene nada que ver con las cartas, pero queda bien decirlo.
+{nombre}, te voy a ser sincera: esta carta te pega más de lo que te gustaría.
+La {inicial} de {nombre}. Podría inventarme algo sobre la {inicial}. No lo voy a hacer. Bueno, un poco sí.
+{edad} años, {nombre}. La edad perfecta para saber que esto es un juego y jugarlo igual.
+Un {signo}. No te voy a decir lo típico de los {signo}. Ya lo estás pensando por tu cuenta.
+Tu número de vida es el {numeroVida}. Es un número. Tiene sus cosas. Como todos.
+Nacer en {provincia} imprime carácter. Lo de {plato}, sobre todo.
+En {provincia}, {clima}. Normal que tengas ese aguante.
+Lo {gentilicio} en ti se nota. No sé exactamente en qué. Pero se nota.
+Esta carta, {nombre}, la conozco mejor que a algunos de mis parientes.
+Es {diaSemana}. Las cartas no saben qué día es, pero tú sí, y eso cuenta.
+Estamos en {estacion}. Lo menciono porque el horóscopo siempre menciona la estación. Tradición.
+Si alguien en {provincia} te pregunta qué te ha salido, diles que {carta}. Y luego cambia de tema.
+@{"primeraCarta": false} {cartaAnterior} y ahora {carta}. Si esto fuera una serie, el guionista sabría lo que hace.
+@{"primeraCarta": false} De {cartaAnterior} a {carta}. Narrativamente, me gusta. Personalmente, te deseo suerte.
+{carta}, {nombre}. Te la explicaría con un gráfico, pero no traje diapositivas.
+Mira, {nombre}: {carta} no dice lo que vas a hacer. Dice lo que ya sabías y no querías admitir.
+@{"horaMin": 0, "horaMax": 5} ¿Qué haces sin dormir a estas horas, {nombre}? Bueno, yo tampoco duermo, que estoy aquí.
+@{"horaMin": 0, "horaMax": 5} Son horas de dormir, {nombre}. Pero tú has elegido el tarot. Respeto la decisión. No la entiendo, pero la respeto.
+@{"horaMin": 2, "horaMax": 5} Las {hora} de la madrugada. A estas horas todo parece una señal. Spoiler: es sueño.
+@{"horaMin": 6, "horaMax": 9} Tarot antes del café, {nombre}. Valiente.
+@{"horaMin": 13, "horaMax": 15} A la hora de comer. Las cartas no tienen hambre; tú, probablemente sí.
+@{"horaMin": 16, "horaMax": 19} Media tarde, {nombre}. La hora oficial de procrastinar. Y aquí estamos.
+@{"decadaMin": 40} A tus {edad} años ya sabes que el destino no existe. Pero oye, un poquito de ilusión no hace daño.
+@{"decadaMin": 60} {nombre}, con {edad} años has visto más cosas que esta baraja. Me callo y te escucho. Es broma, sigo hablando.
+@{"decadaMax": 20} Con {edad} años, {nombre}, el futuro es tan grande que cualquier carta acierta algo.
+@{"decadaMin": 30, "decadaMax": 30} Los treinta. Esa década en la que te emociona comprar una fregona buena.
+@{"tema": ["amor"]} El amor, {nombre}. El tema que las cartas fingen entender mejor.
+@{"tema": ["amor"]} Sobre el amor: las cartas sugieren. La otra persona decide. Tú, mientras, contestas los mensajes.
+@{"tema": ["amor"]} Si estás pensando en alguien, {nombre}, ya sabes que esta carta no le va a escribir por ti.
+@{"tema": ["trabajo"]} El trabajo, {nombre}. Esa cosa que ocupa casi todo el día y casi todas tus quejas.
+@{"tema": ["trabajo"]} En lo laboral, la carta dice «paciencia». Las cartas siempre dicen «paciencia». Es su comodín.
+@{"tema": ["dinero"]} Del dinero solo te diré una cosa: no lo decidas por una carta. Ni por mí. Pregunta a alguien con calculadora.
+@{"tema": ["dinero"]} El dinero, {nombre}. El tarot no tiene licencia financiera. Te lo digo antes de que preguntes.
+@{"tema": ["salud"]} Sobre la salud, {nombre}: médico. Yo leo cartas de cartón.
+@{"signo": ["virgo"]} Virgo. Sé que estás revisando si las cartas están alineadas. No lo están. Lo siento.
+@{"signo": ["geminis"]} Géminis. Una mitad de ti cree en esto; la otra, no. Hablo con las dos.
+@{"signo": ["escorpio"]} Escorpio. Me estás mirando con desconfianza. Normal. Yo también me miraría así.
+@{"signo": ["aries"]} Aries. Ya has decidido antes de que termine. Pero déjame acabar, que me hace ilusión.
+@{"signo": ["tauro"]} Tauro. Vas a hacer lo que ibas a hacer, salga lo que salga. Bien hecho.
+@{"signo": ["acuario"]} Acuario. Seguro que tienes una teoría alternativa sobre esta carta. Me encantaría oírla. Otro día.
+@{"signo": ["cancer"]} Cáncer. Te estás tomando esto más a pecho de lo que debería. Me parece adorable.
+@{"diaSemana": [1]} Lunes. Una tirada en lunes ya es un acto de optimismo.
+@{"diaSemana": [3]} Miércoles. El día de la semana que nadie recuerda. Le damos protagonismo.
+@{"diaSemana": [5]} Viernes, {nombre}, y aquí con el tarot. Un plan como otro cualquiera.
+@{"diaSemana": [7]} Domingo. Ese día en que todo es posible salvo hacer algo productivo.
+@{"faseLunar": ["llena"]} Luna llena. Lo digo para darle ambiente. La luna, en realidad, ni se ha enterado.
+@{"faseLunar": ["menguante"]} Luna menguante. La luna también tiene días de hacer menos. Te entiendo, luna.
+@{"faseLunar": ["nueva"]} Luna nueva. La luna está ahí aunque no la veas. Como tus propósitos de año nuevo.
+@{"estacion": ["otono"]} Otoño. La estación en la que todo el mundo se pone melancólico y se compra una manta.
+@{"estacion": ["verano"]} Verano. Hasta las cartas se derriten un poco.
+@{"primeraCarta": true} Empezamos, {nombre}. Te advierto que me gusta comentarlo todo.
+@{"ultimaCarta": true} Última carta, {nombre}. Si no te gusta, puedes fingir que no la has visto. Yo lo hago mucho.
+Los {decada}, {nombre}. Ni la mejor ni la peor década. La tuya, que es la que cuenta.
+
+# guino
+El tarot no predice el futuro. Pero predice muy bien de qué vas a hablar esta noche.
+Las cartas nunca mienten. Tampoco dicen la verdad. Son muy diplomáticas.
+Mercurio retrógrado es la excusa más elegante del sistema solar.
+Más vale pájaro en mano que ciento volando. Y más vale una cita confirmada que cien «ya hablamos».
+A quien madruga, Dios le ayuda. A quien no, le ayuda el café. A mí, los dos.
+No hay mal que cien años dure. Ni tirada de tarot que dure más de cinco minutos, por suerte.
+Esto es entretenimiento. Lo digo yo antes de que lo diga el aviso legal.
+Mi bola de cristal funciona perfectamente. Solo tiene una imagen: mi reflejo con cara de sueño.
+Tengo veintitrés diplomas. Ninguno sirve para nada. Todos están enmarcados.
+Si las cartas acertaran siempre, yo no viviría en un tercero sin ascensor.
+El destino es como el wifi del tren: está, pero no siempre se conecta.
+Dime con quién andas y te diré por qué llegas tarde.
+Agua que no has de beber, déjala correr. O mejor no, que hay sequía.
+Al que madruga, le toca abrir la oficina.
+No por mucho madrugar amanece más temprano. Pero se encuentra aparcamiento.
+De tal palo, tal astilla. Y de tal baraja, tal lectura.
+La esperanza es lo último que se pierde. Lo primero son las llaves.
+El que tiene boca se equivoca. Yo tengo boca y baraja: me equivoco el doble, pero con estilo.
+El tarot es como el horóscopo del periódico, pero con más cartón.
+Cuando una puerta se cierra, otra se abre. Revisa las corrientes de aire.
+Hay quien lee los posos del café. Yo leo el ticket de la compra y también se aprende mucho.
+Los astros no deciden nada. Pero se les da muy bien llevarse el mérito.
+Ver para creer. O en mi caso, creer para ver. Que es más barato.
+La sinceridad es un arte. El tarot, también. Juntas, un desastre encantador.
+He estudiado el tarot durante años. Los primeros, sobre todo, buscando las cartas que se me caían debajo del sofá.
+Todo pasa por algo. Normalmente por no haber leído las instrucciones.
+No es que sea pesimista, es que he leído muchas cartas.
+Lo que tenga que ser, será. Que es la frase más útil para no tomar decisiones.
+Si el tarot fuera exacto, lo darían en la ESO.
+El universo te manda señales. Lo malo es que las manda sin subtítulos.
+La vida es como una tirada de tarot: nadie sabe muy bien qué está pasando, pero todos asentimos.
+Quien siembra vientos recoge tempestades. Quien siembra excusas, recoge más excusas.
+Al mal tiempo, buena cara. Y paraguas, que la cara no protege.
+La curiosidad mató al gato. Bueno, no, lo dejó muy pensativo. El gato está bien.
+Mis cartas son de segunda mano. Tienen experiencia. Y alguna mancha de café.
+No hay casualidades, dicen. Pues mira, hoy hay unas cuantas.
+Te diría que sigas tu intuición, pero tu intuición te trajo a una web de tarot de humor. Respeto.
+El karma existe. Lo sé porque siempre que digo «hoy no llueve», llueve.
+Más sabe el diablo por viejo que por diablo. Y yo, por haber dormido poco.
+Nadie es profeta en su tierra. Yo no lo soy ni en mi portal.
+Ojos que no ven, notificaciones que se acumulan.
+El tiempo lo cura todo. Excepto la manía de mirar el móvil.
+Lo bueno, si breve, dos veces bueno. Por eso no hago la Cruz Celta.
+La procesión va por dentro. Y por fuera, la cara de póquer.
+Yo no te digo lo que quieres oír. Te digo lo que pone en la carta, que es peor.
+Dicen que las cartas eligen a quien las lee. A mí me eligieron en un rastro, por dos euros.
+Todo el mundo tiene un día tonto. El mío suele ser hoy.
+El que algo quiere, algo le cuesta. En este caso, cinco minutos y algo de dignidad.
+@{"tema": ["amor"]} En el amor, como en las mudanzas, siempre aparecen cosas que no sabías que tenías.
+@{"tema": ["amor"]} Quien bien te quiere te contestará antes de las doce horas.
+@{"tema": ["trabajo"]} El trabajo dignifica. La reunión que podía ser un correo, no tanto.
+@{"tema": ["dinero"]} Poderoso caballero es don Dinero. Y muy escurridizo.
+@{"invertida": true} Las cartas invertidas son como las tostadas: caen como quieren.
+@{"horaMin": 0, "horaMax": 5} A estas horas lo sensato sería dormir. Pero lo sensato no tiene tanta gracia.
+
+# cambioHumor
+Perdona, me ha dado un aire. Ya se me ha pasado la solemnidad. Vuelvo a ser yo.
+Vale, me estaba poniendo intensa. Recalculo.
+Un momento, que me he oído y me he dado vergüenza ajena. Sigo, pero más normal.
+Me ha dado un aire de sinceridad. Es crónico. Seguimos.
+Uy, perdona, se me ha ido la voz a tono de anuncio. Ya. Hablemos como personas.
+Me estaba creyendo mi propio personaje. Fallo mío. Retomo con los pies en el suelo.
+Pausa técnica. He decidido que a partir de aquí te lo cuento sin adornos.
+Me he despistado y he empezado a hablar en verso. No volverá a pasar. Probablemente.
+Vale, ya me he cansado de las velas. Hablemos claro.
+Perdona, que tenía puesto el modo vidente profesional. Lo apago. Ya está.
+Me ha dado un aire. Era el aire acondicionado. Y la lucidez. Seguimos.
+Corto la música dramática que sonaba en mi cabeza. Gracias. Continúo.
+
+# sintesis
+Resumiendo, {nombre}: las cartas dicen cosas. Tú harás lo que quieras. Que es exactamente lo que deberías hacer.
+En conjunto, no está mal. Y viniendo de mí, eso es casi un aplauso.
+Esta lectura tiene de todo: algo bueno, algo regular y algo que no he entendido. Como la vida.
+Conclusión sincera: nada de esto es obligatorio. Pero hay un par de cosas que deberías pensar.
+La tirada, en resumen, te recomienda lo de siempre: dormir, hablar claro y beber agua. Lo sé, poco místico.
+@{"mayoresMin": 3} Tres o más arcanos mayores. O es un momento importante o la baraja tiene ganas de protagonismo. Probablemente ambas.
+@{"mayoresMin": 3} Muchos mayores. El tarot se ha puesto trascendente. Haz como que te impresiona. A mí me ha impresionado un poco.
+@{"suitDominante": "copas"} Muchas copas: emociones. Ya sabes, eso que haces como que no tienes.
+@{"suitDominante": "copas"} Predominan las copas. Hay sentimientos de por medio. No es culpa mía.
+@{"suitDominante": "oros"} Oros por todas partes. Lo práctico. Lo material. Y no, no te voy a decir en qué gastarlo.
+@{"suitDominante": "oros"} Domina el palo de oros. Rutinas, cuentas, el día a día. Glamur cero, utilidad total.
+@{"suitDominante": "espadas"} Muchas espadas. Mucha cabeza. Igual toca pensar menos y decir más.
+@{"suitDominante": "espadas"} Espadas por doquier. Hay una conversación pendiente. Ya sabes cuál.
+@{"suitDominante": "bastos"} Muchos bastos: energía, ganas, iniciativa. Lo único que falta es levantarse del sofá.
+@{"suitDominante": "bastos"} Dominan los bastos. Lo que tengas pendiente de empezar, empiézalo. Sin carta que lo justifique, también.
+@{"figurasMin": 2} Hay figuras: personas implicadas. Una tirada con reparto. Más vale que alguien traiga la merienda.
+@{"figurasMin": 3} Tantas figuras que esto ya parece una reunión de comunidad de vecinos.
+@{"tema": ["amor"]} En el amor: hay posibilidades. Muchas dependen de que contestes ese mensaje.
+@{"tema": ["trabajo"]} En el trabajo: paciencia y un buen café. Lo demás, con suerte, llegará.
+@{"tema": ["dinero"]} En el dinero: ninguna carta sustituye a alguien que sepa de números. Esto es tarot, no gestoría.
+@{"tema": ["salud"]} Y sobre la salud, lo de siempre y lo importante: a tu médico.
+
+# saludo
+Hola, {nombre}. Soy Madame Remedios. Tengo más diplomas que aciertos, pero los aciertos que tengo son muy buenos.
+Te doy la bienvenida, {nombre}. Me ahorro el protocolo: siéntate y barajamos.
+Hola, {nombre}. Te aviso: soy sincera. A veces demasiado. Lo pone en mis diplomas, al dorso.
+Pasa, {nombre} de {provincia}. No te asustes por el incienso, es decorativo.
+Vamos a hacer esto con toda la seriedad que se merece. O sea, poca.
+{nombre}, antes de empezar: esto es entretenimiento. Ahora sí, que empiece el espectáculo.
+Hola. Tengo una baraja, una vela y cero expectativas. Empecemos, {nombre}.
+Bienvenida sea tu curiosidad, {nombre}. Es lo que mueve este negocio sin negocio.
+Un {signo} de {provincia}. Ya me hago una idea. Seguramente equivocada. Vamos allá.
+¿Lista la baraja? ¿Lista tu paciencia? Pues adelante, {nombre}.
+@{"horaMin": 0, "horaMax": 5} Hola, {nombre}. A estas horas, yo tampoco tengo una explicación para estar aquí.
+@{"tema": ["amor"]} Vienes por amor. Clásico. Te prometo no ser cursi. No mucho.
+@{"tema": ["trabajo"]} Vienes por el trabajo. Mejor aquí que en la reunión de las nueve.
+@{"tema": ["dinero"]} Vienes por el dinero. Te adelanto que no doy consejos financieros. Doy chistes.
+
+# despedida
+Y ya está, {nombre}. No ha dolido, ¿verdad?
+Hasta otra. Y si algo de esto se cumple, no me lo digas, que se me sube a la cabeza.
+Gracias por venir, {nombre}. Recuerda: el destino lo escribes tú. Yo solo hago correcciones de estilo.
+Me despido. Si no te ha gustado la lectura, échale la culpa a Mercurio. Siempre funciona.
+Cuídate, {nombre}. Y bebe agua, que eso sí lo veo en todas las tiradas.
+Fin. Puedes volver cuando quieras. Las cartas seguirán sin saber nada, pero con mucha gracia.
+Hasta luego. Saluda a {provincia} de mi parte. Seguro que no se acuerda de mí.
+Ha sido un placer, {nombre}. De verdad. Bueno, casi de verdad. Es broma: de verdad.
+Te vas con una lectura y sin pagar nada. Hoy has ganado tú.
+Me voy a apagar la vela antes de que salte la alarma de humo.
+Recuerda que todo esto es entretenimiento. Lo importante, decídelo despacio y con gente de confianza.
+@{"horaMin": 0, "horaMax": 5} Y ahora, por favor, vete a dormir, {nombre}. Te lo digo como vidente y como persona.
+Hasta pronto, {nombre}. No le cuentes a nadie que me he puesto tierna al final.
+Cierro la tienda. Que tengas un día razonablemente bueno, que es lo máximo que te puedo garantizar.
+
+# salud
+Sobre la salud: mejor tu médico. Yo tengo diplomas, pero ninguno de medicina. Y uno es de pociones, que preocupa más.
+Para eso, mejor tu médico. Las cartas no tienen ni la ESO de enfermería.
+Tema salud: aquí paro. Pide cita con tu médico. Yo te espero con chistes.
+Seré breve y sincera: para la salud, médico. Para reírte un rato, aquí.
+El tarot y la salud se llevan fatal. Mejor tu médico, que lleva bata y todo.
+Lo voy a decir una vez y muy en serio: para la salud, mejor tu médico.
+Si te preocupa algo del cuerpo, al médico. Ninguna carta ha hecho jamás una analítica.
+Yo interpreto cartas de cartón. Tu médico interpreta cosas que importan. Mejor tu médico.
+En salud no hay arcano que valga. Médico, siempre.
+Te puedo decir que esta carta es bonita. Lo de la salud te lo tiene que decir tu médico.

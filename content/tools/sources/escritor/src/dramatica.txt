@@ -1,0 +1,269 @@
+// DRAMÁTICA TEATRAL: gran tragedia de función de pueblo; grito, pausa, desinflado. Nunca anuncia desgracias reales.
+# entrada
+¡NOOO! …Ah, no, es al revés. Respira.
+¡Oh, cielos! ¡Oh, destino! ¡Oh… vale, no es para tanto!
+¡Ay! ¡AY! …Me he pillado el dedo con la vela. La carta está bien.
+¡Silencio! ¡Que se apaguen las luces! …No, que no veo. Que se enciendan.
+¡Por todos los arcanos del firmamento!
+¡No puede ser! ¡No puede SER! …Sí puede ser. Es una carta normal.
+¡Telón! …No, perdón, que esto acaba de empezar.
+¡Mis sales! ¡Que alguien me traiga mis sales! …Ya está. Ya se me ha pasado.
+¡Qué tensión! ¡Qué intriga! ¡Qué carta!
+¡Lo sabía! ¡Lo presentía! ¡Me lo dijo mi rodilla!
+¡El corazón me late como un tambor de Semana Santa!
+¡Contemplad! ¡CONTEMPLAD! …Contempla tú, que yo ya la he visto.
+¡Ay, qué escalofrío! …Era la ventana. Cierra la ventana.
+¡Que alguien sujete el decorado!
+¡Esto es un giro de guion! …Bueno, es la primera carta, todo es giro de guion.
+¡Me desmayo! …No me desmayo. Pero lo he valorado seriamente.
+¡Ohhh! …Ah. Ohh. Oh. Vale.
+¡Esto merece un aplauso de pie! ¡Ponte de pie! …Bueno, siéntate otra vez, que hay que seguir.
+¡Mi alma tiembla! ¡Mis pendientes también!
+¡Que suenen los violines! ¡Los imaginarios, que no hay presupuesto!
+¡Qué emoción! ¡Qué drama! ¡Qué dibujito más bien hecho!
+¡Un momento de silencio por la carta que no ha salido!
+¡Esto lo representaría yo en el teatro del pueblo y me darían el premio!
+¡Atención al primer acto de esta tragedia! ¡Que es comedia, tranquilidad!
+@{"invertida": true} ¡INVERTIDA! ¡Del revés! ¡El mundo al revés! …Ah, que la estoy mirando yo al revés. Respira.
+@{"invertida": true} ¡Boca abajo! ¡Como mi carrera teatral! ¡Pero se remonta, como todo!
+@{"invertida": true} ¡Invertida, cielo santo! …Que no pasa nada. Que solo cambia el matiz. Pero qué susto.
+@{"invertida": true} ¡Del revés! ¡Que alguien gire el escenario! …Ya, ya lo giro yo con la imaginación.
+@{"arcana": "major"} ¡Un arcano MAYOR! ¡Que se cierren las puertas! ¡Que nadie salga de la sala!
+@{"arcana": "major"} ¡Mayor! ¡Mayor! ¡De las de cartel con tu nombre en luces!
+@{"arcana": "major"} ¡Arcano mayor! ¡Esto es el monólogo final! …De la primera escena.
+@{"cardIds": ["mayor-13"]} ¡LA MUERTE! ¡NOOOO! …Que es cambio. Que es cierre de etapa. Que en el tarot es transformación. Respira. Respiro.
+@{"cardIds": ["mayor-13"]} ¡La de la guadaña! ¡Qué entrada en escena! …Y qué buena noticia, en realidad: algo viejo se va y deja sitio.
+@{"cardIds": ["mayor-16"]} ¡LA TORRE! ¡El rayo! ¡El derrumbe! ¡La tragedia! …La reforma. Es una reforma. Con mejores vistas.
+@{"cardIds": ["mayor-16"]} ¡La Torre se desmorona! ¡Como mis nervios! …Pero se reconstruye. Mis nervios, no tanto.
+@{"cardIds": ["espadas-10"]} ¡DIEZ ESPADAS! ¡Diez! ¡No una, ni dos: DIEZ! …Fin de la temporada mala. A partir de aquí, solo puede mejorar.
+@{"cardIds": ["espadas-10"]} ¡El diez de espadas! ¡El último acto del drama! ¡Y, por tanto, el final del drama! ¡Bravo!
+@{"cardIds": ["mayor-06"]} ¡Los Enamorados! ¡Esto es Romeo y Julieta! …Pero con final feliz, que el otro no me gusta.
+@{"cardIds": ["mayor-18"]} ¡La Luna! ¡Las sombras! ¡Los aullidos! …Los gatos del patio. Son los gatos.
+@{"cardIds": ["mayor-07"]} ¡El Carro! ¡Galopando hacia la gloria! …Despacio, que hay radar.
+@{"cardIds": ["mayor-12"]} ¡El Colgado! ¡Qué angustia! …Ah, no, que está así porque quiere. Es yoga.
+@{"cardIds": ["mayor-17"]} ¡La Estrella! ¡Lloro de emoción! ¡Lloro! ¡Pásame un pañuelo!
+@{"primeraCarta": true} ¡Se alza el telón! ¡Primera carta!
+@{"ultimaCarta": true} ¡El acto final! ¡La última carta! ¡Que tiemble el patio de butacas!
+@{"horaMin": 0, "horaMax": 5} ¡A estas horas todo es más trágico! ¡Y yo, más dramática!
+
+# puente
+@{"posicion": ["pasado"]} ¡En tu PASADO! ¡Ese teatro de recuerdos con las butacas polvorientas!
+@{"posicion": ["pasado"]} ¡Lo que fue! ¡Lo que nunca volverá! …Bueno, algunas cosas vuelven. Como los vaqueros de campana.
+@{"posicion": ["pasado"]} ¡El pasado! ¡Ese fantasma que pasea por los pasillos de tu alma!
+@{"posicion": ["presente"]} ¡AHORA! ¡En este preciso, crucial, irrepetible instante!
+@{"posicion": ["presente"]} ¡Tu presente! ¡El escenario donde se representa tu vida! ¡En directo y sin ensayo!
+@{"posicion": ["presente"]} ¡Hoy! ¡Hoy mismo! ¡Ahora que lo pienso, ya es más tarde que cuando empecé la frase!
+@{"posicion": ["futuro"]} ¡Y en tu FUTURO…! ¡Ay, que no me atrevo a mirar! …Vale, ya miro.
+@{"posicion": ["futuro"]} ¡El porvenir! ¡El mañana! ¡El después de la merienda!
+@{"posicion": ["futuro"]} ¡Lo que vendrá! ¡Lo que el destino guarda entre bambalinas!
+@{"posicion": ["consejo"]} ¡Y el consejo! ¡El consejo que cambiará tu vida! …O por lo menos tu tarde.
+@{"posicion": ["consejo"]} ¡Escucha, escucha, que esto lo digo una sola vez! ¡Bueno, dos!
+@{"posicion": ["obstaculo", "obstaculos"]} ¡El OBSTÁCULO! ¡El villano de esta obra!
+@{"posicion": ["obstaculo", "obstaculos"]} ¡Lo que se interpone! ¡El muro! ¡La muralla! ¡El escalón que nadie ve!
+@{"posicion": ["resultado"]} ¡Y el desenlace! ¡Que redoblen los tambores!
+@{"posicion": ["resultado"]} ¡El final de la obra! ¡El momento en que todo se resuelve! …O se queda para la segunda parte.
+@{"posicion": ["situacion"]} ¡La situación! ¡El escenario completo, con decorado y todo!
+@{"posicion": ["situacion"]} ¡Esto es lo que está en juego! ¡Ni más ni menos que esto!
+@{"posicion": ["entorno"]} ¡Tu entorno! ¡El coro griego que comenta tu vida desde el fondo!
+@{"posicion": ["entorno"]} ¡Los que te rodean! ¡Los secundarios de lujo!
+@{"posicion": ["tu"]} ¡Tú! ¡El personaje principal! ¡Con monólogo y foco propio!
+@{"posicion": ["otra"]} ¡La otra persona! ¡Entra por la izquierda del escenario con paso firme!
+@{"posicion": ["une"]} ¡Lo que os une! ¡Un lazo más fuerte que el guion de una telenovela!
+@{"posicion": ["separa"]} ¡Lo que os separa! ¡El abismo! …El charco. Es un charco. Se salta.
+¡En «{posicion}»! ¡Qué momento! ¡Qué palabra!
+¡Llegamos a «{posicion}»! ¡Que suba la música!
+¡Y en «{posicion}», atención, atención…!
+@{"primeraCarta": false} ¡Después de {cartaAnterior}, esto! ¡Qué secuencia! ¡Qué dramaturgia!
+@{"primeraCarta": false} ¡{cartaAnterior} encendió la mecha y esta carta hace estallar los fuegos artificiales!
+
+# personalizacion
+¡{nombre}! ¡Tu nombre resuena en este teatro como un trueno!
+¡Oh, {nombre}, criatura del destino!
+¡{nombre}, de {provincia}! ¡La tierra que vio nacer a un alma de tragedia griega! …De comedia, mejor.
+¡{edad} años! ¡{edad} años de aventuras, desventuras y alguna siesta épica!
+¡Un {signo}! ¡Los {signo} siempre tienen un tercer acto sorprendente!
+¡Número de vida {numeroVida}! ¡Ese número brilla sobre tu cabeza como un foco en el escenario!
+¡La {inicial}! ¡La {inicial} de {nombre}! ¡Una letra que es casi un grito!
+¡En {provincia}, donde {clima}, se forjan los caracteres más intensos!
+¡Ni {plato} tiene tanto drama como esta carta, {nombre}! ¡Y mira que tiene!
+¡Lo {gentilicio} que hay en ti arde como las velas de mi camerino!
+¡Bailar en {fiesta}! ¡Qué escena! ¡Ahí te veo yo, con la carta en la mano!
+¡Es {diaSemana}! ¡Un {diaSemana} cualquiera… o EL {diaSemana} que cambiará tu historia!
+¡En esta {estacion}, {nombre}, el destino cambia de vestuario!
+@{"primeraCarta": false} ¡Primero {cartaAnterior}, ahora {carta}! ¡{nombre}, esto es una obra en tres actos!
+@{"primeraCarta": false} ¡{cartaAnterior} y {carta} juntas! ¡Como dos actrices rivales en el mismo camerino!
+¡{carta}! ¡{carta} para {nombre}! ¡Qué reparto tan acertado!
+¡Ay, {nombre}, si supieras lo que significa {carta}…! Te lo cuento, que para eso estoy.
+@{"horaMin": 0, "horaMax": 5} ¿¡Qué haces sin dormir a estas horas, {nombre}!? ¡Las grandes tragedias se escriben de madrugada! …Y las grandes ojeras.
+@{"horaMin": 0, "horaMax": 5} ¡La madrugada, {nombre}! ¡La hora de los fantasmas, los poetas y los que no tienen sueño!
+@{"horaMin": 2, "horaMax": 5} ¡Las {hora} de la madrugada! ¡La hora más oscura! ¡La hora de la verdad! …La hora de ir a la cama.
+@{"horaMin": 6, "horaMax": 9} ¡Amanece, {nombre}! ¡Y con el alba, la revelación! ¡Y el café!
+@{"horaMin": 14, "horaMax": 16} ¡La hora de la siesta! ¡Qué momento tan arriesgado para recibir revelaciones!
+@{"horaMin": 20, "horaMax": 23} ¡Cae la noche sobre {provincia}! ¡Se encienden las farolas del destino!
+@{"decadaMin": 40} ¡{edad} años, {nombre}! ¡La madurez! ¡El momento de los grandes papeles!
+@{"decadaMin": 60} ¡Con tus {edad} años has visto más funciones que nadie, {nombre}! ¡Esta te va a gustar!
+@{"decadaMax": 20} ¡Qué juventud, {nombre}! ¡Toda una vida por delante! ¡Y todo un drama por estrenar!
+@{"decadaMin": 30, "decadaMax": 30} ¡Los treinta, {nombre}! ¡La edad en que una crisis existencial dura lo que tarda en hervir el agua!
+@{"tema": ["amor"]} ¡El AMOR, {nombre}! ¡El gran tema de todas las óperas!
+@{"tema": ["amor"]} ¡Ay, el amor! ¡Suspiros, miradas, mensajes en visto! ¡Qué sufrimiento tan bonito!
+@{"tema": ["amor"]} ¡Si hay alguien en tu corazón, {nombre}, que entre en escena ahora mismo!
+@{"tema": ["trabajo"]} ¡El trabajo! ¡Esa batalla diaria! ¡Esa lucha épica contra la fotocopiadora!
+@{"tema": ["trabajo"]} ¡En lo laboral, {nombre}, te veo de protagonista! ¡O de secundario con frase! ¡Que también cuenta!
+@{"tema": ["dinero"]} ¡El dinero! ¡El vil metal! …Del que yo no digo nada concreto, que no soy de banco.
+@{"tema": ["dinero"]} ¡Ay, los oros, {nombre}! ¡Que brillan, que tientan! ¡Que decidas con calma y con quien sepa!
+@{"tema": ["salud"]} ¡Tu salud, {nombre}! ¡Lo más importante! ¡Para eso, el médico! ¡Yo solo hago teatro!
+@{"signo": ["leo"]} ¡Leo! ¡Rey de la selva y del escenario! ¡Ya te veo saludando al final!
+@{"signo": ["escorpio"]} ¡Escorpio! ¡Intensidad! ¡Pasión! ¡Miradas que atraviesan el telón!
+@{"signo": ["piscis"]} ¡Piscis! ¡Lágrimas de emoción a la mínima! ¡Te entiendo tanto!
+@{"signo": ["aries"]} ¡Aries! ¡Fuego! ¡Embestida! ¡Entradas en escena sin llamar a la puerta!
+@{"signo": ["virgo"]} ¡Virgo! ¡Qué drama que esta carta esté un poquito torcida! ¡Ya la enderezo!
+@{"signo": ["cancer"]} ¡Cáncer! ¡Corazón de cristal! ¡Abrazo teatral para ti!
+@{"diaSemana": [2]} ¡Martes! ¡Ni te cases ni te embarques! ¡Pero las cartas, sí, que no son barco!
+@{"diaSemana": [5]} ¡Viernes, {nombre}! ¡Noche de estreno!
+@{"diaSemana": [7]} ¡Domingo! ¡El día de la función de tarde!
+@{"faseLunar": ["llena"]} ¡Luna llena, {nombre}! ¡El foco más grande del firmamento te ilumina!
+@{"faseLunar": ["nueva"]} ¡Luna nueva! ¡El escenario a oscuras! ¡Todo puede pasar!
+@{"faseLunar": ["menguante"]} ¡Luna menguante! ¡La luna se despide poco a poco, como una diva en su gira de adiós!
+@{"estacion": ["invierno"]} ¡En pleno invierno, {nombre}! ¡Frío, nieve, drama! ¡Una manta, por favor!
+@{"estacion": ["primavera"]} ¡Primavera! ¡Las flores! ¡La alergia! ¡El amor! ¡Qué estación tan teatral!
+@{"primeraCarta": true} ¡{nombre}, empieza tu función! ¡Que se apaguen los móviles!
+@{"ultimaCarta": true} ¡Última carta, {nombre}! ¡El gran final! ¡Ensaya la reverencia!
+¡Los {decada}, {nombre}! ¡Una década de grandes estrenos!
+
+# guino
+¡Ser o no ser! …Pues ser, que no ser es muy aburrido.
+¡Todo el mundo es un escenario! ¡Y tú, sin ensayar!
+¡No hay mal que cien años dure! ¡Ni drama que aguante tres actos!
+¡A quien madruga, Dios le ayuda! ¡A quien trasnocha, le hago yo una escena!
+¡Que se rompan las tablas! …Del escenario, digo. Es una expresión.
+¡Mi carrera teatral fue breve pero intensa! ¡Una función! ¡Me equivoqué de pueblo!
+¡Una vez hice de árbol en una obra y lloró todo el público! ¡De la risa, pero lloró!
+¡El drama es mi idioma materno! ¡La calma, mi segunda lengua, nivel A1!
+¡Agua que no has de beber, déjala correr! ¡Como mis lágrimas en el acto segundo!
+¡Ay, la vida! ¡Qué guionista tan caprichoso!
+¡Esto merece un primer plano y música de violines!
+¡Que traigan la máquina de humo! …Ah, no, que es el incienso.
+¡En el tarot, como en el teatro, lo importante es la entrada!
+¡No por mucho madrugar amanece más temprano! ¡Pero el ensayo empieza a las nueve!
+¡Las cartas hablan! ¡Y yo las doblo con mucho sentimiento!
+¡Si mi abuela me viera con esta capa! ¡Diría que voy a pasar frío!
+¡Más vale pájaro en mano que ciento volando! ¡Sobre todo en el escenario, que luego hay que limpiar!
+¡El destino llama dos veces! ¡La segunda, con más insistencia!
+¡Ay, qué grande es el teatro! ¡Y qué pequeño mi salón!
+¡Pido perdón al público por mis gritos! ¡No volverá a pasar! ¡Volverá a pasar!
+¡Ni la Callas cantaba con tanto sentimiento! …Bueno, sí. Pero yo con cartas.
+¡Mi pasión es el drama y mi dentista dice que aprieto mucho la mandíbula!
+¡Esto es un culebrón! ¡Y me encanta!
+¡Hay más intriga en esta tirada que en el capítulo final de la serie de las cinco!
+¡Del dicho al hecho hay un gran trecho! ¡Y yo lo recorro de rodillas y llorando!
+¡Al mal tiempo, buena cara! ¡Y mejor maquillaje!
+¡Dios aprieta, pero no ahoga! ¡Como mi corsé de los estrenos!
+¡En casa del herrero, cuchillo de palo! ¡Y en casa de la actriz, espejo por todas partes!
+¡Perro ladrador, poco mordedor! ¡Vidente gritona, poco peligrosa!
+¡La vida es sueño! ¡Y los sueños, sueños son! ¡Y yo, sin dormir!
+¡El que la sigue la consigue! ¡Y el que la consigue la celebra con fuegos artificiales!
+¡Me ha emocionado tanto que se me ha corrido el rímel!
+¡No lloro! ¡Se me ha metido una carta en el ojo!
+¡Los aplausos, al final, por favor! ¡Bueno, si quieres, ahora también!
+¡Ay, el arte! ¡Ay, la vocación! ¡Ay, mi espalda!
+¡Esto lo representaría en tres actos, pero solo tenemos cinco minutos!
+¡Que conste que yo dramatizo, pero las cartas son muy tranquilas!
+¡Cuidado con el escalón del escenario, que ya me caí una vez en pleno monólogo!
+¡Las grandes historias empiezan con un «érase una vez»! ¡La tuya empezó con un «¿y si me echo las cartas?»!
+¡Hay que sufrir para ser feliz! ¡Bueno, no, mentira, no hay que sufrir nada!
+¡Esto es como una ópera: no entiendo la mitad, pero me emociona todo!
+¡Lo que la vida te quita con una mano, te lo devuelve con un bis!
+¡Cuando cae el telón, empieza la vida real! ¡Así que de momento, disfruta!
+¡Con lo dramática que soy, cuando se me quema una tostada convoco a la familia!
+¡Mi vida es una novela! ¡De bolsillo, pero novela!
+¡El universo me mira! ¡Y yo le hago una reverencia!
+¡El silencio también es drama! …… ¿Ves?
+¡Ni el mejor apuntador te diría esto tan claro!
+¡A esta carta le daría el premio a la mejor interpretación secundaria!
+¡Quien no llora no mama! …Y quien no grita en mis lecturas, no se entera.
+@{"tema": ["amor"]} ¡El amor es un drama en tres actos: el flechazo, el «¿y ahora qué?» y la merienda con la familia!
+@{"tema": ["trabajo"]} ¡El trabajo es una tragedia griega con café de máquina!
+@{"tema": ["dinero"]} ¡El dinero no da la felicidad! ¡Pero las entradas de teatro, sí! ¡Con moderación!
+@{"invertida": true} ¡Una carta invertida es como un actor que sale por la puerta equivocada! ¡Desconcierta, pero da juego!
+@{"horaMin": 0, "horaMax": 5} ¡A estas horas solo actúan los grandes! ¡Y los vecinos que llegan de fiesta!
+
+# cambioHumor
+¡Ay, perdón, perdón! ¡Me ha dado un aire! ¡Un aire DRAMÁTICO! ¡A partir de aquí, todo con emoción!
+¡Uy! ¡Algo se ha encendido en mi pecho! ¡Es la pasión teatral! ¡Ya no hay quien me pare!
+¡Esperad! ¡He sentido la llamada del escenario! ¡Seguimos, pero con dramatismo!
+¡Me ha dado un vuelco el corazón! ¡De emoción, tranquilidad! ¡Y ahora todo me parece trágico!
+¡Me he acordado de mi único estreno y me he venido arriba! ¡Prosigo con alma de actriz!
+¡Perdón por el cambio de tono! ¡Es que esta carta pedía ópera!
+¡Que se apaguen las luces! ¡Que se encienda un foco! ¡Sobre mí, por favor!
+¡Ahora sí que sí! ¡Ahora viene lo emocionante! ¡Lo noto en el estómago!
+¡Me he puesto la capa buena! ¡La de las tragedias! ¡Continuamos!
+¡Ay, que me emociono! ¡Ya me he emocionado! ¡Y así voy a seguir!
+¡Basta de medias tintas! ¡A partir de esta carta, todo es gran final!
+¡Disculpad, se me ha subido el drama a la cabeza! ¡Y ahí se va a quedar un rato!
+
+# sintesis
+¡Y cae el telón, {nombre}! ¡Una lectura de ovación!
+¡Qué obra, qué reparto, qué final! ¡Y nadie ha salido herido! ¡Ni yo!
+¡Esta tirada es un drama! ¡Con final feliz, que son los que me gustan!
+¡Resumen dramático: hubo tensión, hubo emoción y al final hubo esperanza!
+¡He sufrido, he llorado, he gritado! ¡Y todo para decirte que vas bien! ¡Qué alivio!
+@{"mayoresMin": 3} ¡TRES ARCANOS MAYORES O MÁS! ¡Esto es la obra maestra del destino! ¡Un momento trascendente!
+@{"mayoresMin": 3} ¡Cuántos mayores! ¡Esto es un estreno de gala con alfombra roja!
+@{"suitDominante": "copas"} ¡Copas por todas partes! ¡Emoción! ¡Sentimientos! ¡Lágrimas de alegría!
+@{"suitDominante": "copas"} ¡Dominan las copas! ¡El corazón ha tomado el escenario!
+@{"suitDominante": "oros"} ¡Oros! ¡Oros! ¡El brillo de lo práctico! ¡Sin locuras, que el dinero no es de teatro!
+@{"suitDominante": "oros"} ¡Muchos oros! ¡Lo material reclama su papel! ¡Con prudencia y buena cabeza!
+@{"suitDominante": "espadas"} ¡Espadas! ¡Duelos de ideas! ¡Conversaciones pendientes! ¡Un drama de diálogos!
+@{"suitDominante": "espadas"} ¡Las espadas mandan! ¡La mente echa chispas! ¡Que no se te corte el hilo!
+@{"suitDominante": "bastos"} ¡Bastos! ¡Acción! ¡Movimiento! ¡Esto es una película de aventuras!
+@{"suitDominante": "bastos"} ¡Dominan los bastos! ¡Energía para dar y regalar! ¡Úsala!
+@{"figurasMin": 2} ¡Figuras! ¡Personajes! ¡Esto tiene un elenco digno de un gran teatro!
+@{"figurasMin": 3} ¡Reyes, caballos, sotas! ¡Esto es una obra coral con reparto de lujo!
+@{"tema": ["amor"]} ¡En el amor, {nombre}, el drama está asegurado! ¡Y la ilusión también!
+@{"tema": ["trabajo"]} ¡En el trabajo, {nombre}, se acerca un acto importante! ¡Ensaya bien!
+@{"tema": ["dinero"]} ¡En el dinero, calma! ¡Ningún gran gesto teatral! ¡Lo concreto, con quien sepa!
+@{"tema": ["salud"]} ¡Y para la salud, nada de dramas: a tu médico, que es quien sabe!
+
+# saludo
+¡Bienvenida sea tu presencia a mi humilde teatro, {nombre}!
+¡Silencio, silencio! ¡Entra {nombre}, de {provincia}! ¡Que suene la fanfarria!
+¡Ay, {nombre}, qué emoción! ¡Llevaba toda la vida esperando este momento! ¡Bueno, desde la comida!
+¡Se abre el telón! ¡Y aparece {nombre}! ¡Aplausos!
+¡Hola, {nombre}! ¡Hoy representaremos la gran obra de tu destino! ¡En un solo acto, que es tarde!
+¡Ay, ay, ay, qué nervios! ¡Es mi primera lectura del día! …La tercera. Pero los nervios son reales.
+¡Pasa, pasa, {nombre}! ¡Siéntate en primera fila, que es donde se ve mejor la tragedia!
+¡Un alma de {signo} llega a mi escenario! ¡Qué expectación!
+¡Bienvenida sea tu valentía, {nombre}! ¡Hace falta valor para venir a mi consulta!
+¡El destino ha preparado una función especial para ti, {nombre}!
+@{"horaMin": 0, "horaMax": 5} ¡Una función de madrugada! ¡Las más intensas, {nombre}!
+@{"tema": ["amor"]} ¡Vienes por amor! ¡El tema de todas las grandes tragedias! ¡Y comedias!
+@{"tema": ["trabajo"]} ¡Vienes por trabajo! ¡El drama de la oficina, en escena!
+@{"tema": ["salud"]} ¡Vienes por la salud! ¡Ay, que eso es cosa de médicos! ¡Pero te echo las cartas para entretenerte!
+
+# despedida
+¡Cae el telón! ¡Hasta la próxima función, {nombre}!
+¡Me despido con una reverencia! …Ay, la espalda. ¡Pero me despido!
+¡Adiós, adiós, {nombre}! ¡Que la vida te trate como a una gran estrella!
+¡Ha sido un honor, {nombre}! ¡Un honor! ¡Me emociono! ¡Ya está!
+¡Bravo, {nombre}! ¡Bravo por tu valor! ¡Y por tu paciencia conmigo!
+¡No llores, que esto no es un adiós! ¡Es un hasta luego con música de violines!
+¡Que la vida te sonría, {nombre}! ¡Y si no, que al menos te guiñe un ojo!
+¡Recuerda: esto es teatro, {nombre}! ¡El guion de tu vida lo escribes tú!
+¡Me retiro a mi camerino! ¡Que me traigan una tila!
+¡Hasta pronto, {nombre}! ¡Saluda a {provincia} de mi parte con una gran reverencia!
+¡Fin de la función! ¡Gracias, gracias, gracias!
+@{"horaMin": 0, "horaMax": 5} ¡Y ahora, a dormir, {nombre}! ¡Hasta las grandes estrellas necesitan su descanso!
+¡Me voy, pero mi drama se queda contigo! ¡Úsalo con moderación!
+¡El espectáculo ha terminado! ¡La vida continúa! ¡Qué frase tan bonita! ¡Me la apunto!
+
+# salud
+¡Ay, la salud! ¡Eso es cosa seria! ¡Para eso, mejor tu médico! ¡Yo solo hago teatro!
+¡Para la salud, ningún drama: tu médico! ¡Lo digo bajito, que es importante!
+¡En salud no improviso! ¡Al médico, {nombre}! ¡Y luego vuelves a mi función!
+¡Esto no es un hospital, es un teatro! ¡Para la salud, mejor tu médico!
+¡Yo grito mucho, pero esto te lo digo con calma: para la salud, a tu médico!
+¡Las cartas no curan, {nombre}! ¡Emocionan! ¡Para curar está tu médico!
+¡Ni la tragedia más grande se resuelve con tarot! ¡La salud, con tu médico!
+¡Pausa en la función! ¡Mensaje importante: para la salud, mejor tu médico!
+¡Me pongo seria un segundo, que lo merece: salud, médico! ¡Ya está, sigo con el drama!
+¡Si algo te preocupa del cuerpo, nada de dramas: cita con tu médico!

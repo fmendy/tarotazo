@@ -1,0 +1,278 @@
+// COACH MOTIVACIONAL: entusiasmo de taller de crecimiento personal; consejos sencillos y sanos, frases de taza.
+# entrada
+¡Vamos allá!
+¡Esto es una oportunidad!
+¡Bien! ¡Muy bien! ¡Esto lo trabajamos!
+¡Respira! ¡Inspira! ¡Esta carta es para ti!
+¡Mira esta carta como mirarías un reto!
+¡Me encanta! ¡Nada de miedo, todo aprendizaje!
+¡Esto es crecimiento puro!
+¡Venga, que esta carta viene a sumar!
+¡Ojo, que aquí hay un mensaje potente!
+¡Sí! ¡Esta energía es la que buscábamos!
+¡Choca esos cinco con el universo!
+¡Esto no es un problema, es un desafío con purpurina!
+¡La carta te habla! ¡Escucha activamente!
+¡Fuera excusas! ¡Dentro cartas!
+¡Visualiza! ¡Visualiza! …Ya está, ya la estás viendo.
+¡Qué carta tan inspiradora! ¡Me la pondría de fondo de pantalla!
+¡Power! ¡Pero del bueno, del de dentro!
+¡Esta carta te está diciendo «tú puedes»! ¡Bueno, más o menos!
+¡Cada carta es un escalón! ¡Y hoy subimos!
+¡Fíjate en lo positivo! ¡Siempre hay algo positivo! ¡Aquí, por ejemplo, el dibujo!
+¡Esto lo convertimos en un objetivo SMART en un minuto!
+¡Silencio interior! ¡Ya! ¡Ya está el silencio! ¡Seguimos!
+¡Qué buena energía! ¡Qué buen rollo! ¡Qué carta!
+¡Lo que no te despeina te hace más fuerte! ¡Y lo que te despeina, más todavía!
+@{"invertida": true} ¡Invertida! ¡Perfecto! ¡Las cartas del revés son retos disfrazados!
+@{"invertida": true} ¡Del revés! ¡Cambia la perspectiva! ¡Literalmente: inclina la cabeza!
+@{"invertida": true} ¡Boca abajo! ¡Eso significa que hay algo que dar la vuelta! ¡Y tú sabes hacerlo!
+@{"invertida": true} ¡Invertida! ¡No pasa nada! ¡Los mejores aprendizajes vienen cabeza abajo!
+@{"arcana": "major"} ¡Arcano mayor! ¡Esto es una lección vital de las grandes!
+@{"arcana": "major"} ¡Uno de los grandes! ¡Esto es un máster en ti!
+@{"arcana": "major"} ¡Arcano mayor! ¡Momento de pensar en grande! ¡Y de beber agua!
+@{"cardIds": ["mayor-09"]} ¡El Ermitaño te dice: apaga el móvil y date un paseo!
+@{"cardIds": ["mayor-09"]} ¡El Ermitaño! ¡Desconexión digital! ¡Tiempo para ti! ¡Y una linterna, por si acaso!
+@{"cardIds": ["mayor-13"]} ¡La Muerte! ¡Que no cunda el pánico! ¡Es la carta del cambio! ¡Cierras una etapa y abres otra! ¡Reinvéntate!
+@{"cardIds": ["mayor-13"]} ¡La Muerte, que en realidad significa transformación! ¡Suelta lo que ya no te sirve! ¡Empieza por esos zapatos que te hacen daño!
+@{"cardIds": ["mayor-16"]} ¡La Torre! ¡Rompe con lo viejo! ¡Construye algo nuevo! ¡Y esta vez con cimientos de autoestima!
+@{"cardIds": ["mayor-16"]} ¡La Torre! ¡Zona de confort derribada! ¡Enhorabuena, ahora toca crecer!
+@{"cardIds": ["espadas-10"]} ¡El diez de espadas! ¡Tocar fondo es la mejor manera de tomar impulso! ¡Levántate y estírate!
+@{"cardIds": ["espadas-10"]} ¡Diez espadas! ¡Fin de un ciclo agotador! ¡Ahora descanso, ducha calentita y nuevo plan!
+@{"cardIds": ["mayor-08"]} ¡La Fuerza! ¡La de dentro! ¡No la del gimnasio! ¡Bueno, también!
+@{"cardIds": ["mayor-14"]} ¡La Templanza! ¡Equilibrio! ¡Ni todo ni nada! ¡Medio vaso, siempre medio lleno!
+@{"cardIds": ["mayor-07"]} ¡El Carro! ¡Toma el volante de tu vida! ¡Respetando los límites de velocidad!
+@{"cardIds": ["mayor-21"]} ¡El Mundo! ¡Objetivo cumplido! ¡Celébralo! ¡Y ponte otro!
+@{"primeraCarta": true} ¡Primera carta! ¡El primer paso es el más importante!
+@{"ultimaCarta": true} ¡Última carta! ¡El sprint final! ¡Vamos!
+@{"horaMin": 0, "horaMax": 5} ¡A estas horas! ¡Bueno, cada persona tiene su ritmo! ¡Pero el descanso también es productividad!
+
+# puente
+@{"posicion": ["pasado"]} ¡Tu pasado! ¡Que no te define, pero te enseña!
+@{"posicion": ["pasado"]} ¡Lo que ya viviste! ¡Toda experiencia es un aprendizaje!
+@{"posicion": ["pasado"]} ¡Del pasado se aprende, no se vive en él! ¡Veamos qué te enseñó!
+@{"posicion": ["presente"]} ¡Tu presente! ¡El único momento en el que puedes actuar!
+@{"posicion": ["presente"]} ¡Aquí y ahora! ¡Mindfulness de tarot!
+@{"posicion": ["presente"]} ¡Hoy! ¡Hoy es el primer día del resto de tu tirada!
+@{"posicion": ["futuro"]} ¡Tu futuro! ¡Que no está escrito, lo escribes tú con cada decisión!
+@{"posicion": ["futuro"]} ¡Lo que viene! ¡Y viene porque tú vas a por ello!
+@{"posicion": ["futuro"]} ¡El futuro! ¡Visualízalo! ¡Ponle colores! ¡Y una fecha realista!
+@{"posicion": ["consejo"]} ¡El consejo de hoy! ¡Apúntalo en un pósit!
+@{"posicion": ["consejo"]} ¡Tu mantra para hoy, cortesía de las cartas!
+@{"posicion": ["obstaculo", "obstaculos"]} ¡El obstáculo! ¡Que no es un muro, es una escalera mal colocada!
+@{"posicion": ["obstaculo", "obstaculos"]} ¡Lo que te frena! ¡Identificarlo ya es el cincuenta por ciento del trabajo!
+@{"posicion": ["resultado"]} ¡El resultado! ¡La recompensa al esfuerzo!
+@{"posicion": ["resultado"]} ¡Hacia dónde vas si sigues así! ¡Y puedes ajustar el rumbo!
+@{"posicion": ["situacion"]} ¡Tu situación actual! ¡El punto de partida de tu plan de acción!
+@{"posicion": ["situacion"]} ¡Analicemos el escenario! ¡Fortalezas, debilidades y cartas!
+@{"posicion": ["entorno"]} ¡Tu entorno! ¡Rodéate de gente que sume!
+@{"posicion": ["entorno"]} ¡La gente que te rodea! ¡Tu red de apoyo! ¡Tu equipo!
+@{"posicion": ["tu"]} ¡Tú! ¡La persona más importante de tu vida! ¡Dilo en voz alta!
+@{"posicion": ["otra"]} ¡La otra persona! ¡Con sus propios procesos, que también hay que respetar!
+@{"posicion": ["une"]} ¡Lo que os une! ¡Vuestros valores compartidos!
+@{"posicion": ["separa"]} ¡Lo que os separa! ¡Oportunidad de comunicación asertiva!
+@{"posicion": ["respuesta"]} ¡La respuesta! ¡Clara y directa, como un buen feedback!
+@{"posicion": ["matiz"]} ¡El matiz! ¡Porque la vida no es blanco o negro!
+@{"posicion": ["remate"]} ¡El remate! ¡La conclusión que lo cierra todo!
+¡En «{posicion}», un aprendizaje!
+¡Vamos con «{posicion}»! ¡Mente abierta!
+¡«{posicion}»! ¡Otro paso en tu camino!
+@{"primeraCarta": false} ¡Después de {cartaAnterior}, esta carta te da el siguiente paso!
+@{"primeraCarta": false} ¡{cartaAnterior} fue el calentamiento! ¡Ahora, el ejercicio de verdad!
+
+# personalizacion
+¡{nombre}, eres capaz de todo lo que te propongas! ¡Dentro de lo razonable!
+¡{nombre}! ¡Repite conmigo: «Soy {nombre} y hoy es mi día»!
+¡Con {edad} años, {nombre}, tienes la edad perfecta para empezar algo nuevo! ¡Cualquier edad lo es!
+¡Un {signo}! ¡Los {signo} tienen un potencial enorme! ¡Como todos los signos, pero tú más hoy!
+¡Tu número de vida es el {numeroVida}! ¡Conviértelo en tu número de la motivación!
+¡La {inicial} de {nombre}! ¡Una letra con actitud! ¡Escríbela en mayúscula, que se lo merece!
+¡{nombre} de {provincia}! ¡Que tu tierra sea tu fuerza!
+¡En {provincia} sabéis lo que es la constancia! ¡Con {clima}, cualquiera aguanta!
+¡Lo {gentilicio} que llevas dentro es tu superpoder!
+¡{plato} es combustible para el éxito, {nombre}! ¡Con moderación!
+¡Hoy es {diaSemana}, {nombre}! ¡Y cada {diaSemana} es una oportunidad!
+¡Esta {estacion} es tu {estacion}, {nombre}! ¡Aprovéchala!
+¡Que en {fiesta} te vean brillar, {nombre}!
+@{"primeraCarta": false} ¡{cartaAnterior} y ahora {carta}, {nombre}! ¡Esto es progresión! ¡Esto es evolución!
+@{"primeraCarta": false} ¡De {cartaAnterior} a {carta}! ¿Lo ves, {nombre}? ¡Estás avanzando!
+¡{carta}, {nombre}! ¡Te la regalo como lema de la semana!
+¡{nombre}, {carta} te está pidiendo acción! ¡Pequeña, pero acción!
+@{"horaMin": 0, "horaMax": 5} ¿Qué haces sin dormir a estas horas, {nombre}? ¡El descanso es parte del éxito! ¡Ocho horas, campeonato del mundo!
+@{"horaMin": 0, "horaMax": 5} ¡{nombre}, a estas horas el mejor plan de acción se llama almohada!
+@{"horaMin": 2, "horaMax": 5} ¡Las {hora} de la madrugada, {nombre}! ¡Hay gente que madruga para triunfar! ¡Tú, de momento, para irte a dormir!
+@{"horaMin": 6, "horaMax": 9} ¡Buenos días, {nombre}! ¡Tirada temprano, mente despejada! ¡Así se empieza!
+@{"horaMin": 13, "horaMax": 15} ¡Hora de comer, {nombre}! ¡Una comida equilibrada también es crecimiento personal!
+@{"horaMin": 16, "horaMax": 19} ¡Media tarde, {nombre}! ¡Momento ideal para un paseo de diez minutos! ¡Después de la tirada!
+@{"horaMin": 21, "horaMax": 23} ¡Ya es de noche, {nombre}! ¡Repasa lo que has logrado hoy! ¡Seguro que es más de lo que crees!
+@{"decadaMin": 40} ¡{edad} años de experiencia, {nombre}! ¡Eso es un currículum vital impresionante!
+@{"decadaMin": 60} ¡{edad} años, {nombre}! ¡Nunca es tarde para un nuevo propósito! ¡Ni para un baile!
+@{"decadaMax": 20} ¡{edad} años, {nombre}! ¡Tienes todo el tiempo del mundo para equivocarte y aprender!
+@{"decadaMin": 30, "decadaMax": 30} ¡Los treinta, {nombre}! ¡La década de saber lo que no quieres! ¡Eso ya es mucho!
+@{"tema": ["amor"]} ¡El amor empieza por quererte a ti, {nombre}! ¡Después, ya veremos!
+@{"tema": ["amor"]} ¡En el amor, comunicación, respeto y ganas! ¡Y contestar los mensajes!
+@{"tema": ["amor"]} ¡Si piensas en alguien, {nombre}, recuerda: tu felicidad no depende de un emoticono!
+@{"tema": ["trabajo"]} ¡El trabajo, {nombre}! ¡Pon límites! ¡Y descansos! ¡Productividad sana!
+@{"tema": ["trabajo"]} ¡En lo laboral, {nombre}, pequeños objetivos diarios! ¡Y tacharlos de la lista! ¡Qué gustito!
+@{"tema": ["dinero"]} ¡El dinero, {nombre}! ¡Mentalidad tranquila! ¡Y para lo concreto, un profesional, que yo solo motivo!
+@{"tema": ["dinero"]} ¡No tomes decisiones de dinero por una carta, {nombre}! ¡Tómalas con información y calma!
+@{"tema": ["salud"]} ¡Tu bienestar es lo primero, {nombre}! ¡Y para eso, tu médico es tu mejor coach!
+@{"signo": ["aries"]} ¡Aries! ¡Iniciativa a tope! ¡Ahora trabajemos la paciencia, que también se entrena!
+@{"signo": ["tauro"]} ¡Tauro! ¡Constancia de campeonato! ¡Ahora, un poquito de flexibilidad!
+@{"signo": ["geminis"]} ¡Géminis! ¡Dos mentes, el doble de ideas! ¡Elige una y ve a por ella!
+@{"signo": ["leo"]} ¡Leo! ¡Liderazgo natural! ¡Usa tu brillo para encender el de los demás!
+@{"signo": ["libra"]} ¡Libra! ¡Tomar decisiones es un músculo! ¡Hoy entrenamos!
+@{"signo": ["capricornio"]} ¡Capricornio! ¡Metas claras! ¡Ahora toca celebrar las pequeñas!
+@{"signo": ["acuario"]} ¡Acuario! ¡Tu originalidad es tu marca personal!
+@{"signo": ["piscis"]} ¡Piscis! ¡Tu sensibilidad es una fortaleza! ¡Dilo conmigo!
+@{"diaSemana": [1]} ¡Lunes, {nombre}! ¡El día favorito de la gente con objetivos! ¡Bueno, de alguna gente!
+@{"diaSemana": [3]} ¡Miércoles, {nombre}! ¡Mitad de semana, mitad del camino! ¡Lo estás haciendo genial!
+@{"diaSemana": [5]} ¡Viernes, {nombre}! ¡Celebra lo conseguido esta semana!
+@{"diaSemana": [7]} ¡Domingo, {nombre}! ¡Descanso activo! ¡Que también cuenta como logro!
+@{"faseLunar": ["nueva"]} ¡Luna nueva, {nombre}! ¡Momento perfecto para fijar intenciones! ¡Escríbelas!
+@{"faseLunar": ["creciente"]} ¡Luna creciente! ¡Como tu autoestima a partir de hoy!
+@{"faseLunar": ["llena"]} ¡Luna llena, {nombre}! ¡Celebra todo lo que has logrado! ¡Brilla!
+@{"faseLunar": ["menguante"]} ¡Luna menguante, {nombre}! ¡Suelta lo que no te sirve! ¡Empieza por la autoexigencia!
+@{"estacion": ["primavera"]} ¡Primavera, {nombre}! ¡Florece! ¡Y si tienes alergia, florece con pañuelos!
+@{"estacion": ["otono"]} ¡Otoño, {nombre}! ¡Como los árboles: suelta hojas, que ya volverán!
+@{"primeraCarta": true} ¡Empezamos, {nombre}! ¡Actitud positiva y espalda recta!
+@{"ultimaCarta": true} ¡Último empujón, {nombre}! ¡Lo estás bordando!
+¡Los {decada}, {nombre}! ¡Tu mejor década es la que estás viviendo!
+
+# guino
+¡No cuentes los días! ¡Haz que los días cuenten! ¡Y apúntalos en el calendario!
+¡Si la vida te da limones, haz limonada! ¡Si te da cartas, haz tiradas!
+¡El éxito es la suma de pequeños esfuerzos! ¡Y de alguna siesta estratégica!
+¡Sal de tu zona de confort! ¡Pero vuelve para la cena!
+¡Cree en ti! ¡Las cartas ya lo hacen!
+¡Hoy no es un día cualquiera! ¡Es un día de tarot!
+¡Sonríe, que la vida es corta y las tiradas más!
+¡Los sueños no funcionan si tú no trabajas! ¡Pero sí funcionan si duermes, que es cuando se sueña!
+¡El fracaso es solo el éxito en construcción! ¡Con andamios!
+¡Si te caes siete veces, levántate ocho! ¡Y revisa el suelo, que igual resbala!
+¡Mente sana en cuerpo sano! ¡Y carta bonita en tapete limpio!
+¡Agradece tres cosas cada día! ¡Hoy puedes empezar por esta tirada!
+¡Lo imposible solo tarda un poco más! ¡Como el autobús nocturno!
+¡No es lo que te pasa, es cómo reaccionas! ¡Y cómo lo cuentas luego!
+¡El universo no te pone retos que no puedas superar! ¡Bueno, el Sudoku de nivel experto sí!
+¡Bebe agua! ¡Es el consejo más místico que existe!
+¡A quien madruga, Dios le ayuda! ¡A quien descansa bien, su cuerpo se lo agradece!
+¡No hay mal que por bien no venga! ¡Reencuadre positivo nivel experto!
+¡Camarón que se duerme se lo lleva la corriente! ¡Pero un camarón que descansa rinde mejor!
+¡Del dicho al hecho hay un gran trecho! ¡Recórrelo en pasos pequeños!
+¡Roma no se construyó en un día! ¡Y tu armario ordenado tampoco!
+¡Más vale paso que dure que trote que canse! ¡Lo dice el refranero y lo firma mi fisio!
+¡El que la sigue la consigue! ¡Ese refrán es puro coaching!
+¡Caminante, no hay camino, se hace camino al andar! ¡Diez mil pasos al día!
+¡Tu única competencia eres tú ayer! ¡Y tu yo de ayer comió mucho turrón!
+¡Las cartas no deciden por ti! ¡Te inspiran! ¡Tú pones el resto!
+¡Ponle ganas! ¡Y si no hay ganas, ponle una canción que te guste!
+¡Respira hondo! ¡El oxígeno es gratis y funciona!
+¡Haz una lista de objetivos! ¡Y otra de cosas que ya has conseguido! ¡La segunda motiva más!
+¡El mejor momento para empezar fue ayer! ¡El segundo mejor, después de esta tirada!
+¡Mírate al espejo y di: «hoy lo voy a intentar»! ¡Si te da vergüenza, dilo bajito!
+¡El esfuerzo de hoy es la recompensa de mañana! ¡O de pasado mañana! ¡Paciencia!
+¡No te compares con nadie! ¡Ni con el horóscopo de tu cuñado!
+¡Ser feliz es una decisión! ¡Y comer bien también!
+¡Tu energía es contagiosa! ¡Úsala para bien!
+¡Lo que siembras, recoges! ¡Hoy siembra cosas bonitas!
+¡Cada «no» te acerca a un «sí»! ¡Matemáticas emocionales!
+¡Celebra cada pequeño logro! ¡Hoy has barajado! ¡Bravo!
+¡Desconecta para reconectar! ¡Con el wifi de la vida!
+¡La gratitud es el imán de las cosas buenas! ¡Y de las buenas personas!
+¡El autocuidado no es egoísmo! ¡Es mantenimiento preventivo!
+¡Pide ayuda cuando la necesites! ¡Es de valientes!
+¡Cada mañana es una página en blanco! ¡Escribe con buena letra!
+¡Hoy, un paseo de veinte minutos! ¡Lo dice el Ermitaño y lo apoyo yo!
+¡Nadie dijo que fuera fácil! ¡Pero tampoco que fuera aburrido!
+¡Aprende a decir que no! ¡Empieza por la tercera galleta! …O no, que hoy es un buen día.
+¡Tu mejor inversión eres tú! ¡En tiempo, en descanso y en cariño, no en nada que lleve números!
+¡El miedo es solo una emoción! ¡Salúdalo y sigue adelante!
+¡Vive el momento! ¡Este momento! ¡El de la carta!
+¡Un objetivo sin plan es solo un deseo! ¡Y un deseo sin tarot es menos divertido!
+@{"tema": ["amor"]} ¡El amor es como un músculo: se cuida, se entrena y no se fuerza!
+@{"tema": ["trabajo"]} ¡En el trabajo, trabaja en equipo! ¡Juntos somos más! ¡Y el café sale más barato!
+@{"tema": ["dinero"]} ¡La abundancia empieza en la mente! ¡Y las decisiones concretas, con un profesional!
+@{"invertida": true} ¡Una carta invertida es una invitación a cambiar de perspectiva! ¡Ponte cabeza abajo! …No, mejor no.
+@{"horaMin": 0, "horaMax": 5} ¡El mejor consejo a estas horas: dormir! ¡El sueño es el mejor coach!
+
+# cambioHumor
+¡Perdona, me ha dado un aire! ¡Un aire de motivación! ¡A partir de ahora, todo es posible!
+¡Espera! ¡Acabo de tener una epifanía! ¡Vamos a reencuadrar esta lectura en positivo!
+¡Me he venido arriba! ¡Y cuando me vengo arriba, ya no bajo!
+¡Uy, que me he puesto en modo taller de autoestima! ¡Y me quedo!
+¡He hecho tres respiraciones profundas y ahora lo veo todo como una oportunidad!
+¡Cambio de energía! ¡Fuera la nube gris! ¡Dentro el sol de la proactividad!
+¡Perdona, que me ha llegado una frase motivadora al corazón y tengo que compartirla!
+¡Ya está! ¡He decidido que esta tirada es un regalo! ¡Y los regalos se agradecen!
+¡Me he tomado un batido verde mental! ¡Ahora sí, energía total!
+¡Stop! ¡Pausa! ¡Estiramos los brazos! ¡Y seguimos con otra actitud!
+¡Perdona el bajón de antes! ¡Lo he convertido en aprendizaje! ¡Seguimos!
+¡He visto la luz! ¡Era el flexo! ¡Pero me ha motivado igual!
+
+# sintesis
+¡Lo has hecho genial, {nombre}! ¡Esta lectura es tu hoja de ruta motivacional!
+¡Resumen: tienes recursos, tienes energía y tienes cartas! ¡Úsalas como inspiración!
+¡Tres claves, {nombre}: descansa, comunícate y celebra lo pequeño!
+¡Esta tirada no te dice lo que va a pasar! ¡Te recuerda lo que tú puedes hacer!
+¡Conclusión: el poder está en ti! ¡Y en un buen desayuno!
+@{"mayoresMin": 3} ¡Tres o más arcanos mayores, {nombre}! ¡Estás en un momento de crecimiento enorme!
+@{"mayoresMin": 3} ¡Muchos mayores! ¡Esto es un punto de inflexión! ¡Aprovéchalo con calma y con ganas!
+@{"suitDominante": "copas"} ¡Dominan las copas! ¡Inteligencia emocional a tope! ¡Cuida tus relaciones!
+@{"suitDominante": "copas"} ¡Copas, {nombre}! ¡Escucha lo que sientes! ¡Es información valiosa!
+@{"suitDominante": "oros"} ¡Dominan los oros! ¡Lo práctico! ¡Rutinas sanas y metas realistas!
+@{"suitDominante": "oros"} ¡Oros, {nombre}! ¡Orden y constancia! ¡Las decisiones de dinero, con un profesional!
+@{"suitDominante": "espadas"} ¡Dominan las espadas! ¡Claridad mental! ¡Comunica con asertividad!
+@{"suitDominante": "espadas"} ¡Espadas! ¡Hay que tomar decisiones! ¡Pros, contras y una buena noche de sueño!
+@{"suitDominante": "bastos"} ¡Dominan los bastos! ¡Energía y acción! ¡Canaliza esa fuerza!
+@{"suitDominante": "bastos"} ¡Bastos, {nombre}! ¡Ponte en marcha! ¡Pero con calentamiento previo!
+@{"figurasMin": 2} ¡Muchas figuras! ¡Las personas importan! ¡Construye tu red de apoyo!
+@{"figurasMin": 3} ¡Tu tirada está llena de gente! ¡Trabajo en equipo, {nombre}! ¡Nadie llega lejos sin compañía!
+@{"tema": ["amor"]} ¡En el amor, {nombre}: autoestima primero, comunicación después y paciencia siempre!
+@{"tema": ["trabajo"]} ¡En el trabajo: objetivos claros, descansos reales y celebrar los logros!
+@{"tema": ["dinero"]} ¡En el dinero: calma, información y asesoramiento profesional! ¡La carta solo motiva!
+@{"tema": ["salud"]} ¡Y en salud, el mejor plan de acción es pedir cita con tu médico!
+
+# saludo
+¡Hola, {nombre}! ¡Hoy es un gran día para conocerte mejor!
+¡Bienvenida sea tu energía, {nombre}! ¡Vamos a sacar lo mejor de esta tirada!
+¡{nombre}, de {provincia}! ¡Qué alegría! ¡Respira hondo y empezamos!
+¡Hola, hola! ¡Hoy no venimos a adivinar! ¡Venimos a inspirarnos!
+¡Bienvenida esta curiosidad tuya, {nombre}! ¡La curiosidad es el motor del cambio!
+¡Hola, {nombre}! ¡Postura cómoda, hombros relajados y mente abierta!
+¡Empezamos, {nombre}! ¡Cada carta será un pequeño reto! ¡Y tú los vas a superar todos!
+¡Un {signo} con ganas de crecer! ¡Me encanta! ¡Vamos allá!
+¡Hola, {nombre}! ¡Ponle intención a esta lectura! ¡Lo demás viene solo!
+¡Te doy la bienvenida, {nombre}! ¡Hoy tú eres la prioridad!
+@{"horaMin": 0, "horaMax": 5} ¡Hola, {nombre}! ¡Lectura rápida y a dormir, que el descanso es sagrado!
+@{"horaMin": 6, "horaMax": 9} ¡Buenos días, {nombre}! ¡Empezar el día con intención es empezarlo bien!
+@{"tema": ["amor"]} ¡Vienes por amor! ¡Empecemos por el amor propio!
+@{"tema": ["trabajo"]} ¡Vienes por trabajo! ¡Vamos a por esos objetivos!
+
+# despedida
+¡Gracias, {nombre}! ¡Ahora sal ahí fuera y brilla!
+¡Lo has hecho genial! ¡Recuerda: el cambio empieza por un paso pequeño!
+¡Hasta pronto, {nombre}! ¡Bebe agua, da un paseo y sonríe!
+¡Me despido con un abrazo motivacional! ¡Virtual, pero sincero!
+¡Que tengas un día extraordinario, {nombre}! ¡O normal, que también está bien!
+¡Recuerda, {nombre}: esto es entretenimiento! ¡Pero las ganas que te llevas son de verdad!
+¡Ve a por todas, {nombre}! ¡Con calma y sin agobios!
+¡Fin de la sesión! ¡Apaga la pantalla y mira por la ventana un ratito!
+¡Hasta la próxima, {nombre}! ¡Tú puedes! ¡Lo digo yo y lo dicen las cartas!
+¡Un saludo a {provincia}! ¡Y a ti, {nombre}, el aplauso más grande!
+¡Cierra los ojos, respira y di «gracias»! ¡Ya está! ¡Sesión completada!
+@{"horaMin": 0, "horaMax": 5} ¡Y ahora, {nombre}, a dormir! ¡El sueño es el entrenamiento invisible!
+@{"horaMin": 21, "horaMax": 23} ¡Buenas noches, {nombre}! ¡Mañana, más y mejor!
+¡No olvides celebrar el día de hoy! ¡Con un vaso de agua, por ejemplo!
+
+# salud
+¡Para la salud, tu mejor coach es tu médico, {nombre}! ¡Yo solo motivo!
+¡Autocuidado de verdad: pide cita con tu médico! ¡Las cartas, para inspirarte!
+¡En salud, nada de autodiagnósticos con tarot! ¡Para eso, mejor tu médico!
+¡El primer paso del bienestar: escuchar a tu médico! ¡El segundo: beber agua!
+¡Yo te motivo, tu médico te cuida! ¡Cada cual en su función!
+¡Para eso, mejor tu médico! ¡Y luego, si quieres, un paseíto, que también ayuda!
+¡Tu cuerpo merece atención profesional! ¡Mejor tu médico que cualquier carta!
+¡Ninguna tirada sustituye una consulta médica! ¡Tu salud es lo primero!
+¡Objetivo del día: si algo te preocupa, cita con tu médico! ¡Tachado de la lista!
+¡Las cartas dan ánimo, tu médico da respuestas! ¡Para la salud, mejor tu médico!

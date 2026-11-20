@@ -8,8 +8,8 @@
   "$defs": {
     "lineKey": {
       "type": "string",
-      "pattern": "^(sino\\.(si|no|duda)|tablero\\.[0-4]|porcentaje\\.(alto|medio|bajo)|ouija|mapa|opciones|chakras\\.intro|calibrar\\.(intro|si|no)|enfado|medianoche|intro|repetida)$",
-      "description": "Claves de §4 + extras opcionales: intro (al coger el péndulo), calibrar.intro, repetida (antes del enfado)."
+      "pattern": "^(sino\\.(si|no|duda)|tablero\\.[0-4]|porcentaje\\.(alto|medio|bajo)|ouija|mapa|opciones|chakras\\.intro|calibrar\\.(intro|si|no)|enfado|medianoche|intro|repetida|concentrar)$",
+      "description": "Claves de §4 + extras opcionales: intro (al coger el péndulo), calibrar.intro, repetida (antes del enfado), concentrar (botón «concentrarme»)."
     },
     "lineMap": {
       "type": "object",

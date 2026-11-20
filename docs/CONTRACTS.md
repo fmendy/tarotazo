@@ -337,3 +337,5 @@ y `setMuted(b)`, generados con Web Audio (sin ficheros externos) o Howler si hay
   - `reversedProbability`: tarot 0.3, española 0.2 (desde `decks/*.json`).
   - Numerales visibles por modelo: campo `numerals` del modelo (el id de carta no cambia).
 - La verificación de edad es **autodeclaración** (decisión del titular).
+- 2026-11-20 · Péndulo: nueva clave `lines.concentrar` (botón «concentrarme»).
+- 2026-11-20 · Resolución de variables de servidor (backend): `{gentilicio}` en masculino singular sin «/a» («sevillano/a» → «sevillano»; invariables como «ceutí» tal cual); `{plato}`/`{fiesta}` ya llevan artículo; `{signo}` con nombre visible («Géminis»); `{posicion}` = `inline`; `primeraCarta: false` = «no es la primera carta» (sólo entonces existe `{cartaAnterior}`); `cambioHumor` se elige entre los fragmentos del tono NUEVO.

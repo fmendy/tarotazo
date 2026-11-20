@@ -1,0 +1,268 @@
+// TELETIENDA: cháchara de tarot de madrugada en la tele; entusiasmo de plató, «no cuelgues», «cariño», «mi vida». SIN números ni tarificación.
+# entrada
+¡Ay, cariño, que te veo algo!
+¡Uy, uy, uy, mi vida! ¡Qué me ha salido!
+¡No cuelgues, no cuelgues!
+¡Atención, que esto se pone bueno!
+¡Mira, mira, mira lo que me sale, corazón!
+¡Esto es en directo, eh! ¡Sin trampa ni cartón!
+¡Ay, que me tiemblan las manos!
+¡Ojo, que la cámara dos no se lo pierda!
+¡Esto no me lo esperaba ni yo!
+¡Qué carta, mi amor, qué carta!
+¡Lo estoy viendo clarísimo, cielo!
+¡Que suba la música, que viene una carta potente!
+¡Espera, espera, que me está llegando!
+¡Ay, que me ha dado un escalofrío de los buenos!
+Sí, sí… ¡SÍ! ¡Esto es lo que yo te decía!
+¡Madre mía, qué energía me entra por el pinganillo!
+¡Mira a cámara, cariño, que la carta te quiere ver!
+¡Qué bonito, qué bonito, qué bonito!
+¡Esta te la explico despacito porque es muy fuerte!
+¡Me la ha dado la baraja en bandeja!
+¡Lo sabía! ¡Lo dije antes de la publicidad!
+¡Cariño, a ti las cartas te han tocado con varita!
+¡Un momentito, que el realizador me está haciendo señas!
+¡Qué bárbaro, mi vida, qué bárbaro!
+@{"invertida": true} ¡Uy, del revés! ¡Tranquilidad, que del revés también se lee, que yo soy profesional!
+@{"invertida": true} ¡Invertida, cariño! ¡Que no cunda el pánico en el plató!
+@{"invertida": true} ¡Boca abajo! ¡Pero no pasa nada, que la giro con la mente!
+@{"invertida": true} ¡Del revés, corazón! ¡Esto es como el último minuto de una oferta: hay que entenderlo bien!
+@{"arcana": "major"} ¡Un arcano mayor en directo! ¡Esto no pasa todas las noches!
+@{"arcana": "major"} ¡Arcano mayor, señoras y señores! ¡Y todo lo que haya entre medias!
+@{"arcana": "major"} ¡Uy, esto es de las gordas! ¡Que no se vaya nadie!
+@{"cardIds": ["mayor-13"]} ¡La Muerte! ¡Pero no cambies de canal, cariño, que es CAMBIO! ¡Renovación total, como un cambio de look en directo!
+@{"cardIds": ["mayor-13"]} ¡Ay, la Muerte, que asusta pero es buenísima! ¡Cierra etapas, mi vida! ¡Es la carta reforma integral!
+@{"cardIds": ["mayor-16"]} ¡La Torre! ¡Que tiembla el decorado! ¡Pero tranquilidad: lo que cae es lo que sobraba!
+@{"cardIds": ["mayor-16"]} ¡La Torre, cariño! ¡Derribo y obra nueva! ¡Con vistas!
+@{"cardIds": ["espadas-10"]} ¡El diez de espadas! ¡Se acabó el drama, mi amor! ¡Fin de temporada! ¡Lo siguiente es estreno!
+@{"cardIds": ["mayor-06"]} ¡Los Enamorados! ¡Que pongan corazoncitos en pantalla!
+@{"cardIds": ["mayor-19"]} ¡El Sol! ¡Esto es prime time, cariño!
+@{"cardIds": ["mayor-01"]} ¡El Mago! ¡Este hace magia mejor que nuestro técnico de sonido!
+@{"cardIds": ["oros-01"]} ¡El As de Oros! ¡Brillo, brillo, que el plató se ilumina!
+@{"cardIds": ["mayor-15"]} ¡El Diablo! ¡Pero el simpático, cariño, el de las tentaciones de chocolate!
+@{"primeraCarta": true} ¡Primera carta de la noche! ¡Vamos con todo!
+@{"ultimaCarta": true} ¡Última carta antes de la despedida! ¡Atención máxima!
+@{"horaMin": 0, "horaMax": 5} ¡Esto es el horario estelar del tarot, cariño! ¡Madrugada pura!
+
+# puente
+@{"posicion": ["pasado"]} ¡En tu pasado, cariño, te veo cosas! ¡Muchas cosas!
+@{"posicion": ["pasado"]} ¡Vamos con el pasado, que me lo están pidiendo desde control!
+@{"posicion": ["pasado"]} ¡Lo que quedó atrás, mi vida, pero que todavía colea!
+@{"posicion": ["presente"]} ¡Y ahora, AHORA, en tu presente!
+@{"posicion": ["presente"]} ¡Tu presente, corazón, en directo y sin cortes!
+@{"posicion": ["presente"]} ¡Esto es lo que está pasando, mientras hablamos!
+@{"posicion": ["futuro"]} ¡Y en el futuro, atención, que te veo algo grande!
+@{"posicion": ["futuro"]} ¡Lo que viene, mi vida, lo que viene!
+@{"posicion": ["futuro"]} ¡Próximamente en tu vida, como dicen en los anuncios!
+@{"posicion": ["consejo"]} ¡Y mi consejo, que es lo más valioso de la noche!
+@{"posicion": ["consejo"]} ¡Escúchame bien, cariño, que esto no te lo dicen en otra cadena!
+@{"posicion": ["obstaculo", "obstaculos"]} ¡Lo que te frena, mi amor, y que vamos a quitar de en medio!
+@{"posicion": ["obstaculo", "obstaculos"]} ¡El obstáculo! ¡Que entre en pantalla, que le vamos a ver la cara!
+@{"posicion": ["resultado"]} ¡Y el resultado final, redoble de tambores!
+@{"posicion": ["resultado"]} ¡Cómo acaba esto, cielo! ¡Que no se vaya nadie!
+@{"posicion": ["situacion"]} ¡Tu situación, cariño, en primer plano!
+@{"posicion": ["situacion"]} ¡Vamos al grano, que el tiempo de antena vuela!
+@{"posicion": ["entorno"]} ¡Tu entorno, mi vida, la gente que te rodea, el público del plató de tu vida!
+@{"posicion": ["entorno"]} ¡Alrededor tuyo, cariño, hay energías que me están llamando!
+@{"posicion": ["tu"]} ¡Tú, mi amor, protagonista de esta noche!
+@{"posicion": ["otra"]} ¡Y la otra persona! ¡Ay, que la estoy viendo! ¡Bueno, intuyendo!
+@{"posicion": ["une"]} ¡Lo que os une, cariño! ¡Corazoncitos en pantalla!
+@{"posicion": ["separa"]} ¡Lo que os separa! ¡Que lo vamos a arreglar en directo!
+¡En «{posicion}», mi vida, atención!
+¡Vamos con «{posicion}», que me lo piden en control!
+¡Y en la casilla de «{posicion}», sorpresa!
+@{"primeraCarta": false} ¡Después de {cartaAnterior}, cariño, esto lo confirma TODO!
+@{"primeraCarta": false} ¡{cartaAnterior} nos dejó con la intriga, y ahora llega la respuesta!
+
+# personalizacion
+¡{nombre}, cariño, que te veo algo! ¡Algo bonito!
+¡Saludamos a {nombre}, que nos ve desde {provincia}! ¡Un besazo!
+¡{nombre} de {provincia}, mi vida, la carta te está mirando a ti!
+¡Ay, {nombre}, con la {inicial}! ¡La {inicial} me sale mucho esta noche, cariño!
+¡{edad} años y una energía que traspasa la pantalla, {nombre}!
+¡Un {signo}! ¡Me lo estaba oliendo desde la publicidad!
+¡Número de vida {numeroVida}, cariño! ¡Apúntalo! ¡En un papel, no en ningún sitio más!
+¡Desde {provincia}, tierra de {plato}, nos llama un alma preciosa!
+¡Saludos a todo {provincia}, que en {fiesta} se baila como en ningún sitio!
+¡Allí en {provincia}, donde {clima}, hay alguien que necesita esta lectura!
+¡Lo {gentilicio} que tienes, {nombre}, se nota hasta por la línea!
+¡Un {diaSemana} de tarot, cariño! ¡El mejor día de la semana para escucharme!
+¡En esta {estacion} te veo brillando, mi vida!
+@{"primeraCarta": false} ¡{cartaAnterior} y ahora {carta}, {nombre}! ¡Esto es un combo, cariño, un dos por uno de destino!
+@{"primeraCarta": false} ¡Mira cómo engancha {carta} con {cartaAnterior}, {nombre}! ¡Como un culebrón!
+¡{carta} para {nombre}! ¡Que la saquen en grande!
+¡Esto de {carta}, {nombre}, no me sale todas las noches, eh!
+@{"horaMin": 0, "horaMax": 5} ¿Qué haces sin dormir a estas horas, {nombre}? ¡Pues mejor, que es cuando yo veo más claro!
+@{"horaMin": 0, "horaMax": 5} ¡A estas horas, cariño, solo quedamos tú, yo y la de la teletienda de sartenes! ¡Y yo soy más interesante!
+@{"horaMin": 2, "horaMax": 5} ¡Las {hora} de la madrugada y {nombre} con las cartas! ¡Así me gusta!
+@{"horaMin": 6, "horaMax": 9} ¡Tan temprano, {nombre}! ¡Esto parece el programa de la mañana!
+@{"horaMin": 14, "horaMax": 16} ¡A la hora de la sobremesa, {nombre}! ¡Como las series turcas, pero con cartas!
+@{"horaMin": 21, "horaMax": 23} ¡Ya estamos en horario de noche, {nombre}! ¡Aquí se viene a confesar!
+@{"decadaMin": 40} ¡{edad} años, {nombre}! ¡Con la experiencia que tienes, esta carta te la explico de igual a igual!
+@{"decadaMin": 60} ¡{nombre}, con tus {edad} años, que me ves desde siempre! ¡Gracias por la fidelidad!
+@{"decadaMax": 20} ¡Qué juventud, {nombre}! ¡Bienvenida esa energía a mi programa!
+@{"decadaMin": 30, "decadaMax": 30} ¡Los treinta, {nombre}! ¡La mejor edad para que te echen las cartas en directo!
+@{"tema": ["amor"]} ¡El amor, {nombre}! ¡El tema estrella de mis noches!
+@{"tema": ["amor"]} ¡Esa persona, cariño, esa persona…! ¡No te digo más porque nos ven!
+@{"tema": ["amor"]} ¡Si estás pensando en alguien, {nombre}, que se encienda el corazón de la pantalla!
+@{"tema": ["trabajo"]} ¡El trabajo, {nombre}! ¡Te veo moviéndote, te veo papeles, te veo reuniones!
+@{"tema": ["trabajo"]} ¡En lo laboral, mi vida, hay movimiento! ¡Pero movimiento de los que hay que trabajarse!
+@{"tema": ["dinero"]} ¡El dinero, cariño! ¡Yo no doy números, eh, que esto es tarot, no una ventanilla!
+@{"tema": ["dinero"]} ¡De dinero, {nombre}, solo te digo energía! ¡Las cuentas, con quien sepa!
+@{"tema": ["salud"]} ¡Salud, {nombre}! ¡Lo primero! ¡Y para eso, el médico, que yo solo hago tele!
+@{"signo": ["leo"]} ¡Un Leo! ¡Tú deberías estar en este plató conmigo, cariño!
+@{"signo": ["geminis"]} ¡Géminis! ¡Te leo a las dos personalidades por el precio de una! ¡Gratis, que esto es gratis!
+@{"signo": ["piscis"]} ¡Piscis! ¡Sensibilidad a raudales! ¡Que te pongan un pañuelito en pantalla!
+@{"signo": ["capricornio"]} ¡Capricornio! ¡Seriedad, constancia y esa cara de «a ver qué me cuenta esta»!
+@{"signo": ["libra"]} ¡Libra! ¡Tú que no te decides, hoy decido yo por ti! ¡Bueno, las cartas!
+@{"signo": ["sagitario"]} ¡Sagitario, viajero! ¡Te veo maletas, cariño! ¡Aunque sea de ir al gimnasio!
+@{"diaSemana": [5]} ¡Viernes noche, {nombre}! ¡Esto se pone interesante!
+@{"diaSemana": [7]} ¡Domingo, {nombre}! ¡Programa especial de domingo!
+@{"diaSemana": [1]} ¡Lunes, cariño! ¡Empezamos la semana con energía de plató!
+@{"faseLunar": ["llena"]} ¡Luna llena, {nombre}! ¡Hoy las líneas están que arden! ¡Las líneas espirituales, eh!
+@{"faseLunar": ["nueva"]} ¡Luna nueva, cariño! ¡Temporada nueva, programa nuevo, vida nueva!
+@{"faseLunar": ["menguante"]} ¡Luna menguante, mi vida! ¡Lo malo se va yendo como la audiencia a las cuatro!
+@{"estacion": ["verano"]} ¡En verano, {nombre}, programa de verano! ¡Con abanico!
+@{"estacion": ["invierno"]} ¡Con este frío, {nombre}, una mantita y mi programa!
+@{"primeraCarta": true} ¡{nombre}, arrancamos! ¡Que entre la sintonía!
+@{"ultimaCarta": true} ¡Última carta para {nombre}! ¡Ya casi tenemos el veredicto!
+¡Los {decada}, {nombre}! ¡La década en la que las cartas te hablan clarito!
+
+# guino
+¡Esto es como la oferta del día, cariño: no se repite!
+¡Yo no necesito apuntador, cariño: me lo dicen las cartas!
+¡Que conste en acta que yo lo dije en directo!
+¡Cariño, tú no te preocupes, que esto lo arreglo yo con una vela y un buen encuadre!
+¡Desde el plató os mando energía, que la luz de los focos también es buena!
+¡Mi compañera del turno de las tres lo vería igual! ¡Bueno, ella ve menos!
+¡Esto no es un milagro, mi vida! ¡Es oficio!
+¡Aquí no se cobra, cariño! ¡Esto es tarot de amor al arte!
+¡No hay números de teléfono, no hay letra pequeña, aquí lo único pequeño es mi ego!
+¡En la tele todo parece más grande, cariño, pero esta carta es grande de verdad!
+¡Mi vida, el maquillaje me lo hago yo, y las lecturas también!
+¡Más vale carta en mano que cien en la publicidad!
+¡A quien madruga, Dios le ayuda! ¡Y a quien trasnocha, le leo yo las cartas!
+¡Agua que no has de beber, déjala correr! ¡Y una botellita para el plató, por favor!
+¡Ojo, que en la siguiente pausa vuelvo con más destino!
+¡Esto es más emocionante que la final del concurso de cocina!
+¡Un aplauso para la carta! ¡Bueno, aplaudo yo, que el público está dormido!
+¡Esto tiene más giros que una telenovela de las de ochenta capítulos!
+¡Yo tengo un don! ¡Y un vestido de lentejuelas! ¡Las dos cosas brillan!
+¡Mi abuela echaba las cartas en el patio y yo las echo en la tele! ¡Progreso!
+¡Que me pongan el filtro de estrellitas, que esta carta lo merece!
+¡Las cartas no mienten, cariño! ¡Los guionistas, a veces!
+¡Esta carta es como el cuchillo que corta una lata: no te lo crees hasta que lo ves!
+¡Aquí no se vende nada, mi vida! ¡Solo se regala ilusión!
+¡Y no es todo! ¡Porque si te quedas, te leo otra carta! ¡Y otra!
+¡Mira la cara de mi técnico de sonido, que se le ha puesto la piel de gallina!
+¡Esto es contenido de calidad, cariño, no como lo del otro canal!
+¡Por cada carta que te leo, otra que te regalo! ¡Bueno, eso no, pero queda bonito!
+¡Cuando yo digo que veo algo, es que veo algo! ¡Y si no, también!
+¡El tarot es como el horno de convección, cariño: lo cambia todo!
+¡Esto lo estamos viendo en todo el país! ¡Bueno, cuatro y yo, pero muy fieles!
+¡Ni una llamada, cariño! ¡Aquí todo es directo, del corazón a la pantalla!
+¡Vuelvo a repetirlo para quien acaba de conectar!
+¡Por favor, realización, primer plano de la carta, que lo merece!
+¡Que me traigan otra vela, que esta lectura tiene mucha luz!
+¡Si esto lo ve mi productora, me sube el sueldo!
+¡Yo las cartas las leo con el corazón! ¡Y con las gafas de pasta, que son de atrezo!
+¡Mis cartas son de las buenas, de las que no se doblan con el foco!
+¡En mi pantalla veo tu energía! ¡Y una mosca, que la quiten!
+¡Esto se emite sin cortes, cariño, como la verdad!
+¡Hoy tenemos el plató lleno de energía positiva y de cables!
+¡Que alguien apague el ventilador, que se me vuelan las cartas!
+¡Esto es tarot de alta definición, cariño!
+¡No, no te vayas a la publicidad, que esto sigue!
+¡Desde que estoy en la tele, hasta mi gato tiene más seguidores!
+¡Cariño, las estrellas también tienen audiencia, y hoy están todas mirando!
+¡Las cartas no tienen botón de rebobinar, así que atención!
+¡Mi lema es: lo que ves es lo que hay! ¡Y lo que no ves, también lo veo yo!
+¡Un saludo a la gente que nos ve con la tele de fondo mientras plancha!
+¡Esta lectura es de las que se recuerdan en el especial de fin de año!
+@{"tema": ["amor"]} ¡El amor, cariño, es como un programa en directo: nunca sabes lo que va a pasar!
+@{"tema": ["trabajo"]} ¡El trabajo es como la tele: hay que salir con buena cara todos los días!
+@{"tema": ["dinero"]} ¡De dinero no hablo, cariño, que me lo prohíbe el guion! ¡Y la sensatez!
+@{"horaMin": 0, "horaMax": 5} ¡A estas horas la tele es nuestra, cariño! ¡Ni anuncios de colchones nos ganan!
+@{"faseLunar": ["llena"]} ¡Con luna llena, el plató brilla solo! ¡Que apaguen un foco!
+
+# cambioHumor
+¡Perdón, perdón, que me ha dado un aire y me he venido arriba! ¡Seguimos en directo, cariño!
+¡Uy, que me están diciendo desde control que suba la energía! ¡Pues ahí va!
+¡Volvemos de publicidad, mi vida, y vuelvo con todo!
+¡Espera, que me han cambiado el guion! ¡A partir de aquí, modo noche estelar!
+¡Me he tomado un café en la pausa y ahora sí, cariño, ahora sí!
+¡Perdona, que me he puesto seria un momento! ¡Pero esto es tele, y la tele es alegría!
+¡Me pica el pinganillo y eso significa que se acerca algo GORDO! ¡Cambio de ritmo!
+¡Silencio en el plató! ¡Ya está! ¡Seguimos, pero ahora con focos!
+¡Uy, que se me ha ido la voz al tono de las tres de la mañana! ¡Y es el mejor tono!
+¡Me han subido el volumen del micro! ¡Pues ahora lo vas a oír todo, cariño!
+¡Un aire, cariño, un aire del ventilador del plató! ¡Ya estoy de vuelta y con más ganas!
+¡Cambio de cámara! ¡Ahora me ves de perfil, que es mi lado bueno para las cartas fuertes!
+
+# sintesis
+¡Y esto es todo, {nombre}! ¡Una lectura de las de aplauso!
+¡Resumen para quien acaba de conectar: a {nombre} le veo cosas buenas, cosas que mover y mucha energía!
+¡Cariño, esta lectura es de matrícula! ¡De las que se repiten en el resumen semanal!
+¡Lo que te he visto esta noche, {nombre}, no se ve todos los días! ¡Pero recuerda que esto es entretenimiento!
+¡Conclusión, mi vida: el destino está de tu parte, pero el mando lo tienes tú!
+@{"mayoresMin": 3} ¡Tres o más arcanos mayores, cariño! ¡Esto es audiencia récord del destino!
+@{"mayoresMin": 3} ¡Cuántos mayores! ¡Esto en mi programa es una noche histórica!
+@{"suitDominante": "copas"} ¡Copas por todas partes, cariño! ¡Corazón, corazón y más corazón!
+@{"suitDominante": "copas"} ¡Las copas mandan, mi vida! ¡Esto es una lectura de emociones en alta definición!
+@{"suitDominante": "oros"} ¡Muchos oros! ¡Brilla todo! ¡Pero ojo, que yo de cuentas no hablo: hablo de energía material!
+@{"suitDominante": "oros"} ¡Oros, cariño! ¡Lo práctico, lo terrenal! ¡Con cabeza y sin locuras!
+@{"suitDominante": "espadas"} ¡Espadas, espadas, espadas! ¡Mucha cabeza, cariño! ¡Hay que hablar las cosas!
+@{"suitDominante": "espadas"} ¡Las espadas dominan, mi vida! ¡Decisiones, conversaciones, claridad!
+@{"suitDominante": "bastos"} ¡Bastos a tope! ¡Acción, energía, movimiento! ¡Esto es un programa de deporte!
+@{"suitDominante": "bastos"} ¡Muchos bastos, cariño! ¡Hay chispa, hay fuego, hay ganas!
+@{"figurasMin": 2} ¡Cuánta gente en tu tirada, cariño! ¡Esto parece un plató lleno de invitados!
+@{"figurasMin": 3} ¡Reyes, reinas, caballos, sotas! ¡Tu vida tiene más reparto que un culebrón!
+@{"tema": ["amor"]} ¡En el amor, {nombre}, te veo con ilusión! ¡Y eso, cariño, ya es mucho!
+@{"tema": ["trabajo"]} ¡En el trabajo, mi vida, movimiento y paciencia! ¡Que no todo es prime time!
+@{"tema": ["dinero"]} ¡En el dinero, cariño, prudencia! ¡Que yo no doy números ni consejos de cuentas!
+@{"tema": ["salud"]} ¡Y de salud, al médico, cariño! ¡Que yo sé de cartas, no de recetas!
+
+# saludo
+¡Buenas noches, buenas noches, buenas noches a todo el mundo! ¡Y hoy en el programa tenemos a {nombre}!
+¡Hola, cariño! ¡{nombre}, desde {provincia}! ¡Qué alegría tenerte en antena!
+¡Ya estamos en directo! ¡Tú no te muevas, {nombre}, que esto empieza!
+¡Mi vida, qué bien que me ves! ¡Prepara un vaso de agua, que esto va a ser intenso!
+¡Hola, hola! ¡Aquí estamos otra noche más, con las cartas, las velas y la mejor compañía!
+¡{nombre}, cariño, te estaba esperando! ¡Acomódate en el sofá, que en mi sofá cabe todo el mundo!
+¡Que suene la sintonía! ¡Que se enciendan las velas! ¡Que pase {nombre}!
+¡Te doy la bienvenida a la noche del tarot! ¡Y sin pagar nada, cariño!
+¡Atención, que empieza la lectura de {nombre}, de {provincia}, signo {signo}!
+¡Hola, corazón! ¡Esto es tarot en directo! ¡Bueno, en diferido de hace un segundo!
+@{"horaMin": 0, "horaMax": 5} ¡Buenas madrugadas, cariño! ¡Esto es la hora buena del tarot!
+@{"tema": ["amor"]} ¡Me dicen desde control que vienes por amor! ¡Corazoncitos, por favor!
+@{"tema": ["trabajo"]} ¡Vienes por trabajo, cariño! ¡Hoy, oficina abierta en el plató!
+@{"tema": ["dinero"]} ¡Vienes por dinero, cariño! ¡Aquí no damos números, pero sí ilusión!
+
+# despedida
+¡Y hasta aquí la lectura, {nombre}! ¡Un besazo enorme!
+¡Gracias por estar, cariño! ¡Mañana más y mejor!
+¡No te vayas sin un aplauso para las cartas!
+¡Mi vida, cuídate mucho! ¡Y recuerda: esto es entretenimiento, el resto lo decides tú!
+¡Nos vemos en la próxima, {nombre}! ¡Que la energía te acompañe!
+¡Me despido de {nombre}, de {provincia}, y de todo el país! ¡Bueno, de los cuatro que nos ven!
+¡Apaga la tele y ve a por ello, cariño! ¡Bueno, apágala después de los créditos!
+¡Un beso, un abrazo y una vela encendida para ti!
+¡Que no te engañe nadie, cariño! ¡Aquí no hay llamadas ni cobros: solo cartas y cariño!
+¡Hasta mañana, mi vida! ¡Misma hora, mismo plató!
+¡Fin de la emisión, {nombre}! ¡Que sueñes con cartas buenas!
+@{"horaMin": 0, "horaMax": 5} ¡A dormir, cariño, que ya están poniendo la carta de ajuste!
+¡Y recuerda: no cuelgues nunca la ilusión!
+¡Un saludo a la realización, a maquillaje y a ti, {nombre}, que eres lo más importante!
+
+# salud
+¡Cariño, para la salud, mejor tu médico! ¡Que yo de lo único que sé curar es el aburrimiento!
+¡Esto es importante, mi vida: la salud, con tu médico! ¡Yo solo leo cartas en la tele!
+¡Para eso, mejor tu médico, cariño! ¡Que no tengo bata, tengo lentejuelas!
+¡Atención, que esto va en serio: en salud, médico! ¡Las cartas, para pasar el rato!
+¡Mi vida, la salud no se mira en las cartas! ¡Pide cita con tu médico y luego vuelves a verme!
+¡Esto lo dice la presentadora y lo firma la producción: para la salud, mejor tu médico!
+¡Las cartas no recetan, cariño! ¡Tu médico sí! ¡Pues eso!
+¡Cariño, que esto sea un rato de risas! ¡Lo de la salud, con profesionales de verdad!
+¡Si te preocupa algo, mi vida, al médico! ¡Y si no te preocupa, también, que una revisión no hace daño!
+¡Ni péndulo ni bola de cristal: para la salud, mejor tu médico! ¡Lo digo en directo!
