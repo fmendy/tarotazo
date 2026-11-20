@@ -35,7 +35,8 @@ LABEL org.opencontainers.image.title="arcana-api" \
       org.opencontainers.image.description="Tarotazo — API sin estado (Spring Boot, Java 25)" \
       org.opencontainers.image.source="https://github.com/OWNER/arcana"
 
-RUN addgroup -S -g 10001 arcana \
+RUN apk upgrade --no-cache \
+ && addgroup -S -g 10001 arcana \
  && adduser -S -D -H -u 10001 -G arcana -h /app -s /sbin/nologin arcana
 WORKDIR /app
 # El jar pertenece a root y es de solo lectura para el usuario de ejecución.
