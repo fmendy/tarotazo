@@ -1,18 +1,7 @@
-import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
-const RM = '(prefers-reduced-motion: reduce)';
-function subRM(cb: () => void) {
-  const q = typeof window !== 'undefined' && window.matchMedia ? window.matchMedia(RM) : null;
-  q?.addEventListener?.('change', cb);
-  return () => q?.removeEventListener?.('change', cb);
-}
-export function useReducedMotion(): boolean {
-  return useSyncExternalStore(
-    subRM,
-    () => (typeof window !== 'undefined' && window.matchMedia ? window.matchMedia(RM).matches : false),
-    () => false,
-  );
-}
+// Movimiento reducido: el del equipo de animación (media query + override «modo ligero»).
+export { useReducedMotion } from '../fx/hooks';
 
 export interface AsyncState<T> { data: T | null; error: unknown; loading: boolean; reload(): void }
 

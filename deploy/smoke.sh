@@ -33,6 +33,11 @@ for _ in $(seq 1 45); do
   [ "$code" = "200" ] && break
   sleep 2
 done
+if [ "${code:-000}" != "200" ]; then
+  echo "FAIL: $BASE_URL/ no responde 200 (último código: ${code:-000}). ¿Está levantado el compose?"
+  echo "      docker compose -f deploy/docker-compose.yml ps -a  /  logs <servicio>"
+  exit 1
+fi
 
 fetch() { # fetch <ruta> <prefijo>  -> $TMP/<prefijo>.{h,b,code}
   "${CURL[@]}" -D "$TMP/$2.h" -o "$TMP/$2.b" -w '%{http_code}' "$BASE_URL$1" >"$TMP/$2.code" 2>/dev/null || echo 000 >"$TMP/$2.code"

@@ -34,33 +34,27 @@ export function Shuffle() {
   const comments = t('shuffle.comments', { returnObjects: true }) as string[];
   const [comment, setComment] = useState<string | null>(null);
   const [done, setDone] = useState(false);
-  const [round, setRound] = useState(0);
 
   if (loading) return <Screen title={t('shuffle.title')}><Loading /></Screen>;
   if (error || !model) return <Screen title={t('shuffle.title')}><ErrorBox error={error} /></Screen>;
 
-  const more = () => {
-    setComment(comments[randomInt(comments.length)] ?? null);
-    setDone(false);
-    setRound((r) => r + 1);
-    sfx('shuffle');
-  };
+  // ShuffleDeck trae su propio botón «más» y llama a onDone al final de CADA pasada.
+  const more = () => setComment(comments[randomInt(comments.length)] ?? null);
 
   return (
     <Screen title={t('shuffle.title')} className="shuffle">
       <Seer pose="rie" compact say={comment} />
       <div className="stage" aria-live="polite">
         <ShuffleDeck
-          key={round}
           backImage={model.backImage}
           style={style}
           reducedMotion={rm}
           onDone={() => setDone(true)}
           onMore={more}
+          moreLabel={t('shuffle.more')}
         />
       </div>
       <div className="row">
-        <button className="btn" onClick={more}>{t('shuffle.more')}</button>
         <button className="btn btn--primary" disabled={!done && !rm} onClick={() => go('cut')}>{t('shuffle.done')}</button>
       </div>
     </Screen>

@@ -98,15 +98,15 @@ export function Reading() {
       ) : (
         <>
           <div className="board">
-            <SpreadBoard layout={reading.spread.layout} slots={reading.cards.length}>
+            <SpreadBoard layout={reading.spread.layout} slots={reading.cards.length}
+              labels={filled.map((c) => reading.spread.positions.find((p) => p.id === c.position)?.label ?? c.position)}>
               {filled.map((c, i) => {
                 const label = reading.spread.positions.find((p) => p.id === c.position)?.label ?? c.position;
                 const flipped = !!progress[i]?.flipped;
                 return (
                   <div key={i} className={'slot' + (i === current ? ' is-current' : '')} data-position={c.position} data-order={slotOrder.indexOf(c.position)}
                     role="img" aria-label={flipped ? t(c.reversed ? 'reading.cardAltReversed' : 'reading.cardAlt', { name: c.name, position: label }) : t('reading.backAlt', { position: label })}>
-                    <FlipCard front={c.image} back={back} flipped={flipped} reversed={c.reversed} width={filled.length > 5 ? 84 : 120} />
-                    <span className="slot__label" aria-hidden>{label}</span>
+                    <FlipCard front={c.image} back={back} flipped={flipped} reversed={c.reversed} />
                   </div>
                 );
               })}

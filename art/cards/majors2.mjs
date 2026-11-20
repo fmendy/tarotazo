@@ -229,7 +229,7 @@ export const MAJORS2 = {
     out.push(S.sunFace(560, 700, 60, { cls: 'su' }));
     out.push(path_(`M490 700L490 600L520 600L520 700ZM600 700L600 590L630 590L630 700Z`, { class: 'st' }));
     out.push(S.ground(720, 'gr', { amp: 4 }), S.waves(760, { amp: 6, rows: 2 }), S.ground(840, 'gr2', { amp: 16 }));
-    const h = horse({ x: 280, y: 960, w: 520, dir: 1, c: 'w', mane: 'hg', barding: 'dk' });
+    const h = horse({ x: 250, y: 960, w: 470, dir: 1, c: 'w', mane: 'hg', barding: 'dk' });
     out.push(h.svg);
     const f = c.person({ x: h.saddle[0] - 10, y: h.saddle[1] + 100, h: 330, riding: true, garment: 'armor', robe: 'dk', sleeve: 'dk', legs: 'dk', head: 'helmet', headC: 'r', hair: 'w', look: 0.6, arms: { l: [100, 80], r: [20, -60] } });
     out.push(f.svg);
@@ -363,7 +363,7 @@ export const MAJORS2 = {
     for (let i = 0; i < 4; i++) for (let j = 0; j < 7; j++) out.push(rect(PX0 + j * 90 - (i % 2) * 45, 640 + i * 42, 90, 42, { class: 'nf th' }));
     for (let i = 0; i < 5; i++) { const x = 100 + i * 125; out.push(path_(`M${x} 640v-50`, { class: 'nf', 'stroke-width': 4 }), S.sunFace(x, 570, 22, { cls: 'y', face: false, rays: 12, wavy: false }), circle(x, 570, 12, { class: 'e th' })); }
     out.push(S.ground(800, 'gr', { amp: 4 }));
-    const h = horse({ x: 300, y: 1010, w: 520, dir: 1, c: 'w', mane: 'hb' });
+    const h = horse({ x: 270, y: 1010, w: 470, dir: 1, c: 'w', mane: 'hb' });
     out.push(h.svg);
     const f = c.person({ x: h.saddle[0] + 20, y: h.saddle[1] + 110, h: 300, riding: true, garment: 'tunic', robe: 's', sleeve: 's', legs: 's', hair: 'hb', head: 'wreath', mood: 'smile', look: 0, arms: { l: [-150, -140], r: [-30, -40] } });
     out.push(f.svg);

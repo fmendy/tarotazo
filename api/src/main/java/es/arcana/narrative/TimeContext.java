@@ -18,6 +18,7 @@ public class TimeContext {
     private final Clock clock;
     private final ZoneId zone;
 
+    @org.springframework.beans.factory.annotation.Autowired
     public TimeContext(Clock clock, ContentRepository content) {
         this(clock, content.zone());
     }

@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { useSession } from '../state/session';
 import { useSound } from '../lib/sound';
 import { SUPPORTED } from '../i18n';
+import { setReducedMotion } from '../fx';
+import { useReducedMotion } from '../hooks';
 
 /** Selector de idioma con forma de bola de cristal (preparado aunque sólo haya «es»). */
 export function LangBall() {
@@ -47,6 +49,7 @@ export function Menu() {
   const back = useSession((s) => s.back);
   const reset = useSession((s) => s.reset);
   const { muted, toggle } = useSound();
+  const light = useReducedMotion();
   const [open, setOpen] = useState(false);
   const side = screen === 'pendulum' || screen === 'titles' || screen === 'legal' || screen === 'privacy';
   const blocked = screen === 'blocked';
@@ -70,6 +73,7 @@ export function Menu() {
             {muted ? <path d="M17 9l5 6M22 9l-5 6" /> : <path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" />}
           </svg><span className="sr-only">{muted ? t('menu.unmute') : t('menu.mute')}</span>
         </button>
+        <button className="navbtn" aria-pressed={light} onClick={() => setReducedMotion(!light)}>{t('menu.light')}</button>
         <LangBall />
         {!blocked && <button className="navbtn navbtn--exit" onClick={go(() => reset('bye'))}>{t('menu.exit')}</button>}
       </nav>

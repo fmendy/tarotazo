@@ -32,7 +32,8 @@ LABEL org.opencontainers.image.title="arcana-web" \
 
 USER root
 # Configuración propia (sustituye la principal) y fuera el default.conf de la imagen.
-RUN rm -f /etc/nginx/conf.d/default.conf
+# Parches de seguridad del SO base (Trivy falla en CRITICAL con arreglo disponible).
+RUN apk upgrade --no-cache && rm -f /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=build /app/dist /usr/share/nginx/html
 RUN chown -R root:root /usr/share/nginx/html && chmod -R a+rX /usr/share/nginx/html

@@ -46,7 +46,7 @@ export function Titles() {
     <Screen title={t('titles.title')} className="titles">
       <div className="titles__wall">
         <div className="titles__seer">
-          <Seer pose={active ? 'rie' : 'saludo'} say={active?.comentario ?? t('titles.hover')} />
+          <Seer pose={active ? 'rie' : 'saludo'} say={active ? `«${active.comentario}»` : t('titles.hover')} />
         </div>
         <p className="hint">{t('titles.intro')}</p>
         {titles.loading && <Loading />}

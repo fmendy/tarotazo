@@ -69,6 +69,7 @@ public class ContentRepository {
     private final LoadingCache<String, LangContent> langCache;
     private final Cache<String, Boolean> artCache;
 
+    @org.springframework.beans.factory.annotation.Autowired
     public ContentRepository(ContentProperties props) {
         this(props, createStore(props, ContentRepository.class.getClassLoader()));
     }
