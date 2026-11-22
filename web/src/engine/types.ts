@@ -10,31 +10,12 @@ export type {
   ReadingRequest, ReadingResponse, TitlesFile,
 };
 
-// ---------------------------------------------------------------- respuestas (extensiones aditivas del API Java)
-
-/** GET /decks → models[]: el API añade `numerals` (y `description` puede ser null). */
-export interface EngineDeckModel extends Omit<DeckModel, 'description' | 'previewImage'> {
-  description: string | null;
-  previewImage: string | null;
-  numerals: Record<string, string>;
-}
-/** GET /decks: el API añade `description`. */
-export interface EngineDeck extends Omit<Deck, 'models'> {
-  description: string | null;
-  models: EngineDeckModel[];
-}
-/** GET /spreads: el API añade `minSize` (null salvo tiradas de tamaño variable). */
-export interface EngineSpread extends Omit<Spread, 'description'> {
-  description: string | null;
-  minSize: number | null;
-}
-/** GET /provinces: el API añade `zona` y `gentilicio` (crudo, «sevillano/a»); `teaser` puede ser null. */
-export interface EngineProvince extends Omit<ProvinceInfo, 'teaser' | 'gentilicio' | 'comunidad'> {
-  comunidad: string | null;
-  gentilicio: string | null;
-  zona: string | null;
-  teaser: string | null;
-}
+// ---------------------------------------------------------------- respuestas
+// Los campos aditivos del API Java (description, numerals, minSize, zona…) viven ya en src/lib/types.ts.
+export type EngineDeckModel = DeckModel;
+export type EngineDeck = Deck;
+export type EngineSpread = Spread;
+export type EngineProvince = ProvinceInfo;
 
 // ---------------------------------------------------------------- modelo de contenido (content/)
 

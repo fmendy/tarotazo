@@ -107,5 +107,5 @@ los demás y que sólo `content` usa `java.nio.file` / `org.springframework.core
 ## Textos propios del servidor
 
 Nombres visibles de signos, días, estaciones, fases, tonos y temas, colores de la suerte y descargos están en
-`src/main/resources/arcana-defaults/es.json`. Un idioma puede sobrescribirlos con el fichero opcional
-`content/{lang}/server-labels.json` (no está en el contrato de contenido; es una extensión).
+`content/{lang}/server-labels.json` (esquema `content/schemas/server-labels.schema.json`; obligatorio en `es`, los
+demás idiomas caen a `es` por clave). Es la misma fuente que usa el motor de la app sin conexión (`web/src/engine`).

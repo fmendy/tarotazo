@@ -9,6 +9,15 @@
         "no": "Pues aparecerá, {nombre}.",
         "skip": "Discreción, me gusta."
       }
+    },
+    {
+      "id": "viaje",
+      "prompt": "¿Tienes un viaje pendiente?",
+      "branches": {
+        "si": "Maleta.",
+        "no": "Sofá.",
+        "skip": "Vale."
+      }
     }
   ]
 }

@@ -37,19 +37,25 @@ public final class LangContent {
                 Map<String, Interaction> interactions, Map<String, ProvinceSheet> provinceSheets, JsonNode titles,
                 JsonNode onboarding, JsonNode pendulumRaw, PendulumContent pendulum, ServerLabels labels) {
         this.lang = lang;
-        this.cards = Map.copyOf(cards);
-        this.spreads = Map.copyOf(spreads);
-        this.meanings = Map.copyOf(meanings);
+        // Mapas con orden de inserción (orden de fichero): Map.copyOf no garantiza orden de iteración y varía entre
+        // ejecuciones de la JVM, lo que hacía no reproducible la elección ponderada de interacciones.
+        this.cards = ordered(cards);
+        this.spreads = ordered(spreads);
+        this.meanings = ordered(meanings);
         this.fragments = List.copyOf(fragments);
         this.fragmentsBySlot = fragments.stream().collect(Collectors.groupingBy(Fragment::slot,
                 Collectors.collectingAndThen(Collectors.toList(), List::copyOf)));
-        this.interactions = Map.copyOf(interactions);
-        this.provinceSheets = Map.copyOf(provinceSheets);
+        this.interactions = ordered(interactions);
+        this.provinceSheets = ordered(provinceSheets);
         this.titles = titles;
         this.onboarding = onboarding;
         this.pendulumRaw = pendulumRaw;
         this.pendulum = pendulum;
         this.labels = labels;
+    }
+
+    private static <K, V> Map<K, V> ordered(Map<K, V> m) {
+        return java.util.Collections.unmodifiableMap(new java.util.LinkedHashMap<>(m));
     }
 
     public String lang() {

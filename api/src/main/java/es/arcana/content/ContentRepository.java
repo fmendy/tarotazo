@@ -23,8 +23,6 @@ import tools.jackson.databind.DeserializationFeature;
 import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.json.JsonMapper;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Duration;
@@ -55,7 +53,7 @@ public class ContentRepository {
     private static final List<String> REQUIRED = List.of("decks/tarot.json", "decks/spanish.json", "spreads.json",
             "provinces.json", "es/cards/tarot.json", "es/cards/spanish.json", "es/spreads.json",
             "es/meanings/tarot.json", "es/meanings/spanish.json", "es/interactions.json", "es/titles.json",
-            "es/onboarding.json", "es/pendulum.json");
+            "es/onboarding.json", "es/pendulum.json", "es/server-labels.json");
 
     private final ContentProperties props;
     private final ContentStore store;
@@ -377,8 +375,8 @@ public class ContentRepository {
         PendulumContent pendulum = pendulumRaw == null ? PendulumContent.EMPTY
                 : bind(lang + "/pendulum.json", pendulumRaw, PendulumContent.class).orElse(PendulumContent.EMPTY);
 
-        JsonNode labelsNode = JsonMerge.merge(defaults(Ids.DEFAULT_LANG), es ? null : defaults(lang));
-        labelsNode = JsonMerge.merge(labelsNode, merged(lang, "server-labels.json"));
+        // Única fuente: content/{lang}/server-labels.json con fallback por clave a es (la comparte la app sin conexión).
+        JsonNode labelsNode = merged(lang, "server-labels.json");
         ServerLabels labels = bind("server-labels", labelsNode, ServerLabels.class)
                 .orElse(new ServerLabels(null, null, null, null, null, null, null, null, null, null, null, null, null));
 
@@ -428,16 +426,6 @@ public class ContentRepository {
     private JsonNode node(String path) {
         JsonNode n = tree.get(path);
         return n == null ? mapper.missingNode() : n;
-    }
-
-    private JsonNode defaults(String lang) {
-        try (InputStream in = ContentRepository.class.getClassLoader()
-                .getResourceAsStream("arcana-defaults/" + lang + ".json")) {
-            return in == null ? null : mapper.readTree(in);
-        } catch (IOException | RuntimeException e) {
-            log.warn("No se pudieron leer los textos por defecto de '{}': {}", lang, e.getMessage());
-            return null;
-        }
     }
 
     private static JsonNode nullIfMissing(JsonNode n) {

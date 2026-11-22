@@ -65,6 +65,7 @@ final class SchemaValidator {
                 case "titles.json" -> Optional.of("titles.schema.json");
                 case "onboarding.json" -> Optional.of("onboarding.schema.json");
                 case "pendulum.json" -> Optional.of("pendulum.schema.json");
+                case "server-labels.json" -> Optional.of("server-labels.schema.json");
                 default -> Optional.empty();
             };
         }
@@ -101,9 +102,7 @@ final class SchemaValidator {
             parsed.put(path, node);
             Optional<String> schemaName = schemaFor(path);
             if (schemaName.isEmpty()) {
-                if (!path.endsWith("server-labels.json")) {
-                    report.warning(path, "no tiene esquema asociado (no se valida)");
-                }
+                report.warning(path, "no tiene esquema asociado (no se valida)");
                 continue;
             }
             Schema schema = schema(schemaName.get(), report);

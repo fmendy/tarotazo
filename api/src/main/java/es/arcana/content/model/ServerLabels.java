@@ -5,9 +5,9 @@ import java.util.Map;
 
 /**
  * Textos que necesita el servidor y que no están en el contrato de contenido (nombres visibles de signos,
- * días, estaciones, fases, tonos y temas; colores de la suerte; descargos). Valores por defecto en
- * {@code classpath:arcana-defaults/{lang}.json}; un idioma puede sobrescribirlos con el fichero opcional
- * {@code content/{lang}/server-labels.json}.
+ * días, estaciones, fases, tonos y temas; colores de la suerte; descargos). Fuente única:
+ * {@code content/{lang}/server-labels.json} (obligatorio en {@code es}; otros idiomas, fallback por clave a {@code es}).
+ * Es el mismo fichero que usa el motor de la app sin conexión ({@code web/src/engine}).
  *
  * @param provinciaExtranjero valor de {@code {provincia}} para el código {@code XX}
  * @param provinciaDesconocida valor de {@code {provincia}} cuando no llega provincia

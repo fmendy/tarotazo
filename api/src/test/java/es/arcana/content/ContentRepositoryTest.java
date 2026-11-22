@@ -51,6 +51,16 @@ class ContentRepositoryTest {
     }
 
     @Test
+    void interaccionesYEtiquetasConservanElOrdenDelFichero() {
+        LangContent es = Fixture.repo().lang("es");
+        // determinista entre ejecuciones de la JVM (antes Map.copyOf barajaba el orden de iteración)
+        assertThat(es.interactions().keySet()).containsExactly("letra-m", "viaje");
+        assertThat(es.labels().signos().get("geminis")).isEqualTo("Géminis");
+        assertThat(es.labels().provinciaExtranjero()).isEqualTo("tierras lejanas");
+        assertThat(es.labels().luckyColors()).isNotEmpty();
+    }
+
+    @Test
     void spanish40ExcluyeOnly48() {
         var spanish = Fixture.repo().deck("spanish").orElseThrow();
         var m = spanish.models().getFirst();
