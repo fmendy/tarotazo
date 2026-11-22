@@ -65,3 +65,6 @@ Dispositivos reales, giroscopio, Safari/iOS, sonido, cortar arrastrando, Lightho
 - QA-12: para `XX`, `{provincia}` se resuelve como «tierras lejanas»; sin provincia, «la tierra».
 - Rate-limit: se eleva a 240 peticiones/min por IP por el NAT.
 - QA-13: corregido en contenido por el jefe de proyecto.
+- 2026-11-22 · **Ronda de correcciones cerrada.** Corregidos QA-01…QA-19 (salvo QA-09, resuelto por decisión), S-1…S-5. Además: descargos de salud sin «médico» (2 fragmentos) corregidos; `alt=""` en el cofre.
+  Verificación final del jefe de proyecto: vitest 103/103 · build con chunk inicial 115 kB (40,6 kB gzip) · Playwright desktop + mobile **48 pasan, 0 fallan, 2 omitidos** (requieren pila Docker) · smoke de la pila Docker 30/30 (DevOps).
+  **Puerta de lanzamiento a beta cerrada: SUPERADA en lo técnico.** Pendiente del titular: datos del aviso legal, revisión legal de textos, dominio/VPS. Pendiente en beta: dispositivos reales (Android medio, Safari/iOS), giroscopio y sonido.

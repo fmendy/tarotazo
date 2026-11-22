@@ -22,8 +22,8 @@ Jefe de proyecto: coordinación, contratos (`docs/CONTRACTS.md`), integración y
 | 1 · Cimientos | Monorepo, CI/CD, compose, esqueleto API, esquemas, motor v0, animación base | Hecho |
 | 2 · MVP tarot | Onboarding, RWS + castellana, tiradas 1/3/5, lectura completa | Hecho (las 7 tiradas) |
 | 3 · Péndulo | Física, control, 3 modelos, modos Sí/No, tablero, mapa | Hecho (9 modelos, 7 modos) |
-| 4 · Contenido y pulido | Resto de barajas/tiradas/tonos, 1.500 fragmentos, diploma, sonido, rendimiento | Contenido y arte hechos (9 modelos, 1.564 fragmentos); concordancias y rendimiento en curso |
-| 5 · Calidad y lanzamiento | E2E, privacidad, seguridad, textos legales, beta | QA en curso |
+| 4 · Contenido y pulido | Resto de barajas/tiradas/tonos, 1.500 fragmentos, diploma, sonido, rendimiento | Hecho (9 modelos, 7 tiradas, 1.564 fragmentos, 60 fps con CPU ×4) |
+| 5 · Calidad y lanzamiento | E2E, privacidad, seguridad, textos legales, beta | Puerta técnica superada (48/48 E2E); falta lo legal y la beta con dispositivos reales |
 
 Puertas: **diseño aprobado** (fin fase 0) · **demo MVP** (fin fase 2) · **lanzamiento** (fin fase 5).
 
