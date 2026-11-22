@@ -42,6 +42,8 @@ for (const dir of dirs) {
   for (const f of walk(dir)) {
     // el mapa lleva estilos/atributos de interacción hechos a mano: se deja tal cual
     if (f.includes(`${path.sep}map${path.sep}`)) continue;
+    // pixel: rectángulos enteros ya mínimos; SVGO abre costuras al hornear la escala. og: anida otros SVG.
+    if (f.includes(`${path.sep}pixel${path.sep}`) || f.endsWith(`${path.sep}pixel.svg`) || f.endsWith(`${path.sep}og.svg`)) continue;
     const src = fs.readFileSync(f, 'utf8');
     let out;
     try { out = optimize(src, config(f)).data; } catch (e) { console.warn('SVGO falló en', f, e.message); continue; }

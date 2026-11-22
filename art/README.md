@@ -60,3 +60,28 @@ Los nombres visibles de las cartas se leen de `content/es/cards/*.json` (incluid
 - **Diploma de usuario**: 1400×1000; huecos `#slot-nombre`, `#slot-titulo`, `#slot-fecha` (atributos `data-slot-*` = centro x, y-base, ancho, alto).
 - **Papel pintado**: mosaico 200×200 (`background: url(/art/wallpaper.svg) repeat`).
 - **Remedios**: viewBox `0 -60 600 860`, mismo encuadre en las 5 poses → crossfade directo.
+
+## Optimización (SVGO)
+
+`node optimize.mjs [subcarpeta…]` reescribe en sitio los SVG de `web/public/art` con SVGO (precisión 1 decimal, multipass),
+**sin tocar ids, clases, `data-*` ni rutas**. Se excluyen el mapa (hecho a mano para interacción), `pixel` (SVGO abría costuras
+al hornear la escala) y `og.svg`. Lo ejecuta `generate-all.mjs` tras generar. Verificado con diferencia de píxeles (resvg):
+cambios imperceptibles (media < 0,01/255 salvo el ruido del filtro de acuarela).
+
+## App Android (`generate-mobile.mjs`)
+
+| Salida | Uso |
+|---|---|
+| `web/resources/icon-only.png` (1024²) | icono «legacy» a sangre para `@capacitor/assets` |
+| `web/resources/icon-foreground.png` / `icon-background.png` (1024²) | icono adaptativo; motivo dentro del 66 % central |
+| `web/resources/icon-monochrome.png` (1024²) | icono temático Android 13 (silueta blanca sobre transparente) |
+| `web/resources/splash.png` / `splash-dark.png` (2732²) | splash con el motivo pequeño centrado |
+| `store/graphics/icon-512.png` | icono de Google Play (32 bits) |
+| `store/graphics/feature-graphic.png` (1024×500) | gráfico de funciones (sólo la marca, sin texto pequeño) |
+| `store/graphics/screenshot-frame.svg/.png` (1080×1920) | plantilla de marco con hueco de pantalla transparente |
+
+Motivo: la bola de cristal de Madame Remedios con el broche de rubí y la pluma de su turbante.
+Generar las variantes nativas: `cd web && npx @capacitor/assets generate --android --iconBackgroundColor '#3b1450' --splashBackgroundColor '#3b1450' --splashBackgroundColorDark '#140a1f'`.
+
+Capturas de Play: QA deja PNG en `store/screenshots/raw/` (opcional `captions.json` con `{ "fichero.png": "Titular" }`) y
+`node art/tools/frame-screenshots.mjs` genera las versiones enmarcadas (1080×1920) en `store/screenshots/`.

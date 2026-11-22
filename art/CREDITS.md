@@ -3,7 +3,7 @@
 ## Ilustraciones
 Todas las ilustraciones (cartas de los 9 modelos, reversos, Madame Remedios, péndulos, marcos, cofres, sello, papel pintado,
 globo, diploma, favicon e imagen social) son **originales**, generadas por código en `art/` para Tarotazo.
-La iconografía tradicional del tarot (Rider‑Waite‑Smith 1909, Marsella) y de la baraja española es de dominio público y se ha
+La iconografía tradicional del tarot (la baraja clásica de 1909 y la de Marsella) y de la baraja española es de dominio público y se ha
 **redibujado** desde cero; no se ha copiado ninguna edición concreta ni barajas comerciales protegidas (ni Thoth ni otras).
 
 ## Cartografía
