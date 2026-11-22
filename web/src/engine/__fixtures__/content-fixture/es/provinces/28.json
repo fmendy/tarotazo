@@ -1,0 +1,20 @@
+{
+  "code": "28",
+  "nombre": "Madrid",
+  "comunidad": "Comunidad de Madrid",
+  "gentilicio": "madrileño/a",
+  "plato": [
+    "el cocido"
+  ],
+  "fiesta": [
+    "la feria"
+  ],
+  "clima": [
+    "calor"
+  ],
+  "chascarrillos": [
+    "Chiste 1 de Madrid",
+    "Chiste 2 de Madrid",
+    "Chiste 3 de Madrid"
+  ]
+}

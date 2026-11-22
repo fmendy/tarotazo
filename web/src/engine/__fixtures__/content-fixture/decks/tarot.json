@@ -1,0 +1,59 @@
+{
+  "family": "tarot",
+  "reversedProbability": 0.5,
+  "defaultModel": "rws",
+  "models": [
+    {
+      "id": "rws",
+      "deckSize": 6,
+      "art": "rws"
+    },
+    {
+      "id": "marsella",
+      "deckSize": 6,
+      "art": "marsella",
+      "numerals": {
+        "mayor-08": "XI"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "mayor-00",
+      "arcana": "major",
+      "number": 0
+    },
+    {
+      "id": "mayor-01",
+      "arcana": "major",
+      "number": 1
+    },
+    {
+      "id": "mayor-16",
+      "arcana": "major",
+      "number": 16
+    },
+    {
+      "id": "copas-01",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "copas",
+      "rank": "01"
+    },
+    {
+      "id": "copas-reina",
+      "arcana": "minor",
+      "number": 13,
+      "suit": "copas",
+      "rank": "reina",
+      "court": true
+    },
+    {
+      "id": "espadas-02",
+      "arcana": "minor",
+      "number": 2,
+      "suit": "espadas",
+      "rank": "02"
+    }
+  ]
+}

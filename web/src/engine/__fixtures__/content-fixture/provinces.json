@@ -1,0 +1,28 @@
+{
+  "provinces": [
+    {
+      "code": "28",
+      "nombre": "Madrid",
+      "nombreOficial": "Madrid",
+      "comunidad": "Comunidad de Madrid",
+      "capital": "Madrid",
+      "zona": "peninsula"
+    },
+    {
+      "code": "41",
+      "nombre": "Sevilla",
+      "nombreOficial": "Sevilla",
+      "comunidad": "Andalucía",
+      "capital": "Sevilla",
+      "zona": "peninsula"
+    },
+    {
+      "code": "XX",
+      "nombre": "Fuera de España",
+      "nombreOficial": "Fuera de España",
+      "comunidad": null,
+      "capital": null,
+      "zona": "extranjero"
+    }
+  ]
+}

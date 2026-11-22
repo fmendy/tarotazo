@@ -1,0 +1,20 @@
+{
+  "code": "41",
+  "nombre": "Sevilla",
+  "comunidad": "Andalucía",
+  "gentilicio": "sevillano/a",
+  "plato": [
+    "el salmorejo"
+  ],
+  "fiesta": [
+    "la feria"
+  ],
+  "clima": [
+    "calor"
+  ],
+  "chascarrillos": [
+    "Chiste 1 de Sevilla",
+    "Chiste 2 de Sevilla",
+    "Chiste 3 de Sevilla"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "lines": {
+    "sino.no": [
+      "Línea sino.no"
+    ],
+    "sino.duda": [
+      "Línea sino.duda"
+    ],
+    "tablero.0": [
+      "Línea tablero.0"
+    ],
+    "tablero.1": [
+      "Línea tablero.1"
+    ],
+    "tablero.2": [
+      "Línea tablero.2"
+    ],
+    "tablero.3": [
+      "Línea tablero.3"
+    ],
+    "tablero.4": [
+      "Línea tablero.4"
+    ],
+    "porcentaje.alto": [
+      "Un {porcentaje} %."
+    ],
+    "porcentaje.medio": [
+      "Un {porcentaje} %."
+    ],
+    "porcentaje.bajo": [
+      "Un {porcentaje} %."
+    ],
+    "chakras.intro": [
+      "Línea chakras.intro"
+    ],
+    "calibrar.si": [
+      "Línea calibrar.si"
+    ],
+    "calibrar.no": [
+      "Línea calibrar.no"
+    ],
+    "enfado": [
+      "Línea enfado"
+    ],
+    "sino.si": [
+      "Sí: {respuesta}."
+    ],
+    "ouija": [
+      "Deletrea {palabra}."
+    ],
+    "mapa": [
+      "Tus llaves están en {provincia}."
+    ],
+    "opciones": [
+      "Elige {opcion}."
+    ],
+    "medianoche": [
+      "Es medianoche y brillo."
+    ],
+    "intro": [
+      "Coge el péndulo."
+    ],
+    "concentrar": [
+      "Concéntrate, que se te nota."
+    ]
+  },
+  "models": {
+    "chorizo": {
+      "nombre": "Chorizo de {provincia}",
+      "personalidad": "Grasiento y {gentilicio}",
+      "lines": {
+        "sino.si": [
+          "El chorizo dice que sí."
+        ],
+        "enfado": [
+          "El chorizo se enrolla."
+        ]
+      }
+    }
+  },
+  "ouijaWords": [
+    "AMOR",
+    "PIZZA"
+  ],
+  "chakras": [
+    {
+      "id": "raiz",
+      "nombre": "Raíz",
+      "informes": [
+        "Raíz al {nivel} %."
+      ]
+    },
+    {
+      "id": "corona",
+      "nombre": "Corona",
+      "informes": [
+        "Corona al {nivel} %."
+      ]
+    }
+  ]
+}

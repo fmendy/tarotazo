@@ -1,0 +1,3699 @@
+{
+ "readings": [
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "mayor-00",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 60,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "trabajo",
+    "toneSeed": -417180944236795,
+    "hora": 9,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "letra-m",
+    "entrada.mistica.001"
+   ],
+   "textSeed": "7164094183178450589",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": true
+    },
+    {
+     "id": "copas-04",
+     "reversed": false
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 20,
+    "numeroVida": 7,
+    "provincia": "41",
+    "tema": "dinero",
+    "toneSeed": 759164337946,
+    "hora": 3,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "entrada.abuela.002",
+    "letra-m"
+   ],
+   "textSeed": "-5201578636737428622",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "spanish",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": true
+    },
+    {
+     "id": "copas-04",
+     "reversed": true
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": "trabajo",
+    "toneSeed": -4217671124741422,
+    "hora": 6,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "7612600887378662373",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "copas-04",
+     "reversed": true
+    },
+    {
+     "id": "espadas-08",
+     "reversed": true
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": 20,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "dinero",
+    "toneSeed": 943253162249,
+    "hora": 3,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002"
+   ],
+   "textSeed": "1624262042294345867",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "espadas-08",
+     "reversed": true
+    },
+    {
+     "id": "copas-04",
+     "reversed": false
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": null,
+    "numeroVida": null,
+    "provincia": "XX",
+    "tema": "amor",
+    "toneSeed": -3261964701148741,
+    "hora": 20,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001"
+   ],
+   "textSeed": "-1528875808047215680",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": true
+    },
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "mayor-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": null,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": null,
+    "toneSeed": 652180663707,
+    "hora": 6,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "entrada.mistica.001"
+   ],
+   "textSeed": "8205411417383416310",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "bastos-sota",
+     "reversed": true
+    },
+    {
+     "id": "oros-01",
+     "reversed": false
+    },
+    {
+     "id": "copas-04",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": 60,
+    "numeroVida": 11,
+    "provincia": null,
+    "tema": "amor",
+    "toneSeed": 3795556058874095,
+    "hora": 23,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001"
+   ],
+   "textSeed": "-7224336081356646498",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "mayor-16",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 40,
+    "numeroVida": 7,
+    "provincia": "28",
+    "tema": "amor",
+    "toneSeed": 1267218937117833,
+    "hora": 22,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "3507857412611249308",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 60,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "trabajo",
+    "toneSeed": 37896239458,
+    "hora": 14,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003"
+   ],
+   "textSeed": "-5658735758583876903",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "spanish",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": true
+    },
+    {
+     "id": "copas-04",
+     "reversed": false
+    },
+    {
+     "id": "espadas-08",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": null,
+    "provincia": "XX",
+    "tema": null,
+    "toneSeed": 1708386701350838,
+    "hora": 0,
+    "diaSemana": 5,
+    "lang": null
+   },
+   "recent": [
+    "letra-m",
+    "puente.mistica.003",
+    "entrada.abuela.002"
+   ],
+   "textSeed": "8702104169888151362",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": false
+    },
+    {
+     "id": "copas-01",
+     "reversed": true
+    },
+    {
+     "id": "copas-reina",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": "41",
+    "tema": "dinero",
+    "toneSeed": 4251275492638815,
+    "hora": 20,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "entrada.abuela.002"
+   ],
+   "textSeed": "7259500749736821337",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "copas-01",
+     "reversed": true
+    },
+    {
+     "id": "espadas-02",
+     "reversed": false
+    },
+    {
+     "id": "mayor-16",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 60,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": null,
+    "toneSeed": -1025921921987380,
+    "hora": 12,
+    "diaSemana": 5,
+    "lang": null
+   },
+   "recent": [
+    "letra-m"
+   ],
+   "textSeed": "-91854571173541326",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "espadas-08",
+     "reversed": false
+    },
+    {
+     "id": "espadas-rey",
+     "reversed": false
+    },
+    {
+     "id": "oros-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": null,
+    "numeroVida": null,
+    "provincia": "XX",
+    "tema": "general",
+    "toneSeed": -910273858887249,
+    "hora": 5,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "letra-m",
+    "puente.mistica.003"
+   ],
+   "textSeed": "867308770378649524",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "copas-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": null,
+    "numeroVida": 7,
+    "provincia": null,
+    "tema": "amor",
+    "toneSeed": 1075846277796,
+    "hora": 22,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "letra-m",
+    "saludo.mistica.001",
+    "entrada.mistica.001"
+   ],
+   "textSeed": "5583871973521751620",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "mayor-16",
+     "reversed": true
+    },
+    {
+     "id": "copas-01",
+     "reversed": true
+    },
+    {
+     "id": "mayor-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 40,
+    "numeroVida": null,
+    "provincia": null,
+    "tema": "amor",
+    "toneSeed": 17959816526,
+    "hora": 15,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "-6503111185881977675",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": 11,
+    "provincia": "XX",
+    "tema": "general",
+    "toneSeed": 124914010020304,
+    "hora": 15,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "4199446504934032121",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "mayor-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 60,
+    "numeroVida": null,
+    "provincia": "28",
+    "tema": "trabajo",
+    "toneSeed": 862362280291,
+    "hora": 9,
+    "diaSemana": 5,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "889228195259562206",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": 20,
+    "numeroVida": 11,
+    "provincia": null,
+    "tema": null,
+    "toneSeed": 1420765223606469,
+    "hora": 23,
+    "diaSemana": 3,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "4759391063305774577",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": true
+    },
+    {
+     "id": "mayor-16",
+     "reversed": false
+    },
+    {
+     "id": "copas-reina",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": 7,
+    "provincia": "41",
+    "tema": "dinero",
+    "toneSeed": 1996515945765639,
+    "hora": 11,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001"
+   ],
+   "textSeed": "3119392614762011812",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "copas-01",
+     "reversed": true
+    },
+    {
+     "id": "mayor-16",
+     "reversed": false
+    },
+    {
+     "id": "espadas-02",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": null,
+    "numeroVida": null,
+    "provincia": "XX",
+    "tema": "trabajo",
+    "toneSeed": -2500735930732523,
+    "hora": 23,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "saludo.mistica.001",
+    "letra-m"
+   ],
+   "textSeed": "-5123046442733457865",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "spanish",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "oros-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 20,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": null,
+    "toneSeed": 756250694968,
+    "hora": 15,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "-8903120051320028829",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": true
+    },
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "copas-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 60,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "salud",
+    "toneSeed": -3922385387977581,
+    "hora": 8,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001",
+    "puente.mistica.003"
+   ],
+   "textSeed": "-8901657434246675066",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "copas-04",
+     "reversed": false
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    },
+    {
+     "id": "espadas-rey",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": "salud",
+    "toneSeed": 424321347303,
+    "hora": 8,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "-6645827930609026873",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "mayor-01",
+     "reversed": false
+    },
+    {
+     "id": "copas-reina",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": 20,
+    "numeroVida": null,
+    "provincia": "28",
+    "tema": "general",
+    "toneSeed": 699947669252,
+    "hora": 23,
+    "diaSemana": 5,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "saludo.mistica.001"
+   ],
+   "textSeed": "-3191936793948149716",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "mayor-01",
+     "reversed": true
+    },
+    {
+     "id": "espadas-02",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 60,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": "dinero",
+    "toneSeed": 3697606693400591,
+    "hora": 14,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "saludo.mistica.001",
+    "entrada.abuela.002"
+   ],
+   "textSeed": "4648782751424877181",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": false
+    },
+    {
+     "id": "copas-01",
+     "reversed": false
+    },
+    {
+     "id": "espadas-02",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": "41",
+    "tema": "amor",
+    "toneSeed": 249878287105,
+    "hora": 9,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "1468331083399210350",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "oros-01",
+     "reversed": false
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": true
+    },
+    {
+     "id": "copas-04",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": null,
+    "provincia": null,
+    "tema": "dinero",
+    "toneSeed": 2289597034909507,
+    "hora": 15,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002"
+   ],
+   "textSeed": "4095829841654659001",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": 40,
+    "numeroVida": 7,
+    "provincia": null,
+    "tema": "amor",
+    "toneSeed": -2687587282298865,
+    "hora": 11,
+    "diaSemana": 3,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003"
+   ],
+   "textSeed": "6420749007213060160",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "mayor-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 20,
+    "numeroVida": 11,
+    "provincia": "XX",
+    "tema": "dinero",
+    "toneSeed": 1097915303928,
+    "hora": 3,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "saludo.mistica.001"
+   ],
+   "textSeed": "-2200322081138699952",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "mayor-16",
+     "reversed": false
+    },
+    {
+     "id": "copas-01",
+     "reversed": true
+    },
+    {
+     "id": "copas-reina",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": null,
+    "numeroVida": null,
+    "provincia": "XX",
+    "tema": "general",
+    "toneSeed": -749855370657523,
+    "hora": 2,
+    "diaSemana": 5,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "5649030205650851806",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "mayor-01",
+     "reversed": true
+    },
+    {
+     "id": "espadas-02",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 60,
+    "numeroVida": 11,
+    "provincia": "41",
+    "tema": "general",
+    "toneSeed": -3988229990299884,
+    "hora": 4,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001",
+    "entrada.abuela.002",
+    "puente.mistica.003"
+   ],
+   "textSeed": "-1203670663253336905",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": null,
+    "numeroVida": 11,
+    "provincia": "XX",
+    "tema": "amor",
+    "toneSeed": -707707097904739,
+    "hora": 18,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002",
+    "letra-m",
+    "saludo.mistica.001"
+   ],
+   "textSeed": "4567872040205569118",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": true
+    },
+    {
+     "id": "copas-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 60,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "trabajo",
+    "toneSeed": 277113713995,
+    "hora": 7,
+    "diaSemana": 3,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002",
+    "letra-m",
+    "entrada.mistica.001"
+   ],
+   "textSeed": "3667492725623395779",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "mayor-00",
+     "reversed": true
+    },
+    {
+     "id": "mayor-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": null,
+    "numeroVida": 11,
+    "provincia": "41",
+    "tema": null,
+    "toneSeed": 2330721816513645,
+    "hora": 2,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "letra-m",
+    "entrada.mistica.001"
+   ],
+   "textSeed": "3259991965473982334",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "copas-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 60,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": null,
+    "toneSeed": 75699660592,
+    "hora": 1,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001"
+   ],
+   "textSeed": "-3829725241112596770",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "oros-01",
+     "reversed": false
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    },
+    {
+     "id": "copas-04",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 40,
+    "numeroVida": 7,
+    "provincia": "41",
+    "tema": "amor",
+    "toneSeed": 398631301375685,
+    "hora": 19,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001",
+    "entrada.abuela.002",
+    "letra-m"
+   ],
+   "textSeed": "1990397442439763714",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "espadas-02",
+     "reversed": false
+    },
+    {
+     "id": "copas-reina",
+     "reversed": true
+    },
+    {
+     "id": "mayor-16",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 60,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": null,
+    "toneSeed": 2512807305734491,
+    "hora": 0,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "saludo.mistica.001"
+   ],
+   "textSeed": "5286653866437610290",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "oros-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 40,
+    "numeroVida": null,
+    "provincia": "XX",
+    "tema": "trabajo",
+    "toneSeed": 202821322468,
+    "hora": 1,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003"
+   ],
+   "textSeed": "4257071929447533048",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "copas-04",
+     "reversed": false
+    },
+    {
+     "id": "oros-01",
+     "reversed": false
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 60,
+    "numeroVida": 11,
+    "provincia": "XX",
+    "tema": "salud",
+    "toneSeed": 347837056276,
+    "hora": 22,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001",
+    "puente.mistica.003",
+    "entrada.abuela.002"
+   ],
+   "textSeed": "-3728189179440838095",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "spanish",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 60,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "dinero",
+    "toneSeed": 794213426010,
+    "hora": 11,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001"
+   ],
+   "textSeed": "5327137933663500338",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": true
+    },
+    {
+     "id": "copas-04",
+     "reversed": false
+    },
+    {
+     "id": "oros-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": "XX",
+    "tema": "general",
+    "toneSeed": 1155504523388110,
+    "hora": 22,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "entrada.mistica.001",
+    "entrada.abuela.002"
+   ],
+   "textSeed": "515714638054576872",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "oros-01",
+     "reversed": false
+    },
+    {
+     "id": "espadas-rey",
+     "reversed": false
+    },
+    {
+     "id": "espadas-08",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": null,
+    "numeroVida": 7,
+    "provincia": "41",
+    "tema": null,
+    "toneSeed": 3011005264998077,
+    "hora": 22,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "-2345650657543815576",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": 11,
+    "provincia": "41",
+    "tema": "general",
+    "toneSeed": -4249173769232101,
+    "hora": 13,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "entrada.mistica.001",
+    "puente.mistica.003",
+    "letra-m"
+   ],
+   "textSeed": "-8909454458656759893",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "mayor-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": 20,
+    "numeroVida": 7,
+    "provincia": "XX",
+    "tema": "salud",
+    "toneSeed": 1352947884897626,
+    "hora": 6,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002"
+   ],
+   "textSeed": "-4248798710671980398",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "mayor-01",
+     "reversed": true
+    },
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "copas-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 40,
+    "numeroVida": 7,
+    "provincia": "XX",
+    "tema": "salud",
+    "toneSeed": 2155994702346166,
+    "hora": 18,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001",
+    "letra-m",
+    "puente.mistica.003"
+   ],
+   "textSeed": "-384673509383882738",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "copas-04",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 20,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": "trabajo",
+    "toneSeed": -586805251146666,
+    "hora": 23,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002",
+    "letra-m"
+   ],
+   "textSeed": "-623641332613676323",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "copas-01",
+     "reversed": true
+    },
+    {
+     "id": "copas-reina",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 60,
+    "numeroVida": 7,
+    "provincia": "28",
+    "tema": "salud",
+    "toneSeed": 830789341066,
+    "hora": 6,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "1616930240586344920",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": true
+    },
+    {
+     "id": "espadas-02",
+     "reversed": false
+    },
+    {
+     "id": "copas-reina",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 60,
+    "numeroVida": 7,
+    "provincia": "XX",
+    "tema": "dinero",
+    "toneSeed": -2158573861243269,
+    "hora": 4,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "entrada.mistica.001",
+    "puente.mistica.003"
+   ],
+   "textSeed": "1227861640165353205",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "copas-04",
+     "reversed": false
+    },
+    {
+     "id": "oros-01",
+     "reversed": true
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 40,
+    "numeroVida": null,
+    "provincia": "28",
+    "tema": "dinero",
+    "toneSeed": 2852147981238187,
+    "hora": 0,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003"
+   ],
+   "textSeed": "-365741826553604332",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "copas-04",
+     "reversed": true
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    },
+    {
+     "id": "espadas-rey",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 60,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "dinero",
+    "toneSeed": 376092603935,
+    "hora": 2,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002"
+   ],
+   "textSeed": "-1376810215154974293",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "mayor-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": 7,
+    "provincia": "41",
+    "tema": "general",
+    "toneSeed": 3521100338113831,
+    "hora": 22,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "entrada.mistica.001",
+    "entrada.abuela.002",
+    "puente.mistica.003"
+   ],
+   "textSeed": "-8416066766849920274",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "copas-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": null,
+    "numeroVida": 7,
+    "provincia": null,
+    "tema": "dinero",
+    "toneSeed": 2741327766849725,
+    "hora": 12,
+    "diaSemana": 3,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "entrada.abuela.002"
+   ],
+   "textSeed": "-5416699729217940308",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": true
+    },
+    {
+     "id": "espadas-08",
+     "reversed": false
+    },
+    {
+     "id": "oros-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 60,
+    "numeroVida": 7,
+    "provincia": "XX",
+    "tema": null,
+    "toneSeed": -909561347027939,
+    "hora": 1,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003"
+   ],
+   "textSeed": "-4106555163406358743",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "mayor-16",
+     "reversed": true
+    },
+    {
+     "id": "copas-reina",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 40,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "trabajo",
+    "toneSeed": 3822036782749991,
+    "hora": 6,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001",
+    "letra-m"
+   ],
+   "textSeed": "9006899238759306692",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": false
+    },
+    {
+     "id": "copas-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 60,
+    "numeroVida": 7,
+    "provincia": "28",
+    "tema": "trabajo",
+    "toneSeed": 637448473399,
+    "hora": 12,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "entrada.abuela.002",
+    "letra-m"
+   ],
+   "textSeed": "-4457472025729965656",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": true
+    },
+    {
+     "id": "mayor-16",
+     "reversed": false
+    },
+    {
+     "id": "copas-reina",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": null,
+    "numeroVida": null,
+    "provincia": "28",
+    "tema": "amor",
+    "toneSeed": -1657685406928621,
+    "hora": 1,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002"
+   ],
+   "textSeed": "7611521346812890704",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "mayor-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": null,
+    "tema": "general",
+    "toneSeed": 3374790501558102,
+    "hora": 4,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "entrada.mistica.001",
+    "puente.mistica.003",
+    "saludo.mistica.001"
+   ],
+   "textSeed": "3949827726997193228",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "mayor-01",
+     "reversed": false
+    },
+    {
+     "id": "copas-reina",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": 7,
+    "provincia": null,
+    "tema": "amor",
+    "toneSeed": 977139470829,
+    "hora": 12,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "letra-m"
+   ],
+   "textSeed": "8560026353731475615",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": true
+    },
+    {
+     "id": "mayor-16",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": null,
+    "numeroVida": 7,
+    "provincia": "XX",
+    "tema": "general",
+    "toneSeed": 356952253087780,
+    "hora": 10,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002",
+    "puente.mistica.003"
+   ],
+   "textSeed": "-1016786739670055300",
+   "options": null
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "mayor-01",
+     "reversed": false
+    },
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "copas-reina",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": null,
+    "numeroVida": null,
+    "provincia": "28",
+    "tema": "trabajo",
+    "toneSeed": 291484864354,
+    "hora": 7,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "-1231852095044657065",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "oros-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 40,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "general",
+    "toneSeed": 981163653941,
+    "hora": 22,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "entrada.mistica.001",
+    "entrada.abuela.002",
+    "saludo.mistica.001"
+   ],
+   "textSeed": "6457890349146498197",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "mayor-01",
+     "reversed": false
+    },
+    {
+     "id": "espadas-02",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": "41",
+    "tema": "general",
+    "toneSeed": 537640442672,
+    "hora": 19,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "-5175167707484663247",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": false
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    },
+    {
+     "id": "copas-04",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 40,
+    "numeroVida": 7,
+    "provincia": null,
+    "tema": "dinero",
+    "toneSeed": 170320454217,
+    "hora": 4,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "entrada.mistica.001",
+    "entrada.abuela.002"
+   ],
+   "textSeed": "-5927978613076011060",
+   "options": null
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": true
+    },
+    {
+     "id": "mayor-01",
+     "reversed": false
+    },
+    {
+     "id": "mayor-16",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": null,
+    "numeroVida": 7,
+    "provincia": "XX",
+    "tema": "trabajo",
+    "toneSeed": 1045416843163,
+    "hora": 14,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "saludo.mistica.001"
+   ],
+   "textSeed": "-4513227454214315474",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": false
+    },
+    {
+     "id": "oros-01",
+     "reversed": false
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": null,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "general",
+    "toneSeed": -1436678325666224,
+    "hora": 11,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "39072823648046842",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 40,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "amor",
+    "toneSeed": 791018235032,
+    "hora": 19,
+    "diaSemana": 5,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001",
+    "letra-m"
+   ],
+   "textSeed": "-3143502039875051169",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": true
+    },
+    {
+     "id": "espadas-02",
+     "reversed": false
+    },
+    {
+     "id": "mayor-00",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 60,
+    "numeroVida": 7,
+    "provincia": "XX",
+    "tema": "amor",
+    "toneSeed": 3365303401392967,
+    "hora": 23,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002",
+    "puente.mistica.003"
+   ],
+   "textSeed": "3460077542513752505",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "espadas-rey",
+     "reversed": true
+    },
+    {
+     "id": "copas-04",
+     "reversed": true
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "cancer",
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": null,
+    "tema": "amor",
+    "toneSeed": 777215516230,
+    "hora": 20,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001",
+    "puente.mistica.003"
+   ],
+   "textSeed": "-8533007879484677620",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "espadas-02",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": null,
+    "numeroVida": 11,
+    "provincia": "XX",
+    "tema": "amor",
+    "toneSeed": -907995988562614,
+    "hora": 23,
+    "diaSemana": 3,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "-1977447850806064341",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "copas-reina",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 20,
+    "numeroVida": 7,
+    "provincia": "41",
+    "tema": "dinero",
+    "toneSeed": -1062393532620690,
+    "hora": 12,
+    "diaSemana": 3,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "saludo.mistica.001",
+    "letra-m"
+   ],
+   "textSeed": "8781352672744702477",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "copas-04",
+     "reversed": true
+    },
+    {
+     "id": "espadas-08",
+     "reversed": true
+    },
+    {
+     "id": "oros-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": null,
+    "provincia": "28",
+    "tema": "dinero",
+    "toneSeed": 479385095804,
+    "hora": 15,
+    "diaSemana": 7,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "3068983897008511152",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "celta",
+   "cards": [
+    {
+     "id": "mayor-00",
+     "reversed": false
+    },
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "mayor-16",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": null,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "general",
+    "toneSeed": 2090699366559305,
+    "hora": 19,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "saludo.mistica.001",
+    "entrada.mistica.001",
+    "puente.mistica.003"
+   ],
+   "textSeed": "-5872311939353783218",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "spanish",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "copas-04",
+     "reversed": false
+    },
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    },
+    {
+     "id": "oros-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": "41",
+    "tema": "trabajo",
+    "toneSeed": 933039910328,
+    "hora": 8,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "entrada.mistica.001",
+    "letra-m"
+   ],
+   "textSeed": "-2113598415214419874",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "copas-01",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": null,
+    "numeroVida": null,
+    "provincia": "41",
+    "tema": "salud",
+    "toneSeed": 104127857440,
+    "hora": 16,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "-6638482180464417814",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "spanish",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "bastos-sota",
+     "reversed": false
+    },
+    {
+     "id": "copas-04",
+     "reversed": false
+    },
+    {
+     "id": "espadas-08",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 60,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": "dinero",
+    "toneSeed": 100854956737,
+    "hora": 3,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [],
+   "textSeed": "1718839490099321995",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "sino",
+   "cards": [
+    {
+     "id": "espadas-02",
+     "reversed": true
+    },
+    {
+     "id": "mayor-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "leo",
+    "decada": 20,
+    "numeroVida": 7,
+    "provincia": "28",
+    "tema": "salud",
+    "toneSeed": 694042155614,
+    "hora": 2,
+    "diaSemana": 1,
+    "lang": null
+   },
+   "recent": [
+    "letra-m",
+    "saludo.mistica.001"
+   ],
+   "textSeed": "6810831308597678852",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "mayor-16",
+     "reversed": false
+    },
+    {
+     "id": "copas-reina",
+     "reversed": true
+    },
+    {
+     "id": "mayor-01",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": "41",
+    "tema": "salud",
+    "toneSeed": 296444061694,
+    "hora": 12,
+    "diaSemana": 2,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "saludo.mistica.001",
+    "entrada.mistica.001"
+   ],
+   "textSeed": "3051412151018862557",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "ca",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": null,
+    "decada": 40,
+    "numeroVida": 11,
+    "provincia": "28",
+    "tema": null,
+    "toneSeed": 998268651977,
+    "hora": 11,
+    "diaSemana": 4,
+    "lang": null
+   },
+   "recent": [
+    "puente.mistica.003",
+    "saludo.mistica.001",
+    "entrada.abuela.002"
+   ],
+   "textSeed": "1588586351790447859",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "ppf",
+   "cards": [
+    {
+     "id": "copas-reina",
+     "reversed": false
+    },
+    {
+     "id": "mayor-16",
+     "reversed": false
+    },
+    {
+     "id": "mayor-00",
+     "reversed": false
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 60,
+    "numeroVida": 7,
+    "provincia": "41",
+    "tema": "salud",
+    "toneSeed": 881350899457,
+    "hora": 19,
+    "diaSemana": 5,
+    "lang": null
+   },
+   "recent": [
+    "letra-m",
+    "entrada.abuela.002",
+    "puente.mistica.003"
+   ],
+   "textSeed": "-6826712401088994259",
+   "options": {
+    "moodChangeProbability": 0,
+    "guinoProbability": 0,
+    "interactionProbability": 0,
+    "maxInteractions": 3
+   }
+  },
+  {
+   "lang": "es",
+   "family": "tarot",
+   "spread": "dia",
+   "cards": [
+    {
+     "id": "mayor-16",
+     "reversed": true
+    }
+   ],
+   "ctx": {
+    "signo": "geminis",
+    "decada": 20,
+    "numeroVida": null,
+    "provincia": "28",
+    "tema": "dinero",
+    "toneSeed": -3220902980356595,
+    "hora": 10,
+    "diaSemana": 6,
+    "lang": null
+   },
+   "recent": [
+    "entrada.abuela.002",
+    "entrada.mistica.001",
+    "letra-m"
+   ],
+   "textSeed": "6792110785892765560",
+   "options": {
+    "moodChangeProbability": 1,
+    "guinoProbability": 1,
+    "interactionProbability": 1,
+    "maxInteractions": 3
+   }
+  }
+ ],
+ "pendulum": [
+  {
+   "mode": "ouija",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "cancer",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-2830889301853729169",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": null,
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "3855967552462965189",
+   "lang": "es"
+  },
+  {
+   "mode": "sino",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "leo",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-4730540946177070754",
+   "lang": "es"
+  },
+  {
+   "mode": "sino",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "cancer",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-1069250058986891939",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "leo",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "4756042089103911612",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": null,
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-3336951953715650624",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": null,
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "2115556262606892877",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": null,
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "8245211906972854953",
+   "lang": "es"
+  },
+  {
+   "mode": "tablero",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "leo",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "1124391943012538139",
+   "lang": "es"
+  },
+  {
+   "mode": "tablero",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "cancer",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "7716450779775359761",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": null,
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "8990015904410109366",
+   "lang": "es"
+  },
+  {
+   "mode": "porcentaje",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": null,
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-235709329811416725",
+   "lang": "es"
+  },
+  {
+   "mode": "porcentaje",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": null,
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "9214226192051146424",
+   "lang": "es"
+  },
+  {
+   "mode": "porcentaje",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "cancer",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-2328159076624281656",
+   "lang": "es"
+  },
+  {
+   "mode": "tablero",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "cancer",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "325122936320857132",
+   "lang": "es"
+  },
+  {
+   "mode": "sino",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": "geminis",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "-4381884483261424491",
+   "lang": "es"
+  },
+  {
+   "mode": "tablero",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "leo",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-3865499108999806877",
+   "lang": "es"
+  },
+  {
+   "mode": "ouija",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "cancer",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-3674975104942496028",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": "leo",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "583188975539331073",
+   "lang": "es"
+  },
+  {
+   "mode": "sino",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": null,
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-1500583365647493810",
+   "lang": "es"
+  },
+  {
+   "mode": "porcentaje",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "geminis",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "7723479768627164888",
+   "lang": "es"
+  },
+  {
+   "mode": "ouija",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "leo",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-8183321718494598533",
+   "lang": "es"
+  },
+  {
+   "mode": "sino",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "cancer",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-3677554284297659671",
+   "lang": "es"
+  },
+  {
+   "mode": "porcentaje",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "leo",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "-2962892439554978112",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "leo",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "6557246487172723014",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": null,
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "-2994667381854486951",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": null,
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "144299006111000594",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "geminis",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "1782847710130693348",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "geminis",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-7370624247022075149",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": null,
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "-3364375139966256763",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "leo",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "3173763150038857493",
+   "lang": "es"
+  },
+  {
+   "mode": "porcentaje",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "cancer",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "683283550884001533",
+   "lang": "es"
+  },
+  {
+   "mode": "opciones",
+   "model": "chorizo",
+   "options": 4,
+   "ctx": {
+    "provincia": "41",
+    "signo": null,
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-580536157808985186",
+   "lang": "es"
+  },
+  {
+   "mode": "opciones",
+   "model": null,
+   "options": 2,
+   "ctx": {
+    "provincia": "28",
+    "signo": "geminis",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-5782536638824991757",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "cancer",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "7436873296599939353",
+   "lang": "es"
+  },
+  {
+   "mode": "opciones",
+   "model": "cuarzo",
+   "options": 6,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "leo",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "3685700442102429454",
+   "lang": "es"
+  },
+  {
+   "mode": "sino",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": "leo",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-8764508385258891373",
+   "lang": "es"
+  },
+  {
+   "mode": "tablero",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "geminis",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "804354873619094480",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "cancer",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "5618199345830167225",
+   "lang": "es"
+  },
+  {
+   "mode": "tablero",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "geminis",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "-773542829075589532",
+   "lang": "es"
+  },
+  {
+   "mode": "tablero",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": null,
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "6690424129316691792",
+   "lang": "es"
+  },
+  {
+   "mode": "opciones",
+   "model": "chorizo",
+   "options": 4,
+   "ctx": {
+    "provincia": "28",
+    "signo": null,
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "1993631724349399125",
+   "lang": "es"
+  },
+  {
+   "mode": "porcentaje",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "cancer",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "-8255183736139484176",
+   "lang": "es"
+  },
+  {
+   "mode": "ouija",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": null,
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-1385762228198431423",
+   "lang": "es"
+  },
+  {
+   "mode": "porcentaje",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "geminis",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-1773725707361686957",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "geminis",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "6710868067172135128",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "cancer",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-4104104343546299700",
+   "lang": "es"
+  },
+  {
+   "mode": "tablero",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "leo",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "8288549902803192391",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "leo",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "5224150178561960498",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": "leo",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-5379315858442754923",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "XX",
+    "signo": "geminis",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "5434997304998431541",
+   "lang": "es"
+  },
+  {
+   "mode": "opciones",
+   "model": "chorizo",
+   "options": 3,
+   "ctx": {
+    "provincia": "41",
+    "signo": "geminis",
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "-5700996697183235191",
+   "lang": "es"
+  },
+  {
+   "mode": "tablero",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": null,
+    "signo": "geminis",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "-2161393134632312246",
+   "lang": "es"
+  },
+  {
+   "mode": "porcentaje",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "28",
+    "signo": null,
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "3161126766849652371",
+   "lang": "es"
+  },
+  {
+   "mode": "ouija",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": "geminis",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "5050444426920810609",
+   "lang": "es"
+  },
+  {
+   "mode": "chakras",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": "leo",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "1642301118820658398",
+   "lang": "es"
+  },
+  {
+   "mode": "sino",
+   "model": "cuarzo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": "leo",
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-8660128383325471551",
+   "lang": "es"
+  },
+  {
+   "mode": "mapa",
+   "model": "chorizo",
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": null,
+    "hora": 0,
+    "diaSemana": 3
+   },
+   "seed": "-3681677571940519665",
+   "lang": "es"
+  },
+  {
+   "mode": "opciones",
+   "model": "chorizo",
+   "options": 3,
+   "ctx": {
+    "provincia": null,
+    "signo": null,
+    "hora": 23,
+    "diaSemana": 3
+   },
+   "seed": "2674381533603527316",
+   "lang": "es"
+  },
+  {
+   "mode": "ouija",
+   "model": null,
+   "options": null,
+   "ctx": {
+    "provincia": "41",
+    "signo": "cancer",
+    "hora": 13,
+    "diaSemana": 3
+   },
+   "seed": "6841944294429887060",
+   "lang": "es"
+  }
+ ]
+}

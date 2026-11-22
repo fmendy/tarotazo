@@ -1,0 +1,5040 @@
+{
+  "readings" : [ {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 88,
+    "luckyColor" : {
+      "name" : "marrón chocolate",
+      "hex" : "#5d3a1a"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.mistica.006", "personalizacion.comun.provincia", "entrada.mistica.003", "puente.mistica.005", "personalizacion.mistica.005", "entrada.mistica.002", "puente.mistica.002", "personalizacion.mistica.001", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 4."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 4: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Hay gente implicada.",
+    "luckyNumber" : 92,
+    "luckyColor" : {
+      "name" : "blanco nuclear",
+      "hex" : "#fafafa"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.004", "personalizacion.comun.provincia", "guino.mistica.004", "letra-m", "entrada.mistica.004", "puente.mistica.006", "personalizacion.mistica.004", "entrada.mistica.005", "puente.mistica.005", "personalizacion.mistica.001", "sintesis.comun.figuras", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 6."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 3: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 5."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 1: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 4."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Hay gente implicada.",
+    "luckyNumber" : 94,
+    "luckyColor" : {
+      "name" : "gris perla",
+      "hex" : "#c9c9c9"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.mistica.004", "personalizacion.mistica.006", "guino.mistica.006", "entrada.mistica.005", "puente.mistica.003", "personalizacion.mistica.003", "guino.mistica.005", "letra-m", "entrada.mistica.001", "puente.mistica.002", "personalizacion.mistica.001", "guino.mistica.004", "sintesis.comun.figuras", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 5."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-08 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 3."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 3,
+    "luckyColor" : {
+      "name" : "verde pistacho",
+      "hex" : "#93c572"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.comun.invertida", "puente.abuela.005", "personalizacion.comun.provincia", "guino.abuela.005", "entrada.abuela.004", "puente.abuela.004", "personalizacion.abuela.006", "guino.abuela.003", "entrada.abuela.006", "puente.abuela.003", "personalizacion.abuela.002", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-08 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 6."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 2: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 4."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 5: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 15,
+    "luckyColor" : {
+      "name" : "amarillo limón",
+      "hex" : "#f4e04d"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.mistica.001", "personalizacion.mistica.002", "guino.mistica.006", "cambioHumor.abuela.001", "letra-m", "entrada.abuela.002", "puente.abuela.005", "personalizacion.abuela.002", "guino.abuela.004", "entrada.abuela.005", "puente.abuela.006", "personalizacion.abuela.001", "guino.abuela.001", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 3: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 56,
+    "luckyColor" : {
+      "name" : "turquesa piscina",
+      "hex" : "#30c5d2"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.005", "personalizacion.mistica.003", "entrada.mistica.005", "puente.mistica.006", "personalizacion.mistica.004", "entrada.mistica.003", "puente.mistica.003", "personalizacion.mistica.005", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 3: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 75,
+    "luckyColor" : {
+      "name" : "naranja butano",
+      "hex" : "#f28c28"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.001", "personalizacion.mistica.005", "entrada.mistica.003", "puente.mistica.006", "personalizacion.mistica.006", "entrada.mistica.002", "puente.mistica.003", "personalizacion.mistica.003", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 66,
+    "luckyColor" : {
+      "name" : "gris perla",
+      "hex" : "#c9c9c9"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.torre", "puente.mistica.006", "personalizacion.mistica.005", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 1."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    } ],
+    "summary" : "",
+    "luckyNumber" : 77,
+    "luckyColor" : {
+      "name" : "rojo pasión",
+      "hex" : "#b3122e"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.004", "personalizacion.comun.provincia", "guino.mistica.001", "letra-m", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 5: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 3: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-08 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 85,
+    "luckyColor" : {
+      "name" : "negro misterio",
+      "hex" : "#151515"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.mistica.006", "personalizacion.mistica.001", "guino.mistica.003", "cambioHumor.abuela.001", "entrada.abuela.005", "puente.abuela.002", "personalizacion.abuela.001", "entrada.abuela.003", "puente.abuela.003", "personalizacion.abuela.005", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 4."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Las copas mandan.",
+    "luckyNumber" : 2,
+    "luckyColor" : {
+      "name" : "gris perla",
+      "hex" : "#c9c9c9"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.003", "puente.mistica.004", "personalizacion.comun.provincia", "entrada.comun.invertida", "puente.mistica.006", "personalizacion.mistica.006", "guino.mistica.004", "entrada.mistica.005", "puente.mistica.002", "personalizacion.mistica.001", "sintesis.comun.copas", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 2."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (mística)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 2."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 55,
+    "luckyColor" : {
+      "name" : "verde botella",
+      "hex" : "#1f5e3b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.abuela.005", "personalizacion.abuela.003", "guino.abuela.002", "cambioHumor.mistica.001", "letra-m", "entrada.mistica.003", "puente.mistica.001", "personalizacion.mistica.002", "guino.mistica.003", "entrada.comun.torre", "puente.mistica.004", "personalizacion.mistica.003", "guino.mistica.002", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-08 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 6."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 23,
+    "luckyColor" : {
+      "name" : "rosa chicle",
+      "hex" : "#f48fb1"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.005", "puente.mistica.006", "personalizacion.mistica.006", "guino.mistica.003", "cambioHumor.abuela.001", "letra-m", "entrada.abuela.001", "puente.abuela.005", "personalizacion.abuela.001", "entrada.comun.invertida", "puente.abuela.001", "personalizacion.abuela.006", "guino.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 64,
+    "luckyColor" : {
+      "name" : "azul medianoche",
+      "hex" : "#1b2a4a"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.comun.invertida", "puente.abuela.003", "personalizacion.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 10,
+    "luckyColor" : {
+      "name" : "rosa chicle",
+      "hex" : "#f48fb1"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.comun.torre", "puente.abuela.006", "personalizacion.abuela.001", "entrada.comun.invertida", "puente.abuela.002", "personalizacion.abuela.006", "entrada.abuela.003", "puente.abuela.003", "personalizacion.abuela.002", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 3: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 91,
+    "luckyColor" : {
+      "name" : "morado obispo",
+      "hex" : "#6b2d6b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.003", "personalizacion.mistica.001", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 70,
+    "luckyColor" : {
+      "name" : "rojo pasión",
+      "hex" : "#b3122e"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.003", "puente.mistica.004", "personalizacion.mistica.004", "guino.mistica.003", "cambioHumor.abuela.001", "letra-m", "entrada.comun.invertida", "puente.abuela.006", "personalizacion.abuela.001", "guino.abuela.001", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 93,
+    "luckyColor" : {
+      "name" : "marrón chocolate",
+      "hex" : "#5d3a1a"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.abuela.006", "puente.abuela.002", "personalizacion.abuela.004", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 2: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 87,
+    "luckyColor" : {
+      "name" : "azul cielo de agosto",
+      "hex" : "#87ceeb"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.comun.invertida", "puente.abuela.002", "personalizacion.comun.provincia", "entrada.comun.torre", "puente.abuela.001", "personalizacion.abuela.004", "entrada.abuela.002", "puente.abuela.006", "personalizacion.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 5: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 6."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 74,
+    "luckyColor" : {
+      "name" : "turquesa piscina",
+      "hex" : "#30c5d2"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.comun.invertida", "puente.abuela.005", "personalizacion.abuela.004", "entrada.comun.torre", "puente.abuela.003", "personalizacion.abuela.005", "guino.abuela.006", "entrada.abuela.001", "puente.abuela.001", "personalizacion.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 65,
+    "luckyColor" : {
+      "name" : "turquesa piscina",
+      "hex" : "#30c5d2"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.abuela.004", "personalizacion.comun.provincia", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 invertida salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 6: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 5,
+    "luckyColor" : {
+      "name" : "verde pistacho",
+      "hex" : "#93c572"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.mistica.006", "salud.mistica.001", "personalizacion.comun.provincia", "entrada.mistica.005", "puente.mistica.002", "personalizacion.mistica.006", "entrada.mistica.006", "puente.mistica.001", "personalizacion.mistica.003", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 1: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 4."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey invertida salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Hay gente implicada.",
+    "luckyNumber" : 59,
+    "luckyColor" : {
+      "name" : "verde pistacho",
+      "hex" : "#93c572"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.001", "puente.mistica.001", "salud.mistica.001", "personalizacion.mistica.001", "cambioHumor.abuela.001", "entrada.abuela.004", "puente.abuela.003", "personalizacion.abuela.001", "guino.abuela.004", "letra-m", "entrada.comun.invertida", "puente.abuela.006", "personalizacion.abuela.002", "sintesis.comun.figuras", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 4."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 19,
+    "luckyColor" : {
+      "name" : "amarillo limón",
+      "hex" : "#f4e04d"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.comun.invertida", "puente.abuela.004", "personalizacion.abuela.001", "guino.abuela.004", "entrada.abuela.004", "puente.abuela.002", "personalizacion.abuela.004", "entrada.abuela.001", "puente.abuela.001", "personalizacion.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 61,
+    "luckyColor" : {
+      "name" : "rosa chicle",
+      "hex" : "#f48fb1"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.abuela.006", "puente.abuela.005", "personalizacion.abuela.001", "entrada.comun.invertida", "puente.abuela.001", "personalizacion.abuela.002", "guino.abuela.001", "letra-m", "entrada.abuela.004", "puente.abuela.003", "personalizacion.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 6: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 3: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 77,
+    "luckyColor" : {
+      "name" : "marrón chocolate",
+      "hex" : "#5d3a1a"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.mistica.002", "puente.mistica.001", "personalizacion.comun.provincia", "entrada.mistica.006", "puente.mistica.005", "personalizacion.mistica.002", "entrada.comun.invertida", "puente.mistica.003", "personalizacion.mistica.001", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 1: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 6."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 6."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 70,
+    "luckyColor" : {
+      "name" : "azul medianoche",
+      "hex" : "#1b2a4a"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.mistica.001", "puente.mistica.006", "personalizacion.mistica.001", "guino.mistica.006", "cambioHumor.abuela.001", "letra-m", "entrada.comun.invertida", "puente.abuela.002", "personalizacion.abuela.001", "guino.abuela.006", "entrada.abuela.003", "puente.abuela.005", "personalizacion.abuela.002", "guino.abuela.001", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 32,
+    "luckyColor" : {
+      "name" : "granate de abuela",
+      "hex" : "#7b1e2b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.005", "personalizacion.mistica.003", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 5."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    } ],
+    "summary" : "",
+    "luckyNumber" : 56,
+    "luckyColor" : {
+      "name" : "gris perla",
+      "hex" : "#c9c9c9"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.004", "personalizacion.mistica.001", "guino.mistica.005", "letra-m", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 3: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 1: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Las copas mandan.",
+    "luckyNumber" : 80,
+    "luckyColor" : {
+      "name" : "blanco nuclear",
+      "hex" : "#fafafa"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.torre", "puente.mistica.006", "personalizacion.mistica.003", "letra-m", "entrada.comun.invertida", "puente.mistica.003", "personalizacion.mistica.006", "entrada.mistica.001", "puente.mistica.002", "personalizacion.mistica.002", "sintesis.comun.copas", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 1: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 52,
+    "luckyColor" : {
+      "name" : "blanco nuclear",
+      "hex" : "#fafafa"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.001", "puente.mistica.005", "personalizacion.comun.provincia", "entrada.comun.invertida", "puente.mistica.006", "personalizacion.mistica.006", "entrada.mistica.002", "puente.mistica.001", "personalizacion.mistica.003", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 56,
+    "luckyColor" : {
+      "name" : "granate de abuela",
+      "hex" : "#7b1e2b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.002", "personalizacion.mistica.006", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Las copas mandan.",
+    "luckyNumber" : 57,
+    "luckyColor" : {
+      "name" : "negro misterio",
+      "hex" : "#151515"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.004", "personalizacion.comun.provincia", "entrada.mistica.005", "puente.mistica.001", "personalizacion.mistica.003", "sintesis.comun.copas", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 5: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 2: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 92,
+    "luckyColor" : {
+      "name" : "turquesa piscina",
+      "hex" : "#30c5d2"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.abuela.005", "puente.abuela.004", "personalizacion.comun.provincia", "entrada.comun.invertida", "puente.abuela.005", "personalizacion.abuela.002", "entrada.abuela.002", "puente.abuela.006", "personalizacion.abuela.004", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 3."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (mística)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 2."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Las copas mandan.",
+    "luckyNumber" : 63,
+    "luckyColor" : {
+      "name" : "naranja butano",
+      "hex" : "#f28c28"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.abuela.003", "puente.abuela.006", "personalizacion.abuela.001", "guino.abuela.003", "cambioHumor.mistica.001", "letra-m", "entrada.comun.invertida", "puente.mistica.005", "personalizacion.mistica.004", "guino.mistica.002", "entrada.mistica.003", "puente.mistica.001", "personalizacion.mistica.003", "guino.mistica.003", "sintesis.comun.copas", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 5."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 2."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 3."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 25,
+    "luckyColor" : {
+      "name" : "rojo pasión",
+      "hex" : "#b3122e"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.004", "puente.mistica.001", "personalizacion.comun.provincia", "guino.mistica.005", "cambioHumor.abuela.001", "letra-m", "entrada.abuela.006", "puente.abuela.002", "personalizacion.abuela.006", "guino.abuela.002", "entrada.abuela.004", "puente.abuela.001", "personalizacion.abuela.002", "guino.abuela.003", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 1."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 5."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 6."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 38,
+    "luckyColor" : {
+      "name" : "morado obispo",
+      "hex" : "#6b2d6b"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.002", "puente.mistica.004", "personalizacion.mistica.001", "guino.mistica.001", "cambioHumor.abuela.001", "letra-m", "entrada.comun.invertida", "puente.abuela.003", "personalizacion.abuela.003", "guino.abuela.005", "entrada.comun.torre", "puente.abuela.006", "personalizacion.abuela.002", "guino.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 2: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 13,
+    "luckyColor" : {
+      "name" : "granate de abuela",
+      "hex" : "#7b1e2b"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.abuela.002", "puente.abuela.004", "personalizacion.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 4."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 derecha salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 2."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 3."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 96,
+    "luckyColor" : {
+      "name" : "blanco nuclear",
+      "hex" : "#fafafa"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.mistica.005", "puente.mistica.005", "salud.mistica.001", "personalizacion.mistica.006", "guino.mistica.004", "cambioHumor.abuela.001", "letra-m", "entrada.abuela.006", "puente.abuela.003", "personalizacion.abuela.004", "guino.abuela.002", "entrada.abuela.001", "puente.abuela.006", "personalizacion.abuela.006", "guino.abuela.003", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 5."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    } ],
+    "summary" : "",
+    "luckyNumber" : 7,
+    "luckyColor" : {
+      "name" : "rosa chicle",
+      "hex" : "#f48fb1"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.mistica.006", "puente.mistica.005", "personalizacion.comun.provincia", "guino.mistica.005", "letra-m", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 3: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 5,
+    "luckyColor" : {
+      "name" : "gris perla",
+      "hex" : "#c9c9c9"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.005", "personalizacion.mistica.004", "entrada.mistica.002", "puente.mistica.003", "personalizacion.mistica.002", "entrada.mistica.005", "puente.mistica.006", "personalizacion.mistica.001", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 3: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-08 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 65,
+    "luckyColor" : {
+      "name" : "gris perla",
+      "hex" : "#c9c9c9"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.abuela.003", "puente.abuela.005", "personalizacion.comun.provincia", "entrada.abuela.001", "puente.abuela.004", "personalizacion.abuela.002", "entrada.abuela.006", "puente.abuela.003", "personalizacion.abuela.004", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 2."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 81,
+    "luckyColor" : {
+      "name" : "rosa chicle",
+      "hex" : "#f48fb1"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.abuela.001", "puente.abuela.006", "personalizacion.comun.provincia", "guino.abuela.002", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (mística)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 1."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 54,
+    "luckyColor" : {
+      "name" : "granate de abuela",
+      "hex" : "#7b1e2b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.abuela.006", "puente.abuela.001", "salud.abuela.001", "personalizacion.abuela.006", "guino.abuela.001", "cambioHumor.mistica.001", "letra-m", "entrada.comun.invertida", "puente.mistica.006", "personalizacion.mistica.002", "guino.mistica.003", "entrada.mistica.003", "puente.mistica.002", "personalizacion.mistica.006", "guino.mistica.001", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 invertida salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 1: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 39,
+    "luckyColor" : {
+      "name" : "turquesa piscina",
+      "hex" : "#30c5d2"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.001", "salud.mistica.001", "personalizacion.mistica.002", "entrada.mistica.005", "puente.mistica.004", "personalizacion.mistica.005", "entrada.mistica.001", "puente.mistica.006", "personalizacion.mistica.006", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 25,
+    "luckyColor" : {
+      "name" : "azul cielo de agosto",
+      "hex" : "#87ceeb"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.abuela.006", "puente.abuela.003", "personalizacion.abuela.004", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 5."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 5: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 4."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Las copas mandan.",
+    "luckyNumber" : 28,
+    "luckyColor" : {
+      "name" : "marrón chocolate",
+      "hex" : "#5d3a1a"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.002", "salud.mistica.001", "personalizacion.mistica.004", "guino.mistica.005", "cambioHumor.abuela.001", "letra-m", "entrada.abuela.006", "puente.abuela.005", "personalizacion.abuela.005", "guino.abuela.004", "sintesis.comun.copas", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 6."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (mística)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 6."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 34,
+    "luckyColor" : {
+      "name" : "granate de abuela",
+      "hex" : "#7b1e2b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.abuela.006", "personalizacion.abuela.003", "guino.abuela.006", "cambioHumor.mistica.001", "letra-m", "entrada.mistica.004", "puente.mistica.004", "personalizacion.mistica.003", "guino.mistica.006", "entrada.mistica.005", "puente.mistica.001", "personalizacion.mistica.004", "guino.mistica.003", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 5: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 2: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 91,
+    "luckyColor" : {
+      "name" : "dorado purpurina",
+      "hex" : "#d4af37"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.abuela.005", "puente.abuela.002", "personalizacion.abuela.002", "entrada.comun.invertida", "puente.abuela.005", "personalizacion.abuela.004", "entrada.abuela.002", "puente.abuela.001", "personalizacion.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 4."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 5."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Hay gente implicada.",
+    "luckyNumber" : 12,
+    "luckyColor" : {
+      "name" : "naranja butano",
+      "hex" : "#f28c28"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.005", "personalizacion.comun.provincia", "guino.mistica.004", "cambioHumor.abuela.001", "letra-m", "entrada.abuela.006", "puente.abuela.001", "personalizacion.abuela.006", "guino.abuela.005", "entrada.abuela.004", "puente.abuela.005", "personalizacion.abuela.003", "guino.abuela.001", "sintesis.comun.figuras", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 76,
+    "luckyColor" : {
+      "name" : "morado obispo",
+      "hex" : "#6b2d6b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.mistica.004", "personalizacion.comun.provincia", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 6."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (mística)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 6."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 80,
+    "luckyColor" : {
+      "name" : "turquesa piscina",
+      "hex" : "#30c5d2"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.abuela.004", "personalizacion.abuela.004", "guino.abuela.006", "cambioHumor.mistica.001", "letra-m", "entrada.mistica.004", "puente.mistica.004", "personalizacion.mistica.005", "guino.mistica.006", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 5: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-08 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 27,
+    "luckyColor" : {
+      "name" : "verde botella",
+      "hex" : "#1f5e3b"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.abuela.006", "personalizacion.abuela.001", "entrada.abuela.005", "puente.abuela.001", "personalizacion.abuela.002", "entrada.abuela.006", "puente.abuela.003", "personalizacion.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 1."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 4: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 5."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 85,
+    "luckyColor" : {
+      "name" : "verde pistacho",
+      "hex" : "#93c572"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.mistica.001", "personalizacion.comun.provincia", "letra-m", "entrada.comun.torre", "puente.mistica.005", "personalizacion.mistica.002", "guino.mistica.001", "entrada.mistica.004", "puente.mistica.004", "personalizacion.mistica.006", "guino.mistica.005", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 1."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 6."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    } ],
+    "summary" : "",
+    "luckyNumber" : 1,
+    "luckyColor" : {
+      "name" : "dorado purpurina",
+      "hex" : "#d4af37"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.mistica.004", "puente.mistica.005", "personalizacion.mistica.006", "guino.mistica.001", "entrada.mistica.003", "puente.mistica.004", "personalizacion.mistica.004", "guino.mistica.006", "letra-m", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 1."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 2."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 6."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 88,
+    "luckyColor" : {
+      "name" : "granate de abuela",
+      "hex" : "#7b1e2b"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.006", "personalizacion.mistica.005", "guino.mistica.001", "cambioHumor.abuela.001", "letra-m", "entrada.comun.torre", "puente.abuela.006", "personalizacion.abuela.004", "guino.abuela.002", "entrada.abuela.001", "puente.abuela.004", "personalizacion.abuela.001", "guino.abuela.006", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 6."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    } ],
+    "summary" : "",
+    "luckyNumber" : 53,
+    "luckyColor" : {
+      "name" : "marrón chocolate",
+      "hex" : "#5d3a1a"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.001", "personalizacion.mistica.006", "guino.mistica.006", "letra-m", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 6."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 5: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 2."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 96,
+    "luckyColor" : {
+      "name" : "morado obispo",
+      "hex" : "#6b2d6b"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.mistica.002", "personalizacion.mistica.004", "guino.mistica.006", "cambioHumor.abuela.001", "letra-m", "entrada.abuela.001", "puente.abuela.001", "personalizacion.abuela.001", "guino.abuela.001", "entrada.abuela.005", "puente.abuela.002", "personalizacion.abuela.003", "guino.abuela.002", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 1."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 22,
+    "luckyColor" : {
+      "name" : "azul medianoche",
+      "hex" : "#1b2a4a"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.mistica.001", "personalizacion.mistica.003", "guino.mistica.001", "letra-m", "entrada.comun.torre", "puente.mistica.004", "personalizacion.mistica.001", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 3: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 5: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 5."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 21,
+    "luckyColor" : {
+      "name" : "turquesa piscina",
+      "hex" : "#30c5d2"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.abuela.003", "puente.abuela.001", "personalizacion.abuela.003", "guino.abuela.001", "letra-m", "entrada.comun.invertida", "puente.abuela.005", "personalizacion.abuela.005", "guino.abuela.005", "entrada.abuela.004", "puente.abuela.004", "personalizacion.abuela.004", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    } ],
+    "summary" : "",
+    "luckyNumber" : 23,
+    "luckyColor" : {
+      "name" : "verde botella",
+      "hex" : "#1f5e3b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.005", "puente.mistica.001", "personalizacion.comun.provincia", "guino.mistica.003", "letra-m", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 5."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (mística)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 4."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 60,
+    "luckyColor" : {
+      "name" : "verde botella",
+      "hex" : "#1f5e3b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.abuela.004", "puente.abuela.006", "personalizacion.comun.provincia", "guino.abuela.005", "cambioHumor.mistica.001", "letra-m", "entrada.comun.invertida", "puente.mistica.002", "personalizacion.mistica.001", "guino.mistica.004", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 5: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 5."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Hay gente implicada.",
+    "luckyNumber" : 95,
+    "luckyColor" : {
+      "name" : "amarillo limón",
+      "hex" : "#f4e04d"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.abuela.006", "puente.abuela.002", "personalizacion.abuela.003", "guino.abuela.001", "entrada.abuela.001", "puente.abuela.005", "personalizacion.abuela.005", "guino.abuela.005", "entrada.comun.invertida", "puente.abuela.006", "personalizacion.abuela.006", "sintesis.comun.figuras", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 5: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 29,
+    "luckyColor" : {
+      "name" : "dorado purpurina",
+      "hex" : "#d4af37"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.006", "personalizacion.mistica.004", "entrada.mistica.005", "puente.mistica.005", "personalizacion.mistica.005", "entrada.comun.torre", "puente.mistica.004", "personalizacion.mistica.003", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 1: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Hay gente implicada.",
+    "luckyNumber" : 55,
+    "luckyColor" : {
+      "name" : "rosa chicle",
+      "hex" : "#f48fb1"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.abuela.006", "puente.abuela.006", "personalizacion.comun.provincia", "entrada.abuela.004", "puente.abuela.002", "personalizacion.abuela.004", "entrada.abuela.001", "puente.abuela.004", "personalizacion.abuela.001", "sintesis.comun.figuras", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 83,
+    "luckyColor" : {
+      "name" : "rosa chicle",
+      "hex" : "#f48fb1"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.abuela.006", "puente.abuela.005", "personalizacion.comun.provincia", "despedida.abuela.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 2: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 5: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 34,
+    "luckyColor" : {
+      "name" : "negro misterio",
+      "hex" : "#151515"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.comun.invertida", "puente.abuela.002", "personalizacion.abuela.002", "entrada.abuela.005", "puente.abuela.004", "personalizacion.abuela.004", "entrada.abuela.006", "puente.abuela.003", "personalizacion.abuela.003", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-rey invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 1: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 4: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota invertida amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Hay gente implicada.",
+    "luckyNumber" : 54,
+    "luckyColor" : {
+      "name" : "naranja butano",
+      "hex" : "#f28c28"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.006", "personalizacion.mistica.005", "entrada.mistica.001", "puente.mistica.002", "personalizacion.mistica.002", "entrada.mistica.004", "puente.mistica.005", "personalizacion.mistica.004", "sintesis.comun.figuras", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 derecha amor"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 65,
+    "luckyColor" : {
+      "name" : "verde pistacho",
+      "hex" : "#93c572"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.002", "puente.mistica.001", "personalizacion.mistica.005", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 1: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 3."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (mística)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 77,
+    "luckyColor" : {
+      "name" : "blanco nuclear",
+      "hex" : "#fafafa"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.comun.invertida", "puente.abuela.001", "personalizacion.comun.provincia", "guino.abuela.003", "cambioHumor.mistica.001", "letra-m", "entrada.mistica.004", "puente.mistica.005", "personalizacion.mistica.003", "guino.mistica.003", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 2: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 6: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-08 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 6: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 76,
+    "luckyColor" : {
+      "name" : "azul medianoche",
+      "hex" : "#1b2a4a"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.comun.invertida", "puente.abuela.005", "personalizacion.abuela.005", "entrada.abuela.002", "puente.abuela.006", "personalizacion.abuela.001", "entrada.abuela.006", "puente.abuela.004", "personalizacion.abuela.004", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu cubre…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 2: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 4: en tu cruza…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha general B"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 3: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 5."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 5: en tu corona…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 invertida general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 3."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 40,
+    "luckyColor" : {
+      "name" : "azul cielo de agosto",
+      "hex" : "#87ceeb"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.mistica.003", "puente.mistica.001", "personalizacion.comun.provincia", "guino.mistica.003", "cambioHumor.abuela.001", "letra-m", "entrada.abuela.002", "puente.abuela.004", "personalizacion.abuela.003", "guino.abuela.005", "entrada.comun.torre", "puente.abuela.005", "personalizacion.abuela.006", "guino.abuela.003", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 4: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 5: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "oros-01 invertida trabajo"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 59,
+    "luckyColor" : {
+      "name" : "rosa chicle",
+      "hex" : "#f48fb1"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.mistica.004", "puente.mistica.004", "personalizacion.comun.provincia", "entrada.mistica.003", "puente.mistica.005", "personalizacion.mistica.004", "entrada.comun.invertida", "puente.mistica.002", "personalizacion.mistica.006", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 4: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 2."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (mística)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-01 invertida salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "Las copas mandan.",
+    "luckyNumber" : 58,
+    "luckyColor" : {
+      "name" : "dorado purpurina",
+      "hex" : "#d4af37"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.abuela.004", "puente.abuela.003", "salud.abuela.001", "personalizacion.comun.provincia", "guino.abuela.002", "cambioHumor.mistica.001", "letra-m", "entrada.comun.invertida", "puente.mistica.004", "personalizacion.mistica.005", "guino.mistica.003", "sintesis.comun.copas", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "bastos-sota derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 3: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-04 derecha dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 3: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 3: en tu remate…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-08 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 49,
+    "luckyColor" : {
+      "name" : "azul medianoche",
+      "hex" : "#1b2a4a"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.002", "puente.mistica.001", "personalizacion.mistica.002", "entrada.mistica.003", "puente.mistica.002", "personalizacion.mistica.003", "entrada.comun.invertida", "puente.mistica.003", "personalizacion.mistica.005", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu respuesta…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "espadas-02 invertida salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño mistica 3."
+      }, {
+        "kind" : "cambioHumor",
+        "text" : "Perdona, me ha dado un aire (abuela)."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    }, {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada abuela 2: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu matiz…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 6: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 2."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 56,
+    "luckyColor" : {
+      "name" : "azul medianoche",
+      "hex" : "#1b2a4a"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.invertida", "puente.mistica.006", "salud.mistica.001", "personalizacion.mistica.001", "guino.mistica.003", "cambioHumor.abuela.001", "letra-m", "entrada.abuela.002", "puente.abuela.003", "personalizacion.abuela.006", "guino.abuela.002", "despedida.abuela.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 derecha salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Uy, al revés."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 1: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina invertida salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 2: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: atención, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-01 derecha salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 4: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 88,
+    "luckyColor" : {
+      "name" : "granate de abuela",
+      "hex" : "#7b1e2b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.comun.torre", "puente.mistica.004", "salud.mistica.001", "personalizacion.comun.provincia", "entrada.comun.invertida", "puente.mistica.001", "personalizacion.mistica.002", "entrada.mistica.002", "puente.mistica.002", "personalizacion.mistica.004", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Bon dia.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha general A"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 5: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 2,
+    "luckyColor" : {
+      "name" : "granate de abuela",
+      "hex" : "#7b1e2b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.mistica.ca", "entrada.mistica.006", "puente.mistica.002", "personalizacion.mistica.005", "despedida.mistica.001" ]
+  }, {
+    "tone" : "mistica",
+    "intro" : "Hola mistica, {nombre}.",
+    "cards" : [ {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 2: cuidado, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 6: en tu pasado…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "copas-reina derecha salud"
+      }, {
+        "kind" : "salud",
+        "text" : "Para eso, mejor tu médico."
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Desde Sevilla (Andalucía) huele a el salmorejo."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 2: en tu presente…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 derecha salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 6: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    }, {
+      "tone" : "mistica",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "Entrada mistica 6: ojo, {nombre}."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente mistica 4: en tu futuro…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-00 derecha salud"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso mistica 1: {nombre}, {inicial}, {edad} años."
+      } ],
+      "interaction" : null
+    } ],
+    "summary" : "",
+    "luckyNumber" : 78,
+    "luckyColor" : {
+      "name" : "morado obispo",
+      "hex" : "#6b2d6b"
+    },
+    "outro" : "Adiós mistica.",
+    "disclaimer" : "Entretenimiento, no consejo profesional. Y para la salud, mejor tu médico.",
+    "usedFragmentIds" : [ "saludo.mistica.001", "entrada.mistica.002", "puente.mistica.006", "salud.mistica.001", "personalizacion.comun.provincia", "entrada.comun.torre", "puente.mistica.002", "personalizacion.mistica.006", "entrada.mistica.006", "puente.mistica.004", "personalizacion.mistica.001", "despedida.mistica.001" ]
+  }, {
+    "tone" : "abuela",
+    "intro" : "Hola abuela, {nombre}.",
+    "cards" : [ {
+      "tone" : "abuela",
+      "lines" : [ {
+        "kind" : "entrada",
+        "text" : "¡La Torre! Tranquilidad: es cambio."
+      }, {
+        "kind" : "puente",
+        "text" : "Puente abuela 3: en tu consejo…"
+      }, {
+        "kind" : "nucleo",
+        "text" : "mayor-16 invertida dinero"
+      }, {
+        "kind" : "personalizacion",
+        "text" : "Perso abuela 4: {nombre}, {inicial}, {edad} años."
+      }, {
+        "kind" : "guino",
+        "text" : "Guiño abuela 1."
+      } ],
+      "interaction" : {
+        "id" : "letra-m",
+        "prompt" : "¿Hay alguien con la letra M en tu vida?",
+        "options" : [ "si", "no", "skip" ]
+      }
+    } ],
+    "summary" : "",
+    "luckyNumber" : 78,
+    "luckyColor" : {
+      "name" : "verde pistacho",
+      "hex" : "#93c572"
+    },
+    "outro" : "Adiós abuela.",
+    "disclaimer" : "Entretenimiento, no consejo profesional.",
+    "usedFragmentIds" : [ "saludo.abuela.001", "entrada.comun.torre", "puente.abuela.003", "personalizacion.abuela.004", "guino.abuela.001", "letra-m", "despedida.abuela.001" ]
+  } ],
+  "pendulum" : [ {
+    "mode" : "ouija",
+    "result" : {
+      "word" : "AMOR"
+    },
+    "text" : "Deletrea AMOR."
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 47,
+        "informe" : "Raíz al 47 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 74,
+        "informe" : "Corona al 74 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro"
+  }, {
+    "mode" : "sino",
+    "result" : {
+      "answer" : "no"
+    },
+    "text" : "Línea sino.no"
+  }, {
+    "mode" : "sino",
+    "result" : {
+      "answer" : "si"
+    },
+    "text" : "Sí: SÍ."
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "41"
+    },
+    "text" : "Tus llaves están en Sevilla."
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 54,
+        "informe" : "Raíz al 54 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 85,
+        "informe" : "Corona al 85 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro Es medianoche y brillo."
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 91,
+        "informe" : "Raíz al 91 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 78,
+        "informe" : "Corona al 78 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro"
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "41"
+    },
+    "text" : "Tus llaves están en Sevilla."
+  }, {
+    "mode" : "tablero",
+    "result" : {
+      "sector" : 3
+    },
+    "text" : "Línea tablero.3 Es medianoche y brillo."
+  }, {
+    "mode" : "tablero",
+    "result" : {
+      "sector" : 3
+    },
+    "text" : "Línea tablero.3"
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 92,
+        "informe" : "Raíz al 92 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 49,
+        "informe" : "Corona al 49 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro Es medianoche y brillo."
+  }, {
+    "mode" : "porcentaje",
+    "result" : {
+      "value" : 15
+    },
+    "text" : "Un 15 %. Es medianoche y brillo."
+  }, {
+    "mode" : "porcentaje",
+    "result" : {
+      "value" : 97
+    },
+    "text" : "Un 97 %."
+  }, {
+    "mode" : "porcentaje",
+    "result" : {
+      "value" : 87
+    },
+    "text" : "Un 87 %."
+  }, {
+    "mode" : "tablero",
+    "result" : {
+      "sector" : 0
+    },
+    "text" : "Línea tablero.0"
+  }, {
+    "mode" : "sino",
+    "result" : {
+      "answer" : "duda"
+    },
+    "text" : "Línea sino.duda"
+  }, {
+    "mode" : "tablero",
+    "result" : {
+      "sector" : 4
+    },
+    "text" : "Línea tablero.4 Es medianoche y brillo."
+  }, {
+    "mode" : "ouija",
+    "result" : {
+      "word" : "PIZZA"
+    },
+    "text" : "Deletrea PIZZA. Es medianoche y brillo."
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 9,
+        "informe" : "Raíz al 9 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 44,
+        "informe" : "Corona al 44 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro Es medianoche y brillo."
+  }, {
+    "mode" : "sino",
+    "result" : {
+      "answer" : "si"
+    },
+    "text" : "El chorizo dice que sí."
+  }, {
+    "mode" : "porcentaje",
+    "result" : {
+      "value" : 58
+    },
+    "text" : "Un 58 %. Es medianoche y brillo."
+  }, {
+    "mode" : "ouija",
+    "result" : {
+      "word" : "PIZZA"
+    },
+    "text" : "Deletrea PIZZA. Es medianoche y brillo."
+  }, {
+    "mode" : "sino",
+    "result" : {
+      "answer" : "si"
+    },
+    "text" : "Sí: SÍ."
+  }, {
+    "mode" : "porcentaje",
+    "result" : {
+      "value" : 92
+    },
+    "text" : "Un 92 %."
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "41"
+    },
+    "text" : "Tus llaves están en Sevilla. Es medianoche y brillo."
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 46,
+        "informe" : "Raíz al 46 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 85,
+        "informe" : "Corona al 85 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro"
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "41"
+    },
+    "text" : "Tus llaves están en Sevilla. Es medianoche y brillo."
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "28"
+    },
+    "text" : "Tus llaves están en Madrid."
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 80,
+        "informe" : "Raíz al 80 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 66,
+        "informe" : "Corona al 66 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro"
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 80,
+        "informe" : "Raíz al 80 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 25,
+        "informe" : "Corona al 25 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro"
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 0,
+        "informe" : "Raíz al 0 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 70,
+        "informe" : "Corona al 70 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro"
+  }, {
+    "mode" : "porcentaje",
+    "result" : {
+      "value" : 27
+    },
+    "text" : "Un 27 %."
+  }, {
+    "mode" : "opciones",
+    "result" : {
+      "index" : 1
+    },
+    "text" : "Elige {opcion}. Es medianoche y brillo."
+  }, {
+    "mode" : "opciones",
+    "result" : {
+      "index" : 1
+    },
+    "text" : "Elige {opcion}."
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "28"
+    },
+    "text" : "Tus llaves están en Madrid."
+  }, {
+    "mode" : "opciones",
+    "result" : {
+      "index" : 0
+    },
+    "text" : "Elige {opcion}."
+  }, {
+    "mode" : "sino",
+    "result" : {
+      "answer" : "si"
+    },
+    "text" : "El chorizo dice que sí. Es medianoche y brillo."
+  }, {
+    "mode" : "tablero",
+    "result" : {
+      "sector" : 4
+    },
+    "text" : "Línea tablero.4 Es medianoche y brillo."
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "41"
+    },
+    "text" : "Tus llaves están en Sevilla. Es medianoche y brillo."
+  }, {
+    "mode" : "tablero",
+    "result" : {
+      "sector" : 4
+    },
+    "text" : "Línea tablero.4"
+  }, {
+    "mode" : "tablero",
+    "result" : {
+      "sector" : 3
+    },
+    "text" : "Línea tablero.3"
+  }, {
+    "mode" : "opciones",
+    "result" : {
+      "index" : 3
+    },
+    "text" : "Elige {opcion}."
+  }, {
+    "mode" : "porcentaje",
+    "result" : {
+      "value" : 92
+    },
+    "text" : "Un 92 %."
+  }, {
+    "mode" : "ouija",
+    "result" : {
+      "word" : "PIZZA"
+    },
+    "text" : "Deletrea PIZZA."
+  }, {
+    "mode" : "porcentaje",
+    "result" : {
+      "value" : 28
+    },
+    "text" : "Un 28 %."
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 47,
+        "informe" : "Raíz al 47 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 26,
+        "informe" : "Corona al 26 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro"
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "41"
+    },
+    "text" : "Tus llaves están en Sevilla. Es medianoche y brillo."
+  }, {
+    "mode" : "tablero",
+    "result" : {
+      "sector" : 1
+    },
+    "text" : "Línea tablero.1"
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 66,
+        "informe" : "Raíz al 66 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 64,
+        "informe" : "Corona al 64 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro Es medianoche y brillo."
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 59,
+        "informe" : "Raíz al 59 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 86,
+        "informe" : "Corona al 86 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro Es medianoche y brillo."
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "41"
+    },
+    "text" : "Tus llaves están en Sevilla."
+  }, {
+    "mode" : "opciones",
+    "result" : {
+      "index" : 1
+    },
+    "text" : "Elige {opcion}."
+  }, {
+    "mode" : "tablero",
+    "result" : {
+      "sector" : 0
+    },
+    "text" : "Línea tablero.0"
+  }, {
+    "mode" : "porcentaje",
+    "result" : {
+      "value" : 79
+    },
+    "text" : "Un 79 %. Es medianoche y brillo."
+  }, {
+    "mode" : "ouija",
+    "result" : {
+      "word" : "AMOR"
+    },
+    "text" : "Deletrea AMOR. Es medianoche y brillo."
+  }, {
+    "mode" : "chakras",
+    "result" : {
+      "levels" : [ {
+        "id" : "raiz",
+        "nivel" : 51,
+        "informe" : "Raíz al 51 %."
+      }, {
+        "id" : "corona",
+        "nivel" : 34,
+        "informe" : "Corona al 34 %."
+      } ]
+    },
+    "text" : "Línea chakras.intro"
+  }, {
+    "mode" : "sino",
+    "result" : {
+      "answer" : "duda"
+    },
+    "text" : "Línea sino.duda Es medianoche y brillo."
+  }, {
+    "mode" : "mapa",
+    "result" : {
+      "provincia" : "28"
+    },
+    "text" : "Tus llaves están en Madrid. Es medianoche y brillo."
+  }, {
+    "mode" : "opciones",
+    "result" : {
+      "index" : 0
+    },
+    "text" : "Elige {opcion}."
+  }, {
+    "mode" : "ouija",
+    "result" : {
+      "word" : "PIZZA"
+    },
+    "text" : "Deletrea PIZZA."
+  } ]
+}

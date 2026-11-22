@@ -1,0 +1,207 @@
+{
+  "oros-01": {
+    "keywords": [
+      "oros-01"
+    ],
+    "upright": {
+      "general": [
+        "oros-01 derecha general A",
+        "oros-01 derecha general B"
+      ],
+      "amor": [
+        "oros-01 derecha amor"
+      ],
+      "trabajo": [
+        "oros-01 derecha trabajo"
+      ],
+      "dinero": [
+        "oros-01 derecha dinero"
+      ],
+      "salud": [
+        "oros-01 derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "oros-01 invertida general A",
+        "oros-01 invertida general B"
+      ],
+      "amor": [
+        "oros-01 invertida amor"
+      ],
+      "trabajo": [
+        "oros-01 invertida trabajo"
+      ],
+      "dinero": [
+        "oros-01 invertida dinero"
+      ],
+      "salud": [
+        "oros-01 invertida salud"
+      ]
+    }
+  },
+  "copas-04": {
+    "keywords": [
+      "copas-04"
+    ],
+    "upright": {
+      "general": [
+        "copas-04 derecha general A",
+        "copas-04 derecha general B"
+      ],
+      "amor": [
+        "copas-04 derecha amor"
+      ],
+      "trabajo": [
+        "copas-04 derecha trabajo"
+      ],
+      "dinero": [
+        "copas-04 derecha dinero"
+      ],
+      "salud": [
+        "copas-04 derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "copas-04 invertida general A",
+        "copas-04 invertida general B"
+      ],
+      "amor": [
+        "copas-04 invertida amor"
+      ],
+      "trabajo": [
+        "copas-04 invertida trabajo"
+      ],
+      "dinero": [
+        "copas-04 invertida dinero"
+      ],
+      "salud": [
+        "copas-04 invertida salud"
+      ]
+    }
+  },
+  "bastos-sota": {
+    "keywords": [
+      "bastos-sota"
+    ],
+    "upright": {
+      "general": [
+        "bastos-sota derecha general A",
+        "bastos-sota derecha general B"
+      ],
+      "amor": [
+        "bastos-sota derecha amor"
+      ],
+      "trabajo": [
+        "bastos-sota derecha trabajo"
+      ],
+      "dinero": [
+        "bastos-sota derecha dinero"
+      ],
+      "salud": [
+        "bastos-sota derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "bastos-sota invertida general A",
+        "bastos-sota invertida general B"
+      ],
+      "amor": [
+        "bastos-sota invertida amor"
+      ],
+      "trabajo": [
+        "bastos-sota invertida trabajo"
+      ],
+      "dinero": [
+        "bastos-sota invertida dinero"
+      ],
+      "salud": [
+        "bastos-sota invertida salud"
+      ]
+    }
+  },
+  "espadas-rey": {
+    "keywords": [
+      "espadas-rey"
+    ],
+    "upright": {
+      "general": [
+        "espadas-rey derecha general A",
+        "espadas-rey derecha general B"
+      ],
+      "amor": [
+        "espadas-rey derecha amor"
+      ],
+      "trabajo": [
+        "espadas-rey derecha trabajo"
+      ],
+      "dinero": [
+        "espadas-rey derecha dinero"
+      ],
+      "salud": [
+        "espadas-rey derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "espadas-rey invertida general A",
+        "espadas-rey invertida general B"
+      ],
+      "amor": [
+        "espadas-rey invertida amor"
+      ],
+      "trabajo": [
+        "espadas-rey invertida trabajo"
+      ],
+      "dinero": [
+        "espadas-rey invertida dinero"
+      ],
+      "salud": [
+        "espadas-rey invertida salud"
+      ]
+    }
+  },
+  "espadas-08": {
+    "keywords": [
+      "espadas-08"
+    ],
+    "upright": {
+      "general": [
+        "espadas-08 derecha general A",
+        "espadas-08 derecha general B"
+      ],
+      "amor": [
+        "espadas-08 derecha amor"
+      ],
+      "trabajo": [
+        "espadas-08 derecha trabajo"
+      ],
+      "dinero": [
+        "espadas-08 derecha dinero"
+      ],
+      "salud": [
+        "espadas-08 derecha salud"
+      ]
+    },
+    "reversed": {
+      "general": [
+        "espadas-08 invertida general A",
+        "espadas-08 invertida general B"
+      ],
+      "amor": [
+        "espadas-08 invertida amor"
+      ],
+      "trabajo": [
+        "espadas-08 invertida trabajo"
+      ],
+      "dinero": [
+        "espadas-08 invertida dinero"
+      ],
+      "salud": [
+        "espadas-08 invertida salud"
+      ]
+    }
+  }
+}

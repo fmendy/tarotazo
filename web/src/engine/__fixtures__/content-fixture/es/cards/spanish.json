@@ -1,0 +1,36 @@
+{
+  "family": "spanish",
+  "name": "Baraja española de prueba",
+  "description": "Fixture",
+  "suits": {
+    "bastos": {
+      "name": "Bastos",
+      "description": "bastos"
+    },
+    "copas": {
+      "name": "Copas",
+      "description": "copas"
+    },
+    "espadas": {
+      "name": "Espadas",
+      "description": "espadas"
+    },
+    "oros": {
+      "name": "Oros",
+      "description": "oros"
+    }
+  },
+  "models": {
+    "castellana": {
+      "name": "Castellana",
+      "description": "Clásica"
+    }
+  },
+  "cards": {
+    "oros-01": "As de Oros",
+    "copas-04": "Cuatro de Copas",
+    "bastos-sota": "Sota de Bastos",
+    "espadas-rey": "Rey de Espadas",
+    "espadas-08": "Ocho de Espadas"
+  }
+}

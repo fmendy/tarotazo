@@ -1,0 +1,30 @@
+{
+  "puerta": {
+    "titulo": "Tarotazo",
+    "pregunta": "¿Eres mayor de edad?",
+    "aviso": "Entretenimiento",
+    "si": "Sí",
+    "no": "No"
+  },
+  "menor": [
+    "Vuelve en unos años."
+  ],
+  "nombre": {
+    "genericas": [
+      "Qué nombre tan bonito, {nombre}."
+    ]
+  },
+  "edad": {
+    "genericas": [
+      "Buena edad."
+    ]
+  },
+  "provincia": {
+    "genericas": [
+      "¡De {provincia}! {chascarrillo}"
+    ],
+    "extranjero": [
+      "¡Del mundo!"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "spreads": {
+    "dia": {
+      "name": "Carta del día",
+      "description": "Una",
+      "positions": {
+        "consejo": {
+          "label": "Consejo",
+          "inline": "tu consejo"
+        }
+      }
+    },
+    "ppf": {
+      "name": "Pasado, presente y futuro",
+      "description": "Tres",
+      "positions": {
+        "pasado": {
+          "label": "Pasado",
+          "inline": "tu pasado"
+        },
+        "presente": {
+          "label": "Presente",
+          "inline": "tu presente"
+        },
+        "futuro": {
+          "label": "Futuro",
+          "inline": "tu futuro"
+        }
+      }
+    },
+    "sino": {
+      "name": "Sí o no",
+      "description": "1-3",
+      "positions": {
+        "respuesta": {
+          "label": "Respuesta",
+          "inline": "tu respuesta"
+        },
+        "matiz": {
+          "label": "Matiz",
+          "inline": "tu matiz"
+        },
+        "remate": {
+          "label": "Remate",
+          "inline": "tu remate"
+        }
+      }
+    },
+    "celta": {
+      "name": "Cruz celta",
+      "description": "Sólo tarot",
+      "positions": {
+        "cubre": {
+          "label": "Cubre",
+          "inline": "tu cubre"
+        },
+        "cruza": {
+          "label": "Cruza",
+          "inline": "tu cruza"
+        },
+        "corona": {
+          "label": "Corona",
+          "inline": "tu corona"
+        }
+      }
+    }
+  }
+}
