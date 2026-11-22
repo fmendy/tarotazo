@@ -32,7 +32,8 @@ async function waitAnswer(page: Page) {
   // Texto completo: TypewriterText expone el texto entero en aria-label; en reducedMotion es un <span>.
   const full = async () => {
     const tw = bubble.locator('.fx-tw');
-    if (await tw.count()) return (await tw.first().getAttribute('aria-label')) ?? '';
+    // TypewriterText ya no usa aria-label (texto oculto para lectores): si no lo hay, se lee el texto.
+    if (await tw.count()) { const l = await tw.first().getAttribute('aria-label'); if (l) return l; }
     return (await bubble.innerText()).replace(/Madame Remedios dice:?/, '').trim();
   };
   await expect.poll(async () => (await full()).length, { timeout: 30_000 }).toBeGreaterThan(5);

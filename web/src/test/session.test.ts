@@ -27,6 +27,43 @@ describe('store de sesión (en memoria, sin persistencia)', () => {
     expect(document.cookie).toBe('');
   });
 
+  it('al bloquear sólo guarda el indicador no personal arcana.blocked en sessionStorage', () => {
+    st().passGate(null);
+    st().setName('Vanesa');
+    const y = new Date().getFullYear() - 15;
+    expect(st().setBirthDate(`${y}-05-05`)).toBe('minor');
+    expect(sessionStorage.length).toBe(1);
+    expect(sessionStorage.key(0)).toBe('arcana.blocked');
+    expect(sessionStorage.getItem('arcana.blocked')).toBe('1');
+    expect(localStorage.length).toBe(0);
+    expect(storageDump()).not.toContain(String(y));
+    // «recarga»: el estado inicial arranca bloqueado
+    expect(initialData()).toMatchObject({ blocked: true, screen: 'blocked' });
+  });
+
+  it('con la sesión bloqueada se pueden abrir los textos legales y volver', () => {
+    st().block();
+    st().openSide('privacy');
+    expect(st().screen).toBe('privacy');
+    st().back();
+    expect(st().screen).toBe('blocked');
+    st().go('legal');
+    expect(st().screen).toBe('legal');
+    st().openSide('pendulum');
+    expect(st().screen).toBe('legal');
+    st().back();
+    expect(st().screen).toBe('blocked');
+  });
+
+  it('sólo arcana.muted (localStorage) y arcana.blocked (sessionStorage) están permitidos', () => {
+    st().passGate('1990-07-25'); st().setName('Vanesa'); st().setProvince('41');
+    st().reset('bye');
+    st().block();
+    const keys = (s: Storage) => Array.from({ length: s.length }, (_, i) => s.key(i));
+    for (const k of keys(localStorage)) expect(['arcana.muted']).toContain(k);
+    for (const k of keys(sessionStorage)) expect(['arcana.blocked']).toContain(k);
+  });
+
   it('deriva signo, década y número de vida de la fecha', () => {
     st().passGate('1990-07-25');
     expect(st()).toMatchObject({ adult: true, signo: 'leo', numeroVida: 6, screen: 'name' });

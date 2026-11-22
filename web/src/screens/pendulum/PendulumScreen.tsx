@@ -1,5 +1,5 @@
 // «El Oráculo Oscilante»: vitrina, calibración, pregunta (local) y modos.
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type KeyboardEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Pendulum } from '../../pendulum';
@@ -76,18 +76,25 @@ export function PendulumScreen() {
   const midnight = new Date().getHours() === 0;
   const content = useAsync(() => getPendulumContent(s.province), [s.province, i18n.language]).data;
   /** Línea del contenido del péndulo (la del modelo, si la tiene), sorteada y resuelta. */
+  // Ningún {x} visible (QA-01): {provincia} cae a «la tierra» si no hay provincia (o es extranjero).
+  const provVar = provinceName(s.province) ?? t('pendulum.chorizoDefault');
+  const res = (txt: string, more: Record<string, string | number | undefined> = {}) => fill(txt, { provincia: provVar, ...more });
   const line = (key: string): string | null => {
     const own = content?.models[s.pendulumModel]?.lines?.[key];
     const arr = own?.length ? own : content?.lines[key];
     const txt = arr?.length ? arr[randomInt(arr.length)] : undefined;
-    return txt ? fill(txt) : null;
+    return txt ? res(txt) : null;
   };
   const [ritual, setRitual] = useState<string | null>(null);
 
   useEffect(() => () => stopAmbient(), []);
   useEffect(() => { if (concentrate) startAmbient(); else stopAmbient(); }, [concentrate, muted]);
 
-  const modelName = (m: PendulumModel) => content?.models[m]?.nombre ?? t(`pendulum.models.${m}`, { provincia: provinceName(s.province) ?? t('pendulum.chorizoDefault') });
+  const modelName = (m: PendulumModel) => {
+    const n = content?.models[m]?.nombre;
+    return n ? res(n) : t(`pendulum.models.${m}`, { provincia: provVar });
+  };
+  const personality = (m: PendulumModel) => { const p = content?.models[m]?.personalidad; return p ? res(p) : null; };
   const cleanOptions = options.map((o) => o.trim()).filter(Boolean);
 
   function resetAnswer() {
@@ -136,9 +143,12 @@ export function PendulumScreen() {
   }
 
   /** Al asentarse: avanza la secuencia (ouija/chakras) o muestra la respuesta. */
+  const settledTarget = useRef<PendulumTarget | null>(null);
   function settled() {
     if (phase === 'calibrate') return;
-    if (!result) return;
+    if (!result || !target) return;
+    if (settledTarget.current === target) return; // ya procesado (asentado real o por tiempo)
+    settledTarget.current = target;
     const res = result.result as Record<string, unknown>;
     const i = step.current;
     if (result.mode === 'ouija') {
@@ -164,11 +174,32 @@ export function PendulumScreen() {
     if (result.mode === 'mapa') setMapSel(String(res.provincia));
     if (result.mode === 'ouija') setSpelled(String(res.word).toLocaleUpperCase('es'));
     const opcion = result.mode === 'opciones' ? cleanOptions[Number(res.index)] : undefined;
-    setShownText(fill(result.text, { opcion, palabra: res.word as string | undefined, porcentaje: res.value as number | undefined }));
+    setShownText(fill(result.text, { provincia: provVar, opcion, palabra: res.word as string | undefined, porcentaje: res.value as number | undefined }));
+  }
+
+  function selectMode(m: PendulumMode) { setMode(m); resetAnswer(); setAngry(false); }
+  function onTabKey(e: KeyboardEvent<HTMLDivElement>) {
+    const i = PENDULUM_MODES.indexOf(mode);
+    const n = PENDULUM_MODES.length;
+    const to = e.key === 'ArrowRight' || e.key === 'ArrowDown' ? (i + 1) % n
+      : e.key === 'ArrowLeft' || e.key === 'ArrowUp' ? (i - 1 + n) % n
+      : e.key === 'Home' ? 0 : e.key === 'End' ? n - 1 : -1;
+    if (to < 0) return;
+    e.preventDefault();
+    const m = PENDULUM_MODES[to]!;
+    selectMode(m);
+    requestAnimationFrame(() => document.getElementById(`ptab-${m}`)?.focus());
   }
 
   const settledRef = useRef(settled);
   settledRef.current = settled;
+  // Red de seguridad: si la física tarda en «asentarse» en un punto, se da por asentado a los 8 s
+  // para que la respuesta nunca se quede sin mostrar.
+  useEffect(() => {
+    if (!target || phase !== 'ask') return;
+    const id = setTimeout(() => settledRef.current(), 8000);
+    return () => clearTimeout(id);
+  }, [target, phase]);
 
   // ---- vitrina ----
   if (phase === 'showcase') {
@@ -180,10 +211,11 @@ export function PendulumScreen() {
             <motion.li key={m} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }}>
               <button className={'showcase__item' + (s.pendulumModel === m ? ' is-selected' : '')} aria-pressed={s.pendulumModel === m}
                 onClick={() => { s.setPendulumModel(m); sfx('chime'); }}>
-                <Img className="showcase__img" src={`/art/pendulums/${m}.svg`} alt={t('pendulum.pendulumAlt', { name: modelName(m) })}
+                {/* Imagen decorativa: el nombre accesible es el texto visible (nombre + personalidad) (QA-14). */}
+                <Img className="showcase__img" src={`/art/pendulums/${m}.svg`} alt="" decorative
                   fallback={<span className={`showcase__gem gem--${m}`} aria-hidden />} />
-                <span>{modelName(m)}</span>
-                {content?.models[m]?.personalidad && <span className="showcase__desc">{content.models[m]!.personalidad}</span>}
+                <span className="showcase__name" id={`pname-${m}`}>{modelName(m)}</span>
+                {personality(m) && <span className="showcase__desc" id={`pdesc-${m}`}>{personality(m)}</span>}
               </button>
             </motion.li>
           ))}
@@ -236,19 +268,22 @@ export function PendulumScreen() {
             </div>
           ) : (
             <div className="card-panel">
-              <div className="modes" role="tablist" aria-label={t('pendulum.mode')}>
+              {/* Patrón de pestañas WAI-ARIA (QA-06): flechas, Inicio/Fin, tabindex itinerante y tabpanel. */}
+              <div className="modes" role="tablist" aria-label={t('pendulum.mode')} onKeyDown={onTabKey}>
                 {PENDULUM_MODES.map((m) => (
-                  <button key={m} role="tab" aria-selected={mode === m} className={'chip' + (mode === m ? ' is-selected' : '')}
-                    onClick={() => { setMode(m); resetAnswer(); setAngry(false); }}>{t(`pendulum.modes.${m}`)}</button>
+                  <button key={m} role="tab" id={`ptab-${m}`} aria-selected={mode === m} aria-controls="pmode-panel"
+                    tabIndex={mode === m ? 0 : -1} className={'chip' + (mode === m ? ' is-selected' : '')}
+                    onClick={() => selectMode(m)}>{t(`pendulum.modes.${m}`)}</button>
                 ))}
               </div>
+              <div role="tabpanel" id="pmode-panel" aria-labelledby={`ptab-${mode}`} className="modes__panel">
               <p className="hint">{t(`pendulum.modeHints.${mode}`)}</p>
-              <label className="field">
-                <span className="field__label">{t('pendulum.question')}</span>
-                <input className="input" value={question} maxLength={160} autoComplete="off" spellCheck={false}
+              <div className="field">
+                <label className="field__label" htmlFor="pq">{t('pendulum.question')}</label>
+                <input id="pq" className="input" value={question} maxLength={160} autoComplete="off" spellCheck={false} aria-describedby="pq-hint"
                   placeholder={t('pendulum.questionPlaceholder')} onChange={(e) => setQuestion(e.target.value)} />
-                <span className="hint">{t('pendulum.questionHint')}</span>
-              </label>
+                <span className="hint" id="pq-hint">{t('pendulum.questionHint')}</span>
+              </div>
               {mode === 'opciones' && (
                 <fieldset className="options">
                   <legend className="field__label">{t('pendulum.options')}</legend>
@@ -280,6 +315,7 @@ export function PendulumScreen() {
               {!!err && <ErrorBox error={err} onRetry={() => void ask()} />}
               {ritual && !shownText && <Seer pose="piensa" compact say={ritual} />}
               {shownText && <Seer pose={angry ? 'sorpresa' : 'bola'} say={shownText} />}
+              </div>
               <button className="linkbtn" onClick={() => setPhase('showcase')}>{t('pendulum.showcase')}</button>
             </div>
           )}

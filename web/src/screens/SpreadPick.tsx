@@ -58,12 +58,12 @@ export function SpreadPick() {
         {s.tema === 'salud' && <p className="health-note" role="note">{t('spread.healthNote')}</p>}
       </fieldset>
 
-      <label className="field question">
-        <span className="field__label">{t('spread.questionLabel')}</span>
-        <textarea className="input" rows={2} maxLength={200} value={question} autoComplete="off" spellCheck={false}
-          placeholder={t('spread.questionPlaceholder')} onChange={(e) => setQuestion(e.target.value)} />
-        <span className="hint">{t('spread.questionHint')}</span>
-      </label>
+      <div className="field question">
+        <label className="field__label" htmlFor="spread-q">{t('spread.questionLabel')}</label>
+        <textarea id="spread-q" className="input" rows={2} maxLength={200} value={question} autoComplete="off" spellCheck={false}
+          aria-describedby="spread-q-hint" placeholder={t('spread.questionPlaceholder')} onChange={(e) => setQuestion(e.target.value)} />
+        <span className="hint" id="spread-q-hint">{t('spread.questionHint')}</span>
+      </div>
 
       <Seer pose="bola" compact say={s.spread ? null : t('spread.pickSpread')} />
       <button className="btn btn--primary btn--big" disabled={!s.spread} onClick={() => s.go('shuffle')}>{t('spread.start')}</button>

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useSession } from '../state/session';
 import { useOnboarding } from '../state/content';
 import { Seer } from '../components/Seer';
-import { Disclaimer } from '../components/common';
+import { Disclaimer, useAutofocus } from '../components/common';
 import { sfx } from '../lib/sound';
 import { useReducedMotion } from '../hooks';
 
@@ -15,10 +15,12 @@ export function Gate() {
   const passGate = useSession((s) => s.passGate);
   const block = useSession((s) => s.block);
   const rm = useReducedMotion();
+  const h1 = useAutofocus<HTMLHeadingElement>();
   const [date, setDate] = useState('');
   const [declared, setDeclared] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const today = new Date().toISOString().slice(0, 10);
+  const now = new Date();
+  const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`; // local, no UTC (QA-15)
   const pu = ob?.puerta;
 
   function submit(e: FormEvent) {
@@ -50,7 +52,7 @@ export function Gate() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: rm ? 0 : 0.9, duration: 0.6 }}
       >
-        <h1 id="screen-title" className="screen__title" tabIndex={-1} data-autofocus>{pu?.pregunta ?? t('gate.question')}</h1>
+        <h1 ref={h1} id="screen-title" className="screen__title" tabIndex={-1} data-autofocus>{pu?.pregunta ?? t('gate.question')}</h1>
         <p className="badge-18" aria-label={t('gate.rating')}>+18</p>
 
         <label className="field">

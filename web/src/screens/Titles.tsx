@@ -18,8 +18,8 @@ function Diploma(p: { title: Title; active: boolean; onActivate(): void; index: 
   return (
     <motion.li
       className={'diploma frame--' + tl.frame + (p.active ? ' is-active' : '')}
-      initial={rm ? false : { opacity: 0, y: -20, rotate: (p.index % 2 ? 2 : -2) }}
-      animate={{ opacity: 1, y: 0, rotate: p.index % 3 === 0 ? -1.5 : p.index % 3 === 1 ? 1 : 0 }}
+      initial={rm ? false : { y: -20, scale: 0.96, rotate: (p.index % 2 ? 2 : -2) }}
+      animate={{ y: 0, scale: 1, rotate: p.index % 3 === 0 ? -1.5 : p.index % 3 === 1 ? 1 : 0 }}
       transition={{ delay: rm ? 0 : p.index * 0.08, type: 'spring', stiffness: 120 }}
       onMouseEnter={p.onActivate}
     >

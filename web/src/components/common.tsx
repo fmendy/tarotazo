@@ -1,4 +1,4 @@
-import { useEffect, useState, type CSSProperties, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ApiFailure } from '../lib/api';
 
@@ -37,10 +37,36 @@ export function ErrorBox(p: { error: unknown; onRetry?(): void }) {
   );
 }
 
+/**
+ * Lleva el foco al h1 de la pantalla ENTRANTE al montarse (QA-04). Con AnimatePresence en modo
+ * «wait» la pantalla nueva se monta cuando la saliente ya se ha ido, así que no hay carrera.
+ * Si el usuario ya ha puesto el foco en un control de la pantalla nueva, no se lo quitamos.
+ */
+export function useAutofocus<T extends HTMLElement>() {
+  const ref = useRef<T | null>(null);
+  useEffect(() => {
+    let tries = 0;
+    let id = 0;
+    const tick = () => {
+      const el = ref.current;
+      if (!el || !el.isConnected) return;
+      const active = document.activeElement as HTMLElement | null;
+      const userInside = active && active !== document.body && el.closest('section')?.contains(active) && active !== el;
+      if (userInside) return;
+      el.focus({ preventScroll: true });
+      if (document.activeElement !== el && tries++ < 20) id = window.setTimeout(tick, 50);
+    };
+    id = window.setTimeout(tick, 30);
+    return () => clearTimeout(id);
+  }, []);
+  return ref;
+}
+
 export function Screen(p: { title: string; children: ReactNode; className?: string; titleHidden?: boolean }) {
+  const h1 = useAutofocus<HTMLHeadingElement>();
   return (
     <section className={'screen ' + (p.className ?? '')} aria-labelledby="screen-title">
-      <h1 id="screen-title" className={p.titleHidden ? 'sr-only' : 'screen__title'} tabIndex={-1} data-autofocus>
+      <h1 ref={h1} id="screen-title" className={p.titleHidden ? 'sr-only' : 'screen__title'} tabIndex={-1} data-autofocus>
         {p.title}
       </h1>
       {p.children}

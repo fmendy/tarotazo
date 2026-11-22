@@ -59,6 +59,7 @@ export function DeckPick() {
             items={deck.models}
             render={(m: DeckModel) => <ModelCard m={m} selected={s.model === m.id} />}
             onSelect={(m: DeckModel) => { if (m.available) { s.setModel(m.id); sfx('flip'); } }}
+            getLabel={(m: DeckModel) => (m.available ? m.name : `${m.name} (${t('deck.soon')})`)}
           />
           <div className="row">
             <button className="btn btn--primary" disabled={!s.model} onClick={() => s.go('spread')}>{t('deck.choose')}</button>

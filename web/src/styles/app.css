@@ -35,8 +35,8 @@ a { color: var(--c-link, #f0cf7a); }
 
 /* ---------- estructura ---------- */
 .app { position: relative; min-height: 100dvh; display: flex; flex-direction: column; isolation: isolate; }
-.main { flex: 1; width: 100%; max-width: 1100px; margin: 0 auto; padding: var(--s-4, 16px); position: relative; z-index: var(--z-content, 10); }
-.screen { display: flex; flex-direction: column; align-items: center; gap: var(--s-4, 16px); text-align: center; }
+.main { flex: 1; min-width: 0; width: 100%; max-width: 1100px; margin: 0 auto; padding: var(--s-4, 16px); position: relative; z-index: var(--z-content, 10); }
+.screen { min-width: 0; max-width: 100%; display: flex; flex-direction: column; align-items: center; gap: var(--s-4, 16px); text-align: center; }
 .screen__title {
   font-family: var(--f-display, serif); font-size: var(--fs-xl, 1.875rem); line-height: var(--lh-tight, 1.15);
   color: var(--c-gold-light, #f0cf7a); text-shadow: var(--glow-text, none); margin: var(--s-2, 8px) 0 0;
@@ -45,7 +45,8 @@ a { color: var(--c-link, #f0cf7a); }
 .subtitle { font-family: var(--f-title, serif); color: var(--c-gold, #d4a24c); font-size: var(--fs-lg, 1.375rem); margin: 0; }
 .row { display: flex; flex-wrap: wrap; gap: var(--s-3, 12px); justify-content: center; align-items: center; }
 .hint { color: var(--c-text-muted, #cdbca9); font-size: var(--fs-sm, .9375rem); margin: 0; }
-.stage { width: 100%; min-height: 260px; display: grid; place-items: center; }
+.stage { width: 100%; min-width: 0; max-width: 100%; min-height: 260px; display: grid; place-items: center; grid-template-columns: minmax(0, 1fr); }
+.stage > * { min-width: 0; max-width: 100%; }
 .stage--fan { min-height: 320px; overflow-x: auto; }
 
 .card-panel {
@@ -72,7 +73,7 @@ a { color: var(--c-link, #f0cf7a); }
 .topbar__nav { display: none; position: absolute; top: 100%; right: 0; left: 0; flex-direction: column; gap: var(--s-2, 8px); padding: var(--s-3, 12px); background: var(--c-bg2, #1e0f2e); border-bottom: 1px solid var(--c-border, #d4a24c88); }
 .topbar__nav.is-open { display: flex; }
 @media (min-width: 760px) {
-  .topbar__burger { display: none; }
+  .topbar .topbar__burger { display: none; } /* más específico que .iconbtn (QA-07) */
   .topbar__nav { display: flex; position: static; flex-direction: row; padding: 0; background: none; border: 0; align-items: center; }
 }
 .navbtn, .linkbtn, .iconbtn { background: none; border: 0; cursor: pointer; }
@@ -339,3 +340,15 @@ textarea.input { resize: vertical; }
 }
 
 .showcase__desc { font-size: var(--fs-xs, .8125rem); color: var(--c-text-muted, #cdbca9); }
+
+/* ---------- QA: contenedores flex/grid que no deben desbordar (QA-19) ---------- */
+.card-panel, .board, .province__layout > *, .pendulum__layout > *, .spreadgrid > *, .diplomas > *, .age__results, .stats > *, .name__stage > * { min-width: 0; }
+.board { max-width: 100%; }
+
+/* «Compulsar título» con contraste AA sobre cualquier marco o papel pintado (QA-11) */
+.diploma .btn--small {
+  background: var(--c-bg, #140a1f); color: var(--c-gold-light, #f0cf7a);
+  border-color: var(--c-gold-light, #f0cf7a); box-shadow: 0 2px 8px rgb(0 0 0 / .6); text-shadow: none; position: relative; z-index: 3;
+}
+.diploma .btn--small:hover:not(:disabled), .diploma .btn--small:focus-visible { background: var(--c-plum, #2a0f3a); color: #fff; }
+.modes__panel { display: flex; flex-direction: column; gap: var(--s-3, 12px); }

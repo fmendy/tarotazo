@@ -313,13 +313,13 @@
     "title": "Política de privacidad",
     "pending": "Texto provisional, pendiente de revisión legal.",
     "body": [
-      "Resumen: no guardamos ningún dato tuyo. Ni en el servidor, ni en cookies, ni en el almacenamiento de tu navegador.",
+      "Resumen: no guardamos ningún dato personal tuyo. Ni en el servidor, ni en cookies, ni en el almacenamiento de tu navegador (salvo dos indicadores no personales que se explican abajo).",
       "Nombre, fecha de nacimiento, edad y provincia: viven sólo en la memoria de esta pestaña mientras la usas. Se borran al pulsar «Salir», al cerrar la pestaña o tras 30 minutos sin actividad.",
       "Qué recibe el servidor: para componer una lectura le enviamos datos anónimos que no identifican a nadie: la baraja y tirada, el corte, el signo, la década (no la edad exacta), el número de vida, el código de provincia, el tema, la hora y el día de la semana, el idioma y una semilla aleatoria. Nunca tu nombre, tu edad exacta ni tu pregunta: los textos llegan con un hueco que tu navegador rellena.",
       "Tu pregunta y tus opciones del péndulo: no salen de tu pantalla.",
       "Dirección IP: como en cualquier web, tu dispositivo se conecta al servidor y éste ve tu IP mientras viaja la petición; sin ella no podría responderte. No la registramos ni la guardamos; sólo se usa, en memoria y durante poco tiempo, para limitar abusos (demasiadas peticiones seguidas). Los registros de acceso están desactivados o anonimizados.",
       "Imágenes y diploma: se generan en tu navegador con canvas y se descargan a tu dispositivo. Nunca se suben a ningún sitio.",
-      "Preferencias: lo único que guardamos en tu navegador (localStorage) es si has silenciado el sonido. No es un dato personal y puedes borrarlo cuando quieras.",
+      "Preferencias e indicadores: lo único que guardamos en tu navegador es (1) si has silenciado el sonido (localStorage, clave arcana.muted) y (2) si se cortó la sesión porque la persona indicó ser menor de edad (sessionStorage, clave arcana.blocked=1, sólo mientras la pestaña siga abierta). Ninguno contiene tu edad, tu fecha ni otro dato personal, no se envían a ningún sitio y puedes borrarlos cuando quieras.",
       "Terceros: no usamos analítica de terceros, ni anuncios, ni fuentes o librerías de otros dominios.",
       "Base legal y derechos: al no tratar datos personales identificativos de forma persistente, no hay datos que consultar, rectificar o suprimir. Aun así, puedes escribir a [contacto pendiente] y tienes derecho a reclamar ante la Agencia Española de Protección de Datos (RGPD y LOPDGDD)."
     ]

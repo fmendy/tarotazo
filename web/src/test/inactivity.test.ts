@@ -23,10 +23,13 @@ describe('borrado por inactividad', () => {
     const s = useSession.getState();
     useSession.setState(initialData()); s.passGate('1990-07-25'); s.setName('Vanesa'); s.setProvince('28');
     const detach = attachSessionGuards(window);
+    const epoch = useSession.getState().epoch;
     vi.advanceTimersByTime(29 * 60 * 1000);
     expect(useSession.getState().name).toBe('Vanesa');
     vi.advanceTimersByTime(2 * 60 * 1000);
     expect(useSession.getState()).toMatchObject({ name: '', province: null, birthDate: null, adult: false, screen: 'gate' });
+    // la App usa `epoch` como key: cambia → se desmonta todo el árbol al instante (QA-16)
+    expect(useSession.getState().epoch).toBe(epoch + 1);
     detach();
   });
 

@@ -45,7 +45,7 @@ function Chest({ family, state, size, label }: { family: Family; state: 'closed'
       {hasImg ? (
         <motion.img
           src={img}
-          alt={label}
+          alt=""
           animate={{ y: state === 'closed' ? 0 : -6, scale: state === 'open' ? 1.06 : 1, filter: `drop-shadow(0 0 ${glow * 24}px ${c.light})` }}
           transition={{ duration: reduced ? 0 : 0.35 }}
           style={{ position: 'absolute', bottom: 0, left: 0, width: w, height: h * 1.35, objectFit: 'contain' }}

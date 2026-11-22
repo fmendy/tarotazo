@@ -1,5 +1,7 @@
 // Estado de sesión en MEMORIA (Zustand sin middleware de persistencia).
-// Nada de aquí se escribe en cookies, localStorage ni sessionStorage.
+// Ningún dato personal se escribe en cookies, localStorage ni sessionStorage. La única
+// excepción (QA-09, decisión del JP) es el indicador NO personal `arcana.blocked=1` en
+// sessionStorage, para que el bloqueo de menores sobreviva a una recarga de la pestaña.
 import { create } from 'zustand';
 import type {
   Answer, DeckFamily, ReadingContext, ReadingResponse, Signo, Tema, PendulumModel,
@@ -13,8 +15,18 @@ export type Screen =
 
 export const FLOW: Screen[] = ['gate', 'name', 'age', 'province', 'deck', 'spread', 'shuffle', 'cut', 'reading', 'closing'];
 
+const BLOCK_KEY = 'arcana.blocked';
+export function readBlockedFlag(): boolean {
+  try { return globalThis.sessionStorage?.getItem(BLOCK_KEY) === '1'; } catch { return false; }
+}
+function writeBlockedFlag() {
+  try { globalThis.sessionStorage?.setItem(BLOCK_KEY, '1'); } catch { /* sin almacenamiento: sólo en memoria */ }
+}
+
 export interface SessionData {
   screen: Screen;
+  blocked: boolean;          // menor de edad: sesión cortada
+  epoch: number;             // cambia en cada borrado: la App desmonta todo (QA-16)
   returnTo: Screen | null;
   adult: boolean;            // pasó la puerta +18
   name: string;
@@ -68,8 +80,11 @@ export interface SessionActions {
 export type SessionStore = SessionData & SessionActions;
 
 export function initialData(): SessionData {
+  const blocked = readBlockedFlag();
   return {
-    screen: 'gate',
+    screen: blocked ? 'blocked' : 'gate',
+    blocked,
+    epoch: 0,
     returnTo: null,
     adult: false,
     name: '',
@@ -103,7 +118,10 @@ export const useSession = create<SessionStore>()((set, get) => ({
 
   go(screen) {
     const s = get();
-    if (s.screen === 'blocked') return;
+    if (s.blocked) {
+      if (screen === 'legal' || screen === 'privacy' || screen === 'blocked') set({ screen });
+      return;
+    }
     if (!s.adult && screen !== 'gate' && screen !== 'legal' && screen !== 'privacy' && screen !== 'bye') {
       set({ screen: 'gate' });
       return;
@@ -112,13 +130,18 @@ export const useSession = create<SessionStore>()((set, get) => ({
   },
   openSide(screen) {
     const s = get();
-    if (s.screen === 'blocked') return;
+    if (s.blocked) {
+      // Con la sesión bloqueada sólo se pueden leer los textos legales (QA-08).
+      if (screen === 'legal' || screen === 'privacy') set({ screen, returnTo: 'blocked' });
+      return;
+    }
     if (!s.adult && (screen === 'pendulum' || screen === 'titles')) { set({ screen: 'gate' }); return; }
     const side: Screen[] = ['pendulum', 'titles', 'legal', 'privacy'];
     set({ returnTo: side.includes(s.screen) ? s.returnTo : s.screen, screen });
   },
   back() {
     const s = get();
+    if (s.blocked) { set({ screen: 'blocked', returnTo: null }); return; }
     set({ screen: s.returnTo ?? (s.adult ? 'name' : 'gate'), returnTo: null });
   },
 
@@ -162,11 +185,12 @@ export const useSession = create<SessionStore>()((set, get) => ({
   setPendulumModel(m) { set({ pendulumModel: m }); },
   block() {
     // Se bloquea y se borra cualquier dato introducido.
-    set({ ...initialData(), screen: 'blocked' });
+    writeBlockedFlag();
+    set({ ...initialData(), blocked: true, screen: 'blocked', epoch: get().epoch + 1 });
   },
   reset(to = 'bye') {
-    const wasBlocked = get().screen === 'blocked';
-    set({ ...initialData(), screen: wasBlocked ? 'blocked' : to });
+    const wasBlocked = get().blocked || readBlockedFlag();
+    set({ ...initialData(), blocked: wasBlocked, screen: wasBlocked ? 'blocked' : to, epoch: get().epoch + 1 });
   },
 
   context(now = new Date(), lang = currentLang) {

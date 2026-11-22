@@ -6,6 +6,7 @@ import { useSession, type Screen } from './state/session';
 import { useSessionGuards } from './state/inactivity';
 import { useReducedMotion } from './hooks';
 import { Footer, Menu } from './components/Menu';
+import { Loading } from './components/common';
 import { Gate } from './screens/Gate';
 import { Name } from './screens/Name';
 import { Age } from './screens/Age';
@@ -14,13 +15,15 @@ import { DeckPick } from './screens/DeckPick';
 import { SpreadPick } from './screens/SpreadPick';
 import { Cut, Shuffle } from './screens/Ritual';
 import { Reading } from './screens/Reading';
-import { Closing } from './screens/Closing';
-import { Loading } from './components/common';
+import { Blocked, Bye } from './screens/Simple';
 
-// El péndulo y las titulaciones se cargan bajo demanda (aligeran la primera carga).
-const PendulumScreen = lazy(() => import('./screens/pendulum/PendulumScreen').then((m) => ({ default: m.PendulumScreen })));
-const Titles = lazy(() => import('./screens/Titles').then((m) => ({ default: m.Titles })));
-import { Blocked, Bye, Legal, Privacy } from './screens/Simple';
+// Pantallas secundarias o pesadas bajo demanda (QA-10): péndulo, titulaciones, legal y cierre (canvas).
+const named = <K extends string>(p: Promise<Record<K, ComponentType>>, k: K) => p.then((m) => ({ default: m[k] }));
+const PendulumScreen = lazy(() => named(import('./screens/pendulum/PendulumScreen'), 'PendulumScreen'));
+const Titles = lazy(() => named(import('./screens/Titles'), 'Titles'));
+const Closing = lazy(() => named(import('./screens/Closing'), 'Closing'));
+const Legal = lazy(() => named(import('./screens/Legal'), 'Legal'));
+const Privacy = lazy(() => named(import('./screens/Legal'), 'Privacy'));
 
 const SCREENS: Record<Screen, ComponentType> = {
   gate: Gate, name: Name, age: Age, province: Province, deck: DeckPick, spread: SpreadPick,
@@ -37,15 +40,13 @@ export function App() {
   useSessionGuards();
   const { t } = useTranslation();
   const screen = useSession((s) => s.screen);
+  const epoch = useSession((s) => s.epoch);
   const rm = useReducedMotion();
   const Current = SCREENS[screen];
 
-  // Accesibilidad: al cambiar de pantalla, el foco va al título y se sube arriba.
-  useEffect(() => {
-    window.scrollTo?.({ top: 0, behavior: rm ? 'auto' : 'smooth' });
-    const id = setTimeout(() => document.querySelector<HTMLElement>('[data-autofocus]')?.focus({ preventScroll: true }), 60);
-    return () => clearTimeout(id);
-  }, [screen, rm]);
+  // Al cambiar de pantalla se sube arriba. El foco lo pone cada pantalla en su h1 al montarse
+  // (ver useAutofocus en components/common), es decir, tras la transición de salida (QA-04).
+  useEffect(() => { window.scrollTo?.({ top: 0, behavior: rm ? 'auto' : 'smooth' }); }, [screen, rm]);
 
   const amb = AMBIENCE[screen];
   return (
@@ -53,7 +54,9 @@ export function App() {
       <a className="skip" href="#main">{t('app.skipLink')}</a>
       {amb && <Ambience variant={amb} intensity={rm ? 0.3 : 1} />}
       <Menu />
-      <main id="main" className="main">
+      {/* key={epoch}: al borrar la sesión (salir/inactividad) se desmonta TODO el árbol de
+          pantallas al instante, sin esperar a animaciones de salida (QA-16). */}
+      <main id="main" className="main" key={epoch}>
         <ScreenTransition id={screen}>
           <Suspense fallback={<Loading />}><Current /></Suspense>
         </ScreenTransition>

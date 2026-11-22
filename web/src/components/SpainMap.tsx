@@ -100,7 +100,14 @@ export function SpainMap(p: {
     svg.querySelectorAll('.prov.is-selected').forEach((n) => { n.classList.remove('is-selected'); n.removeAttribute('aria-pressed'); });
     if (p.selected) {
       const el = svg.querySelector<SVGGraphicsElement>(`[data-code="${CSS.escape(p.selected)}"]`);
-      if (el) { el.classList.add('is-selected'); el.setAttribute('aria-pressed', 'true'); el.parentNode?.appendChild(el); }
+      if (el) {
+        el.classList.add('is-selected'); el.setAttribute('aria-pressed', 'true');
+        // Se pasa al final para que el brillo quede encima; mover el nodo le quita el foco,
+        // así que se lo devolvemos (QA-05).
+        const hadFocus = document.activeElement === el;
+        el.parentNode?.appendChild(el);
+        if (hadFocus) (el as unknown as HTMLElement).focus({ preventScroll: true });
+      }
     }
     applyZoom();
   }, [p.selected, status, zoom]); // eslint-disable-line react-hooks/exhaustive-deps

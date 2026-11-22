@@ -52,7 +52,7 @@ export function Menu() {
   const light = useReducedMotion();
   const [open, setOpen] = useState(false);
   const side = screen === 'pendulum' || screen === 'titles' || screen === 'legal' || screen === 'privacy';
-  const blocked = screen === 'blocked';
+  const blocked = useSession((s) => s.blocked);
   const go = (f: () => void) => () => { setOpen(false); f(); };
 
   return (
@@ -64,7 +64,7 @@ export function Menu() {
         <span aria-hidden>☰</span><span className="sr-only">{open ? t('menu.close') : t('menu.open')}</span>
       </button>
       <nav id="main-menu" className={'topbar__nav' + (open ? ' is-open' : '')} aria-label={t('menu.label')}>
-        {side && adult && <button className="navbtn" onClick={go(back)}>{t('menu.home')}</button>}
+        {side && adult && !blocked && <button className="navbtn" onClick={go(back)}>{t('menu.home')}</button>}
         <button className="navbtn" disabled={!adult || blocked} aria-current={screen === 'pendulum' ? 'page' : undefined} onClick={go(() => openSide('pendulum'))}>{t('menu.pendulum')}</button>
         <button className="navbtn" disabled={!adult || blocked} aria-current={screen === 'titles' ? 'page' : undefined} onClick={go(() => openSide('titles'))}>{t('menu.titles')}</button>
         <button className="iconbtn" aria-pressed={muted} onClick={toggle} title={muted ? t('menu.unmute') : t('menu.mute')}>

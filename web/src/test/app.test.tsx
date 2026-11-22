@@ -13,7 +13,7 @@ beforeAll(() => {
   window.scrollTo = () => {};
   setFetch(async (url, init) => { bodies.push(url + ' ' + String(init?.body ?? '')); return mockFetch(url, init); });
 });
-afterEach(() => { cleanup(); useSession.setState(initialData()); });
+afterEach(() => { cleanup(); sessionStorage.clear(); useSession.setState(initialData()); });
 
 describe('App', () => {
   it('portada con aviso de entretenimiento y puerta +18 → nombre', async () => {
