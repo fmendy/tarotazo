@@ -42,7 +42,7 @@ arcana:
   zone: Europe/Madrid
   rate-limit:
     enabled: true
-    requests-per-minute: 60
+    requests-per-minute: 240
 
 management:
   endpoints:

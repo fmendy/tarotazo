@@ -82,6 +82,23 @@ public final class TextRenderer {
         return (slash < 0 ? raw : raw.substring(0, slash)).trim();
     }
 
+    /**
+     * Elimina las variables de servidor que hayan quedado sin valor (defensa: ninguna respuesta debe enseñar una
+     * plantilla de servidor sin resolver). Las del navegador y las desconocidas se respetan.
+     */
+    public static String stripUnresolvedServerVariables(String text) {
+        if (text == null) {
+            return null;
+        }
+        Matcher m = VARIABLE.matcher(text);
+        StringBuilder sb = new StringBuilder();
+        while (m.find()) {
+            m.appendReplacement(sb, SERVER_VARIABLES.contains(m.group(1)) ? "" : Matcher.quoteReplacement(m.group()));
+        }
+        m.appendTail(sb);
+        return sb.toString().replaceAll(" {2,}", " ").replaceAll(" ([,.;:!?…])", "$1").trim();
+    }
+
     static String chooseAlternatives(String text, RandomGenerator rng) {
         Matcher m = ALTERNATIVE.matcher(text);
         StringBuilder sb = new StringBuilder();

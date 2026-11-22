@@ -31,7 +31,8 @@ En Windows: `mvnw.cmd …`. Puerto **8080**.
 | `arcana.art-dir` (`ARCANA_ART_DIR`) | vacío (dev: `../web/public/art`) | Si existe, los modelos sin `backs/{art}.svg` ni `cards/{art}/` salen con `available: false`. |
 | `arcana.unavailable-models` | `[]` | Modelos marcados `available: false` a mano (útil en prod, donde la API no ve el arte). |
 | `arcana.cors-origins` (`ARCANA_CORS_ORIGINS`) | vacío | Orígenes CORS separados por comas. Vacío = sin CORS (en dev el front usa el proxy de Vite). |
-| `arcana.rate-limit.requests-per-minute` | `60` | Límite por IP en `/api/**` (Bucket4j en memoria). `arcana.rate-limit.enabled=false` lo desactiva. |
+| `arcana.rate-limit.requests-per-minute` | `240` | Límite por IP en `/api/**` (Bucket4j en memoria). `arcana.rate-limit.enabled=false` lo desactiva. |
+| `arcana.max-body-bytes` | `16384` | Tamaño máximo del cuerpo en `/api/**`; por encima, `413 {"error":"payload_too_large"}`. |
 | `arcana.zone` | `Europe/Madrid` | Zona para hora/día por defecto, estación y fase lunar. |
 
 Perfiles: `dev` (lo usa `spring-boot:run`) y `prod` (estricto, sin OpenAPI ni Swagger UI). Sin perfil = estricto.
@@ -60,7 +61,7 @@ fichero y por clave; los fragmentos caen a `es` **por slot** (si un idioma tiene
 usan sólo los suyos, para no mezclar idiomas en una frase).
 
 Errores: `400 {"error":"bad_request","message":"…"}`; `429 {"error":"too_many_requests",…}` con `Retry-After`;
-`404/405/415` con el mismo formato; `503 {"error":"unavailable"}` si falta un fichero (sólo posible en dev).
+`413 payload_too_large`; `404/405/415` con el mismo formato; `503 {"error":"unavailable"}` si falta un fichero (sólo posible en dev).
 
 ```bash
 curl -s localhost:8080/api/v1/decks
@@ -70,6 +71,12 @@ curl -s -X POST localhost:8080/api/v1/readings -H 'Content-Type: application/jso
   "recentFragmentIds":[]}'
 curl -s -X POST localhost:8080/api/v1/pendulum/answer -H 'Content-Type: application/json' -d '{"mode":"sino","model":"cuarzo"}'
 ```
+
+Caché HTTP: los `POST` y todos los errores llevan `Cache-Control: no-store`; los GET de contenido (`/decks`,
+`/spreads`, `/provinces`, `/titles`, `/content/*`) llevan `public, max-age=300` y ETag (revalidación con 304).
+
+`{provincia}`: con código `XX` vale «tierras lejanas» y sin provincia «la tierra» (`provinciaExtranjero` /
+`provinciaDesconocida` en las server labels). Ninguna respuesta deja una variable de servidor sin resolver.
 
 ## Módulos (paquetes de `es.arcana`)
 

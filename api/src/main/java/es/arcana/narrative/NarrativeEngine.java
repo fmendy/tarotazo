@@ -148,7 +148,7 @@ public class NarrativeEngine {
         Situation s = new Situation(null, null, c, time.moment(c), List.of(), null, -1);
         RandomGenerator rng = new SplittableRandom(SEEDS.nextLong());
         String t = tone == null ? "mistica" : tone;
-        return Optional.ofNullable(i.branches().forAnswer(answer)).map(text -> render(text, lc, s, t, rng));
+        return Optional.ofNullable(i.branches().forAnswer(answer)).map(text -> TextRenderer.stripUnresolvedServerVariables(render(text, lc, s, t, rng)));
     }
 
     // ------------------------------------------------------------------ selección
@@ -224,7 +224,7 @@ public class NarrativeEngine {
         Optional<ProvinceDef> prov = ctx.provincia() == null ? Optional.empty() : content.province(ctx.provincia());
         NarrativeCard card = s.card();
         return name -> switch (name) {
-            case "provincia" -> sheet.map(ProvinceSheet::nombre).or(() -> prov.map(ProvinceDef::nombre));
+            case "provincia" -> ProvinceNames.provincia(labels, ctx.provincia(), sheet, prov);
             case "comunidad" -> sheet.map(ProvinceSheet::comunidad).or(() -> prov.map(ProvinceDef::comunidad));
             case "gentilicio" -> sheet.map(ProvinceSheet::gentilicio).map(TextRenderer::gentilicio);
             case "plato" -> sheet.flatMap(p -> Weighted.uniform(p.plato(), rng));

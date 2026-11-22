@@ -36,5 +36,7 @@
   ],
   "disclaimer": "Entretenimiento, no consejo profesional.",
   "disclaimerSalud": "Y para la salud, mejor tu médico.",
+  "provinciaExtranjero": "tierras lejanas",
+  "provinciaDesconocida": "la tierra",
   "saludFallback": "Y ya sabes: para la salud, mejor tu médico, que yo sólo veo cartas."
 }

@@ -380,7 +380,7 @@ public class ContentRepository {
         JsonNode labelsNode = JsonMerge.merge(defaults(Ids.DEFAULT_LANG), es ? null : defaults(lang));
         labelsNode = JsonMerge.merge(labelsNode, merged(lang, "server-labels.json"));
         ServerLabels labels = bind("server-labels", labelsNode, ServerLabels.class)
-                .orElse(new ServerLabels(null, null, null, null, null, null, null, null, null, null, null));
+                .orElse(new ServerLabels(null, null, null, null, null, null, null, null, null, null, null, null, null));
 
         return new LangContent(lang, cards, spreadsI18n, meanings, fragments, interactions, sheets, titles, onboarding,
                 pendulumRaw, pendulum, labels);

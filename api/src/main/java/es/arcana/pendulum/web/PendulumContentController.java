@@ -8,6 +8,7 @@ import es.arcana.content.LanguageResolver;
 import es.arcana.content.model.PendulumContent;
 import es.arcana.content.model.ProvinceDef;
 import es.arcana.content.model.ProvinceSheet;
+import es.arcana.narrative.ProvinceNames;
 import es.arcana.narrative.TextRenderer;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -24,7 +25,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.SplittableRandom;
 import java.util.function.Function;
 
 /**
@@ -67,34 +67,42 @@ public class PendulumContentController {
         }
         PendulumContent pc = lc.pendulum();
         Function<String, Optional<String>> vars = variables(lc, provincia);
-        SplittableRandom rng = new SplittableRandom(0); // sin alternativas sorteadas: se devuelven listas completas
 
         Map<String, ModelView> models = new LinkedHashMap<>();
         for (String id : Ids.PENDULUM_MODELS) {
             PendulumContent.PendulumModel m = pc.models().get(id);
             if (m != null) {
-                models.put(id, new ModelView(resolve(m.nombre(), vars, rng), resolve(m.personalidad(), vars, rng),
-                        ritualLines(m.lines(), vars, rng)));
+                models.put(id, new ModelView(resolve(m.nombre(), vars), resolve(m.personalidad(), vars),
+                        ritualLines(m.lines(), vars)));
             }
         }
-        return new PendulumContentResponse(models, ritualLines(pc.lines(), vars, rng));
+        return new PendulumContentResponse(models, ritualLines(pc.lines(), vars));
     }
 
     private static Map<String, List<String>> ritualLines(Map<String, List<String>> lines,
-                                                          Function<String, Optional<String>> vars,
-                                                          SplittableRandom rng) {
+                                                          Function<String, Optional<String>> vars) {
         Map<String, List<String>> out = new LinkedHashMap<>();
         for (String k : RITUAL_KEYS) {
-            List<String> l = lines.get(k);
-            if (l != null && !l.isEmpty()) {
-                out.put(k, l.stream().map(t -> resolve(t, vars, rng)).toList());
+            List<String> l = lines.getOrDefault(k, List.of()).stream()
+                    .filter(t -> TextRenderer.resolvable(t, SERVER_VARS, vars))
+                    .map(t -> resolve(t, vars))
+                    .toList();
+            if (!l.isEmpty()) {
+                out.put(k, l);
             }
         }
         return out;
     }
 
-    /** Sólo sustituye variables de provincia; deja literal todo lo demás (incluidas las alternativas [a|b]). */
-    private static String resolve(String text, Function<String, Optional<String>> vars, SplittableRandom rng) {
+    /** Variables de servidor que puede usar este contenido (las del §3.2). */
+    private static final java.util.Set<String> SERVER_VARS = TextRenderer.SERVER_VARIABLES;
+
+    /**
+     * Sustituye las variables de servidor con valor y deja literal lo demás (variables del navegador y las
+     * alternativas {@code [a|b]}, que el navegador sortea). Una variable de servidor sin valor se elimina para no
+     * enseñar nunca una plantilla sin resolver.
+     */
+    private static String resolve(String text, Function<String, Optional<String>> vars) {
         if (text == null) {
             return null;
         }
@@ -103,19 +111,18 @@ public class PendulumContentController {
             Optional<String> value = vars.apply(v);
             if (value.isPresent()) {
                 out = out.replace("{" + v + "}", value.get());
+            } else if (SERVER_VARS.contains(v)) {
+                out = out.replace("{" + v + "}", "").replaceAll("\\s{2,}", " ").trim();
             }
         }
         return out;
     }
 
     private Function<String, Optional<String>> variables(LangContent lc, String code) {
-        if (code == null) {
-            return name -> Optional.empty();
-        }
         Optional<ProvinceSheet> sheet = lc.province(code);
-        Optional<ProvinceDef> prov = content.province(code);
+        Optional<ProvinceDef> prov = code == null ? Optional.empty() : content.province(code);
         return name -> switch (name) {
-            case "provincia" -> sheet.map(ProvinceSheet::nombre).or(() -> prov.map(ProvinceDef::nombre));
+            case "provincia" -> ProvinceNames.provincia(lc.labels(), code, sheet, prov);
             case "comunidad" -> sheet.map(ProvinceSheet::comunidad).or(() -> prov.map(ProvinceDef::comunidad));
             case "gentilicio" -> sheet.map(ProvinceSheet::gentilicio).map(TextRenderer::gentilicio);
             default -> Optional.empty();

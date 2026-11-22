@@ -54,6 +54,13 @@ class TextRendererTest {
     }
 
     @Test
+    void quitaVariablesDeServidorSinResolverPeroNoLasDelNavegador() {
+        assertThat(TextRenderer.stripUnresolvedServerVariables("Hola {nombre}, tu {carta} manda ."))
+                .isEqualTo("Hola {nombre}, tu manda.");
+        assertThat(TextRenderer.stripUnresolvedServerVariables("{inventada} queda")).isEqualTo("{inventada} queda");
+    }
+
+    @Test
     void gentilicioEnMasculinoSingular() {
         assertThat(TextRenderer.gentilicio("sevillano/a")).isEqualTo("sevillano");
         assertThat(TextRenderer.gentilicio("alavés/a")).isEqualTo("alavés");

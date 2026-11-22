@@ -8,11 +8,15 @@ import java.util.Map;
  * días, estaciones, fases, tonos y temas; colores de la suerte; descargos). Valores por defecto en
  * {@code classpath:arcana-defaults/{lang}.json}; un idioma puede sobrescribirlos con el fichero opcional
  * {@code content/{lang}/server-labels.json}.
+ *
+ * @param provinciaExtranjero valor de {@code {provincia}} para el código {@code XX}
+ * @param provinciaDesconocida valor de {@code {provincia}} cuando no llega provincia
  */
 public record ServerLabels(Map<String, String> signos, Map<String, String> dias, Map<String, String> estaciones,
                            Map<String, String> fasesLunares, Map<String, String> tonos, Map<String, String> temas,
                            Map<String, String> respuestas, List<LuckyColor> luckyColors, String disclaimer,
-                           String disclaimerSalud, String saludFallback) {
+                           String disclaimerSalud, String saludFallback,
+                           String provinciaExtranjero, String provinciaDesconocida) {
 
     public ServerLabels {
         signos = nn(signos);

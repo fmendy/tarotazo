@@ -8,6 +8,7 @@ import es.arcana.content.model.PendulumContent;
 import es.arcana.content.model.ProvinceDef;
 import es.arcana.content.model.ProvinceSheet;
 import es.arcana.content.model.ServerLabels;
+import es.arcana.narrative.ProvinceNames;
 import es.arcana.narrative.TextRenderer;
 import es.arcana.narrative.TimeContext;
 import es.arcana.narrative.Weighted;
@@ -148,7 +149,7 @@ public class PendulumService {
                 return Optional.of(extra.get(name));
             }
             return switch (name) {
-                case "provincia" -> sheet.map(ProvinceSheet::nombre).or(() -> prov.map(ProvinceDef::nombre));
+                case "provincia" -> ProvinceNames.provincia(labels, provinceCode, sheet, prov);
                 case "comunidad" -> sheet.map(ProvinceSheet::comunidad).or(() -> prov.map(ProvinceDef::comunidad));
                 case "gentilicio" -> sheet.map(ProvinceSheet::gentilicio).map(TextRenderer::gentilicio);
                 case "plato" -> sheet.flatMap(s -> Weighted.uniform(s.plato(), rng));

@@ -188,9 +188,51 @@ class ApiControllerTest {
                 .andExpect(jsonPath("$.lines['sino.si']").doesNotExist())
                 .andExpect(jsonPath("$.lines.ouija").doesNotExist());
         mvc.perform(get("/api/v1/content/pendulum"))
-                .andExpect(jsonPath("$.models.chorizo.nombre", is("Chorizo de {provincia}")));
+                .andExpect(jsonPath("$.models.chorizo.nombre", is("Chorizo de la tierra")))
+                .andExpect(jsonPath("$.models.chorizo.personalidad", is("Grasiento y")));
+        mvc.perform(get("/api/v1/content/pendulum").param("provincia", "XX"))
+                .andExpect(jsonPath("$.models.chorizo.nombre", is("Chorizo de tierras lejanas")))
+                .andExpect(jsonPath("$.models.chorizo.personalidad", is("Grasiento y viajero")));
         mvc.perform(get("/api/v1/content/pendulum").param("provincia", "77"))
                 .andExpect(status().isBadRequest()).andExpect(jsonPath("$.error", is("bad_request")));
+    }
+
+    @Test
+    void cacheControlYEtag() throws Exception {
+        for (String path : new String[] {"/api/v1/decks", "/api/v1/spreads", "/api/v1/titles",
+                "/api/v1/content/onboarding", "/api/v1/content/pendulum", "/api/v1/provinces"}) {
+            mvc.perform(get(path))
+                    .andExpect(status().isOk())
+                    .andExpect(header().string("Cache-Control", "public, max-age=300"))
+                    .andExpect(header().exists("ETag"));
+        }
+        String etag = mvc.perform(get("/api/v1/decks")).andReturn().getResponse().getHeader("ETag");
+        mvc.perform(get("/api/v1/decks").header("If-None-Match", etag)).andExpect(status().isNotModified());
+
+        postJson("/api/v1/readings", READING).andExpect(header().string("Cache-Control", "no-store"));
+        postJson("/api/v1/readings/next-line", "{\"interactionId\":\"letra-m\",\"answer\":\"no\"}")
+                .andExpect(header().string("Cache-Control", "no-store"));
+        postJson("/api/v1/pendulum/answer", "{\"mode\":\"sino\"}")
+                .andExpect(header().string("Cache-Control", "no-store"));
+        // los errores nunca se cachean, tampoco en GET
+        mvc.perform(get("/api/v1/spreads").param("deck", "uno"))
+                .andExpect(status().isBadRequest())
+                .andExpect(header().string("Cache-Control", "no-store"));
+    }
+
+    @Test
+    void cuerpoDemasiadoGrande413() throws Exception {
+        String huge = "{\"deck\":\"tarot\",\"spread\":\"ppf\",\"cutIndex\":0,\"picks\":[0,1,2],"
+                + "\"recentFragmentIds\":[\"" + "x".repeat(17_000) + "\"]}";
+        postJson("/api/v1/readings", huge)
+                .andExpect(status().isPayloadTooLarge())
+                .andExpect(jsonPath("$.error", is("payload_too_large")))
+                .andExpect(jsonPath("$.message", containsString("16 KB")));
+        postJson("/api/v1/pendulum/answer", "{\"mode\":\"sino\",\"pad\":\"" + "y".repeat(16_500) + "\"}")
+                .andExpect(status().isPayloadTooLarge());
+        // justo por debajo del límite pasa
+        postJson("/api/v1/pendulum/answer", "{\"mode\":\"sino\",\"pad\":\"" + "y".repeat(15_000) + "\"}")
+                .andExpect(status().isOk());
     }
 
     @Test

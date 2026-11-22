@@ -72,8 +72,19 @@ public class ApiExceptionHandler {
 
     @ExceptionHandler(HttpMessageNotReadableException.class)
     ResponseEntity<ApiError> unreadable(HttpMessageNotReadableException e) {
+        for (Throwable t = e; t != null; t = t.getCause()) {
+            if (t instanceof RequestBodyLimitFilter.PayloadTooLargeException tooLarge) {
+                return tooLarge(tooLarge);
+            }
+        }
         // No se devuelve el mensaje de Jackson: podría citar fragmentos del cuerpo.
         return bad("JSON mal formado o con tipos incorrectos");
+    }
+
+    @ExceptionHandler(RequestBodyLimitFilter.PayloadTooLargeException.class)
+    ResponseEntity<ApiError> tooLarge(RequestBodyLimitFilter.PayloadTooLargeException e) {
+        return ResponseEntity.status(HttpStatus.CONTENT_TOO_LARGE)
+                .body(new ApiError("payload_too_large", e.getMessage()));
     }
 
     @ExceptionHandler(MissingServletRequestParameterException.class)

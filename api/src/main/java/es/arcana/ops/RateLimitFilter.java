@@ -43,7 +43,7 @@ public class RateLimitFilter extends OncePerRequestFilter {
             .build();
 
     public RateLimitFilter(@Value("${arcana.rate-limit.enabled:true}") boolean enabled,
-                           @Value("${arcana.rate-limit.requests-per-minute:60}") int perMinute,
+                           @Value("${arcana.rate-limit.requests-per-minute:240}") int perMinute,
                            UsageMetrics metrics) {
         this.enabled = enabled;
         this.perMinute = perMinute;
@@ -71,6 +71,7 @@ public class RateLimitFilter extends OncePerRequestFilter {
         metrics.rateLimited();
         long retry = Math.max(1, TimeUnit.NANOSECONDS.toSeconds(probe.getNanosToWaitForRefill()));
         response.setStatus(429);
+        response.setHeader("Cache-Control", "no-store");
         response.setHeader("Retry-After", String.valueOf(retry));
         response.setContentType(MediaType.APPLICATION_JSON_VALUE);
         response.setCharacterEncoding(StandardCharsets.UTF_8.name());

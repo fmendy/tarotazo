@@ -188,6 +188,11 @@ class NarrativeEngineTest {
                 .contains("Lo sabía, desde Sevilla se nota.");
         assertThat(e.nextLine("es", "letra-m", "no", null, ReadingContext.EMPTY)).contains("Pues aparecerá, {nombre}.");
         assertThat(e.nextLine("es", "no-existe", "si", null, null)).isEmpty();
+        // QA-12 / QA-01: XX y sin provincia
+        assertThat(e.nextLine("es", "letra-m", "si", "mistica", ctx("amor", "XX", 1)))
+                .contains("Lo sabía, desde tierras lejanas se nota.");
+        assertThat(e.nextLine("es", "letra-m", "si", "mistica", ReadingContext.EMPTY))
+                .contains("Lo sabía, desde la tierra se nota.");
     }
 
     @Test
