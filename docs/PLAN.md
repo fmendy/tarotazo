@@ -33,3 +33,6 @@ Puertas: **diseño aprobado** (fin fase 0) · **demo MVP** (fin fase 2) · **lan
 ## Decisiones abiertas (requieren al titular)
 1. Textos legales (aviso legal LSSI, privacidad RGPD/LOPDGDD): borradores marcados «pendiente de revisión legal»; faltan los datos del titular.
 2. Dominio y VPS de despliegue.
+
+## Proyecto 2 · App Android sin conexión (desde 2026-11-22)
+Contrato: `docs/MOBILE.md`. Capacitor reutilizando la web + motor portado a TypeScript; `applicationId` **es.tarotazo.app** (decisión del titular, definitiva). SDK de Android instalado en local (decisión del titular).
