@@ -9,7 +9,12 @@
     "preview": "vite preview",
     "lint": "tsc -b --noEmit",
     "test": "vitest run",
-    "dev:mock": "vite --mode mock"
+    "dev:mock": "vite --mode mock",
+    "build:app": "tsc -b && vite build --mode app",
+    "cap:sync": "npm run build:app && cap sync android",
+    "android:debug": "npm run cap:sync && node scripts/gradle.mjs assembleDebug",
+    "android:release": "npm run cap:sync && node scripts/gradle.mjs bundleRelease",
+    "android:open": "cap open android"
   },
   "dependencies": {
     "@capacitor/android": "^8.6.2",

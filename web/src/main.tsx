@@ -5,6 +5,7 @@ import './styles/tokens.css';
 import './styles/app.css';
 import { setFetch } from './lib/api';
 import { App } from './App';
+import { initNative } from './lib/native';
 
 async function boot() {
   if (import.meta.env.VITE_MOCK_API === '1') {
@@ -12,6 +13,7 @@ async function boot() {
     setFetch(mockFetch);
     console.info('[arcana] API simulada (VITE_MOCK_API=1)');
   }
+  void initNative();
   createRoot(document.getElementById('root')!).render(
     <StrictMode>
       <App />

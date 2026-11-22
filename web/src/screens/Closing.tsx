@@ -10,6 +10,7 @@ import { drawDiploma, drawShareImage, downloadCanvas, shareCanvas } from '../lib
 import { Disclaimer, ErrorBox, Screen } from '../components/common';
 import { Seer } from '../components/Seer';
 import { sfx } from '../lib/sound';
+import { haptic } from '../lib/native';
 
 export function Closing() {
   const { t, i18n } = useTranslation();
@@ -88,7 +89,7 @@ export function Closing() {
       <details className="card-panel share">
         <summary>{t('closing.diplomaTitle')}</summary>
         <canvas ref={diplomaRef} className="share__canvas share__canvas--wide" role="img" aria-label={t('diploma.title')} />
-        <button className="btn" onClick={async () => { if (diplomaRef.current) { sfx('stamp'); await downloadCanvas(diplomaRef.current, t('diploma.filename')); setStatus(t('closing.downloaded')); } }}>{t('closing.diploma')}</button>
+        <button className="btn" onClick={async () => { if (diplomaRef.current) { sfx('stamp'); haptic('medium'); await downloadCanvas(diplomaRef.current, t('diploma.filename')); setStatus(t('closing.downloaded')); } }}>{t('closing.diploma')}</button>
       </details>
       {status && <p className="hint" role="status">{status}</p>}
 

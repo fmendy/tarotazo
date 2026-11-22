@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tarotazo</string>
+    <string name="title_activity_main">Tarotazo</string>
+    <string name="package_name">es.tarotazo.app</string>
+    <string name="custom_url_scheme">es.tarotazo.app</string>
+</resources>

@@ -1,5 +1,7 @@
 // 1 · Portada y puerta +18.
-import { useState, type FormEvent } from 'react';
+import { useEffect, useState, type FormEvent } from 'react';
+import { hideSplash } from '../lib/native';
+import { OFFLINE } from '../lib/api';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useSession } from '../state/session';
@@ -16,6 +18,7 @@ export function Gate() {
   const block = useSession((s) => s.block);
   const rm = useReducedMotion();
   const h1 = useAutofocus<HTMLHeadingElement>();
+  useEffect(() => { hideSplash(); }, []);
   const [date, setDate] = useState('');
   const [declared, setDeclared] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -73,7 +76,7 @@ export function Gate() {
           <button type="button" className="btn btn--ghost" onClick={block}>{pu?.no ?? t('gate.no')}</button>
         </div>
         <Disclaimer text={pu?.aviso ?? t('app.disclaimer')} />
-        <p className="hint">{t('gate.privacyNote')}</p>
+        <p className="hint">{t(OFFLINE ? 'gate.privacyNoteApp' : 'gate.privacyNote')}</p>
       </motion.form>
     </section>
   );

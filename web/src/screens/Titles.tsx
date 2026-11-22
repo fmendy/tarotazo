@@ -8,6 +8,7 @@ import { useAsync, useReducedMotion } from '../hooks';
 import { ErrorBox, Img, Loading, Screen } from '../components/common';
 import { Seer } from '../components/Seer';
 import { sfx } from '../lib/sound';
+import { haptic } from '../lib/native';
 import type { Title } from '../lib/types';
 
 function Diploma(p: { title: Title; active: boolean; onActivate(): void; index: number }) {
@@ -33,7 +34,7 @@ function Diploma(p: { title: Title; active: boolean; onActivate(): void; index: 
         <div className="diploma__stamp"><DustStamp trigger={stamp} label={tl.sello} /></div>
       </div>
       <p id={`dip-${tl.id}`} className="sr-only">{tl.comentario}</p>
-      <button className="btn btn--small" onClick={() => { setStamp((n) => n + 1); sfx('stamp'); p.onActivate(); }}>{t('titles.stamp')}</button>
+      <button className="btn btn--small" onClick={() => { setStamp((n) => n + 1); sfx('stamp'); haptic('medium'); p.onActivate(); }}>{t('titles.stamp')}</button>
     </motion.li>
   );
 }

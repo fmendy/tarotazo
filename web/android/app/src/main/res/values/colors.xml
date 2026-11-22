@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B1450</color>
+    <color name="colorPrimaryDark">#140A1F</color>
+    <color name="colorAccent">#D4A24C</color>
+    <color name="tarotazoBg">#140A1F</color>
+</resources>

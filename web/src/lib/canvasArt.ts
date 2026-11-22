@@ -1,4 +1,6 @@
 // Imágenes generadas EN LOCAL con canvas (compartir y diploma). Nunca se suben a ningún sitio.
+// En la app Android se guardan en la caché de la app y se abre la hoja de compartir del sistema.
+import { isNative, shareImageNative } from './native';
 
 export interface ShareData {
   title: string;
@@ -148,6 +150,7 @@ export function canvasToBlob(canvas: HTMLCanvasElement): Promise<Blob | null> {
 export async function downloadCanvas(canvas: HTMLCanvasElement, filename: string) {
   const blob = await canvasToBlob(canvas);
   if (!blob) return;
+  if (isNative()) { await shareImageNative(blob, filename, filename); return; }
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url; a.download = filename; a.rel = 'noopener';
@@ -158,6 +161,7 @@ export async function downloadCanvas(canvas: HTMLCanvasElement, filename: string
 /** Usa Web Share con fichero si existe; si no, descarga. */
 export async function shareCanvas(canvas: HTMLCanvasElement, filename: string, text: string): Promise<'shared' | 'downloaded'> {
   const blob = await canvasToBlob(canvas);
+  if (blob && isNative()) { await shareImageNative(blob, filename, text); return 'shared'; }
   if (blob && typeof navigator !== 'undefined' && 'canShare' in navigator) {
     const file = new File([blob], filename, { type: 'image/png' });
     try {

@@ -13,6 +13,7 @@ export default defineConfig({
           if (!id.includes('node_modules')) return undefined;
           if (id.includes('framer-motion') || id.includes('motion-dom') || id.includes('motion-utils')) return 'motion';
           if (id.includes('gsap')) return 'gsap';
+          if (id.includes('@capacitor')) return 'capacitor';
           if (id.includes('i18next')) return 'i18n';
           if (/[\/](react|react-dom|scheduler|zustand)[\/]/.test(id)) return 'react';
           return undefined;

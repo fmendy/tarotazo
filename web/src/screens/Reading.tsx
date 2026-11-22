@@ -10,6 +10,7 @@ import { Disclaimer, ErrorBox, Screen } from '../components/common';
 import { Seer, type Pose } from '../components/Seer';
 import { useCurrentDeck } from './Ritual';
 import { sfx } from '../lib/sound';
+import { haptic } from '../lib/native';
 import type { Answer, ReadingCard } from '../lib/types';
 
 interface CardProgress { flipped: boolean; shownLines: number; answered: Answer | null; branch: string | null; done: boolean }
@@ -58,6 +59,7 @@ export function Reading() {
 
   function flip() {
     sfx('flip');
+    haptic('light');
     upd(current, { flipped: true, shownLines: rm ? (card?.lines.length ?? 1) - 1 : 0 });
   }
   function lineDone() {
