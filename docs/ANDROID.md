@@ -57,9 +57,10 @@ Move-Item C:\Android\tmp\cmdline-tools C:\Android\sdk\cmdline-tools\latest   # l
 
 ```powershell
 . .\scripts\android-env.ps1                    # JAVA_HOME=JDK 21 y ANDROID_HOME sólo para esta sesión
-sdkmanager --licenses                          # leer y aceptar las licencias del Android SDK (interactivo)
-sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0" "build-tools;35.0.0" `
-           "emulator" "system-images;android-36;google_apis;x86_64"
+# cmdline-tools 23+: `sdkmanager` está obsoleto y delega en `android sdk`, que nombra los paquetes con «/»
+# (con «;» falla con «Package ... not found») y pide aceptar las licencias al instalar.
+android sdk install platform-tools emulator "platforms/android-36" "build-tools/36.0.0" "build-tools/35.0.0" `
+                    "system-images/android-36/google_apis/x86_64"
 avdmanager create avd -n arcana-pixel -k "system-images;android-36;google_apis;x86_64" -d pixel_6a
 ```
 
