@@ -1,5 +1,5 @@
 // Carrusel 3D genérico en CSS (anillo con rotateY/translateZ): arrastre con inercia, flechas y teclado.
-import { useRef, useState, type CSSProperties, type JSX, type KeyboardEvent, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type CSSProperties, type JSX, type KeyboardEvent, type ReactNode } from 'react';
 import { useLatest, useReducedMotion } from './hooks';
 import { playSfx } from './sound';
 
@@ -15,7 +15,7 @@ export interface Carousel3DProps<T> {
   height?: number;
   /** Índice inicial (por defecto 0). */
   initialIndex?: number;
-  /** Etiqueta accesible de cada elemento. */
+  /** Etiqueta accesible de cada elemento (por defecto, su texto visible). */
   getLabel?(item: T, index: number): string;
   className?: string;
   style?: CSSProperties;
@@ -37,6 +37,22 @@ export function Carousel3D<T>(p: Carousel3DProps<T>): JSX.Element {
   const onChange = useLatest(p.onChange);
   const active = n ? mod(Math.round(rot), n) : 0;
   const lastActive = useRef(active);
+  const itemEls = useRef<Array<HTMLDivElement | null>>([]);
+  const [activeText, setActiveText] = useState('');
+  // Nombre por defecto = texto visible del elemento de delante (QA-02).
+  useEffect(() => {
+    if (p.getLabel || !n) return;
+    const el = itemEls.current[active];
+    if (!el) return;
+    const parts: string[] = [];
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    for (let t = walker.nextNode(); t; t = walker.nextNode()) {
+      const v = t.textContent?.trim();
+      if (v) parts.push(v);
+    }
+    const txt = parts.join(' ');
+    setActiveText(txt.length > 90 ? `${txt.slice(0, 88)}…` : txt);
+  });
 
   const goTo = (raw: number) => {
     // con menos de 3 elementos no se da la vuelta: se limita al rango
@@ -88,60 +104,70 @@ export function Carousel3D<T>(p: Carousel3DProps<T>): JSX.Element {
     else if ((e.key === 'Enter' || e.key === ' ') && n) { e.preventDefault(); p.onSelect(p.items[active]); }
   };
 
-  const label = (i: number) => p.getLabel?.(p.items[i], i) ?? `Opción ${i + 1} de ${n}`;
+  const label = (i: number) => p.getLabel?.(p.items[i], i);
+  const activeName = (n ? label(active) ?? activeText : '') || (n ? `${active + 1} de ${n}` : 'vacío');
+  // Patrón válido (QA-02): región role=group con aria-roledescription, diapositivas role=group
+  // y los botones anterior/siguiente fuera del grupo.
   return (
-    <div
-      className={['fx-car', p.className].filter(Boolean).join(' ')}
-      tabIndex={0}
-      role="listbox"
-      aria-roledescription="carrusel"
-      aria-label={`Carrusel: ${n ? label(active) : 'vacío'}. Flechas para girar, Enter para elegir.`}
-      aria-activedescendant={undefined}
-      onKeyDown={onKey}
-      style={{ height: H, width: '100%', overflow: 'hidden', ...p.style }}
-    >
+    <div className={['fx-car-wrap', p.className].filter(Boolean).join(' ')} style={{ position: 'relative', width: '100%', ...p.style }}>
       <div
-        className="fx-car__ring"
-        onPointerDown={onPointerDown}
-        onPointerMove={onPointerMove}
-        onPointerUp={onPointerUp}
-        onPointerCancel={onPointerUp}
-        style={{
-          transform: `translateZ(${-radius}px) rotateY(${-rot * theta}deg)`,
-          transition: dragging || reduced ? 'none' : 'transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1)',
-          cursor: dragging ? 'grabbing' : 'grab',
-          touchAction: 'pan-y',
-        }}
+        className="fx-car"
+        tabIndex={0}
+        role="group"
+        aria-roledescription="carrusel"
+        aria-label={`Carrusel: ${activeName}. Flechas para girar, Enter para elegir.`}
+        onKeyDown={onKey}
+        style={{ height: H, width: '100%', overflow: 'hidden' }}
       >
-        {p.items.map((it, i) => {
-          // distancia angular al frente (en pasos)
-          let d = Math.abs(mod(i - rot, nEff));
-          d = Math.min(d, nEff - d);
-          return (
-            <div
-              key={i}
-              role="option"
-              aria-selected={i === active}
-              aria-label={label(i)}
-              className="fx-car__item"
-              onClick={() => {
-                if (drag.current.moved) return;
-                if (i === active) p.onSelect(it);
-                else focusItem(i);
-              }}
-              style={{
-                width: w,
-                marginLeft: -w / 2,
-                transform: `rotateY(${i * theta}deg) translateZ(${radius}px)`,
-                opacity: Math.max(0.15, 1 - d * 0.35),
-                filter: d > 0.5 ? 'brightness(0.6)' : undefined,
-                pointerEvents: d > 1.5 ? 'none' : undefined,
-              }}
-            >
-              {p.render(it)}
-            </div>
-          );
-        })}
+        <div
+          className="fx-car__ring"
+          onPointerDown={onPointerDown}
+          onPointerMove={onPointerMove}
+          onPointerUp={onPointerUp}
+          onPointerCancel={onPointerUp}
+          style={{
+            transform: `translateZ(${-radius}px) rotateY(${-rot * theta}deg)`,
+            transition: dragging || reduced ? 'none' : 'transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1)',
+            cursor: dragging ? 'grabbing' : 'grab',
+            touchAction: 'pan-y',
+          }}
+        >
+          {p.items.map((it, i) => {
+            // distancia angular al frente (en pasos)
+            let d = Math.abs(mod(i - rot, nEff));
+            d = Math.min(d, nEff - d);
+            const lbl = label(i);
+            return (
+              <div
+                key={i}
+                ref={(el) => {
+                  itemEls.current[i] = el;
+                }}
+                role="group"
+                aria-roledescription="diapositiva"
+                aria-label={lbl}
+                aria-current={i === active ? 'true' : undefined}
+                aria-hidden={d > 0.5 ? true : undefined}
+                className="fx-car__item"
+                onClick={() => {
+                  if (drag.current.moved) return;
+                  if (i === active) p.onSelect(it);
+                  else focusItem(i);
+                }}
+                style={{
+                  width: w,
+                  marginLeft: -w / 2,
+                  transform: `rotateY(${i * theta}deg) translateZ(${radius}px)`,
+                  opacity: Math.max(0.15, 1 - d * 0.35),
+                  filter: d > 0.5 ? 'brightness(0.6)' : undefined,
+                  pointerEvents: d > 1.5 ? 'none' : undefined,
+                }}
+              >
+                {p.render(it)}
+              </div>
+            );
+          })}
+        </div>
       </div>
       {n > 1 && (
         <>

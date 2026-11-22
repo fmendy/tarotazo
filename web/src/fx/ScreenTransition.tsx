@@ -1,6 +1,6 @@
 // Transición entre pantallas (AnimatePresence): niebla que se disipa, cortina o naipe.
 import { AnimatePresence, motion, type Variants } from 'framer-motion';
-import type { CSSProperties, JSX, ReactNode } from 'react';
+import { Fragment, useEffect, useRef, useState, type CSSProperties, type JSX, type ReactNode } from 'react';
 import { useReducedMotion } from './hooks';
 
 export type TransitionVariant = 'mist' | 'curtain' | 'card';
@@ -41,11 +41,42 @@ const REDUCED: Variants = {
 export function ScreenTransition(p: ScreenTransitionProps): JSX.Element {
   const reduced = useReducedMotion();
   const v = reduced ? REDUCED : VARIANTS[p.variant ?? 'mist'];
+  // QA-16: con la pestaña oculta el rAF está parado y la salida no terminaría nunca, así que
+  // el contenido saliente (que puede llevar datos personales) se quedaría en el DOM. En ese caso
+  // se remonta AnimatePresence (cambia `epoch`) y lo saliente se desmonta en el acto.
+  const epoch = useRef(0);
+  const [, force] = useState(0);
+  const pendingExit = useRef(false);
+  const prevId = useRef(p.id);
+
+  if (prevId.current !== p.id) {
+    prevId.current = p.id;
+    if (typeof document !== 'undefined' && document.hidden) {
+      // Cambio de pantalla con la pestaña oculta: sin animación, lo saliente se va ya.
+      epoch.current++;
+      pendingExit.current = false;
+    } else pendingExit.current = true;
+  }
+  useEffect(() => {
+    const onVis = () => {
+      if (document.hidden && pendingExit.current) {
+        // Salida a medias cuando se oculta la pestaña: se corta.
+        pendingExit.current = false;
+        epoch.current++;
+        force((n) => n + 1);
+      }
+    };
+    document.addEventListener('visibilitychange', onVis);
+    return () => document.removeEventListener('visibilitychange', onVis);
+  }, []);
+
   return (
-    <AnimatePresence mode="wait" initial>
-      <motion.div key={p.id} className={p.className} style={p.style} variants={v} initial="initial" animate="enter" exit="exit">
-        {p.children}
-      </motion.div>
-    </AnimatePresence>
+    <Fragment key={epoch.current}>
+      <AnimatePresence mode="wait" initial={epoch.current === 0} onExitComplete={() => { pendingExit.current = false; }}>
+        <motion.div key={p.id} className={p.className} style={p.style} variants={v} initial="initial" animate="enter" exit="exit">
+          {p.children}
+        </motion.div>
+      </AnimatePresence>
+    </Fragment>
   );
 }

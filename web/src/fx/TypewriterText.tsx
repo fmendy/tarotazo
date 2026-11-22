@@ -70,9 +70,9 @@ export function TypewriterText(p: TypewriterTextProps): JSX.Element {
       className={['fx-tw', p.className].filter(Boolean).join(' ')}
       style={{ cursor: p.skippable !== false && !finished ? 'pointer' : undefined, ...p.style }}
       onClick={() => { if (p.skippable !== false) skip.current = true; }}
-      aria-label={p.text}
-      role="text"
     >
+      {/* texto completo para lectores de pantalla (QA-03): sin role="text" ni aria-label en un genérico */}
+      <span className="fx-sr">{p.text}</span>
       <span aria-hidden>{chars.slice(0, n).join('')}</span>
       {p.cursor !== false && <span aria-hidden className={`fx-tw__cursor ${finished ? 'is-done' : ''}`} />}
       <span aria-hidden className="fx-tw__rest">{chars.slice(n).join('')}</span>

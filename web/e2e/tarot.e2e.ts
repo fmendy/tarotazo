@@ -91,7 +91,7 @@ test.describe('Tarot · flujo completo', () => {
     // Desde el bloqueo, el pie (aviso legal / privacidad) debería seguir siendo consultable.
     await page.getByRole('button', { name: 'Privacidad' }).click();
     await expect.soft(page.locator('#screen-title'), 'la política de privacidad se puede leer desde el bloqueo').toHaveText('Política de privacidad', { timeout: 3000 });
-    const back = page.getByRole('button', { name: 'Volver' });
+    const back = page.getByRole('button', { name: 'Volver', exact: true });
     if (await back.isVisible()) await back.click();
     await expect(page.locator('#screen-title')).toHaveText('Todavía no te toca');
     await expectClean(m, testInfo);

@@ -226,7 +226,7 @@
   transform: rotate(var(--r, 0deg)) translateY(var(--lift, 0px)) scale(var(--s, 1));
 }
 @media (hover: hover) {
-  .fx-fan__card:hover {
+  .fx-fan--scroll .fx-fan__card:hover {
     --lift: -18px;
   }
 }

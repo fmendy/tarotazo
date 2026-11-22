@@ -124,6 +124,7 @@ export function FlipCard(p: FlipCardProps): JSX.Element {
         className={['fx-flip', p.onClick ? 'fx-unbutton' : '', p.className ?? ''].join(' ')}
         style={{ width: width ?? '100%', display: 'block', ...p.style }}
         onClick={p.onClick}
+        role={p.onClick ? undefined : 'img'}
         aria-label={label}
         type={p.onClick ? 'button' : undefined}
       >
@@ -144,6 +145,7 @@ export function FlipCard(p: FlipCardProps): JSX.Element {
       onPointerMove={onMove}
       onPointerLeave={onLeave}
       onClick={p.onClick}
+      role={p.onClick ? undefined : 'img'}
       aria-label={label}
       type={p.onClick ? 'button' : undefined}
     >

@@ -89,7 +89,7 @@ test('teclado: cofres, carrusel, tiradas, corte y abanico + axe en el ritual y l
   // Cofre con teclado
   await page.getByRole('button', { name: 'Baraja española', exact: true }).focus();
   await page.keyboard.press('Enter');
-  const car = page.getByRole('listbox', { name: /Carrusel/ });
+  const car = page.getByRole('group', { name: /Carrusel/ });
   await expect(car).toBeVisible();
   await car.focus();
   await page.keyboard.press('ArrowRight');
