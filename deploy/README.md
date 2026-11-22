@@ -72,6 +72,10 @@ docker build -f api/Dockerfile -t arcana-api .     # el jar empaqueta content/
   `restart: unless-stopped`, logs rotados (`driver: local`, 2×5 MB).
 - JVM: `JAVA_TOOL_OPTIONS` con `MaxRAMPercentage=75` respecto al límite del contenedor
   (768 MB → ~576 MB de heap), `ExitOnOutOfMemoryError`, `-XX:-UsePerfData` (nada en `/tmp`).
+- Proxy con imagen fija por digest (`caddy:2.11.9-alpine@sha256:…`; la misma en `ci.yml`, que
+  la escanea con Trivy). Cuerpos de petición a `/api/*` limitados a 32 KB en Caddy (413).
+- `robots.txt`, `sitemap.xml`, favicons y similares se sirven como estáticos o 404 real
+  (nunca el `index.html` del fallback SPA).
 - Actuator (`/actuator/*`) **no** se publica: Caddy responde 404. Sólo lo usan el healthcheck
   del contenedor y `smoke.sh` vía `docker compose exec`.
 - Cabeceras (Nginx en el HTML; Caddy refuerza HSTS/nosniff/Referrer/COOP en todo, API incluida):
@@ -125,8 +129,10 @@ Rollback: relanzar el workflow con `tag` = SHA anterior (las imágenes quedan en
 - `web`: `npm ci`, `npm run lint` (tsc), `npm test` (vitest), `npm run build`.
 - `api`: Temurin 25, `./mvnw -B verify`.
 - `content`: deps de `content/tools` y `node content/tools/validate.mjs`.
-- `images`: Buildx de ambas imágenes + Trivy (falla con CVE **CRITICAL** con arreglo disponible;
+- `images`: Buildx de ambas imágenes (y pull de la de Caddy) + Trivy 0.76.2 (falla con CVE **CRITICAL** con arreglo disponible;
   HIGH sólo informa). Trivy va con versión fija desde su imagen oficial: actualizarla a conciencia.
+- `e2e` (opcional, `continue-on-error`): empaqueta el jar del API y ejecuta
+  `npx playwright test --project=desktop` en `web/` (la config levanta su propia pila).
 - `sonar`: sólo si existe el secreto `SONAR_TOKEN` (variables `SONAR_HOST_URL`,
   `SONAR_PROJECT_KEY`, `SONAR_ORGANIZATION`).
 

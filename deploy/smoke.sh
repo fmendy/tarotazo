@@ -53,6 +53,9 @@ check "index.html sin caché (no-cache)"    'hdr root cache-control | grep -qi "
 check "SPA fallback (/lectura/x -> 200)"   '[ "$("${CURL[@]}" -o /dev/null -w "%{http_code}" "$BASE_URL/lectura/x")" = 200 ]'
 check "/assets inexistente -> 404"         '[ "$("${CURL[@]}" -o /dev/null -w "%{http_code}" "$BASE_URL/assets/no-existe.js")" = 404 ]'
 
+check "/robots.txt estático (text/plain)"  '"${CURL[@]}" -o /dev/null -w "%{http_code} %{content_type}" "$BASE_URL/robots.txt" | grep -q "^200 text/plain"'
+check "/sitemap.xml: 404 real o XML"       'c="$("${CURL[@]}" -o /dev/null -w "%{http_code} %{content_type}" "$BASE_URL/sitemap.xml")"; [ "${c%% *}" = 404 ] || echo "$c" | grep -q "^200 .*xml"'
+
 asset="$(grep -oE '/assets/[^"]+\.js' "$TMP/root.b" | head -n1)"
 if [ -n "$asset" ]; then
   fetch "$asset" asset
@@ -86,6 +89,9 @@ check "API sin Set-Cookie"                 '[ -z "$(hdr decks set-cookie)" ]'
 check "API nosniff"                        '[ "$(hdr decks x-content-type-options)" = "nosniff" ]'
 fetch /api/v1/spreads?deck=tarot spreads
 check "GET /api/v1/spreads?deck=tarot -> 200" '[ "$(code spreads)" = 200 ]'
+
+big="$TMP/big.json"; { printf '{"x":"'; printf 'a%.0s' $(seq 1 40000); printf '"}'; } >"$big"
+check "Cuerpo > 32 KB a /api -> 413"       '[ "$("${CURL[@]}" -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" --data-binary @"$big" "$BASE_URL/api/v1/readings")" = 413 ]'
 
 echo "== Actuator"
 check "/actuator/health NO público (404)"  '[ "$("${CURL[@]}" -o /dev/null -w "%{http_code}" "$BASE_URL/actuator/health")" = 404 ]'

@@ -40,6 +40,10 @@
 	# API: se conserva la ruta completa (/api/v1/...). Sólo al API se le reenvía la IP
 	# del cliente (X-Forwarded-For) porque la necesita para el rate-limit en memoria.
 	handle /api/* {
+		# S-1: las peticiones legítimas ocupan < 10 KB; corta cuerpos grandes antes del API (413).
+		request_body {
+			max_size 32KB
+		}
 		reverse_proxy arcana-api:8080 {
 			header_up -X-Real-IP
 			header_up -Forwarded

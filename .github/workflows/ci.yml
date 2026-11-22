@@ -18,7 +18,9 @@ env:
   JAVA_VERSION: "25"
   # Trivy se ejecuta desde su imagen oficial con versión fija (actualizar a conciencia y,
   # a ser posible, fijar por digest: ver incidente de cadena de suministro de 2026).
-  TRIVY_IMAGE: aquasec/trivy:0.69.3
+  TRIVY_IMAGE: aquasec/trivy:0.76.2
+  # Misma imagen del proxy que deploy/docker-compose.yml (mantener sincronizadas).
+  CADDY_IMAGE: caddy:2.11.9-alpine@sha256:003a97808e781aa9f7e75cc2f43d34d461099031faf5e20faefb9f61126836f0
 
 jobs:
   web:
@@ -95,10 +97,22 @@ jobs:
           - name: arcana-api
             context: .
             dockerfile: api/Dockerfile
+          # Imagen de terceros (no se construye): se descarga y se escanea igual.
+          - name: proxy
+            external: true
     steps:
       - uses: actions/checkout@v4
+      - name: Comprobar que el compose usa la misma imagen de Caddy
+        if: matrix.external
+        run: |
+          grep -qF "image: $CADDY_IMAGE" deploy/docker-compose.yml
+      - name: Pull proxy (Caddy)
+        if: matrix.external
+        run: docker pull "$CADDY_IMAGE" && docker tag "$CADDY_IMAGE" proxy:ci
       - uses: docker/setup-buildx-action@v3
+        if: ${{ !matrix.external }}
       - name: Build ${{ matrix.name }}
+        if: ${{ !matrix.external }}
         uses: docker/build-push-action@v6
         with:
           context: ${{ matrix.context }}
@@ -128,6 +142,45 @@ jobs:
             -v "$HOME/.cache/trivy:/root/.cache/trivy" \
             "$TRIVY_IMAGE" image --scanners vuln,secret,misconfig --severity HIGH --exit-code 0 --no-progress \
               "${{ matrix.name }}:ci"
+
+  # E2E con Playwright (escritorio). La config levanta su propia pila: jar del API
+  # (api/target, perfil dev) en :8081 + Vite en :5174. Informes en qa/.
+  e2e:
+    name: e2e (playwright desktop)
+    runs-on: ubuntu-latest
+    needs: [web, api]
+    continue-on-error: true   # opcional: no bloquea la CI mientras se estabiliza
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: maven
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Empaquetar API (jar para la pila E2E)
+        working-directory: api
+        run: chmod +x mvnw && ./mvnw -B -ntp -DskipTests package
+      - name: Dependencias web
+        working-directory: web
+        run: npm ci
+      - name: Playwright (chromium)
+        working-directory: web
+        run: npx playwright install --with-deps chromium && npx playwright test --project=desktop
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: e2e-report
+          path: |
+            qa/playwright-report/
+            qa/test-results/
+          if-no-files-found: ignore
+          retention-days: 7
 
   # SonarQube opcional: sólo actúa si existe el secreto SONAR_TOKEN
   # (y la variable de repositorio SONAR_HOST_URL; SonarCloud si no se define).
