@@ -22,7 +22,7 @@
   },
   "models": {
     "rws": {
-      "name": "Rider‑Waite‑Smith",
+      "name": "Clásica de 1909",
       "description": "El clásico de 1909, con escenas hasta en el último tres de copas. Si has visto un tarot en una película, era este o un primo suyo."
     },
     "marsella": {

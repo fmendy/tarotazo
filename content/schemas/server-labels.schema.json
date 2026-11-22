@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcana.tarotazo/schemas/server-labels.schema.json",
+  "title": "{lang}/server-labels.json — textos que resuelve el motor (API y app sin conexión)",
+  "description": "Nombres visibles para variables de servidor, colores de la suerte y descargos. En idiomas distintos de es todas las claves son opcionales (fallback por clave a es).",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "labels": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1 } },
+    "nonEmpty": { "type": "string", "minLength": 1 }
+  },
+  "properties": {
+    "$comment": { "type": "string" },
+    "signos": {
+      "$ref": "#/$defs/labels",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/signo" },
+      "description": "Valor de {signo}: «Géminis», «Cáncer»…"
+    },
+    "dias": {
+      "$ref": "#/$defs/labels",
+      "propertyNames": { "enum": ["1", "2", "3", "4", "5", "6", "7"] },
+      "description": "Valor de {diaSemana}; clave ISO 1 = lunes … 7 = domingo."
+    },
+    "estaciones": {
+      "$ref": "#/$defs/labels",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/estacion" }
+    },
+    "fasesLunares": {
+      "$ref": "#/$defs/labels",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/faseLunar" }
+    },
+    "tonos": {
+      "$ref": "#/$defs/labels",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/tone" }
+    },
+    "temas": {
+      "$ref": "#/$defs/labels",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/tema" }
+    },
+    "respuestas": {
+      "$ref": "#/$defs/labels",
+      "propertyNames": { "pattern": "^(si|no|duda|tablero\\.[0-4])$" },
+      "description": "Valor de {respuesta} en el péndulo (sino y tablero)."
+    },
+    "luckyColors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "hex"],
+        "properties": {
+          "name": { "$ref": "#/$defs/nonEmpty" },
+          "hex": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" }
+        }
+      }
+    },
+    "disclaimer": { "$ref": "#/$defs/nonEmpty" },
+    "disclaimerSalud": { "$ref": "#/$defs/nonEmpty" },
+    "saludFallback": { "$ref": "#/$defs/nonEmpty" },
+    "provinciaExtranjero": { "$ref": "#/$defs/nonEmpty", "description": "Valor de {provincia} para el código XX." },
+    "provinciaDesconocida": { "$ref": "#/$defs/nonEmpty", "description": "Valor de {provincia} cuando no hay provincia." }
+  }
+}

@@ -42,7 +42,7 @@ export const DECKS: Deck[] = [
   {
     family: 'tarot', name: 'Tarot tradicional', defaultModel: 'rws',
     models: [
-      model('tarot', 'rws', 'Rider‑Waite‑Smith', 'El clásico de 1909. Menores con escenas.', 78, true),
+      model('tarot', 'rws', 'Clásica de 1909', 'El clásico de 1909. Menores con escenas.', 78, true),
       model('tarot', 'marsella', 'Tarot de Marsella', 'Estilo grabado antiguo, menores de pips.', 78, true),
       model('tarot', 'neon', 'Neón de madrugada', 'Para leer el futuro con gafas de sol.', 78, false),
       model('tarot', 'acuarela', 'Acuarela', 'Suave, como tu futuro (o no).', 78, false),
