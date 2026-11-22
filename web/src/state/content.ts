@@ -30,5 +30,5 @@ export function useOnboarding(): OnboardingContent | null {
 export function useProvinces(): ProvinceInfo[] {
   const { i18n } = useTranslation();
   const s = useAsync(getProvinces, [i18n.language]);
-  return s.data ?? PROVINCES.map((p) => ({ ...p, teaser: '' }));
+  return s.data ?? PROVINCES.map((p) => ({ ...p, teaser: null, gentilicio: null, zona: null }));
 }

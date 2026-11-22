@@ -35,12 +35,13 @@ function model(family: string, id: string, name: string, description: string, de
     previewImage: `/art/cards/${id}/${preview}.svg`,
     imagePattern: `/art/cards/${id}/{cardId}.svg`,
     available,
+    numerals: (id === 'marsella' ? { 'mayor-08': 'XI', 'mayor-11': 'VIII' } : {}) as Record<string, string>,
   };
 }
 
 export const DECKS: Deck[] = [
   {
-    family: 'tarot', name: 'Tarot tradicional', defaultModel: 'rws',
+    family: 'tarot', name: 'Tarot tradicional', description: '78 cartas: arcanos mayores y menores.', defaultModel: 'rws',
     models: [
       model('tarot', 'rws', 'Clásica de 1909', 'El clásico de 1909. Menores con escenas.', 78, true),
       model('tarot', 'marsella', 'Tarot de Marsella', 'Estilo grabado antiguo, menores de pips.', 78, true),
@@ -51,7 +52,7 @@ export const DECKS: Deck[] = [
     ],
   },
   {
-    family: 'spanish', name: 'Baraja española', defaultModel: 'castellana',
+    family: 'spanish', name: 'Baraja española', description: 'La de toda la vida, para cartomancia.', defaultModel: 'castellana',
     models: [
       model('spanish', 'castellana', 'Castellana clásica', 'La de la partida de tute del abuelo.', 40, true),
       model('spanish', 'catalana', 'Catalana antigua', 'Con solera y bigote.', 48, false),
@@ -68,7 +69,7 @@ const POS: Record<string, string> = {
   esperanzas: 'Esperanzas y miedos', matiz: 'Matiz', remate: 'Remate',
 };
 function spread(id: string, name: string, description: string, layout: Spread['layout'], positions: string[]): Spread {
-  return { id, name, description, size: positions.length, layout, positions: positions.map((p) => ({ id: p, label: POS[p] ?? p })) };
+  return { id, name, description, size: positions.length, minSize: id === 'sino' ? 1 : null, layout, positions: positions.map((p) => ({ id: p, label: POS[p] ?? p })) };
 }
 export const SPREADS: Spread[] = [
   spread('dia', 'Carta del día', 'Una carta, un consejo y a desayunar.', 'single', ['consejo']),

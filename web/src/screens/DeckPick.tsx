@@ -16,10 +16,10 @@ function ModelCard(p: { m: DeckModel; selected: boolean }) {
     <div className={'model' + (p.m.available ? '' : ' is-soon') + (p.selected ? ' is-selected' : '')}>
       <div className="model__cards">
         <Img className="model__back cardimg" src={p.m.backImage} alt={t('deck.backAlt', { name: p.m.name })} />
-        <Img className="model__preview cardimg" src={p.m.previewImage} alt={t('deck.previewAlt', { name: p.m.name })} />
+        {p.m.previewImage && <Img className="model__preview cardimg" src={p.m.previewImage} alt={t('deck.previewAlt', { name: p.m.name })} />}
       </div>
       <p className="model__name">{p.m.name}</p>
-      <p className="model__desc">{p.m.description}</p>
+      {p.m.description && <p className="model__desc">{p.m.description}</p>}
       <p className="model__meta">{t('deck.cards', { count: p.m.deckSize })}</p>
       {!p.m.available && <span className="ribbon">{t('deck.soon')}</span>}
       {p.selected && <span className="ribbon ribbon--ok">{t('deck.selected')}</span>}

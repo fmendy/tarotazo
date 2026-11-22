@@ -22,16 +22,19 @@ export const TEMAS: Tema[] = ['general', 'amor', 'trabajo', 'dinero', 'salud'];
 export interface DeckModel {
   id: string;
   name: string;
-  description: string;
+  description: string | null;
   deckSize: number;
   backImage: string;
-  previewImage: string;
+  previewImage: string | null;
   imagePattern: string;
   available: boolean;
+  /** Numerales visibles por carta (Marsella: mayor-08 «XI»…). El id de carta no cambia. */
+  numerals: Record<string, string>;
 }
 export interface Deck {
   family: DeckFamily;
   name: string;
+  description: string | null;
   defaultModel: string;
   models: DeckModel[];
 }
@@ -39,12 +42,24 @@ export interface SpreadPosition { id: string; label: string }
 export interface Spread {
   id: SpreadId | string;
   name: string;
-  description: string;
+  description: string | null;
   size: number;
+  /** null salvo en tiradas de tamaño variable (p. ej. `sino`: 1–3). */
+  minSize: number | null;
   layout: Layout;
   positions: SpreadPosition[];
 }
-export interface ProvinceInfo { code: string; nombre: string; comunidad: string; teaser: string; gentilicio?: string }
+export interface ProvinceInfo {
+  code: string;
+  nombre: string;
+  comunidad: string | null;
+  /** Un chascarrillo de la ficha (null si no hay ficha). */
+  teaser: string | null;
+  /** Crudo, «sevillano/a». */
+  gentilicio: string | null;
+  /** peninsula | baleares | canarias | africa | extranjero */
+  zona: string | null;
+}
 
 /** Contexto anónimo que se envía al servidor. Nunca contiene nombre, edad exacta ni pregunta. */
 export interface ReadingContext {

@@ -148,7 +148,7 @@ export async function mockFetch(input: string, init?: RequestInit): Promise<Resp
         return json(SPREADS.filter((s) => deck !== 'spanish' || s.id !== 'celta'));
       }
       case '/provinces':
-        return json(PROVINCES.map((pr) => ({ ...pr, gentilicio: `de ${pr.nombre}`, teaser: `En ${pr.nombre} hasta las palomas tienen buen fondo.` })));
+        return json(PROVINCES.map((pr) => ({ ...pr, gentilicio: `de ${pr.nombre}`, zona: pr.code === '35' || pr.code === '38' ? 'canarias' : pr.code === '07' ? 'baleares' : pr.code === '51' || pr.code === '52' ? 'africa' : 'peninsula', teaser: `En ${pr.nombre} hasta las palomas tienen buen fondo.` })));
       case '/content/onboarding': return json(ONBOARDING);
       case '/titles': return json({ titles: TITLES });
       case '/content/pendulum': {

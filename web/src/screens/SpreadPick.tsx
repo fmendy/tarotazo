@@ -40,7 +40,7 @@ export function SpreadPick() {
               </span>
               <span className="spreadcard__name">{sp.name}</span>
               <span className="spreadcard__size">{t('spread.cards', { count: sp.size })}</span>
-              <span className="spreadcard__desc">{sp.description}</span>
+              {sp.description && <span className="spreadcard__desc">{sp.description}</span>}
             </motion.button>
           ))}
         </div>
