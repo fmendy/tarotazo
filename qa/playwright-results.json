@@ -1,0 +1,1073 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\web\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--list"
+    ],
+    "configFile": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\web\\playwright.config.ts",
+    "rootDir": "C:/Users/alvar/Documents/tarotazo/arcana/web/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/alvar/Documents/tarotazo/arcana/qa/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/alvar/Documents/tarotazo/arcana/web/e2e",
+        "testIgnore": [
+          "/(perf|_debug)\\.e2e\\.ts/"
+        ],
+        "testMatch": [
+          "/.*\\.e2e\\.ts$/"
+        ],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/alvar/Documents/tarotazo/arcana/qa/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/alvar/Documents/tarotazo/arcana/web/e2e",
+        "testIgnore": [
+          "/(perf|_debug)\\.e2e\\.ts/"
+        ],
+        "testMatch": [
+          "/.*\\.e2e\\.ts$/"
+        ],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/alvar/Documents/tarotazo/arcana/qa/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "perf",
+        "name": "perf",
+        "testDir": "C:/Users/alvar/Documents/tarotazo/arcana/web/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "/perf\\.e2e\\.ts/"
+        ],
+        "timeout": 240000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\qa\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "desktop",
+        "testDir": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\web\\e2e",
+        "snapshotDir": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\web\\e2e",
+        "testIgnore": {},
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "http://localhost:5174",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "ignoreHTTPSErrors": true,
+          "locale": "es-ES",
+          "timezoneId": "Europe/Madrid",
+          "acceptDownloads": true,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36",
+          "viewport": {
+            "width": 1366,
+            "height": 900
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium",
+          "contextOptions": {
+            "reducedMotion": "no-preference"
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\qa\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "mobile",
+        "testDir": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\web\\e2e",
+        "snapshotDir": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\web\\e2e",
+        "testIgnore": {},
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "http://localhost:5174",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "ignoreHTTPSErrors": true,
+          "locale": "es-ES",
+          "timezoneId": "Europe/Madrid",
+          "acceptDownloads": true,
+          "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36",
+          "viewport": {
+            "width": 412,
+            "height": 839
+          },
+          "screen": {
+            "width": 412,
+            "height": 915
+          },
+          "deviceScaleFactor": 2.625,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium",
+          "contextOptions": {
+            "reducedMotion": "reduce"
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\qa\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "perf",
+        "testDir": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\web\\e2e",
+        "snapshotDir": "C:\\Users\\alvar\\Documents\\tarotazo\\arcana\\web\\e2e",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "http://localhost:4173",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "ignoreHTTPSErrors": true,
+          "locale": "es-ES",
+          "timezoneId": "Europe/Madrid",
+          "acceptDownloads": true,
+          "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36",
+          "viewport": {
+            "width": 412,
+            "height": 839
+          },
+          "screen": {
+            "width": 412,
+            "height": 915
+          },
+          "deviceScaleFactor": 2.625,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium",
+          "contextOptions": {
+            "reducedMotion": "no-preference"
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "perf"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "../qa/playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../qa/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 3,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "a11y.e2e.ts",
+      "file": "a11y.e2e.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "015d3090417eed0a93b0-d80db741323b91fdd916",
+          "file": "a11y.e2e.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "teclado: cofres, carrusel, tiradas, corte y abanico + axe en el ritual y la lectura",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "015d3090417eed0a93b0-7757d3aeb0c0b8d38972",
+          "file": "a11y.e2e.ts",
+          "line": 80,
+          "column": 1
+        },
+        {
+          "title": "teclado: menú (hamburguesa en móvil), Escape del selector de idioma + axe en péndulo y titulaciones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "015d3090417eed0a93b0-bb274d975b5fd948371f",
+          "file": "a11y.e2e.ts",
+          "line": 128,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "pendulum.e2e.ts",
+      "file": "pendulum.e2e.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Péndulo",
+          "file": "pendulum.e2e.ts",
+          "line": 42,
+          "column": 6,
+          "specs": [
+            {
+              "title": "calibración, «concentrarme» y los 7 modos llegan a una respuesta con texto",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dde2a19f528345086050-636eb95d12b58f759007",
+              "file": "pendulum.e2e.ts",
+              "line": 43,
+              "column": 3
+            },
+            {
+              "title": "misma pregunta 3 veces → el péndulo se enfada y se enrolla",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dde2a19f528345086050-f0578df3de6b41db0d41",
+              "file": "pendulum.e2e.ts",
+              "line": 96,
+              "column": 3
+            },
+            {
+              "title": "opciones: con menos de 2 opciones avisa sin llamar al servidor",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dde2a19f528345086050-89feed7adcd5f437c1e3",
+              "file": "pendulum.e2e.ts",
+              "line": 114,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "privacy.e2e.ts",
+      "file": "privacy.e2e.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "privacidad: ningún dato centinela sale del navegador durante una sesión completa",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "61e21f27ae854e525d72-21d0114bcff6a67b8b9e",
+          "file": "privacy.e2e.ts",
+          "line": 53,
+          "column": 1
+        },
+        {
+          "title": "privacidad: las respuestas del API no fijan cookies ni sesión",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "61e21f27ae854e525d72-a83f9518e3c23948fac1",
+          "file": "privacy.e2e.ts",
+          "line": 143,
+          "column": 1
+        },
+        {
+          "title": "privacidad: el servidor ignora datos personales si alguien los manda (no los devuelve)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "61e21f27ae854e525d72-dca4e879e7d70d4e672f",
+          "file": "privacy.e2e.ts",
+          "line": 153,
+          "column": 1
+        },
+        {
+          "title": "privacidad (pila Docker): los logs no contienen IPs de cliente ni datos centinela",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "61e21f27ae854e525d72-b53c20500f9502adc099",
+          "file": "privacy.e2e.ts",
+          "line": 167,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "session.e2e.ts",
+      "file": "session.e2e.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "titulaciones: muro visible y compulsar un título",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "36cd553ddf5d6c685bfc-762e337b19471958017c",
+          "file": "session.e2e.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "Salir → se borra todo el estado y vuelve a la puerta",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "36cd553ddf5d6c685bfc-ab37a9f01e830c5a626a",
+          "file": "session.e2e.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "inactividad de 30 minutos → se borra la sesión (page.clock)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "36cd553ddf5d6c685bfc-a4c338a756f575421e74",
+          "file": "session.e2e.ts",
+          "line": 46,
+          "column": 1
+        },
+        {
+          "title": "inactividad (tiempo real acelerado: el temporizador de 30 min se reduce a 3 s) → la interfaz vuelve a la puerta",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "36cd553ddf5d6c685bfc-be0dadf9e76aee0efd02",
+          "file": "session.e2e.ts",
+          "line": 69,
+          "column": 1
+        },
+        {
+          "title": "la actividad reinicia el temporizador de inactividad",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "36cd553ddf5d6c685bfc-5484bcc5e0ac720a562b",
+          "file": "session.e2e.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "aviso legal y privacidad accesibles desde el pie y vuelven a la pantalla anterior",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "36cd553ddf5d6c685bfc-a78a02cc7cc04f3b3688",
+          "file": "session.e2e.ts",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "aviso de entretenimiento en portada y meta rating adulto",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "36cd553ddf5d6c685bfc-e76549277a867194298e",
+          "file": "session.e2e.ts",
+          "line": 114,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tarot.e2e.ts",
+      "file": "tarot.e2e.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "edad: fecha inválida y sin rellenar en la puerta muestran error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [],
+              "status": "skipped"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "330f00b543e376c0bcde-fc191d0683d932109795",
+          "file": "tarot.e2e.ts",
+          "line": 130,
+          "column": 1
+        }
+      ],
+      "suites": [
+        {
+          "title": "Tarot · flujo completo",
+          "file": "tarot.e2e.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "tarot RWS · Pasado/presente/futuro · provincia en el mapa · ratón",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "330f00b543e376c0bcde-8b4dedae134dedc6d7df",
+              "file": "tarot.e2e.ts",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "baraja española · Cruz simple (5) · «Nací fuera de España» · casilla +18 · teclado",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "330f00b543e376c0bcde-3bfb806ee96b129eb3dc",
+              "file": "tarot.e2e.ts",
+              "line": 33,
+              "column": 3
+            },
+            {
+              "title": "el descargo de salud aparece en la lectura con tema Salud",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "330f00b543e376c0bcde-d729f62eacf9828245a8",
+              "file": "tarot.e2e.ts",
+              "line": 61,
+              "column": 3
+            },
+            {
+              "title": "menor de edad (fecha en la puerta) → salida amable y sesión bloqueada",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "330f00b543e376c0bcde-737a522edc45b3854c87",
+              "file": "tarot.e2e.ts",
+              "line": 80,
+              "column": 3
+            },
+            {
+              "title": "menor de edad declarado después (edad 16 en la pantalla de edad) → bloqueo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "330f00b543e376c0bcde-66d95e3e1342badc988e",
+              "file": "tarot.e2e.ts",
+              "line": 100,
+              "column": 3
+            },
+            {
+              "title": "«Todavía no» en la puerta → bloqueo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "330f00b543e376c0bcde-9be34f2a4eed7e2a827b",
+              "file": "tarot.e2e.ts",
+              "line": 111,
+              "column": 3
+            },
+            {
+              "title": "sesión bloqueada: ¿sobrevive a recargar la página?",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [],
+                  "status": "skipped"
+                },
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile",
+                  "projectName": "mobile",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "330f00b543e376c0bcde-872a080d748d396a8b32",
+              "file": "tarot.e2e.ts",
+              "line": 119,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "perf.e2e.ts",
+      "file": "perf.e2e.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "FPS durante el barajado (CPU ×4, Pixel 7)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "perf",
+              "projectName": "perf",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1aa3a45bcba2e5e5bf4d-dc05f64e135287dc82af",
+          "file": "perf.e2e.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "FPS del péndulo oscilando (CPU ×4, Pixel 7)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "perf",
+              "projectName": "perf",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1aa3a45bcba2e5e5bf4d-9fdc9b4d0e8aa8521b01",
+          "file": "perf.e2e.ts",
+          "line": 68,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-22T12:34:08.046Z",
+    "duration": 464.571,
+    "expected": 0,
+    "skipped": 52,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

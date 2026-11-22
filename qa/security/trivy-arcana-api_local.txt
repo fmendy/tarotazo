@@ -1,0 +1,37 @@
+2026-11-22T12:19:10Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-11-22T12:19:10Z	INFO	[misconfig] Misconfiguration scanning is enabled
+2026-11-22T12:19:10Z	INFO	[checks-client] Using existing checks from cache	path="/root/.cache/trivy/policy/content"
+2026-11-22T12:19:11Z	WARN	[rego] Module will be skipped as current version of Trivy is older than minimum trivy version required - please update Trivy to use this module	file_path="root/.cache/trivy/policy/content/policies/cloud/policies/aws/cloudfront/enable_logging.rego" minimum_trivy_version="0.72.0"
+2026-11-22T12:19:11Z	INFO	[secret] Secret scanning is enabled
+2026-11-22T12:19:11Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln,misconfig' to disable secret scanning
+2026-11-22T12:19:11Z	INFO	[secret] Please see https://trivy.dev/docs/v0.69/guide/scanner/secret#recommendation for faster secret detection
+2026-11-22T12:19:15Z	INFO	[javadb] Downloading Java DB...
+2026-11-22T12:19:15Z	INFO	[javadb] Downloading artifact...	repo="mirror.gcr.io/aquasec/trivy-java-db:1"
+2026-11-22T12:21:15Z	INFO	[javadb] Artifact successfully downloaded	repo="mirror.gcr.io/aquasec/trivy-java-db:1"
+2026-11-22T12:21:15Z	INFO	[javadb] Java DB is cached for 3 days. If you want to update the database more frequently, "trivy clean --java-db" command clears the DB cache.
+2026-11-22T12:21:24Z	INFO	Detected OS	family="alpine" version="3.24.4"
+2026-11-22T12:21:24Z	WARN	This OS version is not on the EOL list	family="alpine" version="3.24"
+2026-11-22T12:21:24Z	INFO	[alpine] Detecting vulnerabilities...	os_version="3.24" repository="3.24" pkg_num=44
+2026-11-22T12:21:24Z	INFO	Number of language-specific files	num=1
+2026-11-22T12:21:24Z	INFO	[jar] Detecting vulnerabilities...
+2026-11-22T12:21:24Z	INFO	Detected config files	num=0
+
+Report Summary
+
+┌──────────────────────────────────┬────────┬─────────────────┬─────────┬───────────────────┐
+│              Target              │  Type  │ Vulnerabilities │ Secrets │ Misconfigurations │
+├──────────────────────────────────┼────────┼─────────────────┼─────────┼───────────────────┤
+│ arcana-api:local (alpine 3.24.4) │ alpine │        0        │    -    │         -         │
+├──────────────────────────────────┼────────┼─────────────────┼─────────┼───────────────────┤
+│ app/app.jar                      │  jar   │        0        │    -    │         -         │
+└──────────────────────────────────┴────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+📣 [34mNotices:[0m
+  - Version 0.76.2 of Trivy is now available, current version is 0.69.3
+
+To suppress version checks, run Trivy scans with the --skip-version-check flag
+

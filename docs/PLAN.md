@@ -18,12 +18,12 @@ Jefe de proyecto: coordinación, contratos (`docs/CONTRACTS.md`), integración y
 ## Fases y puertas
 | Fase | Contenido | Estado |
 |---|---|---|
-| 0 · Descubrimiento | Personaje, tono, contratos, guía de estilo | Contratos hechos; guía de estilo en curso |
-| 1 · Cimientos | Monorepo, CI/CD, compose, esqueleto API, esquemas, motor v0, animación base | En curso (oleada 1) |
-| 2 · MVP tarot | Onboarding, RWS + castellana, tiradas 1/3/5, lectura completa | En curso (oleada 1) |
-| 3 · Péndulo | Física, control, 3 modelos, modos Sí/No, tablero, mapa | En curso (oleada 1) |
-| 4 · Contenido y pulido | Resto de barajas/tiradas/tonos, 1.500 fragmentos, diploma, sonido, rendimiento | Parcial en oleada 1; oleada 2 |
-| 5 · Calidad y lanzamiento | E2E, privacidad, seguridad, textos legales, beta | Oleada 3 |
+| 0 · Descubrimiento | Personaje, tono, contratos, guía de estilo | Hecho |
+| 1 · Cimientos | Monorepo, CI/CD, compose, esqueleto API, esquemas, motor v0, animación base | Hecho |
+| 2 · MVP tarot | Onboarding, RWS + castellana, tiradas 1/3/5, lectura completa | Hecho (las 7 tiradas) |
+| 3 · Péndulo | Física, control, 3 modelos, modos Sí/No, tablero, mapa | Hecho (9 modelos, 7 modos) |
+| 4 · Contenido y pulido | Resto de barajas/tiradas/tonos, 1.500 fragmentos, diploma, sonido, rendimiento | Contenido y arte hechos (9 modelos, 1.564 fragmentos); concordancias y rendimiento en curso |
+| 5 · Calidad y lanzamiento | E2E, privacidad, seguridad, textos legales, beta | QA en curso |
 
 Puertas: **diseño aprobado** (fin fase 0) · **demo MVP** (fin fase 2) · **lanzamiento** (fin fase 5).
 

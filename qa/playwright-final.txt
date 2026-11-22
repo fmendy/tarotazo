@@ -1,0 +1,809 @@
+npm notice run arcana-web@0.1.0 npx
+npm notice run ^"playwright^" test --project=desktop --project=mobile
+[WebServer] npm notice run arcana-web@0.1.0 npx
+[WebServer] npm notice run ^"vite^" --config e2e/vite.e2e.config.ts
+
+Running 50 tests using 3 workers
+
+  x   1 [desktop] › e2e\a11y.spec.ts:25:1 › teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe (24.4s)
+  x   3 [desktop] › e2e\a11y.spec.ts:128:1 › teclado: menú (hamburguesa en móvil), Escape del selector de idioma + axe en péndulo y titulaciones (25.8s)
+  x   2 [desktop] › e2e\a11y.spec.ts:80:1 › teclado: cofres, carrusel, tiradas, corte y abanico + axe en el ritual y la lectura (40.1s)
+  x   5 [desktop] › e2e\pendulum.spec.ts:96:3 › Péndulo › misma pregunta 3 veces → el péndulo se enfada y se enrolla (17.7s)
+  x   6 [desktop] › e2e\pendulum.spec.ts:114:3 › Péndulo › opciones: con menos de 2 opciones avisa sin llamar al servidor (6.3s)
+  ok  8 [desktop] › e2e\privacy.spec.ts:143:1 › privacidad: las respuestas del API no fijan cookies ni sesión (231ms)
+  ok  9 [desktop] › e2e\privacy.spec.ts:153:1 › privacidad: el servidor ignora datos personales si alguien los manda (no los devuelve) (61ms)
+  -  10 [desktop] › e2e\privacy.spec.ts:167:1 › privacidad (pila Docker): los logs no contienen IPs de cliente ni datos centinela
+  ok 11 [desktop] › e2e\session.spec.ts:5:1 › titulaciones: muro visible y compulsar un título (6.8s)
+  ok 12 [desktop] › e2e\session.spec.ts:26:1 › Salir → se borra todo el estado y vuelve a la puerta (8.8s)
+  ok 13 [desktop] › e2e\session.spec.ts:46:1 › inactividad de 30 minutos → se borra la sesión (page.clock) (6.6s)
+  ok 14 [desktop] › e2e\session.spec.ts:69:1 › inactividad (tiempo real acelerado: el temporizador de 30 min se reduce a 3 s) → la interfaz vuelve a la puerta (8.3s)
+  ok 15 [desktop] › e2e\session.spec.ts:87:1 › la actividad reinicia el temporizador de inactividad (2.8s)
+  ok 16 [desktop] › e2e\session.spec.ts:98:1 › aviso legal y privacidad accesibles desde el pie y vuelven a la pantalla anterior (3.9s)
+  ok 17 [desktop] › e2e\session.spec.ts:114:1 › aviso de entretenimiento en portada y meta rating adulto (1.3s)
+  ok  7 [desktop] › e2e\privacy.spec.ts:53:1 › privacidad: ningún dato centinela sale del navegador durante una sesión completa (1.1m)
+  ok 18 [desktop] › e2e\tarot.spec.ts:9:3 › Tarot · flujo completo › tarot RWS · Pasado/presente/futuro · provincia en el mapa · ratón (21.4s)
+  ok 20 [desktop] › e2e\tarot.spec.ts:61:3 › Tarot · flujo completo › el descargo de salud aparece en la lectura con tema Salud (17.5s)
+  ok 19 [desktop] › e2e\tarot.spec.ts:33:3 › Tarot · flujo completo › baraja española · Cruz simple (5) · «Nací fuera de España» · casilla +18 · teclado (24.9s)
+  x  21 [desktop] › e2e\tarot.spec.ts:80:3 › Tarot · flujo completo › menor de edad (fecha en la puerta) → salida amable y sesión bloqueada (5.6s)
+  ok 22 [desktop] › e2e\tarot.spec.ts:100:3 › Tarot · flujo completo › menor de edad declarado después (edad 16 en la pantalla de edad) → bloqueo (5.2s)
+  ok 23 [desktop] › e2e\tarot.spec.ts:111:3 › Tarot · flujo completo › «Todavía no» en la puerta → bloqueo (2.3s)
+  ok 25 [desktop] › e2e\tarot.spec.ts:130:1 › edad: fecha inválida y sin rellenar en la puerta muestran error (3.4s)
+  x   4 [desktop] › e2e\pendulum.spec.ts:43:3 › Péndulo › calibración, «concentrarme» y los 7 modos llegan a una respuesta con texto (2.1m)
+  x  24 [desktop] › e2e\tarot.spec.ts:119:3 › Tarot · flujo completo › sesión bloqueada: ¿sobrevive a recargar la página? (18.1s)
+  x  26 [mobile] › e2e\a11y.spec.ts:25:1 › teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe (17.4s)
+  x  27 [mobile] › e2e\a11y.spec.ts:80:1 › teclado: cofres, carrusel, tiradas, corte y abanico + axe en el ritual y la lectura (25.3s)
+  x  28 [mobile] › e2e\a11y.spec.ts:128:1 › teclado: menú (hamburguesa en móvil), Escape del selector de idioma + axe en péndulo y titulaciones (18.4s)
+  x  30 [mobile] › e2e\pendulum.spec.ts:96:3 › Péndulo › misma pregunta 3 veces → el péndulo se enfada y se enrolla (5.6s)
+  x  31 [mobile] › e2e\pendulum.spec.ts:114:3 › Péndulo › opciones: con menos de 2 opciones avisa sin llamar al servidor (3.7s)
+  ok 33 [mobile] › e2e\privacy.spec.ts:143:1 › privacidad: las respuestas del API no fijan cookies ni sesión (158ms)
+  ok 34 [mobile] › e2e\privacy.spec.ts:153:1 › privacidad: el servidor ignora datos personales si alguien los manda (no los devuelve) (33ms)
+  -  35 [mobile] › e2e\privacy.spec.ts:167:1 › privacidad (pila Docker): los logs no contienen IPs de cliente ni datos centinela
+  ok 36 [mobile] › e2e\session.spec.ts:5:1 › titulaciones: muro visible y compulsar un título (3.7s)
+  x  29 [mobile] › e2e\pendulum.spec.ts:43:3 › Péndulo › calibración, «concentrarme» y los 7 modos llegan a una respuesta con texto (24.1s)
+  ok 37 [mobile] › e2e\session.spec.ts:26:1 › Salir → se borra todo el estado y vuelve a la puerta (3.5s)
+  ok 38 [mobile] › e2e\session.spec.ts:46:1 › inactividad de 30 minutos → se borra la sesión (page.clock) (2.4s)
+  ok 40 [mobile] › e2e\session.spec.ts:87:1 › la actividad reinicia el temporizador de inactividad (1.5s)
+  ok 39 [mobile] › e2e\session.spec.ts:69:1 › inactividad (tiempo real acelerado: el temporizador de 30 min se reduce a 3 s) → la interfaz vuelve a la puerta (4.4s)
+  ok 41 [mobile] › e2e\session.spec.ts:98:1 › aviso legal y privacidad accesibles desde el pie y vuelven a la pantalla anterior (1.8s)
+  ok 42 [mobile] › e2e\session.spec.ts:114:1 › aviso de entretenimiento en portada y meta rating adulto (1.1s)
+  ok 32 [mobile] › e2e\privacy.spec.ts:53:1 › privacidad: ningún dato centinela sale del navegador durante una sesión completa (17.9s)
+  ok 45 [mobile] › e2e\tarot.spec.ts:61:3 › Tarot · flujo completo › el descargo de salud aparece en la lectura con tema Salud (6.0s)
+  ok 44 [mobile] › e2e\tarot.spec.ts:33:3 › Tarot · flujo completo › baraja española · Cruz simple (5) · «Nací fuera de España» · casilla +18 · teclado (9.2s)
+  ok 47 [mobile] › e2e\tarot.spec.ts:100:3 › Tarot · flujo completo › menor de edad declarado después (edad 16 en la pantalla de edad) → bloqueo (2.3s)
+  ok 48 [mobile] › e2e\tarot.spec.ts:111:3 › Tarot · flujo completo › «Todavía no» en la puerta → bloqueo (1.6s)
+  x  46 [mobile] › e2e\tarot.spec.ts:80:3 › Tarot · flujo completo › menor de edad (fecha en la puerta) → salida amable y sesión bloqueada (5.0s)
+  ok 50 [mobile] › e2e\tarot.spec.ts:130:1 › edad: fecha inválida y sin rellenar en la puerta muestran error (1.6s)
+  x  49 [mobile] › e2e\tarot.spec.ts:119:3 › Tarot · flujo completo › sesión bloqueada: ¿sobrevive a recargar la página? (17.4s)
+  x  43 [mobile] › e2e\tarot.spec.ts:9:3 › Tarot · flujo completo › tarot RWS · Pasado/presente/futuro · provincia en el mapa · ratón (4.1m)
+
+
+  1) [desktop] › e2e\a11y.spec.ts:25:1 › teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe 
+
+    Error: el foco sigue en el mapa tras elegir
+
+    expect(received).not.toBe(expected) // Object.is equality
+
+    Expected: not "BODY"
+
+      73 |   // tras elegir con teclado el foco no debe perderse en <body>
+      74 |   const focusTag = await page.evaluate(() => document.activeElement?.tagName);
+    > 75 |   expect.soft(focusTag, 'el foco sigue en el mapa tras elegir').not.toBe('BODY');
+         |                                                                     ^
+      76 |   await axe(page, 'provincia elegida', out);
+      77 |   await report(out, testInfo);
+      78 | });
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:75:69
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-puerta-nombre-27ce3-de-provincias-Tab-Intro-axe-desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\a11y-teclado-puerta-nombre-27ce3-de-provincias-Tab-Intro-axe-desktop\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-puerta-nombre-27ce3-de-provincias-Tab-Intro-axe-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\a11y-teclado-puerta-nombre-27ce3-de-provincias-Tab-Intro-axe-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › e2e\a11y.spec.ts:80:1 › teclado: cofres, carrusel, tiradas, corte y abanico + axe en el ritual y la lectura 
+
+    Error: violaciones axe serias/críticas
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 4
+
+    - Array []
+    + Array [
+    +   "baraja · carrusel: [critical] aria-required-children — Certain ARIA roles must contain particular children (1) .fx-car",
+    +   "baraja · carrusel: [serious] label-content-name-mismatch — Elements must have their visible text as part of their accessible name (3) div[aria-label=\"Opción 1 de 3\"] | div[aria-label=\"Opción 2 de 3\"] | div[aria-label=\"Opción 3 de 3\"]",
+    + ]
+
+      20 |   await testInfo.attach('axe.json', { body: JSON.stringify(out, null, 2), contentType: 'application/json' });
+      21 |   const serious = out.filter((v) => v.impact === 'serious' || v.impact === 'critical');
+    > 22 |   expect.soft(serious.map((v) => `${v.screen}: [${v.impact}] ${v.id} — ${v.help} (${v.nodes}) ${v.targets.join(' | ')}`), 'violaciones axe serias/críticas').toEqual([]);
+         |                                                                                                                                                              ^
+      23 | }
+      24 |
+      25 | test('teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe', async ({ page, baseURL }, testInfo) => {
+        at report (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:22:158)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:125:3
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-cofres-carrus-f3e38-e-en-el-ritual-y-la-lectura-desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\a11y-teclado-cofres-carrus-f3e38-e-en-el-ritual-y-la-lectura-desktop\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-cofres-carrus-f3e38-e-en-el-ritual-y-la-lectura-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\a11y-teclado-cofres-carrus-f3e38-e-en-el-ritual-y-la-lectura-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › e2e\a11y.spec.ts:128:1 › teclado: menú (hamburguesa en móvil), Escape del selector de idioma + axe en péndulo y titulaciones 
+
+    Error: foco en el título tras cambiar de pantalla
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "screen-title"
+    Received: ""
+
+      133 |   await page.waitForTimeout(400);
+      134 |   // Tras cambiar de pantalla el foco debería quedar en el título (App.tsx) y no en <body>.
+    > 135 |   expect.soft(await page.evaluate(() => document.activeElement?.id), 'foco en el título tras cambiar de pantalla').toBe('screen-title');
+          |                                                                                                                    ^
+      136 |   const burger = page.locator('.topbar__burger');
+      137 |   // En escritorio (≥760 px) la hamburguesa debería estar oculta (app.css:75); ver QA-hallazgo.
+      138 |   expect.soft(await burger.isVisible(), 'hamburguesa oculta en escritorio').toBe((page.viewportSize()?.width ?? 0) < 760);
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:135:116
+
+    Error: hamburguesa oculta en escritorio
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      136 |   const burger = page.locator('.topbar__burger');
+      137 |   // En escritorio (≥760 px) la hamburguesa debería estar oculta (app.css:75); ver QA-hallazgo.
+    > 138 |   expect.soft(await burger.isVisible(), 'hamburguesa oculta en escritorio').toBe((page.viewportSize()?.width ?? 0) < 760);
+          |                                                                             ^
+      139 |   if ((page.viewportSize()?.width ?? 0) < 760) {
+      140 |     await burger.focus();
+      141 |     await page.keyboard.press('Enter');
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:138:77
+
+    Error: tablist: ArrowRight cambia de pestaña (patrón ARIA)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Tablero"
+    Received: "Sí / No"
+
+      156 |   await page.keyboard.press('ArrowRight');
+      157 |   const sel = await page.getByRole('tab', { selected: true }).innerText();
+    > 158 |   expect.soft(sel, 'tablist: ArrowRight cambia de pestaña (patrón ARIA)').toBe('Tablero');
+          |                                                                           ^
+      159 |   await menu(page, 'Titulaciones');
+      160 |   await axe(page, 'titulaciones', out);
+      161 |   // Selector de idioma: abre con Intro y cierra con Escape
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:158:75
+
+    Error: violaciones axe serias/críticas
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "titulaciones: [serious] color-contrast — Elements must meet minimum color contrast ratio thresholds (2) .frame--barroco:nth-child(11) > .btn.btn--small | .frame--madera:nth-child(12) > .btn.btn--small",
+    + ]
+
+      20 |   await testInfo.attach('axe.json', { body: JSON.stringify(out, null, 2), contentType: 'application/json' });
+      21 |   const serious = out.filter((v) => v.impact === 'serious' || v.impact === 'critical');
+    > 22 |   expect.soft(serious.map((v) => `${v.screen}: [${v.impact}] ${v.id} — ${v.help} (${v.nodes}) ${v.targets.join(' | ')}`), 'violaciones axe serias/críticas').toEqual([]);
+         |                                                                                                                                                              ^
+      23 | }
+      24 |
+      25 | test('teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe', async ({ page, baseURL }, testInfo) => {
+        at report (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:22:158)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:174:3
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-menú-hamburgu-37797-e-en-péndulo-y-titulaciones-desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\a11y-teclado-menú-hamburgu-37797-e-en-péndulo-y-titulaciones-desktop\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-menú-hamburgu-37797-e-en-péndulo-y-titulaciones-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\a11y-teclado-menú-hamburgu-37797-e-en-péndulo-y-titulaciones-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [desktop] › e2e\pendulum.spec.ts:43:3 › Péndulo › calibración, «concentrarme» y los 7 modos llegan a una respuesta con texto 
+
+    Error: texto visible sin resolver
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 5
+
+    - Array []
+    + Array [
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (a11y) {variable}: «{provincia}» … del trastero Péndulo Anillo de la abuela Péndulo Chorizo de {provincia}",
+    + ]
+
+       at helpers.ts:54
+
+      52 |   expect.soft(realFailures(m), 'peticiones fallidas').toEqual([]);
+      53 |   expect.soft(m.foreignRequests, 'peticiones a otros orígenes').toEqual([]);
+    > 54 |   expect.soft(m.textIssues, 'texto visible sin resolver').toEqual([]);
+         |                                                           ^
+      55 | }
+      56 |
+      57 | const PATTERNS: [string, RegExp][] = [
+        at expectClean (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\helpers.ts:54:59)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\pendulum.spec.ts:93:5
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-calibraci-e8296-n-a-una-respuesta-con-texto-desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\pendulum-Péndulo-calibraci-e8296-n-a-una-respuesta-con-texto-desktop\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-calibraci-e8296-n-a-una-respuesta-con-texto-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\pendulum-Péndulo-calibraci-e8296-n-a-una-respuesta-con-texto-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [desktop] › e2e\pendulum.spec.ts:96:3 › Péndulo › misma pregunta 3 veces → el péndulo se enfada y se enrolla 
+
+    Error: texto visible sin resolver
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 5
+
+    - Array []
+    + Array [
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (a11y) {variable}: «{provincia}» … del trastero Péndulo Anillo de la abuela Péndulo Chorizo de {provincia}",
+    + ]
+
+       at helpers.ts:54
+
+      52 |   expect.soft(realFailures(m), 'peticiones fallidas').toEqual([]);
+      53 |   expect.soft(m.foreignRequests, 'peticiones a otros orígenes').toEqual([]);
+    > 54 |   expect.soft(m.textIssues, 'texto visible sin resolver').toEqual([]);
+         |                                                           ^
+      55 | }
+      56 |
+      57 | const PATTERNS: [string, RegExp][] = [
+        at expectClean (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\helpers.ts:54:59)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\pendulum.spec.ts:111:5
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-misma-pre-a46a8-dulo-se-enfada-y-se-enrolla-desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\pendulum-Péndulo-misma-pre-a46a8-dulo-se-enfada-y-se-enrolla-desktop\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-misma-pre-a46a8-dulo-se-enfada-y-se-enrolla-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\pendulum-Péndulo-misma-pre-a46a8-dulo-se-enfada-y-se-enrolla-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [desktop] › e2e\pendulum.spec.ts:114:3 › Péndulo › opciones: con menos de 2 opciones avisa sin llamar al servidor 
+
+    Error: texto visible sin resolver
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 5
+
+    - Array []
+    + Array [
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (a11y) {variable}: «{provincia}» … del trastero Péndulo Anillo de la abuela Péndulo Chorizo de {provincia}",
+    + ]
+
+       at helpers.ts:54
+
+      52 |   expect.soft(realFailures(m), 'peticiones fallidas').toEqual([]);
+      53 |   expect.soft(m.foreignRequests, 'peticiones a otros orígenes').toEqual([]);
+    > 54 |   expect.soft(m.textIssues, 'texto visible sin resolver').toEqual([]);
+         |                                                           ^
+      55 | }
+      56 |
+      57 | const PATTERNS: [string, RegExp][] = [
+        at expectClean (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\helpers.ts:54:59)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\pendulum.spec.ts:124:5
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-opciones--489eb-visa-sin-llamar-al-servidor-desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\pendulum-Péndulo-opciones--489eb-visa-sin-llamar-al-servidor-desktop\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-opciones--489eb-visa-sin-llamar-al-servidor-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\pendulum-Péndulo-opciones--489eb-visa-sin-llamar-al-servidor-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [desktop] › e2e\tarot.spec.ts:80:3 › Tarot · flujo completo › menor de edad (fecha en la puerta) → salida amable y sesión bloqueada 
+
+    Error: la política de privacidad se puede leer desde el bloqueo
+
+    expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('#screen-title')
+    Expected: "Política de privacidad"
+    Received: "Todavía no te toca"
+    Timeout:  3000ms
+
+    Call log:
+      - la política de privacidad se puede leer desde el bloqueo locator('#screen-title') with timeout 3000ms
+      - waiting for locator('#screen-title')
+        10 × locator resolved to <h1 tabindex="-1" id="screen-title" class="screen__title" data-autofocus="true">Todavía no te toca</h1>
+           - unexpected value "Todavía no te toca"
+
+
+      91 |     // Desde el bloqueo, el pie (aviso legal / privacidad) debería seguir siendo consultable.
+      92 |     await page.getByRole('button', { name: 'Privacidad' }).click();
+    > 93 |     await expect.soft(page.locator('#screen-title'), 'la política de privacidad se puede leer desde el bloqueo').toHaveText('Política de privacidad', { timeout: 3000 });
+         |                                                                                                                  ^
+      94 |     const back = page.getByRole('button', { name: 'Volver' });
+      95 |     if (await back.isVisible()) await back.click();
+      96 |     await expect(page.locator('#screen-title')).toHaveText('Todavía no te toca');
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\tarot.spec.ts:93:114
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-f3e6f-a-amable-y-sesión-bloqueada-desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\tarot-Tarot-·-flujo-comple-f3e6f-a-amable-y-sesión-bloqueada-desktop\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-f3e6f-a-amable-y-sesión-bloqueada-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\tarot-Tarot-·-flujo-comple-f3e6f-a-amable-y-sesión-bloqueada-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [desktop] › e2e\tarot.spec.ts:119:3 › Tarot · flujo completo › sesión bloqueada: ¿sobrevive a recargar la página? 
+
+    Error: tras recargar sigue bloqueado
+
+    expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('#screen-title')
+    Expected: "Todavía no te toca"
+    Received: "¿Eres mayor de edad?"
+    Timeout:  15000ms
+
+    Call log:
+      - tras recargar sigue bloqueado locator('#screen-title') with timeout 15000ms
+      - waiting for locator('#screen-title')
+        33 × locator resolved to <h1 tabindex="-1" id="screen-title" class="screen__title" data-autofocus="true">¿Eres mayor de edad?</h1>
+           - unexpected value "¿Eres mayor de edad?"
+
+
+      124 |     await page.reload();
+      125 |     // Esperado por la spec: «la sesión se bloquea». Obtenido: tras recargar vuelve la puerta.
+    > 126 |     await expect(page.locator('#screen-title'), 'tras recargar sigue bloqueado').toHaveText('Todavía no te toca');
+          |                                                                                  ^
+      127 |   });
+      128 | });
+      129 |
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\tarot.spec.ts:126:82
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-95f36-evive-a-recargar-la-página--desktop\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\tarot-Tarot-·-flujo-comple-95f36-evive-a-recargar-la-página--desktop\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-95f36-evive-a-recargar-la-página--desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\tarot-Tarot-·-flujo-comple-95f36-evive-a-recargar-la-página--desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [mobile] › e2e\a11y.spec.ts:25:1 › teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe 
+
+    Error: el foco sigue en el mapa tras elegir
+
+    expect(received).not.toBe(expected) // Object.is equality
+
+    Expected: not "BODY"
+
+      73 |   // tras elegir con teclado el foco no debe perderse en <body>
+      74 |   const focusTag = await page.evaluate(() => document.activeElement?.tagName);
+    > 75 |   expect.soft(focusTag, 'el foco sigue en el mapa tras elegir').not.toBe('BODY');
+         |                                                                     ^
+      76 |   await axe(page, 'provincia elegida', out);
+      77 |   await report(out, testInfo);
+      78 | });
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:75:69
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-puerta-nombre-27ce3-de-provincias-Tab-Intro-axe-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\a11y-teclado-puerta-nombre-27ce3-de-provincias-Tab-Intro-axe-mobile\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-puerta-nombre-27ce3-de-provincias-Tab-Intro-axe-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\a11y-teclado-puerta-nombre-27ce3-de-provincias-Tab-Intro-axe-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [mobile] › e2e\a11y.spec.ts:80:1 › teclado: cofres, carrusel, tiradas, corte y abanico + axe en el ritual y la lectura 
+
+    Error: violaciones axe serias/críticas
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 5
+
+    - Array []
+    + Array [
+    +   "baraja · carrusel: [critical] aria-required-children — Certain ARIA roles must contain particular children (1) .fx-car",
+    +   "baraja · carrusel: [serious] label-content-name-mismatch — Elements must have their visible text as part of their accessible name (3) div[aria-label=\"Opción 1 de 3\"] | div[aria-label=\"Opción 2 de 3\"] | div[aria-label=\"Opción 3 de 3\"]",
+    +   "lectura: [serious] aria-prohibited-attr — Elements must only use permitted ARIA attributes (3) .is-current > .fx-flip[aria-label=\"Carta boca abajo\"] | div[data-position=\"presente\"] > .fx-flip[aria-label=\"Carta boca abajo\"] | div[data-position=\"futuro\"] > .fx-flip[aria-label=\"Carta boca abajo\"]",
+    + ]
+
+      20 |   await testInfo.attach('axe.json', { body: JSON.stringify(out, null, 2), contentType: 'application/json' });
+      21 |   const serious = out.filter((v) => v.impact === 'serious' || v.impact === 'critical');
+    > 22 |   expect.soft(serious.map((v) => `${v.screen}: [${v.impact}] ${v.id} — ${v.help} (${v.nodes}) ${v.targets.join(' | ')}`), 'violaciones axe serias/críticas').toEqual([]);
+         |                                                                                                                                                              ^
+      23 | }
+      24 |
+      25 | test('teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe', async ({ page, baseURL }, testInfo) => {
+        at report (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:22:158)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:125:3
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-cofres-carrus-f3e38-e-en-el-ritual-y-la-lectura-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\a11y-teclado-cofres-carrus-f3e38-e-en-el-ritual-y-la-lectura-mobile\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-cofres-carrus-f3e38-e-en-el-ritual-y-la-lectura-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\a11y-teclado-cofres-carrus-f3e38-e-en-el-ritual-y-la-lectura-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [mobile] › e2e\a11y.spec.ts:128:1 › teclado: menú (hamburguesa en móvil), Escape del selector de idioma + axe en péndulo y titulaciones 
+
+    Error: foco en el título tras cambiar de pantalla
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "screen-title"
+    Received: ""
+
+      133 |   await page.waitForTimeout(400);
+      134 |   // Tras cambiar de pantalla el foco debería quedar en el título (App.tsx) y no en <body>.
+    > 135 |   expect.soft(await page.evaluate(() => document.activeElement?.id), 'foco en el título tras cambiar de pantalla').toBe('screen-title');
+          |                                                                                                                    ^
+      136 |   const burger = page.locator('.topbar__burger');
+      137 |   // En escritorio (≥760 px) la hamburguesa debería estar oculta (app.css:75); ver QA-hallazgo.
+      138 |   expect.soft(await burger.isVisible(), 'hamburguesa oculta en escritorio').toBe((page.viewportSize()?.width ?? 0) < 760);
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:135:116
+
+    Error: tablist: ArrowRight cambia de pestaña (patrón ARIA)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Tablero"
+    Received: "Sí / No"
+
+      156 |   await page.keyboard.press('ArrowRight');
+      157 |   const sel = await page.getByRole('tab', { selected: true }).innerText();
+    > 158 |   expect.soft(sel, 'tablist: ArrowRight cambia de pestaña (patrón ARIA)').toBe('Tablero');
+          |                                                                           ^
+      159 |   await menu(page, 'Titulaciones');
+      160 |   await axe(page, 'titulaciones', out);
+      161 |   // Selector de idioma: abre con Intro y cierra con Escape
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\a11y.spec.ts:158:75
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-menú-hamburgu-37797-e-en-péndulo-y-titulaciones-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\a11y-teclado-menú-hamburgu-37797-e-en-péndulo-y-titulaciones-mobile\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\a11y-teclado-menú-hamburgu-37797-e-en-péndulo-y-titulaciones-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\a11y-teclado-menú-hamburgu-37797-e-en-péndulo-y-titulaciones-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [mobile] › e2e\pendulum.spec.ts:43:3 › Péndulo › calibración, «concentrarme» y los 7 modos llegan a una respuesta con texto 
+
+    Error: texto visible sin resolver
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 5
+
+    - Array []
+    + Array [
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (a11y) {variable}: «{provincia}» … del trastero Péndulo Anillo de la abuela Péndulo Chorizo de {provincia}",
+    + ]
+
+       at helpers.ts:54
+
+      52 |   expect.soft(realFailures(m), 'peticiones fallidas').toEqual([]);
+      53 |   expect.soft(m.foreignRequests, 'peticiones a otros orígenes').toEqual([]);
+    > 54 |   expect.soft(m.textIssues, 'texto visible sin resolver').toEqual([]);
+         |                                                           ^
+      55 | }
+      56 |
+      57 | const PATTERNS: [string, RegExp][] = [
+        at expectClean (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\helpers.ts:54:59)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\pendulum.spec.ts:93:5
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-calibraci-e8296-n-a-una-respuesta-con-texto-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\pendulum-Péndulo-calibraci-e8296-n-a-una-respuesta-con-texto-mobile\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-calibraci-e8296-n-a-una-respuesta-con-texto-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\pendulum-Péndulo-calibraci-e8296-n-a-una-respuesta-con-texto-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [mobile] › e2e\pendulum.spec.ts:96:3 › Péndulo › misma pregunta 3 veces → el péndulo se enfada y se enrolla 
+
+    Error: texto visible sin resolver
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 5
+
+    - Array []
+    + Array [
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (a11y) {variable}: «{provincia}» … del trastero Péndulo Anillo de la abuela Péndulo Chorizo de {provincia}",
+    + ]
+
+       at helpers.ts:54
+
+      52 |   expect.soft(realFailures(m), 'peticiones fallidas').toEqual([]);
+      53 |   expect.soft(m.foreignRequests, 'peticiones a otros orígenes').toEqual([]);
+    > 54 |   expect.soft(m.textIssues, 'texto visible sin resolver').toEqual([]);
+         |                                                           ^
+      55 | }
+      56 |
+      57 | const PATTERNS: [string, RegExp][] = [
+        at expectClean (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\helpers.ts:54:59)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\pendulum.spec.ts:111:5
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-misma-pre-a46a8-dulo-se-enfada-y-se-enrolla-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\pendulum-Péndulo-misma-pre-a46a8-dulo-se-enfada-y-se-enrolla-mobile\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-misma-pre-a46a8-dulo-se-enfada-y-se-enrolla-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\pendulum-Péndulo-misma-pre-a46a8-dulo-se-enfada-y-se-enrolla-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [mobile] › e2e\pendulum.spec.ts:114:3 › Péndulo › opciones: con menos de 2 opciones avisa sin llamar al servidor 
+
+    Error: texto visible sin resolver
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 5
+
+    - Array []
+    + Array [
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (visible) {variable}: «{provincia}» … como una abuela: con amor y con alguna regañina. Chorizo de {provincia} Un chorizo de {provincia} con cuerda y todo. Poco místico, ",
+    +   "[péndulo · vitrina] (a11y) {variable}: «{provincia}» … del trastero Péndulo Anillo de la abuela Péndulo Chorizo de {provincia}",
+    + ]
+
+       at helpers.ts:54
+
+      52 |   expect.soft(realFailures(m), 'peticiones fallidas').toEqual([]);
+      53 |   expect.soft(m.foreignRequests, 'peticiones a otros orígenes').toEqual([]);
+    > 54 |   expect.soft(m.textIssues, 'texto visible sin resolver').toEqual([]);
+         |                                                           ^
+      55 | }
+      56 |
+      57 | const PATTERNS: [string, RegExp][] = [
+        at expectClean (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\helpers.ts:54:59)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\pendulum.spec.ts:124:5
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-opciones--489eb-visa-sin-llamar-al-servidor-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\pendulum-Péndulo-opciones--489eb-visa-sin-llamar-al-servidor-mobile\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\pendulum-Péndulo-opciones--489eb-visa-sin-llamar-al-servidor-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\pendulum-Péndulo-opciones--489eb-visa-sin-llamar-al-servidor-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [mobile] › e2e\tarot.spec.ts:9:3 › Tarot · flujo completo › tarot RWS · Pasado/presente/futuro · provincia en el mapa · ratón 
+
+    Test timeout of 240000ms exceeded.
+
+    Error: locator.click: Test timeout of 240000ms exceeded.
+    Call log:
+      - waiting for getByRole('listbox', { name: /Elige \d+ carta/ }).getByRole('option').nth(42)
+        328 × locator resolved to <div role="option" id="fx-fan-dgm5gm-42" aria-selected="false" aria-label="Carta 43" class="fx-fan__card  ">…</div>
+          - attempting click action
+            - scrolling into view if needed
+          - element was detached from the DOM, retrying
+
+
+       at helpers.ts:220
+
+      218 |     for (let i = 0; i < n; i++) {
+      219 |       const idx = Math.min(count - 1, Math.floor(count / 2) + i * 3);
+    > 220 |       await cards.nth(idx).click({ force: true });
+          |                            ^
+      221 |     }
+      222 |   }
+      223 |   await expect(page.locator('.reading, .error-box').first()).toBeVisible({ timeout: 30_000 });
+        at pickCards (C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\helpers.ts:220:28)
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\tarot.spec.ts:20:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-3c481-rovincia-en-el-mapa-·-ratón-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\tarot-Tarot-·-flujo-comple-3c481-rovincia-en-el-mapa-·-ratón-mobile\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-3c481-rovincia-en-el-mapa-·-ratón-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\tarot-Tarot-·-flujo-comple-3c481-rovincia-en-el-mapa-·-ratón-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [mobile] › e2e\tarot.spec.ts:80:3 › Tarot · flujo completo › menor de edad (fecha en la puerta) → salida amable y sesión bloqueada 
+
+    Error: la política de privacidad se puede leer desde el bloqueo
+
+    expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('#screen-title')
+    Expected: "Política de privacidad"
+    Received: "Todavía no te toca"
+    Timeout:  3000ms
+
+    Call log:
+      - la política de privacidad se puede leer desde el bloqueo locator('#screen-title') with timeout 3000ms
+      - waiting for locator('#screen-title')
+        10 × locator resolved to <h1 tabindex="-1" id="screen-title" class="screen__title" data-autofocus="true">Todavía no te toca</h1>
+           - unexpected value "Todavía no te toca"
+
+
+      91 |     // Desde el bloqueo, el pie (aviso legal / privacidad) debería seguir siendo consultable.
+      92 |     await page.getByRole('button', { name: 'Privacidad' }).click();
+    > 93 |     await expect.soft(page.locator('#screen-title'), 'la política de privacidad se puede leer desde el bloqueo').toHaveText('Política de privacidad', { timeout: 3000 });
+         |                                                                                                                  ^
+      94 |     const back = page.getByRole('button', { name: 'Volver' });
+      95 |     if (await back.isVisible()) await back.click();
+      96 |     await expect(page.locator('#screen-title')).toHaveText('Todavía no te toca');
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\tarot.spec.ts:93:114
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-f3e6f-a-amable-y-sesión-bloqueada-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\tarot-Tarot-·-flujo-comple-f3e6f-a-amable-y-sesión-bloqueada-mobile\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-f3e6f-a-amable-y-sesión-bloqueada-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\tarot-Tarot-·-flujo-comple-f3e6f-a-amable-y-sesión-bloqueada-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [mobile] › e2e\tarot.spec.ts:119:3 › Tarot · flujo completo › sesión bloqueada: ¿sobrevive a recargar la página? 
+
+    Error: tras recargar sigue bloqueado
+
+    expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('#screen-title')
+    Expected: "Todavía no te toca"
+    Received: "¿Eres mayor de edad?"
+    Timeout:  15000ms
+
+    Call log:
+      - tras recargar sigue bloqueado locator('#screen-title') with timeout 15000ms
+      - waiting for locator('#screen-title')
+        33 × locator resolved to <h1 tabindex="-1" id="screen-title" class="screen__title" data-autofocus="true">¿Eres mayor de edad?</h1>
+           - unexpected value "¿Eres mayor de edad?"
+
+
+      124 |     await page.reload();
+      125 |     // Esperado por la spec: «la sesión se bloquea». Obtenido: tras recargar vuelve la puerta.
+    > 126 |     await expect(page.locator('#screen-title'), 'tras recargar sigue bloqueado').toHaveText('Todavía no te toca');
+          |                                                                                  ^
+      127 |   });
+      128 | });
+      129 |
+        at C:\Users\alvar\Documents\tarotazo\arcana\web\e2e\tarot.spec.ts:126:82
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-95f36-evive-a-recargar-la-página--mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\qa\test-results\tarot-Tarot-·-flujo-comple-95f36-evive-a-recargar-la-página--mobile\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\qa\test-results\tarot-Tarot-·-flujo-comple-95f36-evive-a-recargar-la-página--mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\qa\test-results\tarot-Tarot-·-flujo-comple-95f36-evive-a-recargar-la-página--mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17 failed
+    [desktop] › e2e\a11y.spec.ts:25:1 › teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe 
+    [desktop] › e2e\a11y.spec.ts:80:1 › teclado: cofres, carrusel, tiradas, corte y abanico + axe en el ritual y la lectura 
+    [desktop] › e2e\a11y.spec.ts:128:1 › teclado: menú (hamburguesa en móvil), Escape del selector de idioma + axe en péndulo y titulaciones 
+    [desktop] › e2e\pendulum.spec.ts:43:3 › Péndulo › calibración, «concentrarme» y los 7 modos llegan a una respuesta con texto 
+    [desktop] › e2e\pendulum.spec.ts:96:3 › Péndulo › misma pregunta 3 veces → el péndulo se enfada y se enrolla 
+    [desktop] › e2e\pendulum.spec.ts:114:3 › Péndulo › opciones: con menos de 2 opciones avisa sin llamar al servidor 
+    [desktop] › e2e\tarot.spec.ts:80:3 › Tarot · flujo completo › menor de edad (fecha en la puerta) → salida amable y sesión bloqueada 
+    [desktop] › e2e\tarot.spec.ts:119:3 › Tarot · flujo completo › sesión bloqueada: ¿sobrevive a recargar la página? 
+    [mobile] › e2e\a11y.spec.ts:25:1 › teclado: puerta, nombre, edad y mapa de provincias (Tab + Intro) + axe 
+    [mobile] › e2e\a11y.spec.ts:80:1 › teclado: cofres, carrusel, tiradas, corte y abanico + axe en el ritual y la lectura 
+    [mobile] › e2e\a11y.spec.ts:128:1 › teclado: menú (hamburguesa en móvil), Escape del selector de idioma + axe en péndulo y titulaciones 
+    [mobile] › e2e\pendulum.spec.ts:43:3 › Péndulo › calibración, «concentrarme» y los 7 modos llegan a una respuesta con texto 
+    [mobile] › e2e\pendulum.spec.ts:96:3 › Péndulo › misma pregunta 3 veces → el péndulo se enfada y se enrolla 
+    [mobile] › e2e\pendulum.spec.ts:114:3 › Péndulo › opciones: con menos de 2 opciones avisa sin llamar al servidor 
+    [mobile] › e2e\tarot.spec.ts:9:3 › Tarot · flujo completo › tarot RWS · Pasado/presente/futuro · provincia en el mapa · ratón 
+    [mobile] › e2e\tarot.spec.ts:80:3 › Tarot · flujo completo › menor de edad (fecha en la puerta) → salida amable y sesión bloqueada 
+    [mobile] › e2e\tarot.spec.ts:119:3 › Tarot · flujo completo › sesión bloqueada: ¿sobrevive a recargar la página? 
+  2 skipped
+  31 passed (7.7m)

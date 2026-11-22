@@ -1,0 +1,21 @@
+proxy-1       | 2026/11/22 12:12:31.262	[33mWARN[0m	admin	admin endpoint disabled
+arcana-api-1  | Picked up JAVA_TOOL_OPTIONS: -XX:InitialRAMPercentage=25 -XX:MaxRAMPercentage=75 -XX:MaxMetaspaceSize=160m -XX:ReservedCodeCacheSize=64m -Xss512k -XX:+ExitOnOutOfMemoryError -XX:-UsePerfData -Djava.io.tmpdir=/tmp -Djava.security.egd=file:/dev/urandom -Dfile.encoding=UTF-8
+arcana-api-1  | 2026-11-22T12:12:20.883Z  INFO 1 --- [arcana-api] [           main] es.arcana.ArcanaApplication              : Starting ArcanaApplication v0.1.0-SNAPSHOT using Java 25.0.5.1 with PID 1 (/app/app.jar started by arcana in /app)
+arcana-api-1  | 2026-11-22T12:12:20.887Z  INFO 1 --- [arcana-api] [           main] es.arcana.ArcanaApplication              : The following 1 profile is active: "prod"
+arcana-api-1  | 2026-11-22T12:12:23.883Z  INFO 1 --- [arcana-api] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+proxy-1       | 2026/11/22 12:12:31.268	[33mWARN[0m	http	HTTP/2 skipped because it requires TLS	{"network": "tcp", "addr": "127.0.0.1:8081"}
+proxy-1       | 2026/11/22 12:12:31.268	[33mWARN[0m	http	HTTP/3 skipped because it requires TLS	{"network": "tcp", "addr": "127.0.0.1:8081"}
+proxy-1       | 2026/11/22 12:12:31.268	[33mWARN[0m	http	HTTP/2 skipped because it requires TLS	{"network": "tcp", "addr": ":80"}
+proxy-1       | 2026/11/22 12:12:31.268	[33mWARN[0m	http	HTTP/3 skipped because it requires TLS	{"network": "tcp", "addr": ":80"}
+arcana-api-1  | 2026-11-22T12:12:23.903Z  INFO 1 --- [arcana-api] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+arcana-api-1  | 2026-11-22T12:12:23.903Z  INFO 1 --- [arcana-api] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+arcana-api-1  | 2026-11-22T12:12:24.094Z  INFO 1 --- [arcana-api] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3026 ms
+arcana-api-1  | 2026-11-22T12:12:24.811Z  INFO 1 --- [arcana-api] [           main] es.arcana.content.ContentRepository      : Cargando contenido desde classpath:content/ (contenido empaquetado en el jar)
+arcana-api-1  | 2026-11-22T12:12:26.069Z  INFO 1 --- [arcana-api] [           main] es.arcana.content.ContentRepository      : Contenido: 73 ficheros revisados, 0 errores, 0 avisos
+arcana-api-1  | 2026-11-22T12:12:26.070Z  INFO 1 --- [arcana-api] [           main] es.arcana.content.ContentRepository      : Contenido listo: barajas=[spanish, tarot], tiradas=7, provincias=53, idiomas=[es]
+arcana-api-1  | 2026-11-22T12:12:27.675Z  INFO 1 --- [arcana-api] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+arcana-api-1  | 2026-11-22T12:12:27.807Z  INFO 1 --- [arcana-api] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+arcana-api-1  | 2026-11-22T12:12:27.878Z  INFO 1 --- [arcana-api] [           main] es.arcana.ArcanaApplication              : Started ArcanaApplication in 8.087 seconds (process running for 9.002)
+arcana-api-1  | 2026-11-22T12:12:29.106Z  INFO 1 --- [arcana-api] [omcat-handler-0] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+arcana-api-1  | 2026-11-22T12:12:29.107Z  INFO 1 --- [arcana-api] [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+arcana-api-1  | 2026-11-22T12:12:29.108Z  INFO 1 --- [arcana-api] [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

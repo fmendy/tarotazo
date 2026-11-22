@@ -1,0 +1,52 @@
+
+
+  █ THRESHOLDS 
+
+    http_req_failed{phase:load}
+    ✓ 'rate<0.01' rate=0.00%
+
+    t_decks{phase:load}
+    ✓ 'p(95)<100' p(95)=1.69ms
+    ✓ 'p(99)<300' p(99)=1.93ms
+
+    t_readings{phase:load}
+    ✓ 'p(95)<300' p(95)=3.17ms
+    ✓ 'p(99)<800' p(99)=3.82ms
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 88196   722.931282/s
+    checks_succeeded...: 100.00% 88196 out of 88196
+    checks_failed......: 0.00%   0 out of 88196
+
+    ✓ decks 200
+    ✓ readings 200
+    ✓ readings tiene cartas
+
+    CUSTOM
+    t_decks........................: min=100.57µs med=1.36ms avg=1.66ms p(90)=2.81ms p(95)=3.62ms p(99)=5.36ms max=73.82ms 
+      { phase:load }...............: min=100.57µs med=1.19ms avg=1.23ms p(90)=1.6ms  p(95)=1.69ms p(99)=1.93ms max=4.21ms  
+    t_readings.....................: min=838.14µs med=2.26ms avg=2.63ms p(90)=4.2ms  p(95)=5.3ms  p(99)=8.13ms max=123.11ms
+      { phase:load }...............: min=976.47µs med=2.15ms avg=2.2ms  p(90)=2.92ms p(95)=3.17ms p(99)=3.82ms max=8.12ms  
+
+    HTTP
+    http_req_duration..............: min=100.57µs med=1.99ms avg=2.33ms p(90)=3.85ms p(95)=4.89ms p(99)=7.69ms max=123.11ms
+      { expected_response:true }...: min=100.57µs med=1.99ms avg=2.33ms p(90)=3.85ms p(95)=4.89ms p(99)=7.69ms max=123.11ms
+    http_req_failed................: 0.00%  0 out of 52111
+      { phase:load }...............: 0.00%  0 out of 18001
+    http_reqs......................: 52111  427.147173/s
+
+    EXECUTION
+    iteration_duration.............: min=804.43µs med=2.28ms avg=2.63ms p(90)=4.3ms  p(95)=5.35ms p(99)=8.23ms max=128.75ms
+    iterations.....................: 52111  427.147173/s
+    vus............................: 0      min=0          max=5  
+    vus_max........................: 180    min=180        max=180
+
+    NETWORK
+    data_received..................: 225 MB 1.8 MB/s
+    data_sent......................: 17 MB  142 kB/s
+
+
+
+k6 v2.4.0 (commit/dd9395906d, go1.27.3, linux/amd64)

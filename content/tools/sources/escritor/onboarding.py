@@ -8,7 +8,7 @@ puerta = {
     "aviso": "Tarotazo es entretenimiento y humor para adultos. Madame Remedios tiene más diplomas que aciertos: nada de lo que digan las cartas o el péndulo es consejo médico, legal, psicológico ni financiero. No guardamos tus datos: tu nombre y tu edad se quedan en este navegador.",
     "si": "Sí, tengo 18 o más",
     "no": "Todavía no",
-    "fecha": "O dime tu fecha de nacimiento, que así te saco el signo",
+    "fecha": "También puedes darme tu fecha de nacimiento, que así te saco el signo",
     "bienvenida": [
         "Pasa, pasa, que se enfría el incienso.",
         "Adelante. Las velas ya estaban encendidas; las encendí por si acaso.",
