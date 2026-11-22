@@ -1,0 +1,53 @@
+name: pages
+
+# Publica los textos legales estáticos (web/public/legal/) en GitHub Pages para tener la URL de
+# política de privacidad que exige Google Play:
+#   https://fmendy.github.io/tarotazo/legal/privacidad.html
+# Requisito (una vez): Settings -> Pages -> Build and deployment -> Source: «GitHub Actions».
+
+on:
+  push:
+    branches: [main]
+    paths: ['web/public/legal/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preparar sitio (_site/legal)
+        run: |
+          test -f web/public/legal/privacidad.html || { echo "::error::Falta web/public/legal/privacidad.html"; exit 1; }
+          mkdir -p _site/legal
+          cp -R web/public/legal/. _site/legal/
+          # Sin Jekyll (sirve los ficheros tal cual) y raíz que lleva a la política.
+          touch _site/.nojekyll
+          if [ ! -f _site/index.html ]; then
+            printf '%s\n' '<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex">' \
+              '<meta http-equiv="refresh" content="0; url=legal/privacidad.html">' \
+              '<title>Tarotazo</title><a href="legal/privacidad.html">Política de privacidad</a>' > _site/index.html
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}legal/privacidad.html
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

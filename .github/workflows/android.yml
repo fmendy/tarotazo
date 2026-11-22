@@ -1,0 +1,134 @@
+name: android
+
+# App Android sin conexión (Capacitor). Ver docs/ANDROID.md y docs/MOBILE.md.
+#  - push / PR que toquen web/, content/ o art/  -> APK debug (artefacto)
+#  - workflow_dispatch o tag v*                   -> AAB release firmado (artefacto)
+#
+# Secretos para el release (Settings -> Secrets and variables -> Actions; sin valores en el repo):
+#   ANDROID_KEYSTORE_BASE64    keystore de SUBIDA (upload key) en base64 (`base64 -w0 upload.jks`)
+#   ANDROID_KEYSTORE_PASSWORD  contraseña del keystore
+#   ANDROID_KEY_ALIAS          alias de la clave (p. ej. upload)
+#   ANDROID_KEY_PASSWORD       contraseña de la clave
+# La clave de firma de la APP la custodia Google (Play App Signing).
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+    paths: ['web/**', 'content/**', 'art/**', '.github/workflows/android.yml']
+  pull_request:
+    paths: ['web/**', 'content/**', 'art/**', '.github/workflows/android.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: "24"
+  JAVA_VERSION: "21"   # AGP 8.13 / Capacitor 8 -> JDK 21 (no 25)
+
+jobs:
+  debug:
+    name: APK debug
+    if: github.event_name == 'push' && !startsWith(github.ref, 'refs/tags/') || github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+      # El runner trae el SDK de Android (ANDROID_HOME); AGP descarga lo que falte
+      # (platforms;android-36, build-tools) con las licencias ya aceptadas en la imagen.
+      - uses: gradle/actions/setup-gradle@v4
+      - run: npm ci
+      - name: Build offline (VITE_OFFLINE=1)
+        run: npm run build:app
+      - run: npx cap sync android
+      - name: assembleDebug
+        working-directory: web/android
+        run: chmod +x gradlew && ./gradlew --no-daemon assembleDebug
+      - name: Sin permiso INTERNET en el manifiesto final
+        run: |
+          APK="$(ls android/app/build/outputs/apk/debug/*.apk | head -n1)"
+          AAPT="$(ls "$ANDROID_HOME"/build-tools/*/aapt2 | sort -V | tail -n1)"
+          "$AAPT" dump permissions "$APK" | tee perms.txt
+          if grep -q "android.permission.INTERNET" perms.txt; then
+            echo "::warning::El APK declara INTERNET (ver docs/MOBILE.md)"
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tarotazo-debug-apk
+          path: web/android/app/build/outputs/apk/debug/*.apk
+          retention-days: 14
+
+  release:
+    name: AAB release firmado
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    environment: android-release
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: true
+      - run: npm ci
+      - run: npm run build:app
+      - run: npx cap sync android
+      - name: Keystore de subida (desde secreto)
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [ -z "$ANDROID_KEYSTORE_BASE64" ]; then echo "::error::Falta ANDROID_KEYSTORE_BASE64"; exit 1; fi
+          echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+      - name: bundleRelease (firma inyectada, sin tocar build.gradle)
+        working-directory: web/android
+        env:
+          KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASS: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          chmod +x gradlew
+          ./gradlew --no-daemon bundleRelease \
+            -Pandroid.injected.signing.store.file="$RUNNER_TEMP/upload.jks" \
+            -Pandroid.injected.signing.store.password="$KS_PASS" \
+            -Pandroid.injected.signing.key.alias="$KEY_ALIAS" \
+            -Pandroid.injected.signing.key.password="$KEY_PASS"
+      - name: Verificar firma del AAB
+        run: |
+          AAB="$(ls android/app/build/outputs/bundle/release/*.aab | head -n1)"
+          jarsigner -verify "$AAB" | tail -n2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tarotazo-release-aab
+          path: web/android/app/build/outputs/bundle/release/*.aab
+          retention-days: 30
+      - name: Borrar keystore
+        if: always()
+        run: rm -f "$RUNNER_TEMP/upload.jks"
