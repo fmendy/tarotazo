@@ -251,7 +251,7 @@ for (const lang of ordered) {
   const missing = m => (isBase ? log.pending(m) : log.warn(`${m} (se usará ${BASE_LANG})`));
   const store = (loaded[lang] = {});
   log.section(`Idioma ${lang}/`);
-  const KNOWN = new Set(['cards', 'meanings', 'fragments', 'provinces', 'spreads.json', 'interactions.json', 'titles.json', 'onboarding.json', 'pendulum.json']);
+  const KNOWN = new Set(['cards', 'meanings', 'fragments', 'provinces', 'spreads.json', 'interactions.json', 'titles.json', 'onboarding.json', 'pendulum.json', 'server-labels.json']);
   const unknown = readdirSync(L).filter(n => !KNOWN.has(n) && !n.startsWith('.'));
   if (unknown.length) log.warn(`${lang}/: entradas no reconocidas (no se validan): ${unknown.join(', ')}`);
 
@@ -448,6 +448,28 @@ for (const lang of ordered) {
         ok = flushText(file) && ok;
         for (const r of d?.nombre?.porLongitud || []) if (r.min > r.max) { log.error(`${rel(file)}: porLongitud min > max`); ok = false; }
         store.onboarding = d;
+        if (ok) log.ok(rel(file));
+      }
+    }
+  }
+
+  // server-labels (textos del motor: API y app sin conexión). Obligatorio en el idioma base.
+  {
+    const file = join(L, 'server-labels.json');
+    if (!existsSync(file)) { if (isBase) log.pending(`${lang}/server-labels.json no existe`); }
+    else {
+      const d = readJson(file);
+      if (d) {
+        let ok = validateSchema(file, d, 'server-labels');
+        if (isBase) {
+          const REQUIRED = ['signos', 'dias', 'estaciones', 'fasesLunares', 'tonos', 'temas', 'respuestas', 'luckyColors',
+            'disclaimer', 'disclaimerSalud', 'saludFallback', 'provinciaExtranjero', 'provinciaDesconocida'];
+          const miss = REQUIRED.filter(k => d[k] === undefined);
+          if (miss.length) { log.error(`${rel(file)}: faltan claves: ${miss.join(', ')}`); ok = false; }
+        }
+        walkTexts(d, 'server-labels', VARS.default, new Set(['luckyColors']));
+        ok = flushText(file) && ok;
+        store['server-labels'] = d;
         if (ok) log.ok(rel(file));
       }
     }

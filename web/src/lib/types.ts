@@ -119,3 +119,20 @@ export interface PendulumContent {
 }
 
 export interface ApiError { error: string; message: string }
+
+// ---- Motor local (app sin conexión, docs/MOBILE.md) ----
+export type Province = ProvinceInfo;
+export type Onboarding = OnboardingFile;
+
+/** Interfaz común del API remoto y del motor local (`web/src/engine`). Mismas formas que el §6. */
+export interface ArcanaApi {
+  getDecks(lang: string): Promise<Deck[]>;
+  getSpreads(lang: string, deck?: string): Promise<Spread[]>;
+  getProvinces(lang: string): Promise<Province[]>;
+  getTitles(lang: string): Promise<TitlesFile>;
+  getOnboarding(lang: string): Promise<Onboarding>;
+  getPendulumContent(lang: string, provincia?: string): Promise<PendulumContent>;
+  createReading(req: ReadingRequest, lang: string): Promise<ReadingResponse>;
+  nextLine(req: NextLineRequest, lang: string): Promise<NextLineResponse>;
+  pendulumAnswer(req: PendulumRequest, lang: string): Promise<PendulumResponse>;
+}

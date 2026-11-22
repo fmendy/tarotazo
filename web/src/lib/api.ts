@@ -3,7 +3,7 @@
 // Los cuerpos se construyen con listas blancas de campos, así que aunque alguien pase
 // un objeto con más datos, sólo viaja lo permitido.
 import type {
-  Deck, DeckFamily, PendulumContent, NextLineRequest, NextLineResponse, OnboardingFile, PendulumRequest,
+  ArcanaApi, Deck, DeckFamily, PendulumContent, NextLineRequest, NextLineResponse, OnboardingFile, PendulumRequest,
   PendulumResponse, ProvinceInfo, ReadingContext, ReadingRequest, ReadingResponse, Spread, TitlesFile,
 } from './types';
 
@@ -74,18 +74,51 @@ async function request<T>(method: 'GET' | 'POST', path: string, body?: unknown):
   return (await res.json()) as T;
 }
 
+// ---------------------------------------------------------------------------------------------
+// Modo sin conexión (app Android, VITE_OFFLINE=1): el motor local responde sin red.
+// El import es dinámico y está dentro de una condición que Vite resuelve en compilación, así que
+// la web normal ni descarga ni empaqueta el motor ni el contenido.
+// ---------------------------------------------------------------------------------------------
+export const OFFLINE = import.meta.env.VITE_OFFLINE === '1';
+let localApi: Promise<ArcanaApi> | null = null;
+/** Inyecta un motor local (tests) o lo quita (null). */
+export function setLocalApi(a: ArcanaApi | null) { localApi = a ? Promise.resolve(a) : null; }
+
+function local(): Promise<ArcanaApi> | null {
+  if (localApi) return localApi;
+  if (OFFLINE) {
+    const mods = import.meta.glob<{ createLocalApi(): ArcanaApi }>('../engine/index.ts');
+    const load = mods['../engine/index.ts'];
+    if (!load) throw new ApiFailure(500, 'no_engine', 'Motor local no disponible');
+    localApi = load().then((m) => m.createLocalApi());
+    return localApi;
+  }
+  return null;
+}
+
+/** Copia profunda: el motor local devuelve objetos internos que no deben compartirse con la UI. */
+const clone = <T,>(x: T): T => (typeof structuredClone === 'function' ? structuredClone(x) : JSON.parse(JSON.stringify(x)));
+
+async function via<T>(remote: () => Promise<T>, offline: (a: ArcanaApi, lang: string) => Promise<T>): Promise<T> {
+  const l = local();
+  if (!l) return remote();
+  return clone(await offline(await l, langProvider()));
+}
+
 export const api = {
-  decks: () => request<Deck[]>('GET', '/decks'),
-  spreads: (deck: DeckFamily) => request<Spread[]>('GET', `/spreads?deck=${encodeURIComponent(deck)}`),
-  provinces: () => request<ProvinceInfo[]>('GET', '/provinces'),
-  onboarding: () => request<OnboardingFile>('GET', '/content/onboarding'),
-  titles: () => request<TitlesFile>('GET', '/titles'),
+  decks: () => via(() => request<Deck[]>('GET', '/decks'), (a, l) => a.getDecks(l)),
+  spreads: (deck: DeckFamily) => via(() => request<Spread[]>('GET', `/spreads?deck=${encodeURIComponent(deck)}`), (a, l) => a.getSpreads(l, deck)),
+  provinces: () => via(() => request<ProvinceInfo[]>('GET', '/provinces'), (a, l) => a.getProvinces(l)),
+  onboarding: () => via(() => request<OnboardingFile>('GET', '/content/onboarding'), (a, l) => a.getOnboarding(l)),
+  titles: () => via(() => request<TitlesFile>('GET', '/titles'), (a, l) => a.getTitles(l)),
   /** Sólo el código de provincia (para «chorizo de {provincia}»), nunca más datos. */
-  pendulumContent: (provincia?: string | null) =>
-    request<PendulumContent>('GET', '/content/pendulum' + (provincia ? `?provincia=${encodeURIComponent(provincia)}` : '')),
-  reading: (r: ReadingRequest) => request<ReadingResponse>('POST', '/readings', readingBody(r)),
-  nextLine: (r: NextLineRequest) => request<NextLineResponse>('POST', '/readings/next-line', nextLineBody(r)),
-  pendulum: (r: PendulumRequest) => request<PendulumResponse>('POST', '/pendulum/answer', pendulumBody(r)),
+  pendulumContent: (provincia?: string | null) => via(
+    () => request<PendulumContent>('GET', '/content/pendulum' + (provincia ? `?provincia=${encodeURIComponent(provincia)}` : '')),
+    (a, l) => a.getPendulumContent(l, provincia ?? undefined)),
+  // También en local se aplican las listas blancas: el motor recibe lo mismo que recibiría el servidor.
+  reading: (r: ReadingRequest) => via(() => request<ReadingResponse>('POST', '/readings', readingBody(r)), (a, l) => a.createReading(readingBody(r), l)),
+  nextLine: (r: NextLineRequest) => via(() => request<NextLineResponse>('POST', '/readings/next-line', nextLineBody(r)), (a, l) => a.nextLine(nextLineBody(r), l)),
+  pendulum: (r: PendulumRequest) => via(() => request<PendulumResponse>('POST', '/pendulum/answer', pendulumBody(r)), (a, l) => a.pendulumAnswer(pendulumBody(r), l)),
 };
 
 // Caché en memoria (contenido público, no personal).
