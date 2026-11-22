@@ -322,10 +322,12 @@ textarea.input { resize: vertical; }
 .frame--madera .diploma__framecss { border-color: #6b3f1d; outline-color: #a86a35; }
 .frame--moderno .diploma__framecss { border-color: #222; outline-color: #999; border-width: 8px; }
 .frame--pergamino .diploma__framecss { border-color: #b48a4a; outline-style: dashed; }
-.diploma__paper { position: absolute; inset: 14%; background: var(--g-paper, #f3e6c8); color: var(--c-paper-ink, #2b1a12); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: var(--s-2, 8px); text-align: center; overflow: hidden; }
+/* El SVG del marco ya trae su papel (data-inner="110 100 580 400" sobre 800×600): el texto va encima, sin fondo propio. */
+.diploma__frame:has(.diploma__framecss) .diploma__paper { background: var(--g-paper, #f3e6c8); }
+.diploma__paper { position: absolute; inset: 16.67% 13.75%; z-index: 2; background: none; color: var(--c-paper-ink, #2b1a12); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: var(--s-2, 8px); text-align: center; overflow: hidden; }
 .diploma__title { margin: 0; font-family: var(--f-title, serif); font-size: .95rem; line-height: 1.2; }
 .diploma__center, .diploma__year { margin: 0; font-size: .75rem; color: var(--c-paper-ink-muted, #5e4630); }
-.diploma__stamp { position: absolute; right: 8%; bottom: 8%; z-index: 2; color: var(--c-crimson, #a3213a); font-family: var(--f-poster, serif); font-size: .8rem; max-width: 60%; }
+.diploma__stamp { position: absolute; right: 8%; bottom: 8%; z-index: 3; pointer-events: none; color: var(--c-crimson, #a3213a); font-family: var(--f-poster, serif); font-size: .8rem; max-width: 60%; }
 .diploma.is-active .diploma__frame, .diploma__frame:focus-visible { filter: drop-shadow(0 0 10px var(--c-gold-light, #f0cf7a)) drop-shadow(0 0 24px var(--c-candle, #ffb347)); transform: scale(1.03); }
 
 /* ---------- legal ---------- */

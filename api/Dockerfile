@@ -33,7 +33,7 @@ FROM eclipse-temurin:${JAVA_VERSION}-jre-alpine AS runtime
 
 LABEL org.opencontainers.image.title="arcana-api" \
       org.opencontainers.image.description="Tarotazo — API sin estado (Spring Boot, Java 25)" \
-      org.opencontainers.image.source="https://github.com/OWNER/arcana"
+      org.opencontainers.image.source="https://github.com/fmendy/tarotazo"
 
 RUN apk upgrade --no-cache \
  && addgroup -S -g 10001 arcana \

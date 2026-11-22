@@ -10,6 +10,15 @@ test('titulaciones: muro visible y compulsar un título', async ({ page, baseURL
   const diplomas = page.locator('.diplomas > li');
   await expect(diplomas.first()).toBeVisible();
   expect(await diplomas.count()).toBeGreaterThanOrEqual(10);
+  // El texto del diploma no debe quedar tapado por el marco (regresión: marco SVG encima del papel)
+  const firstTitle = diplomas.first().locator('.diploma__title');
+  await firstTitle.scrollIntoViewIfNeeded();
+  await expect(firstTitle).toBeVisible();
+  await expect.poll(() => firstTitle.evaluate((el) => {
+    const r = el.getBoundingClientRect();
+    const top = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
+    return !!top && (top === el || el.contains(top));
+  }), { message: 'el título del diploma está tapado por otro elemento', timeout: 5000 }).toBe(true);
   // Al pasar por un diploma la vidente comenta
   await diplomas.nth(1).locator('.diploma__frame').hover();
   await expect(page.locator('.titles__seer .bubble')).toContainText('«');

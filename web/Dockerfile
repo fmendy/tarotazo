@@ -28,7 +28,7 @@ FROM nginxinc/nginx-unprivileged:${NGINX_VERSION}-alpine AS runtime
 
 LABEL org.opencontainers.image.title="arcana-web" \
       org.opencontainers.image.description="Tarotazo — front React servido por Nginx sin root" \
-      org.opencontainers.image.source="https://github.com/OWNER/arcana"
+      org.opencontainers.image.source="https://github.com/fmendy/tarotazo"
 
 USER root
 # Configuración propia (sustituye la principal) y fuera el default.conf de la imagen.
