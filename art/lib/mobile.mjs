@@ -81,15 +81,23 @@ export const bg = (w, h, fill = 'url(#velvet)', seed = 1) => rect(0, 0, w, h, { 
 export const SHOT = { W: 1080, H: 1920, sx: 150, sy: 430, sw: 780, sh: 1386, r: 46 };
 export function screenshotFrame({ headline = '', image, imgW, imgH }) {
   const { W, H, sx, sy, sw, sh, r } = SHOT;
-  // titular: hasta 2 líneas, centrado
+  // titular: nunca se trunca. Se prueba de 84 px hacia abajo hasta que quepa en ≤ 3 líneas dentro de la franja superior.
   const words = headline.split(/\s+/).filter(Boolean);
   const f = FONT.display();
-  const lines = [];
-  let cur = '';
   const width = (t, size) => text(t, { f, size }).width;
-  for (const w of words) { const t = cur ? cur + ' ' + w : w; if (width(t, 84) > 940 && cur) { lines.push(cur); cur = w; } else cur = t; }
-  if (cur) lines.push(cur);
-  const head = lines.slice(0, 2).map((l, i) => text(l, { f, size: 84, x: W / 2, y: (lines.length > 1 ? 190 : 250) + i * 110, maxWidth: 960, attr: { fill: C.goldLight } }).svg).join('');
+  const wrap = (size) => {
+    const out = [];
+    let cur = '';
+    for (const w of words) { const t = cur ? cur + ' ' + w : w; if (width(t, size) > 960 && cur) { out.push(cur); cur = w; } else cur = t; }
+    if (cur) out.push(cur);
+    return out;
+  };
+  const top = 70, bottom = sy - 60; // franja disponible para el titular
+  let size = 84, lines = wrap(size);
+  while (size > 40 && (lines.length > 3 || lines.length * size * 1.25 > bottom - top || lines.some((l) => width(l, size) > 980))) { size -= 4; lines = wrap(size); }
+  const lh = size * 1.25;
+  const y0 = top + (bottom - top - lines.length * lh) / 2 + size * 0.95;
+  const head = lines.map((l, i) => text(l, { f, size, x: W / 2, y: y0 + i * lh, maxWidth: 1000, attr: { fill: C.goldLight } }).svg).join('');
   let img = '';
   if (image) {
     // ajusta la captura cubriendo el hueco (recorte centrado)
@@ -97,7 +105,7 @@ export function screenshotFrame({ headline = '', image, imgW, imgH }) {
     img = `<clipPath id="scr"><rect x="${sx}" y="${sy}" width="${sw}" height="${sh}" rx="${r}"/></clipPath><image clip-path="url(#scr)" x="${sx + (sw - w) / 2}" y="${sy + (sh - h) / 2}" width="${w}" height="${h}" preserveAspectRatio="none" href="data:image/png;base64,${image.toString('base64')}"/>`;
   }
   const body = [
-    bg(W, H, 'url(#velvet)', 7),
+    rect(0, 0, W, H, { fill: 'url(#velvet)' }), `<clipPath id="nostars"><rect y="${sy - 40}" width="${W}" height="${H}"/></clipPath>`, g({ 'clip-path': 'url(#nostars)' }, bg(W, H, 'url(#velvet)', 7)),
     head,
     // teléfono
     rect(sx - 26, sy - 26, sw + 52, sh + 52, { rx: r + 24, fill: '#0c0716', stroke: C.gold, 'stroke-width': 5 }),
