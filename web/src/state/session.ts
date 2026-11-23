@@ -1,13 +1,15 @@
 // Estado de sesión en MEMORIA (Zustand sin middleware de persistencia).
 // Ningún dato personal se escribe en cookies, localStorage ni sessionStorage. La única
-// excepción (QA-09, decisión del JP) es el indicador NO personal `arcana.blocked=1` en
-// sessionStorage, para que el bloqueo de menores sobreviva a una recarga de la pestaña.
+// excepción (QA-09, decisión del JP) es el indicador NO personal `arcana.blocked`: en la web, `=1` en
+// sessionStorage (sobrevive a recargar la pestaña); en la app (A-4), `{"t": <ms>}` en localStorage
+// durante 24 h (sobrevive a cerrar y reabrir la app).
 import { create } from 'zustand';
 import type {
   Answer, DeckFamily, ReadingContext, ReadingResponse, Signo, Tema, PendulumModel,
 } from '../lib/types';
 import { newToneSeed, randomInt } from '../lib/random';
 import { derive, parseIsoDate } from '../lib/astro';
+import { isApp } from '../lib/mode';
 
 export type Screen =
   | 'gate' | 'name' | 'age' | 'province' | 'deck' | 'spread' | 'shuffle' | 'cut' | 'reading' | 'closing'
@@ -16,11 +18,26 @@ export type Screen =
 export const FLOW: Screen[] = ['gate', 'name', 'age', 'province', 'deck', 'spread', 'shuffle', 'cut', 'reading', 'closing'];
 
 const BLOCK_KEY = 'arcana.blocked';
-export function readBlockedFlag(): boolean {
-  try { return globalThis.sessionStorage?.getItem(BLOCK_KEY) === '1'; } catch { return false; }
+/** En la app (A-4) el bloqueo sobrevive a cerrar y reabrir: localStorage con marca de tiempo, 24 h. */
+export const APP_BLOCK_MS = 24 * 60 * 60 * 1000;
+export function readBlockedFlag(now = Date.now()): boolean {
+  try {
+    if (isApp()) {
+      const raw = globalThis.localStorage?.getItem(BLOCK_KEY);
+      if (!raw) return false;
+      const t = Number(JSON.parse(raw)?.t);
+      if (Number.isFinite(t) && now - t >= 0 && now - t < APP_BLOCK_MS) return true;
+      globalThis.localStorage?.removeItem(BLOCK_KEY); // caducado o corrupto
+      return false;
+    }
+    return globalThis.sessionStorage?.getItem(BLOCK_KEY) === '1';
+  } catch { return false; }
 }
-function writeBlockedFlag() {
-  try { globalThis.sessionStorage?.setItem(BLOCK_KEY, '1'); } catch { /* sin almacenamiento: sólo en memoria */ }
+function writeBlockedFlag(now = Date.now()) {
+  try {
+    if (isApp()) globalThis.localStorage?.setItem(BLOCK_KEY, JSON.stringify({ t: now }));
+    else globalThis.sessionStorage?.setItem(BLOCK_KEY, '1');
+  } catch { /* sin almacenamiento: sólo en memoria */ }
 }
 
 export interface SessionData {

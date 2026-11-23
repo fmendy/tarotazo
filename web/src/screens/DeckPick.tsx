@@ -57,6 +57,8 @@ export function DeckPick() {
           <h2 className="subtitle">{deck.name} · {t('deck.models')}</h2>
           <Carousel3D
             items={deck.models}
+            itemWidth={190}
+            height={400}
             render={(m: DeckModel) => <ModelCard m={m} selected={s.model === m.id} />}
             onSelect={(m: DeckModel) => { if (m.available) { s.setModel(m.id); sfx('flip'); } }}
             getLabel={(m: DeckModel) => (m.available ? m.name : `${m.name} (${t('deck.soon')})`)}

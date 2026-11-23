@@ -1,5 +1,6 @@
-import { beforeEach, describe, expect, it } from 'vitest';
-import { initialData, useSession } from '../state/session';
+import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+import { APP_BLOCK_MS, initialData, readBlockedFlag, useSession } from '../state/session';
+import { setAppModeForTests } from '../lib/mode';
 
 const st = () => useSession.getState();
 
@@ -124,5 +125,37 @@ describe('store de sesión (en memoria, sin persistencia)', () => {
     const r = (ids: string[]) => ({ usedFragmentIds: ids } as never);
     st().setReading(r(['a'])); st().setReading(r(['b'])); st().setReading(r(['c'])); st().setReading(r(['d']));
     expect(st().flatRecentIds()).toEqual(['b', 'c', 'd']);
+  });
+});
+
+describe('bloqueo en la app (A-4): localStorage con marca de tiempo, 24 h', () => {
+  beforeEach(() => { localStorage.clear(); sessionStorage.clear(); setAppModeForTests(true); useSession.setState(initialData()); });
+  afterEach(() => { setAppModeForTests(null); localStorage.clear(); });
+
+  it('sobrevive a «cerrar y reabrir» y sólo guarda la marca de tiempo', () => {
+    useSession.getState().block();
+    expect(sessionStorage.length).toBe(0);
+    expect(localStorage.length).toBe(1);
+    expect(localStorage.key(0)).toBe('arcana.blocked');
+    const v = JSON.parse(localStorage.getItem('arcana.blocked')!);
+    expect(Object.keys(v)).toEqual(['t']);
+    expect(initialData()).toMatchObject({ blocked: true, screen: 'blocked' });
+  });
+
+  it('caduca a las 24 h y se borra', () => {
+    localStorage.setItem('arcana.blocked', JSON.stringify({ t: Date.now() - APP_BLOCK_MS - 1000 }));
+    expect(readBlockedFlag()).toBe(false);
+    expect(localStorage.getItem('arcana.blocked')).toBeNull();
+    localStorage.setItem('arcana.blocked', JSON.stringify({ t: Date.now() - APP_BLOCK_MS + 60_000 }));
+    expect(readBlockedFlag()).toBe(true);
+  });
+
+  it('en la app sólo arcana.muted y arcana.blocked en localStorage; nada en sessionStorage', () => {
+    useSession.getState().passGate('1990-07-25'); useSession.getState().setName('Vanesa');
+    useSession.getState().block();
+    localStorage.setItem('arcana.muted', '1');
+    for (let i = 0; i < localStorage.length; i++) expect(['arcana.muted', 'arcana.blocked']).toContain(localStorage.key(i));
+    expect(sessionStorage.length).toBe(0);
+    expect(JSON.stringify({ ...localStorage })).not.toContain('Vanesa');
   });
 });

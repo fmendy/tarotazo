@@ -2,6 +2,22 @@ import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from 
 import { useTranslation } from 'react-i18next';
 import { ApiFailure } from '../lib/api';
 
+/**
+ * Atributos para campos con datos personales o privados (nombre, pregunta, opciones): sin
+ * autocompletar, sin autocorrección ni corrector, para que el teclado (Gboard) no sugiera ni aprenda
+ * lo escrito (A-5). Es lo máximo que permite HTML estándar en un WebView.
+ */
+export function privateInput(capitalize: 'words' | 'sentences' | 'none' = 'sentences') {
+  return {
+    autoComplete: 'off',
+    autoCorrect: 'off',
+    autoCapitalize: capitalize,
+    spellCheck: false,
+    inputMode: 'text' as const,
+    'aria-autocomplete': 'none' as const,
+  };
+}
+
 /** Imagen que degrada con elegancia si el fichero aún no existe. */
 export function Img(p: { src: string; alt: string; className?: string; style?: CSSProperties; fallback?: ReactNode; decorative?: boolean }) {
   const [failed, setFailed] = useState(false);

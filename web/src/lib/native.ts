@@ -67,15 +67,52 @@ export function haptic(kind: 'light' | 'medium' = 'light') {
     .catch(() => {});
 }
 
-/** Guarda la imagen en la caché de la app y abre la hoja de compartir del sistema (guardar, enviar…). */
-export async function shareImageNative(blob: Blob, filename: string, text: string): Promise<boolean> {
-  if (!isNative()) return false;
-  const [{ Filesystem, Directory }, { Share }] = await Promise.all([import('@capacitor/filesystem'), import('@capacitor/share')]);
-  const data = await blobToBase64(blob);
-  const res = await Filesystem.writeFile({ path: filename, data, directory: Directory.Cache });
+// ---- Imagen y diploma (A-1: privacidad) ---------------------------------------------------------
+// La copia temporal vive en `cache/share/` (carpeta propia) y se borra: al cerrarse la hoja de compartir
+// (éxito o cancelación), al salir o caducar la sesión (cambio de `epoch`) y al arrancar la app.
+export const SHARE_DIR = 'share';
+
+type FsMod = typeof import('@capacitor/filesystem');
+type ShareMod = typeof import('@capacitor/share');
+let modsOverride: { fs: FsMod; share: ShareMod } | null = null;
+/** Sólo para pruebas: inyecta Filesystem/Share falsos y fuerza el modo nativo. */
+export function setNativeModulesForTests(m: { fs: FsMod; share: ShareMod } | null) { modsOverride = m; }
+const native = () => isNative() || !!modsOverride;
+async function mods(): Promise<{ fs: FsMod; share: ShareMod }> {
+  if (modsOverride) return modsOverride;
+  const [fs, share] = await Promise.all([import('@capacitor/filesystem'), import('@capacitor/share')]);
+  return { fs, share };
+}
+
+/** Borra todas las copias temporales (no falla si no existen). */
+export async function purgeShareCache(): Promise<void> {
+  if (!native()) return;
   try {
-    await Share.share({ title: filename, text, files: [res.uri], dialogTitle: text });
-  } catch { /* el usuario canceló */ }
+    const { fs } = await mods();
+    await fs.Filesystem.rmdir({ path: SHARE_DIR, directory: fs.Directory.Cache, recursive: true });
+  } catch { /* no había nada */ }
+}
+
+/** Salir, inactividad o bloqueo cambian `epoch`: se borran las copias temporales al instante. */
+export function watchSessionForShareCache(): () => void {
+  return useSession.subscribe((s, prev) => { if (s.epoch !== prev.epoch) void purgeShareCache(); });
+}
+
+/** Escribe la imagen en la caché, abre la hoja de compartir del sistema (guardar, enviar…) y la borra. */
+export async function shareImageNative(blob: Blob, filename: string, text: string): Promise<boolean> {
+  if (!native()) return false;
+  const { fs, share } = await mods();
+  const { Filesystem, Directory } = fs;
+  const path = `${SHARE_DIR}/${filename.replace(/[^a-z0-9._-]/gi, '_')}`;
+  const data = await blobToBase64(blob);
+  const res = await Filesystem.writeFile({ path, data, directory: Directory.Cache, recursive: true });
+  try {
+    await share.Share.share({ title: filename, text, files: [res.uri], dialogTitle: text });
+  } catch {
+    // Cancelar la hoja no es un error (A-6): no se registra nada.
+  } finally {
+    try { await Filesystem.deleteFile({ path, directory: Directory.Cache }); } catch { /* ya no estaba */ }
+  }
   return true;
 }
 
@@ -92,6 +129,9 @@ function blobToBase64(blob: Blob): Promise<string> {
 export async function initNative(): Promise<void> {
   if (!isNative()) return;
   document.documentElement.classList.add('is-native');
+  // Restos de una sesión anterior (p. ej. la app se cerró con la hoja de compartir abierta).
+  void purgeShareCache();
+  watchSessionForShareCache();
   const [{ App }, { StatusBar, Style }] = await Promise.all([import('@capacitor/app'), import('@capacitor/status-bar')]);
   void StatusBar.setStyle({ style: Style.Dark }).catch(() => {});
   void StatusBar.setBackgroundColor({ color: '#140a1f' }).catch(() => {});

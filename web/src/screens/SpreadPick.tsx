@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useSession } from '../state/session';
 import { getSpreads } from '../state/content';
 import { useAsync, useReducedMotion } from '../hooks';
-import { ErrorBox, Loading, Screen } from '../components/common';
+import { ErrorBox, Loading, privateInput, Screen } from '../components/common';
 import { Seer } from '../components/Seer';
 import { TEMAS } from '../lib/types';
 
@@ -60,7 +60,7 @@ export function SpreadPick() {
 
       <div className="field question">
         <label className="field__label" htmlFor="spread-q">{t('spread.questionLabel')}</label>
-        <textarea id="spread-q" className="input" rows={2} maxLength={200} value={question} autoComplete="off" spellCheck={false}
+        <textarea id="spread-q" className="input" rows={2} maxLength={200} value={question} {...privateInput('sentences')}
           aria-describedby="spread-q-hint" placeholder={t('spread.questionPlaceholder')} onChange={(e) => setQuestion(e.target.value)} />
         <span className="hint" id="spread-q-hint">{t('spread.questionHint')}</span>
       </div>

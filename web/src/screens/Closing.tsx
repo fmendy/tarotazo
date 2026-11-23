@@ -11,6 +11,7 @@ import { Disclaimer, ErrorBox, Screen } from '../components/common';
 import { Seer } from '../components/Seer';
 import { sfx } from '../lib/sound';
 import { haptic } from '../lib/native';
+import { isApp } from '../lib/mode';
 
 export function Closing() {
   const { t, i18n } = useTranslation();
@@ -81,8 +82,14 @@ export function Closing() {
         )}
         <canvas ref={shareRef} className="share__canvas" role="img" aria-label={t('closing.shareTitle')} />
         <div className="row">
-          <button className="btn" onClick={async () => { if (shareRef.current) setStatus((await shareCanvas(shareRef.current, 'tarotazo.png', t('app.name'))) === 'shared' ? t('closing.shared') : t('closing.downloaded')); }}>{t('closing.share')}</button>
-          <button className="btn btn--ghost" onClick={async () => { if (shareRef.current) { await downloadCanvas(shareRef.current, 'tarotazo.png'); setStatus(t('closing.downloaded')); } }}>{t('closing.download')}</button>
+          <button className="btn" onClick={async () => {
+            if (!shareRef.current) return;
+            // En la app, downloadCanvas ya abre la hoja de compartir de Android (y borra la copia temporal).
+            if (isApp()) { await downloadCanvas(shareRef.current, 'tarotazo.png'); setStatus(t('closing.shared')); return; }
+            setStatus((await shareCanvas(shareRef.current, 'tarotazo.png', t('app.name'))) === 'shared' ? t('closing.shared') : t('closing.downloaded'));
+          }}>{t('closing.share')}</button>
+          {/* En la app la hoja de Android ya permite guardar: un único botón «Compartir o guardar…» (A-3). */}
+          {!isApp() && <button className="btn btn--ghost" onClick={async () => { if (shareRef.current) { await downloadCanvas(shareRef.current, 'tarotazo.png'); setStatus(t('closing.downloaded')); } }}>{t('closing.download')}</button>}
         </div>
       </details>
 

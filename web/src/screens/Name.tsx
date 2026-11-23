@@ -6,9 +6,18 @@ import { useSession } from '../state/session';
 import { useOnboarding } from '../state/content';
 import { linesOf, nameReaction } from '../lib/onboarding';
 import { Seer } from '../components/Seer';
-import { Screen } from '../components/common';
+import { privateInput, Screen } from '../components/common';
 import { useDebounced, useReducedMotion } from '../hooks';
 import { sfx } from '../lib/sound';
+
+function words(text: string): { text: string; start: number }[] {
+  const out: { text: string; start: number }[] = [];
+  const re = /\S+/g;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(text))) out.push({ text: m[0], start: m.index });
+  return out;
+}
+const longest = (text: string) => Math.max(0, ...text.split(/\s+/).map((w) => w.length));
 
 export function CrystalBall(p: { text: string; label: string }) {
   const rm = useReducedMotion();
@@ -16,20 +25,25 @@ export function CrystalBall(p: { text: string; label: string }) {
     <div className="crystal" role="img" aria-label={p.label}>
       <div className="crystal__glass">
         <div className="crystal__mist" aria-hidden />
-        <p className="crystal__text" aria-hidden>
-          <AnimatePresence initial={false}>
-            {Array.from(p.text).map((ch, i) => (
-              <motion.span
-                key={i + ch}
-                initial={rm ? false : { opacity: 0, y: -8, filter: 'blur(6px)' }}
-                animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.45 }}
-              >
-                {ch === ' ' ? ' ' : ch}
-              </motion.span>
-            ))}
-          </AnimatePresence>
+        {/* Cada palabra va entera (nowrap): la bola no parte «Centin/ela» (A-7); con nombres largos baja el cuerpo. */}
+        <p className={'crystal__text' + (longest(p.text) > 9 ? ' crystal__text--long' : '')} aria-hidden>
+          {words(p.text).map((w, wi) => (
+            <span key={wi} className="crystal__word">
+              <AnimatePresence initial={false}>
+                {Array.from(w.text).map((ch, i) => (
+                  <motion.span
+                    key={w.start + i + ch}
+                    initial={rm ? false : { opacity: 0, y: -8, filter: 'blur(6px)' }}
+                    animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.45 }}
+                  >
+                    {ch}
+                  </motion.span>
+                ))}
+              </AnimatePresence>
+            </span>
+          ))}
         </p>
       </div>
       <div className="crystal__base" aria-hidden />
@@ -74,7 +88,7 @@ export function Name() {
       <form className="card-panel" onSubmit={submit}>
         <label className="field">
           <span className="field__label">{t('name.label')}</span>
-          <input className="input input--big" value={value} maxLength={40} autoComplete="off" autoCapitalize="words" spellCheck={false}
+          <input className="input input--big" value={value} maxLength={40} {...privateInput('words')} name="arcana-n"
             placeholder={t('name.placeholder')} onChange={(e) => setValue(e.target.value)} />
         </label>
         <p className="hint">{t('name.hint')}</p>

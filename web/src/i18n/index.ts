@@ -2,10 +2,14 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import es from './es.json';
+import esApp from './es.app.json';
+import { isApp } from '../lib/mode';
 import { setLangProvider } from '../lib/api';
 import { setSessionLang } from '../state/session';
 
 export const resources = { es: { translation: es } } as const;
+/** Variantes «app» (táctil, sin servidor ni navegador): se superponen a las de la web en modo app. */
+export const APP_OVERRIDES: Record<string, object> = { es: esApp };
 export const SUPPORTED = Object.keys(resources) as (keyof typeof resources)[];
 export const FALLBACK = 'es';
 
@@ -24,6 +28,12 @@ void i18n.use(initReactI18next).init({
   fallbackLng: FALLBACK,
   interpolation: { escapeValue: false },
 });
+
+/** Superpone los textos de la app (A-2). Se llama al arrancar en modo app; los tests pueden llamarla. */
+export function applyAppTexts() {
+  for (const [lng, bundle] of Object.entries(APP_OVERRIDES)) i18n.addResourceBundle(lng, 'translation', bundle, true, true);
+}
+if (isApp()) applyAppTexts();
 
 const apply = (lng: string) => {
   setSessionLang(lng);

@@ -283,10 +283,10 @@ export async function closing(page: Page) {
   await expect(page.locator('.luck__color')).not.toBeEmpty();
   const share = page.locator('details.share').nth(0);
   await share.locator('summary').click();
-  const [img] = await Promise.all([page.waitForEvent('download'), share.getByRole('button', { name: 'Descargar imagen' }).click()]);
+  const [img] = await Promise.all([page.waitForEvent('download'), share.getByRole('button', { name: /^(Descargar imagen|Compartir o guardar imagen…)$/ }).last().click()]);
   const dip = page.locator('details.share').nth(1);
   await dip.locator('summary').click();
-  const [dipl] = await Promise.all([page.waitForEvent('download'), dip.getByRole('button', { name: 'Descargar mi diploma' }).click()]);
+  const [dipl] = await Promise.all([page.waitForEvent('download'), dip.getByRole('button', { name: /^(Descargar mi diploma|Compartir o guardar mi diploma…)$/ }).click()]);
   return { luckyNumber: Number(await num.innerText()), luckyColor: await page.locator('.luck__color').innerText(), image: img, diploma: dipl };
 }
 

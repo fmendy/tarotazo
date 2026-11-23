@@ -16,7 +16,7 @@ import {
   CHAKRA_IDS, chakraPoint, ouijaTargets, percentTarget, sectorTarget, sinoTarget, type PendulumTarget,
 } from '../../lib/pendulumGeom';
 import { PENDULUM_MODELS, PENDULUM_MODES, type PendulumMode, type PendulumModel, type PendulumResponse } from '../../lib/types';
-import { Disclaimer, ErrorBox, Img, Screen } from '../../components/common';
+import { Disclaimer, ErrorBox, Img, privateInput, Screen } from '../../components/common';
 import { Seer } from '../../components/Seer';
 import type { MapApi } from '../../components/SpainMap';
 import { sfx, startAmbient, stopAmbient, useSound } from '../../lib/sound';
@@ -280,7 +280,7 @@ export function PendulumScreen() {
               <p className="hint">{t(`pendulum.modeHints.${mode}`)}</p>
               <div className="field">
                 <label className="field__label" htmlFor="pq">{t('pendulum.question')}</label>
-                <input id="pq" className="input" value={question} maxLength={160} autoComplete="off" spellCheck={false} aria-describedby="pq-hint"
+                <input id="pq" className="input" value={question} maxLength={160} {...privateInput('sentences')} aria-describedby="pq-hint"
                   placeholder={t('pendulum.questionPlaceholder')} onChange={(e) => setQuestion(e.target.value)} />
                 <span className="hint" id="pq-hint">{t('pendulum.questionHint')}</span>
               </div>
@@ -289,7 +289,9 @@ export function PendulumScreen() {
                   <legend className="field__label">{t('pendulum.options')}</legend>
                   {options.map((o, i) => (
                     <div className="options__row" key={i}>
-                      <input className="input" value={o} maxLength={30} aria-label={t('pendulum.optionPlaceholder', { n: i + 1 })}
+                      {/* Etiqueta real (no sólo placeholder) para TalkBack (A-8). */}
+                      <label className="sr-only" htmlFor={`popt-${i}`}>{t('pendulum.optionPlaceholder', { n: i + 1 })}</label>
+                      <input id={`popt-${i}`} className="input" value={o} maxLength={30} {...privateInput('sentences')}
                         placeholder={t('pendulum.optionPlaceholder', { n: i + 1 })} onChange={(e) => setOptions(options.map((x, k) => (k === i ? e.target.value : x)))} />
                       {options.length > 2 && (
                         <button className="iconbtn" aria-label={t('pendulum.removeOption', { n: i + 1 })} onClick={() => setOptions(options.filter((_, k) => k !== i))}>×</button>

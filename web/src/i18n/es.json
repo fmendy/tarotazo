@@ -56,7 +56,7 @@
     "rating": "Contenido para mayores de 18 años",
     "privacyNote": "No guardamos nada: tu nombre, tu edad y tu provincia sólo viven en esta pestaña.",
     "welcome": "Pasa, pasa, que se enfría el incienso.",
-    "privacyNoteApp": "Esta app funciona sin conexión: tu nombre, tu edad y tu provincia no salen de este móvil y se borran al salir."
+    "aviso": "Entretenimiento, no consejo profesional. No sustituye consejo médico, legal, psicológico ni financiero."
   },
   "blocked": {
     "title": "Todavía no te toca",
@@ -376,16 +376,6 @@
       "Preferencias e indicadores: lo único que guardamos en tu navegador es (1) si has silenciado el sonido (localStorage, clave arcana.muted) y (2) si se cortó la sesión porque la persona indicó ser menor de edad (sessionStorage, clave arcana.blocked=1, sólo mientras la pestaña siga abierta). Ninguno contiene tu edad, tu fecha ni otro dato personal, no se envían a ningún sitio y puedes borrarlos cuando quieras.",
       "Terceros: no usamos analítica de terceros, ni anuncios, ni fuentes o librerías de otros dominios.",
       "Base legal y derechos: al no tratar datos personales identificativos de forma persistente, no hay datos que consultar, rectificar o suprimir. Aun así, puedes escribir a [contacto pendiente] y tienes derecho a reclamar ante la Agencia Española de Protección de Datos (RGPD y LOPDGDD)."
-    ],
-    "bodyApp": [
-      "Resumen: la app Tarotazo funciona sin conexión a Internet y no envía nada a ningún sitio. No tiene servidor, ni cuentas, ni analítica, ni anuncios, ni SDK de terceros.",
-      "Nombre, fecha de nacimiento, edad y provincia: viven sólo en la memoria de la app mientras la usas. Se borran al pulsar «Salir», al cerrar la app o tras 30 minutos sin actividad (también si la dejas en segundo plano más de 30 minutos).",
-      "Lecturas, péndulo y textos: se calculan dentro del propio dispositivo con el contenido que viene incluido en la app. Tu pregunta y tus opciones del péndulo no salen de la pantalla.",
-      "Red e IP: la app no pide el permiso de acceso a Internet, así que no puede conectarse a ningún servidor y nadie ve tu dirección IP por usarla.",
-      "Imágenes y diploma: se generan en el dispositivo. Si pulsas «Compartir» o «Descargar», se guardan un momento en la caché de la app y se abre el menú de compartir del sistema; tú decides dónde van.",
-      "Preferencias e indicadores: lo único que se guarda en el almacenamiento local de la app es si has silenciado el sonido (arcana.muted) y, si se cortó la sesión por indicar ser menor de edad, un indicador sin edad ni fecha (arcana.blocked) mientras la app siga abierta. No hay copias de seguridad en la nube.",
-      "Permisos: sólo vibración (para los efectos táctiles), que no da acceso a ningún dato.",
-      "Base legal y derechos: no tratamos datos personales de forma persistente, así que no hay datos que consultar, rectificar o suprimir. Aun así, puedes escribir a [PENDIENTE: datos del titular] y tienes derecho a reclamar ante la Agencia Española de Protección de Datos (RGPD y LOPDGDD)."
     ]
   }
 }

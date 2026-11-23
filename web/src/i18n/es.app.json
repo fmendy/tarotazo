@@ -1,0 +1,50 @@
+{
+  "gate": {
+    "privacyNote": "Esta app funciona sin conexión: tu nombre, tu edad y tu provincia no salen de este móvil y se borran al salir.",
+    "aviso": "Tarotazo es entretenimiento y humor para adultos. Madame Remedios tiene más diplomas que aciertos: nada de lo que digan las cartas o el péndulo es consejo médico, legal, psicológico ni financiero. No guardamos tus datos: tu nombre y tu edad se quedan en este móvil y se borran al salir."
+  },
+  "name": {
+    "hint": "Se queda en este móvil. La app no tiene servidor y la bola no lo apunta."
+  },
+  "province": {
+    "mapLabel": "Mapa de las provincias de España. Toca una provincia para elegirla."
+  },
+  "closing": {
+    "shareHint": "Se genera en este móvil. No lleva datos personales salvo que marques la casilla.",
+    "download": "Compartir o guardar imagen…",
+    "share": "Compartir o guardar imagen…",
+    "diploma": "Compartir o guardar mi diploma…",
+    "shared": "Hecho. La copia temporal ya se ha borrado.",
+    "downloaded": "Hecho. La copia temporal ya se ha borrado."
+  },
+  "pendulum": {
+    "optionsHint": "Se quedan en este móvil; la app no las envía a ningún sitio."
+  },
+  "titles": {
+    "intro": "Más diplomas que aciertos. Toca un marco para leer el comentario.",
+    "hover": "Toca un diploma y te lo explico."
+  },
+  "legal": {
+    "body": [
+      "Titular del sitio: [nombre o razón social del titular], con NIF [pendiente] y domicilio en [pendiente]. Contacto: [dirección de correo pendiente].",
+      "Objeto: «Tarotazo» es una app de humor (también disponible como web). Las lecturas de tarot, péndulo y demás son ficción y entretenimiento; no constituyen consejo médico, legal, psicológico, financiero ni de ningún otro tipo profesional.",
+      "Público: el sitio está dirigido exclusivamente a personas mayores de 18 años y se etiqueta como contenido para adultos para que los filtros parentales puedan bloquearlo.",
+      "Gratuidad: el servicio es gratuito. No hay pagos, suscripciones, anuncios, llamadas ni números de teléfono de tarificación especial. Ninguna broma sobre «tarot de madrugada» lleva a un número real.",
+      "Propiedad intelectual: los textos, ilustraciones y código son propios del proyecto o de dominio público. Los títulos y centros mencionados son inventados; cualquier parecido con instituciones reales es pura coincidencia cómica.",
+      "Responsabilidad: el titular no se hace responsable de las decisiones tomadas a partir de una lectura. Si una carta te dice que dejes tu trabajo, no lo hagas por eso.",
+      "Legislación aplicable: Ley 34/2002 de Servicios de la Sociedad de la Información (LSSI) y normativa española aplicable."
+    ]
+  },
+  "privacy": {
+    "body": [
+      "Resumen: la app Tarotazo funciona sin conexión a Internet y no envía nada a ningún sitio. No tiene servidor, ni cuentas, ni analítica, ni anuncios, ni SDK de terceros.",
+      "Nombre, fecha de nacimiento, edad y provincia: viven sólo en la memoria de la app mientras la usas. Se borran al pulsar «Salir», al cerrar la app o tras 30 minutos sin actividad (también si la dejas en segundo plano más de 30 minutos).",
+      "Lecturas, péndulo y textos: se calculan dentro del propio dispositivo con el contenido que viene incluido en la app. Tu pregunta y tus opciones del péndulo no salen de la pantalla.",
+      "Red e IP: la app no pide el permiso de acceso a Internet, así que no puede conectarse a ningún servidor y nadie ve tu dirección IP por usarla.",
+      "Imágenes y diploma: se generan en el dispositivo. Si pulsas «Compartir o guardar…», se escribe una copia temporal en la caché de la app, se abre el menú de compartir del sistema (desde ahí puedes guardarla en Archivos o Drive, o enviarla) y la copia se borra en cuanto se cierra ese menú. También se borra al salir, al caducar la sesión y al abrir la app.",
+      "Preferencias e indicadores: lo único que se guarda en el almacenamiento local de la app es si has silenciado el sonido (arcana.muted) y, si se cortó la sesión por indicar ser menor de edad, un indicador con la fecha y hora del bloqueo pero sin edad ni fecha de nacimiento (arcana.blocked), que se borra solo a las 24 horas. No hay copias de seguridad en la nube.",
+      "Permisos: sólo vibración (para los efectos táctiles), que no da acceso a ningún dato.",
+      "Base legal y derechos: no tratamos datos personales de forma persistente, así que no hay datos que consultar, rectificar o suprimir. Aun así, puedes escribir a [PENDIENTE: datos del titular] y tienes derecho a reclamar ante la Agencia Española de Protección de Datos (RGPD y LOPDGDD)."
+    ]
+  }
+}

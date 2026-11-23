@@ -1,7 +1,7 @@
 // 1 · Portada y puerta +18.
 import { useEffect, useState, type FormEvent } from 'react';
 import { hideSplash } from '../lib/native';
-import { OFFLINE } from '../lib/api';
+import { isApp } from '../lib/mode';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useSession } from '../state/session';
@@ -60,7 +60,8 @@ export function Gate() {
 
         <label className="field">
           <span className="field__label">{pu?.fecha ?? t('gate.dateLabel')}</span>
-          <input type="date" className="input" value={date} max={today} min="1900-01-01"
+          <input type="date" id="gate-date" className="input" value={date} max={today} min="1900-01-01"
+            aria-label={pu?.fecha ?? t('gate.dateLabel')} title={pu?.fecha ?? t('gate.dateLabel')}
             onChange={(e) => { setDate(e.target.value); setError(null); }} autoComplete="off" />
         </label>
         <p className="gate__or">{t('gate.or')}</p>
@@ -75,8 +76,8 @@ export function Gate() {
           <button type="submit" className="btn btn--primary">{pu?.si ?? t('gate.enter')}</button>
           <button type="button" className="btn btn--ghost" onClick={block}>{pu?.no ?? t('gate.no')}</button>
         </div>
-        <Disclaimer text={pu?.aviso ?? t('app.disclaimer')} />
-        <p className="hint">{t(OFFLINE ? 'gate.privacyNoteApp' : 'gate.privacyNote')}</p>
+        <Disclaimer text={isApp() ? t('gate.aviso') : pu?.aviso ?? t('app.disclaimer')} />
+        <p className="hint">{t('gate.privacyNote')}</p>
       </motion.form>
     </section>
   );
