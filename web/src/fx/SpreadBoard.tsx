@@ -1,7 +1,7 @@
 // Tablero de tirada: coloca los hijos según el layout y los «reparte» desde el mazo.
 import { motion } from 'framer-motion';
 import { useEffect, useRef, type CSSProperties, type JSX, type ReactNode } from 'react';
-import { CARD_H, layoutBounds, layoutPositions, type SpreadLayout } from './layouts';
+import { CARD_H, LABEL_H, LABEL_SIDE, layoutBounds, layoutPositions, type SpreadLayout } from './layouts';
 import { SlotWidthContext } from './FlipCard';
 import { useElementSize, useLatest, useReducedMotion } from './hooks';
 import { playSfx } from './sound';
@@ -27,11 +27,12 @@ export interface SpreadBoardProps {
 export function SpreadBoard(p: SpreadBoardProps): JSX.Element {
   const reduced = useReducedMotion();
   const [ref, size] = useElementSize<HTMLDivElement>();
-  const pos = layoutPositions(p.layout, p.slots);
+  const hasLabels = !!p.labels?.length;
+  const pos = layoutPositions(p.layout, p.slots, hasLabels ? LABEL_H : 0);
   const b = layoutBounds(pos);
-  const labelH = p.labels?.length ? 22 : 0;
   const cw = size.width && b.width ? Math.min(p.maxCardWidth ?? 150, (size.width - 4) / b.width) : 0;
-  const H = b.height * cw + labelH + 8;
+  const labelPx = hasLabels ? LABEL_H * cw : 0;
+  const H = b.height * cw + labelPx + 8;
   const stagger = p.stagger ?? 0.16;
   const kids = Array.isArray(p.children) ? p.children : [p.children];
   const dealtCb = useLatest(p.onDealt);
@@ -117,7 +118,12 @@ export function SpreadBoard(p: SpreadBoardProps): JSX.Element {
               )}
               {p.labels?.[i] && (
                 <div
-                  style={{ position: 'absolute', top: s.rot === 90 ? '100%' : `calc(100% + 4px)`, left: '-20%', right: '-20%', textAlign: 'center', fontSize: 12, lineHeight: '16px', opacity: s.rot === 90 ? 0 : 0.85, pointerEvents: 'none' }}
+                  title={p.labels[i]}
+                  style={{
+                    position: 'absolute', top: '100%', left: `${-LABEL_SIDE * 100}%`, right: `${-LABEL_SIDE * 100}%`, height: labelPx,
+                    lineHeight: `${labelPx}px`, fontSize: Math.min(12, labelPx * 0.62), textAlign: 'center', whiteSpace: 'nowrap',
+                    overflow: 'hidden', textOverflow: 'ellipsis', opacity: s.rot === 90 ? 0 : 0.85, pointerEvents: 'none',
+                  }}
                 >
                   {p.labels[i]}
                 </div>

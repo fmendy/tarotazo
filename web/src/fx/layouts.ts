@@ -13,14 +13,23 @@ export interface SlotPos {
 
 const CH = 12 / 7;
 const GAP = 0.18;
+/** Alto reservado bajo cada carta para su etiqueta de posición (en anchos de carta). */
+export const LABEL_H = 0.3;
+/** Margen horizontal de la etiqueta respecto a la carta (fracción del ancho, a cada lado). */
+export const LABEL_SIDE = 0.06;
 
 function rowPositions(n: number): SlotPos[] {
   const step = 1 + GAP;
   return Array.from({ length: n }, (_, i) => ({ x: (i - (n - 1) / 2) * step, y: 0, rot: 0, z: i }));
 }
 
-/** Posiciones de cada hueco para un layout y número de cartas. */
-export function layoutPositions(layout: SpreadLayout, slots: number): SlotPos[] {
+/**
+ * Posiciones de cada hueco para un layout y número de cartas. `labelH` (en anchos de carta)
+ * reserva espacio vertical bajo cada carta para su etiqueta (SpreadBoard pasa LABEL_H si hay
+ * etiquetas), de modo que ninguna carta tape la etiqueta de otra.
+ */
+export function layoutPositions(layout: SpreadLayout, slots: number, labelH = 0): SlotPos[] {
+  const L = Math.max(0, labelH);
   const n = Math.max(0, Math.floor(slots));
   if (n === 0) return [];
   let pos: SlotPos[];
@@ -33,15 +42,15 @@ export function layoutPositions(layout: SpreadLayout, slots: number): SlotPos[] 
       if (n > 5) {
         const a = Math.ceil(n / 2);
         pos = [
-          ...rowPositions(a).map((p) => ({ ...p, y: -(CH + GAP) / 2 })),
-          ...rowPositions(n - a).map((p, i) => ({ ...p, y: (CH + GAP) / 2, z: a + i })),
+          ...rowPositions(a).map((p) => ({ ...p, y: -(CH + GAP + L) / 2 })),
+          ...rowPositions(n - a).map((p, i) => ({ ...p, y: (CH + GAP + L) / 2, z: a + i })),
         ];
       } else pos = rowPositions(n);
       break;
     case 'cross': {
       // 1 centro (situación), 2 arriba (obstáculo), 3 izquierda (pasado), 4 derecha (futuro), 5 abajo (resultado)
       const dx = 1 + GAP * 2;
-      const dy = CH + GAP;
+      const dy = CH + GAP + L;
       pos = [
         { x: 0, y: 0, rot: 0, z: 0 },
         { x: 0, y: -dy, rot: 0, z: 1 },
@@ -57,7 +66,7 @@ export function layoutPositions(layout: SpreadLayout, slots: number): SlotPos[] 
       const half = (m - 1) / 2 || 1;
       pos = Array.from({ length: m }, (_, i) => {
         const d = (i - (m - 1) / 2) / half; // -1..1
-        return { x: (i - (m - 1) / 2) * (1 + GAP), y: CH * 1.3 * (1 - d * d) - CH * 0.65, rot: d * -14, z: i };
+        return { x: (i - (m - 1) / 2) * (1 + GAP + L * 0.3), y: CH * 1.3 * (1 - d * d) - CH * 0.65, rot: d * -14, z: i };
       });
       break;
     }
@@ -65,9 +74,10 @@ export function layoutPositions(layout: SpreadLayout, slots: number): SlotPos[] 
       // Waite: 1 presente, 2 cruzada sobre 1, 3 abajo, 4 izquierda (pasado), 5 arriba, 6 derecha (futuro),
       // 7–10 en columna a la derecha de abajo a arriba.
       const dx = 1.55;
-      const dy = CH + GAP;
+      const dy = CH + GAP + L;
       const sx = 3.4;
-      const s = CH * 0.98;
+      // columna: sin etiquetas se solapan un poco (como en la mesa); con etiquetas, se separan
+      const s = L > 0 ? CH + GAP * 0.5 + L : CH * 0.98;
       pos = [
         { x: 0, y: 0, rot: 0, z: 0 },
         { x: 0, y: 0, rot: 90, z: 1 },
@@ -88,9 +98,9 @@ export function layoutPositions(layout: SpreadLayout, slots: number): SlotPos[] 
         { x: -1.2, y: -CH * 0.6, rot: -6, z: 0 },
         { x: 1.2, y: -CH * 0.6, rot: 6, z: 1 },
         { x: 0, y: -CH * 0.25, rot: 0, z: 2 },
-        { x: -1.12, y: CH * 0.62, rot: -10, z: 3 },
-        { x: 1.12, y: CH * 0.62, rot: 10, z: 4 },
-        { x: 0, y: CH * 1.55, rot: 0, z: 5 },
+        { x: -1.25, y: CH * 0.62 + L, rot: -10, z: 3 },
+        { x: 1.25, y: CH * 0.62 + L, rot: 10, z: 4 },
+        { x: 0, y: CH * 1.55 + L * 1.6, rot: 0, z: 5 },
       ];
       break;
     }
@@ -100,7 +110,7 @@ export function layoutPositions(layout: SpreadLayout, slots: number): SlotPos[] 
   if (pos.length < n) {
     // Huecos de sobra: fila adicional debajo.
     const extra = rowPositions(n - pos.length);
-    const maxY = Math.max(...pos.map((p) => p.y)) + CH + GAP * 2;
+    const maxY = Math.max(...pos.map((p) => p.y)) + CH + GAP * 2 + L;
     pos = [...pos, ...extra.map((p, i) => ({ ...p, y: maxY, z: pos.length + i }))];
   }
   return pos.slice(0, n);
