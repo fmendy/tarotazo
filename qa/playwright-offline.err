@@ -1,2 +1,2 @@
 npm notice run arcana-web@0.1.0 npx
-npm notice run ^"playwright^" test --reporter=json
+npm notice run ^"playwright^" test --project=offline-desktop --project=offline-mobile --reporter=json

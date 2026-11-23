@@ -1,6 +1,5 @@
 // 1 · Portada y puerta +18.
-import { useEffect, useState, type FormEvent } from 'react';
-import { hideSplash } from '../lib/native';
+import { useState, type FormEvent } from 'react';
 import { isApp } from '../lib/mode';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
@@ -18,7 +17,6 @@ export function Gate() {
   const block = useSession((s) => s.block);
   const rm = useReducedMotion();
   const h1 = useAutofocus<HTMLHeadingElement>();
-  useEffect(() => { hideSplash(); }, []);
   const [date, setDate] = useState('');
   const [declared, setDeclared] = useState(false);
   const [error, setError] = useState<string | null>(null);

@@ -111,6 +111,13 @@ export async function purgeShareCache(): Promise<void> {
     const { fs } = await mods();
     await fs.Filesystem.rmdir({ path: SHARE_DIR, directory: fs.Directory.Cache, recursive: true });
   } catch { /* no había nada */ }
+  // N-2: la 1.0 dejaba los PNG en la raíz de la caché; se borran también (sólo imágenes nuestras).
+  try {
+    const { fs } = await mods();
+    const { files } = await fs.Filesystem.readdir({ path: '', directory: fs.Directory.Cache });
+    await Promise.all(files.filter((f) => f.type === 'file' && /\.png$/i.test(f.name))
+      .map((f) => fs.Filesystem.deleteFile({ path: f.name, directory: fs.Directory.Cache }).catch(() => {})));
+  } catch { /* sin readdir o caché vacía */ }
 }
 
 /** Salir, inactividad o bloqueo cambian `epoch`: se borran las copias temporales al instante. */

@@ -112,3 +112,64 @@ Pendientes:
 - `qa/android/gfx-shuffle.txt`, `qa/android/gfx-pendulo.txt`, `qa/android/logcat-app.txt`, `qa/playwright-offline-results.json`.
 - `store/screenshots/raw/*.png` y `store/screenshots/raw/captions.json`.
 - El emulador se ha dejado **parado** (`adb emu kill`).
+
+---
+
+## Verificación 1.0.1 (2026-11-23)
+
+APK `app-debug.apk` 1.0.1 (versionCode 2), instalado con `adb install -r` sobre la 1.0. El APK sólo pide `VIBRATE` (`aapt2`). La red estuvo cortada antes de abrir la app y durante toda la prueba:
+- `adb emu gsm data/voice unregistered`, `svc data/wifi disable` y modo avión.
+- Resultado: «Active default network: none» y `ping` → «Network is unreachable».
+
+**Estabilidad del emulador:** se cayó 3 veces con `-gpu swiftshader_indirect`, con código de salida 139 (fallo de segmentación del propio emulador, no de la app). Con `-gpu guest` aguantó el resto de la ronda. Cada caída obligó a repetir el onboarding.
+
+### Hallazgos originales
+
+| Id | Estado | Comprobación en el dispositivo |
+|---|---|---|
+| A-1 | ✔ **corregido** | Probado compartiendo el diploma y la imagen con nombre. **Justo después**, `cache/share/diploma-tarotazo.png` y `tarotazo.png` existen (esperado). La copia desaparece en los tres casos pedidos: **(a)** al volver a primer plano tras 2 min 37 s en segundo plano; **(b)** al cerrar la app con `force-stop` y reabrirla; **(c)** al pulsar «Salir». Ver N-2 (restos de la 1.0). |
+| A-2 | ✔ con un resto | Revisados en el árbol de accesibilidad los textos de puerta, nombre, mapa, opciones del péndulo y titulaciones. Ya no hay «navegador» ni «servidor» como transmisor de datos. «Ratón» y «foco» pasan a «Toca un marco…», y «Tab» a «Toca una provincia…». **Resto (baja, animación):** el abanico se sigue anunciando con «(flechas para moverte, Enter para elegir)» (`web/src/fx/CardFan.tsx:179`). |
+| A-3 | ✔ | Los botones dicen «Compartir o guardar imagen…» y «Compartir o guardar mi diploma…» y abren la hoja del sistema. |
+| A-4 | ✔ con un bug nuevo (N-1) | `localStorage` guarda `arcana.blocked={"t":…}`. Tras «Todavía no», atrás (`exitApp`), `force-stop` y reabrir, **sigue bloqueado**. Con el reloj +25 h (`adb root` + `date`), al reabrir aparece la puerta: **caduca bien**. Ver N-1: al reabrir bloqueado no se ve la pantalla de bloqueo. |
+| A-5 | ✔ (parcial, depende del teclado) | Escribí «Qwxzorp» en el campo de nombre. Después, «Qwx» en la pregunta del péndulo **no lo sugiere** (sólo «Qwx/Wax/Sex»): no se ha aprendido. La barra de sugerencias de Gboard sigue visible; desde la web no se puede ocultar. Limitación: escribí con `adb input text`. |
+| A-6 / A-10 | ✔ | En logcat (336 563 líneas en 1 h 20 min de uso) hay **0 líneas `Capacitor/Console`**. Los únicos `D/Capacitor` son «Starting BridgeActivity». |
+| A-7 | ✔ (5/5) | Cruz simple con «Situación» visible bajo su carta (captura). La bola parte por palabras («Zacarias / Centinela»). En titulaciones la vidente ya no tapa el texto y el sello queda dentro del marco (su pie de texto roza la esquina, pero no se sale). El carrusel muestra la descripción completa (las flechas rozan el borde del texto: cosmético). En el barajado el bocadillo ya no pisa el mazo. |
+| A-8 | ◐ parcial | Los campos de opciones exponen nombre accesible («Opción 1», «Opción 2») y la pregunta tiene etiqueta con la pista. Con **TalkBack activado**, las cartas del abanico salen como nodos «Carta N» pero `uiautomator` las sigue dando **sin límites** ([0,0][0,0]). El doble toque sobre el abanico eligió cartas y la lectura empezó, pero no pude confirmar por voz qué se anuncia: el TTS del emulador no estaba listo. Hay que confirmarlo con una persona usando TalkBack en un móvil real durante la prueba cerrada. |
+| A-9 | ✔ | 0 líneas «Error injecting safe area CSS». El contenido empieza bajo la barra de estado (capturas). |
+| A-11 | — | No se ha vuelto a ejecutar `frame-screenshots.mjs` en esta ronda (lo corrigió arte en `184d1b8`). |
+
+### Pintado en reposo (`dumpsys gfxinfo`, 10 s sin tocar)
+
+| Pantalla | 1.0 | 1.0.1 |
+|---|---|---|
+| Abanico | 152 frames en 5 s (≈ 30 fps) | **156 frames en 10 s (≈ 15,6 fps)** |
+| Puerta | — | 155 / 10 s |
+| Titulaciones | — | 103 / 10 s |
+| Péndulo (preguntas, en reposo) | — | 156 / 10 s |
+
+El pintado en reposo **baja a la mitad**: el ambiente queda limitado a unos 15–20 fps. Las cifras absolutas siguen siendo de GPU por software.
+
+### Hallazgos nuevos
+
+| Id | Sev. | Equipo | Hallazgo | Evidencia |
+|---|---|---|---|---|
+| N-1 | **alta** | frontend | **La pantalla de bloqueo no aparece al reabrir la app bloqueada: se queda el splash para siempre.** `hideSplash()` sólo se llama al montar `Gate` (`web/src/screens/Gate.tsx:21`). Con `arcana.blocked` vigente, la app arranca directamente en `blocked` y el splash (`launchAutoHide: false`) nunca se oculta. Durante 24 h, la persona que se declaró menor ve una bola girando sin texto. Parece una app colgada y el informe previo al lanzamiento de Play podría marcarla así. | Capturas a los 20 s, 90 s y 2,5 min tras abrir: sólo el splash. El árbol de accesibilidad está vacío. Arreglo sugerido: llamar a `hideSplash()` en `App.tsx` (o también en `Blocked`). |
+| N-2 | baja | frontend | Los PNG que dejó la **1.0** en la raíz de `cache/` (`diploma-tarotazo.png`, `tarotazo.png`, con el nombre) **no se borran** tras actualizar a 1.0.1: la limpieza sólo cubre `cache/share/`. Afecta a quien instaló la 1.0, en principio sólo pruebas internas. | `run-as … ls cache` tras actualizar: siguen los ficheros del 23/11 a las 07:46. Arreglo: borrar también esos dos nombres en la raíz de la caché al arrancar, o `Filesystem.readdir(Cache)` y quitar `*.png`. |
+| N-3 | baja | frontend | Si el reloj del móvil se atrasa, una marca `arcana.blocked` con fecha futura se trata como corrupta y **se borra** (`now - t >= 0`): cambiando la hora se desbloquea al instante. Es menor, porque el bloqueo es una autodeclaración. | `web/src/state/session.ts:29`. Lo observé al restaurar el reloj tras la prueba de +25 h. |
+
+### Playwright sin conexión
+
+`E2E_OFFLINE=1 npx playwright test --project=offline-desktop --project=offline-mobile` con la 1.0.1: **42 pasan, 8 omitidos, 0 fallan** (`qa/playwright-offline-results.json`).
+
+### Veredicto final para la prueba cerrada de Google Play
+
+**LISTA para la prueba cerrada, con una condición: corregir N-1 antes de subir el AAB.** Es un arreglo de una línea, pero la pantalla de bloqueo es justo la que ven los menores y hoy parece un cuelgue.
+
+- Todos los hallazgos de la 1.0 están corregidos o verificados en el dispositivo, salvo dos parciales que no bloquean:
+  - A-8: confirmar TalkBack en un móvil real.
+  - A-2: queda la etiqueta del abanico con «flechas/Enter».
+- N-2 y N-3 son bajos y pueden ir en la 1.0.2.
+- Privacidad: sin red, sin datos personales persistentes (la copia temporal para compartir se borra en los tres casos pedidos) y logcat limpio.
+- Durante la prueba cerrada conviene medir en un Android real de gama media el arranque en frío y los fps del barajado y del péndulo, y pedir a una persona usuaria de TalkBack que haga una lectura completa.
+
+El emulador se ha dejado **parado** (`adb emu kill`). La hora automática del emulador está reactivada.

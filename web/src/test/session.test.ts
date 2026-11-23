@@ -150,6 +150,14 @@ describe('bloqueo en la app (A-4): localStorage con marca de tiempo, 24 h', () =
     expect(readBlockedFlag()).toBe(true);
   });
 
+  it('atrasar el reloj no desbloquea (N-3): la marca futura se reinicia a ahora', () => {
+    const now = Date.now();
+    localStorage.setItem('arcana.blocked', JSON.stringify({ t: now + 3 * APP_BLOCK_MS }));
+    expect(readBlockedFlag(now)).toBe(true);
+    expect(JSON.parse(localStorage.getItem('arcana.blocked')!).t).toBe(now);
+    expect(readBlockedFlag(now + APP_BLOCK_MS + 1)).toBe(false);
+  });
+
   it('en la app sólo arcana.muted y arcana.blocked en localStorage; nada en sessionStorage', () => {
     useSession.getState().passGate('1990-07-25'); useSession.getState().setName('Vanesa');
     useSession.getState().block();

@@ -176,7 +176,7 @@ export function CardFan(p: CardFanProps): JSX.Element {
         className={['fx-fan', scroll ? 'fx-fan--scroll' : 'fx-fan--arc', done ? 'fx-fan--done' : ''].join(' ')}
         role="listbox"
         tabIndex={0}
-        aria-label={`Elige ${p.pick} carta${p.pick === 1 ? '' : 's'} (flechas para moverte, Enter para elegir). Elegidas: ${picked.length}`}
+        aria-label={`Elige ${p.pick} carta${p.pick === 1 ? '' : 's'}${import.meta.env.VITE_OFFLINE === '1' ? '' : ' (flechas para moverte, Enter para elegir)'}. Elegidas: ${picked.length}`}
         aria-multiselectable
         aria-activedescendant={`${idBase}-${focus}`}
         onKeyDown={onKey}

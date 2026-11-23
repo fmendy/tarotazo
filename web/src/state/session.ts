@@ -26,7 +26,11 @@ export function readBlockedFlag(now = Date.now()): boolean {
       const raw = globalThis.localStorage?.getItem(BLOCK_KEY);
       if (!raw) return false;
       const t = Number(JSON.parse(raw)?.t);
-      if (Number.isFinite(t) && now - t >= 0 && now - t < APP_BLOCK_MS) return true;
+      if (Number.isFinite(t) && t > now) { // reloj atrasado (N-3): no desbloquea; se reinicia a ahora (máx. 24 h)
+        globalThis.localStorage?.setItem(BLOCK_KEY, JSON.stringify({ t: now }));
+        return true;
+      }
+      if (Number.isFinite(t) && now - t < APP_BLOCK_MS) return true;
       globalThis.localStorage?.removeItem(BLOCK_KEY); // caducado o corrupto
       return false;
     }

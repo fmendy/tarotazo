@@ -16,6 +16,7 @@ import { SpreadPick } from './screens/SpreadPick';
 import { Cut, Shuffle } from './screens/Ritual';
 import { Reading } from './screens/Reading';
 import { Blocked, Bye } from './screens/Simple';
+import { hideSplash } from './lib/native';
 
 // Pantallas secundarias o pesadas bajo demanda (QA-10): péndulo, titulaciones, legal y cierre (canvas).
 const named = <K extends string>(p: Promise<Record<K, ComponentType>>, k: K) => p.then((m) => ({ default: m[k] }));
@@ -46,6 +47,8 @@ export function App() {
 
   // Al cambiar de pantalla se sube arriba. El foco lo pone cada pantalla en su h1 al montarse
   // (ver useAutofocus en components/common), es decir, tras la transición de salida (QA-04).
+  // Ocultar el splash nativo al montar la app, sea cual sea la primera pantalla (N-1: arranque bloqueado).
+  useEffect(() => { hideSplash(); }, []);
   useEffect(() => { window.scrollTo?.({ top: 0, behavior: rm ? 'auto' : 'smooth' }); }, [screen, rm]);
 
   const amb = AMBIENCE[screen];
