@@ -1,6 +1,7 @@
 // Titulaciones, salir (borra el estado), inactividad de 30 min (page.clock) y textos legales.
 import { expect, test } from '@playwright/test';
 import { SENTINEL, btn, checkText, chooseProvince, confirmAge, enterName, expectClean, menu, openMenuIfCollapsed, passGate, watch } from './helpers';
+import { OFFLINE } from './helpers';
 
 test('titulaciones: muro visible y compulsar un título', async ({ page, baseURL }, testInfo) => {
   const m = watch(page, baseURL!);
@@ -53,6 +54,9 @@ test('Salir → se borra todo el estado y vuelve a la puerta', async ({ page, ba
 });
 
 test('inactividad de 30 minutos → se borra la sesión (page.clock)', async ({ page, baseURL }, testInfo) => {
+  // Importa el store por su URL de Vite (sólo existe en el servidor de desarrollo). En el build sin
+  // conexión lo cubre «inactividad (tiempo real acelerado)».
+  test.skip(OFFLINE, 'el store no es importable en el build de producción');
   const m = watch(page, baseURL!);
   await page.clock.install();
   await passGate(page, { date: SENTINEL.birth });

@@ -333,7 +333,7 @@
         {
           "title": "Péndulo",
           "file": "pendulum.e2e.ts",
-          "line": 42,
+          "line": 44,
           "column": 6,
           "specs": [
             {
@@ -362,7 +362,7 @@
               ],
               "id": "dde2a19f528345086050-636eb95d12b58f759007",
               "file": "pendulum.e2e.ts",
-              "line": 43,
+              "line": 45,
               "column": 3
             },
             {
@@ -391,7 +391,7 @@
               ],
               "id": "dde2a19f528345086050-f0578df3de6b41db0d41",
               "file": "pendulum.e2e.ts",
-              "line": 96,
+              "line": 106,
               "column": 3
             },
             {
@@ -420,7 +420,7 @@
               ],
               "id": "dde2a19f528345086050-89feed7adcd5f437c1e3",
               "file": "pendulum.e2e.ts",
-              "line": 114,
+              "line": 124,
               "column": 3
             }
           ]
@@ -459,7 +459,7 @@
           ],
           "id": "61e21f27ae854e525d72-21d0114bcff6a67b8b9e",
           "file": "privacy.e2e.ts",
-          "line": 53,
+          "line": 54,
           "column": 1
         },
         {
@@ -488,7 +488,7 @@
           ],
           "id": "61e21f27ae854e525d72-a83f9518e3c23948fac1",
           "file": "privacy.e2e.ts",
-          "line": 143,
+          "line": 148,
           "column": 1
         },
         {
@@ -517,7 +517,7 @@
           ],
           "id": "61e21f27ae854e525d72-dca4e879e7d70d4e672f",
           "file": "privacy.e2e.ts",
-          "line": 153,
+          "line": 159,
           "column": 1
         },
         {
@@ -546,7 +546,7 @@
           ],
           "id": "61e21f27ae854e525d72-b53c20500f9502adc099",
           "file": "privacy.e2e.ts",
-          "line": 167,
+          "line": 174,
           "column": 1
         }
       ]
@@ -583,7 +583,7 @@
           ],
           "id": "36cd553ddf5d6c685bfc-762e337b19471958017c",
           "file": "session.e2e.ts",
-          "line": 5,
+          "line": 6,
           "column": 1
         },
         {
@@ -612,7 +612,7 @@
           ],
           "id": "36cd553ddf5d6c685bfc-ab37a9f01e830c5a626a",
           "file": "session.e2e.ts",
-          "line": 26,
+          "line": 36,
           "column": 1
         },
         {
@@ -641,7 +641,7 @@
           ],
           "id": "36cd553ddf5d6c685bfc-a4c338a756f575421e74",
           "file": "session.e2e.ts",
-          "line": 46,
+          "line": 56,
           "column": 1
         },
         {
@@ -670,7 +670,7 @@
           ],
           "id": "36cd553ddf5d6c685bfc-be0dadf9e76aee0efd02",
           "file": "session.e2e.ts",
-          "line": 69,
+          "line": 82,
           "column": 1
         },
         {
@@ -699,7 +699,7 @@
           ],
           "id": "36cd553ddf5d6c685bfc-5484bcc5e0ac720a562b",
           "file": "session.e2e.ts",
-          "line": 87,
+          "line": 100,
           "column": 1
         },
         {
@@ -728,7 +728,7 @@
           ],
           "id": "36cd553ddf5d6c685bfc-a78a02cc7cc04f3b3688",
           "file": "session.e2e.ts",
-          "line": 98,
+          "line": 111,
           "column": 1
         },
         {
@@ -757,7 +757,7 @@
           ],
           "id": "36cd553ddf5d6c685bfc-e76549277a867194298e",
           "file": "session.e2e.ts",
-          "line": 114,
+          "line": 127,
           "column": 1
         }
       ]
@@ -1063,8 +1063,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-22T12:34:08.046Z",
-    "duration": 464.571,
+    "startTime": "2026-11-23T07:31:59.078Z",
+    "duration": 143.84999999999997,
     "expected": 0,
     "skipped": 52,
     "unexpected": 0,

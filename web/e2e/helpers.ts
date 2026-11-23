@@ -2,7 +2,20 @@
 // y pasos del flujo de usuario (puerta → nombre → edad → provincia → baraja → tirada → ritual → lectura → cierre).
 import { expect, type Locator, type Page, type TestInfo } from '@playwright/test';
 
+/** Modo sin conexión (build `--mode app`, VITE_OFFLINE=1): el motor es local y NO debe haber red. */
+export const OFFLINE = process.env.E2E_OFFLINE === '1';
+
+/** En modo sin conexión sólo se permiten GET de assets del propio origen (nada de /api ni otros orígenes). */
+export function isLocalAsset(url: string, origin: string, method = 'GET') {
+  if (url.startsWith('data:') || url.startsWith('blob:')) return true;
+  try {
+    const u = new URL(url);
+    return u.origin === origin && method === 'GET' && !u.pathname.startsWith('/api/');
+  } catch { return false; }
+}
+
 export interface Monitor {
+  offlineViolations: string[];
   consoleErrors: string[];
   consoleWarnings: string[];
   pageErrors: string[];
@@ -15,7 +28,7 @@ export interface Monitor {
 /** Engancha listeners a la página para recoger errores de consola, peticiones fallidas y de otros orígenes. */
 export function watch(page: Page, baseURL: string): Monitor {
   const origin = new URL(baseURL).origin;
-  const m: Monitor = { consoleErrors: [], consoleWarnings: [], pageErrors: [], failedRequests: [], badResponses: [], foreignRequests: [], textIssues: [] };
+  const m: Monitor = { offlineViolations: [], consoleErrors: [], consoleWarnings: [], pageErrors: [], failedRequests: [], badResponses: [], foreignRequests: [], textIssues: [] };
   page.on('console', (msg) => {
     if (msg.type() === 'error') m.consoleErrors.push(msg.text().slice(0, 400));
     else if (msg.type() === 'warning') m.consoleWarnings.push(msg.text().slice(0, 300));
@@ -32,6 +45,7 @@ export function watch(page: Page, baseURL: string): Monitor {
   });
   page.on('request', (r) => {
     const u = r.url();
+    if (OFFLINE && !isLocalAsset(u, origin, r.method())) m.offlineViolations.push(`${r.method()} ${u}`);
     if (u.startsWith('data:') || u.startsWith('blob:')) return;
     try { if (new URL(u).origin !== origin) m.foreignRequests.push(u); } catch { m.foreignRequests.push(u); }
   });
@@ -46,6 +60,7 @@ export function realFailures(m: Monitor) {
 /** Aserción final común: sin errores de consola, sin 4xx/5xx, sin otros orígenes, sin texto sin resolver. */
 export async function expectClean(m: Monitor, testInfo: TestInfo) {
   await testInfo.attach('monitor.json', { body: JSON.stringify(m, null, 2), contentType: 'application/json' });
+  expect.soft(m.offlineViolations, 'sin conexión: peticiones fuera de los assets locales').toEqual([]);
   expect.soft(m.pageErrors, 'excepciones JS no capturadas').toEqual([]);
   expect.soft(m.consoleErrors, 'errores en consola').toEqual([]);
   expect.soft(m.badResponses, 'respuestas 4xx/5xx').toEqual([]);

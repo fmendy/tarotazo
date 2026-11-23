@@ -9,6 +9,7 @@ import {
   SENTINEL, btn, chooseDeck, chooseProvince, chooseSpread, closing, confirmAge, cut, doReading, enterName,
   menu, passGate, pickCards, shuffle, watch,
 } from './helpers';
+import { OFFLINE, isLocalAsset } from './helpers';
 
 interface Captured { method: string; url: string; headers: Record<string, string>; body: string | null; resBody?: string; status?: number; setCookie?: string }
 
@@ -86,9 +87,9 @@ test('privacidad: ningún dato centinela sale del navegador durante una sesión 
       await opts.nth(0).fill(SENTINEL.options[0]);
       await opts.nth(1).fill(SENTINEL.options[1]);
     }
-    const resp = page.waitForResponse((r) => r.url().includes('/pendulum/answer'));
+    const resp = OFFLINE ? null : page.waitForResponse((r) => r.url().includes('/pendulum/answer'));
     await page.getByRole('button', { name: /^(Preguntar al péndulo|Otra pregunta)$/ }).click();
-    await resp;
+    if (resp) await resp;
     await expect(page.locator('.pendulum__side .seer:not(.seer--compact) .bubble')).toBeVisible({ timeout: 90_000 });
   }
   // preferencia de sonido (lo único que puede guardarse)
@@ -98,7 +99,11 @@ test('privacidad: ningún dato centinela sale del navegador durante una sesión 
   await page.waitForTimeout(500);
   const apiCalls = all.filter((c) => c.url.includes('/api/'));
   await testInfo.attach('trafico.json', { body: JSON.stringify(all, null, 2), contentType: 'application/json' });
-  expect(apiCalls.length, 'se ha llamado al API').toBeGreaterThan(5);
+  if (OFFLINE) {
+    // Sin conexión: ni una sola llamada al API ni a otro origen; sólo GET de assets locales.
+    expect(apiCalls.map((c) => `${c.method} ${c.url}`), 'sin conexión: ninguna llamada al API').toEqual([]);
+    expect(all.filter((c) => !isLocalAsset(c.url, new URL(baseURL!).origin, c.method)).map((c) => `${c.method} ${c.url}`), 'sin conexión: sólo assets locales').toEqual([]);
+  } else expect(apiCalls.length, 'se ha llamado al API').toBeGreaterThan(5);
   expect(leaks(all), 'datos centinela en URL/cabeceras/cuerpos').toEqual([]);
   // La respuesta del servidor tampoco puede contenerlos (no los ha recibido)
   expect(apiCalls.filter((c) => c.resBody && NEEDLES.some((n) => c.resBody!.includes(n))).map((c) => c.url)).toEqual([]);
@@ -141,6 +146,7 @@ test('privacidad: ningún dato centinela sale del navegador durante una sesión 
 });
 
 test('privacidad: las respuestas del API no fijan cookies ni sesión', async ({ request }) => {
+  test.skip(OFFLINE, 'sin conexión no hay API');
   for (const path of ['/api/v1/decks', '/api/v1/spreads?deck=tarot', '/api/v1/provinces', '/api/v1/titles', '/api/v1/content/onboarding', '/api/v1/content/pendulum']) {
     const r = await request.get(path);
     expect(r.status(), path).toBe(200);
@@ -151,6 +157,7 @@ test('privacidad: las respuestas del API no fijan cookies ni sesión', async ({ 
 });
 
 test('privacidad: el servidor ignora datos personales si alguien los manda (no los devuelve)', async ({ request }) => {
+  test.skip(OFFLINE, 'sin conexión no hay API');
   const r = await request.post('/api/v1/readings', {
     data: {
       deck: 'tarot', model: 'rws', spread: 'dia', cutIndex: 0, picks: [3],
@@ -165,7 +172,7 @@ test('privacidad: el servidor ignora datos personales si alguien los manda (no l
 });
 
 test('privacidad (pila Docker): los logs no contienen IPs de cliente ni datos centinela', async () => {
-  test.skip(process.env.E2E_DOCKER_LOGS !== '1', 'sólo con E2E_DOCKER_LOGS=1 y la pila de deploy/ levantada');
+  test.skip(OFFLINE || process.env.E2E_DOCKER_LOGS !== '1', 'sólo con E2E_DOCKER_LOGS=1 y la pila de deploy/ levantada');
   const logs = execSync('docker compose -f ../deploy/docker-compose.yml logs --no-color', { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
   await test.info().attach('docker-logs.txt', { body: logs, contentType: 'text/plain' });
   expect(logs).not.toMatch(/Centinela|Zacar/);

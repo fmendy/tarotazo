@@ -1,0 +1,299 @@
+11-23 07:35:07.516 E/ashmem  ( 2421): Pinning is deprecated since Android Q. Please use trim or other methods.
+11-23 07:35:08.030 E/cr_VariationsSeedLoader( 2421): Failed loading variations seed. Variations disabled.
+11-23 07:35:08.153 E/ocessService0:0( 2513): Not starting debugger since process cannot load the jdwp agent.
+11-23 07:35:08.400 W/chromium( 2421): [WARNING:dns_config_service_android.cc(81)] Failed to read DnsConfig.
+11-23 07:35:08.620 E/chromium( 2421): [ERROR:simple_version_upgrade.cc(161)] Disk cache backend fake index file has wrong size.
+11-23 07:35:09.177 E/MESA    ( 2421): Failed to open rendernode: No such file or directory
+11-23 07:35:09.249 W/chromium( 2513): [WARNING:runtime_features.cc(560)] Fenced frames cannot be enabled in this configuration. Use --enable-features=FencedFrames instead.
+11-23 07:35:09.250 W/chromium( 2513): [WARNING:runtime_features.cc(585)] Topics cannot be enabled in this configuration. Use --enable-features=BrowsingTopics in addition.
+11-23 07:35:09.250 W/chromium( 2513): [WARNING:runtime_features.cc(606)] SharedStorage cannot be enabled in this configuration. Use --enable-features=SharedStorageAPI in addition.
+11-23 07:35:09.266 W/chromium( 2421): [WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+11-23 07:35:09.322 D/Capacitor( 2421): Handling local request: https://localhost/
+11-23 07:35:09.828 D/Capacitor( 2421): Handling local request: https://localhost/assets/index-DkNAmaf5.js
+11-23 07:35:09.835 D/Capacitor( 2421): Handling local request: https://localhost/fonts/cinzel-decorative/cinzel-decorative-latin-700-normal.woff2
+11-23 07:35:09.835 D/Capacitor( 2421): Handling local request: https://localhost/assets/react-Bx9etg9Z.js
+11-23 07:35:09.841 D/Capacitor( 2421): Handling local request: https://localhost/assets/i18n-CI2ilwqc.js
+11-23 07:35:09.842 D/Capacitor( 2421): Handling local request: https://localhost/assets/capacitor-CYapVP7C.js
+11-23 07:35:09.845 D/Capacitor( 2421): Handling local request: https://localhost/assets/motion-tYPJrJpa.js
+11-23 07:35:09.871 E/Capacitor/Console( 2421): File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-23 07:35:09.875 E/Capacitor/Console( 2421): File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-23 07:35:09.876 E/Capacitor/Console( 2421): File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-23 07:35:10.306 D/Capacitor( 2421): Handling local request: https://localhost/assets/gsap-DdEiTQuA.js
+11-23 07:35:10.324 D/Capacitor( 2421): Handling local request: https://localhost/assets/index-BFGstORk.css
+11-23 07:35:10.572 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:35:10.577 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:35:10.577 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:35:10.595 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:35:10.595 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:35:10.772 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 07:35:10.787 D/Capacitor( 2421): Handling local request: https://localhost/fonts/alegreya/alegreya-latin-400-normal.woff2
+11-23 07:35:10.792 D/Capacitor( 2421): Handling local request: https://localhost/fonts/alegreya/alegreya-latin-400-italic.woff2
+11-23 07:35:10.792 D/Capacitor( 2421): Handling local request: https://localhost/fonts/rye/rye-latin-400-normal.woff2
+11-23 07:35:10.798 D/Capacitor( 2421): Handling local request: https://localhost/fonts/cinzel/cinzel-latin-400-normal.woff2
+11-23 07:35:10.798 D/Capacitor( 2421): Handling local request: https://localhost/fonts/cinzel/cinzel-latin-700-normal.woff2
+11-23 07:35:10.869 E/chromium( 2513): [ERROR:tile_manager.cc(937)] WARNING: tile memory limits exceeded, some content may not draw
+11-23 07:35:10.870 E/chromium( 2513): [ERROR:tile_manager.cc(937)] WARNING: tile memory limits exceeded, some content may not draw
+11-23 07:35:10.884 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:35:10.887 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:35:10.931 D/Capacitor( 2421): Handling local request: https://localhost/assets/index-BKaD0sB5.js
+11-23 07:35:10.974 E/chromium( 2513): [ERROR:tile_manager.cc(937)] WARNING: tile memory limits exceeded, some content may not draw
+11-23 07:35:10.975 E/chromium( 2513): [ERROR:tile_manager.cc(937)] WARNING: tile memory limits exceeded, some content may not draw
+11-23 07:35:10.989 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:35:10.990 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:35:11.007 E/chromium( 2513): [ERROR:tile_manager.cc(937)] WARNING: tile memory limits exceeded, some content may not draw
+11-23 07:35:11.008 E/chromium( 2513): [ERROR:tile_manager.cc(937)] WARNING: tile memory limits exceeded, some content may not draw
+11-23 07:35:11.067 D/Capacitor( 2421): Handling local request: https://localhost/assets/es-DqJBOZKi.js
+11-23 07:35:12.017 E/SurfaceSyncGroup( 2421): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[MainActivity]#0) as ready
+11-23 07:35:12.018 E/SurfaceSyncGroup( 2421): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[MainActivity]#1) as ready
+11-23 07:35:12.186 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:35:35.118 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 07:35:35.179 D/Capacitor( 2421): Handling local request: https://localhost/fonts/caveat/caveat-latin-500-normal.woff2
+11-23 07:35:35.533 W/chromium( 2421): [WARNING:simple_index_file.cc(540)] Corrupt Simple Index File.
+11-23 07:35:46.499 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:35:47.264 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/sorpresa.svg
+11-23 07:35:54.762 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/piensa.svg
+11-23 07:35:55.201 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:36:06.310 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:36:06.842 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:36:08.884 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:36:48.349 D/Capacitor( 2421): Handling local request: https://localhost/art/globe.svg
+11-23 07:36:48.364 D/Capacitor( 2421): Handling local request: https://localhost/art/map/spain.svg
+11-23 07:36:57.592 D/Capacitor( 2421): Handling local request: https://localhost/fonts/alegreya/alegreya-latin-700-normal.woff2
+11-23 07:36:57.615 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/rie.svg
+11-23 07:37:40.185 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 07:37:40.190 D/Capacitor( 2421): Handling local request: https://localhost/art/chests/tarot.svg
+11-23 07:37:40.191 D/Capacitor( 2421): Handling local request: https://localhost/art/chests/spanish.svg
+11-23 07:37:47.237 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/rws.svg
+11-23 07:37:47.237 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/marsella.svg
+11-23 07:37:47.240 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/rws/mayor-00.svg
+11-23 07:37:47.245 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/marsella/mayor-00.svg
+11-23 07:37:47.245 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/neon.svg
+11-23 07:37:47.245 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/neon/mayor-00.svg
+11-23 07:37:47.246 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/acuarela.svg
+11-23 07:37:47.246 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/acuarela/mayor-00.svg
+11-23 07:37:47.247 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/pixel.svg
+11-23 07:37:47.248 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/pixel/mayor-00.svg
+11-23 07:37:47.250 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/gatos.svg
+11-23 07:37:47.250 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/gatos/mayor-00.svg
+11-23 07:37:54.058 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 07:38:19.326 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/rws.svg
+11-23 07:38:33.370 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/piensa.svg
+11-23 07:39:30.216 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 07:39:33.578 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/rws/oros-04.svg
+11-23 07:39:33.579 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/rws/espadas-caballo.svg
+11-23 07:39:33.580 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/rws/mayor-06.svg
+11-23 07:40:00.922 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:40:01.066 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:41:40.410 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 07:41:51.357 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:41:51.562 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:43:15.479 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 07:43:26.323 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:43:26.532 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:45:37.206 D/Capacitor( 2421): Handling local request: https://localhost/assets/Closing-7F_Cs9gE.js
+11-23 07:45:37.423 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 07:46:32.742 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:46:32.975 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:46:35.046 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:46:35.566 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: {"uri":"file:///data/user/0/es.tarotazo.app/cache/diploma-tarotazo.png"}
+11-23 07:46:35.567 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:46:35.716 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:46:51.513 E/Capacitor/Console( 2421): File:  - Line 331 - Msg: [object Object]
+11-23 07:46:51.522 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:47:16.479 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:47:16.833 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: {"uri":"file:///data/user/0/es.tarotazo.app/cache/tarotazo.png"}
+11-23 07:47:16.834 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 07:47:17.089 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:47:22.830 E/Capacitor/Console( 2421): File:  - Line 331 - Msg: [object Object]
+11-23 07:47:22.831 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 07:47:47.198 D/Capacitor( 2421): Handling local request: https://localhost/assets/PendulumScreen-1oQ2sWwX.js
+11-23 07:47:47.539 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 07:47:47.545 D/Capacitor( 2421): Handling local request: https://localhost/art/pendulums/cuarzo.svg
+11-23 07:47:47.546 D/Capacitor( 2421): Handling local request: https://localhost/art/pendulums/amatista.svg
+11-23 07:47:47.552 D/Capacitor( 2421): Handling local request: https://localhost/art/pendulums/obsidiana.svg
+11-23 07:47:47.553 D/Capacitor( 2421): Handling local request: https://localhost/art/pendulums/laton.svg
+11-23 07:47:47.553 D/Capacitor( 2421): Handling local request: https://localhost/art/pendulums/madera.svg
+11-23 07:47:47.555 D/Capacitor( 2421): Handling local request: https://localhost/art/pendulums/camara.svg
+11-23 07:47:47.567 D/Capacitor( 2421): Handling local request: https://localhost/art/pendulums/llave.svg
+11-23 07:47:47.576 D/Capacitor( 2421): Handling local request: https://localhost/art/pendulums/chorizo.svg
+11-23 07:47:47.577 D/Capacitor( 2421): Handling local request: https://localhost/art/pendulums/anillo.svg
+11-23 07:48:22.970 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/piensa.svg
+11-23 07:49:13.770 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:49:39.889 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:49:46.077 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 07:50:07.341 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:50:30.955 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:51:19.900 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:51:25.156 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/piensa.svg
+11-23 07:51:25.689 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:51:32.403 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 07:51:54.754 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:52:03.221 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:52:33.801 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:52:42.780 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:53:11.675 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:53:22.405 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:53:29.453 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 07:53:53.890 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:54:03.121 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:56:02.217 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:56:08.222 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 07:56:33.269 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 07:59:25.230 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 08:00:01.587 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:00:03.823 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:00:16.690 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/sorpresa.svg
+11-23 08:00:54.729 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:00:56.916 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:01:47.683 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:06:22.782 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:06:47.488 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: {"canGoBack":false}
+11-23 08:06:48.017 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 08:07:58.572 D/Capacitor( 2421): Handling local request: https://localhost/art/wallpaper.svg
+11-23 08:07:59.237 D/Capacitor( 2421): Handling local request: https://localhost/assets/Titles-CaSg6LG8.js
+11-23 08:07:59.588 D/Capacitor( 2421): Handling local request: https://localhost/art/frames/moderno.svg
+11-23 08:07:59.590 D/Capacitor( 2421): Handling local request: https://localhost/art/frames/barroco.svg
+11-23 08:07:59.591 D/Capacitor( 2421): Handling local request: https://localhost/art/frames/pergamino.svg
+11-23 08:07:59.592 D/Capacitor( 2421): Handling local request: https://localhost/art/frames/dorado.svg
+11-23 08:07:59.596 D/Capacitor( 2421): Handling local request: https://localhost/art/frames/madera.svg
+11-23 08:07:59.596 D/Capacitor( 2421): Handling local request: https://localhost/art/stamps/compulsado.svg
+11-23 08:08:22.901 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/rie.svg
+11-23 08:08:24.650 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:08:25.962 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:08:54.947 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:08:55.998 E/Capacitor( 2421): Couldn't save last Share's Plugin share call
+11-23 08:08:58.251 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:12:53.490 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 08:13:21.231 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/rie.svg
+11-23 08:13:26.675 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: {"canGoBack":false}
+11-23 08:13:26.677 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:13:26.687 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:13:26.709 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:13:27.467 E/chromium( 2421): [ERROR:aw_browser_terminator.cc(165)] Renderer process (2513) crash detected (code -1).
+11-23 08:13:30.129 D/Capacitor( 2421): Handling local request: https://localhost/
+11-23 08:13:30.475 E/Capacitor/Console( 2421): File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-23 08:13:30.477 E/Capacitor/Console( 2421): File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-23 08:13:30.477 E/Capacitor/Console( 2421): File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-23 08:13:30.483 D/Capacitor( 2421): Handling local request: https://localhost/fonts/cinzel-decorative/cinzel-decorative-latin-700-normal.woff2
+11-23 08:13:30.486 D/Capacitor( 2421): Handling local request: https://localhost/assets/i18n-CI2ilwqc.js
+11-23 08:13:30.487 D/Capacitor( 2421): Handling local request: https://localhost/assets/index-DkNAmaf5.js
+11-23 08:13:30.488 D/Capacitor( 2421): Handling local request: https://localhost/assets/react-Bx9etg9Z.js
+11-23 08:13:30.496 D/Capacitor( 2421): Handling local request: https://localhost/assets/capacitor-CYapVP7C.js
+11-23 08:13:30.500 D/Capacitor( 2421): Handling local request: https://localhost/assets/motion-tYPJrJpa.js
+11-23 08:13:30.501 D/Capacitor( 2421): Handling local request: https://localhost/assets/gsap-DdEiTQuA.js
+11-23 08:13:30.502 D/Capacitor( 2421): Handling local request: https://localhost/assets/index-BFGstORk.css
+11-23 08:13:30.595 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:13:30.595 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:13:30.596 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:13:30.596 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:13:30.596 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:13:30.643 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 08:13:30.649 D/Capacitor( 2421): Handling local request: https://localhost/fonts/alegreya/alegreya-latin-400-normal.woff2
+11-23 08:13:30.651 D/Capacitor( 2421): Handling local request: https://localhost/fonts/alegreya/alegreya-latin-400-italic.woff2
+11-23 08:13:30.652 D/Capacitor( 2421): Handling local request: https://localhost/fonts/cinzel/cinzel-latin-400-normal.woff2
+11-23 08:13:30.653 D/Capacitor( 2421): Handling local request: https://localhost/fonts/rye/rye-latin-400-normal.woff2
+11-23 08:13:30.654 D/Capacitor( 2421): Handling local request: https://localhost/fonts/cinzel/cinzel-latin-700-normal.woff2
+11-23 08:13:30.687 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:13:30.689 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:13:30.705 D/Capacitor( 2421): Handling local request: https://localhost/assets/index-BKaD0sB5.js
+11-23 08:13:30.709 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:13:30.727 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:13:30.769 D/Capacitor( 2421): Handling local request: https://localhost/assets/es-DqJBOZKi.js
+11-23 08:13:31.744 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:13:57.049 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/rie.svg
+11-23 08:14:11.467 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: {"canGoBack":false}
+11-23 08:14:11.468 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:14:11.475 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:14:11.489 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:14:12.072 E/chromium( 2421): [ERROR:aw_browser_terminator.cc(165)] Renderer process (11437) crash detected (code -1).
+11-23 08:14:14.833 D/Capacitor( 2421): Handling local request: https://localhost/
+11-23 08:14:15.080 D/Capacitor( 2421): Handling local request: https://localhost/fonts/cinzel-decorative/cinzel-decorative-latin-700-normal.woff2
+11-23 08:14:15.081 D/Capacitor( 2421): Handling local request: https://localhost/assets/index-DkNAmaf5.js
+11-23 08:14:15.082 D/Capacitor( 2421): Handling local request: https://localhost/assets/react-Bx9etg9Z.js
+11-23 08:14:15.088 D/Capacitor( 2421): Handling local request: https://localhost/assets/i18n-CI2ilwqc.js
+11-23 08:14:15.091 E/Capacitor/Console( 2421): File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-23 08:14:15.091 E/Capacitor/Console( 2421): File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-23 08:14:15.093 E/Capacitor/Console( 2421): File:  - Line 6 - Msg: Error injecting safe area CSS: TypeError: Cannot read properties of null (reading 'style')
+11-23 08:14:15.093 D/Capacitor( 2421): Handling local request: https://localhost/assets/capacitor-CYapVP7C.js
+11-23 08:14:15.095 D/Capacitor( 2421): Handling local request: https://localhost/assets/gsap-DdEiTQuA.js
+11-23 08:14:15.097 D/Capacitor( 2421): Handling local request: https://localhost/assets/index-BFGstORk.css
+11-23 08:14:15.100 D/Capacitor( 2421): Handling local request: https://localhost/assets/motion-tYPJrJpa.js
+11-23 08:14:15.182 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:14:15.182 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:14:15.184 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:14:15.185 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:14:15.185 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:14:15.222 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 08:14:15.226 D/Capacitor( 2421): Handling local request: https://localhost/fonts/alegreya/alegreya-latin-400-normal.woff2
+11-23 08:14:15.229 D/Capacitor( 2421): Handling local request: https://localhost/fonts/alegreya/alegreya-latin-400-italic.woff2
+11-23 08:14:15.234 D/Capacitor( 2421): Handling local request: https://localhost/fonts/rye/rye-latin-400-normal.woff2
+11-23 08:14:15.239 D/Capacitor( 2421): Handling local request: https://localhost/fonts/cinzel/cinzel-latin-400-normal.woff2
+11-23 08:14:15.242 D/Capacitor( 2421): Handling local request: https://localhost/fonts/cinzel/cinzel-latin-700-normal.woff2
+11-23 08:14:15.251 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:14:15.256 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:14:15.271 D/Capacitor( 2421): Handling local request: https://localhost/assets/index-BKaD0sB5.js
+11-23 08:14:15.297 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:14:15.299 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:14:15.325 D/Capacitor( 2421): Handling local request: https://localhost/assets/es-DqJBOZKi.js
+11-23 08:14:16.189 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:14:27.669 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 08:14:27.705 D/Capacitor( 2421): Handling local request: https://localhost/fonts/caveat/caveat-latin-500-normal.woff2
+11-23 08:14:36.084 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:14:38.575 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/sorpresa.svg
+11-23 08:14:40.946 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/piensa.svg
+11-23 08:14:41.488 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:14:53.469 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:14:55.721 D/Capacitor( 2421): Handling local request: https://localhost/favicon.svg
+11-23 08:15:06.314 D/Capacitor( 2421): Handling local request: https://localhost/art/globe.svg
+11-23 08:15:06.324 D/Capacitor( 2421): Handling local request: https://localhost/art/map/spain.svg
+11-23 08:15:20.524 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/rie.svg
+11-23 08:15:20.526 D/Capacitor( 2421): Handling local request: https://localhost/fonts/alegreya/alegreya-latin-700-normal.woff2
+11-23 08:15:31.193 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 08:15:31.198 D/Capacitor( 2421): Handling local request: https://localhost/art/chests/tarot.svg
+11-23 08:15:31.201 D/Capacitor( 2421): Handling local request: https://localhost/art/chests/spanish.svg
+11-23 08:15:40.314 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/castellana.svg
+11-23 08:15:40.315 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/castellana/bastos-01.svg
+11-23 08:15:40.315 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/catalana.svg
+11-23 08:15:40.315 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/catalana/bastos-01.svg
+11-23 08:15:40.337 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/ilustrada.svg
+11-23 08:15:40.342 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/ilustrada/bastos-01.svg
+11-23 08:15:58.739 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 08:16:19.418 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/rie.svg
+11-23 08:16:33.375 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/piensa.svg
+11-23 08:16:50.079 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 08:17:06.551 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 08:17:09.817 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/castellana/copas-sota.svg
+11-23 08:17:09.818 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/castellana/copas-05.svg
+11-23 08:17:09.818 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/castellana/bastos-05.svg
+11-23 08:17:09.820 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/castellana/copas-rey.svg
+11-23 08:17:09.823 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/castellana/copas-06.svg
+11-23 08:17:30.314 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/piensa.svg
+11-23 08:17:30.364 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:17:30.646 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:19:03.473 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 08:19:16.190 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/rie.svg
+11-23 08:19:16.220 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:19:16.464 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:20:49.595 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 08:21:00.903 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/piensa.svg
+11-23 08:21:00.932 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:21:01.209 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:22:52.487 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 08:23:03.784 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/rie.svg
+11-23 08:23:03.834 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:23:04.296 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:24:36.492 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/bola.svg
+11-23 08:24:48.013 I/Capacitor/Console( 2421): File:  - Line 350 - Msg: [object Object]
+11-23 08:24:48.356 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: undefined
+11-23 08:25:55.214 D/Capacitor( 2421): Handling local request: https://localhost/assets/Closing-7F_Cs9gE.js
+11-23 08:25:55.340 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/saludo.svg
+11-23 08:26:38.856 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: {"canGoBack":false}
+11-23 08:26:39.509 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/castellana.svg
+11-23 08:26:39.510 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/castellana/bastos-01.svg
+11-23 08:26:39.513 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/catalana.svg
+11-23 08:26:39.513 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/catalana/bastos-01.svg
+11-23 08:26:39.514 D/Capacitor( 2421): Handling local request: https://localhost/art/backs/ilustrada.svg
+11-23 08:26:39.517 D/Capacitor( 2421): Handling local request: https://localhost/art/cards/ilustrada/bastos-01.svg
+11-23 08:26:45.055 I/Capacitor/Console( 2421): File:  - Line 334 - Msg: {"canGoBack":false}
+11-23 08:26:45.506 D/Capacitor( 2421): Handling local request: https://localhost/art/remedios/piensa.svg
+11-23 08:26:45.513 D/Capacitor( 2421): Handling local request: https://localhost/art/globe.svg

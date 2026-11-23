@@ -1,6 +1,7 @@
 // Péndulo «El Oráculo Oscilante»: vitrina, calibración, «concentrarme», los 7 modos y el enfado.
 import { expect, test, type Page } from '@playwright/test';
 import { SENTINEL, btn, checkText, expectClean, menu, passGate, watch, type Monitor } from './helpers';
+import { OFFLINE } from './helpers';
 
 const MODES = [
   ['sino', 'Sí / No'],
@@ -76,18 +77,26 @@ test.describe('Péndulo', () => {
         await opts.nth(2).fill(SENTINEL.options[2]);
       }
       const ask = page.getByRole('button', { name: /^(Preguntar al péndulo|Otra pregunta)$/ });
-      const resp = page.waitForResponse((r) => r.url().includes('/api/v1/pendulum/answer'));
+      // En línea se comprueba la respuesta del API; sin conexión la calcula el motor local (no hay red).
+      const resp = OFFLINE ? null : page.waitForResponse((r) => r.url().includes('/api/v1/pendulum/answer'));
       await ask.click();
-      const r = await resp;
-      expect(r.status(), `modo ${id}: estado HTTP`).toBe(200);
-      const body = await r.json();
-      expect(body.mode).toBe(id);
+      let body: { mode?: string; result?: { word?: string; levels?: { nivel: number }[] } } | null = null;
+      if (resp) {
+        const r = await resp;
+        expect(r.status(), `modo ${id}: estado HTTP`).toBe(200);
+        body = await r.json();
+        expect(body!.mode).toBe(id);
+      }
       const text = await waitAnswer(page);
       results[id] = text;
       expect(text, `modo ${id}: texto de respuesta`).not.toMatch(/^\s*$/);
       if (id === 'opciones') expect(SENTINEL.options.some((o) => text.includes(o)), 'opciones: el texto nombra la opción elegida (rellena en local)').toBe(true);
-      if (id === 'ouija') await expect(page.locator('.pboard text').last()).toHaveText(String(body.result.word).toLocaleUpperCase('es'));
-      if (id === 'chakras') for (const lvl of body.result.levels) expect(lvl.nivel).toBeGreaterThanOrEqual(0);
+      if (id === 'ouija') {
+        if (body) await expect(page.locator('.pboard text').last()).toHaveText(String(body.result!.word).toLocaleUpperCase('es'));
+        else await expect(page.locator('.pboard text').last()).toHaveText(/^[A-ZÁÉÍÓÚÑ]{2,}$/);
+      }
+      if (id === 'chakras' && body) for (const lvl of body.result!.levels!) expect(lvl.nivel).toBeGreaterThanOrEqual(0);
+      if (id === 'chakras' && !body) await expect(page.locator('.pboard text', { hasText: '%' })).toHaveCount(7);
       await checkText(page, m, `péndulo · ${id}`);
     }
     await testInfo.attach('respuestas.json', { body: JSON.stringify(results, null, 2), contentType: 'application/json' });
