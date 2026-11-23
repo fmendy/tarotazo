@@ -78,6 +78,18 @@ export class PendulumSim {
   extra = { x: 0, y: 0 };
   /** Multiplicador de la fuerza guía (0 = libre). */
   guideGain = 1;
+  /**
+   * Segundos que sigue moviéndose tras asentarse antes de «calmarse» y quedarse quieto
+   * (la mano se relaja; ahorra batería porque el renderizador se duerme). Con valor, también se
+   * calma a los 2,5 s si está libre y nadie lo sujeta. null = nunca (física pura).
+   */
+  restAfter: number | null = null;
+  /** true mientras el usuario sujeta la cadena (impide la calma). */
+  handActive = false;
+  /** 0..1: cuánto se ha relajado la mano (desvanece guía y temblor, sube la amortiguación). */
+  calm = 0;
+  private idleTime = 0;
+  private settledTime = 0;
 
   time = 0;
   target: SimTarget | null = null;
@@ -112,6 +124,9 @@ export class PendulumSim {
   }
 
   setTarget(t: SimTarget | null): void {
+    this.calm = 0;
+    this.idleTime = 0;
+    this.settledTime = 0;
     this.target = t;
     this.targetTime = 0;
     this.settled = false;
@@ -121,6 +136,9 @@ export class PendulumSim {
   }
 
   setAngry(b: boolean): void {
+    this.calm = 0;
+    this.idleTime = 0;
+    this.settledTime = 0;
     this.angry = b;
     this.settled = false;
     this.settledAccum = 0;
@@ -177,9 +195,11 @@ export class PendulumSim {
     this.length += (goalL - this.length) * Math.min(1, dt * (this.angry ? 0.7 : 1.5));
     this.wind = ((this.params.length - this.length) / this.params.length) * 9;
 
+    this.updateCalm(dt);
     const a = this.guide();
     let damp = this.params.damping;
     if (this.target && this.targetTime < SCRIPT.quiet) damp += 2.5; // «empieza quieto»
+    if (this.target?.kind !== 'point') damp += 0.9 * this.calm;
 
     const v = { x: this.p.x - this.prev.x, y: this.p.y - this.prev.y, z: this.p.z - this.prev.z };
     const k = 1 - damp * dt;
@@ -238,16 +258,18 @@ export class PendulumSim {
     if (this.jitter.t <= 0) {
       this.jitter = { x: (this.rng() * 2 - 1), y: (this.rng() * 2 - 1), t: 0.08 + this.rng() * 0.08 };
     }
-    out.x += this.jitter.x * P.tremor;
-    out.y += this.jitter.y * P.tremor;
+    const tremor = P.tremor * (1 - this.calm);
+    out.x += this.jitter.x * tremor;
+    out.y += this.jitter.y * tremor;
 
     if (this.angry) {
-      this.addCircle(out, rx, ry, v, Math.min(0.6 * L, 0.3), 1.8, 4);
+      this.addCircle(out, rx, ry, v, Math.min(0.6 * L, 0.3), 1.8 * (1 - this.calm), 4);
       return out;
     }
     const tt = this.target ? this.targetTime : 0;
     if (!this.target) return out;
-    const G = this.guideGain;
+    // En un punto la guía sostiene la posición (si se soltase, volvería al centro).
+    const G = this.guideGain * (this.target.kind === 'point' ? 1 : 1 - this.calm);
 
     if (tt < SCRIPT.quiet) return out;
     if (tt < SCRIPT.tremble) {
@@ -297,6 +319,28 @@ export class PendulumSim {
       out.y += S * (ffy + kp * (py - ry) - kd * v.y);
     }
     return out;
+  }
+
+  /** Calma: sin objetivo ni mano durante 2,5 s, o asentado durante `restAfter` s. */
+  private updateCalm(dt: number) {
+    if (this.handActive) {
+      this.idleTime = 0;
+      this.calm = Math.max(0, this.calm - dt * 4);
+      return;
+    }
+    this.idleTime += dt;
+    if (this.settled) this.settledTime += dt;
+    const free = this.restAfter !== null && !this.target && !this.angry && this.idleTime > 2.5;
+    const rested = this.settled && this.restAfter !== null && this.settledTime > this.restAfter;
+    if (free || rested) this.calm = Math.min(1, this.calm + dt / 2);
+  }
+
+  /** ¿Quieto del todo? (para dormir el bucle de dibujo). */
+  isAtRest(): boolean {
+    if (this.handActive || this.calm < 0.999) return false;
+    const v = this.velocity();
+    const pv = Math.hypot(this.pivot.x - this.prevPivot.x, this.pivot.y - this.prevPivot.y);
+    return Math.hypot(v.x, v.y) < 0.004 && pv < 1e-6 && Math.abs(this.length - (this.angry ? this.params.length * 0.38 : this.params.length)) < 1e-3;
   }
 
   /** Fuerza que lleva a un péndulo cónico de radio R. */

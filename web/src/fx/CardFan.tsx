@@ -135,15 +135,20 @@ export function CardFan(p: CardFanProps): JSX.Element {
         aria-selected={isPicked}
         aria-label={`Carta ${i + 1}`}
         className={['fx-fan__card', isPicked ? 'is-picked' : '', (kbd && focus === i) || (!scroll && hover === i) ? 'is-focus' : ''].join(' ')}
-        onClick={
-          scroll
-            ? () => {
-                setKbd(false);
-                setFocus(i);
-                choose(i);
-              }
-            : undefined
-        }
+        aria-posinset={i + 1}
+        aria-setsize={p.count}
+        aria-disabled={isPicked || done ? true : undefined}
+        // A-8: cada carta es un nodo enfocable con su propio clic, para que TalkBack la exponga
+        // (con límites) y la elija con doble toque. En el abanico de escritorio, los clics de
+        // ratón (detail > 0) los resuelve la cuña angular del contenedor.
+        tabIndex={-1}
+        onClick={(e) => {
+          if (!scroll && e.detail > 0) return;
+          e.stopPropagation();
+          setKbd(false);
+          setFocus(i);
+          choose(i);
+        }}
         style={{
           left,
           width: cw,
@@ -193,6 +198,7 @@ export function CardFan(p: CardFanProps): JSX.Element {
           }}
           onPointerLeave={scroll ? undefined : () => setHover(null)}
           onClick={scroll ? undefined : (e) => {
+            if (e.detail === 0) return; // clic de accesibilidad: lo atiende la propia carta
             const k = hitIndex(e);
             if (k === null) return;
             setKbd(false);

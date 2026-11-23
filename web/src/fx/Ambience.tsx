@@ -1,6 +1,7 @@
 // Capa de ambiente en canvas 2D propio: humo, velas, estrellas o polvo.
-// Partículas ligeras con sprites pre-renderizados; 30 fps en móvil, pausa con la pestaña oculta
-// o fuera de pantalla, y un único fotograma estático con movimiento reducido.
+// Partículas ligeras con sprites pre-renderizados; 20 fps en móvil (15 en reposo), 30 en
+// escritorio (20 en reposo); pausa con la pestaña oculta o fuera de pantalla, y un único
+// fotograma estático con movimiento reducido.
 import { useEffect, useRef, type CSSProperties, type JSX } from 'react';
 import { isLowPowerDevice, useLatest, useReducedMotion } from './hooks';
 
@@ -10,6 +11,12 @@ export interface AmbienceProps {
   variant: AmbienceVariant;
   /** 0..2 (por defecto 1): densidad y brillo. */
   intensity?: number;
+  /**
+   * Fotogramas por segundo con actividad [móvil, escritorio] (por defecto [20, 30]). Sin
+   * interacción durante 8 s baja a 15 (móvil) / 20 (escritorio). Las partículas son lentas:
+   * a estas cadencias no se nota la diferencia y se ahorra batería.
+   */
+  fps?: number;
   /** 'fixed' (por defecto, cubre la ventana) o 'absolute' (cubre el padre posicionado). */
   position?: 'fixed' | 'absolute';
   /** z-index de la capa (por defecto -1: detrás del contenido en flujo). */
@@ -293,7 +300,14 @@ export function Ambience(p: AmbienceProps): JSX.Element {
     const c = cv.getContext('2d');
     if (!c) return;
     const low = isLowPowerDevice();
-    const frameMs = low ? 1000 / 30 : 1000 / 60;
+    const activeFps = p.fps ?? (low ? 20 : 30);
+    const idleFps = Math.min(activeFps, low ? 15 : 20);
+    let lastInput = performance.now();
+    const onInput = () => {
+      lastInput = performance.now();
+    };
+    const inputEvents = ['pointerdown', 'pointermove', 'keydown', 'wheel', 'touchstart'] as const;
+    inputEvents.forEach((ev) => window.addEventListener(ev, onInput, { passive: true }));
     let sys: Sys | null = null;
     let W = 0;
     let H = 0;
@@ -326,6 +340,7 @@ export function Ambience(p: AmbienceProps): JSX.Element {
       if (!last) last = now;
       acc += now - last;
       last = now;
+      const frameMs = 1000 / (now - lastInput > 8000 ? idleFps : activeFps);
       if (acc < frameMs - 1) return;
       const dt = Math.min(acc, 100) / 1000;
       acc = 0;
@@ -335,7 +350,7 @@ export function Ambience(p: AmbienceProps): JSX.Element {
       sys!.draw(c, t);
     };
     const start = () => {
-      if (running || reduced || document.hidden || !onScreen) return;
+      if (running || reduced || document.hidden || !onScreen || kRef.current <= 0) return;
       running = true;
       last = 0;
       raf = requestAnimationFrame(frame);
@@ -368,10 +383,11 @@ export function Ambience(p: AmbienceProps): JSX.Element {
       stop();
       clearTimeout(rt);
       document.removeEventListener('visibilitychange', onVis);
+      inputEvents.forEach((ev) => window.removeEventListener(ev, onInput));
       ro?.disconnect();
       io?.disconnect();
     };
-  }, [p.variant, reduced, k]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [p.variant, reduced, k, p.fps]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div

@@ -77,3 +77,21 @@ describe('QA-16 ScreenTransition', () => {
     expect(container.textContent).not.toContain('Vieja');
   });
 });
+
+describe('A-8 CardFan con TalkBack', () => {
+  it('cada carta es enfocable, tiene posición y se elige con un clic de accesibilidad (detail 0), también en el abanico', async () => {
+    const picked: number[][] = [];
+    const { container } = render(<CardFan backImage="/b.svg" count={22} pick={1} scroll={false} onPicked={(ix) => picked.push(ix)} />);
+    const cards = container.querySelectorAll<HTMLElement>('[role="option"]');
+    expect(cards[5].getAttribute('tabindex')).toBe('-1');
+    expect(cards[5].getAttribute('aria-posinset')).toBe('6');
+    expect(cards[5].getAttribute('aria-setsize')).toBe('22');
+    const { fireEvent } = await import('@testing-library/react');
+    fireEvent.click(cards[5], { detail: 0 });
+    expect(cards[5].getAttribute('aria-selected')).toBe('true');
+    await act(async () => {
+      await new Promise((r) => setTimeout(r, 800));
+    });
+    expect(picked).toEqual([[5]]);
+  });
+});

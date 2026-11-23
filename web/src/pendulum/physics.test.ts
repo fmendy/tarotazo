@@ -123,3 +123,53 @@ describe('PendulumSim (péndulo esférico, Verlet)', () => {
     expect(Math.abs(sim.p.x)).toBeGreaterThan(0.05);
   });
 });
+
+describe('reposo (ahorro de batería)', () => {
+  it('sin objetivo ni mano se calma y queda en reposo', () => {
+    const sim = new PendulumSim({}, mulberry32(21));
+    sim.restAfter = 8;
+    sim.setAngle(0.4);
+    let restAt = -1;
+    run(sim, 40, (s) => {
+      if (restAt < 0 && s.isAtRest()) restAt = s.time;
+    });
+    expect(restAt).toBeGreaterThan(0);
+    expect(restAt).toBeLessThan(30);
+  });
+
+  it('asentado en un eje, se calma tras restAfter y no antes', () => {
+    const sim = new PendulumSim({}, mulberry32(22));
+    sim.restAfter = 6;
+    sim.setTarget({ kind: 'axis', axis: 'y' });
+    let settledAt = -1;
+    let restAt = -1;
+    run(sim, 60, (s) => {
+      if (settledAt < 0 && s.settled) settledAt = s.time;
+      if (restAt < 0 && s.isAtRest()) restAt = s.time;
+    });
+    expect(settledAt).toBeGreaterThan(0);
+    expect(restAt - settledAt).toBeGreaterThan(6);
+    expect(restAt).toBeGreaterThan(0);
+  });
+
+  it('asentado en un punto, se queda quieto sobre el punto', () => {
+    const sim = new PendulumSim({}, mulberry32(23));
+    sim.restAfter = 2;
+    const pt = boardToWorld(0.2, 0.7, 0.5);
+    sim.setTarget({ kind: 'point', ...pt });
+    let rest = false;
+    run(sim, 30, (s) => {
+      rest = rest || s.isAtRest();
+    });
+    expect(rest).toBe(true);
+    expect(Math.hypot(sim.p.x - pt.x, sim.p.y - pt.y)).toBeLessThan(0.03);
+  });
+
+  it('sujetar la cadena impide el reposo', () => {
+    const sim = new PendulumSim({}, mulberry32(24));
+    sim.restAfter = 1;
+    sim.handActive = true;
+    run(sim, 20);
+    expect(sim.isAtRest()).toBe(false);
+  });
+});

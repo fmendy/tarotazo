@@ -9,9 +9,9 @@ export interface Carousel3DProps<T> {
   onSelect(item: T): void;
   /** Se llama cuando cambia el elemento de delante. */
   onChange?(item: T, index: number): void;
-  /** Ancho de cada elemento en px (por defecto 180). */
+  /** Ancho mínimo de cada elemento en px (por defecto 180; crece hasta el ancho de su contenido). */
   itemWidth?: number;
-  /** Alto del carrusel en px (por defecto itemWidth × 1.7). */
+  /** Alto del carrusel en px (por defecto, el del elemento más alto: nunca recorta el contenido). */
   height?: number;
   /** Índice inicial (por defecto 0). */
   initialIndex?: number;
@@ -28,8 +28,12 @@ export function Carousel3D<T>(p: Carousel3DProps<T>): JSX.Element {
   const n = p.items.length;
   const nEff = Math.max(n, 3);
   const theta = 360 / nEff;
-  const w = Math.min(p.itemWidth ?? 180, typeof window !== 'undefined' ? window.innerWidth * 0.55 : 180);
-  const H = p.height ?? w * 1.7;
+  const [content, setContent] = useState({ w: 0, h: 0 });
+  const vw = typeof window !== 'undefined' ? window.innerWidth : 1000;
+  // El ancho de los elementos es fijo (no depende del contenido medido salvo para crecer una vez),
+  // así que la medida es estable y no hay bucles de maquetación.
+  const w = Math.min(Math.max(p.itemWidth ?? 180, content.w), vw * 0.8);
+  const H = p.height ?? Math.max(content.h + 8, w * 0.8);
   const radius = w / 2 / Math.tan(Math.PI / nEff) + 24;
   const [rot, setRot] = useState(p.initialIndex ?? 0);
   const [dragging, setDragging] = useState(false);
@@ -38,6 +42,26 @@ export function Carousel3D<T>(p: Carousel3DProps<T>): JSX.Element {
   const active = n ? mod(Math.round(rot), n) : 0;
   const lastActive = useRef(active);
   const itemEls = useRef<Array<HTMLDivElement | null>>([]);
+  // A-7: medir el elemento más alto (y su ancho natural) para no cortar descripciones.
+  useEffect(() => {
+    const els = itemEls.current.filter(Boolean) as HTMLDivElement[];
+    if (!els.length) return;
+    const measure = () => {
+      let mw = 0;
+      let mh = 0;
+      for (const el of els) {
+        mh = Math.max(mh, el.offsetHeight, el.scrollHeight);
+        const child = el.firstElementChild as HTMLElement | null;
+        mw = Math.max(mw, child ? child.scrollWidth : 0);
+      }
+      setContent((c) => (Math.abs(c.w - mw) < 2 && Math.abs(c.h - mh) < 2 ? c : { w: Math.max(c.w, mw), h: mh }));
+    };
+    measure();
+    if (typeof ResizeObserver === 'undefined') return;
+    const ro = new ResizeObserver(measure);
+    els.forEach((el) => ro.observe(el));
+    return () => ro.disconnect();
+  }, [n]);
   const [activeText, setActiveText] = useState('');
   // Nombre por defecto = texto visible del elemento de delante (QA-02).
   useEffect(() => {
