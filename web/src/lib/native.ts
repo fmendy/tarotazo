@@ -48,7 +48,8 @@ export function onResume(now = Date.now()) {
   pausedAt = null;
   document.documentElement.classList.remove('is-paused');
   try { fxMute?.(useSound.getState().muted); } catch { /* sin audio */ }
-  if (away >= INACTIVITY_MS) useSession.getState().reset('gate');
+  if (away >= INACTIVITY_MS) useSession.getState().reset('gate'); // reset → epoch → purga
+  else void purgeShareCacheOnResume(now);
   window.dispatchEvent(new Event('arcana:resume'));
 }
 
@@ -84,9 +85,28 @@ async function mods(): Promise<{ fs: FsMod; share: ShareMod }> {
   return { fs, share };
 }
 
+export const SHARE_RESUME_MS = 2 * 60 * 1000;
+export const SHARE_TIMER_MS = 10 * 60 * 1000;
+let sharedAt: number | null = null;
+let shareTimer: ReturnType<typeof setTimeout> | null = null;
+
+function markShared(now = Date.now()) {
+  sharedAt = now;
+  if (shareTimer) clearTimeout(shareTimer);
+  shareTimer = setTimeout(() => { void purgeShareCache(); }, SHARE_TIMER_MS);
+}
+
+/** Al volver a primer plano: si se compartió hace ≥ 2 min, se borra la copia temporal. */
+export function purgeShareCacheOnResume(now = Date.now()): Promise<void> | undefined {
+  if (sharedAt !== null && now - sharedAt >= SHARE_RESUME_MS) return purgeShareCache();
+  return undefined;
+}
+
 /** Borra todas las copias temporales (no falla si no existen). */
 export async function purgeShareCache(): Promise<void> {
   if (!native()) return;
+  sharedAt = null;
+  if (shareTimer) { clearTimeout(shareTimer); shareTimer = null; }
   try {
     const { fs } = await mods();
     await fs.Filesystem.rmdir({ path: SHARE_DIR, directory: fs.Directory.Cache, recursive: true });
@@ -106,12 +126,13 @@ export async function shareImageNative(blob: Blob, filename: string, text: strin
   const path = `${SHARE_DIR}/${filename.replace(/[^a-z0-9._-]/gi, '_')}`;
   const data = await blobToBase64(blob);
   const res = await Filesystem.writeFile({ path, data, directory: Directory.Cache, recursive: true });
+  // NO se borra al cerrarse la hoja: WhatsApp, Gmail o Drive leen la URI del FileProvider de forma
+  // asíncrona. Se borra al volver a primer plano pasados 2 min, a los 10 min, o al salir/caducar/arrancar.
+  markShared();
   try {
     await share.Share.share({ title: filename, text, files: [res.uri], dialogTitle: text });
   } catch {
     // Cancelar la hoja no es un error (A-6): no se registra nada.
-  } finally {
-    try { await Filesystem.deleteFile({ path, directory: Directory.Cache }); } catch { /* ya no estaba */ }
   }
   return true;
 }

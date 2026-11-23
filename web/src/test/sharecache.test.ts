@@ -1,6 +1,9 @@
 // A-1: la imagen y el diploma (que pueden llevar el nombre) no se quedan en la caché de la app.
-import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import { purgeShareCache, setNativeModulesForTests, shareImageNative, watchSessionForShareCache, SHARE_DIR } from '../lib/native';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import {
+  purgeShareCache, purgeShareCacheOnResume, setNativeModulesForTests, shareImageNative, watchSessionForShareCache,
+  SHARE_DIR, SHARE_RESUME_MS, SHARE_TIMER_MS,
+} from '../lib/native';
 import { initialData, useSession } from '../state/session';
 
 const files = new Map<string, string>();
@@ -24,7 +27,7 @@ const share = {
     async share(o: { files: string[] }) {
       shared.push(...o.files);
       // durante la hoja, el fichero existe
-      expect(files.size).toBe(1);
+      expect(files.size).toBeGreaterThan(0);
       if (shareOutcome === 'cancel') throw new Error('Share canceled');
       return {};
     },
@@ -40,18 +43,35 @@ describe('caché temporal de compartir', () => {
     sessionStorage.clear(); localStorage.clear();
     useSession.setState(initialData());
   });
-  afterEach(() => setNativeModulesForTests(null));
+  afterEach(async () => { await purgeShareCache(); setNativeModulesForTests(null); });
 
-  it('se borra al cerrarse la hoja de compartir con éxito', async () => {
+  it('NO se borra al cerrarse la hoja (las apps de destino leen la URI después)', async () => {
     await shareImageNative(blob(), 'diploma-tarotazo.png', 'Tarotazo');
     expect(shared[0]).toContain(`${SHARE_DIR}/diploma-tarotazo.png`);
+    expect(files.size).toBe(1);
+    shareOutcome = 'cancel';
+    await expect(shareImageNative(blob(), 'tarotazo.png', 'Tarotazo')).resolves.toBe(true); // cancelar no es error
+    expect(files.size).toBe(2);
+  });
+
+  it('al volver a primer plano se borra sólo si pasaron ≥ 2 min desde que se compartió', async () => {
+    const t0 = Date.now();
+    await shareImageNative(blob(), 'tarotazo.png', 'Tarotazo');
+    expect(purgeShareCacheOnResume(t0 + SHARE_RESUME_MS - 5_000)).toBeUndefined();
+    expect(files.size).toBe(1);
+    await purgeShareCacheOnResume(t0 + SHARE_RESUME_MS + 5_000);
     expect(files.size).toBe(0);
   });
 
-  it('se borra también si el usuario cancela, sin lanzar error', async () => {
-    shareOutcome = 'cancel';
-    await expect(shareImageNative(blob(), 'tarotazo.png', 'Tarotazo')).resolves.toBe(true);
-    expect(files.size).toBe(0);
+  it('temporizador: se borra a los 10 min aunque la app siga abierta', async () => {
+    vi.useFakeTimers({ shouldAdvanceTime: true });
+    try {
+      await shareImageNative(blob(), 'tarotazo.png', 'Tarotazo');
+      await vi.advanceTimersByTimeAsync(SHARE_TIMER_MS - 1_000);
+      expect(files.size).toBe(1);
+      await vi.advanceTimersByTimeAsync(2_000);
+      expect(files.size).toBe(0);
+    } finally { vi.useRealTimers(); }
   });
 
   it('al salir o caducar la sesión se purgan los restos', async () => {
